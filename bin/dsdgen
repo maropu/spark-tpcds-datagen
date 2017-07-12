@@ -1,0 +1,70 @@
+#!/usr/bin/env bash
+
+#
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+#
+# Shell script for generating TPCDS data
+
+# Determine the current working directory
+_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+if [ -z "${SPARK_HOME}" ]; then
+  echo "env SPARK_HOME not defined"
+  exit 1
+fi
+
+function usage {
+  echo "Usage: ./bin/dsdgen [options] [output dir]"
+  "${SPARK_HOME}"/bin/spark-submit --help 2>&1 | grep -v Usage 1>&2
+  echo "dsdgen options:"
+  echo "  --conf spark.sql.dsdgen.scaleFactor=NUM                    Scale factor (Default: 1)."
+  echo "  --conf spark.sql.dsdgen.format=STR                         Output format (Default: parquet)."
+  echo "  --conf spark.sql.dsdgen.overwrite=BOOL                     Wheter it overwrites existing data (Default: false)."
+  echo "  --conf spark.sql.dsdgen.partitionTables=BOOL               Wheter it partitions output data (Default: false)."
+  echo "  --conf spark.sql.dsdgen.useDoubleForDecimal=BOOL           Wheter it prefers double types (Default: false)."
+  echo "  --conf spark.sql.dsdgen.clusterByPartitionColumns=BOOL     Wheter it cluster output data by partition columns (Default: false)."
+  echo "  --conf spark.sql.dsdgen.filterOutNullPartitionValues=BOOL  Wheter it filters out NULL partitions (Default: false)."
+  echo "  --conf spark.sql.dsdgen.tableFilter=STR                    Filters a specific table."
+  echo "  --conf spark.sql.dsdgen.numPartitions=NUM                  # of partitions (Default: 100)."
+  echo
+}
+
+if [[ "$@" = *--help ]] || [[ "$@" = *-h ]]; then
+  usage
+  exit 0
+fi
+
+# Resolve a jar location for the TPCDS data generator
+_TPCDS_DATAGEN_VERSION=`grep "<version>" "${_DIR}/../pom.xml" | head -n2 | tail -n1 | awk -F '[<>]' '{print $3}'`
+_SCALA_VERSION=`grep "<scala.binary.version>" "${_DIR}/../pom.xml" | head -n1 | awk -F '[<>]' '{print $3}'`
+_JAR_FILE="spark-tpcds-datagen_${_SCALA_VERSION}-${_TPCDS_DATAGEN_VERSION}-with-dependencies.jar"
+_BUILT_JAR="$_DIR/../target/${_JAR_FILE}"
+if [ -e $_BUILT_JAR ]; then
+  RESOURCES=$_BUILT_JAR
+else
+  RESOURCES="$_DIR/../assembly/${_JAR_FILE}"
+  echo "${_BUILT_JAR} not found, so use pre-compiled ${RESOURCES}"
+fi
+
+echo "Using \`spark-submit\` from path: $SPARK_HOME" 1>&2
+
+# An entry point for the TPCDS data generator
+CLASS="org.apache.spark.sql.execution.benchmark.TpcdsDatagen"
+
+exec "${SPARK_HOME}"/bin/spark-submit --class $CLASS ${RESOURCES} "$@"
+

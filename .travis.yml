@@ -1,0 +1,18 @@
+sudo: false
+
+language: java
+jdk:
+  - oraclejdk8
+
+branches:
+  only:
+    - master
+
+notifications:
+  email: false
+
+script:
+  - ./build/mvn -q scalastyle:check test
+
+after_success:
+  - mvn clean
