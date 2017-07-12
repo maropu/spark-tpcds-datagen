@@ -11,6 +11,16 @@ Then, you can generate TPCDS test data in `/tmp`:
 
     $ ./bin/dsdgen /tmp
 
+## How to run TPC-DS queries in Spark
+
+You can run TPC-DS quries by using test data in `/tmp`;
+
+    $ git clone https://github.com/apache/spark.git
+
+    $ ./build/mvn clean package -DskipTests
+
+    $ ./bin/spark-submit --class org.apache.spark.sql.execution.benchmark.TPCDSQueryBenchmark sql/core/target/spark-sql_<scala.version>-<spark.version>-tests.jar /tmp
+
 ## Options for the generator
 
     $ ./bin/dsdgen --help
