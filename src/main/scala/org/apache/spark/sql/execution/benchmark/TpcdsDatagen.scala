@@ -121,7 +121,7 @@ class Tables(sqlContext: SQLContext, scaleFactor: Int) extends Serializable {
 
       val data = df(format != "text", numPartitions)
       val tempTableName = s"${name}_text"
-      data.registerTempTable(tempTableName)
+      data.createOrReplaceTempView(tempTableName)
 
       val writer = if (partitionColumns.nonEmpty) {
         if (clusterByPartitionColumns) {
