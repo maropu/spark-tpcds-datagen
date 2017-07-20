@@ -3,9 +3,13 @@ and includes pre-built [tpcds-kit](https://github.com/davies/tpcds-kit) for x86_
 
 ## How to generate TPCDS data
 
-First of all, you need to set your Spark location at `SPARK_HOME`:
+First of all, you need to set up Spark:
 
-    $ export SPARK_HOME=<Your Spark>
+    $ git clone https://github.com/apache/spark.git
+
+    $ cd spark && ./build/mvn clean package -DskipTests
+
+    $ export SPARK_HOME=`pwd`
 
 Then, you can generate TPCDS test data in `/tmp`:
 
@@ -13,11 +17,7 @@ Then, you can generate TPCDS test data in `/tmp`:
 
 ## How to run TPC-DS queries in Spark
 
-You can run TPC-DS quries by using test data in `/tmp`;
-
-    $ git clone https://github.com/apache/spark.git
-
-    $ ./build/mvn clean package -DskipTests
+You can run TPC-DS quries by using test data in `/tmp`:
 
     $ ./bin/spark-submit --class org.apache.spark.sql.execution.benchmark.TPCDSQueryBenchmark sql/core/target/spark-sql_<scala.version>-<spark.version>-tests.jar /tmp
 
