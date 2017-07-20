@@ -694,11 +694,11 @@ class Tables(sqlContext: SQLContext, scaleFactor: Int) extends Serializable {
 
 case class TpcdsConf() {
 
-  val confPrefix = "spark.sql.dsdgen."
+  val confPrefix = "spark.sql.dsdgen"
   val confFromSystemProps = loadConfFromSystemProperties()
 
   def get(name: String, default: String): String = {
-    confFromSystemProps.get(s"$confPrefix.$name").getOrElse(default)
+    confFromSystemProps.getOrElse(s"$confPrefix.$name", default)
   }
 
   def getInt(name: String, default: Int): Int = {
