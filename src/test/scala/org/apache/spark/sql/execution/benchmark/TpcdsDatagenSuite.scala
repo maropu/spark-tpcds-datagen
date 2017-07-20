@@ -57,7 +57,7 @@ class TpcdsDatagenSuite extends SparkFunSuite with SharedSQLContext {
     }
   }
 
-  test("datagen") {
+  ignore("datagen") {
     val outputTempDir = createTempDir()
     val tpcdsTables = new Tables(spark.sqlContext, 1)
     tpcdsTables.genData(
