@@ -19,7 +19,7 @@ package org.apache.spark.sql.execution.benchmark
 
 import scala.sys.process._
 
-import org.apache.spark.sql.{Column, Row, SQLContext, SaveMode, SparkSession}
+import org.apache.spark.sql.{Column, DataFrame, Row, SaveMode, SparkSession, SQLContext}
 import org.apache.spark.sql.execution.benchmark.packages._
 import org.apache.spark.sql.types._
 
@@ -43,7 +43,7 @@ class Tables(sqlContext: SQLContext, scaleFactor: Int) extends Serializable {
      *  If convertToSchema is true, the data from generator will be parsed into columns and
      *  converted to `schema`. Otherwise, it just outputs the raw data (as a single STRING column).
      */
-    def df(convertToSchema: Boolean, numPartition: Int) = {
+    def df(convertToSchema: Boolean, numPartition: Int): DataFrame = {
       val partitions = if (partitionColumns.isEmpty) 1 else numPartition
       val generatedData = {
         sparkContext.parallelize(1 to partitions, partitions).flatMap { i =>
@@ -107,7 +107,7 @@ class Tables(sqlContext: SQLContext, scaleFactor: Int) extends Serializable {
         field.copy(dataType = newDataType)
       }
 
-      Table(name, partitionColumns, newFields:_*)
+      Table(name, partitionColumns, newFields: _*)
     }
 
     def genData(
@@ -215,6 +215,7 @@ class Tables(sqlContext: SQLContext, scaleFactor: Int) extends Serializable {
     }
   }
 
+  // scalastyle:off
   private val tables = Seq(
     Table("catalog_sales",
       partitionColumns = "cs_sold_date_sk" :: Nil,
@@ -690,6 +691,7 @@ class Tables(sqlContext: SQLContext, scaleFactor: Int) extends Serializable {
       'web_gmt_offset           .string,
       'web_tax_percentage       .decimal(5,2))
   )
+  // scalastyle:on
 }
 
 case class TpcdsConf() {
