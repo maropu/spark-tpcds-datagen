@@ -31,6 +31,10 @@ fi
 # First, fetch the newest Spark code from the repository
 rm -rf "${SPARK_HOME}" && git clone https://github.com/apache/spark ${SPARK_HOME}
 
+# TODO: If SPARK-21368 fixed, we will remove this
+cp ${_DIR}/../patches/TPCDSQueryBenchmark.scala \
+  ${SPARK_HOME}/sql/core/src/test/scala/org/apache/spark/sql/execution/benchmark/
+
 # Generate test data in temp dir
 _GENDATA_TEMP_DIR=`mktemp -d`
 ${_DIR}/../bin/dsdgen                    \
