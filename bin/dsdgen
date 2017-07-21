@@ -28,6 +28,9 @@ if [ -z "${SPARK_HOME}" ]; then
   exit 1
 fi
 
+# Load common functions
+. "${_DIR}/utils.sh"
+
 function usage {
   echo "Usage: ./bin/dsdgen [options] [output dir]"
   "${SPARK_HOME}"/bin/spark-submit --help 2>&1 | grep -v Usage 1>&2
@@ -47,6 +50,13 @@ function usage {
 if [[ "$@" = *--help ]] || [[ "$@" = *-h ]]; then
   usage
   exit 0
+fi
+
+# If Spark not compiled, do it here
+_SCALA_VERSION=`grep "<scala.binary.version>" "${SPARK_HOME}/pom.xml" | head -n1 | awk -F '[<>]' '{print $3}'`
+_SPARK_ASSEMBLY="$SPARK_HOME/assembly/target/scala-${_SCALA_VERSION}/jars"
+if [ ! -d $_SPARK_ASSEMBLY ]; then
+  run_cmd "./build/mvn package --also-make --projects assembly -DskipTests" "${SPARK_HOME}"
 fi
 
 # Resolve a jar location for the TPCDS data generator
