@@ -20,6 +20,13 @@
 #
 # Common functions in scripts
 
+# Function to join an input array by a given separator
+join_by() {
+  local IFS="$1"
+  shift
+  echo "$*"
+}
+
 # Function to run a given command
 run_cmd() {
   local command="$1"

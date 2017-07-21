@@ -20,13 +20,13 @@
 #
 # Shell script for running TPCDS benchmarks
 
-# Determine the current working directory
-_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
 if [ -z "${SPARK_HOME}" ]; then
   echo "env SPARK_HOME not defined"
   exit 1
 fi
+
+# Determine the current working directory
+_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Load common functions
 . "${_DIR}/utils.sh"
@@ -45,5 +45,5 @@ echo "Using \`spark-submit\` from path: $SPARK_HOME" 1>&2
 # An entry point for the TPCDS benchmark class
 CLASS="org.apache.spark.sql.execution.benchmark.TPCDSQueryBenchmark"
 
-exec "${SPARK_HOME}"/bin/spark-submit --class $CLASS --master=local[*] --driver-memory 8G ${RESOURCES} "$@"
+exec "${SPARK_HOME}"/bin/spark-submit --class ${CLASS} --master=local[*] --driver-memory 8G ${RESOURCES} "$@"
 

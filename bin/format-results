@@ -30,7 +30,11 @@ if [ $# -ne 1 ]; then
   exit 1
 fi
 
-function join_by { local IFS="$1"; shift; echo "$*"; }
+# Determine the current working directory
+_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# Load common functions
+. "${_DIR}/utils.sh"
 
 DATE=`LANG=en_US.UTF-8 date '+%Y/%m/%d %H:%M'`
 COMMIT=`git -C ${SPARK_HOME} log | head -n1 | awk -F' ' '{ print $2 }'`

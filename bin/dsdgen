@@ -20,9 +20,6 @@
 #
 # Shell script for generating TPCDS data
 
-# Determine the current working directory
-_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
 if [ -z "${SPARK_HOME}" ]; then
   echo "env SPARK_HOME not defined"
   exit 1
@@ -49,6 +46,9 @@ if [[ "$@" = *--help ]] || [[ "$@" = *-h ]]; then
   exit 0
 fi
 
+# Determine the current working directory
+_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 # Load common functions
 . "${_DIR}/utils.sh"
 
@@ -72,5 +72,19 @@ echo "Using \`spark-submit\` from path: $SPARK_HOME" 1>&2
 # An entry point for the TPCDS data generator
 CLASS="org.apache.spark.sql.execution.benchmark.TpcdsDatagen"
 
-exec "${SPARK_HOME}"/bin/spark-submit --class $CLASS ${RESOURCES} "$@"
+# Split input arguments into two parts: Spark confs and args
+SPARK_CONF=()
+ARGS=()
+while [ ! -z "$1" ]; do
+  if [ "$1" == "--conf" ]; then
+    shift
+    SPARK_CONF+=("--conf $1")
+  else
+    ARGS+=($1)
+  fi
+  shift
+done
+
+# exec "${SPARK_HOME}"/bin/spark-submit --class ${CLASS} ${SPARK_CONF} ${RESOURCES} ${ARGS}
+exec "${SPARK_HOME}"/bin/spark-submit --class ${CLASS} $(join_by " " ${SPARK_CONF[@]}) ${RESOURCES} $(join_by " " ${ARGS[@]})
 
