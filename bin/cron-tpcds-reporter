@@ -24,8 +24,8 @@
 _DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 if [ -z "${SPARK_HOME}" ]; then
-  echo "env SPARK_HOME not defined"
-  exit 1
+  export SPARK_HOME="${_DIR}/../bin/spark-master"
+  echo "env SPARK_HOME not defined, so use path '${SPARK_HOME}' as SPARK_HOME"
 fi
 
 # First, fetch the newest Spark code from the repository
