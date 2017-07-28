@@ -3,7 +3,9 @@
 This is the TPCDS data generator for Apache Spark, which is split off from [spark-sql-perf](https://github.com/databricks/spark-sql-perf)
 and includes pre-built [tpcds-kit](https://github.com/davies/tpcds-kit) for x86_64 on Mac/Linux platforms.
 To check performance regression, TPCDS benchmark results for Spark master are daily stored
-in [reports](https://github.com/maropu/spark-tpcds-datagen/blob/master/reports/tpcds-avg-results.csv).
+in [reports](https://github.com/maropu/spark-tpcds-datagen/blob/master/reports/tpcds-avg-results.csv) and
+[charts](https://docs.google.com/spreadsheets/d/1V8xoKR9ElU-rOXMH84gb5BbLEw0XAPTJY8c8aZeIqus/edit#gid=2074944948) in Google Spreadsheet
+are generated per the update.
 
 ## How to generate TPCDS data
 
