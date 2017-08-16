@@ -21,7 +21,7 @@
 # Shell script for generating TPCDS data
 
 if [ -z "${SPARK_HOME}" ]; then
-  echo "env SPARK_HOME not defined"
+  echo "env SPARK_HOME not defined" 1>&2
   exit 1
 fi
 
@@ -64,7 +64,7 @@ if [ -e $_BUILT_JAR ]; then
   RESOURCES=$_BUILT_JAR
 else
   RESOURCES="$_DIR/../assembly/${_JAR_FILE}"
-  echo "${_BUILT_JAR} not found, so use pre-compiled ${RESOURCES}"
+  echo "${_BUILT_JAR} not found, so use pre-compiled ${RESOURCES}" 1>&2
 fi
 
 echo "Using \`spark-submit\` from path: $SPARK_HOME" 1>&2

@@ -20,16 +20,24 @@
 #
 # Shell script for running TPCDS benchmarks and push the results into github
 
+set -e -o pipefail
+
 # Determine the current working directory
 _DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 if [ -z "${SPARK_HOME}" ]; then
+  # If SPARK_HOME not defined, fetch the newest Spark code from the repository
   export SPARK_HOME="${_DIR}/../bin/spark-master"
-  echo "env SPARK_HOME not defined, so use path '${SPARK_HOME}' as SPARK_HOME"
+  rm -rf "${SPARK_HOME}" && git clone https://github.com/apache/spark ${SPARK_HOME}
+  echo "env SPARK_HOME not defined, so use path '${SPARK_HOME}' as SPARK_HOME" 1>&2
 fi
 
-# First, fetch the newest Spark code from the repository
-rm -rf "${SPARK_HOME}" && git clone https://github.com/apache/spark ${SPARK_HOME}
+# If the number of pr given, fetch and checkout the pr
+if [ $# -ge 1 ]; then
+  cd ${SPARK_HOME} && git fetch origin pull/$1/head:pr$1 && \
+    git checkout pr$1 &&                                    \
+    git rebase master
+fi
 
 # TODO: If SPARK-21368 fixed, we will remove this
 cp ${_DIR}/../patches/TPCDSQueryBenchmark.scala \
@@ -46,12 +54,16 @@ ${_DIR}/../bin/dsdgen                    \
 _RESULTS_TEMP_FILE=`mktemp`
 ${_DIR}/../bin/run-tpcds-benchmark ${_GENDATA_TEMP_DIR} > ${_RESULTS_TEMP_FILE}
 
-# Format the output results and append it into the report file
-${_DIR}/../bin/format-results ${_RESULTS_TEMP_FILE} >> ${_DIR}/../reports/tpcds-avg-results.csv
+# Format the output results and append them into the report file
+_OUTPUT_FILE=${_DIR}/../reports/tpcds-avg-results.csv
+${_DIR}/../bin/format-results ${_RESULTS_TEMP_FILE} >> ${_OUTPUT_FILE}
+echo "TPC-DS performance results written to ${_OUTPUT_FILE}" 1>&2
 
-# Push updated into git repository
-DATE=`LANG=en_US.UTF-8 date '+%Y/%m/%d %H:%M'`
-cd ${_DIR}/.. && git add ./reports/tpcds-avg-results.csv &&                    \
-  git commit -m "[AUTOMATICALLY GENERATED] Update TPCDS reports in ${DATE}" && \
-  git push origin master
+# If ENABLE_GIT_PUSH defined, push the updated into git repository
+if [ ! -z "${ENABLE_GIT_PUSH}" ]; then
+  DATE=`LANG=en_US.UTF-8 date '+%Y/%m/%d %H:%M'`
+  cd ${_DIR}/.. && git add ./reports/tpcds-avg-results.csv &&                    \
+    git commit -m "[AUTOMATICALLY GENERATED] Update TPCDS reports in ${DATE}" && \
+    git push origin master
+fi
 

@@ -21,7 +21,7 @@
 # Shell script for running TPCDS benchmarks
 
 if [ -z "${SPARK_HOME}" ]; then
-  echo "env SPARK_HOME not defined"
+  echo "env SPARK_HOME not defined" 1>&2
   exit 1
 fi
 
