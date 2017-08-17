@@ -44,6 +44,20 @@ You can run TPC-DS quries by using test data in `/tmp`:
       --conf spark.sql.dsdgen.tableFilter=STR                    Filters a specific table.
       --conf spark.sql.dsdgen.numPartitions=NUM                  # of partitions (Default: 100).
 
+## Helper scripts for benchmarks
+
+To quickly generate the TPC-DS test data and run the queries, you just type:
+
+    $ ./bin/report-tpcds-benchmark
+
+This script finally formats performance results and appends them into ./reports/tpcds-avg-results.csv.
+Notice that, if SPARK_HOME defined, the script uses the Spark.
+Otherwise, it automatically clones the latest master in the repository and uses it.
+To check performance differences with pull requests, you could set a pull request ID in the repository as an option
+and run the quries against it.
+
+    $ ./bin/report-tpcds-benchmark [pull request ID (e.g., 12942)]
+
 ## Bug reports
 
 If you hit some bugs and requests, please leave some comments on [Issues](https://github.com/maropu/spark-sql-server/issues)
