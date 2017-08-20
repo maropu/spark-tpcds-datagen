@@ -32,10 +32,18 @@ if [ -z "${SPARK_HOME}" ]; then
   echo "env SPARK_HOME not defined, so use path '${SPARK_HOME}' as SPARK_HOME" 1>&2
 fi
 
+# Check if an output file is given
+if [ $# -lt 1 ]; then
+  echo "You need to set an output file name" 1>&2
+  exit 1
+fi
+
+OUTPUT_FILE=$1
+
 # If the number of pr given, fetch and checkout the pr
-if [ $# -ge 1 ]; then
-  cd ${SPARK_HOME} && git fetch origin pull/$1/head:pr$1 && \
-    git checkout pr$1 &&                                    \
+if [ $# -ge 2 ]; then
+  cd ${SPARK_HOME} && git fetch origin pull/$2/head:pr$2 && \
+    git checkout pr$2 &&                                    \
     git rebase master
 fi
 
@@ -54,15 +62,19 @@ ${_DIR}/../bin/dsdgen                    \
 _RESULTS_TEMP_FILE=`mktemp`
 ${_DIR}/../bin/run-tpcds-benchmark ${_GENDATA_TEMP_DIR} > ${_RESULTS_TEMP_FILE}
 
+# If the given output file has no data, write a header for results
+if [ ! -s ${OUTPUT_FILE} ]; then
+  cat ${_DIR}/../reports/tpcds-results-header.txt > ${OUTPUT_FILE}
+fi
+
 # Format the output results and append them into the report file
-_OUTPUT_FILE=${_DIR}/../reports/tpcds-avg-results.csv
-${_DIR}/../bin/format-results ${_RESULTS_TEMP_FILE} >> ${_OUTPUT_FILE}
-echo "TPC-DS performance results written to ${_OUTPUT_FILE}" 1>&2
+${_DIR}/../bin/format-results ${_RESULTS_TEMP_FILE} >> ${OUTPUT_FILE}
+echo "TPC-DS performance results written to ${OUTPUT_FILE}" 1>&2
 
 # If ENABLE_GIT_PUSH defined, push the updated into git repository
 if [ ! -z "${ENABLE_GIT_PUSH}" ]; then
   DATE=`LANG=en_US.UTF-8 date '+%Y/%m/%d %H:%M'`
-  cd ${_DIR}/.. && git add ./reports/tpcds-avg-results.csv &&                    \
+  cd ${_DIR}/.. && git add ${OUTPUT_FILE} &&                                     \
     git commit -m "[AUTOMATICALLY GENERATED] Update TPCDS reports in ${DATE}" && \
     git push origin master
 fi
