@@ -48,7 +48,7 @@ You can run TPC-DS quries by using test data in `/tmp`:
 
 To quickly generate the TPC-DS test data and run the queries, you just type:
 
-    $ ./bin/report-tpcds-benchmark
+    $ ./bin/report-tpcds-benchmark [output file]
 
 This script finally formats performance results and appends them into ./reports/tpcds-avg-results.csv.
 Notice that, if SPARK_HOME defined, the script uses the Spark.
@@ -56,7 +56,7 @@ Otherwise, it automatically clones the latest master in the repository and uses 
 To check performance differences with pull requests, you could set a pull request ID in the repository as an option
 and run the quries against it.
 
-    $ ./bin/report-tpcds-benchmark [pull request ID (e.g., 12942)]
+    $ ./bin/report-tpcds-benchmark [output file] [pull request ID (e.g., 12942)]
 
 ## Bug reports
 
