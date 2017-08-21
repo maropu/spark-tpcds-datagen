@@ -34,7 +34,7 @@ fi
 
 # Check if an output file is given
 if [ $# -lt 1 ]; then
-  echo "You need to set an output file name" 1>&2
+  echo "You need to specify an output file" 1>&2
   exit 1
 fi
 
