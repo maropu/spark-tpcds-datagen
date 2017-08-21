@@ -88,3 +88,7 @@ spark-warehouse/
 *.Rproj.*
 
 .Rproj.user
+
+# For additional settings
+bin/spark-master
+
