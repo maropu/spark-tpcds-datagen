@@ -18,6 +18,7 @@
 package org.apache.spark.sql.execution.benchmark
 
 import org.apache.spark.SparkConf
+import org.apache.spark.internal.Logging
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.catalyst.TableIdentifier
 import org.apache.spark.sql.catalyst.analysis.UnresolvedRelation
@@ -31,7 +32,7 @@ import org.apache.spark.util.Benchmark
  * To run this:
  *  spark-submit --class <this class> <spark sql test jar> <TPCDS data location>
  */
-object TPCDSQueryBenchmark {
+object TPCDSQueryBenchmark extends Logging {
   val conf =
     new SparkConf()
       .setMaster("local[1]")
@@ -85,12 +86,14 @@ object TPCDSQueryBenchmark {
         }
         case _ =>
       }
+      logInfo(s"\n\n===== TPCDS QUERY BENCHMARK OUTPUT FOR $name =====\n")
       val numRows = queryRelations.map(tableSizes.getOrElse(_, 0L)).sum
       val benchmark = new Benchmark(s"TPCDS Snappy", numRows, 5)
       benchmark.addCase(name) { i =>
         spark.sql(queryString).collect()
       }
       benchmark.run()
+      logInfo(s"\n\n===== FINISHED $name =====\n")
     }
   }
 
