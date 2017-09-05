@@ -53,10 +53,19 @@ cp ${_DIR}/../patches/TPCDSQueryBenchmark.scala \
 
 # Generate test data in temp dir
 _GENDATA_TEMP_DIR=`mktemp -d`
-${_DIR}/../bin/dsdgen                    \
-  --conf spark.sql.dsdgen.scaleFactor=1  \
-  --conf spark.sql.dsdgen.overwrite=true \
-  ${_GENDATA_TEMP_DIR}
+${_DIR}/../bin/dsdgen                                        \
+  ${_GENDATA_TEMP_DIR}                                       \
+  --master=local[4]                                          \
+  --conf spark.driver.memory=8g                              \
+  --conf spark.executor.heartbeatInterval=1000000s           \
+  --conf spark.network.timeout=1000000s                      \
+  --conf spark.sql.dsdgen.scaleFactor=1                      \
+  --conf spark.sql.dsdgen.overwrite=true                     \
+  --conf spark.sql.dsdgen.useDoubleForDecimal=false          \
+  --conf spark.sql.dsdgen.filterOutNullPartitionValues=false \
+  --conf spark.sql.dsdgen.clusterByPartitionColumns=false    \
+  --conf spark.sql.dsdgen.partitionTables=true               \
+  --conf spark.sql.dsdgen.numPartitions=4
 
 # Output performance results into a temporary file
 _RESULTS_TEMP_FILE=`mktemp`
