@@ -699,6 +699,10 @@ case class TpcdsConf() {
   val confPrefix = "spark.sql.dsdgen"
   val confFromSystemProps = loadConfFromSystemProperties()
 
+  def get(name: String): Option[String] = {
+    confFromSystemProps.get(s"$confPrefix.$name")
+  }
+
   def get(name: String, default: String): String = {
     confFromSystemProps.getOrElse(s"$confPrefix.$name", default)
   }
@@ -728,7 +732,8 @@ object TpcdsDatagen {
     val useDoubleForDecimal = conf.getBoolean("useDoubleForDecimal", false)
     val clusterByPartitionColumns = conf.getBoolean("clusterByPartitionColumns", false)
     val filterOutNullPartitionValues = conf.getBoolean("filterOutNullPartitionValues", false)
-    val tableFilter = conf.get("tableFilter", "").split(",").map(_.trim).toSet
+    val tableFilter = conf.get("tableFilter").map(_.split(",").map(_.trim).toSet)
+      .getOrElse(Set.empty)
     val numPartitions = conf.getInt("numPartitions", 100)
 
     // Then, kick off generating TPCDS data
