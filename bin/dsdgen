@@ -85,6 +85,5 @@ while [ ! -z "$1" ]; do
   shift
 done
 
-# exec "${SPARK_HOME}"/bin/spark-submit --class ${CLASS} ${SPARK_CONF} ${RESOURCES} ${ARGS}
 exec "${SPARK_HOME}"/bin/spark-submit --class ${CLASS} $(join_by " " ${SPARK_CONF[@]}) ${RESOURCES} $(join_by " " ${ARGS[@]})
 

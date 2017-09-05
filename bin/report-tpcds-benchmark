@@ -55,8 +55,7 @@ cp ${_DIR}/../patches/TPCDSQueryBenchmark.scala \
 _GENDATA_TEMP_DIR=`mktemp -d`
 _GENTABLES="catalog_sales,catalog_returns,inventory,store_sales,store_returns,web_sales,web_returns,call_center,catalog_page,customer,customer_address,customer_demographics,date_dim,household_demographics,income_band,item,promotion,reason,ship_mode,store,time_dim,warehouse,web_page,web_site"
 ${_DIR}/../bin/dsdgen                                        \
-  ${_GENDATA_TEMP_DIR}                                       \
-  --master=local[4]                                          \
+  --conf spark.master=local[4]                               \
   --conf spark.driver.memory=8g                              \
   --conf spark.executor.heartbeatInterval=1000000s           \
   --conf spark.network.timeout=1000000s                      \
@@ -67,11 +66,18 @@ ${_DIR}/../bin/dsdgen                                        \
   --conf spark.sql.dsdgen.numPartitions=4                    \
   --conf spark.sql.dsdgen.useDoubleForDecimal=false          \
   --conf spark.sql.dsdgen.filterOutNullPartitionValues=false \
-  --conf spark.sql.dsdgen.tableFilter=${_GENTABLES}
+  --conf spark.sql.dsdgen.tableFilter=${_GENTABLES}          \
+  ${_GENDATA_TEMP_DIR}
 
 # Output performance results into a temporary file
 _RESULTS_TEMP_FILE=`mktemp`
-${_DIR}/../bin/run-tpcds-benchmark ${_GENDATA_TEMP_DIR} > ${_RESULTS_TEMP_FILE}
+${_DIR}/../bin/run-tpcds-benchmark      \
+  --conf spark.master=local[1]          \
+  --conf spark.driver.memory=8g         \
+  --conf spark.executor.memory=8g       \
+  --conf spark.sql.shuffle.partitions=4 \
+  ${_GENDATA_TEMP_DIR}                  \
+  > ${_RESULTS_TEMP_FILE}
 
 # If the given output file has no data, write a header for results
 if [ ! -s ${OUTPUT_FILE} ]; then

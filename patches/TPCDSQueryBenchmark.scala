@@ -27,73 +27,65 @@ import org.apache.spark.sql.catalyst.plans.logical.LogicalPlan
 import org.apache.spark.sql.catalyst.util._
 import org.apache.spark.util.Benchmark
 
+
 /**
  * Benchmark to measure TPCDS query performance.
  * To run this:
  *  spark-submit --class <this class> <spark sql test jar> <TPCDS data location>
  */
 object TPCDSQueryBenchmark extends Logging {
-  val conf =
-    new SparkConf()
-      .setMaster("local[1]")
-      .setAppName("test-sql-context")
-      .set("spark.sql.parquet.compression.codec", "snappy")
-      .set("spark.sql.shuffle.partitions", "4")
-      .set("spark.driver.memory", "3g")
-      .set("spark.executor.memory", "3g")
-      .set("spark.sql.autoBroadcastJoinThreshold", (20 * 1024 * 1024).toString)
-      .set("spark.sql.crossJoin.enabled", "true")
 
-  val spark = SparkSession.builder.config(conf).getOrCreate()
+  case class TpcdsQueries(spark: SparkSession, queries: Seq[String], dataLocation: String) {
 
-  val tables = Seq("catalog_page", "catalog_returns", "customer", "customer_address",
-    "customer_demographics", "date_dim", "household_demographics", "inventory", "item",
-    "promotion", "store", "store_returns", "catalog_sales", "web_sales", "store_sales",
-    "web_returns", "web_site", "reason", "call_center", "warehouse", "ship_mode", "income_band",
-    "time_dim", "web_page")
+    private val tables = Seq("catalog_page", "catalog_returns", "customer", "customer_address",
+      "customer_demographics", "date_dim", "household_demographics", "inventory", "item",
+      "promotion", "store", "store_returns", "catalog_sales", "web_sales", "store_sales",
+      "web_returns", "web_site", "reason", "call_center", "warehouse", "ship_mode", "income_band",
+      "time_dim", "web_page")
 
-  def setupTables(dataLocation: String): Map[String, Long] = {
-    tables.map { tableName =>
-      spark.read.parquet(s"$dataLocation/$tableName").createOrReplaceTempView(tableName)
-      tableName -> spark.table(tableName).count()
-    }.toMap
-  }
+    private def setupTables(): Map[String, Long] = {
+      tables.map { tableName =>
+        spark.read.parquet(s"$dataLocation/$tableName").createOrReplaceTempView(tableName)
+        tableName -> spark.table(tableName).count()
+      }.toMap
+    }
 
-  def tpcdsAll(dataLocation: String, queries: Seq[String]): Unit = {
-    val tableSizes = setupTables(dataLocation)
-    queries.foreach { name =>
-      val queryString = resourceToString(s"tpcds/$name.sql",
-        classLoader = Thread.currentThread().getContextClassLoader)
+    def run(): Unit = {
+      val tableSizes = setupTables()
+      queries.foreach { name =>
+        val queryString = resourceToString(s"tpcds/$name.sql",
+          classLoader = Thread.currentThread().getContextClassLoader)
 
-      // This is an indirect hack to estimate the size of each query's input by traversing the
-      // logical plan and adding up the sizes of all tables that appear in the plan. Note that this
-      // currently doesn't take WITH subqueries into account which might lead to fairly inaccurate
-      // per-row processing time for those cases.
-      val queryRelations = scala.collection.mutable.HashSet[String]()
-      spark.sql(queryString).queryExecution.logical.map {
-        case UnresolvedRelation(t: TableIdentifier) =>
-          queryRelations.add(t.table)
-        case lp: LogicalPlan =>
-          lp.expressions.foreach { _ foreach {
-            case subquery: SubqueryExpression =>
-              subquery.plan.foreach {
-                case UnresolvedRelation(t: TableIdentifier) =>
-                  queryRelations.add(t.table)
-                case _ =>
-              }
-            case _ =>
+        // This is an indirect hack to estimate the size of each query's input by traversing the
+        // logical plan and adding up the sizes of all tables that appear in the plan. Note that this
+        // currently doesn't take WITH subqueries into account which might lead to fairly inaccurate
+        // per-row processing time for those cases.
+        val queryRelations = scala.collection.mutable.HashSet[String]()
+        spark.sql(queryString).queryExecution.logical.map {
+          case UnresolvedRelation(t: TableIdentifier) =>
+            queryRelations.add(t.table)
+          case lp: LogicalPlan =>
+            lp.expressions.foreach { _ foreach {
+              case subquery: SubqueryExpression =>
+                subquery.plan.foreach {
+                  case UnresolvedRelation(t: TableIdentifier) =>
+                    queryRelations.add(t.table)
+                  case _ =>
+                }
+              case _ =>
+            }
           }
+          case _ =>
         }
-        case _ =>
+        logInfo(s"\n\n===== TPCDS QUERY BENCHMARK OUTPUT FOR $name =====\n")
+        val numRows = queryRelations.map(tableSizes.getOrElse(_, 0L)).sum
+        val benchmark = new Benchmark(s"TPCDS Snappy", numRows, 5)
+        benchmark.addCase(name) { i =>
+          spark.sql(queryString).collect()
+        }
+        benchmark.run()
+        logInfo(s"\n\n===== FINISHED $name =====\n")
       }
-      logInfo(s"\n\n===== TPCDS QUERY BENCHMARK OUTPUT FOR $name =====\n")
-      val numRows = queryRelations.map(tableSizes.getOrElse(_, 0L)).sum
-      val benchmark = new Benchmark(s"TPCDS Snappy", numRows, 5)
-      benchmark.addCase(name) { i =>
-        spark.sql(queryString).collect()
-      }
-      benchmark.run()
-      logInfo(s"\n\n===== FINISHED $name =====\n")
     }
   }
 
@@ -113,8 +105,19 @@ object TPCDSQueryBenchmark extends Logging {
       System.exit(1)
     }
 
+    val sparkConf = new SparkConf()
+      .setAppName("test-sql-context")
+      .set("spark.sql.parquet.compression.codec", "snappy")
+      .set("spark.sql.autoBroadcastJoinThreshold", (20 * 1024 * 1024).toString)
+      .set("spark.sql.crossJoin.enabled", "true")
+
+    // Load settings for specific TPCDS queries
+    val queryFilter = sparkConf
+      .getOption("spark.sql.tpcds.queryFilter").map(_.split(",").map(_.trim).toSet)
+      .getOrElse(Set.empty)
+
     // List of all TPC-DS queries
-    val tpcdsQueries = Seq(
+    val tpcdsAllQueries = Seq(
       "q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10", "q11",
       "q12", "q13", "q14a", "q14b", "q15", "q16", "q17", "q18", "q19", "q20",
       "q21", "q22", "q23a", "q23b", "q24a", "q24b", "q25", "q26", "q27", "q28", "q29", "q30",
@@ -126,8 +129,18 @@ object TPCDSQueryBenchmark extends Logging {
       "q81", "q82", "q83", "q84", "q85", "q86", "q87", "q88", "q89", "q90",
       "q91", "q92", "q93", "q94", "q95", "q96", "q97", "q98", "q99")
 
-    val dataLocation = args(0)
+    val queriesToBeRun = if (queryFilter.nonEmpty) {
+      val queries = tpcdsAllQueries.filter { case queryName => queryFilter.contains(queryName) }
+      if (queries.isEmpty) {
+        throw new RuntimeException("Bad query name filter: " + queryFilter)
+      }
+      queries
+    } else {
+      tpcdsAllQueries
+    }
 
-    tpcdsAll(dataLocation, queries = tpcdsQueries)
+    val spark = SparkSession.builder.config(sparkConf).getOrCreate()
+    val tpcdsQueries = TpcdsQueries(spark, queries = queriesToBeRun, dataLocation = args(0))
+    tpcdsQueries.run()
   }
 }
