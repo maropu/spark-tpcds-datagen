@@ -68,7 +68,7 @@ class TpcdsDatagenSuite extends SparkFunSuite with SharedSQLContext {
       useDoubleForDecimal = false,
       clusterByPartitionColumns = false,
       filterOutNullPartitionValues = false,
-      tableFilter = "",
+      tableFilter = Set.empty,
       numPartitions = 4)
 
     val tpcdsExpectedTables = Set(

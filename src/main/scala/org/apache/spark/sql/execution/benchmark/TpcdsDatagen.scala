@@ -187,7 +187,7 @@ class Tables(sqlContext: SQLContext, scaleFactor: Int) extends Serializable {
       useDoubleForDecimal: Boolean,
       clusterByPartitionColumns: Boolean,
       filterOutNullPartitionValues: Boolean,
-      tableFilter: String = "",
+      tableFilter: Set[String] = Set.empty,
       numPartitions: Int = 100): Unit = {
     var tablesToBeGenerated = if (partitionTables) {
       tables
@@ -195,8 +195,8 @@ class Tables(sqlContext: SQLContext, scaleFactor: Int) extends Serializable {
       tables.map(_.nonPartitioned)
     }
 
-    if (!tableFilter.isEmpty) {
-      tablesToBeGenerated = tablesToBeGenerated.filter(_.name == tableFilter)
+    if (tableFilter.nonEmpty) {
+      tablesToBeGenerated = tablesToBeGenerated.filter { case t => tableFilter.contains(t.name) }
       if (tablesToBeGenerated.isEmpty) {
         throw new RuntimeException("Bad table name filter: " + tableFilter)
       }
@@ -728,7 +728,7 @@ object TpcdsDatagen {
     val useDoubleForDecimal = conf.getBoolean("useDoubleForDecimal", false)
     val clusterByPartitionColumns = conf.getBoolean("clusterByPartitionColumns", false)
     val filterOutNullPartitionValues = conf.getBoolean("filterOutNullPartitionValues", false)
-    val tableFilter = conf.get("tableFilter", "")
+    val tableFilter = conf.get("tableFilter", "").split(",").map(_.trim).toSet
     val numPartitions = conf.getInt("numPartitions", 100)
 
     // Then, kick off generating TPCDS data
