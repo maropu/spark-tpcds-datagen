@@ -67,8 +67,7 @@ ${_DIR}/../bin/dsdgen                                        \
   --conf spark.sql.dsdgen.numPartitions=4                    \
   --conf spark.sql.dsdgen.useDoubleForDecimal=false          \
   --conf spark.sql.dsdgen.filterOutNullPartitionValues=false \
-  --conf spark.sql.dsdgen.tableFilter=${_GENTABLES}          \
-  --conf spark.sql.dsdgen.numPartitions=4
+  --conf spark.sql.dsdgen.tableFilter=${_GENTABLES}
 
 # Output performance results into a temporary file
 _RESULTS_TEMP_FILE=`mktemp`
