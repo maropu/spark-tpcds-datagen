@@ -44,13 +44,13 @@ You can run TPC-DS quries by using test data in `/tmp`:
       --conf spark.sql.dsdgen.tableFilter=STR                    Filters a specific table.
       --conf spark.sql.dsdgen.numPartitions=NUM                  # of partitions (Default: 100).
 
-# Run specific TPC-DS quries only
+## Run specific TPC-DS quries only
 
 To run a part of TPC-DS queries, you type:
 
     $ ./bin/run-tpcds-benchmark --conf spark.sql.tpcds.queryFilter="q2,q5" [TPC-DS test data]
 
-## Helper scripts for benchmarks
+## Other helper scripts for benchmarks
 
 To quickly generate the TPC-DS test data and run the queries, you just type:
 
