@@ -115,6 +115,18 @@ The results a bit suprised me and the Q58 performance of `4 workers + numactl` w
 As you can see the worst-5 numbers, we had no negative impact by the NUMA-aware settings.
 Based on the investigation, I strongly recommend you to use `numactl` for launching multiple workers on a node with multi-sockets.
 
+I wrote easy-to-use scripts (`start-slave-with-numactl.sh` and `stop-slave-with-numactl.sh`)
+to control workers by taking into account NUMA configurations in your Spark cluster.
+The script starts a single worker for each socket if `numactl` installed.
+To launch workers with this script in your cluster, you just say:
+
+    $ ./bin/copy-dir sbin                 // Copy the two scripts in your Spark cluster
+    $ ./bin/start-slaves.sh
+
+To stop workers launched by the script above, you say:
+
+    $ ./bin/stop-slaves.sh
+
 ## Bug reports
 
 If you hit some bugs and requests, please leave some comments on [Issues](https://github.com/maropu/spark-sql-server/issues)
