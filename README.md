@@ -68,8 +68,20 @@ and run the quries against it.
 
 Multi-socket environments (multi-sockets and multi-cores) become common gradually in the world and I thnk many users might use Spark there.
 However, we have a general question here; how does the number of Workers in a machine node impact Spark performance?
-Then, I quickly run the TPC-DS quries on an AWS EC2 x1.32xlarge (128 vCPUs, 4 sockets, and 1952 GiB) instance
+Then, I used an AWS EC2 x1.32xlarge (128 vCPUs, 4 sockets, and 1952 GiB) instance and
+quickly run the TPC-DS quries on [the master branch](https://github.com/apache/spark/commit/520d92a191c3148498087d751aeeddd683055622)
 in two conditions: 1 worker (SPARK_WORKER_INSTANCES=1) and 4 workers (SPARK_WORKER_INSTANCES=4).
+I used openjdk v1.8.0_131 and Spark configurations were as follows;
+
+    $ cat $SPARK_HOME/conf/spark-defaults.conf
+    spark.driver.memory                   4g
+    spark.executor.memory                 450g # 1800g in case of SPARK_WORKER_INSTANCES=1
+    spark.executor.extraJavaOptions       -XX:+UseG1GC -XX:MaxGCPauseMillis=200
+    spark.sql.shuffle.partitions          384
+    spark.sql.autoBroadcastJoinThreshold  20971520 # 20MiB
+    spark.sql.crossJoin.enabled           true
+    spark.sql.parquet.compression.codec   snappy
+
 Inspired by [the CWI paper](http://dl.acm.org/citation.cfm?doid=2771937.2771948), 
 I also used NUMA-aware settings when launching 4 workers; the workers were assigned in each socket.
 A hardware detail of x1.32xlarge instances is as follows;
