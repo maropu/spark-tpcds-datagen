@@ -48,10 +48,12 @@ run_cmd() {
 
 # Function to check if Spark compiled for spark-submit
 check_spark_compiled() {
-  local scala_version=`grep "<scala.binary.version>" "${SPARK_HOME}/pom.xml" | head -n1 | awk -F '[<>]' '{print $3}'`
-  local spark_assembly="$SPARK_HOME/assembly/target/scala-${scala_version}/jars"
-  if [ ! -d $spark_assembly ]; then
-    run_cmd "./build/mvn package --also-make --projects assembly -DskipTests" "${SPARK_HOME}"
+  if [ -e "${SPARK_HOME}/pom.xml" ]; then
+    local scala_version=`grep "<scala.binary.version>" "${SPARK_HOME}/pom.xml" | head -n1 | awk -F '[<>]' '{print $3}'`
+    local spark_assembly="$SPARK_HOME/assembly/target/scala-${scala_version}/jars"
+    if [ ! -d $spark_assembly ]; then
+      run_cmd "./build/mvn package --also-make --projects assembly -DskipTests" "${SPARK_HOME}"
+    fi
   fi
 }
 
