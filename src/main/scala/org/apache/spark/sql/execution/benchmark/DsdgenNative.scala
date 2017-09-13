@@ -21,13 +21,11 @@ import java.io.{File, FileOutputStream, InputStream, OutputStream}
 
 import org.xerial.snappy.OSInfo
 
-import org.apache.spark.sql.execution.benchmark.packages._
-
 case class DsdgenNative() {
 
   val (dir, cmd) = {
     val classLoader = Thread.currentThread().getContextClassLoader
-    val tempDir = createTempDir()
+    val tempDir = Utils.createTempDir()
     val srcDatagenDir = s"binaries/${OSInfo.getOSName}/${OSInfo.getArchName}"
 
     def copyNativeBinaryFromResource(resourceName: String, to: File) = {

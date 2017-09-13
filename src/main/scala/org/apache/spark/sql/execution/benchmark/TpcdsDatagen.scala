@@ -20,7 +20,6 @@ package org.apache.spark.sql.execution.benchmark
 import scala.sys.process._
 
 import org.apache.spark.sql.{Column, DataFrame, Row, SaveMode, SparkSession, SQLContext}
-import org.apache.spark.sql.execution.benchmark.packages._
 import org.apache.spark.sql.types._
 
 
@@ -694,60 +693,21 @@ class Tables(sqlContext: SQLContext, scaleFactor: Int) extends Serializable {
   // scalastyle:on
 }
 
-case class TpcdsConf() {
-
-  val confPrefix = "spark.sql.dsdgen"
-  val confFromSystemProps = loadConfFromSystemProperties()
-
-  def get(name: String): Option[String] = {
-    confFromSystemProps.get(s"$confPrefix.$name")
-  }
-
-  def get(name: String, default: String): String = {
-    confFromSystemProps.getOrElse(s"$confPrefix.$name", default)
-  }
-
-  def getInt(name: String, default: Int): Int = {
-    confFromSystemProps.get(s"$confPrefix.$name").map(_.toInt).getOrElse(default)
-  }
-
-  def getBoolean(name: String, default: Boolean): Boolean = {
-    confFromSystemProps.get(s"$confPrefix.$name").map(_.toBoolean).getOrElse(default)
-  }
-}
-
-object TpcdsDatagen {
+object TPCDSDatagen {
 
   def main(args: Array[String]): Unit = {
-    val outputLocation = args.headOption.getOrElse {
-      throw new RuntimeException("Output dir not defined")
-    }
-
-    // Load settings
-    val conf = TpcdsConf()
-    val scaleFactor = conf.getInt("scaleFactor", 1)
-    val format = conf.get("format", "parquet")
-    val overwrite = conf.getBoolean("overwrite", false)
-    val partitionTables = conf.getBoolean("partitionTables", false)
-    val useDoubleForDecimal = conf.getBoolean("useDoubleForDecimal", false)
-    val clusterByPartitionColumns = conf.getBoolean("clusterByPartitionColumns", false)
-    val filterOutNullPartitionValues = conf.getBoolean("filterOutNullPartitionValues", false)
-    val tableFilter = conf.get("tableFilter").map(_.split(",").map(_.trim).toSet)
-      .getOrElse(Set.empty)
-    val numPartitions = conf.getInt("numPartitions", 100)
-
-    // Then, kick off generating TPCDS data
+    val datagenArgs = new TPCDSDatagenArguments(args)
     val spark = SparkSession.builder.getOrCreate()
-    val tpcdsTables = new Tables(spark.sqlContext, scaleFactor)
+    val tpcdsTables = new Tables(spark.sqlContext, datagenArgs.scaleFactor.toInt)
     tpcdsTables.genData(
-      outputLocation,
-      format,
-      overwrite,
-      partitionTables,
-      useDoubleForDecimal,
-      clusterByPartitionColumns,
-      filterOutNullPartitionValues,
-      tableFilter,
-      numPartitions)
+      datagenArgs.outputLocation,
+      datagenArgs.format,
+      datagenArgs.overwrite,
+      datagenArgs.partitionTables,
+      datagenArgs.useDoubleForDecimal,
+      datagenArgs.clusterByPartitionColumns,
+      datagenArgs.filterOutNullPartitionValues,
+      datagenArgs.tableFilter,
+      datagenArgs.numPartitions.toInt)
   }
 }

@@ -20,29 +20,8 @@ package org.apache.spark.sql.execution.benchmark
 import java.io.{File, IOException}
 import java.util.UUID
 
-import scala.collection.JavaConverters._
-import scala.collection.mutable
 
-package object packages {
-
-  /**
-   * Returns the system properties map that is thread-safe to iterator over. It gets the
-   * properties which have been set explicitly, as well as those for which only a default value
-   * has been defined.
-   */
-  private def getSystemProperties: Map[String, String] = {
-    System.getProperties.stringPropertyNames().asScala
-      .map(key => (key, System.getProperty(key))).toMap
-  }
-
-  def loadConfFromSystemProperties(): Map[String, String] = {
-    val settings = mutable.Map[String, String]()
-    // Load any spark.* system properties
-    for ((key, value) <- getSystemProperties if key.startsWith("spark.")) {
-      settings.put(key, value)
-    }
-    settings.toMap
-  }
+private[benchmark] object Utils {
 
   /**
    * Create a directory inside the given parent directory. The directory is guaranteed to be

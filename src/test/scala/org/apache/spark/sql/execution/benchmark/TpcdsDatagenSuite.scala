@@ -18,47 +18,15 @@
 package org.apache.spark.sql.execution.benchmark
 
 import java.io.{File, FilenameFilter}
-import java.util.Properties
 
 import org.apache.spark.SparkFunSuite
-import org.apache.spark.sql.execution.benchmark.packages._
 import org.apache.spark.sql.test.SharedSQLContext
 
 
 class TpcdsDatagenSuite extends SparkFunSuite with SharedSQLContext {
 
-  test("conf") {
-    val origProps = System.getProperties
-    try {
-      val props = new Properties()
-      props.setProperty("spark.sql.dsdgen.scaleFactor", "3")
-      props.setProperty("spark.sql.dsdgen.format", "csv")
-      props.setProperty("spark.sql.dsdgen.overwrite", "true")
-      props.setProperty("spark.sql.dsdgen.partitionTables", "true")
-      props.setProperty("spark.sql.dsdgen.useDoubleForDecimal", "true")
-      props.setProperty("spark.sql.dsdgen.clusterByPartitionColumns", "true")
-      props.setProperty("spark.sql.dsdgen.filterOutNullPartitionValues", "true")
-      props.setProperty("spark.sql.dsdgen.tableFilter", "testTable")
-      props.setProperty("spark.sql.dsdgen.numPartitions", "12")
-      System.setProperties(props)
-
-      val conf = TpcdsConf()
-      assert(conf.getInt("scaleFactor", 1) === 3)
-      assert(conf.get("format", "parquet") === "csv")
-      assert(conf.getBoolean("overwrite", false) === true)
-      assert(conf.getBoolean("partitionTables", false) === true)
-      assert(conf.getBoolean("useDoubleForDecimal", false) === true)
-      assert(conf.getBoolean("clusterByPartitionColumns", false) === true)
-      assert(conf.getBoolean("filterOutNullPartitionValues", false) === true)
-      assert(conf.get("tableFilter", "") === "testTable")
-      assert(conf.getInt("numPartitions", 100) === 12)
-    } finally {
-      System.setProperties(origProps)
-    }
-  }
-
   ignore("datagen") {
-    val outputTempDir = createTempDir()
+    val outputTempDir = Utils.createTempDir()
     val tpcdsTables = new Tables(spark.sqlContext, 1)
     tpcdsTables.genData(
       location = outputTempDir.getAbsolutePath,
