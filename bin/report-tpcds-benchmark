@@ -47,10 +47,6 @@ if [ $# -ge 2 ]; then
     git rebase master
 fi
 
-# TODO: If SPARK-21368 fixed, we will remove this
-cp ${_DIR}/../patches/TPCDSQueryBenchmark.scala \
-  ${SPARK_HOME}/sql/core/src/test/scala/org/apache/spark/sql/execution/benchmark/
-
 # Generate test data in temp dir
 _GENDATA_TEMP_DIR=`mktemp -d`
 _GENTABLES="catalog_sales,catalog_returns,inventory,store_sales,store_returns,web_sales,web_returns,call_center,catalog_page,customer,customer_address,customer_demographics,date_dim,household_demographics,income_band,item,promotion,reason,ship_mode,store,time_dim,warehouse,web_page,web_site"
