@@ -82,6 +82,9 @@ class TPCDSDatagenArguments(val args: Array[String]) {
           numPartitions = value
           args = tail
 
+        case ("--help") :: tail =>
+          printUsageAndExit(0)
+
         case _ =>
           // scalastyle:off println
           System.err.println("Unknown/unsupported param " + args)

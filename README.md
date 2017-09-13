@@ -17,38 +17,40 @@ First of all, you need to set up Spark:
 
     $ export SPARK_HOME=`pwd`
 
-Then, you can generate TPCDS test data in `/tmp`:
+Then, you can generate TPCDS test data in `/tmp/spark-tpcds-data`:
 
-    $ ./bin/dsdgen /tmp
+    $ ./bin/dsdgen --output-location /tmp/spark-tpcds-data
 
 ## How to run TPC-DS queries in Spark
 
-You can run TPC-DS quries by using test data in `/tmp`:
+You can run TPC-DS quries by using test data in `/tmp/spark-tpcds-data`:
 
-    $ ./bin/spark-submit --class org.apache.spark.sql.execution.benchmark.TPCDSQueryBenchmark sql/core/target/spark-sql_<scala.version>-<spark.version>-tests.jar /tmp
+    $ ./bin/spark-submit \
+        --class org.apache.spark.sql.execution.benchmark.TPCDSQueryBenchmark \
+        sql/core/target/spark-sql_<scala.version>-<spark.version>-tests.jar \
+        --data-location /tmp/spark-tpcds-data
 
 ## Options for the generator
 
     $ ./bin/dsdgen --help
-
-    Usage: ./bin/dsdgen [options] [output dir]
-    ...
-    dsdgen options:
-      --conf spark.sql.dsdgen.scaleFactor=NUM                    Scale factor (Default: 1).
-      --conf spark.sql.dsdgen.format=STR                         Output format (Default: parquet).
-      --conf spark.sql.dsdgen.overwrite=BOOL                     Wheter it overwrites existing data (Default: false).
-      --conf spark.sql.dsdgen.partitionTables=BOOL               Wheter it partitions output data (Default: false).
-      --conf spark.sql.dsdgen.useDoubleForDecimal=BOOL           Wheter it prefers double types (Default: false).
-      --conf spark.sql.dsdgen.clusterByPartitionColumns=BOOL     Wheter it cluster output data by partition columns (Default: false).
-      --conf spark.sql.dsdgen.filterOutNullPartitionValues=BOOL  Wheter it filters out NULL partitions (Default: false).
-      --conf spark.sql.dsdgen.tableFilter=STR                    Filters a specific table.
-      --conf spark.sql.dsdgen.numPartitions=NUM                  # of partitions (Default: 100).
+    Usage: spark-submit --class <this class> --conf key=value <spark tpcds datagen jar> [Options]
+    Options:
+      --output-location [STR]                Path to an output location
+      --scale-factor [NUM]                   Scale factor (default: 1)
+      --format [STR]                         Output format (default: parquet)
+      --overwrite                            Wheter it overwrites existing data (default: false)
+      --partition-tables                     Wheter it partitions output data (default: false)
+      --use-double-for-decimal               Wheter it prefers double types (default: false)
+      --cluster-by-partition-columns         Wheter it cluster output data by partition columns (default: false)
+      --filter-out-null-partition-values     Wheter it filters out NULL partitions (default: false)
+      --table-filter [STR]                   Queries to filter, e.g., catalog_sales,store_sales
+      --num-partitions [NUM]                 # of partitions (default: 100)
 
 ## Run specific TPC-DS quries only
 
 To run a part of TPC-DS queries, you type:
 
-    $ ./bin/run-tpcds-benchmark --conf spark.sql.tpcds.queryFilter="q2,q5" [TPC-DS test data]
+    $ ./bin/run-tpcds-benchmark --data-location [TPC-DS test data] --query-filter "q2,q5"
 
 ## Other helper scripts for benchmarks
 
