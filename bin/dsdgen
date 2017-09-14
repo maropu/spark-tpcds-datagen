@@ -31,38 +31,30 @@ _DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Load common functions
 . "${_DIR}/utils.sh"
 
+# Resolve a jar location for the TPCDS data generator
+find_resource() {
+  local tpcds_datagen_version=`grep "<version>" "${_DIR}/../pom.xml" | head -n2 | tail -n1 | awk -F '[<>]' '{print $3}'`
+  local scala_version=`grep "<scala.binary.version>" "${_DIR}/../pom.xml" | head -n1 | awk -F '[<>]' '{print $3}'`
+  local jar_file="spark-tpcds-datagen_${scala_version}-${tpcds_datagen_version}-with-dependencies.jar"
+  local built_jar="$_DIR/../target/${jar_file}"
+  if [ -e "$built_jar" ]; then
+    RESOURCE=$built_jar
+  else
+    RESOURCE="$_DIR/../assembly/${jar_file}"
+    echo "${built_jar} not found, so use pre-compiled ${RESOURCE}" 1>&2
+  fi
+}
 # If Spark not compiled, do it here
 check_spark_compiled
 
-# Resolve a jar location for the TPCDS data generator
-_TPCDS_DATAGEN_VERSION=`grep "<version>" "${_DIR}/../pom.xml" | head -n2 | tail -n1 | awk -F '[<>]' '{print $3}'`
-_SCALA_VERSION=`grep "<scala.binary.version>" "${_DIR}/../pom.xml" | head -n1 | awk -F '[<>]' '{print $3}'`
-_JAR_FILE="spark-tpcds-datagen_${_SCALA_VERSION}-${_TPCDS_DATAGEN_VERSION}-with-dependencies.jar"
-_BUILT_JAR="$_DIR/../target/${_JAR_FILE}"
-if [ -e $_BUILT_JAR ]; then
-  RESOURCES=$_BUILT_JAR
-else
-  RESOURCES="$_DIR/../assembly/${_JAR_FILE}"
-  echo "${_BUILT_JAR} not found, so use pre-compiled ${RESOURCES}" 1>&2
-fi
+# Do some preparations before launching spark-submit
+parse_args_for_spark_submit "$@"
+find_resource
 
 echo "Using \`spark-submit\` from path: $SPARK_HOME" 1>&2
-
-# An entry point for the TPCDS data generator
-CLASS="org.apache.spark.sql.execution.benchmark.TPCDSDatagen"
-
-# Split input arguments into two parts: Spark confs and args
-SPARK_CONF=()
-ARGS=()
-while [ ! -z "$1" ]; do
-  if [ "$1" == "--conf" ]; then
-    shift
-    SPARK_CONF+=("--conf $1")
-  else
-    ARGS+=($1)
-  fi
-  shift
-done
-
-exec "${SPARK_HOME}"/bin/spark-submit --class ${CLASS} $(join_by " " ${SPARK_CONF[@]}) ${RESOURCES} $(join_by " " ${ARGS[@]})
+exec "${SPARK_HOME}"/bin/spark-submit                           \
+  --class org.apache.spark.sql.execution.benchmark.TPCDSDatagen \
+  $(join_by " " ${SPARK_CONF[@]})                               \
+  ${RESOURCE}                                                   \
+  $(join_by " " ${ARGS[@]})
 

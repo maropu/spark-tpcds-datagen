@@ -89,7 +89,9 @@ function start_instance {
 if type "numactl" > /dev/null 2>&1; then
   # Join an input array by a given separator
   function join_by() {
-    local IFS="$1"; shift; echo "$*"
+    local IFS="$1"
+    shift
+    echo "$*"
   }
 
   # Compute memory size for each NUMA node

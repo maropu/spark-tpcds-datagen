@@ -57,3 +57,20 @@ check_spark_compiled() {
   fi
 }
 
+# Split input arguments into two parts: Spark confs and args
+parse_args_for_spark_submit() {
+  SPARK_CONF=()
+  ARGS=()
+  while [ ! -z "$1" ]; do
+    if [[ "$1" =~ ^--master= ]]; then
+      SPARK_CONF+=($1)
+    elif [ "$1" == "--conf" ]; then
+      shift
+      SPARK_CONF+=("--conf $1")
+    else
+      ARGS+=($1)
+    fi
+    shift
+  done
+}
+

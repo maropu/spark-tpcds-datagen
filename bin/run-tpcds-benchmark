@@ -34,32 +34,25 @@ _DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Load common functions
 . "${_DIR}/utils.sh"
 
+# Resolve a jar location for the TPCDS data generator
+find_resource() {
+  local scala_version=`grep "<scala.binary.version>" "${SPARK_HOME}/pom.xml" | head -n1 | awk -F '[<>]' '{print $3}'`
+  local spark_version=`grep "<version>" "${SPARK_HOME}/pom.xml" | head -n2 | tail -n1 | awk -F '[<>]' '{print $3}'`
+  local jar_file="spark-sql_${scala_version}-${spark_version}-tests.jar"
+  RESOURCES="$SPARK_HOME/sql/core/target/${jar_file}"
+}
+
 # If Spark not compiled, do it here
 check_spark_compiled
 
-# Resolve a jar location for the TPCDS data generator
-_SCALA_VERSION=`grep "<scala.binary.version>" "${SPARK_HOME}/pom.xml" | head -n1 | awk -F '[<>]' '{print $3}'`
-_SPARK_VERSION=`grep "<version>" "${SPARK_HOME}/pom.xml" | head -n2 | tail -n1 | awk -F '[<>]' '{print $3}'`
-_JAR_FILE="spark-sql_${_SCALA_VERSION}-${_SPARK_VERSION}-tests.jar"
-RESOURCES="$SPARK_HOME/sql/core/target/${_JAR_FILE}"
+# Do some preparations before launching spark-submit
+parse_args_for_spark_submit "$@"
+find_resource
 
 echo "Using \`spark-submit\` from path: $SPARK_HOME" 1>&2
-
-# An entry point for the TPCDS benchmark class
-CLASS="org.apache.spark.sql.execution.benchmark.TPCDSQueryBenchmark"
-
-# Split input arguments into two parts: Spark confs and args
-SPARK_CONF=()
-ARGS=()
-while [ ! -z "$1" ]; do
-  if [ "$1" == "--conf" ]; then
-    shift
-    SPARK_CONF+=("--conf $1")
-  else
-    ARGS+=($1)
-  fi
-  shift
-done
-
-exec "${SPARK_HOME}"/bin/spark-submit --class ${CLASS} $(join_by " " ${SPARK_CONF[@]}) ${RESOURCES} $(join_by " " ${ARGS[@]})
+exec "${SPARK_HOME}"/bin/spark-submit                                  \
+  --class org.apache.spark.sql.execution.benchmark.TPCDSQueryBenchmark \
+  $(join_by " " ${SPARK_CONF[@]})                                      \
+  ${RESOURCES}                                                         \
+  $(join_by " " ${ARGS[@]})
 
