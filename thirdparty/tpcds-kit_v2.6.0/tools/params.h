@@ -66,10 +66,11 @@ option_t options[] =
 {"VCOUNT",		OPT_INT|OPT_ADV,	22, "set number of validation rows to be produced", NULL, "50"}, 
 {"VSUFFIX",		OPT_STR|OPT_ADV,	23, "set file suffix for data validation", NULL, ".vld"}, 
 {"RNGSEED",		OPT_INT|OPT_ADV,	24, "set RNG seed", NULL, "19620718"}, 
+{"_CHILD_ONLY",		OPT_FLG, 	        25, "output the child table only", NULL, "N"}, 
 {NULL}
 };
 
-char *params[23 + 2];
+char *params[24 + 2];
 #else
 extern option_t options[];
 extern char *params[];

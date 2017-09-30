@@ -189,18 +189,21 @@ mk_detail (void *row, int bPrint)
       /** 
       * having gone to the trouble to make the sale, now let's see if it gets returned
       */
-      genrand_integer(&nTemp, DIST_UNIFORM, 0, 99, 0, WR_IS_RETURNED);
-      if (nTemp < WR_RETURN_PCT)
+      if  (!is_set("FILTER") || is_set("_CHILD_ONLY"))
       {
-         mk_w_web_returns(&w_web_returns, 1);
-         if (bPrint)
+            genrand_integer(&nTemp, DIST_UNIFORM, 0, 99, 0, WR_IS_RETURNED);
+            if (nTemp < WR_RETURN_PCT)
+            {
+               mk_w_web_returns(&w_web_returns, 1);
+               if (bPrint)
 			 pr_w_web_returns(&w_web_returns);
+            }
       }
 
       /**
       * now we print out the order and lineitem together as a single row
       */
-      if (bPrint)
+      if (bPrint && (!is_set("FILTER") || !is_set("_CHILD_ONLY")))
 		  pr_w_web_sales(NULL);
 
 	  return;

@@ -138,17 +138,20 @@ tdef *pT = getSimpleTdefsByNumber(STORE_SALES);
 	/** 
 	* having gone to the trouble to make the sale, now let's see if it gets returned
 	*/
-	genrand_integer(&nTemp, DIST_UNIFORM, 0, 99, 0, SR_IS_RETURNED);
-	if (nTemp < SR_RETURN_PCT)
+	if  (!is_set("FILTER") || is_set("_CHILD_ONLY"))
 	{
-		mk_w_store_returns(&ReturnRow, 1);
-      if (bPrint)
-         pr_w_store_returns(&ReturnRow);
+		genrand_integer(&nTemp, DIST_UNIFORM, 0, 99, 0, SR_IS_RETURNED);
+		if (nTemp < SR_RETURN_PCT)
+		{
+			mk_w_store_returns(&ReturnRow, 1);
+			if (bPrint)
+				pr_w_store_returns(&ReturnRow);
+		}
 	}
 
-   if (bPrint)
+   if  (bPrint && (!is_set("FILTER") || !is_set("_CHILD_ONLY")))
       pr_w_store_sales(NULL);
-	
+
 	return;
 }
 
