@@ -1,0 +1,474 @@
+AddBuffer	StringBuffer.c	/^int AddBuffer(StringBuffer_t *pBuf, char *pStr)$/
+AddDistribution	dcgram.c	/^AddDistribution (distindex_t * pDistIndex, char *s/
+AddLine	grammar.c	/^AddLine (char *line)$/
+AddQuerySegment	query_handler.c	/^AddQuerySegment(template_t *pQuery, char *szText)$/
+AddQuerySubstitution	substitution.c	/^AddQuerySubstitution(template_t *t, char *szName, /
+DistNameIndex	dist.c	/^DistNameIndex(char *szDist, int nNameType, char *s/
+DistSizeToShiftWidth	dist.c	/^int DistSizeToShiftWidth(char *szDist, int nWeight/
+EvalArithmetic	eval.c	/^EvalArithmetic(expr_t *pExpr, Expr_Val_t *pValue, /
+EvalDateExpr	eval.c	/^EvalDateExpr(expr_t *pExpr, Expr_Val_t *pBuf, Expr/
+EvalDistExpr	eval.c	/^EvalDistExpr(expr_t *pExpr, Expr_Val_t *pBuf, Expr/
+EvalExpr	eval.c	/^	EvalExpr(expr_t *pExpr, Expr_Val_t *pValue, int b/
+EvalKeywordExpr	eval.c	/^	EvalKeywordExpr(expr_t *pExpr, Expr_Val_t *pV)$/
+EvalRandomExpr	eval.c	/^EvalRandomExpr(expr_t *pExpr, Expr_Val_t *pBuf, Ex/
+EvalRownCountExpr	eval.c	/^EvalRownCountExpr(expr_t *pExpr, Expr_Val_t *pBuf,/
+EvalTextExpr	eval.c	/^EvalTextExpr(expr_t *pExpr, Expr_Val_t *pBuf, Expr/
+FindKeyword	keywords.c	/^int FindKeyword(char *szWord)$/
+FindToken	grammar.c	/^FindToken (char *word)$/
+FreeBuffer	StringBuffer.c	/^void FreeBuffer(StringBuffer_t *pBuf)$/
+GenerateQuery	query_handler.c	/^void GenerateQuery(FILE *pOutFile, FILE *pLogFile,/
+GetBuffer	StringBuffer.c	/^char *GetBuffer(StringBuffer_t *pBuf)$/
+GetCCITT	checksum.c	/^unsigned short GetCCITT (unsigned short crc, unsig/
+GetErrorCounts	grammar_support.c	/^GetErrorCounts(int *nError, int *nWarning)$/
+GetParamName	r_params.c	/^GetParamName(int nParam)$/
+GetParamValue	r_params.c	/^GetParamValue(int nParam)$/
+GetRowcountByName	tdefs.c	/^GetRowcountByName(char *szName)$/
+GetTableNumber	tdefs.c	/^GetTableNumber(char *szName)$/
+InitBuffer	StringBuffer.c	/^StringBuffer_t *InitBuffer(int nSize, int nIncreme/
+InitKeywords	keywords.c	/^void InitKeywords()$/
+IntegrateDist	dist.c	/^int IntegrateDist(char *szDistName, int nPct, int /
+IsIntParam	r_params.c	/^IsIntParam(char *szParam)$/
+IsStrParam	r_params.c	/^IsStrParam(char *szParam)$/
+KeywordText	keywords.c	/^char *KeywordText(int nKeyword)$/
+LinearScale	scaling.c	/^LinearScale(int nTable, int nTargetGB)$/
+LogScale	scaling.c	/^LogScale(int nTable, int nTargetGB)$/
+MALLOC	dcgram.c	/^#define MALLOC(size) malloc(size);fprintf(stderr, /
+MQgenMain	QgenMain.c	/^main(int ac, char* av[])$/
+MakeFunctionCall	expr.c	/^MakeFunctionCall(int nKeyword, list_t *pArgList)$/
+MakeIntConstant	expr.c	/^MakeIntConstant(ds_key_t nValue)$/
+MakeListExpr	expr.c	/^MakeListExpr(int nModifier, expr_t *pExpr, int nAr/
+MakeReplacement	expr.c	/^MakeReplacement(char *szText, int nValue)$/
+MakeStringConstant	expr.c	/^MakeStringConstant(char *szText)$/
+MakeVariableReference	expr.c	/^MakeVariableReference(char *szText, int nSuffix)$/
+MatchDistWeight	dist.c	/^int MatchDistWeight(void *dest, char *szDist, int /
+Mchecksum	checksum.c	/^int main(int argc, char *argv[]) {$/
+Mdate	date.c	/^main()$/
+Mdcomp	dcomp.c	/^int main(int argc, char* argv[])$/
+Mdecimal	decimal.c	/^main()$/
+Mdist	dist.c	/^main()$/
+Mdriver	driver.c	/^main (int ac, char **av)$/
+Mgenrand	genrand.c	/^main ()$/
+Mmkheader	mkheader.c	/^main(int ac, char **av)$/
+Mr_params	r_params.c	/^main()$/
+Mtext	text.c	/^main()$/
+NthElement	genrand.c	/^NthElement (HUGE_TYPE N, int nStream)$/
+ParseFile	grammar.c	/^ParseFile (char *szPath)$/
+PrintExpr	expr.c	/^PrintExpr(expr_t *pExpr)$/
+PrintTemplate	query_handler.c	/^void PrintTemplate(template_t *t)$/
+ProcessAdd	dcgram.c	/^ProcessAdd (char *stmt, token_t * tokens)$/
+ProcessComments	grammar.c	/^ProcessComments (char *line)$/
+ProcessDistribution	dcgram.c	/^ProcessDistribution (char *stmt, token_t * tokens)/
+ProcessErrorCode	error_msg.c	/^ProcessErrorCode (int nErrorCode, char *szRoutineN/
+ProcessInclude	dcgram.c	/^ProcessInclude (char *stmt, token_t * tokens)$/
+ProcessInt	dcgram.c	/^ProcessInt (char *stmt, token_t * tokens)$/
+ProcessNames	dcgram.c	/^ProcessNames (char *stmt, token_t * tokens)$/
+ProcessOther	dcgram.c	/^ProcessOther (char *stmt, token_t * tokens)$/
+ProcessSet	dcgram.c	/^ProcessSet (char *stmt, token_t * tokens)$/
+ProcessStr	grammar.c	/^ProcessStr (char *stmt, token_t * tokens)$/
+ProcessTypes	dcgram.c	/^ProcessTypes (char *stmt, token_t * tokens)$/
+REALLOC	dcgram.c	/^#define REALLOC(locale, size) realloc(locale, size/
+RETURN	tokenizer.l	/^#define RETURN(type)	DisplayAction(type)$/
+RNGReset	genrand.c	/^RNGReset (int tbl)$/
+ReportError	error_msg.c	/^ReportError (int nError, char *msg, int bExit)$/
+ReportErrorNoLine	error_msg.c	/^ReportErrorNoLine (int nError, char *msg, int bExi/
+ResetBuffer	StringBuffer.c	/^int ResetBuffer(StringBuffer_t *pBuf)$/
+SCALING_T	scaling.c	/^static struct SCALING_T {$/
+STATE	tokenizer.l	/^#define STATE(type)	nState = type$/
+SafeStrtok	grammar.c	/^SafeStrtok (char *string, char *delims)$/
+SetErrorGlobals	error_msg.c	/^SetErrorGlobals (char *szFileName, int *nLineNumbe/
+SetScaleIndex	build_support.c	/^SetScaleIndex(char *szName, char *szValue)$/
+SetTokens	grammar.c	/^SetTokens (token_t * pToken)$/
+StaticScale	scaling.c	/^StaticScale(int nTable, int nTargetGB)$/
+ValidateParams	expr.c	/^ValidateParams(int nFunc, expr_t *pArgs)$/
+WriteIndex	dcomp.c	/^WriteIndex(distindex_t *t)$/
+ZIP_MAP	s_zip_to_gmt.c	/^struct ZIP_MAP  {$/
+a_rnd	misc.c	/^a_rnd (int min, int max, int column, char *dest)$/
+addList	list.c	/^addList(list_t *pList, void *pData)$/
+bitmap_to_dist	build_support.c	/^bitmap_to_dist(void *pDest, char *distname, ds_key/
+canCast	expr.c	/^canCast(int nFromDataType, int nToDataType)$/
+changeSCD	scd.c	/^changeSCD(int nDataType, void *pNewData, void *pOl/
+checkSeeds	parallel.c	/^checkSeeds (tdef * pTdef)$/
+city_hash	address.c	/^city_hash(int nTable, char *name)$/
+clr_flg	r_params.c	/^clr_flg(char *flag)$/
+compareSubstitution	substitution.c	/^compareSubstitution(const void *p1, const void *p2/
+cp_join	join.c	/^cp_join(int tbl, int col, ds_key_t jDate)$/
+create_table	load.c	/^create_table(int nTable)$/
+dateScaling	scaling.c	/^dateScaling(int nTable, ds_key_t jDate)$/
+date_init	date.c	/^date_init(void)$/
+date_join	join.c	/^date_join(int from_tbl, int from_col, ds_key_t joi/
+date_part	date.c	/^date_part(date_t *d, int part)$/
+date_t_op	date.c	/^date_t_op(date_t *dest, int op, date_t *d1, date_t/
+day_number	date.c	/^day_number(date_t *d)$/
+decimal_t_op	decimal.c	/^decimal_t_op(decimal_t *dest, int op, decimal_t *d/
+dectoflt	decimal.c	/^dectoflt(double *dest, decimal_t *d)$/
+dectostr	decimal.c	/^dectostr(char *dest, decimal_t *d)$/
+defineSubstitution	query_handler.c	/^defineSubstitution(template_t *pQuery, char *szSub/
+di_compare	dist.c	/^di_compare(const void *op1, const void *op2)$/
+dist_active	dist.c	/^dist_active(char *szName, int nWeightSet)$/
+dist_op	dist.c	/^dist_op(void *dest, int op, char *d_name, int vset/
+dist_to_bitmap	build_support.c	/^dist_to_bitmap(int *pDest, char *szDistName, int n/
+dist_type	dist.c	/^dist_type(char *name, int nValueSet)$/
+dist_weight	dist.c	/^dist_weight(int *dest, char *d, int index, int wse/
+distsize	dist.c	/^distsize(char *name)$/
+dttoj	date.c	/^dttoj(date_t *dt)$/
+dttostr	date.c	/^dttostr(date_t *d)$/
+dump_dist	dist.c	/^dump_dist(char *name)$/
+dump_seeds	genrand.c	/^dump_seeds (int tbl)$/
+embed_string	build_support.c	/^embed_string(char *szDest, char *szDist, int nValu/
+env_config	misc.c	/^env_config (char *var, char *dflt)$/
+findDistValue	dist.c	/^findDistValue(char *szValue, char *szDistName, int/
+findList	list.c	/^findList(list_t *pList, void *pData)$/
+findSubstitution	substitution.c	/^findSubstitution(template_t *t, char *name, int *n/
+findValue	query_handler.c	/^findValue(segment_t *pSegment)$/
+find_dist	dist.c	/^find_dist(char *name)$/
+find_table	driver.c	/^find_table(char *szParamName, char *tname)$/
+fnd_param	r_params.c	/^fnd_param(char *name)$/
+ftodec	decimal.c	/^ftodec(decimal_t *dest, double f)$/
+func_info_t	expr.c	/^} func_info_t;$/
+gen_charset	genrand.c	/^gen_charset (char *dest, char *set, int min, int m/
+gen_tbl	driver.c	/^gen_tbl (int tabid, ds_key_t kFirstRow, ds_key_t k/
+gen_text	text.c	/^gen_text(char *dest, int min, int max, int stream)/
+generateQueryStreams	QgenMain.c	/^generateQueryStreams(void)$/
+genrand_date	genrand.c	/^genrand_date (date_t * dest, int dist, date_t * mi/
+genrand_decimal	genrand.c	/^genrand_decimal (decimal_t * dest, int dist, decim/
+genrand_email	genrand.c	/^genrand_email (char *pEmail, char *pFirst, char *p/
+genrand_integer	genrand.c	/^genrand_integer (int *dest, int dist, int min, int/
+genrand_ipaddr	genrand.c	/^genrand_ipaddr (char *pDest, int nColumn)$/
+genrand_key	genrand.c	/^genrand_key (ds_key_t * dest, int dist, ds_key_t m/
+genrand_url	genrand.c	/^genrand_url (char *pDest, int nColumn)$/
+getCatalogNumberFromPage	join.c	/^getCatalogNumberFromPage(ds_key_t kPageNumber)$/
+getDateWeightFromJulian	date.c	/^getDateWeightFromJulian(jDay, nDistribution)$/
+getFirstSK	scd.c	/^getFirstSK(ds_key_t kID)$/
+getHead	list.c	/^getHead(list_t *pList)$/
+getIDCount	scaling.c	/^getIDCount(int nTable)$/
+getItem	list.c	/^getItem(list_t *pList, int nIndex)$/
+getKeywordValue	keywords.c	/^getKeywordValue(int nIndex)$/
+getNext	list.c	/^getNext(list_t *pList)$/
+getSKFromID	scd.c	/^getSKFromID(ds_key_t kID, int nColumn)$/
+getScaleSlot	scaling.c	/^getScaleSlot(int nTargetGB)$/
+getSimpleTdefsByNumber	tdefs.c	/^getSimpleTdefsByNumber(nTable)$/
+getSkewedJulianDate	scaling.c	/^getSkewedJulianDate(int nWeight, int nColumn)$/
+getTableFromColumn	tdefs.c	/^getTableFromColumn(int nColumn)$/
+getTableNameByID	tdefs.c	/^getTableNameByID(int i)$/
+getTail	list.c	/^getTail(list_t *pList)$/
+getTdefFunctionsByNumber	tdef_functions.c	/^getTdefFunctionsByNumber(nTable)$/
+getTdefsByNumber	tdefs.c	/^getTdefsByNumber(int nTable)$/
+getUpdateBase	scaling.c	/^getUpdateBase(int nTable)$/
+getUpdateDate	scaling.c	/^getUpdateDate(int nTable, ds_key_t kRowcount)$/
+get_int	r_params.c	/^get_int(char *var)$/
+get_rowcount	scaling.c	/^get_rowcount(int table)$/
+get_str	r_params.c	/^get_str(char *var)$/
+hierarchy_item	build_support.c	/^hierarchy_item(int h_level, ds_key_t *id, char **n/
+include_file	grammar_support.c	/^include_file(char *fn, void *pC)$/
+include_statement	qgen.y	/^include_statement:	'#' KW_INCLUDE path$/
+initSparseKeys	sparse.c	/^initSparseKeys(int nTable)$/
+init_params	r_params.c	/^init_params(void)$/
+init_rand	genrand.c	/^init_rand (void)$/
+is_leap	date.c	/^is_leap(int year)$/
+is_set	r_params.c	/^is_set(char *flag)$/
+itodec	decimal.c	/^itodec(decimal_t *dest, int src)$/
+itodt	date.c	/^itodt(date_t *dest, int src)$/
+jtodt	date.c	/^jtodt(date_t *dest, int src)$/
+ld_dbgen_version	dbgen_version.c	/^ld_dbgen_version(void *pSrc)$/
+ld_s_brand	s_brand.c	/^ld_s_brand(void *pSrc)$/
+ld_s_call_center	s_call_center.c	/^ld_s_call_center(void *r)$/
+ld_s_catalog	s_catalog.c	/^ld_s_catalog(void *pSrc)$/
+ld_s_catalog_order	s_catalog_order.c	/^ld_s_catalog_order(void *pSrc)$/
+ld_s_catalog_order_lineitem	s_catalog_order_lineitem.c	/^ld_s_catalog_order_lineitem(void *pSrc)$/
+ld_s_catalog_page	s_catalog_page.c	/^ld_s_catalog_page(void *pSrc)$/
+ld_s_catalog_promotional_item	s_catalog_promotional_item.c	/^ld_s_catalog_promotional_item(void *pSrc)$/
+ld_s_catalog_returns	s_catalog_returns.c	/^ld_s_catalog_returns(void *pSrc)$/
+ld_s_category	s_category.c	/^ld_s_category(void *pSrc)$/
+ld_s_class	s_class.c	/^ld_s_class(void *pSrc)$/
+ld_s_company	s_company.c	/^ld_s_company(void *pSrc)$/
+ld_s_customer	s_customer.c	/^ld_s_customer (void *pSrc)$/
+ld_s_customer_address	s_customer_address.c	/^ld_s_customer_address(void *row)$/
+ld_s_division	s_division.c	/^ld_s_division(void *pSrc)$/
+ld_s_inventory	s_inventory.c	/^ld_s_inventory(void *pSrc)$/
+ld_s_item	s_item.c	/^ld_s_item(void *pSrc)$/
+ld_s_manager	s_manager.c	/^ld_s_manager(void *pSrc)$/
+ld_s_manufacturer	s_manufacturer.c	/^ld_s_manufacturer(void *pSrc)$/
+ld_s_market	s_market.c	/^ld_s_market(void *pSrc)$/
+ld_s_pline	s_pline.c	/^ld_s_pline(void *pSrc)$/
+ld_s_product	s_product.c	/^ld_s_product(void *pSrc)$/
+ld_s_promotion	s_promotion.c	/^ld_s_promotion(void *pSrc)$/
+ld_s_purchase	s_purchase.c	/^ld_s_purchase(void *pSrc)$/
+ld_s_reason	s_reason.c	/^ld_s_reason(void *pSrc)$/
+ld_s_store	s_store.c	/^ld_s_store(void *pSrc)$/
+ld_s_store_promotional_item	s_store_promotional_item.c	/^ld_s_store_promotional_item(void *pSrc)$/
+ld_s_store_returns	s_store_returns.c	/^ld_s_store_returns(void *pSrc)$/
+ld_s_subcategory	s_subcategory.c	/^ld_s_subcategory(void *pSrc)$/
+ld_s_subclass	s_subclass.c	/^ld_s_subclass(void *pSrc)$/
+ld_s_warehouse	s_warehouse.c	/^ld_s_warehouse(void *pSrc)$/
+ld_s_web_order	s_web_order.c	/^ld_s_web_order(void *pSrc)$/
+ld_s_web_order_lineitem	s_web_order_lineitem.c	/^ld_s_web_order_lineitem(void *pSrc)$/
+ld_s_web_page	s_web_page.c	/^ld_s_web_page(void *pSrc)$/
+ld_s_web_promotional_item	s_web_promotinal_item.c	/^ld_s_web_promotional_item(void *pSrc)$/
+ld_s_web_return	s_web_returns.c	/^ld_s_web_return(void *pSrc)$/
+ld_s_web_site	s_web_site.c	/^ld_s_web_site(void *pSrc)$/
+ld_s_zip	s_zip_to_gmt.c	/^ld_s_zip(void *pSrc)$/
+ld_w_call_center	w_call_center.c	/^ld_w_call_center(void *r)$/
+ld_w_catalog_page	w_catalog_page.c	/^ld_w_catalog_page(void *r)$/
+ld_w_catalog_returns	w_catalog_returns.c	/^ld_w_catalog_returns(void *row)$/
+ld_w_catalog_sales	w_catalog_sales.c	/^ld_w_catalog_sales(void *row)$/
+ld_w_customer	w_customer.c	/^ld_w_customer(void *row)$/
+ld_w_customer_address	w_customer_address.c	/^ld_w_customer_address(void *row)$/
+ld_w_customer_demographics	w_customer_demographics.c	/^ld_w_customer_demographics(void *row)$/
+ld_w_date	w_datetbl.c	/^ld_w_date(void *pSrc)$/
+ld_w_household_demographics	w_household_demographics.c	/^ld_w_household_demographics(void *pSrc)$/
+ld_w_income_band	w_income_band.c	/^ld_w_income_band(void *pSrc)$/
+ld_w_inventory	w_inventory.c	/^ld_w_inventory(void *pSrc)$/
+ld_w_item	w_item.c	/^ld_w_item(void *pSrc)$/
+ld_w_promotion	w_promotion.c	/^ld_w_promotion(void *pSrc)$/
+ld_w_reason	w_reason.c	/^ld_w_reason(void *pSrc)$/
+ld_w_ship_mode	w_ship_mode.c	/^ld_w_ship_mode(void *pSrc)$/
+ld_w_store	w_store.c	/^ld_w_store(void *pSrc)$/
+ld_w_store_returns	w_store_returns.c	/^ld_w_store_returns(void *pSrc)$/
+ld_w_store_sales	w_store_sales.c	/^ld_w_store_sales(void *pSrc)$/
+ld_w_time	w_timetbl.c	/^ld_w_time(void *pSrc)$/
+ld_w_warehouse	w_warehouse.c	/^ld_w_warehouse(void *pSrc)$/
+ld_w_web_page	w_web_page.c	/^ld_w_web_page(void *pSrc)$/
+ld_w_web_returns	w_web_returns.c	/^ld_w_web_returns(void *pSrc)$/
+ld_w_web_sales	w_web_sales.c	/^ld_w_web_sales(void *pSrc)$/
+ld_w_web_site	w_web_site.c	/^ld_w_web_site(void *pSrc)$/
+load_close	load.c	/^load_close(void)$/
+load_dist	dist.c	/^load_dist(d_idx_t *di)$/
+load_init	load.c	/^load_init(void)$/
+load_param	r_params.c	/^load_param(int nParam, char *szValue)$/
+load_params	r_params.c	/^load_params()$/
+ltoc	build_support.c	/^static void ltoc(char *szDest, unsigned long nVal)/
+makeArithmeticExpr	expr.c	/^makeArithmeticExpr(int nOp, expr_t *pArg1, expr_t /
+makeExpr	expr.c	/^makeExpr(void)$/
+makeKeyPermutation	permute.c	/^makeKeyPermutation(ds_key_t *nNumberSet, ds_key_t /
+makeList	list.c	/^makeList(int nFlags, int (*SortFunc)(const void *d/
+makePermutation	permute.c	/^makePermutation(int *nNumberSet, int nSize, int nS/
+matchSCDSK	scd.c	/^matchSCDSK(ds_key_t kUnique, ds_key_t jDate, int n/
+mk_address	address.c	/^mk_address(ds_addr_t *pAddr, int nColumn)$/
+mk_bkey	build_support.c	/^mk_bkey(char *szDest, ds_key_t kPrimary, int nStre/
+mk_city	address.c	/^int mk_city(int nTable, char **dest)$/
+mk_companyname	build_support.c	/^int mk_companyname(char *dest, int nTable, int nCo/
+mk_date	date.c	/^mk_date(void)$/
+mk_dbgen_version	dbgen_version.c	/^mk_dbgen_version(void *pDest, ds_key_t kIndex)$/
+mk_decimal	decimal.c	/^mk_decimal(int s, int p)$/
+mk_detail	s_catalog_order.c	/^mk_detail(void *pDest, int nLine, int bPrint)$/
+mk_join	join.c	/^mk_join(int from_col, int to_tbl, ds_key_t join_co/
+mk_master	s_catalog_order.c	/^mk_master(void *pDest, ds_key_t kIndex)$/
+mk_s_brand	s_brand.c	/^mk_s_brand(void *pDest, ds_key_t kIndex)$/
+mk_s_call_center	s_call_center.c	/^mk_s_call_center (void* row, ds_key_t index)$/
+mk_s_catalog	s_catalog.c	/^mk_s_catalog(void *pDest, ds_key_t kIndex)$/
+mk_s_catalog_order	s_catalog_order.c	/^mk_s_catalog_order(void *pDest, ds_key_t kIndex)$/
+mk_s_catalog_order_lineitem	s_catalog_order_lineitem.c	/^mk_s_catalog_order_lineitem(void *pDest, ds_key_t /
+mk_s_catalog_page	s_catalog_page.c	/^mk_s_catalog_page(void *pDest, ds_key_t kRow)$/
+mk_s_catalog_promotional_item	s_catalog_promotional_item.c	/^mk_s_catalog_promotional_item(void *pDest, ds_key_/
+mk_s_catalog_returns	s_catalog_returns.c	/^mk_s_catalog_returns(void *pDest, ds_key_t kIndex)/
+mk_s_category	s_category.c	/^mk_s_category(void *pDest, ds_key_t kIndex)$/
+mk_s_class	s_class.c	/^mk_s_class(void *pDest, ds_key_t kIndex)$/
+mk_s_company	s_company.c	/^mk_s_company(void *pDest, ds_key_t kIndex)$/
+mk_s_customer	s_customer.c	/^mk_s_customer (void *pDest, ds_key_t kIndex)$/
+mk_s_division	s_division.c	/^mk_s_division(void *pDest, ds_key_t kIndex)$/
+mk_s_inventory	s_inventory.c	/^mk_s_inventory(void *pDest, ds_key_t kIndex)$/
+mk_s_item	s_item.c	/^mk_s_item (void* row, ds_key_t index)$/
+mk_s_manager	s_manager.c	/^mk_s_manager(void *pDest, ds_key_t kIndex)$/
+mk_s_manufacturer	s_manufacturer.c	/^mk_s_manufacturer(void *pDest, ds_key_t kIndex)$/
+mk_s_market	s_market.c	/^mk_s_market(void *pDest, ds_key_t kIndex)$/
+mk_s_pline	s_pline.c	/^mk_s_pline(void *pDest, ds_key_t kIndex)$/
+mk_s_product	s_product.c	/^mk_s_product(void *pDest, ds_key_t kIndex)$/
+mk_s_promotion	s_promotion.c	/^mk_s_promotion (void* row, ds_key_t index)$/
+mk_s_purchase	s_purchase.c	/^mk_s_purchase(void *pDest, ds_key_t kIndex)$/
+mk_s_reason	s_reason.c	/^mk_s_reason(void *pDest, ds_key_t kIndex)$/
+mk_s_store	s_store.c	/^mk_s_store (void* row, ds_key_t index)$/
+mk_s_store_promotional_item	s_store_promotional_item.c	/^mk_s_store_promotional_item(void *pDest, ds_key_t /
+mk_s_store_returns	s_store_returns.c	/^mk_s_store_returns(void *pDest, ds_key_t kIndex)$/
+mk_s_subcategory	s_subcategory.c	/^mk_s_subcategory(void *pDest, ds_key_t kIndex)$/
+mk_s_subclass	s_subclass.c	/^mk_s_subclass(void *pDest, ds_key_t kIndex)$/
+mk_s_warehouse	s_warehouse.c	/^mk_s_warehouse (void* row, ds_key_t index)$/
+mk_s_web_order	s_web_order.c	/^mk_s_web_order(void *pDest, ds_key_t kIndex)$/
+mk_s_web_order_lineitem	s_web_order_lineitem.c	/^mk_s_web_order_lineitem(void *pDest, ds_key_t kInd/
+mk_s_web_page	s_web_page.c	/^mk_s_web_page (void* row, ds_key_t index)$/
+mk_s_web_promotional_item	s_web_promotinal_item.c	/^mk_s_web_promotional_item(void *pDest, ds_key_t kI/
+mk_s_web_return	s_web_returns.c	/^mk_s_web_return(void *pDest, ds_key_t kIndex)$/
+mk_s_web_site	s_web_site.c	/^mk_s_web_site (void* row, ds_key_t index)$/
+mk_s_zip	s_zip_to_gmt.c	/^mk_s_zip(void *pDest, ds_key_t kIndex)$/
+mk_sentence	text.c	/^mk_sentence(int stream)$/
+mk_streetname	address.c	/^int mk_streetname(int nTable, char *dest)$/
+mk_streetnumber	address.c	/^int mk_streetnumber(int nTable, int *dest)$/
+mk_suitenumber	address.c	/^int	mk_suitenumber(int nTable, char *dest)$/
+mk_w_call_center	w_call_center.c	/^mk_w_call_center (void* row, ds_key_t index)$/
+mk_w_catalog_page	w_catalog_page.c	/^mk_w_catalog_page (void *row, ds_key_t index)$/
+mk_w_catalog_returns	w_catalog_returns.c	/^mk_w_catalog_returns (void * row, ds_key_t index)$/
+mk_w_catalog_sales	w_catalog_sales.c	/^mk_w_catalog_sales (void* row, ds_key_t index)$/
+mk_w_customer	w_customer.c	/^mk_w_customer (void * row, ds_key_t index)$/
+mk_w_customer_address	w_customer_address.c	/^mk_w_customer_address (void* row, ds_key_t index)$/
+mk_w_customer_demographics	w_customer_demographics.c	/^mk_w_customer_demographics (void* row, ds_key_t in/
+mk_w_date	w_datetbl.c	/^mk_w_date (void * row, ds_key_t index)$/
+mk_w_household_demographics	w_household_demographics.c	/^mk_w_household_demographics (void* row, ds_key_t i/
+mk_w_income_band	w_income_band.c	/^mk_w_income_band (void* row, ds_key_t index)$/
+mk_w_inventory	w_inventory.c	/^mk_w_inventory(void *pDest, ds_key_t index)$/
+mk_w_item	w_item.c	/^mk_w_item (void* row, ds_key_t index)$/
+mk_w_promotion	w_promotion.c	/^mk_w_promotion(void *pDest, ds_key_t index)$/
+mk_w_reason	w_reason.c	/^mk_w_reason (void* row, ds_key_t index)$/
+mk_w_ship_mode	w_ship_mode.c	/^mk_w_ship_mode(void *pDest, ds_key_t kIndex)$/
+mk_w_store	w_store.c	/^mk_w_store (void* row, ds_key_t index)$/
+mk_w_store_returns	w_store_returns.c	/^mk_w_store_returns (void * row, ds_key_t index)$/
+mk_w_store_sales	w_store_sales.c	/^mk_w_store_sales (void *row, ds_key_t index)$/
+mk_w_time	w_timetbl.c	/^mk_w_time(void* row, ds_key_t index)$/
+mk_w_warehouse	w_warehouse.c	/^mk_w_warehouse (void* row, ds_key_t index)$/
+mk_w_web_page	w_web_page.c	/^mk_w_web_page (void * row, ds_key_t index)$/
+mk_w_web_returns	w_web_returns.c	/^mk_w_web_returns (void* row, ds_key_t index)$/
+mk_w_web_sales	w_web_sales.c	/^mk_w_web_sales (void *row, ds_key_t index)$/
+mk_w_web_site	w_web_site.c	/^mk_w_web_site (void *row, ds_key_t index)$/
+mk_word	build_support.c	/^mk_word(char *dest, char *syl_set, ds_key_t src, i/
+mk_zipcode	address.c	/^int mk_zipcode(int nTable, char *dest, int nRegion/
+next_random	genrand.c	/^next_random (int stream)$/
+next_random_float	genrand.c	/^next_random_float (int stream)$/
+nullCheck	nulls.c	/^nullCheck(int nColumn)$/
+nullSet	nulls.c	/^nullSet(ds_key_t *pDest, int nStream)$/
+openDeleteFile	print.c	/^openDeleteFile(int bOpen)$/
+parseQueries	QgenMain.c	/^parseQueries(void)$/
+parseTemplate	QgenMain.c	/^parseTemplate(char *szFileName, int nIndex)$/
+pr_dbgen_version	dbgen_version.c	/^pr_dbgen_version(void *pSrc)$/
+pr_s_brand	s_brand.c	/^pr_s_brand(void *pSrc)$/
+pr_s_call_center	s_call_center.c	/^pr_s_call_center(void *row)$/
+pr_s_catalog	s_catalog.c	/^pr_s_catalog(void *pSrc)$/
+pr_s_catalog_order	s_catalog_order.c	/^pr_s_catalog_order(void *pSrc)$/
+pr_s_catalog_order_lineitem	s_catalog_order_lineitem.c	/^pr_s_catalog_order_lineitem(void *pSrc)$/
+pr_s_catalog_page	s_catalog_page.c	/^pr_s_catalog_page(void *pSrc)$/
+pr_s_catalog_promotional_item	s_catalog_promotional_item.c	/^pr_s_catalog_promotional_item(void *pSrc)$/
+pr_s_catalog_returns	s_catalog_returns.c	/^pr_s_catalog_returns(void *pSrc)$/
+pr_s_category	s_category.c	/^pr_s_category(void *pSrc)$/
+pr_s_class	s_class.c	/^pr_s_class(void *pSrc)$/
+pr_s_company	s_company.c	/^pr_s_company(void *pSrc)$/
+pr_s_customer	s_customer.c	/^pr_s_customer (void *pSrc)$/
+pr_s_customer_address	s_customer_address.c	/^pr_s_customer_address(void *row)$/
+pr_s_division	s_division.c	/^pr_s_division(void *pSrc)$/
+pr_s_inventory	s_inventory.c	/^pr_s_inventory(void *pSrc)$/
+pr_s_item	s_item.c	/^pr_s_item(void *pSrc)$/
+pr_s_manager	s_manager.c	/^pr_s_manager(void *pSrc)$/
+pr_s_manufacturer	s_manufacturer.c	/^pr_s_manufacturer(void *pSrc)$/
+pr_s_market	s_market.c	/^pr_s_market(void *pSrc)$/
+pr_s_pline	s_pline.c	/^pr_s_pline(void *pSrc)$/
+pr_s_product	s_product.c	/^pr_s_product(void *pSrc)$/
+pr_s_promotion	s_promotion.c	/^pr_s_promotion(void *pSrc)$/
+pr_s_purchase	s_purchase.c	/^pr_s_purchase(void *pSrc)$/
+pr_s_reason	s_reason.c	/^pr_s_reason(void *pSrc)$/
+pr_s_store	s_store.c	/^pr_s_store(void *pSrc)$/
+pr_s_store_promotional_item	s_store_promotional_item.c	/^pr_s_store_promotional_item(void *pSrc)$/
+pr_s_store_returns	s_store_returns.c	/^pr_s_store_returns(void *pSrc)$/
+pr_s_subcategory	s_subcategory.c	/^pr_s_subcategory(void *pSrc)$/
+pr_s_subclass	s_subclass.c	/^pr_s_subclass(void *pSrc)$/
+pr_s_warehouse	s_warehouse.c	/^pr_s_warehouse(void *pSrc)$/
+pr_s_web_order	s_web_order.c	/^pr_s_web_order(void *pSrc)$/
+pr_s_web_order_lineitem	s_web_order_lineitem.c	/^pr_s_web_order_lineitem(void *pSrc)$/
+pr_s_web_page	s_web_page.c	/^pr_s_web_page(void *pSrc)$/
+pr_s_web_promotional_item	s_web_promotinal_item.c	/^pr_s_web_promotional_item(void *pSrc)$/
+pr_s_web_return	s_web_returns.c	/^pr_s_web_return(void *pSrc)$/
+pr_s_web_site	s_web_site.c	/^pr_s_web_site(void *pSrc)$/
+pr_s_zip	s_zip_to_gmt.c	/^pr_s_zip(void *pSrc)$/
+pr_w_call_center	w_call_center.c	/^pr_w_call_center(void *row)$/
+pr_w_catalog_page	w_catalog_page.c	/^pr_w_catalog_page(void *row)$/
+pr_w_catalog_returns	w_catalog_returns.c	/^pr_w_catalog_returns(void *row)$/
+pr_w_catalog_sales	w_catalog_sales.c	/^pr_w_catalog_sales(void *row)$/
+pr_w_customer	w_customer.c	/^pr_w_customer(void *row)$/
+pr_w_customer_address	w_customer_address.c	/^pr_w_customer_address(void *row)$/
+pr_w_customer_demographics	w_customer_demographics.c	/^pr_w_customer_demographics(void *row)$/
+pr_w_date	w_datetbl.c	/^pr_w_date(void *row)$/
+pr_w_household_demographics	w_household_demographics.c	/^pr_w_household_demographics(void *row)$/
+pr_w_income_band	w_income_band.c	/^pr_w_income_band(void *row)$/
+pr_w_inventory	w_inventory.c	/^pr_w_inventory(void *row)$/
+pr_w_item	w_item.c	/^pr_w_item(void *row)$/
+pr_w_promotion	w_promotion.c	/^pr_w_promotion(void *row)$/
+pr_w_reason	w_reason.c	/^pr_w_reason(void *row)$/
+pr_w_ship_mode	w_ship_mode.c	/^pr_w_ship_mode(void *pSrc)$/
+pr_w_store	w_store.c	/^pr_w_store(void *row)$/
+pr_w_store_returns	w_store_returns.c	/^pr_w_store_returns(void *row)$/
+pr_w_store_sales	w_store_sales.c	/^pr_w_store_sales(void *row)$/
+pr_w_time	w_timetbl.c	/^pr_w_time(void *row)$/
+pr_w_warehouse	w_warehouse.c	/^pr_w_warehouse(void *row)$/
+pr_w_web_page	w_web_page.c	/^pr_w_web_page(void *row)$/
+pr_w_web_returns	w_web_returns.c	/^pr_w_web_returns(void *row)$/
+pr_w_web_sales	w_web_sales.c	/^pr_w_web_sales(void *row)$/
+pr_w_web_site	w_web_site.c	/^pr_w_web_site(void *row)$/
+printReleaseInfo	release.c	/^printReleaseInfo (char *param_name, char *msg)$/
+printValidation	validate.c	/^printValidation(int nTable, ds_key_t kRow)$/
+print_boolean	print.c	/^print_boolean (int nColumn, int val, int sep)$/
+print_char	print.c	/^print_char (int nColumn, char val, int sep)$/
+print_close	print.c	/^print_close(int tbl)$/
+print_date	print.c	/^print_date (int nColumn, ds_key_t val, int sep)$/
+print_decimal	print.c	/^print_decimal (int nColumn, decimal_t * val, int s/
+print_delete	print.c	/^print_delete (int * val)$/
+print_end	print.c	/^print_end (int tbl)$/
+print_id	print.c	/^print_id (int nColumn, ds_key_t val, int sep)$/
+print_integer	print.c	/^print_integer (int nColumn, int val, int sep)$/
+print_jdate	print.c	/^print_jdate (FILE *pFile, ds_key_t kValue)$/
+print_key	print.c	/^print_key (int nColumn, ds_key_t val, int sep)$/
+print_options	r_params.c	/^print_options(struct OPTION_T *o, int bShowOptiona/
+print_params	r_params.c	/^print_params(void)$/
+print_prep	print.c	/^print_prep (int table, int update)$/
+print_separator	print.c	/^print_separator (int sep)$/
+print_start	print.c	/^print_start (int tbl)$/
+print_string	print.c	/^print_string (char *szMessage, ds_key_t val)$/
+print_time	print.c	/^print_time (int nColumn, ds_key_t val, int sep)$/
+print_validation	print.c	/^print_validation(ds_key_t kRowNumber)$/
+print_varchar	print.c	/^print_varchar (int nColumn, char *val, int sep)$/
+process_options	r_params.c	/^process_options (int count, char **vector)$/
+randomSparseKey	sparse.c	/^randomSparseKey(int nTable, int nColumn)$/
+random_to_bitmap	build_support.c	/^random_to_bitmap(int *pDest, int nDist, int nMin, /
+read_file	r_params.c	/^read_file(char *param_name, char *optarg)$/
+removeItem	list.c	/^removeItem(list_t *pList, int bHead)$/
+resetCountCount	address.c	/^resetCountCount(void)$/
+resetSeeds	genrand.c	/^resetSeeds(int nTable)$/
+row_skip	parallel.c	/^row_skip (int tbl, ds_key_t count)$/
+row_stop	parallel.c	/^row_stop (int tbl)$/
+save_file	r_params.c	/^save_file(char *path)$/
+sc_w_inventory	w_inventory.c	/^sc_w_inventory(int nScale)$/
+scd_join	scd.c	/^scd_join(int tbl, int col, ds_key_t jDate)$/
+setSCDKeys	scd.c	/^setSCDKeys(int nColumnID, ds_key_t kIndex, char *s/
+setSeed	genrand.c	/^setSeed(int nStream, int nValue)$/
+setUpdateDateRange	build_support.c	/^setUpdateDateRange(int nTable, date_t *pMinDate, d/
+setUpdateDates	scaling.c	/^setUpdateDates(void)$/
+setUpdateScaling	scaling.c	/^setUpdateScaling(int nTable)$/
+set_dow	date.c	/^set_dow(date_t *d)$/
+set_files	driver.c	/^set_files (int i)$/
+set_flg	r_params.c	/^set_flg(char *flag)$/
+set_int	r_params.c	/^set_int(char *var, char *val)$/
+set_locale	build_support.c	/^int set_locale(int nRegion, decimal_t *longitude, /
+set_option	r_params.c	/^set_option(char *name, char *param)$/
+set_precision	decimal.c	/^set_precision(decimal_t *dest, int scale, int prec/
+set_pricing	pricing.c	/^void set_pricing(int nTabId, ds_pricing_t *pPricin/
+set_str	r_params.c	/^set_str(char *var, char *val)$/
+skipDays	driver.c	/^skipDays(int nTable, ds_key_t *pRemainder)$/
+skip_random	genrand.c	/^skip_random (int nStream, ds_key_t N)$/
+split_work	parallel.c	/^split_work (int tnum, ds_key_t * pkFirstRow, ds_ke/
+statement	qgen.y	/^statement:	include_statement	{$$ = KW_INCLUDE; }$/
+statement_list	qgen.y	/^statement_list:	statement$/
+strdup	porting.c	/^char *strdup(const char *szSrc)$/
+strtodate	date.c	/^strtodate(char *str)$/
+strtodec	decimal.c	/^strtodec(decimal_t *dest, char *s)$/
+strtodt	date.c	/^strtodt(date_t *dest, char *s)$/
+strtotime	date.c	/^strtotime(char *str)$/
+tdef	text.c	/^typedef struct {char *name;} tdef;$/
+time_join	join.c	/^time_join(int to_tbl, int to_col, ds_key_t join_co/
+usage	r_params.c	/^usage (char *param_name, char *msg)$/
+validateGeneric	validate.c	/^validateGeneric(int nTable, ds_key_t kRow, int *Pe/
+validateSCD	validate.c	/^validateSCD(int nTable, ds_key_t kRow, int *Permut/
+validate_options	driver.c	/^validate_options(void)$/
+vld_s_catalog_order	s_catalog_order.c	/^vld_s_catalog_order(int nTable, ds_key_t kRow, int/
+vld_s_catalog_page	s_catalog_page.c	/^vld_s_catalog_page(int nTable, ds_key_t kRow, int /
+vld_s_customer_address	s_customer_address.c	/^vld_s_customer_address(int nTable, ds_key_t kRow, /
+vld_s_item	s_item.c	/^vld_s_item(int nTable, ds_key_t kRow, int *Permuta/
+vld_s_promotion	s_promotion.c	/^vld_s_promotion(int nTable, ds_key_t kRow, int *Pe/
+vld_s_purchase	s_purchase.c	/^vld_s_purchase(int nTable, ds_key_t kRow, int* bPe/
+vld_s_web_order	s_web_order.c	/^vld_s_web_order(int nTable, ds_key_t kRow, int* bP/
+vld_s_web_order_lineitem	s_web_order_lineitem.c	/^vld_s_web_order_lineitem(int nTable, ds_key_t kRow/
+vld_s_web_page	s_web_page.c	/^vld_s_web_page(int nTable, ds_key_t kRow, int *Per/
+vld_s_zip	s_zip_to_gmt.c	/^vld_s_zip(int nTable, ds_key_t kRow, int *Permutat/
+vld_w_catalog_sales	w_catalog_sales.c	/^vld_w_catalog_sales(int nTable, ds_key_t kRow, int/
+vld_w_date	w_datetbl.c	/^vld_w_date(int nTable, ds_key_t kRow, int *Permuta/
+vld_w_store_sales	w_store_sales.c	/^vld_w_store_sales(int nTable, ds_key_t kRow, int */
+vld_web_sales	w_web_sales.c	/^vld_web_sales(int nTable, ds_key_t kRow, int *Perm/
+web_join	join.c	/^web_join(int col, ds_key_t join_key)$/
+workload_spec	qgen.y	/^workload_spec:		statement_list	$/
+yyerror	grammar_support.c	/^yyerror(char *msg, ...)$/
+yylex	tokenizer.l	/^%%$/
+yyparse	qgen.y	/^%%$/
+yywarn	grammar_support.c	/^yywarn(char *str)$/
