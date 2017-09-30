@@ -51,8 +51,8 @@ class Tables(sqlContext: SQLContext, scaleFactor: Int) extends Serializable {
           val parallel = if (partitions > 1) s"-parallel $partitions -child $i" else ""
           val commands = Seq(
             "bash", "-c",
-            s"cd ${datagen.dir} && ./${datagen.cmd} -table $name -filter Y -scale $scaleFactor " +
-              s"-RNGSEED 100 $parallel"
+            s"cd ${datagen.dir} && ./${datagen.cmd} -table $name -filter Y " +
+              s"-scale $scaleFactor $parallel"
           )
           commands.lines
         }
