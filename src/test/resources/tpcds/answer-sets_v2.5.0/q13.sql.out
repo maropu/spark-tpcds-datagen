@@ -1,0 +1,6 @@
+-RECORD 0--------------------------------
+ avg(ss_quantity)           | 31.0
+ avg(ss_ext_sales_price)    | 2551.86333 
+ avg(ss_ext_wholesale_cost) | 2365.94333 
+ sum(ss_ext_wholesale_cost) | 14195.66
+           

@@ -1,0 +1,136 @@
+-RECORD 0-----
+ state | VT   
+ cnt   | 14   
+-RECORD 1-----
+ state | ME   
+ cnt   | 16   
+-RECORD 2-----
+ state | NJ   
+ cnt   | 18   
+-RECORD 3-----
+ state | MD   
+ cnt   | 19   
+-RECORD 4-----
+ state | AK   
+ cnt   | 21   
+-RECORD 5-----
+ state | NH   
+ cnt   | 21   
+-RECORD 6-----
+ state | MA   
+ cnt   | 24   
+-RECORD 7-----
+ state | NV   
+ cnt   | 26   
+-RECORD 8-----
+ state | OR   
+ cnt   | 27   
+-RECORD 9-----
+ state | ND   
+ cnt   | 28   
+-RECORD 10----
+ state | UT   
+ cnt   | 31   
+-RECORD 11----
+ state | SD   
+ cnt   | 35   
+-RECORD 12----
+ state | NM   
+ cnt   | 36   
+-RECORD 13----
+ state | ID   
+ cnt   | 36   
+-RECORD 14----
+ state | WV   
+ cnt   | 45   
+-RECORD 15----
+ state | WA   
+ cnt   | 46   
+-RECORD 16----
+ state | SC   
+ cnt   | 47   
+-RECORD 17----
+ state | CO   
+ cnt   | 48   
+-RECORD 18----
+ state | AL   
+ cnt   | 49   
+-RECORD 19----
+ state | FL   
+ cnt   | 49   
+-RECORD 20----
+ state | LA   
+ cnt   | 49   
+-RECORD 21----
+ state | NY   
+ cnt   | 52   
+-RECORD 22----
+ state | WI   
+ cnt   | 53   
+-RECORD 23----
+ state | MT   
+ cnt   | 55   
+-RECORD 24----
+ state | PA   
+ cnt   | 56   
+-RECORD 25----
+ state | OK   
+ cnt   | 57   
+-RECORD 26----
+ state | CA   
+ cnt   | 60   
+-RECORD 27----
+ state | MS   
+ cnt   | 69   
+-RECORD 28----
+ state | null 
+ cnt   | 73   
+-RECORD 29----
+ state | AR   
+ cnt   | 73   
+-RECORD 30----
+ state | TN   
+ cnt   | 74   
+-RECORD 31----
+ state | IN   
+ cnt   | 76   
+-RECORD 32----
+ state | KS   
+ cnt   | 80   
+-RECORD 33----
+ state | MN   
+ cnt   | 81   
+-RECORD 34----
+ state | MI   
+ cnt   | 83   
+-RECORD 35----
+ state | MO   
+ cnt   | 83   
+-RECORD 36----
+ state | NE   
+ cnt   | 87   
+-RECORD 37----
+ state | IA   
+ cnt   | 96   
+-RECORD 38----
+ state | OH   
+ cnt   | 102  
+-RECORD 39----
+ state | KY   
+ cnt   | 103  
+-RECORD 40----
+ state | IL   
+ cnt   | 106  
+-RECORD 41----
+ state | NC   
+ cnt   | 107  
+-RECORD 42----
+ state | VA   
+ cnt   | 137  
+-RECORD 43----
+ state | GA   
+ cnt   | 153  
+-RECORD 44----
+ state | TX   
+ cnt   | 228
+           

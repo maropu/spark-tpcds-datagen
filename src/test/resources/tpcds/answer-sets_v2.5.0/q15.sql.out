@@ -1,0 +1,301 @@
+-RECORD 0----------------------
+ ca_zip              | null    
+ sum(cs_sales_price) | 4723.12 
+-RECORD 1----------------------
+ ca_zip              | 30059   
+ sum(cs_sales_price) | 688.80  
+-RECORD 2----------------------
+ ca_zip              | 30069   
+ sum(cs_sales_price) | 323.60  
+-RECORD 3----------------------
+ ca_zip              | 30150   
+ sum(cs_sales_price) | 372.79  
+-RECORD 4----------------------
+ ca_zip              | 30162   
+ sum(cs_sales_price) | 1609.70 
+-RECORD 5----------------------
+ ca_zip              | 30169   
+ sum(cs_sales_price) | 1326.30 
+-RECORD 6----------------------
+ ca_zip              | 30191   
+ sum(cs_sales_price) | 513.21  
+-RECORD 7----------------------
+ ca_zip              | 30194   
+ sum(cs_sales_price) | 244.76  
+-RECORD 8----------------------
+ ca_zip              | 30309   
+ sum(cs_sales_price) | 94.27   
+-RECORD 9----------------------
+ ca_zip              | 30330   
+ sum(cs_sales_price) | 447.07  
+-RECORD 10---------------------
+ ca_zip              | 30399   
+ sum(cs_sales_price) | 196.46  
+-RECORD 11---------------------
+ ca_zip              | 30411   
+ sum(cs_sales_price) | 713.29  
+-RECORD 12---------------------
+ ca_zip              | 30492   
+ sum(cs_sales_price) | 115.82  
+-RECORD 13---------------------
+ ca_zip              | 30499   
+ sum(cs_sales_price) | 1142.24 
+-RECORD 14---------------------
+ ca_zip              | 30525   
+ sum(cs_sales_price) | 406.09  
+-RECORD 15---------------------
+ ca_zip              | 30534   
+ sum(cs_sales_price) | 1341.26 
+-RECORD 16---------------------
+ ca_zip              | 30587   
+ sum(cs_sales_price) | 297.85  
+-RECORD 17---------------------
+ ca_zip              | 31087   
+ sum(cs_sales_price) | 573.97  
+-RECORD 18---------------------
+ ca_zip              | 31289   
+ sum(cs_sales_price) | 669.35  
+-RECORD 19---------------------
+ ca_zip              | 31387   
+ sum(cs_sales_price) | 1226.80 
+-RECORD 20---------------------
+ ca_zip              | 31675   
+ sum(cs_sales_price) | 362.70  
+-RECORD 21---------------------
+ ca_zip              | 31692   
+ sum(cs_sales_price) | 541.53  
+-RECORD 22---------------------
+ ca_zip              | 31749   
+ sum(cs_sales_price) | 182.57  
+-RECORD 23---------------------
+ ca_zip              | 31757   
+ sum(cs_sales_price) | 1553.34 
+-RECORD 24---------------------
+ ca_zip              | 31838   
+ sum(cs_sales_price) | 862.54  
+-RECORD 25---------------------
+ ca_zip              | 31933   
+ sum(cs_sales_price) | 675.18  
+-RECORD 26---------------------
+ ca_zip              | 31952   
+ sum(cs_sales_price) | 1063.42 
+-RECORD 27---------------------
+ ca_zip              | 32219   
+ sum(cs_sales_price) | 707.81  
+-RECORD 28---------------------
+ ca_zip              | 32293   
+ sum(cs_sales_price) | 828.11  
+-RECORD 29---------------------
+ ca_zip              | 32477   
+ sum(cs_sales_price) | 329.28  
+-RECORD 30---------------------
+ ca_zip              | 32565   
+ sum(cs_sales_price) | 368.44  
+-RECORD 31---------------------
+ ca_zip              | 32724   
+ sum(cs_sales_price) | 519.06  
+-RECORD 32---------------------
+ ca_zip              | 32812   
+ sum(cs_sales_price) | 1129.14 
+-RECORD 33---------------------
+ ca_zip              | 32898   
+ sum(cs_sales_price) | 1283.01 
+-RECORD 34---------------------
+ ca_zip              | 33003   
+ sum(cs_sales_price) | 838.16  
+-RECORD 35---------------------
+ ca_zip              | 33075   
+ sum(cs_sales_price) | 190.62  
+-RECORD 36---------------------
+ ca_zip              | 33394   
+ sum(cs_sales_price) | 138.83  
+-RECORD 37---------------------
+ ca_zip              | 33451   
+ sum(cs_sales_price) | 1441.78 
+-RECORD 38---------------------
+ ca_zip              | 33511   
+ sum(cs_sales_price) | 431.19  
+-RECORD 39---------------------
+ ca_zip              | 33604   
+ sum(cs_sales_price) | 1224.86 
+-RECORD 40---------------------
+ ca_zip              | 33683   
+ sum(cs_sales_price) | 616.38  
+-RECORD 41---------------------
+ ca_zip              | 33951   
+ sum(cs_sales_price) | 1241.72 
+-RECORD 42---------------------
+ ca_zip              | 34027   
+ sum(cs_sales_price) | 407.13  
+-RECORD 43---------------------
+ ca_zip              | 34062   
+ sum(cs_sales_price) | 443.22  
+-RECORD 44---------------------
+ ca_zip              | 34092   
+ sum(cs_sales_price) | 366.23  
+-RECORD 45---------------------
+ ca_zip              | 34098   
+ sum(cs_sales_price) | 276.14  
+-RECORD 46---------------------
+ ca_zip              | 34107   
+ sum(cs_sales_price) | 1320.29 
+-RECORD 47---------------------
+ ca_zip              | 34136   
+ sum(cs_sales_price) | 465.89  
+-RECORD 48---------------------
+ ca_zip              | 34190   
+ sum(cs_sales_price) | 426.36  
+-RECORD 49---------------------
+ ca_zip              | 34244   
+ sum(cs_sales_price) | 1508.42 
+-RECORD 50---------------------
+ ca_zip              | 34289   
+ sum(cs_sales_price) | 360.52  
+-RECORD 51---------------------
+ ca_zip              | 34338   
+ sum(cs_sales_price) | 1290.05 
+-RECORD 52---------------------
+ ca_zip              | 34466   
+ sum(cs_sales_price) | 1926.39 
+-RECORD 53---------------------
+ ca_zip              | 34536   
+ sum(cs_sales_price) | 462.20  
+-RECORD 54---------------------
+ ca_zip              | 34593   
+ sum(cs_sales_price) | 1237.42 
+-RECORD 55---------------------
+ ca_zip              | 34854   
+ sum(cs_sales_price) | 473.89  
+-RECORD 56---------------------
+ ca_zip              | 34975   
+ sum(cs_sales_price) | 293.97  
+-RECORD 57---------------------
+ ca_zip              | 35038   
+ sum(cs_sales_price) | 532.46  
+-RECORD 58---------------------
+ ca_zip              | 35115   
+ sum(cs_sales_price) | 465.95  
+-RECORD 59---------------------
+ ca_zip              | 35124   
+ sum(cs_sales_price) | 1186.38 
+-RECORD 60---------------------
+ ca_zip              | 35281   
+ sum(cs_sales_price) | 820.44  
+-RECORD 61---------------------
+ ca_zip              | 35413   
+ sum(cs_sales_price) | 328.47  
+-RECORD 62---------------------
+ ca_zip              | 35508   
+ sum(cs_sales_price) | 309.54  
+-RECORD 63---------------------
+ ca_zip              | 35709   
+ sum(cs_sales_price) | 526.74  
+-RECORD 64---------------------
+ ca_zip              | 35752   
+ sum(cs_sales_price) | 278.29  
+-RECORD 65---------------------
+ ca_zip              | 35804   
+ sum(cs_sales_price) | 1067.01 
+-RECORD 66---------------------
+ ca_zip              | 35817   
+ sum(cs_sales_price) | 2487.41 
+-RECORD 67---------------------
+ ca_zip              | 35867   
+ sum(cs_sales_price) | 581.94  
+-RECORD 68---------------------
+ ca_zip              | 36060   
+ sum(cs_sales_price) | 173.58  
+-RECORD 69---------------------
+ ca_zip              | 36074   
+ sum(cs_sales_price) | 230.91  
+-RECORD 70---------------------
+ ca_zip              | 36098   
+ sum(cs_sales_price) | 907.80  
+-RECORD 71---------------------
+ ca_zip              | 36115   
+ sum(cs_sales_price) | 298.06  
+-RECORD 72---------------------
+ ca_zip              | 36192   
+ sum(cs_sales_price) | 1034.53 
+-RECORD 73---------------------
+ ca_zip              | 36534   
+ sum(cs_sales_price) | 1649.99 
+-RECORD 74---------------------
+ ca_zip              | 36557   
+ sum(cs_sales_price) | 1722.27 
+-RECORD 75---------------------
+ ca_zip              | 36614   
+ sum(cs_sales_price) | 1557.87 
+-RECORD 76---------------------
+ ca_zip              | 36668   
+ sum(cs_sales_price) | 730.76  
+-RECORD 77---------------------
+ ca_zip              | 36719   
+ sum(cs_sales_price) | 1039.55 
+-RECORD 78---------------------
+ ca_zip              | 36787   
+ sum(cs_sales_price) | 463.11  
+-RECORD 79---------------------
+ ca_zip              | 36867   
+ sum(cs_sales_price) | 473.78  
+-RECORD 80---------------------
+ ca_zip              | 36871   
+ sum(cs_sales_price) | 777.15  
+-RECORD 81---------------------
+ ca_zip              | 36971   
+ sum(cs_sales_price) | 505.82  
+-RECORD 82---------------------
+ ca_zip              | 37057   
+ sum(cs_sales_price) | 2784.75 
+-RECORD 83---------------------
+ ca_zip              | 37683   
+ sum(cs_sales_price) | 526.34  
+-RECORD 84---------------------
+ ca_zip              | 37746   
+ sum(cs_sales_price) | 1903.08 
+-RECORD 85---------------------
+ ca_zip              | 37838   
+ sum(cs_sales_price) | 984.60  
+-RECORD 86---------------------
+ ca_zip              | 38014   
+ sum(cs_sales_price) | 337.71  
+-RECORD 87---------------------
+ ca_zip              | 38048   
+ sum(cs_sales_price) | 670.99  
+-RECORD 88---------------------
+ ca_zip              | 38054   
+ sum(cs_sales_price) | 1377.23 
+-RECORD 89---------------------
+ ca_zip              | 38075   
+ sum(cs_sales_price) | 827.32  
+-RECORD 90---------------------
+ ca_zip              | 38119   
+ sum(cs_sales_price) | 237.47  
+-RECORD 91---------------------
+ ca_zip              | 38167   
+ sum(cs_sales_price) | 620.19  
+-RECORD 92---------------------
+ ca_zip              | 38222   
+ sum(cs_sales_price) | 2633.06 
+-RECORD 93---------------------
+ ca_zip              | 38354   
+ sum(cs_sales_price) | 2411.29 
+-RECORD 94---------------------
+ ca_zip              | 38370   
+ sum(cs_sales_price) | 1494.42 
+-RECORD 95---------------------
+ ca_zip              | 38371   
+ sum(cs_sales_price) | 716.56  
+-RECORD 96---------------------
+ ca_zip              | 38579   
+ sum(cs_sales_price) | 601.67  
+-RECORD 97---------------------
+ ca_zip              | 38605   
+ sum(cs_sales_price) | 189.50  
+-RECORD 98---------------------
+ ca_zip              | 38721   
+ sum(cs_sales_price) | 2085.27 
+-RECORD 99---------------------
+ ca_zip              | 38828   
+ sum(cs_sales_price) | 261.89
+           

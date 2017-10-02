@@ -1,0 +1,1701 @@
+-RECORD 0-----------------------------------
+ c_customer_id    | AAAAAAAAABBEAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Oscar                   
+ c_last_name      | Fox                     
+ ca_street_number | 183                     
+ ca_street_name   | 15th                    
+ ca_street_type   | Ln                      
+ ca_suite_number  | Suite P Greenwood       
+ ca_city          | Clay County             
+ ca_county        | GA 38828 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 4607.92                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 1-----------------------------------
+ c_customer_id    | AAAAAAAAADCEBAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Billy                   
+ c_last_name      | Bell                    
+ ca_street_number | 690                     
+ ca_street_name   | 4th Fifth               
+ ca_street_type   | Ct.                     
+ ca_suite_number  | Suite 390 Hillcrest     
+ ca_city          | Spalding County         
+ ca_county        | GA 33003 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 5567.44                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 2-----------------------------------
+ c_customer_id    | AAAAAAAAAFBGAAAA        
+ c_salutation     | Mrs.                    
+ c_first_name     | Erika                   
+ c_last_name      | Buford                  
+ ca_street_number | 527                     
+ ca_street_name   | 1st                     
+ ca_street_type   | Ln                      
+ ca_suite_number  | Suite 380 Lakewood      
+ ca_city          | Jasper County           
+ ca_county        | GA 38877 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 5412.16                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 3-----------------------------------
+ c_customer_id    | AAAAAAAAAFLABAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Richard                 
+ c_last_name      | James                   
+ ca_street_number | 40                      
+ ca_street_name   | 2nd Miller              
+ ca_street_type   | Road                    
+ ca_suite_number  | Suite 190 Arlington     
+ ca_city          | Morgan County           
+ ca_county        | GA 36557 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 2249.1                  
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 4-----------------------------------
+ c_customer_id    | AAAAAAAAAHOEAAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Michael                 
+ c_last_name      | Yates                   
+ ca_street_number | 349                     
+ ca_street_name   | Elm South               
+ ca_street_type   | ST                      
+ ca_suite_number  | Suite 30 Blanchard      
+ ca_city          | Talbot County           
+ ca_county        | GA 35985 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 1810.13                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 5-----------------------------------
+ c_customer_id    | AAAAAAAAAIEHBAAA        
+ c_salutation     | Miss                    
+ c_first_name     | Tamara                  
+ c_last_name      | Chestnut                
+ ca_street_number | 934                     
+ ca_street_name   | 13th Cherry             
+ ca_street_type   | Blvd                    
+ ca_suite_number  | Suite O Antioch         
+ ca_city          | Haralson County         
+ ca_county        | GA 38605 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 1639.26                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 6-----------------------------------
+ c_customer_id    | AAAAAAAAAJLNAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Sheree                  
+ c_last_name      | Bragg                   
+ ca_street_number | 664                     
+ ca_street_name   | Elm 4th                 
+ ca_street_type   | Ave                     
+ ca_suite_number  | Suite 320 Glenwood      
+ ca_city          | McDuffie County         
+ ca_county        | GA 33511 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 3012.45                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 7-----------------------------------
+ c_customer_id    | AAAAAAAAAJNEBAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | David                   
+ c_last_name      | Hamilton                
+ ca_street_number | 108                     
+ ca_street_name   | Spring Wilson           
+ ca_street_type   | Ct.                     
+ ca_suite_number  | Suite F Glenwood        
+ ca_city          | Macon County            
+ ca_county        | GA 33511 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 2567.79                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 8-----------------------------------
+ c_customer_id    | AAAAAAAAAKJOAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Gus                     
+ c_last_name      | Stewart                 
+ ca_street_number | 883                     
+ ca_street_name   | Valley                  
+ ca_street_type   | Drive                   
+ ca_suite_number  | Suite J Macedonia       
+ ca_city          | Lanier County           
+ ca_county        | GA 31087 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 3530.28                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 9-----------------------------------
+ c_customer_id    | AAAAAAAAAMFBBAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Jackson                 
+ c_last_name      | null                    
+ ca_street_number | 177                     
+ ca_street_name   | 8th Walnut              
+ ca_street_type   | Ct.                     
+ ca_suite_number  | Suite 300 Riverview     
+ ca_city          | Jenkins County          
+ ca_county        | GA 39003 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 4875.86                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 10----------------------------------
+ c_customer_id    | AAAAAAAAAMPKAAAA        
+ c_salutation     | Ms.                     
+ c_first_name     | Elizabeth               
+ c_last_name      | Booth                   
+ ca_street_number | 344                     
+ ca_street_name   | Jackson North           
+ ca_street_type   | Drive                   
+ ca_suite_number  | Suite 100 Woodville     
+ ca_city          | Fayette County          
+ ca_county        | GA 34289 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 2372.6                  
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 11----------------------------------
+ c_customer_id    | AAAAAAAAANCLAAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Raymond                 
+ c_last_name      | Dixon                   
+ ca_street_number | 189                     
+ ca_street_name   | Jackson 7th             
+ ca_street_type   | Parkway                 
+ ca_suite_number  | Suite 360 Lakewood      
+ ca_city          | Dade County             
+ ca_county        | GA 38877 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 4655.74                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 12----------------------------------
+ c_customer_id    | AAAAAAAAANJIAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Dennis                  
+ c_last_name      | Roper                   
+ ca_street_number | 600                     
+ ca_street_name   | Walnut                  
+ ca_street_type   | Pkwy                    
+ ca_suite_number  | Suite 140 Plainview     
+ ca_city          | Barrow County           
+ ca_county        | GA 33683 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 3500.4                  
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 13----------------------------------
+ c_customer_id    | AAAAAAAAANLABAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Thomas                  
+ c_last_name      | Zimmerman               
+ ca_street_number | 496                     
+ ca_street_name   | Forest                  
+ ca_street_type   | ST                      
+ ca_suite_number  | Suite L Saratoga        
+ ca_city          | Lumpkin County          
+ ca_county        | GA 32123 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 9193.95                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 14----------------------------------
+ c_customer_id    | AAAAAAAAAODFAAAA        
+ c_salutation     | Mrs.                    
+ c_first_name     | Kathy                   
+ c_last_name      | Villegas                
+ ca_street_number | 156                     
+ ca_street_name   | 4th Sunset              
+ ca_street_type   | Cir.                    
+ ca_suite_number  | Suite I Red Hill        
+ ca_city          | Appling County          
+ ca_county        | GA 34338 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 2106                    
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 15----------------------------------
+ c_customer_id    | AAAAAAAAAOEBBAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Benjamin                
+ c_last_name      | Parker                  
+ ca_street_number | 698                     
+ ca_street_name   | 6th                     
+ ca_street_type   | Drive                   
+ ca_suite_number  | Suite O Plainview       
+ ca_city          | Screven County          
+ ca_county        | GA 33683 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 3891.38                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 16----------------------------------
+ c_customer_id    | AAAAAAAAAOEBBAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Benjamin                
+ c_last_name      | Parker                  
+ ca_street_number | 698                     
+ ca_street_name   | 6th                     
+ ca_street_type   | Drive                   
+ ca_suite_number  | Suite O Plainview       
+ ca_city          | Screven County          
+ ca_county        | GA 33683 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 9787.55                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 17----------------------------------
+ c_customer_id    | AAAAAAAAAPBBBAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Donald                  
+ c_last_name      | Littlejohn              
+ ca_street_number | 467                     
+ ca_street_name   | Lake                    
+ ca_street_type   | Ln                      
+ ca_suite_number  | Suite 20 Riverside      
+ ca_city          | Turner County           
+ ca_county        | GA 39231 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 4831.52                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 18----------------------------------
+ c_customer_id    | AAAAAAAABABBBAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | David                   
+ c_last_name      | Roe                     
+ ca_street_number | 521                     
+ ca_street_name   | Jefferson               
+ ca_street_type   | Parkway                 
+ ca_suite_number  | Suite 120 Enterprise    
+ ca_city          | Wilcox County           
+ ca_county        | GA 31757 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 4079.8                  
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 19----------------------------------
+ c_customer_id    | AAAAAAAABAJHAAAA        
+ c_salutation     | Mrs.                    
+ c_first_name     | Doris                   
+ c_last_name      | Gillespie               
+ ca_street_number | 179                     
+ ca_street_name   | Washington Chestnut     
+ ca_street_type   | Dr.                     
+ ca_suite_number  | Suite W Jackson         
+ ca_city          | Columbia County         
+ ca_county        | GA 39583 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 4617.58                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 20----------------------------------
+ c_customer_id    | AAAAAAAABANGBAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Ralph                   
+ c_last_name      | Condon                  
+ ca_street_number | 755                     
+ ca_street_name   | Davis                   
+ ca_street_type   | Blvd                    
+ ca_suite_number  | Suite 280 Antioch       
+ ca_city          | Pike County             
+ ca_county        | GA 38605 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 14966.24                
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 21----------------------------------
+ c_customer_id    | AAAAAAAABBHKAAAA        
+ c_salutation     | Mrs.                    
+ c_first_name     | Kristin                 
+ c_last_name      | Grant                   
+ ca_street_number | 870                     
+ ca_street_name   | Ash Park                
+ ca_street_type   | Ave                     
+ ca_suite_number  | Suite 300 Lakeview      
+ ca_city          | Harris County           
+ ca_county        | GA 38579 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 3580.44                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 22----------------------------------
+ c_customer_id    | AAAAAAAABBOBBAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Herman                  
+ c_last_name      | Rivera                  
+ ca_street_number | 396                     
+ ca_street_name   | Walnut                  
+ ca_street_type   | Cir.                    
+ ca_suite_number  | Suite P Athens          
+ ca_city          | Baldwin County          
+ ca_county        | GA 36796 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 4608.96                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 23----------------------------------
+ c_customer_id    | AAAAAAAABCAOAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Brenda                  
+ c_last_name      | Bell                    
+ ca_street_number | 562                     
+ ca_street_name   | 7th Park                
+ ca_street_type   | Road                    
+ ca_suite_number  | Suite 320 Edgewood      
+ ca_city          | Troup County            
+ ca_county        | GA 30069 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 3721.03                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 24----------------------------------
+ c_customer_id    | AAAAAAAABCIMAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Becky                   
+ c_last_name      | Seals                   
+ ca_street_number | 174                     
+ ca_street_name   | Park Park               
+ ca_street_type   | Ct.                     
+ ca_suite_number  | Suite H Green Acres     
+ ca_city          | Schley County           
+ ca_county        | GA 37683 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 2980.15                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 25----------------------------------
+ c_customer_id    | AAAAAAAABDHFAAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Charles                 
+ c_last_name      | Miller                  
+ ca_street_number | 531                     
+ ca_street_name   | Church 14th             
+ ca_street_type   | Circle                  
+ ca_suite_number  | Suite 60 Ashland        
+ ca_city          | Franklin County         
+ ca_county        | GA 34244 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 3241.85                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 26----------------------------------
+ c_customer_id    | AAAAAAAABEHABAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Gregory                 
+ c_last_name      | null                    
+ ca_street_number | 391                     
+ ca_street_name   | Seventh                 
+ ca_street_type   | Road                    
+ ca_suite_number  | Suite Q Oakwood         
+ ca_city          | Liberty County          
+ ca_county        | GA 30169 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 3520.33                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 27----------------------------------
+ c_customer_id    | AAAAAAAABGDGBAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Brian                   
+ c_last_name      | Adams                   
+ ca_street_number | 915                     
+ ca_street_name   | Jackson                 
+ ca_street_type   | RD                      
+ ca_suite_number  | Suite O Concord         
+ ca_city          | Columbia County         
+ ca_county        | GA 34107 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 2912.27                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 28----------------------------------
+ c_customer_id    | AAAAAAAABGLCBAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Joseph                  
+ c_last_name      | Torres                  
+ ca_street_number | 103                     
+ ca_street_name   | Highland 7th            
+ ca_street_type   | Court                   
+ ca_suite_number  | Suite I Wilson          
+ ca_city          | Jenkins County          
+ ca_county        | GA 36971 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 1842.89                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 29----------------------------------
+ c_customer_id    | AAAAAAAABHOFAAAA        
+ c_salutation     | Ms.                     
+ c_first_name     | Anthony                 
+ c_last_name      | null                    
+ ca_street_number | 518                     
+ ca_street_name   | Meadow Smith            
+ ca_street_type   | Ct.                     
+ ca_suite_number  | Suite C Riverdale       
+ ca_city          | Bleckley County         
+ ca_county        | GA 39391 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 1878.44                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 30----------------------------------
+ c_customer_id    | AAAAAAAABIMMAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Shanna                  
+ c_last_name      | Mcrae                   
+ ca_street_number | 764                     
+ ca_street_name   | Walnut                  
+ ca_street_type   | Street                  
+ ca_suite_number  | Suite B Brownsville     
+ ca_city          | Lumpkin County          
+ ca_county        | GA 39310 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 7237.05                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 31----------------------------------
+ c_customer_id    | AAAAAAAABINIAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Jose                    
+ c_last_name      | Reynolds                
+ ca_street_number | 571                     
+ ca_street_name   | Main                    
+ ca_street_type   | Ave                     
+ ca_suite_number  | Suite B Mount Zion      
+ ca_city          | Troup County            
+ ca_county        | GA 38054 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 2463.65                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 32----------------------------------
+ c_customer_id    | AAAAAAAABJMEAAAA        
+ c_salutation     | Miss                    
+ c_first_name     | Deborah                 
+ c_last_name      | Sheehan                 
+ ca_street_number | 450                     
+ ca_street_name   | Willow                  
+ ca_street_type   | Cir.                    
+ ca_suite_number  | Suite G Marion          
+ ca_city          | Franklin County         
+ ca_county        | GA 30399 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 6623.88                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 33----------------------------------
+ c_customer_id    | AAAAAAAABKAIAAAA        
+ c_salutation     | Miss                    
+ c_first_name     | Ruth                    
+ c_last_name      | Rodriguez               
+ ca_street_number | 706                     
+ ca_street_name   | Williams                
+ ca_street_type   | Pkwy                    
+ ca_suite_number  | Suite Y Antioch         
+ ca_city          | Lanier County           
+ ca_county        | GA 38605 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 3025.05                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 34----------------------------------
+ c_customer_id    | AAAAAAAABMBLAAAA        
+ c_salutation     | Ms.                     
+ c_first_name     | Ava                     
+ c_last_name      | Jackson                 
+ ca_street_number | 601                     
+ ca_street_name   | Fourth Washington       
+ ca_street_type   | Way                     
+ ca_suite_number  | Suite 440 Glendale      
+ ca_city          | Cherokee County         
+ ca_county        | GA 33951 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 1637.46                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 35----------------------------------
+ c_customer_id    | AAAAAAAABMBLAAAA        
+ c_salutation     | Ms.                     
+ c_first_name     | Ava                     
+ c_last_name      | Jackson                 
+ ca_street_number | 601                     
+ ca_street_name   | Fourth Washington       
+ ca_street_type   | Way                     
+ ca_suite_number  | Suite 440 Glendale      
+ ca_city          | Cherokee County         
+ ca_county        | GA 33951 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 2373.14                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 36----------------------------------
+ c_customer_id    | AAAAAAAABMFDAAAA        
+ c_salutation     | Mrs.                    
+ c_first_name     | Megan                   
+ c_last_name      | Webster                 
+ ca_street_number | 124                     
+ ca_street_name   | 11th                    
+ ca_street_type   | Pkwy                    
+ ca_suite_number  | Suite K Shady Grove     
+ ca_city          | Miller County           
+ ca_county        | GA 32812 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 3059.27                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 37----------------------------------
+ c_customer_id    | AAAAAAAABNMGBAAA        
+ c_salutation     | Mrs.                    
+ c_first_name     | Wanda                   
+ c_last_name      | Shumate                 
+ ca_street_number | 422                     
+ ca_street_name   | Pine 3rd                
+ ca_street_type   | Cir.                    
+ ca_suite_number  | Suite 170 Crossroads    
+ ca_city          | Berrien County          
+ ca_county        | GA 30534 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 1699.41                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 38----------------------------------
+ c_customer_id    | AAAAAAAABNMIAAAA        
+ c_salutation     | Miss                    
+ c_first_name     | Bobbi                   
+ c_last_name      | Erickson                
+ ca_street_number | 731                     
+ ca_street_name   | Jefferson               
+ ca_street_type   | Parkway                 
+ ca_suite_number  | Suite H Mountain View   
+ ca_city          | Taylor County           
+ ca_county        | GA 34466 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 2925.34                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 39----------------------------------
+ c_customer_id    | AAAAAAAABOAPAAAA        
+ c_salutation     | Ms.                     
+ c_first_name     | Karen                   
+ c_last_name      | Burt                    
+ ca_street_number | 794                     
+ ca_street_name   | Sunset Sunset           
+ ca_street_type   | Drive                   
+ ca_suite_number  | Suite 470 Glendale      
+ ca_city          | Calhoun County          
+ ca_county        | GA 33951 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 8807.07                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 40----------------------------------
+ c_customer_id    | AAAAAAAABOCDBAAA        
+ c_salutation     | Ms.                     
+ c_first_name     | Flora                   
+ c_last_name      | Messer                  
+ ca_street_number | 608                     
+ ca_street_name   | 10th                    
+ ca_street_type   | Court                   
+ ca_suite_number  | Suite A Highland Park   
+ ca_city          | Dooly County            
+ ca_county        | GA 36534 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 3255.56                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 41----------------------------------
+ c_customer_id    | AAAAAAAABPIMAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Steve                   
+ c_last_name      | Cano                    
+ ca_street_number | 711                     
+ ca_street_name   | Park                    
+ ca_street_type   | Ln                      
+ ca_suite_number  | Suite N Smith           
+ ca_city          | Gwinnett County         
+ ca_county        | GA 37317 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 2086.39                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 42----------------------------------
+ c_customer_id    | AAAAAAAACABFAAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Steven                  
+ c_last_name      | Lamb                    
+ ca_street_number | 726                     
+ ca_street_name   | Cherry Hill             
+ ca_street_type   | ST                      
+ ca_suite_number  | Suite E Woodville       
+ ca_city          | Worth County            
+ ca_county        | GA 34289 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 2361.71                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 43----------------------------------
+ c_customer_id    | AAAAAAAACBDDAAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Terry                   
+ c_last_name      | Seiler                  
+ ca_street_number | 960                     
+ ca_street_name   | Eigth                   
+ ca_street_type   | Way                     
+ ca_suite_number  | Suite 240 Mountain View 
+ ca_city          | Putnam County           
+ ca_county        | GA 34466 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 3222.09                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 44----------------------------------
+ c_customer_id    | AAAAAAAACCBOAAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Patrick                 
+ c_last_name      | Miller                  
+ ca_street_number | 577                     
+ ca_street_name   | Church                  
+ ca_street_type   | Ave                     
+ ca_suite_number  | Suite 110 Bethel        
+ ca_city          | White County            
+ ca_county        | GA 35281 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 2927.35                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 45----------------------------------
+ c_customer_id    | AAAAAAAACDOPAAAA        
+ c_salutation     | Mrs.                    
+ c_first_name     | Carolyn                 
+ c_last_name      | Singer                  
+ ca_street_number | 399                     
+ ca_street_name   | Second                  
+ ca_street_type   | Boulevard               
+ ca_suite_number  | Suite O White Oak       
+ ca_city          | Wayne County            
+ ca_county        | GA 36668 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 4011.31                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 46----------------------------------
+ c_customer_id    | AAAAAAAACFADBAAA        
+ c_salutation     | null                    
+ c_first_name     | %                       
+ c_last_name      | %                       
+ ca_street_number | 502                     
+ ca_street_name   | Willow Park             
+ ca_street_type   | Cir.                    
+ ca_suite_number  | Suite E Dewey           
+ ca_city          | Colquitt County         
+ ca_county        | GA 31160 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 3732.03                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 47----------------------------------
+ c_customer_id    | AAAAAAAACIHABAAA        
+ c_salutation     | Ms.                     
+ c_first_name     | Arlene                  
+ c_last_name      | Baker                   
+ ca_street_number | 216                     
+ ca_street_name   | Maple Walnut            
+ ca_street_type   | Ave                     
+ ca_suite_number  | Suite 310 Greenfield    
+ ca_city          | Glascock County         
+ ca_county        | GA 35038 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 2857.28                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 48----------------------------------
+ c_customer_id    | AAAAAAAACJCHAAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Wilbur                  
+ c_last_name      | Mullins                 
+ ca_street_number | 119                     
+ ca_street_name   | Eigth                   
+ ca_street_type   | Dr.                     
+ ca_suite_number  | Suite W Fairview        
+ ca_city          | Wilkes County           
+ ca_county        | GA 35709 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 4861.83                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 49----------------------------------
+ c_customer_id    | AAAAAAAACJJKAAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Ramon                   
+ c_last_name      | Zaragoza                
+ ca_street_number | 934                     
+ ca_street_name   | Park                    
+ ca_street_type   | Lane                    
+ ca_suite_number  | Suite K Lakewood        
+ ca_city          | Muscogee County         
+ ca_county        | GA 38877 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 9022.65                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 50----------------------------------
+ c_customer_id    | AAAAAAAACKHEAAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Richard                 
+ c_last_name      | Leblanc                 
+ ca_street_number | 18                      
+ ca_street_name   | Green View              
+ ca_street_type   | Court                   
+ ca_suite_number  | Suite J Woodville       
+ ca_city          | Butts County            
+ ca_county        | GA 34289 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 3787.49                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 51----------------------------------
+ c_customer_id    | AAAAAAAACODJAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Neal                    
+ c_last_name      | Nash                    
+ ca_street_number | 95                      
+ ca_street_name   | null                    
+ ca_street_type   | Street                  
+ ca_suite_number  | Suite 110 Spring Hill   
+ ca_city          | Murray County           
+ ca_county        | GA 36787 %              
+ ca_state         | -5.00                   
+ ca_zip           | %                       
+ ca_country       | 2144.31                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 52----------------------------------
+ c_customer_id    | AAAAAAAACOFIBAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Fred                    
+ c_last_name      | Morales                 
+ ca_street_number | 687                     
+ ca_street_name   | 5th Park                
+ ca_street_type   | Cir.                    
+ ca_suite_number  | Suite X Fairview        
+ ca_city          | Murray County           
+ ca_county        | GA 35709 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 1936.7                  
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 53----------------------------------
+ c_customer_id    | AAAAAAAACOHIAAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Roger                   
+ c_last_name      | Grider                  
+ ca_street_number | 191                     
+ ca_street_name   | Williams Second         
+ ca_street_type   | Avenue                  
+ ca_suite_number  | Suite 420 Brownsville   
+ ca_city          | Coweta County           
+ ca_county        | GA 39310 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 5782.43                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 54----------------------------------
+ c_customer_id    | AAAAAAAACPBABAAA        
+ c_salutation     | Miss                    
+ c_first_name     | Lucile                  
+ c_last_name      | Anderson                
+ ca_street_number | 149                     
+ ca_street_name   | View Williams           
+ ca_street_type   | Ct.                     
+ ca_suite_number  | Suite L Mount Pleasant  
+ ca_city          | Washington County       
+ ca_county        | GA 31933 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 2600.59                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 55----------------------------------
+ c_customer_id    | AAAAAAAADANFBAAA        
+ c_salutation     | Mrs.                    
+ c_first_name     | Ann                     
+ c_last_name      | Nadeau                  
+ ca_street_number | 247                     
+ ca_street_name   | Maple                   
+ ca_street_type   | Avenue                  
+ ca_suite_number  | Suite 260 Hamilton      
+ ca_city          | Elbert County           
+ ca_county        | GA 32808 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 4103.32                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 56----------------------------------
+ c_customer_id    | AAAAAAAADBAHAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Lucille                 
+ c_last_name      | Hill                    
+ ca_street_number | 668                     
+ ca_street_name   | West Laurel             
+ ca_street_type   | Pkwy                    
+ ca_suite_number  | Suite M Mount Olive     
+ ca_city          | Quitman County          
+ ca_county        | GA 38059 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 2033.22                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 57----------------------------------
+ c_customer_id    | AAAAAAAADBEIBAAA        
+ c_salutation     | Miss                    
+ c_first_name     | Erica                   
+ c_last_name      | Hill                    
+ ca_street_number | 396                     
+ ca_street_name   | Maple Johnson           
+ ca_street_type   | Avenue                  
+ ca_suite_number  | Suite R Crossroads      
+ ca_city          | Hall County             
+ ca_county        | GA 30534 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 4500.01                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 58----------------------------------
+ c_customer_id    | AAAAAAAADBEOAAAA        
+ c_salutation     | Miss                    
+ c_first_name     | Loretta                 
+ c_last_name      | Smith                   
+ ca_street_number | 149                     
+ ca_street_name   | Maple                   
+ ca_street_type   | ST                      
+ ca_suite_number  | Suite 350 Fairview      
+ ca_city          | Cherokee County         
+ ca_county        | GA 35709 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 3810.28                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 59----------------------------------
+ c_customer_id    | AAAAAAAADBFHBAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Charles                 
+ c_last_name      | Robinson                
+ ca_street_number | 731                     
+ ca_street_name   | Ridge                   
+ ca_street_type   | Lane                    
+ ca_suite_number  | Suite 160 New Hope      
+ ca_city          | Bartow County           
+ ca_county        | GA 39431 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 4042.46                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 60----------------------------------
+ c_customer_id    | AAAAAAAADCAEAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Joanna                  
+ c_last_name      | Walker                  
+ ca_street_number | 665                     
+ ca_street_name   | 15th Maple              
+ ca_street_type   | Avenue                  
+ ca_suite_number  | Suite Y Camden          
+ ca_city          | McDuffie County         
+ ca_county        | GA 37119 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 4067.57                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 61----------------------------------
+ c_customer_id    | AAAAAAAADCLBAAAA        
+ c_salutation     | Mrs.                    
+ c_first_name     | Evelyn                  
+ c_last_name      | Hammett                 
+ ca_street_number | 302                     
+ ca_street_name   | 1st Adams               
+ ca_street_type   | Cir.                    
+ ca_suite_number  | Suite 370 Five Points   
+ ca_city          | Pulaski County          
+ ca_county        | GA 36098 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 2187.12                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 62----------------------------------
+ c_customer_id    | AAAAAAAADDENAAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Alejandro               
+ c_last_name      | Doyle                   
+ ca_street_number | 916                     
+ ca_street_name   | Cherry Elm              
+ ca_street_type   | ST                      
+ ca_suite_number  | Suite 110 Providence    
+ ca_city          | Clay County             
+ ca_county        | GA 36614 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 3357.92                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 63----------------------------------
+ c_customer_id    | AAAAAAAADEGFAAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Jesse                   
+ c_last_name      | Johnson                 
+ ca_street_number | 725                     
+ ca_street_name   | Laurel First            
+ ca_street_type   | Parkway                 
+ ca_suite_number  | Suite O Pleasant Valley 
+ ca_city          | Candler County          
+ ca_county        | GA 32477 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 4969.77                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 64----------------------------------
+ c_customer_id    | AAAAAAAADGCCAAAA        
+ c_salutation     | Miss                    
+ c_first_name     | Loretta                 
+ c_last_name      | Moss                    
+ ca_street_number | 274                     
+ ca_street_name   | 3rd Walnut              
+ ca_street_type   | Ave                     
+ ca_suite_number  | Suite L Arlington       
+ ca_city          | Lee County              
+ ca_county        | GA 36557 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 1891.74                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 65----------------------------------
+ c_customer_id    | AAAAAAAADHFLAAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | George                  
+ c_last_name      | Schneider               
+ ca_street_number | 579                     
+ ca_street_name   | Johnson Ash             
+ ca_street_type   | Way                     
+ ca_suite_number  | Suite 110 Concord       
+ ca_city          | Seminole County         
+ ca_county        | GA 34107 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 4011.59                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 66----------------------------------
+ c_customer_id    | AAAAAAAADHOIAAAA        
+ c_salutation     | Miss                    
+ c_first_name     | Andrew                  
+ c_last_name      | James                   
+ ca_street_number | 139                     
+ ca_street_name   | Smith Lincoln           
+ ca_street_type   | Lane                    
+ ca_suite_number  | Suite 360 Stringtown    
+ ca_city          | Coweta County           
+ ca_county        | GA 30162 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 2834.91                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 67----------------------------------
+ c_customer_id    | AAAAAAAADJABAAAA        
+ c_salutation     | Mrs.                    
+ c_first_name     | Charity                 
+ c_last_name      | Arroyo                  
+ ca_street_number | 158                     
+ ca_street_name   | Highland Elm            
+ ca_street_type   | Ln                      
+ ca_suite_number  | Suite K Woodland        
+ ca_city          | Pickens County          
+ ca_county        | GA 34854 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 2443.75                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 68----------------------------------
+ c_customer_id    | AAAAAAAADJJMAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Joseph                  
+ c_last_name      | Burns                   
+ ca_street_number | 339                     
+ ca_street_name   | 12th                    
+ ca_street_type   | Blvd                    
+ ca_suite_number  | Suite S Hamilton        
+ ca_city          | Banks County            
+ ca_county        | GA 32808 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 2670.84                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 69----------------------------------
+ c_customer_id    | AAAAAAAADJODAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Larry                   
+ c_last_name      | Phillips                
+ ca_street_number | 612                     
+ ca_street_name   | Mill Church             
+ ca_street_type   | Blvd                    
+ ca_suite_number  | Suite 0 Sunnyside       
+ ca_city          | Fannin County           
+ ca_county        | GA 31952 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 7260.82                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 70----------------------------------
+ c_customer_id    | AAAAAAAADKKGAAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Robert                  
+ c_last_name      | Patrick                 
+ ca_street_number | 638                     
+ ca_street_name   | Fourth                  
+ ca_street_type   | Cir.                    
+ ca_suite_number  | Suite 250 Lebanon       
+ ca_city          | Clay County             
+ ca_county        | GA 32898 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 9049.72                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 71----------------------------------
+ c_customer_id    | AAAAAAAADMDHAAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Samuel                  
+ c_last_name      | Wells                   
+ ca_street_number | 877                     
+ ca_street_name   | Highland East           
+ ca_street_type   | Road                    
+ ca_suite_number  | Suite I Valley View     
+ ca_city          | Bartow County           
+ ca_county        | GA 35124 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 4490.95                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 72----------------------------------
+ c_customer_id    | AAAAAAAADNIBBAAA        
+ c_salutation     | Miss                    
+ c_first_name     | Sharon                  
+ c_last_name      | Prince                  
+ ca_street_number | 955                     
+ ca_street_name   | Walnut Ridge            
+ ca_street_type   | Boulevard               
+ ca_suite_number  | Suite W Cedar Grove     
+ ca_city          | Troup County            
+ ca_county        | GA 30411 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 2158.11                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 73----------------------------------
+ c_customer_id    | AAAAAAAADNOGBAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | David                   
+ c_last_name      | Lofton                  
+ ca_street_number | 327                     
+ ca_street_name   | 11th Central            
+ ca_street_type   | Parkway                 
+ ca_suite_number  | Suite D White Oak       
+ ca_city          | Glynn County            
+ ca_county        | GA 36668 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 1971.52                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 74----------------------------------
+ c_customer_id    | AAAAAAAADOBCBAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Benjamin                
+ c_last_name      | Pham                    
+ ca_street_number | 300                     
+ ca_street_name   | Willow Sycamore         
+ ca_street_type   | Blvd                    
+ ca_suite_number  | Suite 380 Liberty       
+ ca_city          | Twiggs County           
+ ca_county        | GA 33451 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 1787.84                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 75----------------------------------
+ c_customer_id    | AAAAAAAADOFNAAAA        
+ c_salutation     | Mrs.                    
+ c_first_name     | Sebrina                 
+ c_last_name      | Jacobs                  
+ ca_street_number | 611                     
+ ca_street_name   | Center                  
+ ca_street_type   | Avenue                  
+ ca_suite_number  | Suite 210 Glenwood      
+ ca_city          | Ware County             
+ ca_county        | GA 33511 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 5738.75                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 76----------------------------------
+ c_customer_id    | AAAAAAAAEAFJAAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Gregory                 
+ c_last_name      | Quigley                 
+ ca_street_number | 932                     
+ ca_street_name   | Maple                   
+ ca_street_type   | Avenue                  
+ ca_suite_number  | Suite 300 Glendale      
+ ca_city          | Butts County            
+ ca_county        | GA 33951 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 2621.58                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 77----------------------------------
+ c_customer_id    | AAAAAAAAEAJGBAAA        
+ c_salutation     | Miss                    
+ c_first_name     | Helen                   
+ c_last_name      | Flora                   
+ ca_street_number | 38                      
+ ca_street_name   | Park                    
+ ca_street_type   | Circle                  
+ ca_suite_number  | Suite 360 Florence      
+ ca_city          | Pike County             
+ ca_county        | GA 33394 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 2804.13                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 78----------------------------------
+ c_customer_id    | AAAAAAAAEBDFAAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Ed                      
+ c_last_name      | Chavis                  
+ ca_street_number | 276                     
+ ca_street_name   | Pine Hill               
+ ca_street_type   | Boulevard               
+ ca_suite_number  | Suite 150 Shiloh        
+ ca_city          | Lincoln County          
+ ca_county        | GA 39275 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 1800.04                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 79----------------------------------
+ c_customer_id    | AAAAAAAAECIHAAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Gilberto                
+ c_last_name      | Mcdonald                
+ ca_street_number | 615                     
+ ca_street_name   | 10th                    
+ ca_street_type   | Blvd                    
+ ca_suite_number  | Suite 150 Oakdale       
+ ca_city          | Glynn County            
+ ca_county        | GA 39584 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 6023.68                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 80----------------------------------
+ c_customer_id    | AAAAAAAAECOGBAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | David                   
+ c_last_name      | Lamb                    
+ ca_street_number | 436                     
+ ca_street_name   | Second Elm              
+ ca_street_type   | Way                     
+ ca_suite_number  | Suite 30 Green Acres    
+ ca_city          | Laurens County          
+ ca_county        | GA 37683 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 4778.71                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 81----------------------------------
+ c_customer_id    | AAAAAAAAEDOAAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | null                    
+ c_last_name      | Finley                  
+ ca_street_number | 899                     
+ ca_street_name   | Willow Pine             
+ ca_street_type   | ST                      
+ ca_suite_number  | Suite 160 Clinton       
+ ca_city          | Peach County            
+ ca_county        | GA 38222 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 18954.78                
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 82----------------------------------
+ c_customer_id    | AAAAAAAAEEFEBAAA        
+ c_salutation     | Mr.                     
+ c_first_name     | Gordon                  
+ c_last_name      | Lee                     
+ ca_street_number | 444                     
+ ca_street_name   | Park Jackson            
+ ca_street_type   | Boulevard               
+ ca_suite_number  | Suite 150 Kingston      
+ ca_city          | Mitchell County         
+ ca_county        | GA 34975 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 2499.41                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 83----------------------------------
+ c_customer_id    | AAAAAAAAEFMHBAAA        
+ c_salutation     | Ms.                     
+ c_first_name     | Anne                    
+ c_last_name      | Busby                   
+ ca_street_number | 724                     
+ ca_street_name   | Second                  
+ ca_street_type   | ST                      
+ ca_suite_number  | Suite 20 Union Hill     
+ ca_city          | Pulaski County          
+ ca_county        | GA 37746 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 2866.95                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 84----------------------------------
+ c_customer_id    | AAAAAAAAEGOJAAAA        
+ c_salutation     | Miss                    
+ c_first_name     | Caroline                
+ c_last_name      | Miller                  
+ ca_street_number | 719                     
+ ca_street_name   | Smith                   
+ ca_street_type   | RD                      
+ ca_suite_number  | Suite M Empire          
+ ca_city          | Oglethorpe County       
+ ca_county        | GA 34145 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 7530.99                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 85----------------------------------
+ c_customer_id    | AAAAAAAAEHCIAAAA        
+ c_salutation     | Ms.                     
+ c_first_name     | Laura                   
+ c_last_name      | Wright                  
+ ca_street_number | 816                     
+ ca_street_name   | Main                    
+ ca_street_type   | Ln                      
+ ca_suite_number  | Suite 300 Sunnyside     
+ ca_city          | Emanuel County          
+ ca_county        | GA 31952 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 2767.59                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 86----------------------------------
+ c_customer_id    | AAAAAAAAEHPBAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Paula                   
+ c_last_name      | Bearden                 
+ ca_street_number | 932                     
+ ca_street_name   | Williams Forest         
+ ca_street_type   | Ln                      
+ ca_suite_number  | Suite 10 Allentown      
+ ca_city          | Long County             
+ ca_county        | GA 31838 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 12021.15                
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 87----------------------------------
+ c_customer_id    | AAAAAAAAEJFNAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Chad                    
+ c_last_name      | Baldwin                 
+ ca_street_number | 404                     
+ ca_street_name   | Cedar                   
+ ca_street_type   | Ct.                     
+ ca_suite_number  | Suite Y Enterprise      
+ ca_city          | Treutlen County         
+ ca_county        | GA 31757 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 1737.56                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 88----------------------------------
+ c_customer_id    | AAAAAAAAEJJDAAAA        
+ c_salutation     | Ms.                     
+ c_first_name     | Katherine               
+ c_last_name      | Hernandez               
+ ca_street_number | 741                     
+ ca_street_name   | Park Jefferson          
+ ca_street_type   | ST                      
+ ca_suite_number  | Suite 270 Oak Ridge     
+ ca_city          | McIntosh County         
+ ca_county        | GA 38371 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 6714.64                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 89----------------------------------
+ c_customer_id    | AAAAAAAAEKGABAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Steven                  
+ c_last_name      | Thurman                 
+ ca_street_number | 638                     
+ ca_street_name   | Park Green              
+ ca_street_type   | Ct.                     
+ ca_suite_number  | Suite 270 Lakeside      
+ ca_city          | Wayne County            
+ ca_county        | GA 39532 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 1662.14                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 90----------------------------------
+ c_customer_id    | AAAAAAAAEKJGBAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Kurt                    
+ c_last_name      | Jenkins                 
+ ca_street_number | 656                     
+ ca_street_name   | 8th                     
+ ca_street_type   | Dr.                     
+ ca_suite_number  | Suite E Franklin        
+ ca_city          | Heard County            
+ ca_county        | GA 39101 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 1607.08                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 91----------------------------------
+ c_customer_id    | AAAAAAAAELCGBAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Harold                  
+ c_last_name      | Randolph                
+ ca_street_number | 535                     
+ ca_street_name   | Lee                     
+ ca_street_type   | RD                      
+ ca_suite_number  | Suite 160 Sutton        
+ ca_city          | Bacon County            
+ ca_county        | GA 35413 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 4737.51                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 92----------------------------------
+ c_customer_id    | AAAAAAAAELJAAAAA        
+ c_salutation     | Miss                    
+ c_first_name     | Gwendolyn               
+ c_last_name      | Johnson                 
+ ca_street_number | 482                     
+ ca_street_name   | Sunset Spring           
+ ca_street_type   | Ave                     
+ ca_suite_number  | Suite J Mount Olive     
+ ca_city          | Madison County          
+ ca_county        | GA 38059 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 7387.08                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 93----------------------------------
+ c_customer_id    | AAAAAAAAENFHBAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Janice                  
+ c_last_name      | Ojeda                   
+ ca_street_number | 127                     
+ ca_street_name   | Williams 5th            
+ ca_street_type   | Ave                     
+ ca_suite_number  | Suite 280 Walnut Grove  
+ ca_city          | Burke County            
+ ca_county        | GA 37752 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 4838.93                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 94----------------------------------
+ c_customer_id    | AAAAAAAAEOBHAAAA        
+ c_salutation     | Miss                    
+ c_first_name     | Janet                   
+ c_last_name      | Mcculloch               
+ ca_street_number | 379                     
+ ca_street_name   | Spring Eigth            
+ ca_street_type   | Street                  
+ ca_suite_number  | Suite R Cedar Grove     
+ ca_city          | Wilcox County           
+ ca_county        | GA 30411 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 7581.2                  
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 95----------------------------------
+ c_customer_id    | AAAAAAAAEOGGAAAA        
+ c_salutation     | Sir                     
+ c_first_name     | Christopher             
+ c_last_name      | Garrett                 
+ ca_street_number | 308                     
+ ca_street_name   | Broadway 4th            
+ ca_street_type   | Lane                    
+ ca_suite_number  | Suite 360 Sunnyside     
+ ca_city          | Coffee County           
+ ca_county        | GA 31952 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 3279.85                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 96----------------------------------
+ c_customer_id    | AAAAAAAAEPBDBAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Curtis                  
+ c_last_name      | Briscoe                 
+ ca_street_number | 142                     
+ ca_street_name   | Meadow                  
+ ca_street_type   | Road                    
+ ca_suite_number  | Suite 460 Woodville     
+ ca_city          | Montgomery County       
+ ca_county        | GA 34289 United States  
+ ca_state         | -5.00                   
+ ca_zip           | single family           
+ ca_country       | 5239.12                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 97----------------------------------
+ c_customer_id    | AAAAAAAAFAHCAAAA        
+ c_salutation     | Ms.                     
+ c_first_name     | Anna                    
+ c_last_name      | Koch                    
+ ca_street_number | 482                     
+ ca_street_name   | Sunset Spring           
+ ca_street_type   | Ave                     
+ ca_suite_number  | Suite J Mount Olive     
+ ca_city          | Madison County          
+ ca_county        | GA 38059 United States  
+ ca_state         | -5.00                   
+ ca_zip           | apartment               
+ ca_country       | 1858.37                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 98----------------------------------
+ c_customer_id    | AAAAAAAAFANDAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Daniel                  
+ c_last_name      | Wilson                  
+ ca_street_number | 586                     
+ ca_street_name   | Pine Cherry             
+ ca_street_type   | Street                  
+ ca_suite_number  | Suite U Deerfield       
+ ca_city          | Muscogee County         
+ ca_county        | GA 39840 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 2774.69                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null                    
+-RECORD 99----------------------------------
+ c_customer_id    | AAAAAAAAFANDAAAA        
+ c_salutation     | Dr.                     
+ c_first_name     | Daniel                  
+ c_last_name      | Wilson                  
+ ca_street_number | 586                     
+ ca_street_name   | Pine Cherry             
+ ca_street_type   | Street                  
+ ca_suite_number  | Suite U Deerfield       
+ ca_city          | Muscogee County         
+ ca_county        | GA 39840 United States  
+ ca_state         | -5.00                   
+ ca_zip           | condo                   
+ ca_country       | 2946.52                 
+ ca_gmt_offset    | null                    
+ ca_location_type | null                    
+ ctr_total_return | null
+           

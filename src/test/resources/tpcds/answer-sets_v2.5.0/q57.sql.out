@@ -1,0 +1,1001 @@
+-RECORD 0--------------------------------
+ i_category        | Shoes               
+ i_brand           | importoedu pack #1  
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 7101.78             
+ sum_sales         | 2518.33             
+ psum              | 5264.86             
+ nsum              | 3066.29             
+-RECORD 1--------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 7659.24167          
+ sum_sales         | 3227.88             
+ psum              | 4759.01             
+ nsum              | 4664.83             
+-RECORD 2--------------------------------
+ i_category        | Music               
+ i_brand           | amalgscholar #1     
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 6659.49333          
+ sum_sales         | 2291.6              
+ psum              | 14178.45            
+ nsum              | 4267.08             
+-RECORD 3--------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 7659.24167          
+ sum_sales         | 3327.9              
+ psum              | 4566.86             
+ nsum              | 11656.06            
+-RECORD 4--------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 7640.49167          
+ sum_sales         | 3327.3              
+ psum              | 3534.12             
+ nsum              | 5530.63             
+-RECORD 5--------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 8223.71917          
+ sum_sales         | 3965.88             
+ psum              | 14493.32            
+ nsum              | 4943.68             
+-RECORD 6--------------------------------
+ i_category        | Women               
+ i_brand           | amalgamalg #1       
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 7116.32833          
+ sum_sales         | 2872.43             
+ psum              | 4945.2              
+ nsum              | 2974.14             
+-RECORD 7--------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 7047.80333          
+ sum_sales         | 2832.46             
+ psum              | 4308.87             
+ nsum              | 3265.21             
+-RECORD 8--------------------------------
+ i_category        | Children            
+ i_brand           | importoexporti #1   
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 6809.59583          
+ sum_sales         | 2648.85             
+ psum              | 5318.02             
+ nsum              | 4111.73             
+-RECORD 9--------------------------------
+ i_category        | Children            
+ i_brand           | importoexporti #1   
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 6832.82167          
+ sum_sales         | 2687.17             
+ psum              | 3971.76             
+ nsum              | 4235.84             
+-RECORD 10-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 8078.69             
+ sum_sales         | 3934.06             
+ psum              | 17002.72            
+ nsum              | 4244.46             
+-RECORD 11-------------------------------
+ i_category        | Women               
+ i_brand           | amalgamalg #1       
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 7116.32833          
+ sum_sales         | 2974.14             
+ psum              | 2872.43             
+ nsum              | 4329.06             
+-RECORD 12-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 8223.71917          
+ sum_sales         | 4091.54             
+ psum              | 5753.94             
+ nsum              | 4797.32             
+-RECORD 13-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 7530.9975           
+ sum_sales         | 3406.53             
+ psum              | 5839.59             
+ nsum              | 6125.77             
+-RECORD 14-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 7852.6275           
+ sum_sales         | 3737.23             
+ psum              | 4465.92             
+ nsum              | 3831.92             
+-RECORD 15-------------------------------
+ i_category        | Shoes               
+ i_brand           | edu packedu pack #1 
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 6583.305            
+ sum_sales         | 2474.01             
+ psum              | 3684.23             
+ nsum              | 4335.58             
+-RECORD 16-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 7640.49167          
+ sum_sales         | 3534.12             
+ psum              | 4291.3              
+ nsum              | 3327.3              
+-RECORD 17-------------------------------
+ i_category        | Children            
+ i_brand           | amalgexporti #1     
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 6518.75083          
+ sum_sales         | 2430.77             
+ psum              | 3203.23             
+ nsum              | 7867.12             
+-RECORD 18-------------------------------
+ i_category        | Music               
+ i_brand           | amalgscholar #1     
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 6876.88083          
+ sum_sales         | 2816.26             
+ psum              | 4637.07             
+ nsum              | 3528.8              
+-RECORD 19-------------------------------
+ i_category        | Shoes               
+ i_brand           | importoedu pack #1  
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 7101.78             
+ sum_sales         | 3066.29             
+ psum              | 2518.33             
+ nsum              | 5005.85             
+-RECORD 20-------------------------------
+ i_category        | Shoes               
+ i_brand           | edu packedu pack #1 
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 6421.7925           
+ sum_sales         | 2394.57             
+ psum              | 3149.35             
+ nsum              | 4472.43             
+-RECORD 21-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 7966.57917          
+ sum_sales         | 3944.74             
+ psum              | 5030.35             
+ nsum              | 10791.61            
+-RECORD 22-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 7852.6275           
+ sum_sales         | 3831.92             
+ psum              | 3737.23             
+ nsum              | 4353.9              
+-RECORD 23-------------------------------
+ i_category        | Shoes               
+ i_brand           | importoedu pack #1  
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 6959.93417          
+ sum_sales         | 2951.09             
+ psum              | 4142.26             
+ nsum              | 3271.07             
+-RECORD 24-------------------------------
+ i_category        | Men                 
+ i_brand           | amalgimporto #1     
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 7082.12917          
+ sum_sales         | 3075.18             
+ psum              | 5231.88             
+ nsum              | 8953.66             
+-RECORD 25-------------------------------
+ i_category        | Shoes               
+ i_brand           | amalgedu pack #1    
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 6904.68917          
+ sum_sales         | 2902.26             
+ psum              | 4942.02             
+ nsum              | 8793.71             
+-RECORD 26-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 7357.06083          
+ sum_sales         | 3356.15             
+ psum              | 11222.19            
+ nsum              | 3770.17             
+-RECORD 27-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 7698.34083          
+ sum_sales         | 3714.25             
+ psum              | 4686.4              
+ nsum              | 9752.38             
+-RECORD 28-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 7530.375            
+ sum_sales         | 3586.5              
+ psum              | 3960.74             
+ nsum              | 3916.86             
+-RECORD 29-------------------------------
+ i_category        | Children            
+ i_brand           | amalgexporti #1     
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 6518.75083          
+ sum_sales         | 2587.68             
+ psum              | 4177.93             
+ nsum              | 3342.6              
+-RECORD 30-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 8078.69             
+ sum_sales         | 4148.83             
+ psum              | 5184.39             
+ nsum              | 5483.81             
+-RECORD 31-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 7245.285            
+ sum_sales         | 3350.65             
+ psum              | 3876.83             
+ nsum              | 5869.66             
+-RECORD 32-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 7530.375            
+ sum_sales         | 3645.95             
+ psum              | 13367.51            
+ nsum              | 3960.74             
+-RECORD 33-------------------------------
+ i_category        | Shoes               
+ i_brand           | exportiedu pack #1  
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 6885.32083          
+ sum_sales         | 3013.95             
+ psum              | 4139.82             
+ nsum              | 4328.03             
+-RECORD 34-------------------------------
+ i_category        | Children            
+ i_brand           | importoexporti #1   
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 6690.09167          
+ sum_sales         | 2827.63             
+ psum              | 3965.68             
+ nsum              | 7733.16             
+-RECORD 35-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 8078.69             
+ sum_sales         | 4244.46             
+ psum              | 3934.06             
+ nsum              | 4448.5              
+-RECORD 36-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 7912.5375           
+ sum_sales         | 4082.68             
+ psum              | 14333.3             
+ nsum              | 4383.51             
+-RECORD 37-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 7698.34083          
+ sum_sales         | 3883.01             
+ psum              | 4723.97             
+ nsum              | 4590.03             
+-RECORD 38-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 7243.99417          
+ sum_sales         | 3430.04             
+ psum              | 3662.97             
+ nsum              | 3617.09             
+-RECORD 39-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 7047.80333          
+ sum_sales         | 3237.56             
+ psum              | 15805.49            
+ nsum              | 4308.87             
+-RECORD 40-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 7047.80333          
+ sum_sales         | 3265.21             
+ psum              | 2832.46             
+ nsum              | 3885.17             
+-RECORD 41-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 7593.92917          
+ sum_sales         | 3821.24             
+ psum              | 4748.2              
+ nsum              | 4271.45             
+-RECORD 42-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 7912.5375           
+ sum_sales         | 4144.67             
+ psum              | 4954.05             
+ nsum              | 5070.06             
+-RECORD 43-------------------------------
+ i_category        | Music               
+ i_brand           | amalgscholar #1     
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 6926.06083          
+ sum_sales         | 3165.2              
+ psum              | 4688.23             
+ nsum              | 4286.05             
+-RECORD 44-------------------------------
+ i_category        | Shoes               
+ i_brand           | amalgedu pack #1    
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 6642.08583          
+ sum_sales         | 2928.82             
+ psum              | 3648.57             
+ nsum              | 3892.32             
+-RECORD 45-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 7966.57917          
+ sum_sales         | 4269.89             
+ psum              | 4384.51             
+ nsum              | 4452.73             
+-RECORD 46-------------------------------
+ i_category        | Men                 
+ i_brand           | amalgimporto #1     
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 7082.12917          
+ sum_sales         | 3392.25             
+ psum              | 4549.47             
+ nsum              | 3653.84             
+-RECORD 47-------------------------------
+ i_category        | Shoes               
+ i_brand           | importoedu pack #1  
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 6959.93417          
+ sum_sales         | 3271.07             
+ psum              | 2951.09             
+ nsum              | 4231.88             
+-RECORD 48-------------------------------
+ i_category        | Music               
+ i_brand           | amalgscholar #1     
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 6876.88083          
+ sum_sales         | 3190.36             
+ psum              | 3536.29             
+ nsum              | 4637.07             
+-RECORD 49-------------------------------
+ i_category        | Women               
+ i_brand           | importoamalg #1     
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 6479.29833          
+ sum_sales         | 2804.94             
+ psum              | 13543.31            
+ nsum              | 3515.21             
+-RECORD 50-------------------------------
+ i_category        | Shoes               
+ i_brand           | amalgedu pack #1    
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 6                   
+ avg_monthly_sales | 6829.95667          
+ sum_sales         | 3178.2              
+ psum              | 4120.6              
+ nsum              | 5910.98             
+-RECORD 51-------------------------------
+ i_category        | Men                 
+ i_brand           | amalgimporto #1     
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 7082.12917          
+ sum_sales         | 3450.11             
+ psum              | 3653.84             
+ nsum              | 5965.16             
+-RECORD 52-------------------------------
+ i_category        | Women               
+ i_brand           | edu packamalg #1    
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 6608.48583          
+ sum_sales         | 2976.95             
+ psum              | 3489.35             
+ nsum              | 3812.22             
+-RECORD 53-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 8078.69             
+ sum_sales         | 4448.5              
+ psum              | 4244.46             
+ nsum              | 5184.39             
+-RECORD 54-------------------------------
+ i_category        | Music               
+ i_brand           | amalgscholar #1     
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 6659.49333          
+ sum_sales         | 3031.62             
+ psum              | 4214.81             
+ nsum              | 9493.69             
+-RECORD 55-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 7243.99417          
+ sum_sales         | 3617.09             
+ psum              | 3430.04             
+ nsum              | 3871.67             
+-RECORD 56-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 7530.9975           
+ sum_sales         | 3913.8              
+ psum              | 4405.46             
+ nsum              | 7859.96             
+-RECORD 57-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 7530.375            
+ sum_sales         | 3916.86             
+ psum              | 3586.5              
+ nsum              | 4747.06             
+-RECORD 58-------------------------------
+ i_category        | Children            
+ i_brand           | importoexporti #1   
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 6809.59583          
+ sum_sales         | 3200.1              
+ psum              | 4421.85             
+ nsum              | 5318.02             
+-RECORD 59-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 7357.06083          
+ sum_sales         | 3770.17             
+ psum              | 3356.15             
+ nsum              | 5114.32             
+-RECORD 60-------------------------------
+ i_category        | Children            
+ i_brand           | amalgexporti #1     
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 6557.5775           
+ sum_sales         | 2975                
+ psum              | 3418.4              
+ nsum              | 5079.56             
+-RECORD 61-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 7966.57917          
+ sum_sales         | 4384.51             
+ psum              | 5279.09             
+ nsum              | 4269.89             
+-RECORD 62-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 7243.99417          
+ sum_sales         | 3662.97             
+ psum              | 14285.88            
+ nsum              | 3430.04             
+-RECORD 63-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 7530.375            
+ sum_sales         | 3960.74             
+ psum              | 3645.95             
+ nsum              | 3586.5              
+-RECORD 64-------------------------------
+ i_category        | Men                 
+ i_brand           | amalgimporto #1     
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 6611.33583          
+ sum_sales         | 3066.19             
+ psum              | 11053.2             
+ nsum              | 3203.24             
+-RECORD 65-------------------------------
+ i_category        | Women               
+ i_brand           | edu packamalg #1    
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 6061.21083          
+ sum_sales         | 2522.22             
+ psum              | 2674.89             
+ nsum              | 3975.9              
+-RECORD 66-------------------------------
+ i_category        | Shoes               
+ i_brand           | exportiedu pack #1  
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 7045.16417          
+ sum_sales         | 3509.17             
+ psum              | 5252.01             
+ nsum              | 3987.99             
+-RECORD 67-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 7852.6275           
+ sum_sales         | 4318.23             
+ psum              | 16397.1             
+ nsum              | 4465.92             
+-RECORD 68-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 7912.5375           
+ sum_sales         | 4383.51             
+ psum              | 4082.68             
+ nsum              | 4954.05             
+-RECORD 69-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 7966.57917          
+ sum_sales         | 4452.73             
+ psum              | 4269.89             
+ nsum              | 5476.13             
+-RECORD 70-------------------------------
+ i_category        | Children            
+ i_brand           | importoexporti #1   
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 6832.82167          
+ sum_sales         | 3330.21             
+ psum              | 13097.88            
+ nsum              | 3496.46             
+-RECORD 71-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 7852.6275           
+ sum_sales         | 4353.9              
+ psum              | 3831.92             
+ nsum              | 5689.03             
+-RECORD 72-------------------------------
+ i_category        | Women               
+ i_brand           | exportiamalg #1     
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 6013.08833          
+ sum_sales         | 2536.08             
+ psum              | 3406.41             
+ nsum              | 3718.65             
+-RECORD 73-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 7593.92917          
+ sum_sales         | 4121.47             
+ psum              | 4271.45             
+ nsum              | 5234.85             
+-RECORD 74-------------------------------
+ i_category        | Music               
+ i_brand           | amalgscholar #1     
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 6876.88083          
+ sum_sales         | 3406.89             
+ psum              | 13714.11            
+ nsum              | 3536.29             
+-RECORD 75-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 7530.9975           
+ sum_sales         | 4062.17             
+ psum              | 6125.77             
+ nsum              | 4715.58             
+-RECORD 76-------------------------------
+ i_category        | Men                 
+ i_brand           | exportiimporto #1   
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 5797.3825           
+ sum_sales         | 2330.52             
+ psum              | 2965.11             
+ nsum              | 2842.02             
+-RECORD 77-------------------------------
+ i_category        | Children            
+ i_brand           | edu packexporti #1  
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 6100.64333          
+ sum_sales         | 2633.95             
+ psum              | 3676.43             
+ nsum              | 3130.51             
+-RECORD 78-------------------------------
+ i_category        | Men                 
+ i_brand           | amalgimporto #1     
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 6713.82             
+ sum_sales         | 3268.58             
+ psum              | 13596.45            
+ nsum              | 4098.03             
+-RECORD 79-------------------------------
+ i_category        | Women               
+ i_brand           | exportiamalg #1     
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 6031.0425           
+ sum_sales         | 2588.6              
+ psum              | 3554.29             
+ nsum              | 3915.46             
+-RECORD 80-------------------------------
+ i_category        | Men                 
+ i_brand           | amalgimporto #1     
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 7082.12917          
+ sum_sales         | 3653.84             
+ psum              | 3392.25             
+ nsum              | 3450.11             
+-RECORD 81-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 8223.71917          
+ sum_sales         | 4797.32             
+ psum              | 4091.54             
+ nsum              | 5028.71             
+-RECORD 82-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 6                   
+ avg_monthly_sales | 7530.375            
+ sum_sales         | 4104.53             
+ psum              | 4747.06             
+ nsum              | 4586.73             
+-RECORD 83-------------------------------
+ i_category        | Women               
+ i_brand           | importoamalg #1     
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 6352.6825           
+ sum_sales         | 2928.62             
+ psum              | 3718.55             
+ nsum              | 3387.14             
+-RECORD 84-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 7659.24167          
+ sum_sales         | 4246.37             
+ psum              | 4489.63             
+ nsum              | 4759.01             
+-RECORD 85-------------------------------
+ i_category        | Shoes               
+ i_brand           | edu packedu pack #1 
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 6578.78583          
+ sum_sales         | 3166.49             
+ psum              | 4213.93             
+ nsum              | 4376.74             
+-RECORD 86-------------------------------
+ i_category        | Shoes               
+ i_brand           | amalgedu pack #1    
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 6829.95667          
+ sum_sales         | 3417.69             
+ psum              | 3722.75             
+ nsum              | 4120.6              
+-RECORD 87-------------------------------
+ i_category        | Women               
+ i_brand           | exportiamalg #1     
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 6171.54417          
+ sum_sales         | 2760.78             
+ psum              | 3853.84             
+ nsum              | 3125.47             
+-RECORD 88-------------------------------
+ i_category        | Men                 
+ i_brand           | amalgimporto #1     
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 6611.33583          
+ sum_sales         | 3203.24             
+ psum              | 3066.19             
+ nsum              | 4613.61             
+-RECORD 89-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 7852.6275           
+ sum_sales         | 4465.92             
+ psum              | 4318.23             
+ nsum              | 3737.23             
+-RECORD 90-------------------------------
+ i_category        | Women               
+ i_brand           | edu packamalg #1    
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 6061.21083          
+ sum_sales         | 2674.89             
+ psum              | 3376.95             
+ nsum              | 2522.22             
+-RECORD 91-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ cc_name           | NY Metro            
+ d_year            | 1999                
+ d_moy             | 6                   
+ avg_monthly_sales | 7047.80333          
+ sum_sales         | 3667.6              
+ psum              | 3885.17             
+ nsum              | 5088.7              
+-RECORD 92-------------------------------
+ i_category        | Children            
+ i_brand           | importoexporti #1   
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 6690.09167          
+ sum_sales         | 3310.89             
+ psum              | 3486.35             
+ nsum              | 5014.28             
+-RECORD 93-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 7243.99417          
+ sum_sales         | 3871.67             
+ psum              | 3617.09             
+ nsum              | 4628.08             
+-RECORD 94-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 7640.49167          
+ sum_sales         | 4270.44             
+ psum              | 4931.98             
+ nsum              | 4291.3              
+-RECORD 95-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 7245.285            
+ sum_sales         | 3876.83             
+ psum              | 4799.92             
+ nsum              | 3350.65             
+-RECORD 96-------------------------------
+ i_category        | Shoes               
+ i_brand           | exportiedu pack #1  
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 7045.16417          
+ sum_sales         | 3684.37             
+ psum              | 4372.2              
+ nsum              | 8403.23             
+-RECORD 97-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 7640.49167          
+ sum_sales         | 4291.3              
+ psum              | 4270.44             
+ nsum              | 3534.12             
+-RECORD 98-------------------------------
+ i_category        | Men                 
+ i_brand           | amalgimporto #1     
+ cc_name           | Mid Atlantic        
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 6611.33583          
+ sum_sales         | 3262.24             
+ psum              | 4613.61             
+ nsum              | 4531.38             
+-RECORD 99-------------------------------
+ i_category        | Music               
+ i_brand           | amalgscholar #1     
+ cc_name           | North Midwest       
+ d_year            | 1999                
+ d_moy             | 6                   
+ avg_monthly_sales | 6876.88083          
+ sum_sales         | 3528.8              
+ psum              | 2816.26             
+ nsum              | 4750.85
+           

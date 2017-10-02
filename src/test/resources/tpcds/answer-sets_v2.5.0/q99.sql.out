@@ -1,0 +1,802 @@
+-RECORD 0--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | EXPRESS              
+ cc_name                            | NY Metro             
+ 30 days                            | 1274                 
+ 31 - 60 days                       | 1296                 
+ 61 - 90 days                       | 1286                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 1--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | EXPRESS              
+ cc_name                            | North Midwest        
+ 30 days                            | 1159                 
+ 31 - 60 days                       | 1329                 
+ 61 - 90 days                       | 1276                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 2--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | LIBRARY              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 941                  
+ 31 - 60 days                       | 978                  
+ 61 - 90 days                       | 948                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 3--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | LIBRARY              
+ cc_name                            | NY Metro             
+ 30 days                            | 886                  
+ 31 - 60 days                       | 1001                 
+ 61 - 90 days                       | 1009                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 4--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | LIBRARY              
+ cc_name                            | North Midwest        
+ 30 days                            | 917                  
+ 31 - 60 days                       | 943                  
+ 61 - 90 days                       | 991                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 5--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | NEXT DAY             
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 1304                 
+ 31 - 60 days                       | 1264                 
+ 61 - 90 days                       | 1349                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 6--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | NEXT DAY             
+ cc_name                            | NY Metro             
+ 30 days                            | 1271                 
+ 31 - 60 days                       | 1251                 
+ 61 - 90 days                       | 1291                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 7--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | NEXT DAY             
+ cc_name                            | North Midwest        
+ 30 days                            | 1199                 
+ 31 - 60 days                       | 1233                 
+ 61 - 90 days                       | 1273                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 8--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | OVERNIGHT            
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 965                  
+ 31 - 60 days                       | 989                  
+ 61 - 90 days                       | 967                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 9--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | OVERNIGHT            
+ cc_name                            | NY Metro             
+ 30 days                            | 979                  
+ 31 - 60 days                       | 993                  
+ 61 - 90 days                       | 1039                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 10-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | OVERNIGHT            
+ cc_name                            | North Midwest        
+ 30 days                            | 946                  
+ 31 - 60 days                       | 1016                 
+ 61 - 90 days                       | 905                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 11-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | REGULAR              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 933                  
+ 31 - 60 days                       | 994                  
+ 61 - 90 days                       | 997                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 12-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | REGULAR              
+ cc_name                            | NY Metro             
+ 30 days                            | 961                  
+ 31 - 60 days                       | 1022                 
+ 61 - 90 days                       | 1034                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 13-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | REGULAR              
+ cc_name                            | North Midwest        
+ 30 days                            | 893                  
+ 31 - 60 days                       | 921                  
+ 61 - 90 days                       | 949                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 14-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | TWO DAY              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 972                  
+ 31 - 60 days                       | 968                  
+ 61 - 90 days                       | 972                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 15-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | TWO DAY              
+ cc_name                            | NY Metro             
+ 30 days                            | 926                  
+ 31 - 60 days                       | 974                  
+ 61 - 90 days                       | 1004                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 16-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | TWO DAY              
+ cc_name                            | North Midwest        
+ 30 days                            | 941                  
+ 31 - 60 days                       | 921                  
+ 61 - 90 days                       | 981                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 17-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | EXPRESS              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 1270                 
+ 31 - 60 days                       | 1318                 
+ 61 - 90 days                       | 1281                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 18-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | EXPRESS              
+ cc_name                            | NY Metro             
+ 30 days                            | 1226                 
+ 31 - 60 days                       | 1287                 
+ 61 - 90 days                       | 1282                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 19-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | EXPRESS              
+ cc_name                            | North Midwest        
+ 30 days                            | 1208                 
+ 31 - 60 days                       | 1242                 
+ 61 - 90 days                       | 1294                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 20-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | LIBRARY              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 962                  
+ 31 - 60 days                       | 976                  
+ 61 - 90 days                       | 1009                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 21-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | LIBRARY              
+ cc_name                            | NY Metro             
+ 30 days                            | 978                  
+ 31 - 60 days                       | 984                  
+ 61 - 90 days                       | 999                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 22-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | LIBRARY              
+ cc_name                            | North Midwest        
+ 30 days                            | 898                  
+ 31 - 60 days                       | 959                  
+ 61 - 90 days                       | 958                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 23-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | NEXT DAY             
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 1225                 
+ 31 - 60 days                       | 1328                 
+ 61 - 90 days                       | 1327                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 24-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | NEXT DAY             
+ cc_name                            | NY Metro             
+ 30 days                            | 1262                 
+ 31 - 60 days                       | 1325                 
+ 61 - 90 days                       | 1246                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 25-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | NEXT DAY             
+ cc_name                            | North Midwest        
+ 30 days                            | 1227                 
+ 31 - 60 days                       | 1300                 
+ 61 - 90 days                       | 1276                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 26-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | OVERNIGHT            
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 956                  
+ 31 - 60 days                       | 935                  
+ 61 - 90 days                       | 990                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 27-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | OVERNIGHT            
+ cc_name                            | NY Metro             
+ 30 days                            | 982                  
+ 31 - 60 days                       | 930                  
+ 61 - 90 days                       | 993                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 28-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | OVERNIGHT            
+ cc_name                            | North Midwest        
+ 30 days                            | 907                  
+ 31 - 60 days                       | 990                  
+ 61 - 90 days                       | 955                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 29-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | REGULAR              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 928                  
+ 31 - 60 days                       | 974                  
+ 61 - 90 days                       | 1005                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 30-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | REGULAR              
+ cc_name                            | NY Metro             
+ 30 days                            | 942                  
+ 31 - 60 days                       | 1009                 
+ 61 - 90 days                       | 948                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 31-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | REGULAR              
+ cc_name                            | North Midwest        
+ 30 days                            | 921                  
+ 31 - 60 days                       | 968                  
+ 61 - 90 days                       | 925                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 32-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | TWO DAY              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 954                  
+ 31 - 60 days                       | 971                  
+ 61 - 90 days                       | 979                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 33-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | TWO DAY              
+ cc_name                            | NY Metro             
+ 30 days                            | 947                  
+ 31 - 60 days                       | 1013                 
+ 61 - 90 days                       | 952                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 34-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | TWO DAY              
+ cc_name                            | North Midwest        
+ 30 days                            | 904                  
+ 31 - 60 days                       | 930                  
+ 61 - 90 days                       | 947                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 35-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | EXPRESS              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 1214                 
+ 31 - 60 days                       | 1296                 
+ 61 - 90 days                       | 1243                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 36-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | EXPRESS              
+ cc_name                            | NY Metro             
+ 30 days                            | 1284                 
+ 31 - 60 days                       | 1331                 
+ 61 - 90 days                       | 1277                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 37-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | EXPRESS              
+ cc_name                            | North Midwest        
+ 30 days                            | 1180                 
+ 31 - 60 days                       | 1287                 
+ 61 - 90 days                       | 1226                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 38-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | LIBRARY              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 990                  
+ 31 - 60 days                       | 1008                 
+ 61 - 90 days                       | 962                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 39-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | LIBRARY              
+ cc_name                            | NY Metro             
+ 30 days                            | 983                  
+ 31 - 60 days                       | 976                  
+ 61 - 90 days                       | 981                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 40-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | LIBRARY              
+ cc_name                            | North Midwest        
+ 30 days                            | 925                  
+ 31 - 60 days                       | 892                  
+ 61 - 90 days                       | 953                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 41-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | NEXT DAY             
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 1284                 
+ 31 - 60 days                       | 1315                 
+ 61 - 90 days                       | 1274                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 42-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | NEXT DAY             
+ cc_name                            | NY Metro             
+ 30 days                            | 1288                 
+ 31 - 60 days                       | 1280                 
+ 61 - 90 days                       | 1284                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 43-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | NEXT DAY             
+ cc_name                            | North Midwest        
+ 30 days                            | 1249                 
+ 31 - 60 days                       | 1278                 
+ 61 - 90 days                       | 1308                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 44-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | OVERNIGHT            
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 897                  
+ 31 - 60 days                       | 973                  
+ 61 - 90 days                       | 926                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 45-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | OVERNIGHT            
+ cc_name                            | NY Metro             
+ 30 days                            | 958                  
+ 31 - 60 days                       | 963                  
+ 61 - 90 days                       | 897                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 46-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | OVERNIGHT            
+ cc_name                            | North Midwest        
+ 30 days                            | 942                  
+ 31 - 60 days                       | 934                  
+ 61 - 90 days                       | 937                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 47-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | REGULAR              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 941                  
+ 31 - 60 days                       | 1007                 
+ 61 - 90 days                       | 945                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 48-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | REGULAR              
+ cc_name                            | NY Metro             
+ 30 days                            | 949                  
+ 31 - 60 days                       | 928                  
+ 61 - 90 days                       | 987                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 49-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | REGULAR              
+ cc_name                            | North Midwest        
+ 30 days                            | 920                  
+ 31 - 60 days                       | 927                  
+ 61 - 90 days                       | 925                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 50-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | TWO DAY              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 926                  
+ 31 - 60 days                       | 979                  
+ 61 - 90 days                       | 1047                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 51-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | TWO DAY              
+ cc_name                            | NY Metro             
+ 30 days                            | 925                  
+ 31 - 60 days                       | 1007                 
+ 61 - 90 days                       | 962                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 52-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | TWO DAY              
+ cc_name                            | North Midwest        
+ 30 days                            | 879                  
+ 31 - 60 days                       | 980                  
+ 61 - 90 days                       | 971                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 53-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | EXPRESS              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 1240                 
+ 31 - 60 days                       | 1245                 
+ 61 - 90 days                       | 1267                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 54-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | EXPRESS              
+ cc_name                            | NY Metro             
+ 30 days                            | 1234                 
+ 31 - 60 days                       | 1270                 
+ 61 - 90 days                       | 1349                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 55-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | EXPRESS              
+ cc_name                            | North Midwest        
+ 30 days                            | 1185                 
+ 31 - 60 days                       | 1238                 
+ 61 - 90 days                       | 1197                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 56-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | LIBRARY              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 873                  
+ 31 - 60 days                       | 974                  
+ 61 - 90 days                       | 948                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 57-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | LIBRARY              
+ cc_name                            | NY Metro             
+ 30 days                            | 987                  
+ 31 - 60 days                       | 1005                 
+ 61 - 90 days                       | 990                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 58-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | LIBRARY              
+ cc_name                            | North Midwest        
+ 30 days                            | 947                  
+ 31 - 60 days                       | 952                  
+ 61 - 90 days                       | 1025                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 59-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | NEXT DAY             
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 1264                 
+ 31 - 60 days                       | 1276                 
+ 61 - 90 days                       | 1185                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 60-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | NEXT DAY             
+ cc_name                            | NY Metro             
+ 30 days                            | 1263                 
+ 31 - 60 days                       | 1337                 
+ 61 - 90 days                       | 1310                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 61-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | NEXT DAY             
+ cc_name                            | North Midwest        
+ 30 days                            | 1202                 
+ 31 - 60 days                       | 1247                 
+ 61 - 90 days                       | 1278                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 62-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | OVERNIGHT            
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 912                  
+ 31 - 60 days                       | 888                  
+ 61 - 90 days                       | 934                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 63-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | OVERNIGHT            
+ cc_name                            | NY Metro             
+ 30 days                            | 942                  
+ 31 - 60 days                       | 1003                 
+ 61 - 90 days                       | 959                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 64-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | OVERNIGHT            
+ cc_name                            | North Midwest        
+ 30 days                            | 896                  
+ 31 - 60 days                       | 903                  
+ 61 - 90 days                       | 911                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 65-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | REGULAR              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 888                  
+ 31 - 60 days                       | 953                  
+ 61 - 90 days                       | 974                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 66-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | REGULAR              
+ cc_name                            | NY Metro             
+ 30 days                            | 971                  
+ 31 - 60 days                       | 1028                 
+ 61 - 90 days                       | 946                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 67-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | REGULAR              
+ cc_name                            | North Midwest        
+ 30 days                            | 937                  
+ 31 - 60 days                       | 974                  
+ 61 - 90 days                       | 914                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 68-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | TWO DAY              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 974                  
+ 31 - 60 days                       | 898                  
+ 61 - 90 days                       | 985                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 69-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | TWO DAY              
+ cc_name                            | NY Metro             
+ 30 days                            | 982                  
+ 31 - 60 days                       | 1017                 
+ 61 - 90 days                       | 997                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 70-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | TWO DAY              
+ cc_name                            | North Midwest        
+ 30 days                            | 985                  
+ 31 - 60 days                       | 937                  
+ 61 - 90 days                       | 959                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 71-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | EXPRESS              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 1322                 
+ 31 - 60 days                       | 1329                 
+ 61 - 90 days                       | 1293                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 72-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | EXPRESS              
+ cc_name                            | NY Metro             
+ 30 days                            | 1301                 
+ 31 - 60 days                       | 1300                 
+ 61 - 90 days                       | 1239                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 73-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | EXPRESS              
+ cc_name                            | North Midwest        
+ 30 days                            | 1266                 
+ 31 - 60 days                       | 1228                 
+ 61 - 90 days                       | 1285                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 74-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | LIBRARY              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 988                  
+ 31 - 60 days                       | 997                  
+ 61 - 90 days                       | 925                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 75-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | LIBRARY              
+ cc_name                            | NY Metro             
+ 30 days                            | 947                  
+ 31 - 60 days                       | 963                  
+ 61 - 90 days                       | 988                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 76-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | LIBRARY              
+ cc_name                            | North Midwest        
+ 30 days                            | 937                  
+ 31 - 60 days                       | 972                  
+ 61 - 90 days                       | 964                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 77-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | NEXT DAY             
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 1221                 
+ 31 - 60 days                       | 1268                 
+ 61 - 90 days                       | 1217                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 78-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | NEXT DAY             
+ cc_name                            | NY Metro             
+ 30 days                            | 1281                 
+ 31 - 60 days                       | 1311                 
+ 61 - 90 days                       | 1310                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 79-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | NEXT DAY             
+ cc_name                            | North Midwest        
+ 30 days                            | 1219                 
+ 31 - 60 days                       | 1214                 
+ 61 - 90 days                       | 1327                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 80-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | OVERNIGHT            
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 929                  
+ 31 - 60 days                       | 1018                 
+ 61 - 90 days                       | 991                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 81-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | OVERNIGHT            
+ cc_name                            | NY Metro             
+ 30 days                            | 950                  
+ 31 - 60 days                       | 965                  
+ 61 - 90 days                       | 931                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 82-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | OVERNIGHT            
+ cc_name                            | North Midwest        
+ 30 days                            | 936                  
+ 31 - 60 days                       | 989                  
+ 61 - 90 days                       | 932                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 83-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | REGULAR              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 961                  
+ 31 - 60 days                       | 995                  
+ 61 - 90 days                       | 949                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 84-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | REGULAR              
+ cc_name                            | NY Metro             
+ 30 days                            | 972                  
+ 31 - 60 days                       | 934                  
+ 61 - 90 days                       | 1018                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 85-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | REGULAR              
+ cc_name                            | North Midwest        
+ 30 days                            | 905                  
+ 31 - 60 days                       | 947                  
+ 61 - 90 days                       | 941                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 86-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | TWO DAY              
+ cc_name                            | Mid Atlantic         
+ 30 days                            | 954                  
+ 31 - 60 days                       | 982                  
+ 61 - 90 days                       | 944                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 87-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | TWO DAY              
+ cc_name                            | NY Metro             
+ 30 days                            | 844                  
+ 31 - 60 days                       | 972                  
+ 61 - 90 days                       | 1006                 
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0                    
+-RECORD 88-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Important issues liv 
+ sm_type                            | TWO DAY              
+ cc_name                            | North Midwest        
+ 30 days                            | 914                  
+ 31 - 60 days                       | 969                  
+ 61 - 90 days                       | 960                  
+ 91 - 120 days                      | 0                    
+ >120 days                          | 0
+           

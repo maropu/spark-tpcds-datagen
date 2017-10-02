@@ -1,0 +1,496 @@
+-RECORD 0----------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAAAHDAAAA 
+ inv_before       | 2956             
+ inv_after        | 2052             
+-RECORD 1----------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAAALAAAAA 
+ inv_before       | 2042             
+ inv_after        | 1793             
+-RECORD 2----------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAABDAAAAA 
+ inv_before       | 3340             
+ inv_after        | 2626             
+-RECORD 3----------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAACGCAAAA 
+ inv_before       | 2373             
+ inv_after        | 1771             
+-RECORD 4----------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAACKCAAAA 
+ inv_before       | 2321             
+ inv_after        | 1856             
+-RECORD 5----------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAACOBAAAA 
+ inv_before       | 1504             
+ inv_after        | 1397             
+-RECORD 6----------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAADKBAAAA 
+ inv_before       | 1820             
+ inv_after        | 2163             
+-RECORD 7----------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAAEADAAAA 
+ inv_before       | 2631             
+ inv_after        | 1965             
+-RECORD 8----------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAAEOCAAAA 
+ inv_before       | 1659             
+ inv_after        | 1798             
+-RECORD 9----------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAAFACAAAA 
+ inv_before       | 1965             
+ inv_after        | 1705             
+-RECORD 10---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAAFADAAAA 
+ inv_before       | 1769             
+ inv_after        | 1313             
+-RECORD 11---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAAHDEAAAA 
+ inv_before       | 2700             
+ inv_after        | 1985             
+-RECORD 12---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAAHHAAAAA 
+ inv_before       | 1578             
+ inv_after        | 1082             
+-RECORD 13---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAAIECAAAA 
+ inv_before       | 1756             
+ inv_after        | 1804             
+-RECORD 14---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAAIMCAAAA 
+ inv_before       | 3603             
+ inv_after        | 2951             
+-RECORD 15---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAAJACAAAA 
+ inv_before       | 2109             
+ inv_after        | 1989             
+-RECORD 16---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAAJKBAAAA 
+ inv_before       | 2573             
+ inv_after        | 3540             
+-RECORD 17---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAALBEAAAA 
+ inv_before       | 3458             
+ inv_after        | 2992             
+-RECORD 18---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAALCEAAAA 
+ inv_before       | 1720             
+ inv_after        | 1810             
+-RECORD 19---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAALECAAAA 
+ inv_before       | 2569             
+ inv_after        | 1946             
+-RECORD 20---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAALNBAAAA 
+ inv_before       | 2552             
+ inv_after        | 1750             
+-RECORD 21---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAANFEAAAA 
+ inv_before       | 2022             
+ inv_after        | 2269             
+-RECORD 22---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAAOBBAAAA 
+ inv_before       | 1603             
+ inv_after        | 1592             
+-RECORD 23---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAAOIBAAAA 
+ inv_before       | 2982             
+ inv_after        | 2540             
+-RECORD 24---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAAPJBAAAA 
+ inv_before       | 2344             
+ inv_after        | 2593             
+-RECORD 25---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABAPDAAAA 
+ inv_before       | 2182             
+ inv_after        | 2787             
+-RECORD 26---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABDCEAAAA 
+ inv_before       | 2844             
+ inv_after        | 2069             
+-RECORD 27---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABDDDAAAA 
+ inv_before       | 2417             
+ inv_after        | 2537             
+-RECORD 28---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABDJAAAAA 
+ inv_before       | 1584             
+ inv_after        | 1666             
+-RECORD 29---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABEODAAAA 
+ inv_before       | 2141             
+ inv_after        | 2649             
+-RECORD 30---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABFCCAAAA 
+ inv_before       | 2745             
+ inv_after        | 2020             
+-RECORD 31---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABFMBAAAA 
+ inv_before       | 1642             
+ inv_after        | 1364             
+-RECORD 32---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABHPCAAAA 
+ inv_before       | 1923             
+ inv_after        | 1780             
+-RECORD 33---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABIDBAAAA 
+ inv_before       | 1956             
+ inv_after        | 2836             
+-RECORD 34---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABIGBAAAA 
+ inv_before       | 2023             
+ inv_after        | 2344             
+-RECORD 35---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABIJBAAAA 
+ inv_before       | 1977             
+ inv_after        | 2728             
+-RECORD 36---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABJFEAAAA 
+ inv_before       | 1891             
+ inv_after        | 2390             
+-RECORD 37---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABLDEAAAA 
+ inv_before       | 1983             
+ inv_after        | 1797             
+-RECORD 38---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABNIDAAAA 
+ inv_before       | 2485             
+ inv_after        | 2324             
+-RECORD 39---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABNLDAAAA 
+ inv_before       | 2385             
+ inv_after        | 2786             
+-RECORD 40---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAABOMBAAAA 
+ inv_before       | 2291             
+ inv_after        | 2092             
+-RECORD 41---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACAAAAAAA 
+ inv_before       | 2233             
+ inv_after        | 2560             
+-RECORD 42---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACBCDAAAA 
+ inv_before       | 1540             
+ inv_after        | 2012             
+-RECORD 43---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACBIAAAAA 
+ inv_before       | 2394             
+ inv_after        | 2122             
+-RECORD 44---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACBPBAAAA 
+ inv_before       | 1790             
+ inv_after        | 1661             
+-RECORD 45---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACCMDAAAA 
+ inv_before       | 2654             
+ inv_after        | 2691             
+-RECORD 46---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACDBCAAAA 
+ inv_before       | 1804             
+ inv_after        | 2072             
+-RECORD 47---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACFEAAAAA 
+ inv_before       | 1941             
+ inv_after        | 1567             
+-RECORD 48---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACFHDAAAA 
+ inv_before       | 1696             
+ inv_after        | 1147             
+-RECORD 49---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACGFDAAAA 
+ inv_before       | 2123             
+ inv_after        | 2265             
+-RECORD 50---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACHPCAAAA 
+ inv_before       | 2933             
+ inv_after        | 2174             
+-RECORD 51---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACIGDAAAA 
+ inv_before       | 2618             
+ inv_after        | 2399             
+-RECORD 52---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACJCBAAAA 
+ inv_before       | 2728             
+ inv_after        | 2367             
+-RECORD 53---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACJLAAAAA 
+ inv_before       | 1350             
+ inv_after        | 1732             
+-RECORD 54---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACLAEAAAA 
+ inv_before       | 2578             
+ inv_after        | 2329             
+-RECORD 55---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACLGAAAAA 
+ inv_before       | 1842             
+ inv_after        | 1588             
+-RECORD 56---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACLLBAAAA 
+ inv_before       | 3418             
+ inv_after        | 2657             
+-RECORD 57---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACLOBAAAA 
+ inv_before       | 3115             
+ inv_after        | 2560             
+-RECORD 58---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACMADAAAA 
+ inv_before       | 1991             
+ inv_after        | 2243             
+-RECORD 59---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACMJAAAAA 
+ inv_before       | 1261             
+ inv_after        | 1855             
+-RECORD 60---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACMLAAAAA 
+ inv_before       | 3288             
+ inv_after        | 2753             
+-RECORD 61---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACMPDAAAA 
+ inv_before       | 1320             
+ inv_after        | 1676             
+-RECORD 62---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACNGBAAAA 
+ inv_before       | 2340             
+ inv_after        | 2118             
+-RECORD 63---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACNHDAAAA 
+ inv_before       | 3519             
+ inv_after        | 3348             
+-RECORD 64---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAACNPCAAAA 
+ inv_before       | 2561             
+ inv_after        | 1948             
+-RECORD 65---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAADCPCAAAA 
+ inv_before       | 2664             
+ inv_after        | 2627             
+-RECORD 66---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAADDHAAAAA 
+ inv_before       | 1313             
+ inv_after        | 1926             
+-RECORD 67---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAADDNDAAAA 
+ inv_before       | 1109             
+ inv_after        | 835              
+-RECORD 68---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAADEAAAAAA 
+ inv_before       | 2141             
+ inv_after        | 1847             
+-RECORD 69---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAADEJAAAAA 
+ inv_before       | 3142             
+ inv_after        | 2723             
+-RECORD 70---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAADFKBAAAA 
+ inv_before       | 1470             
+ inv_after        | 1650             
+-RECORD 71---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAADGCCAAAA 
+ inv_before       | 2113             
+ inv_after        | 2331             
+-RECORD 72---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAADGFCAAAA 
+ inv_before       | 2201             
+ inv_after        | 2928             
+-RECORD 73---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAADHPAAAAA 
+ inv_before       | 2467             
+ inv_after        | 2133             
+-RECORD 74---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAADMBAAAAA 
+ inv_before       | 3085             
+ inv_after        | 2087             
+-RECORD 75---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAADPABAAAA 
+ inv_before       | 3494             
+ inv_after        | 3081             
+-RECORD 76---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEAECAAAA 
+ inv_before       | 2133             
+ inv_after        | 2148             
+-RECORD 77---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEAPAAAAA 
+ inv_before       | 1560             
+ inv_after        | 1275             
+-RECORD 78---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAECGCAAAA 
+ inv_before       | 2815             
+ inv_after        | 3307             
+-RECORD 79---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEDPDAAAA 
+ inv_before       | 2731             
+ inv_after        | 1883             
+-RECORD 80---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEEECAAAA 
+ inv_before       | 2024             
+ inv_after        | 1902             
+-RECORD 81---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEEMCAAAA 
+ inv_before       | 2624             
+ inv_after        | 2387             
+-RECORD 82---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEFFAAAAA 
+ inv_before       | 2047             
+ inv_after        | 1878             
+-RECORD 83---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEGJAAAAA 
+ inv_before       | 2403             
+ inv_after        | 2633             
+-RECORD 84---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEGMAAAAA 
+ inv_before       | 2784             
+ inv_after        | 2772             
+-RECORD 85---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEGOCAAAA 
+ inv_before       | 2389             
+ inv_after        | 1753             
+-RECORD 86---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEHFDAAAA 
+ inv_before       | 1940             
+ inv_after        | 1420             
+-RECORD 87---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEHLBAAAA 
+ inv_before       | 2320             
+ inv_after        | 2057             
+-RECORD 88---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEHPAAAAA 
+ inv_before       | 1898             
+ inv_after        | 1853             
+-RECORD 89---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEIPBAAAA 
+ inv_before       | 2930             
+ inv_after        | 2326             
+-RECORD 90---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEJAEAAAA 
+ inv_before       | 2582             
+ inv_after        | 1836             
+-RECORD 91---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEJIBAAAA 
+ inv_before       | 2257             
+ inv_after        | 1681             
+-RECORD 92---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEJJAAAAA 
+ inv_before       | 2791             
+ inv_after        | 1941             
+-RECORD 93---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEJJDAAAA 
+ inv_before       | 3410             
+ inv_after        | 2405             
+-RECORD 94---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEJNCAAAA 
+ inv_before       | 2472             
+ inv_after        | 2067             
+-RECORD 95---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEJPDAAAA 
+ inv_before       | 1219             
+ inv_after        | 1229             
+-RECORD 96---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEKEBAAAA 
+ inv_before       | 2047             
+ inv_after        | 1713             
+-RECORD 97---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEMEAAAAA 
+ inv_before       | 2502             
+ inv_after        | 1897             
+-RECORD 98---------------------------
+ w_warehouse_name | null             
+ i_item_id        | AAAAAAAAEMKCAAAA 
+ inv_before       | 2362             
+ inv_after        | 2042
+           

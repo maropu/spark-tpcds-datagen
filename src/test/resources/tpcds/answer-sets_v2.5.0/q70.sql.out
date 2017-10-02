@@ -1,0 +1,19 @@
+-RECORD 0-------------------------------
+ total_sum          | -440986113        
+ s_state            | null              
+ s_county           | null              
+ lochierarchy       | 2                 
+ rank_within_parent | 1                 
+-RECORD 1-------------------------------
+ total_sum          | -440986113        
+ s_state            | TN                
+ s_county           | null              
+ lochierarchy       | 1                 
+ rank_within_parent | 1                 
+-RECORD 2-------------------------------
+ total_sum          | -440986113        
+ s_state            | TN                
+ s_county           | Williamson County 
+ lochierarchy       | 0                 
+ rank_within_parent | 1
+           

@@ -1,0 +1,31 @@
+-RECORD 0-----------------------------------------------
+ substring(r_reason_desc, 1, 20) | Gift exchange        
+ avg(ws_quantity)                | 76                   
+ avg(wr_refunded_cash)           | 464.36               
+ avg(wr_fee)                     | 8.62                 
+-RECORD 1-----------------------------------------------
+ substring(r_reason_desc, 1, 20) | Not the product that 
+ avg(ws_quantity)                | 70                   
+ avg(wr_refunded_cash)           | 876.67               
+ avg(wr_fee)                     | 46.67                
+-RECORD 2-----------------------------------------------
+ substring(r_reason_desc, 1, 20) | Parts missing        
+ avg(ws_quantity)                | 7                    
+ avg(wr_refunded_cash)           | 129.42               
+ avg(wr_fee)                     | 38.65                
+-RECORD 3-----------------------------------------------
+ substring(r_reason_desc, 1, 20) | reason 23            
+ avg(ws_quantity)                | 47                   
+ avg(wr_refunded_cash)           | 734.61               
+ avg(wr_fee)                     | 6.17                 
+-RECORD 4-----------------------------------------------
+ substring(r_reason_desc, 1, 20) | reason 25            
+ avg(ws_quantity)                | 5                    
+ avg(wr_refunded_cash)           | 48.94                
+ avg(wr_fee)                     | 53.145               
+-RECORD 5-----------------------------------------------
+ substring(r_reason_desc, 1, 20) | reason 28            
+ avg(ws_quantity)                | 8                    
+ avg(wr_refunded_cash)           | 306.2                
+ avg(wr_fee)                     | 37.06
+           

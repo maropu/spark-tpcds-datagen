@@ -1,0 +1,1170 @@
+-RECORD 0----------------------------
+ c_last_name           | null        
+ c_first_name          | null        
+ c_salutation          | null        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 55640       
+ cnt                   | 15          
+-RECORD 1----------------------------
+ c_last_name           | null        
+ c_first_name          | null        
+ c_salutation          | null        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 220211      
+ cnt                   | 15          
+-RECORD 2----------------------------
+ c_last_name           | null        
+ c_first_name          | Joshua      
+ c_salutation          | Sir         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 108357      
+ cnt                   | 15          
+-RECORD 3----------------------------
+ c_last_name           | null        
+ c_first_name          | Judy        
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | null        
+ ss_ticket_number      | 234350      
+ cnt                   | 16          
+-RECORD 4----------------------------
+ c_last_name           | Adams       
+ c_first_name          | Jerry       
+ c_salutation          | Sir         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 216653      
+ cnt                   | 15          
+-RECORD 5----------------------------
+ c_last_name           | Anderson    
+ c_first_name          | Cindy       
+ c_salutation          | Miss        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 90504       
+ cnt                   | 15          
+-RECORD 6----------------------------
+ c_last_name           | Anderson    
+ c_first_name          | Marta       
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 176320      
+ cnt                   | 15          
+-RECORD 7----------------------------
+ c_last_name           | Anderson    
+ c_first_name          | Rosemarie   
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 178489      
+ cnt                   | 15          
+-RECORD 8----------------------------
+ c_last_name           | Appleton    
+ c_first_name          | Gary        
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 58554       
+ cnt                   | 16          
+-RECORD 9----------------------------
+ c_last_name           | Arredondo   
+ c_first_name          | Phyllis     
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 226220      
+ cnt                   | 16          
+-RECORD 10---------------------------
+ c_last_name           | Baker       
+ c_first_name          | Erik        
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 69511       
+ cnt                   | 15          
+-RECORD 11---------------------------
+ c_last_name           | Bear        
+ c_first_name          | Tommy       
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 27468       
+ cnt                   | 15          
+-RECORD 12---------------------------
+ c_last_name           | Bilodeau    
+ c_first_name          | Norma       
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 136244      
+ cnt                   | 15          
+-RECORD 13---------------------------
+ c_last_name           | Boles       
+ c_first_name          | George      
+ c_salutation          | Sir         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 64282       
+ cnt                   | 15          
+-RECORD 14---------------------------
+ c_last_name           | Boyer       
+ c_first_name          | Betty       
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 171238      
+ cnt                   | 16          
+-RECORD 15---------------------------
+ c_last_name           | Brower      
+ c_first_name          | Donald      
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 163579      
+ cnt                   | 15          
+-RECORD 16---------------------------
+ c_last_name           | Brown       
+ c_first_name          | David       
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 162755      
+ cnt                   | 16          
+-RECORD 17---------------------------
+ c_last_name           | Brown       
+ c_first_name          | Janette     
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 7269        
+ cnt                   | 16          
+-RECORD 18---------------------------
+ c_last_name           | Brown       
+ c_first_name          | Raymond     
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 212279      
+ cnt                   | 15          
+-RECORD 19---------------------------
+ c_last_name           | Brown       
+ c_first_name          | Roderick    
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 221290      
+ cnt                   | 16          
+-RECORD 20---------------------------
+ c_last_name           | Burdette    
+ c_first_name          | Ronald      
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 118097      
+ cnt                   | 15          
+-RECORD 21---------------------------
+ c_last_name           | Butcher     
+ c_first_name          | Francine    
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 112093      
+ cnt                   | 15          
+-RECORD 22---------------------------
+ c_last_name           | Butler      
+ c_first_name          | Amos        
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 7184        
+ cnt                   | 15          
+-RECORD 23---------------------------
+ c_last_name           | Campbell    
+ c_first_name          | Gordon      
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 196090      
+ cnt                   | 15          
+-RECORD 24---------------------------
+ c_last_name           | Carlson     
+ c_first_name          | Gwendolyn   
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 88472       
+ cnt                   | 15          
+-RECORD 25---------------------------
+ c_last_name           | Carroll     
+ c_first_name          | Frederick   
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 56635       
+ cnt                   | 15          
+-RECORD 26---------------------------
+ c_last_name           | Chang       
+ c_first_name          | Erik        
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 140138      
+ cnt                   | 15          
+-RECORD 27---------------------------
+ c_last_name           | Chen        
+ c_first_name          | Brett       
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 7880        
+ cnt                   | 15          
+-RECORD 28---------------------------
+ c_last_name           | Clark       
+ c_first_name          | Meredith    
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 229216      
+ cnt                   | 16          
+-RECORD 29---------------------------
+ c_last_name           | Clemente    
+ c_first_name          | Patrick     
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 179702      
+ cnt                   | 15          
+-RECORD 30---------------------------
+ c_last_name           | Clifford    
+ c_first_name          | John        
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 12960       
+ cnt                   | 15          
+-RECORD 31---------------------------
+ c_last_name           | Cochran     
+ c_first_name          | Dennis      
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 94375       
+ cnt                   | 15          
+-RECORD 32---------------------------
+ c_last_name           | Collins     
+ c_first_name          | Patsy       
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 13775       
+ cnt                   | 15          
+-RECORD 33---------------------------
+ c_last_name           | Crouch      
+ c_first_name          | Roberto     
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 160826      
+ cnt                   | 15          
+-RECORD 34---------------------------
+ c_last_name           | David       
+ c_first_name          | Timothy     
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 20342       
+ cnt                   | 16          
+-RECORD 35---------------------------
+ c_last_name           | Davis       
+ c_first_name          | Donya       
+ c_salutation          | Miss        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 31118       
+ cnt                   | 15          
+-RECORD 36---------------------------
+ c_last_name           | Davis       
+ c_first_name          | Jess        
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 197947      
+ cnt                   | 15          
+-RECORD 37---------------------------
+ c_last_name           | Diaz        
+ c_first_name          | Brian       
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 73210       
+ cnt                   | 15          
+-RECORD 38---------------------------
+ c_last_name           | Dunn        
+ c_first_name          | Stephen     
+ c_salutation          | Sir         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 32455       
+ cnt                   | 15          
+-RECORD 39---------------------------
+ c_last_name           | Eason       
+ c_first_name          | Mario       
+ c_salutation          | Sir         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 174089      
+ cnt                   | 15          
+-RECORD 40---------------------------
+ c_last_name           | Easton      
+ c_first_name          | Christopher 
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 10691       
+ cnt                   | 15          
+-RECORD 41---------------------------
+ c_last_name           | Elliot      
+ c_first_name          | Mark        
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 35782       
+ cnt                   | 16          
+-RECORD 42---------------------------
+ c_last_name           | Farnsworth  
+ c_first_name          | Danny       
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 29979       
+ cnt                   | 15          
+-RECORD 43---------------------------
+ c_last_name           | Ferrell     
+ c_first_name          | Roy         
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 139997      
+ cnt                   | 15          
+-RECORD 44---------------------------
+ c_last_name           | Ferris      
+ c_first_name          | William     
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 12536       
+ cnt                   | 15          
+-RECORD 45---------------------------
+ c_last_name           | Finn        
+ c_first_name          | Margaret    
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 207070      
+ cnt                   | 15          
+-RECORD 46---------------------------
+ c_last_name           | Forney      
+ c_first_name          | Christopher 
+ c_salutation          | Sir         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 175230      
+ cnt                   | 15          
+-RECORD 47---------------------------
+ c_last_name           | Franklin    
+ c_first_name          | Judy        
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 27813       
+ cnt                   | 15          
+-RECORD 48---------------------------
+ c_last_name           | Freeman     
+ c_first_name          | null        
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 175123      
+ cnt                   | 15          
+-RECORD 49---------------------------
+ c_last_name           | Freeman     
+ c_first_name          | Rayford     
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 36115       
+ cnt                   | 15          
+-RECORD 50---------------------------
+ c_last_name           | Galindo     
+ c_first_name          | Karen       
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 100437      
+ cnt                   | 15          
+-RECORD 51---------------------------
+ c_last_name           | Garza       
+ c_first_name          | William     
+ c_salutation          | Sir         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 43273       
+ cnt                   | 15          
+-RECORD 52---------------------------
+ c_last_name           | Gil         
+ c_first_name          | Yvette      
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 86699       
+ cnt                   | 15          
+-RECORD 53---------------------------
+ c_last_name           | Gomez       
+ c_first_name          | Brandon     
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 160457      
+ cnt                   | 15          
+-RECORD 54---------------------------
+ c_last_name           | Gonzalez    
+ c_first_name          | Ruby        
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 228694      
+ cnt                   | 15          
+-RECORD 55---------------------------
+ c_last_name           | Gordon      
+ c_first_name          | Larry       
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 99782       
+ cnt                   | 15          
+-RECORD 56---------------------------
+ c_last_name           | Grayson     
+ c_first_name          | Carolyn     
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 69374       
+ cnt                   | 16          
+-RECORD 57---------------------------
+ c_last_name           | Griffin     
+ c_first_name          | Martha      
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 82841       
+ cnt                   | 16          
+-RECORD 58---------------------------
+ c_last_name           | Gulley      
+ c_first_name          | Daniel      
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 37484       
+ cnt                   | 16          
+-RECORD 59---------------------------
+ c_last_name           | Gutierrez   
+ c_first_name          | Ashley      
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 209948      
+ cnt                   | 16          
+-RECORD 60---------------------------
+ c_last_name           | Hall        
+ c_first_name          | Roger       
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 136216      
+ cnt                   | 15          
+-RECORD 61---------------------------
+ c_last_name           | Harrison    
+ c_first_name          | Jennifer    
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 63097       
+ cnt                   | 15          
+-RECORD 62---------------------------
+ c_last_name           | Hawkins     
+ c_first_name          | Clyde       
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 236510      
+ cnt                   | 15          
+-RECORD 63---------------------------
+ c_last_name           | Hayes       
+ c_first_name          | Elizabeth   
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 213826      
+ cnt                   | 15          
+-RECORD 64---------------------------
+ c_last_name           | Hayes       
+ c_first_name          | William     
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 223946      
+ cnt                   | 15          
+-RECORD 65---------------------------
+ c_last_name           | Haynes      
+ c_first_name          | Jennifer    
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 203136      
+ cnt                   | 15          
+-RECORD 66---------------------------
+ c_last_name           | Hernandez   
+ c_first_name          | Paul        
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 190691      
+ cnt                   | 15          
+-RECORD 67---------------------------
+ c_last_name           | Hernandez   
+ c_first_name          | Sandra      
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 14252       
+ cnt                   | 16          
+-RECORD 68---------------------------
+ c_last_name           | Hewitt      
+ c_first_name          | Michelle    
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 155492      
+ cnt                   | 15          
+-RECORD 69---------------------------
+ c_last_name           | Horton      
+ c_first_name          | Michelle    
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 112716      
+ cnt                   | 16          
+-RECORD 70---------------------------
+ c_last_name           | Hughes      
+ c_first_name          | Martin      
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 178631      
+ cnt                   | 15          
+-RECORD 71---------------------------
+ c_last_name           | Ivey        
+ c_first_name          | John        
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 189224      
+ cnt                   | 15          
+-RECORD 72---------------------------
+ c_last_name           | Jackman     
+ c_first_name          | Ida         
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 11753       
+ cnt                   | 15          
+-RECORD 73---------------------------
+ c_last_name           | Johnson     
+ c_first_name          | Olen        
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 12862       
+ cnt                   | 15          
+-RECORD 74---------------------------
+ c_last_name           | Jones       
+ c_first_name          | Eleanor     
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 27477       
+ cnt                   | 16          
+-RECORD 75---------------------------
+ c_last_name           | Keith       
+ c_first_name          | Bruce       
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 24541       
+ cnt                   | 15          
+-RECORD 76---------------------------
+ c_last_name           | Kelly       
+ c_first_name          | Betty       
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 151468      
+ cnt                   | 16          
+-RECORD 77---------------------------
+ c_last_name           | King        
+ c_first_name          | Thomas      
+ c_salutation          | Sir         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 62796       
+ cnt                   | 15          
+-RECORD 78---------------------------
+ c_last_name           | Kline       
+ c_first_name          | Donald      
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 161957      
+ cnt                   | 15          
+-RECORD 79---------------------------
+ c_last_name           | Knight      
+ c_first_name          | Terence     
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 176372      
+ cnt                   | 16          
+-RECORD 80---------------------------
+ c_last_name           | Kraus       
+ c_first_name          | Roger       
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 117604      
+ cnt                   | 16          
+-RECORD 81---------------------------
+ c_last_name           | Lacy        
+ c_first_name          | Mina        
+ c_salutation          | Miss        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 227155      
+ cnt                   | 15          
+-RECORD 82---------------------------
+ c_last_name           | Ladner      
+ c_first_name          | Lisa        
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 213223      
+ cnt                   | 15          
+-RECORD 83---------------------------
+ c_last_name           | Laird       
+ c_first_name          | Mark        
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 65882       
+ cnt                   | 15          
+-RECORD 84---------------------------
+ c_last_name           | Lawson      
+ c_first_name          | Kelly       
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 64975       
+ cnt                   | 15          
+-RECORD 85---------------------------
+ c_last_name           | Lewis       
+ c_first_name          | Annie       
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 131418      
+ cnt                   | 15          
+-RECORD 86---------------------------
+ c_last_name           | Light       
+ c_first_name          | Robert      
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 90021       
+ cnt                   | 15          
+-RECORD 87---------------------------
+ c_last_name           | Lin         
+ c_first_name          | Robert      
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 236887      
+ cnt                   | 15          
+-RECORD 88---------------------------
+ c_last_name           | Lopez       
+ c_first_name          | Randee      
+ c_salutation          | Miss        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 9979        
+ cnt                   | 15          
+-RECORD 89---------------------------
+ c_last_name           | Love        
+ c_first_name          | Sean        
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 196652      
+ cnt                   | 15          
+-RECORD 90---------------------------
+ c_last_name           | Manuel      
+ c_first_name          | Doris       
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 148847      
+ cnt                   | 15          
+-RECORD 91---------------------------
+ c_last_name           | Marsh       
+ c_first_name          | Gary        
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 6580        
+ cnt                   | 15          
+-RECORD 92---------------------------
+ c_last_name           | Mason       
+ c_first_name          | Richard     
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 27500       
+ cnt                   | 16          
+-RECORD 93---------------------------
+ c_last_name           | Mccallister 
+ c_first_name          | Andrew      
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 122178      
+ cnt                   | 15          
+-RECORD 94---------------------------
+ c_last_name           | Mcconnell   
+ c_first_name          | Scott       
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 78305       
+ cnt                   | 15          
+-RECORD 95---------------------------
+ c_last_name           | Mccormick   
+ c_first_name          | Joanne      
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 236985      
+ cnt                   | 15          
+-RECORD 96---------------------------
+ c_last_name           | Mcdonald    
+ c_first_name          | Araceli     
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 121343      
+ cnt                   | 15          
+-RECORD 97---------------------------
+ c_last_name           | Mcewen      
+ c_first_name          | Barbara     
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 179491      
+ cnt                   | 15          
+-RECORD 98---------------------------
+ c_last_name           | Melton      
+ c_first_name          | Monique     
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 177605      
+ cnt                   | 15          
+-RECORD 99---------------------------
+ c_last_name           | Miller      
+ c_first_name          | Edward      
+ c_salutation          | Sir         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 64767       
+ cnt                   | 16          
+-RECORD 100--------------------------
+ c_last_name           | Montgomery  
+ c_first_name          | Julie       
+ c_salutation          | Miss        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 17471       
+ cnt                   | 15          
+-RECORD 101--------------------------
+ c_last_name           | Moore       
+ c_first_name          | Jeffrey     
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 155931      
+ cnt                   | 15          
+-RECORD 102--------------------------
+ c_last_name           | Moore       
+ c_first_name          | Lorena      
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 47752       
+ cnt                   | 15          
+-RECORD 103--------------------------
+ c_last_name           | Morgan      
+ c_first_name          | Betty       
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 90306       
+ cnt                   | 15          
+-RECORD 104--------------------------
+ c_last_name           | Morris      
+ c_first_name          | Martina     
+ c_salutation          | Miss        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 32596       
+ cnt                   | 15          
+-RECORD 105--------------------------
+ c_last_name           | Morris      
+ c_first_name          | Meghan      
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 127565      
+ cnt                   | 15          
+-RECORD 106--------------------------
+ c_last_name           | Mulligan    
+ c_first_name          | Mark        
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 184598      
+ cnt                   | 16          
+-RECORD 107--------------------------
+ c_last_name           | Mullins     
+ c_first_name          | Vicki       
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 162762      
+ cnt                   | 15          
+-RECORD 108--------------------------
+ c_last_name           | Neeley      
+ c_first_name          | Stephanie   
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 216299      
+ cnt                   | 15          
+-RECORD 109--------------------------
+ c_last_name           | Olds        
+ c_first_name          | Stephen     
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 206275      
+ cnt                   | 16          
+-RECORD 110--------------------------
+ c_last_name           | Owens       
+ c_first_name          | Terry       
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 144931      
+ cnt                   | 15          
+-RECORD 111--------------------------
+ c_last_name           | Palacios    
+ c_first_name          | Amber       
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 225723      
+ cnt                   | 15          
+-RECORD 112--------------------------
+ c_last_name           | Perry       
+ c_first_name          | Sarah       
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 100885      
+ cnt                   | 15          
+-RECORD 113--------------------------
+ c_last_name           | Perry       
+ c_first_name          | Valeria     
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 64861       
+ cnt                   | 15          
+-RECORD 114--------------------------
+ c_last_name           | Price       
+ c_first_name          | Gloria      
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 22568       
+ cnt                   | 15          
+-RECORD 115--------------------------
+ c_last_name           | Price       
+ c_first_name          | Marguerite  
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 134265      
+ cnt                   | 16          
+-RECORD 116--------------------------
+ c_last_name           | Pridgen     
+ c_first_name          | Hans        
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 207216      
+ cnt                   | 15          
+-RECORD 117--------------------------
+ c_last_name           | Reece       
+ c_first_name          | Jimmy       
+ c_salutation          | Sir         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 166493      
+ cnt                   | 16          
+-RECORD 118--------------------------
+ c_last_name           | Reyna       
+ c_first_name          | Rod         
+ c_salutation          | Sir         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 46248       
+ cnt                   | 16          
+-RECORD 119--------------------------
+ c_last_name           | Reynolds    
+ c_first_name          | Oscar       
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 222749      
+ cnt                   | 15          
+-RECORD 120--------------------------
+ c_last_name           | Riddle      
+ c_first_name          | John        
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 83916       
+ cnt                   | 15          
+-RECORD 121--------------------------
+ c_last_name           | Rivera      
+ c_first_name          | Kate        
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 204524      
+ cnt                   | 15          
+-RECORD 122--------------------------
+ c_last_name           | Roberts     
+ c_first_name          | Dorothy     
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 183154      
+ cnt                   | 15          
+-RECORD 123--------------------------
+ c_last_name           | Roberts     
+ c_first_name          | Jennifer    
+ c_salutation          | Miss        
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 141296      
+ cnt                   | 15          
+-RECORD 124--------------------------
+ c_last_name           | Roldan      
+ c_first_name          | Dorothy     
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 9370        
+ cnt                   | 15          
+-RECORD 125--------------------------
+ c_last_name           | Ross        
+ c_first_name          | Rachael     
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 106042      
+ cnt                   | 16          
+-RECORD 126--------------------------
+ c_last_name           | Russell     
+ c_first_name          | Larry       
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 15209       
+ cnt                   | 16          
+-RECORD 127--------------------------
+ c_last_name           | Sacco       
+ c_first_name          | Brian       
+ c_salutation          | Sir         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 124398      
+ cnt                   | 16          
+-RECORD 128--------------------------
+ c_last_name           | Salinas     
+ c_first_name          | Kenneth     
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 167446      
+ cnt                   | 15          
+-RECORD 129--------------------------
+ c_last_name           | Salter      
+ c_first_name          | Antonio     
+ c_salutation          | Miss        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 27497       
+ cnt                   | 16          
+-RECORD 130--------------------------
+ c_last_name           | Sandoval    
+ c_first_name          | Vincent     
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 140438      
+ cnt                   | 16          
+-RECORD 131--------------------------
+ c_last_name           | Scott       
+ c_first_name          | Michael     
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 104162      
+ cnt                   | 15          
+-RECORD 132--------------------------
+ c_last_name           | Sims        
+ c_first_name          | Fern        
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 175233      
+ cnt                   | 15          
+-RECORD 133--------------------------
+ c_last_name           | Sims        
+ c_first_name          | John        
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 113923      
+ cnt                   | 15          
+-RECORD 134--------------------------
+ c_last_name           | Smith       
+ c_first_name          | John        
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 93525       
+ cnt                   | 16          
+-RECORD 135--------------------------
+ c_last_name           | Smith       
+ c_first_name          | Marion      
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 65393       
+ cnt                   | 15          
+-RECORD 136--------------------------
+ c_last_name           | Smith       
+ c_first_name          | Terry       
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 16945       
+ cnt                   | 15          
+-RECORD 137--------------------------
+ c_last_name           | Smith       
+ c_first_name          | Toni        
+ c_salutation          | Miss        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 50011       
+ cnt                   | 15          
+-RECORD 138--------------------------
+ c_last_name           | Smith       
+ c_first_name          | Wendell     
+ c_salutation          | Sir         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 85496       
+ cnt                   | 15          
+-RECORD 139--------------------------
+ c_last_name           | Sparks      
+ c_first_name          | Michael     
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 23696       
+ cnt                   | 15          
+-RECORD 140--------------------------
+ c_last_name           | Spencer     
+ c_first_name          | Teri        
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 28551       
+ cnt                   | 16          
+-RECORD 141--------------------------
+ c_last_name           | Stevens     
+ c_first_name          | Mattie      
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 202640      
+ cnt                   | 15          
+-RECORD 142--------------------------
+ c_last_name           | Stewart     
+ c_first_name          | Gilbert     
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 217862      
+ cnt                   | 15          
+-RECORD 143--------------------------
+ c_last_name           | Stewart     
+ c_first_name          | Pamela      
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 88160       
+ cnt                   | 16          
+-RECORD 144--------------------------
+ c_last_name           | Straub      
+ c_first_name          | Lowell      
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 215956      
+ cnt                   | 16          
+-RECORD 145--------------------------
+ c_last_name           | Sullivan    
+ c_first_name          | Amy         
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 166225      
+ cnt                   | 15          
+-RECORD 146--------------------------
+ c_last_name           | Taylor      
+ c_first_name          | Karen       
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 29777       
+ cnt                   | 15          
+-RECORD 147--------------------------
+ c_last_name           | Taylor      
+ c_first_name          | Robert      
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 37700       
+ cnt                   | 15          
+-RECORD 148--------------------------
+ c_last_name           | Thomas      
+ c_first_name          | Christel    
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 34579       
+ cnt                   | 15          
+-RECORD 149--------------------------
+ c_last_name           | Thompson    
+ c_first_name          | Melissa     
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 162831      
+ cnt                   | 15          
+-RECORD 150--------------------------
+ c_last_name           | Tidwell     
+ c_first_name          | Phyllis     
+ c_salutation          | null        
+ c_preferred_cust_flag | null        
+ ss_ticket_number      | 234037      
+ cnt                   | 16          
+-RECORD 151--------------------------
+ c_last_name           | Tolbert     
+ c_first_name          | Emily       
+ c_salutation          | Miss        
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 40132       
+ cnt                   | 15          
+-RECORD 152--------------------------
+ c_last_name           | Torres      
+ c_first_name          | Jason       
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 224         
+ cnt                   | 16          
+-RECORD 153--------------------------
+ c_last_name           | Townsend    
+ c_first_name          | Michelle    
+ c_salutation          | Mrs.        
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 39872       
+ cnt                   | 15          
+-RECORD 154--------------------------
+ c_last_name           | Turner      
+ c_first_name          | Kerry       
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 23710       
+ cnt                   | 16          
+-RECORD 155--------------------------
+ c_last_name           | Vogel       
+ c_first_name          | Leroy       
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 29032       
+ cnt                   | 15          
+-RECORD 156--------------------------
+ c_last_name           | Walker      
+ c_first_name          | Richard     
+ c_salutation          | Sir         
+ c_preferred_cust_flag | null        
+ ss_ticket_number      | 226475      
+ cnt                   | 15          
+-RECORD 157--------------------------
+ c_last_name           | Walsh       
+ c_first_name          | Javier      
+ c_salutation          | Sir         
+ c_preferred_cust_flag | Y           
+ ss_ticket_number      | 211987      
+ cnt                   | 16          
+-RECORD 158--------------------------
+ c_last_name           | Webb        
+ c_first_name          | Gloria      
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 65663       
+ cnt                   | 15          
+-RECORD 159--------------------------
+ c_last_name           | West        
+ c_first_name          | Carman      
+ c_salutation          | Ms.         
+ c_preferred_cust_flag | null        
+ ss_ticket_number      | 237594      
+ cnt                   | 15          
+-RECORD 160--------------------------
+ c_last_name           | Wiggins     
+ c_first_name          | Kermit      
+ c_salutation          | Sir         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 112643      
+ cnt                   | 15          
+-RECORD 161--------------------------
+ c_last_name           | Wilbur      
+ c_first_name          | Terry       
+ c_salutation          | Sir         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 200312      
+ cnt                   | 15          
+-RECORD 162--------------------------
+ c_last_name           | Williams    
+ c_first_name          | Archie      
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 113007      
+ cnt                   | 15          
+-RECORD 163--------------------------
+ c_last_name           | Williams    
+ c_first_name          | Scott       
+ c_salutation          | null        
+ c_preferred_cust_flag | null        
+ ss_ticket_number      | 136844      
+ cnt                   | 16          
+-RECORD 164--------------------------
+ c_last_name           | Wood        
+ c_first_name          | Mark        
+ c_salutation          | Dr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 4376        
+ cnt                   | 15          
+-RECORD 165--------------------------
+ c_last_name           | Woody       
+ c_first_name          | Philip      
+ c_salutation          | Mr.         
+ c_preferred_cust_flag | N           
+ ss_ticket_number      | 211173      
+ cnt                   | 16          
+-RECORD 166--------------------------
+ c_last_name           | (167 rows)  
+ c_first_name          | null        
+ c_salutation          | null        
+ c_preferred_cust_flag | null        
+ ss_ticket_number      | null        
+ cnt                   | null
+           

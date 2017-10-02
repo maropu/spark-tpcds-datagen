@@ -1,0 +1,801 @@
+-RECORD 0---------------------
+ i_item_id | AAAAAAAAAAABAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 46               
+ agg2      | 114.72           
+ agg3      | 0                
+ agg4      | 32.12            
+-RECORD 1---------------------
+ i_item_id | AAAAAAAAAAABAAAA 
+ s_state   | 1                
+ g_state   | 46               
+ agg1      | 114.72           
+ agg2      | 0                
+ agg3      | 32.12            
+ agg4      | null             
+-RECORD 2---------------------
+ i_item_id | AAAAAAAAAAAEAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 100              
+ agg2      | 77.97            
+ agg3      | 0                
+ agg4      | 57.69            
+-RECORD 3---------------------
+ i_item_id | AAAAAAAAAAAEAAAA 
+ s_state   | 1                
+ g_state   | 100              
+ agg1      | 77.97            
+ agg2      | 0                
+ agg3      | 57.69            
+ agg4      | null             
+-RECORD 4---------------------
+ i_item_id | AAAAAAAAAABAAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 6                
+ agg2      | 48.89            
+ agg3      | 13.61            
+ agg4      | 2.44             
+-RECORD 5---------------------
+ i_item_id | AAAAAAAAAABAAAAA 
+ s_state   | 1                
+ g_state   | 6                
+ agg1      | 48.89            
+ agg2      | 13.61            
+ agg3      | 2.44             
+ agg4      | null             
+-RECORD 6---------------------
+ i_item_id | AAAAAAAAAACAAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 62               
+ agg2      | 32.2133333       
+ agg3      | 0                
+ agg4      | 5.50666667       
+-RECORD 7---------------------
+ i_item_id | AAAAAAAAAACAAAAA 
+ s_state   | 1                
+ g_state   | 62               
+ agg1      | 32.2133333       
+ agg2      | 0                
+ agg3      | 5.50666667       
+ agg4      | null             
+-RECORD 8---------------------
+ i_item_id | AAAAAAAAAACDAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 97               
+ agg2      | 161.78           
+ agg3      | 0                
+ agg4      | 55               
+-RECORD 9---------------------
+ i_item_id | AAAAAAAAAACDAAAA 
+ s_state   | 1                
+ g_state   | 97               
+ agg1      | 161.78           
+ agg2      | 0                
+ agg3      | 55               
+ agg4      | null             
+-RECORD 10--------------------
+ i_item_id | AAAAAAAAAADBAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 28               
+ agg2      | 136.01           
+ agg3      | 575.76           
+ agg4      | 73.44            
+-RECORD 11--------------------
+ i_item_id | AAAAAAAAAADBAAAA 
+ s_state   | 1                
+ g_state   | 28               
+ agg1      | 136.01           
+ agg2      | 575.76           
+ agg3      | 73.44            
+ agg4      | null             
+-RECORD 12--------------------
+ i_item_id | AAAAAAAAAADCAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 64               
+ agg2      | 116.14           
+ agg3      | 0                
+ agg4      | 108.01           
+-RECORD 13--------------------
+ i_item_id | AAAAAAAAAADCAAAA 
+ s_state   | 1                
+ g_state   | 64               
+ agg1      | 116.14           
+ agg2      | 0                
+ agg3      | 108.01           
+ agg4      | null             
+-RECORD 14--------------------
+ i_item_id | AAAAAAAAAAEBAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 9                
+ agg2      | 5.43             
+ agg3      | 0                
+ agg4      | 5.21             
+-RECORD 15--------------------
+ i_item_id | AAAAAAAAAAEBAAAA 
+ s_state   | 1                
+ g_state   | 9                
+ agg1      | 5.43             
+ agg2      | 0                
+ agg3      | 5.21             
+ agg4      | null             
+-RECORD 16--------------------
+ i_item_id | AAAAAAAAAAEDAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 45.5             
+ agg2      | 87.635           
+ agg3      | 0                
+ agg4      | 51.84            
+-RECORD 17--------------------
+ i_item_id | AAAAAAAAAAEDAAAA 
+ s_state   | 1                
+ g_state   | 45.5             
+ agg1      | 87.635           
+ agg2      | 0                
+ agg3      | 51.84            
+ agg4      | null             
+-RECORD 18--------------------
+ i_item_id | AAAAAAAAAAGBAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 29               
+ agg2      | 101.94           
+ agg3      | 0                
+ agg4      | 100.92           
+-RECORD 19--------------------
+ i_item_id | AAAAAAAAAAGBAAAA 
+ s_state   | 1                
+ g_state   | 29               
+ agg1      | 101.94           
+ agg2      | 0                
+ agg3      | 100.92           
+ agg4      | null             
+-RECORD 20--------------------
+ i_item_id | AAAAAAAAAAGCAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 97               
+ agg2      | 65.27            
+ agg3      | 0                
+ agg4      | 21.53            
+-RECORD 21--------------------
+ i_item_id | AAAAAAAAAAGCAAAA 
+ s_state   | 1                
+ g_state   | 97               
+ agg1      | 65.27            
+ agg2      | 0                
+ agg3      | 21.53            
+ agg4      | null             
+-RECORD 22--------------------
+ i_item_id | AAAAAAAAAAGEAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 55               
+ agg2      | 73.875           
+ agg3      | 0                
+ agg4      | 71               
+-RECORD 23--------------------
+ i_item_id | AAAAAAAAAAGEAAAA 
+ s_state   | 1                
+ g_state   | 55               
+ agg1      | 73.875           
+ agg2      | 0                
+ agg3      | 71               
+ agg4      | null             
+-RECORD 24--------------------
+ i_item_id | AAAAAAAAAAHAAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 20               
+ agg2      | 134.3            
+ agg3      | 0                
+ agg4      | 119.52           
+-RECORD 25--------------------
+ i_item_id | AAAAAAAAAAHAAAAA 
+ s_state   | 1                
+ g_state   | 20               
+ agg1      | 134.3            
+ agg2      | 0                
+ agg3      | 119.52           
+ agg4      | null             
+-RECORD 26--------------------
+ i_item_id | AAAAAAAAAAHBAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 97               
+ agg2      | 7.4              
+ agg3      | 0                
+ agg4      | 6.73             
+-RECORD 27--------------------
+ i_item_id | AAAAAAAAAAHBAAAA 
+ s_state   | 1                
+ g_state   | 97               
+ agg1      | 7.4              
+ agg2      | 0                
+ agg3      | 6.73             
+ agg4      | null             
+-RECORD 28--------------------
+ i_item_id | AAAAAAAAAAHDAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 69               
+ agg2      | 5.62             
+ agg3      | 0                
+ agg4      | .33              
+-RECORD 29--------------------
+ i_item_id | AAAAAAAAAAHDAAAA 
+ s_state   | 1                
+ g_state   | 69               
+ agg1      | 5.62             
+ agg2      | 0                
+ agg3      | .33              
+ agg4      | null             
+-RECORD 30--------------------
+ i_item_id | AAAAAAAAAAIAAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 87               
+ agg2      | 106.98           
+ agg3      | 0                
+ agg4      | 27.81            
+-RECORD 31--------------------
+ i_item_id | AAAAAAAAAAIAAAAA 
+ s_state   | 1                
+ g_state   | 87               
+ agg1      | 106.98           
+ agg2      | 0                
+ agg3      | 27.81            
+ agg4      | null             
+-RECORD 32--------------------
+ i_item_id | AAAAAAAAAAKBAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 84.5             
+ agg2      | 66.175           
+ agg3      | 847.835          
+ agg4      | 57.38            
+-RECORD 33--------------------
+ i_item_id | AAAAAAAAAAKBAAAA 
+ s_state   | 1                
+ g_state   | 84.5             
+ agg1      | 66.175           
+ agg2      | 847.835          
+ agg3      | 57.38            
+ agg4      | null             
+-RECORD 34--------------------
+ i_item_id | AAAAAAAAAALAAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 6                
+ agg2      | 32.28            
+ agg3      | 0                
+ agg4      | 7.42             
+-RECORD 35--------------------
+ i_item_id | AAAAAAAAAALAAAAA 
+ s_state   | 1                
+ g_state   | 6                
+ agg1      | 32.28            
+ agg2      | 0                
+ agg3      | 7.42             
+ agg4      | null             
+-RECORD 36--------------------
+ i_item_id | AAAAAAAAAALCAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 98               
+ agg2      | 34.31            
+ agg3      | 55.3             
+ agg4      | 1.71             
+-RECORD 37--------------------
+ i_item_id | AAAAAAAAAALCAAAA 
+ s_state   | 1                
+ g_state   | 98               
+ agg1      | 34.31            
+ agg2      | 55.3             
+ agg3      | 1.71             
+ agg4      | null             
+-RECORD 38--------------------
+ i_item_id | AAAAAAAAAALDAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 59               
+ agg2      | 129.47           
+ agg3      | 713.9            
+ agg4      | 22               
+-RECORD 39--------------------
+ i_item_id | AAAAAAAAAALDAAAA 
+ s_state   | 1                
+ g_state   | 59               
+ agg1      | 129.47           
+ agg2      | 713.9            
+ agg3      | 22               
+ agg4      | null             
+-RECORD 40--------------------
+ i_item_id | AAAAAAAAAANAAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 74               
+ agg2      | 60.875           
+ agg3      | 0                
+ agg4      | 13.2             
+-RECORD 41--------------------
+ i_item_id | AAAAAAAAAANAAAAA 
+ s_state   | 1                
+ g_state   | 74               
+ agg1      | 60.875           
+ agg2      | 0                
+ agg3      | 13.2             
+ agg4      | null             
+-RECORD 42--------------------
+ i_item_id | AAAAAAAAAANBAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 96               
+ agg2      | 130.79           
+ agg3      | 1864.51          
+ agg4      | 129.48           
+-RECORD 43--------------------
+ i_item_id | AAAAAAAAAANBAAAA 
+ s_state   | 1                
+ g_state   | 96               
+ agg1      | 130.79           
+ agg2      | 1864.51          
+ agg3      | 129.48           
+ agg4      | null             
+-RECORD 44--------------------
+ i_item_id | AAAAAAAAAAOAAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 85               
+ agg2      | 130.34           
+ agg3      | 0                
+ agg4      | 122.51           
+-RECORD 45--------------------
+ i_item_id | AAAAAAAAAAOAAAAA 
+ s_state   | 1                
+ g_state   | 85               
+ agg1      | 130.34           
+ agg2      | 0                
+ agg3      | 122.51           
+ agg4      | null             
+-RECORD 46--------------------
+ i_item_id | AAAAAAAAAAOCAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 14               
+ agg2      | 64.575           
+ agg3      | 0                
+ agg4      | 33.975           
+-RECORD 47--------------------
+ i_item_id | AAAAAAAAAAOCAAAA 
+ s_state   | 1                
+ g_state   | 14               
+ agg1      | 64.575           
+ agg2      | 0                
+ agg3      | 33.975           
+ agg4      | null             
+-RECORD 48--------------------
+ i_item_id | AAAAAAAAAAODAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 84               
+ agg2      | 30.5             
+ agg3      | 0                
+ agg4      | 28.97            
+-RECORD 49--------------------
+ i_item_id | AAAAAAAAAAODAAAA 
+ s_state   | 1                
+ g_state   | 84               
+ agg1      | 30.5             
+ agg2      | 0                
+ agg3      | 28.97            
+ agg4      | null             
+-RECORD 50--------------------
+ i_item_id | AAAAAAAAAAPBAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 45               
+ agg2      | 118.89           
+ agg3      | 2380.595         
+ agg4      | 84.715           
+-RECORD 51--------------------
+ i_item_id | AAAAAAAAAAPBAAAA 
+ s_state   | 1                
+ g_state   | 45               
+ agg1      | 118.89           
+ agg2      | 2380.595         
+ agg3      | 84.715           
+ agg4      | null             
+-RECORD 52--------------------
+ i_item_id | AAAAAAAAABAAAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 97               
+ agg2      | 124.75           
+ agg3      | 0                
+ agg4      | 74.85            
+-RECORD 53--------------------
+ i_item_id | AAAAAAAAABAAAAAA 
+ s_state   | 1                
+ g_state   | 97               
+ agg1      | 124.75           
+ agg2      | 0                
+ agg3      | 74.85            
+ agg4      | null             
+-RECORD 54--------------------
+ i_item_id | AAAAAAAAABABAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 31               
+ agg2      | 29.98            
+ agg3      | 17.09            
+ agg4      | 27.58            
+-RECORD 55--------------------
+ i_item_id | AAAAAAAAABABAAAA 
+ s_state   | 1                
+ g_state   | 31               
+ agg1      | 29.98            
+ agg2      | 17.09            
+ agg3      | 27.58            
+ agg4      | null             
+-RECORD 56--------------------
+ i_item_id | AAAAAAAAABAEAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 34               
+ agg2      | 17.21            
+ agg3      | 0                
+ agg4      | 13.42            
+-RECORD 57--------------------
+ i_item_id | AAAAAAAAABAEAAAA 
+ s_state   | 1                
+ g_state   | 34               
+ agg1      | 17.21            
+ agg2      | 0                
+ agg3      | 13.42            
+ agg4      | null             
+-RECORD 58--------------------
+ i_item_id | AAAAAAAAABCBAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 38               
+ agg2      | 131.375          
+ agg3      | 0                
+ agg4      | 52.32            
+-RECORD 59--------------------
+ i_item_id | AAAAAAAAABCBAAAA 
+ s_state   | 1                
+ g_state   | 38               
+ agg1      | 131.375          
+ agg2      | 0                
+ agg3      | 52.32            
+ agg4      | null             
+-RECORD 60--------------------
+ i_item_id | AAAAAAAAABDAAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 31.5             
+ agg2      | 68.345           
+ agg3      | 0                
+ agg4      | 63.275           
+-RECORD 61--------------------
+ i_item_id | AAAAAAAAABDAAAAA 
+ s_state   | 1                
+ g_state   | 31.5             
+ agg1      | 68.345           
+ agg2      | 0                
+ agg3      | 63.275           
+ agg4      | null             
+-RECORD 62--------------------
+ i_item_id | AAAAAAAAABDBAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 56               
+ agg2      | 103.85           
+ agg3      | 1624.17          
+ agg4      | 59.19            
+-RECORD 63--------------------
+ i_item_id | AAAAAAAAABDBAAAA 
+ s_state   | 1                
+ g_state   | 56               
+ agg1      | 103.85           
+ agg2      | 1624.17          
+ agg3      | 59.19            
+ agg4      | null             
+-RECORD 64--------------------
+ i_item_id | AAAAAAAAABDDAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 67.3333333       
+ agg2      | 119.42           
+ agg3      | 23.1866667       
+ agg4      | 38.72            
+-RECORD 65--------------------
+ i_item_id | AAAAAAAAABDDAAAA 
+ s_state   | 1                
+ g_state   | 67.3333333       
+ agg1      | 119.42           
+ agg2      | 23.1866667       
+ agg3      | 38.72            
+ agg4      | null             
+-RECORD 66--------------------
+ i_item_id | AAAAAAAAABDEAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 61               
+ agg2      | 85.95            
+ agg3      | 2282.36          
+ agg4      | 44.605           
+-RECORD 67--------------------
+ i_item_id | AAAAAAAAABDEAAAA 
+ s_state   | 1                
+ g_state   | 61               
+ agg1      | 85.95            
+ agg2      | 2282.36          
+ agg3      | 44.605           
+ agg4      | null             
+-RECORD 68--------------------
+ i_item_id | AAAAAAAAABEDAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 61               
+ agg2      | 85.14            
+ agg3      | 0                
+ agg4      | 50.23            
+-RECORD 69--------------------
+ i_item_id | AAAAAAAAABEDAAAA 
+ s_state   | 1                
+ g_state   | 61               
+ agg1      | 85.14            
+ agg2      | 0                
+ agg3      | 50.23            
+ agg4      | null             
+-RECORD 70--------------------
+ i_item_id | AAAAAAAAABFBAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 31               
+ agg2      | 23.55            
+ agg3      | 0                
+ agg4      | 13.65            
+-RECORD 71--------------------
+ i_item_id | AAAAAAAAABFBAAAA 
+ s_state   | 1                
+ g_state   | 31               
+ agg1      | 23.55            
+ agg2      | 0                
+ agg3      | 13.65            
+ agg4      | null             
+-RECORD 72--------------------
+ i_item_id | AAAAAAAAABFCAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 83               
+ agg2      | 15.5             
+ agg3      | 0                
+ agg4      | 0                
+-RECORD 73--------------------
+ i_item_id | AAAAAAAAABFCAAAA 
+ s_state   | 1                
+ g_state   | 83               
+ agg1      | 15.5             
+ agg2      | 0                
+ agg3      | 0                
+ agg4      | null             
+-RECORD 74--------------------
+ i_item_id | AAAAAAAAABGAAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 64               
+ agg2      | 35.08            
+ agg3      | 0                
+ agg4      | 3.15             
+-RECORD 75--------------------
+ i_item_id | AAAAAAAAABGAAAAA 
+ s_state   | 1                
+ g_state   | 64               
+ agg1      | 35.08            
+ agg2      | 0                
+ agg3      | 3.15             
+ agg4      | null             
+-RECORD 76--------------------
+ i_item_id | AAAAAAAAABGBAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 40               
+ agg2      | 25.07            
+ agg3      | 0                
+ agg4      | 16.04            
+-RECORD 77--------------------
+ i_item_id | AAAAAAAAABGBAAAA 
+ s_state   | 1                
+ g_state   | 40               
+ agg1      | 25.07            
+ agg2      | 0                
+ agg3      | 16.04            
+ agg4      | null             
+-RECORD 78--------------------
+ i_item_id | AAAAAAAAABGEAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 39.5             
+ agg2      | 56.765           
+ agg3      | 14.255           
+ agg4      | 36.005           
+-RECORD 79--------------------
+ i_item_id | AAAAAAAAABGEAAAA 
+ s_state   | 1                
+ g_state   | 39.5             
+ agg1      | 56.765           
+ agg2      | 14.255           
+ agg3      | 36.005           
+ agg4      | null             
+-RECORD 80--------------------
+ i_item_id | AAAAAAAAABHAAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 93               
+ agg2      | 74.8             
+ agg3      | 0                
+ agg4      | 21.69            
+-RECORD 81--------------------
+ i_item_id | AAAAAAAAABHAAAAA 
+ s_state   | 1                
+ g_state   | 93               
+ agg1      | 74.8             
+ agg2      | 0                
+ agg3      | 21.69            
+ agg4      | null             
+-RECORD 82--------------------
+ i_item_id | AAAAAAAAABHCAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 31.5             
+ agg2      | 79.835           
+ agg3      | 181.38           
+ agg4      | 61.935           
+-RECORD 83--------------------
+ i_item_id | AAAAAAAAABHCAAAA 
+ s_state   | 1                
+ g_state   | 31.5             
+ agg1      | 79.835           
+ agg2      | 181.38           
+ agg3      | 61.935           
+ agg4      | null             
+-RECORD 84--------------------
+ i_item_id | AAAAAAAAABIBAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 48               
+ agg2      | 170.89           
+ agg3      | 0                
+ agg4      | 140.12           
+-RECORD 85--------------------
+ i_item_id | AAAAAAAAABIBAAAA 
+ s_state   | 1                
+ g_state   | 48               
+ agg1      | 170.89           
+ agg2      | 0                
+ agg3      | 140.12           
+ agg4      | null             
+-RECORD 86--------------------
+ i_item_id | AAAAAAAAABJAAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 46.5             
+ agg2      | 82.325           
+ agg3      | 0                
+ agg4      | 44.985           
+-RECORD 87--------------------
+ i_item_id | AAAAAAAAABJAAAAA 
+ s_state   | 1                
+ g_state   | 46.5             
+ agg1      | 82.325           
+ agg2      | 0                
+ agg3      | 44.985           
+ agg4      | null             
+-RECORD 88--------------------
+ i_item_id | AAAAAAAAABJBAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 76               
+ agg2      | 12.4             
+ agg3      | 0                
+ agg4      | 3.96             
+-RECORD 89--------------------
+ i_item_id | AAAAAAAAABJBAAAA 
+ s_state   | 1                
+ g_state   | 76               
+ agg1      | 12.4             
+ agg2      | 0                
+ agg3      | 3.96             
+ agg4      | null             
+-RECORD 90--------------------
+ i_item_id | AAAAAAAAABJDAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 34               
+ agg2      | 118.505          
+ agg3      | 0                
+ agg4      | 61.205           
+-RECORD 91--------------------
+ i_item_id | AAAAAAAAABJDAAAA 
+ s_state   | 1                
+ g_state   | 34               
+ agg1      | 118.505          
+ agg2      | 0                
+ agg3      | 61.205           
+ agg4      | null             
+-RECORD 92--------------------
+ i_item_id | AAAAAAAAABKAAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 65               
+ agg2      | 8.775            
+ agg3      | 0                
+ agg4      | 5.18             
+-RECORD 93--------------------
+ i_item_id | AAAAAAAAABKAAAAA 
+ s_state   | 1                
+ g_state   | 65               
+ agg1      | 8.775            
+ agg2      | 0                
+ agg3      | 5.18             
+ agg4      | null             
+-RECORD 94--------------------
+ i_item_id | AAAAAAAAABKCAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 26               
+ agg2      | 51.57            
+ agg3      | 0                
+ agg4      | 41.25            
+-RECORD 95--------------------
+ i_item_id | AAAAAAAAABKCAAAA 
+ s_state   | 1                
+ g_state   | 26               
+ agg1      | 51.57            
+ agg2      | 0                
+ agg3      | 41.25            
+ agg4      | null             
+-RECORD 96--------------------
+ i_item_id | AAAAAAAAABLBAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 61.5             
+ agg2      | 149.12           
+ agg3      | 0                
+ agg4      | 82.54            
+-RECORD 97--------------------
+ i_item_id | AAAAAAAAABLBAAAA 
+ s_state   | 1                
+ g_state   | 61.5             
+ agg1      | 149.12           
+ agg2      | 0                
+ agg3      | 82.54            
+ agg4      | null             
+-RECORD 98--------------------
+ i_item_id | AAAAAAAAABMAAAAA 
+ s_state   | TN               
+ g_state   | 0                
+ agg1      | 14               
+ agg2      | 109.97           
+ agg3      | 0                
+ agg4      | 10.99            
+-RECORD 99--------------------
+ i_item_id | AAAAAAAAABMAAAAA 
+ s_state   | 1                
+ g_state   | 14               
+ agg1      | 109.97           
+ agg2      | 0                
+ agg3      | 10.99            
+ agg4      | null
+           

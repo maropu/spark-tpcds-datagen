@@ -1,0 +1,298 @@
+-RECORD 0---------------
+ ss_customer_sk | 287   
+ sumsales       | null  
+-RECORD 1---------------
+ ss_customer_sk | 458   
+ sumsales       | null  
+-RECORD 2---------------
+ ss_customer_sk | 1756  
+ sumsales       | null  
+-RECORD 3---------------
+ ss_customer_sk | 1990  
+ sumsales       | null  
+-RECORD 4---------------
+ ss_customer_sk | 2181  
+ sumsales       | null  
+-RECORD 5---------------
+ ss_customer_sk | 2571  
+ sumsales       | null  
+-RECORD 6---------------
+ ss_customer_sk | 2660  
+ sumsales       | null  
+-RECORD 7---------------
+ ss_customer_sk | 3640  
+ sumsales       | null  
+-RECORD 8---------------
+ ss_customer_sk | 4093  
+ sumsales       | null  
+-RECORD 9---------------
+ ss_customer_sk | 4572  
+ sumsales       | null  
+-RECORD 10--------------
+ ss_customer_sk | 4694  
+ sumsales       | null  
+-RECORD 11--------------
+ ss_customer_sk | 4842  
+ sumsales       | null  
+-RECORD 12--------------
+ ss_customer_sk | 4932  
+ sumsales       | null  
+-RECORD 13--------------
+ ss_customer_sk | 5667  
+ sumsales       | null  
+-RECORD 14--------------
+ ss_customer_sk | 6154  
+ sumsales       | null  
+-RECORD 15--------------
+ ss_customer_sk | 6437  
+ sumsales       | null  
+-RECORD 16--------------
+ ss_customer_sk | 6811  
+ sumsales       | null  
+-RECORD 17--------------
+ ss_customer_sk | 6948  
+ sumsales       | null  
+-RECORD 18--------------
+ ss_customer_sk | 7077  
+ sumsales       | null  
+-RECORD 19--------------
+ ss_customer_sk | 7476  
+ sumsales       | null  
+-RECORD 20--------------
+ ss_customer_sk | 7857  
+ sumsales       | null  
+-RECORD 21--------------
+ ss_customer_sk | 8694  
+ sumsales       | null  
+-RECORD 22--------------
+ ss_customer_sk | 9050  
+ sumsales       | null  
+-RECORD 23--------------
+ ss_customer_sk | 9125  
+ sumsales       | null  
+-RECORD 24--------------
+ ss_customer_sk | 9379  
+ sumsales       | null  
+-RECORD 25--------------
+ ss_customer_sk | 10225 
+ sumsales       | null  
+-RECORD 26--------------
+ ss_customer_sk | 11285 
+ sumsales       | null  
+-RECORD 27--------------
+ ss_customer_sk | 11603 
+ sumsales       | null  
+-RECORD 28--------------
+ ss_customer_sk | 11907 
+ sumsales       | null  
+-RECORD 29--------------
+ ss_customer_sk | 12721 
+ sumsales       | null  
+-RECORD 30--------------
+ ss_customer_sk | 13182 
+ sumsales       | null  
+-RECORD 31--------------
+ ss_customer_sk | 13405 
+ sumsales       | null  
+-RECORD 32--------------
+ ss_customer_sk | 14302 
+ sumsales       | null  
+-RECORD 33--------------
+ ss_customer_sk | 15425 
+ sumsales       | null  
+-RECORD 34--------------
+ ss_customer_sk | 15690 
+ sumsales       | null  
+-RECORD 35--------------
+ ss_customer_sk | 15698 
+ sumsales       | null  
+-RECORD 36--------------
+ ss_customer_sk | 16080 
+ sumsales       | null  
+-RECORD 37--------------
+ ss_customer_sk | 16348 
+ sumsales       | null  
+-RECORD 38--------------
+ ss_customer_sk | 16563 
+ sumsales       | null  
+-RECORD 39--------------
+ ss_customer_sk | 16701 
+ sumsales       | null  
+-RECORD 40--------------
+ ss_customer_sk | 16917 
+ sumsales       | null  
+-RECORD 41--------------
+ ss_customer_sk | 17223 
+ sumsales       | null  
+-RECORD 42--------------
+ ss_customer_sk | 17229 
+ sumsales       | null  
+-RECORD 43--------------
+ ss_customer_sk | 17282 
+ sumsales       | null  
+-RECORD 44--------------
+ ss_customer_sk | 17682 
+ sumsales       | null  
+-RECORD 45--------------
+ ss_customer_sk | 17759 
+ sumsales       | null  
+-RECORD 46--------------
+ ss_customer_sk | 17897 
+ sumsales       | null  
+-RECORD 47--------------
+ ss_customer_sk | 17910 
+ sumsales       | null  
+-RECORD 48--------------
+ ss_customer_sk | 18453 
+ sumsales       | null  
+-RECORD 49--------------
+ ss_customer_sk | 18747 
+ sumsales       | null  
+-RECORD 50--------------
+ ss_customer_sk | 19219 
+ sumsales       | null  
+-RECORD 51--------------
+ ss_customer_sk | 19915 
+ sumsales       | null  
+-RECORD 52--------------
+ ss_customer_sk | 20161 
+ sumsales       | null  
+-RECORD 53--------------
+ ss_customer_sk | 20214 
+ sumsales       | null  
+-RECORD 54--------------
+ ss_customer_sk | 20528 
+ sumsales       | null  
+-RECORD 55--------------
+ ss_customer_sk | 21523 
+ sumsales       | null  
+-RECORD 56--------------
+ ss_customer_sk | 21734 
+ sumsales       | null  
+-RECORD 57--------------
+ ss_customer_sk | 21853 
+ sumsales       | null  
+-RECORD 58--------------
+ ss_customer_sk | 22206 
+ sumsales       | null  
+-RECORD 59--------------
+ ss_customer_sk | 23080 
+ sumsales       | null  
+-RECORD 60--------------
+ ss_customer_sk | 23469 
+ sumsales       | null  
+-RECORD 61--------------
+ ss_customer_sk | 23557 
+ sumsales       | null  
+-RECORD 62--------------
+ ss_customer_sk | 23748 
+ sumsales       | null  
+-RECORD 63--------------
+ ss_customer_sk | 24187 
+ sumsales       | null  
+-RECORD 64--------------
+ ss_customer_sk | 24652 
+ sumsales       | null  
+-RECORD 65--------------
+ ss_customer_sk | 25029 
+ sumsales       | null  
+-RECORD 66--------------
+ ss_customer_sk | 25169 
+ sumsales       | null  
+-RECORD 67--------------
+ ss_customer_sk | 25757 
+ sumsales       | null  
+-RECORD 68--------------
+ ss_customer_sk | 25813 
+ sumsales       | null  
+-RECORD 69--------------
+ ss_customer_sk | 26587 
+ sumsales       | null  
+-RECORD 70--------------
+ ss_customer_sk | 26842 
+ sumsales       | null  
+-RECORD 71--------------
+ ss_customer_sk | 26872 
+ sumsales       | null  
+-RECORD 72--------------
+ ss_customer_sk | 27004 
+ sumsales       | null  
+-RECORD 73--------------
+ ss_customer_sk | 27540 
+ sumsales       | null  
+-RECORD 74--------------
+ ss_customer_sk | 27910 
+ sumsales       | null  
+-RECORD 75--------------
+ ss_customer_sk | 27977 
+ sumsales       | null  
+-RECORD 76--------------
+ ss_customer_sk | 28290 
+ sumsales       | null  
+-RECORD 77--------------
+ ss_customer_sk | 28325 
+ sumsales       | null  
+-RECORD 78--------------
+ ss_customer_sk | 28676 
+ sumsales       | null  
+-RECORD 79--------------
+ ss_customer_sk | 30145 
+ sumsales       | null  
+-RECORD 80--------------
+ ss_customer_sk | 31163 
+ sumsales       | null  
+-RECORD 81--------------
+ ss_customer_sk | 32195 
+ sumsales       | null  
+-RECORD 82--------------
+ ss_customer_sk | 32306 
+ sumsales       | null  
+-RECORD 83--------------
+ ss_customer_sk | 32967 
+ sumsales       | null  
+-RECORD 84--------------
+ ss_customer_sk | 33062 
+ sumsales       | null  
+-RECORD 85--------------
+ ss_customer_sk | 34398 
+ sumsales       | null  
+-RECORD 86--------------
+ ss_customer_sk | 34857 
+ sumsales       | null  
+-RECORD 87--------------
+ ss_customer_sk | 35264 
+ sumsales       | null  
+-RECORD 88--------------
+ ss_customer_sk | 35733 
+ sumsales       | null  
+-RECORD 89--------------
+ ss_customer_sk | 35859 
+ sumsales       | null  
+-RECORD 90--------------
+ ss_customer_sk | 36260 
+ sumsales       | null  
+-RECORD 91--------------
+ ss_customer_sk | 36474 
+ sumsales       | null  
+-RECORD 92--------------
+ ss_customer_sk | 36488 
+ sumsales       | null  
+-RECORD 93--------------
+ ss_customer_sk | 37231 
+ sumsales       | null  
+-RECORD 94--------------
+ ss_customer_sk | 37519 
+ sumsales       | null  
+-RECORD 95--------------
+ ss_customer_sk | 37720 
+ sumsales       | null  
+-RECORD 96--------------
+ ss_customer_sk | 37770 
+ sumsales       | null  
+-RECORD 97--------------
+ ss_customer_sk | 37909 
+ sumsales       | null  
+-RECORD 98--------------
+ ss_customer_sk | 37936 
+ sumsales       | null
+           

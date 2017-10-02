@@ -1,0 +1,193 @@
+-RECORD 0--------------------
+ channel       | catalog     
+ item          | 17543       
+ return_ratio  | 0.571428571 
+ return_rank   | 1           
+ currency_rank | 1           
+-RECORD 1--------------------
+ channel       | catalog     
+ item          | 14513       
+ return_ratio  | 0.635416667 
+ return_rank   | 2           
+ currency_rank | 2           
+-RECORD 2--------------------
+ channel       | catalog     
+ item          | 12577       
+ return_ratio  | 0.655913978 
+ return_rank   | 3           
+ currency_rank | 3           
+-RECORD 3--------------------
+ channel       | catalog     
+ item          | 3411        
+ return_ratio  | 0.71641791  
+ return_rank   | 4           
+ currency_rank | 4           
+-RECORD 4--------------------
+ channel       | catalog     
+ item          | 361         
+ return_ratio  | 0.746478873 
+ return_rank   | 5           
+ currency_rank | 5           
+-RECORD 5--------------------
+ channel       | catalog     
+ item          | 8189        
+ return_ratio  | 0.746987952 
+ return_rank   | 6           
+ currency_rank | 6           
+-RECORD 6--------------------
+ channel       | catalog     
+ item          | 8929        
+ return_ratio  | null        
+ return_rank   | 0.7625      
+ currency_rank | 7           
+-RECORD 7--------------------
+ channel       | catalog     
+ item          | 14869       
+ return_ratio  | 0.77173913  
+ return_rank   | 8           
+ currency_rank | 8           
+-RECORD 8--------------------
+ channel       | catalog     
+ item          | 9295        
+ return_ratio  | 0.778947368 
+ return_rank   | 9           
+ currency_rank | 9           
+-RECORD 9--------------------
+ channel       | catalog     
+ item          | 16215       
+ return_ratio  | 0.790697674 
+ return_rank   | 10          
+ currency_rank | 10          
+-RECORD 10-------------------
+ channel       | ore         
+ item          | 9471        
+ return_ratio  | null        
+ return_rank   | 0.775       
+ currency_rank | 1           
+-RECORD 11-------------------
+ channel       | ore         
+ item          | 9797        
+ return_ratio  | null        
+ return_rank   | 0.8         
+ currency_rank | 2           
+-RECORD 12-------------------
+ channel       | ore         
+ item          | 12641       
+ return_ratio  | 0.816091954 
+ return_rank   | 3           
+ currency_rank | 3           
+-RECORD 13-------------------
+ channel       | ore         
+ item          | 15839       
+ return_ratio  | 0.816326531 
+ return_rank   | 4           
+ currency_rank | 4           
+-RECORD 14-------------------
+ channel       | ore         
+ item          | 1171        
+ return_ratio  | 0.824175824 
+ return_rank   | 5           
+ currency_rank | 5           
+-RECORD 15-------------------
+ channel       | ore         
+ item          | 11589       
+ return_ratio  | 0.826530612 
+ return_rank   | 6           
+ currency_rank | 6           
+-RECORD 16-------------------
+ channel       | ore         
+ item          | 6661        
+ return_ratio  | 0.922077922 
+ return_rank   | 7           
+ currency_rank | 7           
+-RECORD 17-------------------
+ channel       | ore         
+ item          | 13013       
+ return_ratio  | 0.942028986 
+ return_rank   | 8           
+ currency_rank | 8           
+-RECORD 18-------------------
+ channel       | ore         
+ item          | 14925       
+ return_ratio  | 0.964705882 
+ return_rank   | 9           
+ currency_rank | 9           
+-RECORD 19-------------------
+ channel       | ore         
+ item          | 4063        
+ return_ratio  | 1           
+ return_rank   | 10          
+ currency_rank | 10          
+-RECORD 20-------------------
+ channel       | ore         
+ item          | 9029        
+ return_ratio  | 1           
+ return_rank   | 10          
+ currency_rank | 10          
+-RECORD 21-------------------
+ channel       | web         
+ item          | 7539        
+ return_ratio  | 0.59        
+ return_rank   | 1           
+ currency_rank | 1           
+-RECORD 22-------------------
+ channel       | web         
+ item          | 3337        
+ return_ratio  | 0.626506024 
+ return_rank   | 2           
+ currency_rank | 2           
+-RECORD 23-------------------
+ channel       | web         
+ item          | 15597       
+ return_ratio  | 0.661971831 
+ return_rank   | 3           
+ currency_rank | 3           
+-RECORD 24-------------------
+ channel       | web         
+ item          | 2915        
+ return_ratio  | 0.698630137 
+ return_rank   | 4           
+ currency_rank | 4           
+-RECORD 25-------------------
+ channel       | web         
+ item          | 11933       
+ return_ratio  | 0.717171717 
+ return_rank   | 5           
+ currency_rank | 5           
+-RECORD 26-------------------
+ channel       | web         
+ item          | 3305        
+ return_ratio  | null        
+ return_rank   | 0.7375      
+ currency_rank | 6           
+-RECORD 27-------------------
+ channel       | web         
+ item          | 483         
+ return_ratio  | null        
+ return_rank   | 0.8         
+ currency_rank | 7           
+-RECORD 28-------------------
+ channel       | web         
+ item          | 85          
+ return_ratio  | 0.857142857 
+ return_rank   | 8           
+ currency_rank | 7           
+-RECORD 29-------------------
+ channel       | web         
+ item          | 97          
+ return_ratio  | 0.903614458 
+ return_rank   | 9           
+ currency_rank | 8           
+-RECORD 30-------------------
+ channel       | web         
+ item          | 117         
+ return_ratio  | null        
+ return_rank   | 0.925       
+ currency_rank | 10          
+-RECORD 31-------------------
+ channel       | web         
+ item          | 5299        
+ return_ratio  | 0.927083333 
+ return_rank   | 11          
+ currency_rank | 10
+           

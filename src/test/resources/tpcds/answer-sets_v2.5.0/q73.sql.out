@@ -1,0 +1,8 @@
+-RECORD 0-------------------------
+ c_last_name           | Greene   
+ c_first_name          | Clarence 
+ c_salutation          | null     
+ c_preferred_cust_flag | N        
+ ss_ticket_number      | 1541     
+ cnt                   | 5
+           

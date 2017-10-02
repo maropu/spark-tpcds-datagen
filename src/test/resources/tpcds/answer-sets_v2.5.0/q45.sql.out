@@ -1,0 +1,77 @@
+-RECORD 0------------------------------
+ ca_zip              | 10150           
+ ca_city             | Bunker Hill     
+ sum(ws_sales_price) | 20.25           
+-RECORD 1------------------------------
+ ca_zip              | 16098           
+ ca_city             | Five Points     
+ sum(ws_sales_price) | 18.05           
+-RECORD 2------------------------------
+ ca_zip              | 28048           
+ ca_city             | Salem           
+ sum(ws_sales_price) | 9.81            
+-RECORD 3------------------------------
+ ca_zip              | 29584           
+ ca_city             | Oakdale         
+ sum(ws_sales_price) | 41.21           
+-RECORD 4------------------------------
+ ca_zip              | 31289           
+ ca_city             | Lincoln         
+ sum(ws_sales_price) | 1.26            
+-RECORD 5------------------------------
+ ca_zip              | 34975           
+ ca_city             | Kingston        
+ sum(ws_sales_price) | 56.67           
+-RECORD 6------------------------------
+ ca_zip              | 36971           
+ ca_city             | Wilson          
+ sum(ws_sales_price) | 202.63          
+-RECORD 7------------------------------
+ ca_zip              | 38354           
+ ca_city             | Sulphur Springs 
+ sum(ws_sales_price) | 25.68           
+-RECORD 8------------------------------
+ ca_zip              | 44975           
+ ca_city             | Kingston        
+ sum(ws_sales_price) | 12.62           
+-RECORD 9------------------------------
+ ca_zip              | 62808           
+ ca_city             | Hamilton        
+ sum(ws_sales_price) | 85.39           
+-RECORD 10-----------------------------
+ ca_zip              | 62812           
+ ca_city             | Shady Grove     
+ sum(ws_sales_price) | 48.77           
+-RECORD 11-----------------------------
+ ca_zip              | 66557           
+ ca_city             | Arlington       
+ sum(ws_sales_price) | 2.68            
+-RECORD 12-----------------------------
+ ca_zip              | 68252           
+ ca_city             | Maple Grove     
+ sum(ws_sales_price) | 11.37           
+-RECORD 13-----------------------------
+ ca_zip              | 69583           
+ ca_city             | Jackson         
+ sum(ws_sales_price) | 54.42           
+-RECORD 14-----------------------------
+ ca_zip              | 73003           
+ ca_city             | Hillcrest       
+ sum(ws_sales_price) | 36.03           
+-RECORD 15-----------------------------
+ ca_zip              | 78222           
+ ca_city             | Clinton         
+ sum(ws_sales_price) | 85.87           
+-RECORD 16-----------------------------
+ ca_zip              | 83683           
+ ca_city             | Plainview       
+ sum(ws_sales_price) | 43.82           
+-RECORD 17-----------------------------
+ ca_zip              | 84536           
+ ca_city             | Friendship      
+ sum(ws_sales_price) | 64.44           
+-RECORD 18-----------------------------
+ ca_zip              | 88370           
+ ca_city             | Oak Grove       
+ sum(ws_sales_price) | 52.42
+           

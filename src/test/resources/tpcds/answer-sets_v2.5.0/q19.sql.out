@@ -1,0 +1,601 @@
+-RECORD 0------------------------------
+ brand_id      | 3001001               
+ brand         | amalgexporti #1       
+ i_manufact_id | 358                   
+ i_manufact    | eingantipri           
+ ext_price     | 39779.2               
+-RECORD 1------------------------------
+ brand_id      | 5002002               
+ brand         | importoscholar #2     
+ i_manufact_id | 503                   
+ i_manufact    | pribaranti            
+ ext_price     | 38877.55              
+-RECORD 2------------------------------
+ brand_id      | 2002001               
+ brand         | importoimporto #1     
+ i_manufact_id | 229                   
+ i_manufact    | n stableable          
+ ext_price     | 38849.73              
+-RECORD 3------------------------------
+ brand_id      | 6009001               
+ brand         | maxicorp #1           
+ i_manufact_id | 609                   
+ i_manufact    | n stbarcally          
+ ext_price     | 37679.02              
+-RECORD 4------------------------------
+ brand_id      | 10012003              
+ brand         | importoamalgamalg #3  
+ i_manufact_id | 68                    
+ i_manufact    | eingcally             
+ ext_price     | 36856.35              
+-RECORD 5------------------------------
+ brand_id      | 10015008              
+ brand         | scholaramalgamalg #8  
+ i_manufact_id | 839                   
+ i_manufact    | n stprieing           
+ ext_price     | 36664.59              
+-RECORD 6------------------------------
+ brand_id      | 5003002               
+ brand         | exportischolar #2     
+ i_manufact_id | 50                    
+ i_manufact    | baranti               
+ ext_price     | 35402.74              
+-RECORD 7------------------------------
+ brand_id      | 4002002               
+ brand         | importoedu pack #2    
+ i_manufact_id | 615                   
+ i_manufact    | antioughtcally        
+ ext_price     | 34673.98              
+-RECORD 8------------------------------
+ brand_id      | 3002002               
+ brand         | importoexporti #2     
+ i_manufact_id | 581                   
+ i_manufact    | oughteinganti         
+ ext_price     | 34669                 
+-RECORD 9------------------------------
+ brand_id      | 5002001               
+ brand         | importoscholar #1     
+ i_manufact_id | 442                   
+ i_manufact    | ableeseese            
+ ext_price     | 34618.53              
+-RECORD 10-----------------------------
+ brand_id      | 5003001               
+ brand         | exportischolar #1     
+ i_manufact_id | 224                   
+ i_manufact    | eseableable           
+ ext_price     | 34541.38              
+-RECORD 11-----------------------------
+ brand_id      | 5004002               
+ brand         | edu packscholar #2    
+ i_manufact_id | 168                   
+ i_manufact    | eingcallyought        
+ ext_price     | 33004.86              
+-RECORD 12-----------------------------
+ brand_id      | 4001001               
+ brand         | amalgedu pack #1      
+ i_manufact_id | 379                   
+ i_manufact    | n stationpri          
+ ext_price     | 32777.45              
+-RECORD 13-----------------------------
+ brand_id      | 7009009               
+ brand         | maxibrand #9          
+ i_manufact_id | 10                    
+ i_manufact    | barought              
+ ext_price     | 32448.47              
+-RECORD 14-----------------------------
+ brand_id      | 8001009               
+ brand         | amalgnameless #9      
+ i_manufact_id | 21                    
+ i_manufact    | oughtable             
+ ext_price     | 32020.26              
+-RECORD 15-----------------------------
+ brand_id      | 1003001               
+ brand         | exportiamalg #1       
+ i_manufact_id | 162                   
+ i_manufact    | ablecallyought        
+ ext_price     | 31531.85              
+-RECORD 16-----------------------------
+ brand_id      | 10011013              
+ brand         | amalgamalgamalg #13   
+ i_manufact_id | 551                   
+ i_manufact    | oughtantianti         
+ ext_price     | 30259.44              
+-RECORD 17-----------------------------
+ brand_id      | 9004003               
+ brand         | edu packmaxi #3       
+ i_manufact_id | 191                   
+ i_manufact    | oughtn stought        
+ ext_price     | 29977.55              
+-RECORD 18-----------------------------
+ brand_id      | 7001002               
+ brand         | amalgbrand #2         
+ i_manufact_id | 122                   
+ i_manufact    | ableableought         
+ ext_price     | 29576.48              
+-RECORD 19-----------------------------
+ brand_id      | 10013006              
+ brand         | exportiamalgamalg #6  
+ i_manufact_id | 461                   
+ i_manufact    | oughtcallyese         
+ ext_price     | 29475.71              
+-RECORD 20-----------------------------
+ brand_id      | 7008009               
+ brand         | namelessbrand #9      
+ i_manufact_id | 540                   
+ i_manufact    | bareseanti            
+ ext_price     | 28888.95              
+-RECORD 21-----------------------------
+ brand_id      | 7013001               
+ brand         | exportinameless #1    
+ i_manufact_id | 18                    
+ i_manufact    | eingought             
+ ext_price     | 28720.16              
+-RECORD 22-----------------------------
+ brand_id      | 5004001               
+ brand         | edu packscholar #1    
+ i_manufact_id | 361                   
+ i_manufact    | oughtcallypri         
+ ext_price     | 28656.02              
+-RECORD 23-----------------------------
+ brand_id      | 5003001               
+ brand         | exportischolar #1     
+ i_manufact_id | 457                   
+ i_manufact    | ationantiese          
+ ext_price     | 28560.52              
+-RECORD 24-----------------------------
+ brand_id      | 5001001               
+ brand         | amalgscholar #1       
+ i_manufact_id | 192                   
+ i_manufact    | ablen stought         
+ ext_price     | 28136.83              
+-RECORD 25-----------------------------
+ brand_id      | 8007009               
+ brand         | brandnameless #9      
+ i_manufact_id | 34                    
+ i_manufact    | esepri                
+ ext_price     | 27968.38              
+-RECORD 26-----------------------------
+ brand_id      | 6010003               
+ brand         | univbrand #3          
+ i_manufact_id | 165                   
+ i_manufact    | anticallyought        
+ ext_price     | 27826.4               
+-RECORD 27-----------------------------
+ brand_id      | 4003001               
+ brand         | exportiedu pack #1    
+ i_manufact_id | 30                    
+ i_manufact    | barpri                
+ ext_price     | 27681.74              
+-RECORD 28-----------------------------
+ brand_id      | 1002002               
+ brand         | importoamalg #2       
+ i_manufact_id | 504                   
+ i_manufact    | esebaranti            
+ ext_price     | 27540.55              
+-RECORD 29-----------------------------
+ brand_id      | 9009011               
+ brand         | maximaxi #11          
+ i_manufact_id | 117                   
+ i_manufact    | ationoughtought       
+ ext_price     | 26149.58              
+-RECORD 30-----------------------------
+ brand_id      | 4002001               
+ brand         | importoedu pack #1    
+ i_manufact_id | 96                    
+ i_manufact    | callyn st             
+ ext_price     | 25291.42              
+-RECORD 31-----------------------------
+ brand_id      | 10012006              
+ brand         | importoamalgamalg #6  
+ i_manufact_id | 162                   
+ i_manufact    | ablecallyought        
+ ext_price     | 25077.8               
+-RECORD 32-----------------------------
+ brand_id      | 5002001               
+ brand         | importoscholar #1     
+ i_manufact_id | 202                   
+ i_manufact    | ablebarable           
+ ext_price     | 24662.36              
+-RECORD 33-----------------------------
+ brand_id      | 5004002               
+ brand         | edu packscholar #2    
+ i_manufact_id | 427                   
+ i_manufact    | ationableese          
+ ext_price     | 24502.14              
+-RECORD 34-----------------------------
+ brand_id      | 8009007               
+ brand         | maxinameless #7       
+ i_manufact_id | 146                   
+ i_manufact    | callyeseought         
+ ext_price     | 24020.7               
+-RECORD 35-----------------------------
+ brand_id      | 7002005               
+ brand         | importobrand #5       
+ i_manufact_id | 822                   
+ i_manufact    | ableableeing          
+ ext_price     | 23637.35              
+-RECORD 36-----------------------------
+ brand_id      | 4001001               
+ brand         | amalgedu pack #1      
+ i_manufact_id | 236                   
+ i_manufact    | callypriable          
+ ext_price     | 23425.22              
+-RECORD 37-----------------------------
+ brand_id      | 3002001               
+ brand         | importoexporti #1     
+ i_manufact_id | 889                   
+ i_manufact    | n steingeing          
+ ext_price     | 23327.1               
+-RECORD 38-----------------------------
+ brand_id      | 4001001               
+ brand         | amalgedu pack #1      
+ i_manufact_id | 106                   
+ i_manufact    | callybarought         
+ ext_price     | 23272.95              
+-RECORD 39-----------------------------
+ brand_id      | 9004011               
+ brand         | edu packmaxi #11      
+ i_manufact_id | 241                   
+ i_manufact    | oughteseable          
+ ext_price     | 23233.46              
+-RECORD 40-----------------------------
+ brand_id      | 3002002               
+ brand         | importoexporti #2     
+ i_manufact_id | 597                   
+ i_manufact    | ationn stanti         
+ ext_price     | 23181.94              
+-RECORD 41-----------------------------
+ brand_id      | 6011005               
+ brand         | amalgbrand #5         
+ i_manufact_id | 373                   
+ i_manufact    | priationpri           
+ ext_price     | 22935.3               
+-RECORD 42-----------------------------
+ brand_id      | 5004001               
+ brand         | edu packscholar #1    
+ i_manufact_id | 191                   
+ i_manufact    | oughtn stought        
+ ext_price     | 22767.49              
+-RECORD 43-----------------------------
+ brand_id      | 10003001              
+ brand         | exportiunivamalg #1   
+ i_manufact_id | 252                   
+ i_manufact    | ableantiable          
+ ext_price     | 22605.56              
+-RECORD 44-----------------------------
+ brand_id      | 2002001               
+ brand         | importoimporto #1     
+ i_manufact_id | 265                   
+ i_manufact    | anticallyable         
+ ext_price     | 22316.14              
+-RECORD 45-----------------------------
+ brand_id      | 2004001               
+ brand         | edu packimporto #1    
+ i_manufact_id | 584                   
+ i_manufact    | eseeinganti           
+ ext_price     | 22312.87              
+-RECORD 46-----------------------------
+ brand_id      | 4004002               
+ brand         | edu packedu pack #2   
+ i_manufact_id | 293                   
+ i_manufact    | prin stable           
+ ext_price     | 22272.04              
+-RECORD 47-----------------------------
+ brand_id      | 9011008               
+ brand         | amalgunivamalg #8     
+ i_manufact_id | 93                    
+ i_manufact    | prin st               
+ ext_price     | 22103.7               
+-RECORD 48-----------------------------
+ brand_id      | 1003002               
+ brand         | exportiamalg #2       
+ i_manufact_id | 400                   
+ i_manufact    | barbarese             
+ ext_price     | 21701.01              
+-RECORD 49-----------------------------
+ brand_id      | 8006008               
+ brand         | corpnameless #8       
+ i_manufact_id | 605                   
+ i_manufact    | antibarcally          
+ ext_price     | 21599.44              
+-RECORD 50-----------------------------
+ brand_id      | 7014001               
+ brand         | edu packnameless #1   
+ i_manufact_id | 23                    
+ i_manufact    | priable               
+ ext_price     | 21554.24              
+-RECORD 51-----------------------------
+ brand_id      | 5001002               
+ brand         | amalgscholar #2       
+ i_manufact_id | 124                   
+ i_manufact    | eseableought          
+ ext_price     | 21004.37              
+-RECORD 52-----------------------------
+ brand_id      | 5003002               
+ brand         | exportischolar #2     
+ i_manufact_id | 162                   
+ i_manufact    | ablecallyought        
+ ext_price     | 20986.26              
+-RECORD 53-----------------------------
+ brand_id      | 3002001               
+ brand         | importoexporti #1     
+ i_manufact_id | 176                   
+ i_manufact    | callyationought       
+ ext_price     | 20741.06              
+-RECORD 54-----------------------------
+ brand_id      | 2001001               
+ brand         | amalgimporto #1       
+ i_manufact_id | 219                   
+ i_manufact    | n stoughtable         
+ ext_price     | 20647.28              
+-RECORD 55-----------------------------
+ brand_id      | 2002001               
+ brand         | importoimporto #1     
+ i_manufact_id | 100                   
+ i_manufact    | barbarought           
+ ext_price     | 20543.92              
+-RECORD 56-----------------------------
+ brand_id      | 4004001               
+ brand         | edu packedu pack #1   
+ i_manufact_id | 718                   
+ i_manufact    | eingoughtation        
+ ext_price     | 20488.8               
+-RECORD 57-----------------------------
+ brand_id      | 8014009               
+ brand         | edu packmaxi #9       
+ i_manufact_id | 214                   
+ i_manufact    | eseoughtable          
+ ext_price     | 20379.43              
+-RECORD 58-----------------------------
+ brand_id      | 10010013              
+ brand         | univamalgamalg #13    
+ i_manufact_id | 656                   
+ i_manufact    | callyantically        
+ ext_price     | 20274.67              
+-RECORD 59-----------------------------
+ brand_id      | 4003001               
+ brand         | exportiedu pack #1    
+ i_manufact_id | 640                   
+ i_manufact    | baresecally           
+ ext_price     | 20218.12              
+-RECORD 60-----------------------------
+ brand_id      | 1001001               
+ brand         | amalgamalg #1         
+ i_manufact_id | 257                   
+ i_manufact    | ationantiable         
+ ext_price     | 19957.37              
+-RECORD 61-----------------------------
+ brand_id      | 2002001               
+ brand         | importoimporto #1     
+ i_manufact_id | 525                   
+ i_manufact    | antiableanti          
+ ext_price     | 19888.38              
+-RECORD 62-----------------------------
+ brand_id      | 8011002               
+ brand         | amalgmaxi #2          
+ i_manufact_id | 293                   
+ i_manufact    | prin stable           
+ ext_price     | 18991.25              
+-RECORD 63-----------------------------
+ brand_id      | 4002001               
+ brand         | importoedu pack #1    
+ i_manufact_id | 101                   
+ i_manufact    | oughtbarought         
+ ext_price     | 18892.36              
+-RECORD 64-----------------------------
+ brand_id      | 9012003               
+ brand         | importounivamalg #3   
+ i_manufact_id | 818                   
+ i_manufact    | eingoughteing         
+ ext_price     | 18832.74              
+-RECORD 65-----------------------------
+ brand_id      | 10001014              
+ brand         | amalgunivamalg #14    
+ i_manufact_id | 207                   
+ i_manufact    | ationbarable          
+ ext_price     | 18623.57              
+-RECORD 66-----------------------------
+ brand_id      | 4004001               
+ brand         | edu packedu pack #1   
+ i_manufact_id | 257                   
+ i_manufact    | ationantiable         
+ ext_price     | 18605.21              
+-RECORD 67-----------------------------
+ brand_id      | 1004001               
+ brand         | edu packamalg #1      
+ i_manufact_id | 675                   
+ i_manufact    | antiationcally        
+ ext_price     | 18349.99              
+-RECORD 68-----------------------------
+ brand_id      | 8012001               
+ brand         | importomaxi #1        
+ i_manufact_id | 277                   
+ i_manufact    | ationationable        
+ ext_price     | 18325.53              
+-RECORD 69-----------------------------
+ brand_id      | 1004001               
+ brand         | edu packamalg #1      
+ i_manufact_id | 380                   
+ i_manufact    | bareingpri            
+ ext_price     | 17896.97              
+-RECORD 70-----------------------------
+ brand_id      | 1002002               
+ brand         | importoamalg #2       
+ i_manufact_id | 50                    
+ i_manufact    | baranti               
+ ext_price     | 17737.23              
+-RECORD 71-----------------------------
+ brand_id      | 1001001               
+ brand         | amalgamalg #1         
+ i_manufact_id | 346                   
+ i_manufact    | callyesepri           
+ ext_price     | 17660.98              
+-RECORD 72-----------------------------
+ brand_id      | 2004002               
+ brand         | edu packimporto #2    
+ i_manufact_id | 912                   
+ i_manufact    | ableoughtn st         
+ ext_price     | 17422.31              
+-RECORD 73-----------------------------
+ brand_id      | 6005006               
+ brand         | scholarcorp #6        
+ i_manufact_id | 270                   
+ i_manufact    | barationable          
+ ext_price     | 17373.47              
+-RECORD 74-----------------------------
+ brand_id      | 8012007               
+ brand         | importomaxi #7        
+ i_manufact_id | 320                   
+ i_manufact    | barablepri            
+ ext_price     | 17247.22              
+-RECORD 75-----------------------------
+ brand_id      | 1004001               
+ brand         | edu packamalg #1      
+ i_manufact_id | 594                   
+ i_manufact    | esen stanti           
+ ext_price     | 17217.04              
+-RECORD 76-----------------------------
+ brand_id      | 10001009              
+ brand         | amalgunivamalg #9     
+ i_manufact_id | 414                   
+ i_manufact    | eseoughtese           
+ ext_price     | 17196.1               
+-RECORD 77-----------------------------
+ brand_id      | 1003002               
+ brand         | exportiamalg #2       
+ i_manufact_id | 483                   
+ i_manufact    | prieingese            
+ ext_price     | 17180.13              
+-RECORD 78-----------------------------
+ brand_id      | 10010005              
+ brand         | univamalgamalg #5     
+ i_manufact_id | 684                   
+ i_manufact    | eseeingcally          
+ ext_price     | 17146.97              
+-RECORD 79-----------------------------
+ brand_id      | 6004005               
+ brand         | edu packcorp #5       
+ i_manufact_id | 224                   
+ i_manufact    | eseableable           
+ ext_price     | 17081.31              
+-RECORD 80-----------------------------
+ brand_id      | 2002001               
+ brand         | importoimporto #1     
+ i_manufact_id | 134                   
+ i_manufact    | esepriought           
+ ext_price     | 16596.84              
+-RECORD 81-----------------------------
+ brand_id      | 8014007               
+ brand         | edu packmaxi #7       
+ i_manufact_id | 350                   
+ i_manufact    | barantipri            
+ ext_price     | 16580.66              
+-RECORD 82-----------------------------
+ brand_id      | 6007007               
+ brand         | brandcorp #7          
+ i_manufact_id | 47                    
+ i_manufact    | ationese              
+ ext_price     | 16413.4               
+-RECORD 83-----------------------------
+ brand_id      | 10011002              
+ brand         | amalgamalgamalg #2    
+ i_manufact_id | 112                   
+ i_manufact    | ableoughtought        
+ ext_price     | 16120.65              
+-RECORD 84-----------------------------
+ brand_id      | 2003001               
+ brand         | exportiimporto #1     
+ i_manufact_id | 288                   
+ i_manufact    | eingeingable          
+ ext_price     | 15769.87              
+-RECORD 85-----------------------------
+ brand_id      | 1002002               
+ brand         | importoamalg #2       
+ i_manufact_id | 489                   
+ i_manufact    | n steingese           
+ ext_price     | 15707.42              
+-RECORD 86-----------------------------
+ brand_id      | 6013003               
+ brand         | exportibrand #3       
+ i_manufact_id | 16                    
+ i_manufact    | callyought            
+ ext_price     | 15594.16              
+-RECORD 87-----------------------------
+ brand_id      | 10008005              
+ brand         | namelessunivamalg #5  
+ i_manufact_id | 813                   
+ i_manufact    | prioughteing          
+ ext_price     | 15433.53              
+-RECORD 88-----------------------------
+ brand_id      | 10004013              
+ brand         | edu packunivamalg #13 
+ i_manufact_id | 764                   
+ i_manufact    | esecallyation         
+ ext_price     | 15242.69              
+-RECORD 89-----------------------------
+ brand_id      | 9016003               
+ brand         | corpunivamalg #3      
+ i_manufact_id | 51                    
+ i_manufact    | oughtanti             
+ ext_price     | 15172.76              
+-RECORD 90-----------------------------
+ brand_id      | 10006012              
+ brand         | corpunivamalg #12     
+ i_manufact_id | 166                   
+ i_manufact    | callycallyought       
+ ext_price     | 15153.42              
+-RECORD 91-----------------------------
+ brand_id      | 5004001               
+ brand         | edu packscholar #1    
+ i_manufact_id | 595                   
+ i_manufact    | antin stanti          
+ ext_price     | 14910.27              
+-RECORD 92-----------------------------
+ brand_id      | 8003003               
+ brand         | exportinameless #3    
+ i_manufact_id | 85                    
+ i_manufact    | antieing              
+ ext_price     | 14890.03              
+-RECORD 93-----------------------------
+ brand_id      | 4003001               
+ brand         | exportiedu pack #1    
+ i_manufact_id | 239                   
+ i_manufact    | n stpriable           
+ ext_price     | 14778.52              
+-RECORD 94-----------------------------
+ brand_id      | 6006001               
+ brand         | corpcorp #1           
+ i_manufact_id | 258                   
+ i_manufact    | eingantiable          
+ ext_price     | 14579.72              
+-RECORD 95-----------------------------
+ brand_id      | 1004001               
+ brand         | edu packamalg #1      
+ i_manufact_id | 222                   
+ i_manufact    | ableableable          
+ ext_price     | 14254.25              
+-RECORD 96-----------------------------
+ brand_id      | 4003002               
+ brand         | exportiedu pack #2    
+ i_manufact_id | 117                   
+ i_manufact    | ationoughtought       
+ ext_price     | 14161.18              
+-RECORD 97-----------------------------
+ brand_id      | 1001001               
+ brand         | amalgamalg #1         
+ i_manufact_id | 89                    
+ i_manufact    | n steing              
+ ext_price     | 14133.1               
+-RECORD 98-----------------------------
+ brand_id      | 8016009               
+ brand         | corpmaxi #9           
+ i_manufact_id | 734                   
+ i_manufact    | esepriation           
+ ext_price     | 14055.01              
+-RECORD 99-----------------------------
+ brand_id      | 1002001               
+ brand         | importoamalg #1       
+ i_manufact_id | 184                   
+ i_manufact    | eseeingought          
+ ext_price     | 13719.81
+           

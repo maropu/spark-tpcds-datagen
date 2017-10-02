@@ -1,0 +1,694 @@
+-RECORD 0-------------------------
+ channel           | catalog      
+ i_brand_id        | null         
+ i_class_id        | null         
+ i_category_id     | null         
+ sum(sales)        | 237410857.47 
+ sum(number_sales) | 46322        
+-RECORD 1-------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | null         
+ i_category_id     | null         
+ sum(sales)        | 1697729.02   
+ sum(number_sales) | 347          
+-RECORD 2-------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 1            
+ i_category_id     | null         
+ sum(sales)        | 855204.24    
+ sum(number_sales) | 167          
+-RECORD 3-------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 1            
+ i_category_id     | 1            
+ sum(sales)        | 115019.61    
+ sum(number_sales) | 20           
+-RECORD 4-------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 1            
+ i_category_id     | 2            
+ sum(sales)        | 146344.47    
+ sum(number_sales) | 27           
+-RECORD 5-------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 1            
+ i_category_id     | 3            
+ sum(sales)        | 22597.19     
+ sum(number_sales) | 3            
+-RECORD 6-------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 1            
+ i_category_id     | 4            
+ sum(sales)        | 107555.43    
+ sum(number_sales) | 23           
+-RECORD 7-------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 1            
+ i_category_id     | 5            
+ sum(sales)        | 122521.31    
+ sum(number_sales) | 25           
+-RECORD 8-------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 1            
+ i_category_id     | 6            
+ sum(sales)        | 16883.97     
+ sum(number_sales) | 3            
+-RECORD 9-------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 1            
+ i_category_id     | 7            
+ sum(sales)        | 46329.78     
+ sum(number_sales) | 9            
+-RECORD 10------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 1            
+ i_category_id     | 8            
+ sum(sales)        | 77861.85     
+ sum(number_sales) | 13           
+-RECORD 11------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 1            
+ i_category_id     | 9            
+ sum(sales)        | 99985.35     
+ sum(number_sales) | 21           
+-RECORD 12------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 1            
+ i_category_id     | 10           
+ sum(sales)        | 100105.28    
+ sum(number_sales) | 23           
+-RECORD 13------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 2            
+ i_category_id     | null         
+ sum(sales)        | 125167.22    
+ sum(number_sales) | 24           
+-RECORD 14------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 2            
+ i_category_id     | 2            
+ sum(sales)        | 43967.97     
+ sum(number_sales) | 7            
+-RECORD 15------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 2            
+ i_category_id     | 3            
+ sum(sales)        | 68565.38     
+ sum(number_sales) | 14           
+-RECORD 16------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 2            
+ i_category_id     | 5            
+ sum(sales)        | 12633.87     
+ sum(number_sales) | 3            
+-RECORD 17------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 3            
+ i_category_id     | null         
+ sum(sales)        | 198685.08    
+ sum(number_sales) | 43           
+-RECORD 18------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 3            
+ i_category_id     | 1            
+ sum(sales)        | 11100.79     
+ sum(number_sales) | 5            
+-RECORD 19------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 3            
+ i_category_id     | 2            
+ sum(sales)        | 60551.64     
+ sum(number_sales) | 14           
+-RECORD 20------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 3            
+ i_category_id     | 4            
+ sum(sales)        | 28455.23     
+ sum(number_sales) | 4            
+-RECORD 21------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 3            
+ i_category_id     | 6            
+ sum(sales)        | 36821.61     
+ sum(number_sales) | 7            
+-RECORD 22------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 3            
+ i_category_id     | 7            
+ sum(sales)        | 17250.82     
+ sum(number_sales) | 6            
+-RECORD 23------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 3            
+ i_category_id     | 8            
+ sum(sales)        | 14426.92     
+ sum(number_sales) | 4            
+-RECORD 24------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 3            
+ i_category_id     | 9            
+ sum(sales)        | 30078.07     
+ sum(number_sales) | 3            
+-RECORD 25------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 4            
+ i_category_id     | null         
+ sum(sales)        | 109585.97    
+ sum(number_sales) | 31           
+-RECORD 26------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 4            
+ i_category_id     | 2            
+ sum(sales)        | 45473.85     
+ sum(number_sales) | 13           
+-RECORD 27------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 4            
+ i_category_id     | 3            
+ sum(sales)        | 16558.92     
+ sum(number_sales) | 8            
+-RECORD 28------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 4            
+ i_category_id     | 4            
+ sum(sales)        | 47553.20     
+ sum(number_sales) | 10           
+-RECORD 29------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 5            
+ i_category_id     | null         
+ sum(sales)        | 59790.61     
+ sum(number_sales) | 17           
+-RECORD 30------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 5            
+ i_category_id     | 9            
+ sum(sales)        | 30112.11     
+ sum(number_sales) | 12           
+-RECORD 31------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 5            
+ i_category_id     | 10           
+ sum(sales)        | 29678.50     
+ sum(number_sales) | 5            
+-RECORD 32------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 6            
+ i_category_id     | null         
+ sum(sales)        | 10261.82     
+ sum(number_sales) | 3            
+-RECORD 33------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 6            
+ i_category_id     | 9            
+ sum(sales)        | 10261.82     
+ sum(number_sales) | 3            
+-RECORD 34------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 7            
+ i_category_id     | null         
+ sum(sales)        | 18244.94     
+ sum(number_sales) | 3            
+-RECORD 35------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 7            
+ i_category_id     | 7            
+ sum(sales)        | 18244.94     
+ sum(number_sales) | 3            
+-RECORD 36------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 8            
+ i_category_id     | null         
+ sum(sales)        | 55768.46     
+ sum(number_sales) | 13           
+-RECORD 37------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 8            
+ i_category_id     | 7            
+ sum(sales)        | 28872.49     
+ sum(number_sales) | 7            
+-RECORD 38------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 8            
+ i_category_id     | 10           
+ sum(sales)        | 26895.97     
+ sum(number_sales) | 6            
+-RECORD 39------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 9            
+ i_category_id     | null         
+ sum(sales)        | 30944.19     
+ sum(number_sales) | 5            
+-RECORD 40------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 9            
+ i_category_id     | 6            
+ sum(sales)        | 30944.19     
+ sum(number_sales) | 5            
+-RECORD 41------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 11           
+ i_category_id     | null         
+ sum(sales)        | 82810.87     
+ sum(number_sales) | 12           
+-RECORD 42------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 11           
+ i_category_id     | 9            
+ sum(sales)        | 82810.87     
+ sum(number_sales) | 12           
+-RECORD 43------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 12           
+ i_category_id     | null         
+ sum(sales)        | 38427.52     
+ sum(number_sales) | 9            
+-RECORD 44------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 12           
+ i_category_id     | 10           
+ sum(sales)        | 38427.52     
+ sum(number_sales) | 9            
+-RECORD 45------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 15           
+ i_category_id     | null         
+ sum(sales)        | 112838.10    
+ sum(number_sales) | 20           
+-RECORD 46------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 15           
+ i_category_id     | 9            
+ sum(sales)        | 53508.79     
+ sum(number_sales) | 7            
+-RECORD 47------------------------
+ channel           | catalog      
+ i_brand_id        | 1001001      
+ i_class_id        | 15           
+ i_category_id     | 10           
+ sum(sales)        | 59329.31     
+ sum(number_sales) | 13           
+-RECORD 48------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | null         
+ i_category_id     | null         
+ sum(sales)        | 3527831.33   
+ sum(number_sales) | 706          
+-RECORD 49------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 1            
+ i_category_id     | null         
+ sum(sales)        | 2673969.89   
+ sum(number_sales) | 530          
+-RECORD 50------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 1            
+ i_category_id     | 1            
+ sum(sales)        | 2673969.89   
+ sum(number_sales) | 530          
+-RECORD 51------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 2            
+ i_category_id     | null         
+ sum(sales)        | 140831.91    
+ sum(number_sales) | 29           
+-RECORD 52------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 2            
+ i_category_id     | 1            
+ sum(sales)        | 140831.91    
+ sum(number_sales) | 29           
+-RECORD 53------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 3            
+ i_category_id     | null         
+ sum(sales)        | 320175.87    
+ sum(number_sales) | 67           
+-RECORD 54------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 3            
+ i_category_id     | 1            
+ sum(sales)        | 320175.87    
+ sum(number_sales) | 67           
+-RECORD 55------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 4            
+ i_category_id     | null         
+ sum(sales)        | 133287.96    
+ sum(number_sales) | 21           
+-RECORD 56------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 4            
+ i_category_id     | 1            
+ sum(sales)        | 133287.96    
+ sum(number_sales) | 21           
+-RECORD 57------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 5            
+ i_category_id     | null         
+ sum(sales)        | 16606.90     
+ sum(number_sales) | 9            
+-RECORD 58------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 5            
+ i_category_id     | 1            
+ sum(sales)        | 16606.90     
+ sum(number_sales) | 9            
+-RECORD 59------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 6            
+ i_category_id     | null         
+ sum(sales)        | 15133.01     
+ sum(number_sales) | 4            
+-RECORD 60------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 6            
+ i_category_id     | 1            
+ sum(sales)        | 15133.01     
+ sum(number_sales) | 4            
+-RECORD 61------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 7            
+ i_category_id     | null         
+ sum(sales)        | 24471.26     
+ sum(number_sales) | 10           
+-RECORD 62------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 7            
+ i_category_id     | 1            
+ sum(sales)        | 24471.26     
+ sum(number_sales) | 10           
+-RECORD 63------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 8            
+ i_category_id     | null         
+ sum(sales)        | 63773.05     
+ sum(number_sales) | 12           
+-RECORD 64------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 8            
+ i_category_id     | 1            
+ sum(sales)        | 63773.05     
+ sum(number_sales) | 12           
+-RECORD 65------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 9            
+ i_category_id     | null         
+ sum(sales)        | 9167.19      
+ sum(number_sales) | 3            
+-RECORD 66------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 9            
+ i_category_id     | 1            
+ sum(sales)        | 9167.19      
+ sum(number_sales) | 3            
+-RECORD 67------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 12           
+ i_category_id     | null         
+ sum(sales)        | 29108.42     
+ sum(number_sales) | 7            
+-RECORD 68------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 12           
+ i_category_id     | 1            
+ sum(sales)        | 29108.42     
+ sum(number_sales) | 7            
+-RECORD 69------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 15           
+ i_category_id     | null         
+ sum(sales)        | 31143.45     
+ sum(number_sales) | 6            
+-RECORD 70------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 15           
+ i_category_id     | 1            
+ sum(sales)        | 31143.45     
+ sum(number_sales) | 6            
+-RECORD 71------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 16           
+ i_category_id     | null         
+ sum(sales)        | 70162.42     
+ sum(number_sales) | 8            
+-RECORD 72------------------------
+ channel           | catalog      
+ i_brand_id        | 1001002      
+ i_class_id        | 16           
+ i_category_id     | 1            
+ sum(sales)        | 70162.42     
+ sum(number_sales) | 8            
+-RECORD 73------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | null         
+ i_category_id     | null         
+ sum(sales)        | 2114110.72   
+ sum(number_sales) | 380          
+-RECORD 74------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 1            
+ i_category_id     | null         
+ sum(sales)        | 348693.97    
+ sum(number_sales) | 55           
+-RECORD 75------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 1            
+ i_category_id     | 1            
+ sum(sales)        | 76392.13     
+ sum(number_sales) | 14           
+-RECORD 76------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 1            
+ i_category_id     | 2            
+ sum(sales)        | 118394.33    
+ sum(number_sales) | 21           
+-RECORD 77------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 1            
+ i_category_id     | 4            
+ sum(sales)        | 29395.79     
+ sum(number_sales) | 5            
+-RECORD 78------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 1            
+ i_category_id     | 5            
+ sum(sales)        | 35541.97     
+ sum(number_sales) | 4            
+-RECORD 79------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 1            
+ i_category_id     | 6            
+ sum(sales)        | 26104.36     
+ sum(number_sales) | 3            
+-RECORD 80------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 1            
+ i_category_id     | 9            
+ sum(sales)        | 18793.97     
+ sum(number_sales) | 4            
+-RECORD 81------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 1            
+ i_category_id     | 10           
+ sum(sales)        | 44071.42     
+ sum(number_sales) | 4            
+-RECORD 82------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 2            
+ i_category_id     | null         
+ sum(sales)        | 1233961.70   
+ sum(number_sales) | 225          
+-RECORD 83------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 2            
+ i_category_id     | 1            
+ sum(sales)        | 239511.02    
+ sum(number_sales) | 51           
+-RECORD 84------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 2            
+ i_category_id     | 2            
+ sum(sales)        | 147993.14    
+ sum(number_sales) | 26           
+-RECORD 85------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 2            
+ i_category_id     | 3            
+ sum(sales)        | 100086.93    
+ sum(number_sales) | 17           
+-RECORD 86------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 2            
+ i_category_id     | 4            
+ sum(sales)        | 53524.42     
+ sum(number_sales) | 13           
+-RECORD 87------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 2            
+ i_category_id     | 5            
+ sum(sales)        | 48494.06     
+ sum(number_sales) | 10           
+-RECORD 88------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 2            
+ i_category_id     | 6            
+ sum(sales)        | 142857.04    
+ sum(number_sales) | 20           
+-RECORD 89------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 2            
+ i_category_id     | 7            
+ sum(sales)        | 116557.98    
+ sum(number_sales) | 16           
+-RECORD 90------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 2            
+ i_category_id     | 8            
+ sum(sales)        | 92743.93     
+ sum(number_sales) | 24           
+-RECORD 91------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 2            
+ i_category_id     | 9            
+ sum(sales)        | 203943.99    
+ sum(number_sales) | 38           
+-RECORD 92------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 2            
+ i_category_id     | 10           
+ sum(sales)        | 88249.19     
+ sum(number_sales) | 10           
+-RECORD 93------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 3            
+ i_category_id     | null         
+ sum(sales)        | 91054.32     
+ sum(number_sales) | 17           
+-RECORD 94------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 3            
+ i_category_id     | 2            
+ sum(sales)        | 25171.13     
+ sum(number_sales) | 6            
+-RECORD 95------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 3            
+ i_category_id     | 7            
+ sum(sales)        | 27766.70     
+ sum(number_sales) | 3            
+-RECORD 96------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 3            
+ i_category_id     | 8            
+ sum(sales)        | 38116.49     
+ sum(number_sales) | 8            
+-RECORD 97------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 4            
+ i_category_id     | null         
+ sum(sales)        | 182427.69    
+ sum(number_sales) | 32           
+-RECORD 98------------------------
+ channel           | catalog      
+ i_brand_id        | 1002001      
+ i_class_id        | 4            
+ i_category_id     | 1            
+ sum(sales)        | 66896.68     
+ sum(number_sales) | 15
+           

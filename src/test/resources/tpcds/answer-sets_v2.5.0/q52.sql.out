@@ -1,0 +1,501 @@
+-RECORD 0--------------------------
+ d_year    | 2000                  
+ brand_id  | 2001002               
+ brand     | amalgimporto #2       
+ ext_price | 133668.2              
+-RECORD 1--------------------------
+ d_year    | 2000                  
+ brand_id  | 1003001               
+ brand     | exportiamalg #1       
+ ext_price | 85038.62              
+-RECORD 2--------------------------
+ d_year    | 2000                  
+ brand_id  | 3002002               
+ brand     | importoexporti #2     
+ ext_price | 79104.47              
+-RECORD 3--------------------------
+ d_year    | 2000                  
+ brand_id  | 3004002               
+ brand     | edu packexporti #2    
+ ext_price | 78772.08              
+-RECORD 4--------------------------
+ d_year    | 2000                  
+ brand_id  | 3003001               
+ brand     | exportiexporti #1     
+ ext_price | 67105.01              
+-RECORD 5--------------------------
+ d_year    | 2000                  
+ brand_id  | 2004002               
+ brand     | edu packimporto #2    
+ ext_price | 65904.27              
+-RECORD 6--------------------------
+ d_year    | 2000                  
+ brand_id  | 4001002               
+ brand     | amalgedu pack #2      
+ ext_price | 56283.13              
+-RECORD 7--------------------------
+ d_year    | 2000                  
+ brand_id  | 5002002               
+ brand     | importoscholar #2     
+ ext_price | 54390.12              
+-RECORD 8--------------------------
+ d_year    | 2000                  
+ brand_id  | 7016001               
+ brand     | corpnameless #1       
+ ext_price | 51331.65              
+-RECORD 9--------------------------
+ d_year    | 2000                  
+ brand_id  | 2002001               
+ brand     | importoimporto #1     
+ ext_price | 50831.66              
+-RECORD 10-------------------------
+ d_year    | 2000                  
+ brand_id  | 7001005               
+ brand     | amalgbrand #5         
+ ext_price | 50727.31              
+-RECORD 11-------------------------
+ d_year    | 2000                  
+ brand_id  | 9015009               
+ brand     | scholarunivamalg #9   
+ ext_price | 49522.53              
+-RECORD 12-------------------------
+ d_year    | 2000                  
+ brand_id  | 5004002               
+ brand     | edu packscholar #2    
+ ext_price | 45205.15              
+-RECORD 13-------------------------
+ d_year    | 2000                  
+ brand_id  | 4003001               
+ brand     | exportiedu pack #1    
+ ext_price | 42810.52              
+-RECORD 14-------------------------
+ d_year    | 2000                  
+ brand_id  | 5001002               
+ brand     | amalgscholar #2       
+ ext_price | 42061.33              
+-RECORD 15-------------------------
+ d_year    | 2000                  
+ brand_id  | 1003002               
+ brand     | exportiamalg #2       
+ ext_price | 41130.32              
+-RECORD 16-------------------------
+ d_year    | 2000                  
+ brand_id  | 2003002               
+ brand     | exportiimporto #2     
+ ext_price | 39318.67              
+-RECORD 17-------------------------
+ d_year    | 2000                  
+ brand_id  | 7007004               
+ brand     | brandbrand #4         
+ ext_price | 38993.74              
+-RECORD 18-------------------------
+ d_year    | 2000                  
+ brand_id  | 1002002               
+ brand     | importoamalg #2       
+ ext_price | 38952.02              
+-RECORD 19-------------------------
+ d_year    | 2000                  
+ brand_id  | 8003010               
+ brand     | exportinameless #10   
+ ext_price | 37010.51              
+-RECORD 20-------------------------
+ d_year    | 2000                  
+ brand_id  | 1002001               
+ brand     | importounivamalg #1   
+ ext_price | 36393.47              
+-RECORD 21-------------------------
+ d_year    | 2000                  
+ brand_id  | 4002001               
+ brand     | scholarmaxi #6        
+ ext_price | 34103.67              
+-RECORD 22-------------------------
+ d_year    | 2000                  
+ brand_id  | 1001002               
+ brand     | amalgamalg #2         
+ ext_price | 32518.42              
+-RECORD 23-------------------------
+ d_year    | 2000                  
+ brand_id  | 4004002               
+ brand     | edu packedu pack #2   
+ ext_price | 32114.76              
+-RECORD 24-------------------------
+ d_year    | 2000                  
+ brand_id  | 5001001               
+ brand     | edu packexporti #2    
+ ext_price | 31507.22              
+-RECORD 25-------------------------
+ d_year    | 2000                  
+ brand_id  | 6005005               
+ brand     | edu packnameless #8   
+ ext_price | 31445.28              
+-RECORD 26-------------------------
+ d_year    | 2000                  
+ brand_id  | 1001001               
+ brand     | amalgamalg #1         
+ ext_price | 31305.49              
+-RECORD 27-------------------------
+ d_year    | 2000                  
+ brand_id  | 4002001               
+ brand     | importoedu pack #1    
+ ext_price | 31248.26              
+-RECORD 28-------------------------
+ d_year    | 2000                  
+ brand_id  | 6005001               
+ brand     | scholarcorp #1        
+ ext_price | 30955.09              
+-RECORD 29-------------------------
+ d_year    | 2000                  
+ brand_id  | 1004001               
+ brand     | edu packamalg #1      
+ ext_price | 30464.1               
+-RECORD 30-------------------------
+ d_year    | 2000                  
+ brand_id  | 7009004               
+ brand     | maxibrand #4          
+ ext_price | 29127.01              
+-RECORD 31-------------------------
+ d_year    | 2000                  
+ brand_id  | 10010013              
+ brand     | univamalgamalg #13    
+ ext_price | 29071.87              
+-RECORD 32-------------------------
+ d_year    | 2000                  
+ brand_id  | 6012008               
+ brand     | importobrand #8       
+ ext_price | 28799.91              
+-RECORD 33-------------------------
+ d_year    | 2000                  
+ brand_id  | 8005009               
+ brand     | corpnameless #10      
+ ext_price | 28231.03              
+-RECORD 34-------------------------
+ d_year    | 2000                  
+ brand_id  | 5003001               
+ brand     | exportischolar #1     
+ ext_price | 27336.64              
+-RECORD 35-------------------------
+ d_year    | 2000                  
+ brand_id  | 5001001               
+ brand     | brandunivamalg #11    
+ ext_price | 26418.9               
+-RECORD 36-------------------------
+ d_year    | 2000                  
+ brand_id  | 3001002               
+ brand     | amalgexporti #2       
+ ext_price | 25858.35              
+-RECORD 37-------------------------
+ d_year    | 2000                  
+ brand_id  | 4004001               
+ brand     | edu packedu pack #1   
+ ext_price | 25715.17              
+-RECORD 38-------------------------
+ d_year    | 2000                  
+ brand_id  | 7009009               
+ brand     | exportibrand #10      
+ ext_price | 25380.68              
+-RECORD 39-------------------------
+ d_year    | 2000                  
+ brand_id  | 4004001               
+ brand     | maxinameless #8       
+ ext_price | 23992.4               
+-RECORD 40-------------------------
+ d_year    | 2000                  
+ brand_id  | 10014001              
+ brand     | maxibrand #4          
+ ext_price | 23662.09              
+-RECORD 41-------------------------
+ d_year    | 2000                  
+ brand_id  | 10009015              
+ brand     | maxiunivamalg #15     
+ ext_price | 23576.97              
+-RECORD 42-------------------------
+ d_year    | 2000                  
+ brand_id  | 3003001               
+ brand     | exportiedu pack #2    
+ ext_price | 21959.63              
+-RECORD 43-------------------------
+ d_year    | 2000                  
+ brand_id  | 10004004              
+ brand     | edu packunivamalg #4  
+ ext_price | 21950.07              
+-RECORD 44-------------------------
+ d_year    | 2000                  
+ brand_id  | 3002001               
+ brand     | importoexporti #1     
+ ext_price | 21677.43              
+-RECORD 45-------------------------
+ d_year    | 2000                  
+ brand_id  | 1004002               
+ brand     | edu packamalg #2      
+ ext_price | 21563.27              
+-RECORD 46-------------------------
+ d_year    | 2000                  
+ brand_id  | 2002002               
+ brand     | importoimporto #2     
+ ext_price | 21502.53              
+-RECORD 47-------------------------
+ d_year    | 2000                  
+ brand_id  | 2001001               
+ brand     | importoimporto #2     
+ ext_price | 21106.22              
+-RECORD 48-------------------------
+ d_year    | 2000                  
+ brand_id  | 9012003               
+ brand     | importounivamalg #3   
+ ext_price | 21075.27              
+-RECORD 49-------------------------
+ d_year    | 2000                  
+ brand_id  | 3003002               
+ brand     | exportiexporti #2     
+ ext_price | 20711.54              
+-RECORD 50-------------------------
+ d_year    | 2000                  
+ brand_id  | 10015013              
+ brand     | scholaramalgamalg #13 
+ ext_price | 20610.41              
+-RECORD 51-------------------------
+ d_year    | 2000                  
+ brand_id  | 7010005               
+ brand     | corpunivamalg #6      
+ ext_price | 19821.13              
+-RECORD 52-------------------------
+ d_year    | 2000                  
+ brand_id  | 4003001               
+ brand     | exportischolar #2     
+ ext_price | 19693.88              
+-RECORD 53-------------------------
+ d_year    | 2000                  
+ brand_id  | 9012008               
+ brand     | importounivamalg #8   
+ ext_price | 19463.65              
+-RECORD 54-------------------------
+ d_year    | 2000                  
+ brand_id  | 7010009               
+ brand     | univnameless #9       
+ ext_price | 19176.91              
+-RECORD 55-------------------------
+ d_year    | 2000                  
+ brand_id  | 7008004               
+ brand     | namelessbrand #4      
+ ext_price | 19128.07              
+-RECORD 56-------------------------
+ d_year    | 2000                  
+ brand_id  | 2003001               
+ brand     | exportiimporto #1     
+ ext_price | 19074.52              
+-RECORD 57-------------------------
+ d_year    | 2000                  
+ brand_id  | 6008005               
+ brand     | namelesscorp #5       
+ ext_price | 19067.51              
+-RECORD 58-------------------------
+ d_year    | 2000                  
+ brand_id  | 3004001               
+ brand     | edu packexporti #1    
+ ext_price | 18504.78              
+-RECORD 59-------------------------
+ d_year    | 2000                  
+ brand_id  | 5001001               
+ brand     | exportinameless #8    
+ ext_price | 18493                 
+-RECORD 60-------------------------
+ d_year    | 2000                  
+ brand_id  | 10003016              
+ brand     | exportiunivamalg #16  
+ ext_price | 18413.97              
+-RECORD 61-------------------------
+ d_year    | 2000                  
+ brand_id  | 3001001               
+ brand     | maxibrand #8          
+ ext_price | 18290.52              
+-RECORD 62-------------------------
+ d_year    | 2000                  
+ brand_id  | 8003007               
+ brand     | edu packnameless #8   
+ ext_price | 18265.99              
+-RECORD 63-------------------------
+ d_year    | 2000                  
+ brand_id  | 7016007               
+ brand     | corpnameless #7       
+ ext_price | 18103.37              
+-RECORD 64-------------------------
+ d_year    | 2000                  
+ brand_id  | 5003002               
+ brand     | exportischolar #2     
+ ext_price | 17930.96              
+-RECORD 65-------------------------
+ d_year    | 2000                  
+ brand_id  | 8016004               
+ brand     | corpmaxi #4           
+ ext_price | 17828.86              
+-RECORD 66-------------------------
+ d_year    | 2000                  
+ brand_id  | 2004001               
+ brand     | importoexporti #2     
+ ext_price | 17646.57              
+-RECORD 67-------------------------
+ d_year    | 2000                  
+ brand_id  | 10004012              
+ brand     | edu packunivamalg #12 
+ ext_price | 17608.05              
+-RECORD 68-------------------------
+ d_year    | 2000                  
+ brand_id  | 8002009               
+ brand     | importonameless #9    
+ ext_price | 17513.05              
+-RECORD 69-------------------------
+ d_year    | 2000                  
+ brand_id  | 7004009               
+ brand     | importoimporto #2     
+ ext_price | 17312.88              
+-RECORD 70-------------------------
+ d_year    | 2000                  
+ brand_id  | 2004001               
+ brand     | edu packunivamalg #8  
+ ext_price | 17084.17              
+-RECORD 71-------------------------
+ d_year    | 2000                  
+ brand_id  | 9014006               
+ brand     | edu packunivamalg #6  
+ ext_price | 16958.88              
+-RECORD 72-------------------------
+ d_year    | 2000                  
+ brand_id  | 9015011               
+ brand     | exportiamalg #2       
+ ext_price | 15875.77              
+-RECORD 73-------------------------
+ d_year    | 2000                  
+ brand_id  | 10004005              
+ brand     | importounivamalg #6   
+ ext_price | 15258.42              
+-RECORD 74-------------------------
+ d_year    | 2000                  
+ brand_id  | 6008002               
+ brand     | namelesscorp #2       
+ ext_price | 15199.06              
+-RECORD 75-------------------------
+ d_year    | 2000                  
+ brand_id  | 6004002               
+ brand     | edu packcorp #2       
+ ext_price | 14905.77              
+-RECORD 76-------------------------
+ d_year    | 2000                  
+ brand_id  | 9013009               
+ brand     | exportiunivamalg #9   
+ ext_price | 14704.96              
+-RECORD 77-------------------------
+ d_year    | 2000                  
+ brand_id  | 7012010               
+ brand     | importonameless #10   
+ ext_price | 14697.15              
+-RECORD 78-------------------------
+ d_year    | 2000                  
+ brand_id  | 7013007               
+ brand     | exportinameless #7    
+ ext_price | 14068.62              
+-RECORD 79-------------------------
+ d_year    | 2000                  
+ brand_id  | 7008009               
+ brand     | namelessbrand #9      
+ ext_price | 13759.65              
+-RECORD 80-------------------------
+ d_year    | 2000                  
+ brand_id  | 7006007               
+ brand     | edu packamalg #2      
+ ext_price | 13705.14              
+-RECORD 81-------------------------
+ d_year    | 2000                  
+ brand_id  | 10012004              
+ brand     | importoamalgamalg #4  
+ ext_price | 13514.95              
+-RECORD 82-------------------------
+ d_year    | 2000                  
+ brand_id  | 6015006               
+ brand     | scholarbrand #6       
+ ext_price | 13421.39              
+-RECORD 83-------------------------
+ d_year    | 2000                  
+ brand_id  | 10002012              
+ brand     | importounivamalg #12  
+ ext_price | 13080.55              
+-RECORD 84-------------------------
+ d_year    | 2000                  
+ brand_id  | 9016003               
+ brand     | corpunivamalg #3      
+ ext_price | 12936.25              
+-RECORD 85-------------------------
+ d_year    | 2000                  
+ brand_id  | 6002004               
+ brand     | importocorp #4        
+ ext_price | 12491.48              
+-RECORD 86-------------------------
+ d_year    | 2000                  
+ brand_id  | 8004003               
+ brand     | edu packnameless #3   
+ ext_price | 12480.24              
+-RECORD 87-------------------------
+ d_year    | 2000                  
+ brand_id  | 6011008               
+ brand     | amalgbrand #8         
+ ext_price | 12236                 
+-RECORD 88-------------------------
+ d_year    | 2000                  
+ brand_id  | 6003008               
+ brand     | exporticorp #8        
+ ext_price | 11621.79              
+-RECORD 89-------------------------
+ d_year    | 2000                  
+ brand_id  | 8005008               
+ brand     | scholarnameless #8    
+ ext_price | 11609.84              
+-RECORD 90-------------------------
+ d_year    | 2000                  
+ brand_id  | 4001001               
+ brand     | amalgedu pack #1      
+ ext_price | 11110.78              
+-RECORD 91-------------------------
+ d_year    | 2000                  
+ brand_id  | 7009010               
+ brand     | maxibrand #10         
+ ext_price | 11061                 
+-RECORD 92-------------------------
+ d_year    | 2000                  
+ brand_id  | 3004001               
+ brand     | edu packscholar #2    
+ ext_price | 11025.47              
+-RECORD 93-------------------------
+ d_year    | 2000                  
+ brand_id  | 7012001               
+ brand     | amalgamalgamalg #2    
+ ext_price | 10846.24              
+-RECORD 94-------------------------
+ d_year    | 2000                  
+ brand_id  | 7016009               
+ brand     | univnameless #10      
+ ext_price | 10454.42              
+-RECORD 95-------------------------
+ d_year    | 2000                  
+ brand_id  | 7014001               
+ brand     | edu packnameless #1   
+ ext_price | 9596.47               
+-RECORD 96-------------------------
+ d_year    | 2000                  
+ brand_id  | 1002001               
+ brand     | importoamalg #1       
+ ext_price | 9579.28               
+-RECORD 97-------------------------
+ d_year    | 2000                  
+ brand_id  | 8010004               
+ brand     | univmaxi #4           
+ ext_price | 9508.89               
+-RECORD 98-------------------------
+ d_year    | 2000                  
+ brand_id  | 3001001               
+ brand     | amalgexporti #1       
+ ext_price | 9373.84               
+-RECORD 99-------------------------
+ d_year    | 2000                  
+ brand_id  | 6010005               
+ brand     | univbrand #5          
+ ext_price | 9222.91
+           

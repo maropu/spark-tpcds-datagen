@@ -1,0 +1,901 @@
+-RECORD 0--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | EXPRESS              
+ web_name                           | site_0               
+ 30 days                            | 260                  
+ 31 - 60 days                       | 283                  
+ 61 - 90 days                       | 296                  
+ 91 - 120 days                      | 314                  
+ >120 days                          | 0                    
+-RECORD 1--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | EXPRESS              
+ web_name                           | site_1               
+ 30 days                            | 330                  
+ 31 - 60 days                       | 285                  
+ 61 - 90 days                       | 315                  
+ 91 - 120 days                      | 329                  
+ >120 days                          | 0                    
+-RECORD 2--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | EXPRESS              
+ web_name                           | site_2               
+ 30 days                            | 283                  
+ 31 - 60 days                       | 291                  
+ 61 - 90 days                       | 318                  
+ 91 - 120 days                      | 333                  
+ >120 days                          | 0                    
+-RECORD 3--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | EXPRESS              
+ web_name                           | site_3               
+ 30 days                            | 274                  
+ 31 - 60 days                       | 280                  
+ 61 - 90 days                       | 277                  
+ 91 - 120 days                      | 258                  
+ >120 days                          | 0                    
+-RECORD 4--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | EXPRESS              
+ web_name                           | site_4               
+ 30 days                            | 247                  
+ 31 - 60 days                       | 244                  
+ 61 - 90 days                       | 268                  
+ 91 - 120 days                      | 259                  
+ >120 days                          | 0                    
+-RECORD 5--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | LIBRARY              
+ web_name                           | site_0               
+ 30 days                            | 197                  
+ 31 - 60 days                       | 180                  
+ 61 - 90 days                       | 203                  
+ 91 - 120 days                      | 180                  
+ >120 days                          | 0                    
+-RECORD 6--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | LIBRARY              
+ web_name                           | site_1               
+ 30 days                            | 208                  
+ 31 - 60 days                       | 205                  
+ 61 - 90 days                       | 185                  
+ 91 - 120 days                      | 211                  
+ >120 days                          | 0                    
+-RECORD 7--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | LIBRARY              
+ web_name                           | site_2               
+ 30 days                            | 258                  
+ 31 - 60 days                       | 230                  
+ 61 - 90 days                       | 267                  
+ 91 - 120 days                      | 243                  
+ >120 days                          | 0                    
+-RECORD 8--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | LIBRARY              
+ web_name                           | site_3               
+ 30 days                            | 243                  
+ 31 - 60 days                       | 204                  
+ 61 - 90 days                       | 241                  
+ 91 - 120 days                      | 252                  
+ >120 days                          | 0                    
+-RECORD 9--------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | LIBRARY              
+ web_name                           | site_4               
+ 30 days                            | 211                  
+ 31 - 60 days                       | 213                  
+ 61 - 90 days                       | 216                  
+ 91 - 120 days                      | 206                  
+ >120 days                          | 0                    
+-RECORD 10-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | NEXT DAY             
+ web_name                           | site_0               
+ 30 days                            | 332                  
+ 31 - 60 days                       | 290                  
+ 61 - 90 days                       | 340                  
+ 91 - 120 days                      | 289                  
+ >120 days                          | 0                    
+-RECORD 11-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | NEXT DAY             
+ web_name                           | site_1               
+ 30 days                            | 297                  
+ 31 - 60 days                       | 292                  
+ 61 - 90 days                       | 275                  
+ 91 - 120 days                      | 334                  
+ >120 days                          | 0                    
+-RECORD 12-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | NEXT DAY             
+ web_name                           | site_2               
+ 30 days                            | 287                  
+ 31 - 60 days                       | 253                  
+ 61 - 90 days                       | 272                  
+ 91 - 120 days                      | 220                  
+ >120 days                          | 0                    
+-RECORD 13-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | NEXT DAY             
+ web_name                           | site_3               
+ 30 days                            | 255                  
+ 31 - 60 days                       | 252                  
+ 61 - 90 days                       | 243                  
+ 91 - 120 days                      | 264                  
+ >120 days                          | 0                    
+-RECORD 14-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | NEXT DAY             
+ web_name                           | site_4               
+ 30 days                            | 300                  
+ 31 - 60 days                       | 309                  
+ 61 - 90 days                       | 309                  
+ 91 - 120 days                      | 281                  
+ >120 days                          | 0                    
+-RECORD 15-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | OVERNIGHT            
+ web_name                           | site_0               
+ 30 days                            | 242                  
+ 31 - 60 days                       | 224                  
+ 61 - 90 days                       | 226                  
+ 91 - 120 days                      | 237                  
+ >120 days                          | 0                    
+-RECORD 16-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | OVERNIGHT            
+ web_name                           | site_1               
+ 30 days                            | 237                  
+ 31 - 60 days                       | 202                  
+ 61 - 90 days                       | 213                  
+ 91 - 120 days                      | 204                  
+ >120 days                          | 0                    
+-RECORD 17-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | OVERNIGHT            
+ web_name                           | site_2               
+ 30 days                            | 172                  
+ 31 - 60 days                       | 182                  
+ 61 - 90 days                       | 158                  
+ 91 - 120 days                      | 181                  
+ >120 days                          | 0                    
+-RECORD 18-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | OVERNIGHT            
+ web_name                           | site_3               
+ 30 days                            | 217                  
+ 31 - 60 days                       | 193                  
+ 61 - 90 days                       | 201                  
+ 91 - 120 days                      | 175                  
+ >120 days                          | 0                    
+-RECORD 19-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | OVERNIGHT            
+ web_name                           | site_4               
+ 30 days                            | 231                  
+ 31 - 60 days                       | 251                  
+ 61 - 90 days                       | 249                  
+ 91 - 120 days                      | 237                  
+ >120 days                          | 0                    
+-RECORD 20-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | REGULAR              
+ web_name                           | site_0               
+ 30 days                            | 227                  
+ 31 - 60 days                       | 216                  
+ 61 - 90 days                       | 199                  
+ 91 - 120 days                      | 193                  
+ >120 days                          | 0                    
+-RECORD 21-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | REGULAR              
+ web_name                           | site_1               
+ 30 days                            | 239                  
+ 31 - 60 days                       | 209                  
+ 61 - 90 days                       | 254                  
+ 91 - 120 days                      | 246                  
+ >120 days                          | 0                    
+-RECORD 22-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | REGULAR              
+ web_name                           | site_2               
+ 30 days                            | 235                  
+ 31 - 60 days                       | 241                  
+ 61 - 90 days                       | 259                  
+ 91 - 120 days                      | 219                  
+ >120 days                          | 0                    
+-RECORD 23-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | REGULAR              
+ web_name                           | site_3               
+ 30 days                            | 204                  
+ 31 - 60 days                       | 212                  
+ 61 - 90 days                       | 185                  
+ 91 - 120 days                      | 237                  
+ >120 days                          | 0                    
+-RECORD 24-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | REGULAR              
+ web_name                           | site_4               
+ 30 days                            | 171                  
+ 31 - 60 days                       | 176                  
+ 61 - 90 days                       | 182                  
+ 91 - 120 days                      | 163                  
+ >120 days                          | 0                    
+-RECORD 25-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | TWO DAY              
+ web_name                           | site_0               
+ 30 days                            | 189                  
+ 31 - 60 days                       | 201                  
+ 61 - 90 days                       | 202                  
+ 91 - 120 days                      | 218                  
+ >120 days                          | 0                    
+-RECORD 26-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | TWO DAY              
+ web_name                           | site_1               
+ 30 days                            | 199                  
+ 31 - 60 days                       | 170                  
+ 61 - 90 days                       | 177                  
+ 91 - 120 days                      | 174                  
+ >120 days                          | 0                    
+-RECORD 27-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | TWO DAY              
+ web_name                           | site_2               
+ 30 days                            | 200                  
+ 31 - 60 days                       | 202                  
+ 61 - 90 days                       | 181                  
+ 91 - 120 days                      | 179                  
+ >120 days                          | 0                    
+-RECORD 28-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | TWO DAY              
+ web_name                           | site_3               
+ 30 days                            | 237                  
+ 31 - 60 days                       | 234                  
+ 61 - 90 days                       | 233                  
+ 91 - 120 days                      | 253                  
+ >120 days                          | 0                    
+-RECORD 29-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | null                 
+ sm_type                            | TWO DAY              
+ web_name                           | site_4               
+ 30 days                            | 233                  
+ 31 - 60 days                       | 229                  
+ 61 - 90 days                       | 234                  
+ 91 - 120 days                      | 238                  
+ >120 days                          | 0                    
+-RECORD 30-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | EXPRESS              
+ web_name                           | site_0               
+ 30 days                            | 251                  
+ 31 - 60 days                       | 248                  
+ 61 - 90 days                       | 268                  
+ 91 - 120 days                      | 277                  
+ >120 days                          | 0                    
+-RECORD 31-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | EXPRESS              
+ web_name                           | site_1               
+ 30 days                            | 262                  
+ 31 - 60 days                       | 304                  
+ 61 - 90 days                       | 290                  
+ 91 - 120 days                      | 267                  
+ >120 days                          | 0                    
+-RECORD 32-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | EXPRESS              
+ web_name                           | site_2               
+ 30 days                            | 287                  
+ 31 - 60 days                       | 290                  
+ 61 - 90 days                       | 293                  
+ 91 - 120 days                      | 286                  
+ >120 days                          | 0                    
+-RECORD 33-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | EXPRESS              
+ web_name                           | site_3               
+ 30 days                            | 283                  
+ 31 - 60 days                       | 260                  
+ 61 - 90 days                       | 267                  
+ 91 - 120 days                      | 290                  
+ >120 days                          | 0                    
+-RECORD 34-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | EXPRESS              
+ web_name                           | site_4               
+ 30 days                            | 281                  
+ 31 - 60 days                       | 310                  
+ 61 - 90 days                       | 309                  
+ 91 - 120 days                      | 321                  
+ >120 days                          | 0                    
+-RECORD 35-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | LIBRARY              
+ web_name                           | site_0               
+ 30 days                            | 254                  
+ 31 - 60 days                       | 265                  
+ 61 - 90 days                       | 226                  
+ 91 - 120 days                      | 231                  
+ >120 days                          | 0                    
+-RECORD 36-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | LIBRARY              
+ web_name                           | site_1               
+ 30 days                            | 198                  
+ 31 - 60 days                       | 231                  
+ 61 - 90 days                       | 211                  
+ 91 - 120 days                      | 201                  
+ >120 days                          | 0                    
+-RECORD 37-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | LIBRARY              
+ web_name                           | site_2               
+ 30 days                            | 181                  
+ 31 - 60 days                       | 172                  
+ 61 - 90 days                       | 190                  
+ 91 - 120 days                      | 176                  
+ >120 days                          | 0                    
+-RECORD 38-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | LIBRARY              
+ web_name                           | site_3               
+ 30 days                            | 196                  
+ 31 - 60 days                       | 214                  
+ 61 - 90 days                       | 173                  
+ 91 - 120 days                      | 226                  
+ >120 days                          | 0                    
+-RECORD 39-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | LIBRARY              
+ web_name                           | site_4               
+ 30 days                            | 241                  
+ 31 - 60 days                       | 241                  
+ 61 - 90 days                       | 247                  
+ 91 - 120 days                      | 236                  
+ >120 days                          | 0                    
+-RECORD 40-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | NEXT DAY             
+ web_name                           | site_0               
+ 30 days                            | 259                  
+ 31 - 60 days                       | 255                  
+ 61 - 90 days                       | 279                  
+ 91 - 120 days                      | 260                  
+ >120 days                          | 0                    
+-RECORD 41-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | NEXT DAY             
+ web_name                           | site_1               
+ 30 days                            | 287                  
+ 31 - 60 days                       | 334                  
+ 61 - 90 days                       | 295                  
+ 91 - 120 days                      | 300                  
+ >120 days                          | 0                    
+-RECORD 42-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | NEXT DAY             
+ web_name                           | site_2               
+ 30 days                            | 269                  
+ 31 - 60 days                       | 309                  
+ 61 - 90 days                       | 306                  
+ 91 - 120 days                      | 272                  
+ >120 days                          | 0                    
+-RECORD 43-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | NEXT DAY             
+ web_name                           | site_3               
+ 30 days                            | 281                  
+ 31 - 60 days                       | 322                  
+ 61 - 90 days                       | 308                  
+ 91 - 120 days                      | 277                  
+ >120 days                          | 0                    
+-RECORD 44-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | NEXT DAY             
+ web_name                           | site_4               
+ 30 days                            | 273                  
+ 31 - 60 days                       | 295                  
+ 61 - 90 days                       | 275                  
+ 91 - 120 days                      | 281                  
+ >120 days                          | 0                    
+-RECORD 45-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | OVERNIGHT            
+ web_name                           | site_0               
+ 30 days                            | 221                  
+ 31 - 60 days                       | 216                  
+ 61 - 90 days                       | 201                  
+ 91 - 120 days                      | 213                  
+ >120 days                          | 0                    
+-RECORD 46-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | OVERNIGHT            
+ web_name                           | site_1               
+ 30 days                            | 250                  
+ 31 - 60 days                       | 228                  
+ 61 - 90 days                       | 257                  
+ 91 - 120 days                      | 235                  
+ >120 days                          | 0                    
+-RECORD 47-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | OVERNIGHT            
+ web_name                           | site_2               
+ 30 days                            | 255                  
+ 31 - 60 days                       | 223                  
+ 61 - 90 days                       | 230                  
+ 91 - 120 days                      | 238                  
+ >120 days                          | 0                    
+-RECORD 48-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | OVERNIGHT            
+ web_name                           | site_3               
+ 30 days                            | 195                  
+ 31 - 60 days                       | 217                  
+ 61 - 90 days                       | 199                  
+ 91 - 120 days                      | 211                  
+ >120 days                          | 0                    
+-RECORD 49-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | OVERNIGHT            
+ web_name                           | site_4               
+ 30 days                            | 175                  
+ 31 - 60 days                       | 165                  
+ 61 - 90 days                       | 169                  
+ 91 - 120 days                      | 164                  
+ >120 days                          | 0                    
+-RECORD 50-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | REGULAR              
+ web_name                           | site_0               
+ 30 days                            | 176                  
+ 31 - 60 days                       | 239                  
+ 61 - 90 days                       | 220                  
+ 91 - 120 days                      | 233                  
+ >120 days                          | 0                    
+-RECORD 51-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | REGULAR              
+ web_name                           | site_1               
+ 30 days                            | 187                  
+ 31 - 60 days                       | 163                  
+ 61 - 90 days                       | 200                  
+ 91 - 120 days                      | 198                  
+ >120 days                          | 0                    
+-RECORD 52-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | REGULAR              
+ web_name                           | site_2               
+ 30 days                            | 190                  
+ 31 - 60 days                       | 231                  
+ 61 - 90 days                       | 195                  
+ 91 - 120 days                      | 208                  
+ >120 days                          | 0                    
+-RECORD 53-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | REGULAR              
+ web_name                           | site_3               
+ 30 days                            | 227                  
+ 31 - 60 days                       | 241                  
+ 61 - 90 days                       | 231                  
+ 91 - 120 days                      | 252                  
+ >120 days                          | 0                    
+-RECORD 54-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | REGULAR              
+ web_name                           | site_4               
+ 30 days                            | 258                  
+ 31 - 60 days                       | 245                  
+ 61 - 90 days                       | 260                  
+ 91 - 120 days                      | 245                  
+ >120 days                          | 0                    
+-RECORD 55-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | TWO DAY              
+ web_name                           | site_0               
+ 30 days                            | 222                  
+ 31 - 60 days                       | 235                  
+ 61 - 90 days                       | 235                  
+ 91 - 120 days                      | 223                  
+ >120 days                          | 0                    
+-RECORD 56-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | TWO DAY              
+ web_name                           | site_1               
+ 30 days                            | 264                  
+ 31 - 60 days                       | 248                  
+ 61 - 90 days                       | 237                  
+ 91 - 120 days                      | 227                  
+ >120 days                          | 0                    
+-RECORD 57-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | TWO DAY              
+ web_name                           | site_2               
+ 30 days                            | 181                  
+ 31 - 60 days                       | 230                  
+ 61 - 90 days                       | 231                  
+ 91 - 120 days                      | 207                  
+ >120 days                          | 0                    
+-RECORD 58-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | TWO DAY              
+ web_name                           | site_3               
+ 30 days                            | 182                  
+ 31 - 60 days                       | 158                  
+ 61 - 90 days                       | 209                  
+ 91 - 120 days                      | 185                  
+ >120 days                          | 0                    
+-RECORD 59-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Bad cards must make. 
+ sm_type                            | TWO DAY              
+ web_name                           | site_4               
+ 30 days                            | 203                  
+ 31 - 60 days                       | 218                  
+ 61 - 90 days                       | 198                  
+ 91 - 120 days                      | 221                  
+ >120 days                          | 0                    
+-RECORD 60-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | EXPRESS              
+ web_name                           | site_0               
+ 30 days                            | 311                  
+ 31 - 60 days                       | 308                  
+ 61 - 90 days                       | 336                  
+ 91 - 120 days                      | 287                  
+ >120 days                          | 0                    
+-RECORD 61-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | EXPRESS              
+ web_name                           | site_1               
+ 30 days                            | 250                  
+ 31 - 60 days                       | 269                  
+ 61 - 90 days                       | 273                  
+ 91 - 120 days                      | 260                  
+ >120 days                          | 0                    
+-RECORD 62-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | EXPRESS              
+ web_name                           | site_2               
+ 30 days                            | 255                  
+ 31 - 60 days                       | 280                  
+ 61 - 90 days                       | 235                  
+ 91 - 120 days                      | 276                  
+ >120 days                          | 0                    
+-RECORD 63-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | EXPRESS              
+ web_name                           | site_3               
+ 30 days                            | 269                  
+ 31 - 60 days                       | 292                  
+ 61 - 90 days                       | 303                  
+ 91 - 120 days                      | 278                  
+ >120 days                          | 0                    
+-RECORD 64-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | EXPRESS              
+ web_name                           | site_4               
+ 30 days                            | 275                  
+ 31 - 60 days                       | 324                  
+ 61 - 90 days                       | 268                  
+ 91 - 120 days                      | 330                  
+ >120 days                          | 0                    
+-RECORD 65-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | LIBRARY              
+ web_name                           | site_0               
+ 30 days                            | 212                  
+ 31 - 60 days                       | 211                  
+ 61 - 90 days                       | 225                  
+ 91 - 120 days                      | 250                  
+ >120 days                          | 0                    
+-RECORD 66-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | LIBRARY              
+ web_name                           | site_1               
+ 30 days                            | 218                  
+ 31 - 60 days                       | 249                  
+ 61 - 90 days                       | 244                  
+ 91 - 120 days                      | 204                  
+ >120 days                          | 0                    
+-RECORD 67-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | LIBRARY              
+ web_name                           | site_2               
+ 30 days                            | 203                  
+ 31 - 60 days                       | 215                  
+ 61 - 90 days                       | 222                  
+ 91 - 120 days                      | 205                  
+ >120 days                          | 0                    
+-RECORD 68-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | LIBRARY              
+ web_name                           | site_3               
+ 30 days                            | 163                  
+ 31 - 60 days                       | 181                  
+ 61 - 90 days                       | 180                  
+ 91 - 120 days                      | 193                  
+ >120 days                          | 0                    
+-RECORD 69-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | LIBRARY              
+ web_name                           | site_4               
+ 30 days                            | 189                  
+ 31 - 60 days                       | 208                  
+ 61 - 90 days                       | 207                  
+ 91 - 120 days                      | 191                  
+ >120 days                          | 0                    
+-RECORD 70-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | NEXT DAY             
+ web_name                           | site_0               
+ 30 days                            | 253                  
+ 31 - 60 days                       | 269                  
+ 61 - 90 days                       | 285                  
+ 91 - 120 days                      | 258                  
+ >120 days                          | 0                    
+-RECORD 71-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | NEXT DAY             
+ web_name                           | site_1               
+ 30 days                            | 289                  
+ 31 - 60 days                       | 244                  
+ 61 - 90 days                       | 254                  
+ 91 - 120 days                      | 269                  
+ >120 days                          | 0                    
+-RECORD 72-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | NEXT DAY             
+ web_name                           | site_2               
+ 30 days                            | 341                  
+ 31 - 60 days                       | 290                  
+ 61 - 90 days                       | 310                  
+ 91 - 120 days                      | 315                  
+ >120 days                          | 0                    
+-RECORD 73-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | NEXT DAY             
+ web_name                           | site_3               
+ 30 days                            | 309                  
+ 31 - 60 days                       | 294                  
+ 61 - 90 days                       | 328                  
+ 91 - 120 days                      | 270                  
+ >120 days                          | 0                    
+-RECORD 74-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | NEXT DAY             
+ web_name                           | site_4               
+ 30 days                            | 312                  
+ 31 - 60 days                       | 311                  
+ 61 - 90 days                       | 275                  
+ 91 - 120 days                      | 291                  
+ >120 days                          | 0                    
+-RECORD 75-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | OVERNIGHT            
+ web_name                           | site_0               
+ 30 days                            | 180                  
+ 31 - 60 days                       | 193                  
+ 61 - 90 days                       | 167                  
+ 91 - 120 days                      | 211                  
+ >120 days                          | 0                    
+-RECORD 76-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | OVERNIGHT            
+ web_name                           | site_1               
+ 30 days                            | 196                  
+ 31 - 60 days                       | 210                  
+ 61 - 90 days                       | 238                  
+ 91 - 120 days                      | 194                  
+ >120 days                          | 0                    
+-RECORD 77-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | OVERNIGHT            
+ web_name                           | site_2               
+ 30 days                            | 218                  
+ 31 - 60 days                       | 236                  
+ 61 - 90 days                       | 287                  
+ 91 - 120 days                      | 220                  
+ >120 days                          | 0                    
+-RECORD 78-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | OVERNIGHT            
+ web_name                           | site_3               
+ 30 days                            | 235                  
+ 31 - 60 days                       | 253                  
+ 61 - 90 days                       | 228                  
+ 91 - 120 days                      | 246                  
+ >120 days                          | 0                    
+-RECORD 79-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | OVERNIGHT            
+ web_name                           | site_4               
+ 30 days                            | 211                  
+ 31 - 60 days                       | 199                  
+ 61 - 90 days                       | 201                  
+ 91 - 120 days                      | 201                  
+ >120 days                          | 0                    
+-RECORD 80-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | REGULAR              
+ web_name                           | site_0               
+ 30 days                            | 209                  
+ 31 - 60 days                       | 262                  
+ 61 - 90 days                       | 232                  
+ 91 - 120 days                      | 207                  
+ >120 days                          | 0                    
+-RECORD 81-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | REGULAR              
+ web_name                           | site_1               
+ 30 days                            | 214                  
+ 31 - 60 days                       | 218                  
+ 61 - 90 days                       | 222                  
+ 91 - 120 days                      | 227                  
+ >120 days                          | 0                    
+-RECORD 82-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | REGULAR              
+ web_name                           | site_2               
+ 30 days                            | 166                  
+ 31 - 60 days                       | 193                  
+ 61 - 90 days                       | 184                  
+ 91 - 120 days                      | 183                  
+ >120 days                          | 0                    
+-RECORD 83-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | REGULAR              
+ web_name                           | site_3               
+ 30 days                            | 195                  
+ 31 - 60 days                       | 191                  
+ 61 - 90 days                       | 221                  
+ 91 - 120 days                      | 219                  
+ >120 days                          | 0                    
+-RECORD 84-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | REGULAR              
+ web_name                           | site_4               
+ 30 days                            | 248                  
+ 31 - 60 days                       | 236                  
+ 61 - 90 days                       | 244                  
+ 91 - 120 days                      | 256                  
+ >120 days                          | 0                    
+-RECORD 85-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | TWO DAY              
+ web_name                           | site_0               
+ 30 days                            | 192                  
+ 31 - 60 days                       | 225                  
+ 61 - 90 days                       | 232                  
+ 91 - 120 days                      | 225                  
+ >120 days                          | 0                    
+-RECORD 86-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | TWO DAY              
+ web_name                           | site_1               
+ 30 days                            | 248                  
+ 31 - 60 days                       | 239                  
+ 61 - 90 days                       | 233                  
+ 91 - 120 days                      | 251                  
+ >120 days                          | 0                    
+-RECORD 87-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | TWO DAY              
+ web_name                           | site_2               
+ 30 days                            | 230                  
+ 31 - 60 days                       | 214                  
+ 61 - 90 days                       | 237                  
+ 91 - 120 days                      | 201                  
+ >120 days                          | 0                    
+-RECORD 88-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | TWO DAY              
+ web_name                           | site_3               
+ 30 days                            | 236                  
+ 31 - 60 days                       | 190                  
+ 61 - 90 days                       | 190                  
+ 91 - 120 days                      | 222                  
+ >120 days                          | 0                    
+-RECORD 89-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Conventional childr  
+ sm_type                            | TWO DAY              
+ web_name                           | site_4               
+ 30 days                            | 197                  
+ 31 - 60 days                       | 159                  
+ 61 - 90 days                       | 202                  
+ 91 - 120 days                      | 176                  
+ >120 days                          | 0                    
+-RECORD 90-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | EXPRESS              
+ web_name                           | site_0               
+ 30 days                            | 303                  
+ 31 - 60 days                       | 312                  
+ 61 - 90 days                       | 304                  
+ 91 - 120 days                      | 319                  
+ >120 days                          | 0                    
+-RECORD 91-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | EXPRESS              
+ web_name                           | site_1               
+ 30 days                            | 321                  
+ 31 - 60 days                       | 278                  
+ 61 - 90 days                       | 313                  
+ 91 - 120 days                      | 297                  
+ >120 days                          | 0                    
+-RECORD 92-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | EXPRESS              
+ web_name                           | site_2               
+ 30 days                            | 267                  
+ 31 - 60 days                       | 277                  
+ 61 - 90 days                       | 265                  
+ 91 - 120 days                      | 257                  
+ >120 days                          | 0                    
+-RECORD 93-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | EXPRESS              
+ web_name                           | site_3               
+ 30 days                            | 263                  
+ 31 - 60 days                       | 245                  
+ 61 - 90 days                       | 258                  
+ 91 - 120 days                      | 285                  
+ >120 days                          | 0                    
+-RECORD 94-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | EXPRESS              
+ web_name                           | site_4               
+ 30 days                            | 282                  
+ 31 - 60 days                       | 313                  
+ 61 - 90 days                       | 319                  
+ 91 - 120 days                      | 323                  
+ >120 days                          | 0                    
+-RECORD 95-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | LIBRARY              
+ web_name                           | site_0               
+ 30 days                            | 201                  
+ 31 - 60 days                       | 210                  
+ 61 - 90 days                       | 201                  
+ 91 - 120 days                      | 200                  
+ >120 days                          | 0                    
+-RECORD 96-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | LIBRARY              
+ web_name                           | site_1               
+ 30 days                            | 239                  
+ 31 - 60 days                       | 217                  
+ 61 - 90 days                       | 208                  
+ 91 - 120 days                      | 206                  
+ >120 days                          | 0                    
+-RECORD 97-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | LIBRARY              
+ web_name                           | site_2               
+ 30 days                            | 229                  
+ 31 - 60 days                       | 233                  
+ 61 - 90 days                       | 244                  
+ 91 - 120 days                      | 241                  
+ >120 days                          | 0                    
+-RECORD 98-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | LIBRARY              
+ web_name                           | site_3               
+ 30 days                            | 216                  
+ 31 - 60 days                       | 198                  
+ 61 - 90 days                       | 182                  
+ 91 - 120 days                      | 222                  
+ >120 days                          | 0                    
+-RECORD 99-------------------------------------------------
+ substring(w_warehouse_name, 1, 20) | Doors canno          
+ sm_type                            | LIBRARY              
+ web_name                           | site_4               
+ 30 days                            | 176                  
+ 31 - 60 days                       | 163                  
+ 61 - 90 days                       | 170                  
+ 91 - 120 days                      | 216                  
+ >120 days                          | 0
+           

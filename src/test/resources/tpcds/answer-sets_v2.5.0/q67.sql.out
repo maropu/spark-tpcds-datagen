@@ -1,0 +1,1101 @@
+-RECORD 0----------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 102328.59                      
+ rk             | 62                             
+-RECORD 1----------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 596191.74                      
+ rk             | 4                              
+-RECORD 2----------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 1628997.00                     
+ rk             | 3                              
+-RECORD 3----------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 3113996.92                     
+ rk             | 2                              
+-RECORD 4----------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 1019789218.69                  
+ rk             | 1                              
+-RECORD 5----------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 102328.59                      
+ rk             | 62                             
+-RECORD 6----------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | null                           
+ i_product_name | ablepriablebarought            
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 117683.53                      
+ rk             | 38                             
+-RECORD 7----------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | null                           
+ i_product_name | ablepriablebarought            
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 117683.53                      
+ rk             | 38                             
+-RECORD 8----------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | null                           
+ i_product_name | antiationeinganti              
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 142234.21                      
+ rk             | 15                             
+-RECORD 9----------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | null                           
+ i_product_name | antiationeinganti              
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 142234.21                      
+ rk             | 15                             
+-RECORD 10---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | null                           
+ i_product_name | barationableeing               
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 133715.91                      
+ rk             | 25                             
+-RECORD 11---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | null                           
+ i_product_name | barationableeing               
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 133715.91                      
+ rk             | 25                             
+-RECORD 12---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | null                           
+ i_product_name | barationableeing               
+ d_year         | 2000                           
+ d_qoy          | 4                              
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 66366.69                       
+ rk             | 100                            
+-RECORD 13---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | null                           
+ i_product_name | eingcallyoughteing             
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 100229.50                      
+ rk             | 67                             
+-RECORD 14---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | null                           
+ i_product_name | eingcallyoughteing             
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 100229.50                      
+ rk             | 67                             
+-RECORD 15---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | brandmaxi #2                   
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 102830.03                      
+ rk             | 59                             
+-RECORD 16---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | brandmaxi #2                   
+ i_product_name | oughteingought                 
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 102830.03                      
+ rk             | 59                             
+-RECORD 17---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | brandmaxi #2                   
+ i_product_name | oughteingought                 
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 102830.03                      
+ rk             | 59                             
+-RECORD 18---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | corpunivamalg #3               
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 87301.37                       
+ rk             | 80                             
+-RECORD 19---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | corpunivamalg #3               
+ i_product_name | eseantin stationought          
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 87301.37                       
+ rk             | 80                             
+-RECORD 20---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | corpunivamalg #3               
+ i_product_name | eseantin stationought          
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 87301.37                       
+ rk             | 80                             
+-RECORD 21---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | edu packamalg #2               
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 106947.83                      
+ rk             | 48                             
+-RECORD 22---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | edu packamalg #2               
+ i_product_name | oughtn stn stese               
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 106947.83                      
+ rk             | 48                             
+-RECORD 23---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | edu packamalg #2               
+ i_product_name | oughtn stn stese               
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 106947.83                      
+ rk             | 48                             
+-RECORD 24---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | edu packamalgamalg #17         
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 91126.70                       
+ rk             | 77                             
+-RECORD 25---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | edu packamalgamalg #17         
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 91126.70                       
+ rk             | 77                             
+-RECORD 26---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | edu packamalgamalg #17         
+ i_product_name | null                           
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 91126.70                       
+ rk             | 77                             
+-RECORD 27---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | edu packexporti #1             
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 163163.84                      
+ rk             | 6                              
+-RECORD 28---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | edu packexporti #1             
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 163163.84                      
+ rk             | 6                              
+-RECORD 29---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | edu packexporti #1             
+ i_product_name | null                           
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 163163.84                      
+ rk             | 6                              
+-RECORD 30---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | edu packexporti #1             
+ i_product_name | null                           
+ d_year         | 2000                           
+ d_qoy          | 4                              
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 68406.85                       
+ rk             | 97                             
+-RECORD 31---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | exportischolar #2              
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 121562.94                      
+ rk             | 31                             
+-RECORD 32---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | exportischolar #2              
+ i_product_name | prieingeseought                
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 121562.94                      
+ rk             | 31                             
+-RECORD 33---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | exportischolar #2              
+ i_product_name | prieingeseought                
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 121562.94                      
+ rk             | 31                             
+-RECORD 34---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | importoedu pack #1             
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 154984.03                      
+ rk             | 9                              
+-RECORD 35---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | importoedu pack #1             
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 154984.03                      
+ rk             | 9                              
+-RECORD 36---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | importoedu pack #1             
+ i_product_name | null                           
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 154984.03                      
+ rk             | 9                              
+-RECORD 37---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | importoedu pack #1             
+ i_product_name | null                           
+ d_year         | 2000                           
+ d_qoy          | 4                              
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 73781.23                       
+ rk             | 90                             
+-RECORD 38---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | namelesscorp #1                
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 148627.34                      
+ rk             | 12                             
+-RECORD 39---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | namelesscorp #1                
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 148627.34                      
+ rk             | 12                             
+-RECORD 40---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | namelesscorp #1                
+ i_product_name | null                           
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 148627.34                      
+ rk             | 12                             
+-RECORD 41---------------------------------------
+ i_category     | null                           
+ i_class        | null                           
+ i_brand        | namelesscorp #1                
+ i_product_name | null                           
+ d_year         | 2000                           
+ d_qoy          | 4                              
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 67371.60                       
+ rk             | 98                             
+-RECORD 42---------------------------------------
+ i_category     | null                           
+ i_class        | archery                        
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 110088.99                      
+ rk             | 44                             
+-RECORD 43---------------------------------------
+ i_category     | null                           
+ i_class        | archery amalgmaxi #6           
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 110088.99                      
+ sumsales       | 44                             
+ rk             | null                           
+-RECORD 44---------------------------------------
+ i_category     | null                           
+ i_class        | archery amalgmaxi #6           
+ i_brand        | antioughtn stought             
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 110088.99                      
+ sumsales       | 44                             
+ rk             | null                           
+-RECORD 45---------------------------------------
+ i_category     | null                           
+ i_class        | archery amalgmaxi #6           
+ i_brand        | antioughtn stought             
+ i_product_name | 2000                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 110088.99                      
+ sumsales       | 44                             
+ rk             | null                           
+-RECORD 46---------------------------------------
+ i_category     | null                           
+ i_class        | baseball                       
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 93607.10                       
+ rk             | 73                             
+-RECORD 47---------------------------------------
+ i_category     | null                           
+ i_class        | baseball                       
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 93607.10                       
+ rk             | 73                             
+-RECORD 48---------------------------------------
+ i_category     | null                           
+ i_class        | baseball                       
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 93607.10                       
+ rk             | 73                             
+-RECORD 49---------------------------------------
+ i_category     | null                           
+ i_class        | baseball                       
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 93607.10                       
+ rk             | 73                             
+-RECORD 50---------------------------------------
+ i_category     | null                           
+ i_class        | dresses                        
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 138018.80                      
+ rk             | 17                             
+-RECORD 51---------------------------------------
+ i_category     | null                           
+ i_class        | dresses                        
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 138018.80                      
+ rk             | 17                             
+-RECORD 52---------------------------------------
+ i_category     | null                           
+ i_class        | dresses                        
+ i_brand        | null                           
+ i_product_name | antieseoughtcally              
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 138018.80                      
+ rk             | 17                             
+-RECORD 53---------------------------------------
+ i_category     | null                           
+ i_class        | dresses                        
+ i_brand        | null                           
+ i_product_name | antieseoughtcally              
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 138018.80                      
+ rk             | 17                             
+-RECORD 54---------------------------------------
+ i_category     | null                           
+ i_class        | dresses                        
+ i_brand        | null                           
+ i_product_name | antieseoughtcally              
+ d_year         | 2000                           
+ d_qoy          | 4                              
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 69138.80                       
+ rk             | 96                             
+-RECORD 55---------------------------------------
+ i_category     | null                           
+ i_class        | flatware                       
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 74808.21                       
+ rk             | 86                             
+-RECORD 56---------------------------------------
+ i_category     | null                           
+ i_class        | flatware                       
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 74808.21                       
+ rk             | 86                             
+-RECORD 57---------------------------------------
+ i_category     | null                           
+ i_class        | flatware                       
+ i_brand        | null                           
+ i_product_name | oughteingationn st             
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 74808.21                       
+ rk             | 86                             
+-RECORD 58---------------------------------------
+ i_category     | null                           
+ i_class        | flatware                       
+ i_brand        | null                           
+ i_product_name | oughteingationn st             
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 74808.21                       
+ rk             | 86                             
+-RECORD 59---------------------------------------
+ i_category     | null                           
+ i_class        | glassware                      
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 98111.30                       
+ rk             | 69                             
+-RECORD 60---------------------------------------
+ i_category     | null                           
+ i_class        | glassware                      
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 98111.30                       
+ rk             | 69                             
+-RECORD 61---------------------------------------
+ i_category     | null                           
+ i_class        | glassware                      
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 98111.30                       
+ rk             | 69                             
+-RECORD 62---------------------------------------
+ i_category     | null                           
+ i_class        | glassware                      
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 98111.30                       
+ rk             | 69                             
+-RECORD 63---------------------------------------
+ i_category     | null                           
+ i_class        | outdoor                        
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 115448.60                      
+ rk             | 40                             
+-RECORD 64---------------------------------------
+ i_category     | null                           
+ i_class        | outdoor namelessnameless #3    
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 115448.60                      
+ sumsales       | 40                             
+ rk             | null                           
+-RECORD 65---------------------------------------
+ i_category     | null                           
+ i_class        | outdoor namelessnameless #3    
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 115448.60                      
+ sumsales       | 40                             
+ rk             | null                           
+-RECORD 66---------------------------------------
+ i_category     | null                           
+ i_class        | outdoor namelessnameless #3    
+ i_brand        | null                           
+ i_product_name | 2000                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 115448.60                      
+ sumsales       | 40                             
+ rk             | null                           
+-RECORD 67---------------------------------------
+ i_category     | null                           
+ i_class        | pants                          
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 135855.95                      
+ rk             | 21                             
+-RECORD 68---------------------------------------
+ i_category     | null                           
+ i_class        | pants exportiimporto #2        
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 135855.95                      
+ sumsales       | 21                             
+ rk             | null                           
+-RECORD 69---------------------------------------
+ i_category     | null                           
+ i_class        | pants exportiimporto #2        
+ i_brand        | antibarableableought           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 135855.95                      
+ sumsales       | 21                             
+ rk             | null                           
+-RECORD 70---------------------------------------
+ i_category     | null                           
+ i_class        | pants exportiimporto #2        
+ i_brand        | antibarableableought           
+ i_product_name | 2000                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 135855.95                      
+ sumsales       | 21                             
+ rk             | null                           
+-RECORD 71---------------------------------------
+ i_category     | null                           
+ i_class        | pants exportiimporto #2        
+ i_brand        | antibarableableought           
+ i_product_name | 2000                           
+ d_year         | 4                              
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 66808.00                       
+ sumsales       | 99                             
+ rk             | null                           
+-RECORD 72---------------------------------------
+ i_category     | null                           
+ i_class        | scanners                       
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 118366.60                      
+ rk             | 34                             
+-RECORD 73---------------------------------------
+ i_category     | null                           
+ i_class        | scanners namelessunivamalg #10 
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 118366.60                      
+ sumsales       | 34                             
+ rk             | null                           
+-RECORD 74---------------------------------------
+ i_category     | null                           
+ i_class        | scanners namelessunivamalg #10 
+ i_brand        | n stbaresepri                  
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 118366.60                      
+ sumsales       | 34                             
+ rk             | null                           
+-RECORD 75---------------------------------------
+ i_category     | null                           
+ i_class        | scanners namelessunivamalg #10 
+ i_brand        | n stbaresepri                  
+ i_product_name | 2000                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 118366.60                      
+ sumsales       | 34                             
+ rk             | null                           
+-RECORD 76---------------------------------------
+ i_category     | null                           
+ i_class        | scanners namelessunivamalg #10 
+ i_brand        | n stbaresepri                  
+ i_product_name | 2000                           
+ d_year         | 4                              
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 70357.97                       
+ sumsales       | 95                             
+ rk             | null                           
+-RECORD 77---------------------------------------
+ i_category     | null                           
+ i_class        | semi-precious                  
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 105040.42                      
+ rk             | 51                             
+-RECORD 78---------------------------------------
+ i_category     | null                           
+ i_class        | semi-precious amalgbrand #4    
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 105040.42                      
+ sumsales       | 51                             
+ rk             | null                           
+-RECORD 79---------------------------------------
+ i_category     | null                           
+ i_class        | semi-precious amalgbrand #4    
+ i_brand        | ationeseoughtanti              
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 105040.42                      
+ sumsales       | 51                             
+ rk             | null                           
+-RECORD 80---------------------------------------
+ i_category     | null                           
+ i_class        | semi-precious amalgbrand #4    
+ i_brand        | ationeseoughtanti              
+ i_product_name | 2000                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 105040.42                      
+ sumsales       | 51                             
+ rk             | null                           
+-RECORD 81---------------------------------------
+ i_category     | null                           
+ i_class        | sports-apparel                 
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 104579.05                      
+ rk             | 55                             
+-RECORD 82---------------------------------------
+ i_category     | null                           
+ i_class        | sports-apparel                 
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 104579.05                      
+ rk             | 55                             
+-RECORD 83---------------------------------------
+ i_category     | null                           
+ i_class        | sports-apparel                 
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 104579.05                      
+ rk             | 55                             
+-RECORD 84---------------------------------------
+ i_category     | null                           
+ i_class        | sports-apparel                 
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 104579.05                      
+ rk             | 55                             
+-RECORD 85---------------------------------------
+ i_category     | null                           
+ i_class        | swimwear                       
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 132397.04                      
+ rk             | 27                             
+-RECORD 86---------------------------------------
+ i_category     | null                           
+ i_class        | swimwear edu packamalg #2      
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 132397.04                      
+ sumsales       | 27                             
+ rk             | null                           
+-RECORD 87---------------------------------------
+ i_category     | null                           
+ i_class        | swimwear edu packamalg #2      
+ i_brand        | antieingoughtcally             
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 132397.04                      
+ sumsales       | 27                             
+ rk             | null                           
+-RECORD 88---------------------------------------
+ i_category     | null                           
+ i_class        | swimwear edu packamalg #2      
+ i_brand        | antieingoughtcally             
+ i_product_name | 2000                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 132397.04                      
+ sumsales       | 27                             
+ rk             | null                           
+-RECORD 89---------------------------------------
+ i_category     | null                           
+ i_class        | tennis                         
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 73252.58                       
+ rk             | 91                             
+-RECORD 90---------------------------------------
+ i_category     | null                           
+ i_class        | tennis                         
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 73252.58                       
+ rk             | 91                             
+-RECORD 91---------------------------------------
+ i_category     | null                           
+ i_class        | tennis                         
+ i_brand        | null                           
+ i_product_name | barpribaranti                  
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 73252.58                       
+ rk             | 91                             
+-RECORD 92---------------------------------------
+ i_category     | null                           
+ i_class        | tennis                         
+ i_brand        | null                           
+ i_product_name | barpribaranti                  
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 73252.58                       
+ rk             | 91                             
+-RECORD 93---------------------------------------
+ i_category     | null                           
+ i_class        | womens                         
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 78649.41                       
+ rk             | 83                             
+-RECORD 94---------------------------------------
+ i_category     | null                           
+ i_class        | womens                         
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 78649.41                       
+ rk             | 83                             
+-RECORD 95---------------------------------------
+ i_category     | null                           
+ i_class        | womens                         
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 180234.29                      
+ rk             | 5                              
+-RECORD 96---------------------------------------
+ i_category     | null                           
+ i_class        | womens                         
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | 2000                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | null                           
+ sumsales       | 78649.41                       
+ rk             | 83                             
+-RECORD 97---------------------------------------
+ i_category     | null                           
+ i_class        | womens amalgedu pack #2        
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 101584.88                      
+ sumsales       | 64                             
+ rk             | null                           
+-RECORD 98---------------------------------------
+ i_category     | null                           
+ i_class        | womens amalgedu pack #2        
+ i_brand        | null                           
+ i_product_name | null                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 101584.88                      
+ sumsales       | 64                             
+ rk             | null                           
+-RECORD 99---------------------------------------
+ i_category     | null                           
+ i_class        | womens amalgedu pack #2        
+ i_brand        | null                           
+ i_product_name | 2000                           
+ d_year         | null                           
+ d_qoy          | null                           
+ d_moy          | null                           
+ s_store_id     | 101584.88                      
+ sumsales       | 64                             
+ rk             | null
+           

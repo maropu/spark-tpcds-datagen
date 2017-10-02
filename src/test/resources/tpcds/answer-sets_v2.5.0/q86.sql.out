@@ -1,0 +1,595 @@
+-RECORD 0-----------------------------
+ total_sum          | 33602545.41     
+ i_category         | Shoes           
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 1               
+-RECORD 1-----------------------------
+ total_sum          | 33399717.80     
+ i_category         | Music           
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 2               
+-RECORD 2-----------------------------
+ total_sum          | 33061835.62     
+ i_category         | Women           
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 3               
+-RECORD 3-----------------------------
+ total_sum          | 32942681.04     
+ i_category         | Books           
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 4               
+-RECORD 4-----------------------------
+ total_sum          | 32233369.67     
+ i_category         | Men             
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 5               
+-RECORD 5-----------------------------
+ total_sum          | 32135907.22     
+ i_category         | Electronics     
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 6               
+-RECORD 6-----------------------------
+ total_sum          | 32027085.12     
+ i_category         | Jewelry         
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 7               
+-RECORD 7-----------------------------
+ total_sum          | 31908139.65     
+ i_category         | Sports          
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 8               
+-RECORD 8-----------------------------
+ total_sum          | 31877378.15     
+ i_category         | Children        
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 9               
+-RECORD 9-----------------------------
+ total_sum          | 31428816.29     
+ i_category         | Home            
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 10              
+-RECORD 10----------------------------
+ total_sum          | 935154.67       
+ i_category         | null            
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 11              
+-RECORD 11----------------------------
+ total_sum          | 476839.60       
+ i_category         | null            
+ i_class            | null            
+ lochierarchy       | 0               
+ rank_within_parent | 1               
+-RECORD 12----------------------------
+ total_sum          | 88724.30        
+ i_category         | null            
+ i_class            | womens          
+ lochierarchy       | 0               
+ rank_within_parent | 2               
+-RECORD 13----------------------------
+ total_sum          | 43184.49        
+ i_category         | null            
+ i_class            | glassware       
+ lochierarchy       | 0               
+ rank_within_parent | 3               
+-RECORD 14----------------------------
+ total_sum          | 40345.26        
+ i_category         | null            
+ i_class            | flatware        
+ lochierarchy       | 0               
+ rank_within_parent | 4               
+-RECORD 15----------------------------
+ total_sum          | 36841.11        
+ i_category         | null            
+ i_class            | baseball        
+ lochierarchy       | 0               
+ rank_within_parent | 5               
+-RECORD 16----------------------------
+ total_sum          | 34642.53        
+ i_category         | null            
+ i_class            | swimwear        
+ lochierarchy       | 0               
+ rank_within_parent | 6               
+-RECORD 17----------------------------
+ total_sum          | 33866.09        
+ i_category         | null            
+ i_class            | scanners        
+ lochierarchy       | 0               
+ rank_within_parent | 7               
+-RECORD 18----------------------------
+ total_sum          | 32159.86        
+ i_category         | null            
+ i_class            | archery         
+ lochierarchy       | 0               
+ rank_within_parent | 8               
+-RECORD 19----------------------------
+ total_sum          | 30361.13        
+ i_category         | null            
+ i_class            | outdoor         
+ lochierarchy       | 0               
+ rank_within_parent | 9               
+-RECORD 20----------------------------
+ total_sum          | 29969.36        
+ i_category         | null            
+ i_class            | dresses         
+ lochierarchy       | 0               
+ rank_within_parent | 10              
+-RECORD 21----------------------------
+ total_sum          | 25780.80        
+ i_category         | null            
+ i_class            | pants           
+ lochierarchy       | 0               
+ rank_within_parent | 11              
+-RECORD 22----------------------------
+ total_sum          | 25714.74        
+ i_category         | null            
+ i_class            | sports-apparel  
+ lochierarchy       | 0               
+ rank_within_parent | 12              
+-RECORD 23----------------------------
+ total_sum          | 21122.88        
+ i_category         | null            
+ i_class            | tennis          
+ lochierarchy       | 0               
+ rank_within_parent | 13              
+-RECORD 24----------------------------
+ total_sum          | 15602.52        
+ i_category         | null            
+ i_class            | semi-precious   
+ lochierarchy       | 0               
+ rank_within_parent | 14              
+-RECORD 25----------------------------
+ total_sum          | 2981755.34      
+ i_category         | Books           
+ i_class            | history         
+ lochierarchy       | 0               
+ rank_within_parent | 1               
+-RECORD 26----------------------------
+ total_sum          | 2533681.90      
+ i_category         | Books           
+ i_class            | romance         
+ lochierarchy       | 0               
+ rank_within_parent | 2               
+-RECORD 27----------------------------
+ total_sum          | 2513406.90      
+ i_category         | Books           
+ i_class            | computers       
+ lochierarchy       | 0               
+ rank_within_parent | 3               
+-RECORD 28----------------------------
+ total_sum          | 2359621.74      
+ i_category         | Books           
+ i_class            | fiction         
+ lochierarchy       | 0               
+ rank_within_parent | 4               
+-RECORD 29----------------------------
+ total_sum          | 2220829.36      
+ i_category         | Books           
+ i_class            | home repair     
+ lochierarchy       | 0               
+ rank_within_parent | 5               
+-RECORD 30----------------------------
+ total_sum          | 2132619.93      
+ i_category         | Books           
+ i_class            | reference       
+ lochierarchy       | 0               
+ rank_within_parent | 6               
+-RECORD 31----------------------------
+ total_sum          | 2023862.05      
+ i_category         | Books           
+ i_class            | travel          
+ lochierarchy       | 0               
+ rank_within_parent | 7               
+-RECORD 32----------------------------
+ total_sum          | 1938302.12      
+ i_category         | Books           
+ i_class            | parenting       
+ lochierarchy       | 0               
+ rank_within_parent | 8               
+-RECORD 33----------------------------
+ total_sum          | 1916049.65      
+ i_category         | Books           
+ i_class            | science         
+ lochierarchy       | 0               
+ rank_within_parent | 9               
+-RECORD 34----------------------------
+ total_sum          | 1904474.64      
+ i_category         | Books           
+ i_class            | business        
+ lochierarchy       | 0               
+ rank_within_parent | 10              
+-RECORD 35----------------------------
+ total_sum          | 1903280.30      
+ i_category         | Books           
+ i_class            | sports          
+ lochierarchy       | 0               
+ rank_within_parent | 11              
+-RECORD 36----------------------------
+ total_sum          | 1819360.79      
+ i_category         | Books           
+ i_class            | self-help       
+ lochierarchy       | 0               
+ rank_within_parent | 12              
+-RECORD 37----------------------------
+ total_sum          | 1817324.19      
+ i_category         | Books           
+ i_class            | mystery         
+ lochierarchy       | 0               
+ rank_within_parent | 13              
+-RECORD 38----------------------------
+ total_sum          | 1698653.10      
+ i_category         | Books           
+ i_class            | entertainments  
+ lochierarchy       | 0               
+ rank_within_parent | 14              
+-RECORD 39----------------------------
+ total_sum          | 1641874.01      
+ i_category         | Books           
+ i_class            | cooking         
+ lochierarchy       | 0               
+ rank_within_parent | 15              
+-RECORD 40----------------------------
+ total_sum          | 1453516.79      
+ i_category         | Books           
+ i_class            | arts            
+ lochierarchy       | 0               
+ rank_within_parent | 16              
+-RECORD 41----------------------------
+ total_sum          | 84068.23        
+ i_category         | Books           
+ i_class            | null            
+ lochierarchy       | 0               
+ rank_within_parent | 17              
+-RECORD 42----------------------------
+ total_sum          | 8603692.12      
+ i_category         | Children        
+ i_class            | infants         
+ lochierarchy       | 0               
+ rank_within_parent | 1               
+-RECORD 43----------------------------
+ total_sum          | 7982811.62      
+ i_category         | Children        
+ i_class            | toddlers        
+ lochierarchy       | 0               
+ rank_within_parent | 2               
+-RECORD 44----------------------------
+ total_sum          | 7716135.48      
+ i_category         | Children        
+ i_class            | school-uniforms 
+ lochierarchy       | 0               
+ rank_within_parent | 3               
+-RECORD 45----------------------------
+ total_sum          | 7529560.01      
+ i_category         | Children        
+ i_class            | newborn         
+ lochierarchy       | 0               
+ rank_within_parent | 4               
+-RECORD 46----------------------------
+ total_sum          | 45178.92        
+ i_category         | Children        
+ i_class            | null            
+ lochierarchy       | 0               
+ rank_within_parent | 5               
+-RECORD 47----------------------------
+ total_sum          | 2625503.90      
+ i_category         | Electronics     
+ i_class            | dvd/vcr players 
+ lochierarchy       | 0               
+ rank_within_parent | 1               
+-RECORD 48----------------------------
+ total_sum          | 2351244.66      
+ i_category         | Electronics     
+ i_class            | televisions     
+ lochierarchy       | 0               
+ rank_within_parent | 2               
+-RECORD 49----------------------------
+ total_sum          | 2283231.32      
+ i_category         | Electronics     
+ i_class            | memory          
+ lochierarchy       | 0               
+ rank_within_parent | 3               
+-RECORD 50----------------------------
+ total_sum          | 2262599.89      
+ i_category         | Electronics     
+ i_class            | stereo          
+ lochierarchy       | 0               
+ rank_within_parent | 4               
+-RECORD 51----------------------------
+ total_sum          | 2257811.83      
+ i_category         | Electronics     
+ i_class            | karoke          
+ lochierarchy       | 0               
+ rank_within_parent | 5               
+-RECORD 52----------------------------
+ total_sum          | 2235218.27      
+ i_category         | Electronics     
+ i_class            | monitors        
+ lochierarchy       | 0               
+ rank_within_parent | 6               
+-RECORD 53----------------------------
+ total_sum          | 2228844.29      
+ i_category         | Electronics     
+ i_class            | scanners        
+ lochierarchy       | 0               
+ rank_within_parent | 7               
+-RECORD 54----------------------------
+ total_sum          | 1948029.88      
+ i_category         | Electronics     
+ i_class            | wireless        
+ lochierarchy       | 0               
+ rank_within_parent | 8               
+-RECORD 55----------------------------
+ total_sum          | 1894729.95      
+ i_category         | Electronics     
+ i_class            | disk drives     
+ lochierarchy       | 0               
+ rank_within_parent | 9               
+-RECORD 56----------------------------
+ total_sum          | 1838653.07      
+ i_category         | Electronics     
+ i_class            | automotive      
+ lochierarchy       | 0               
+ rank_within_parent | 10              
+-RECORD 57----------------------------
+ total_sum          | 1793728.96      
+ i_category         | Electronics     
+ i_class            | portable        
+ lochierarchy       | 0               
+ rank_within_parent | 11              
+-RECORD 58----------------------------
+ total_sum          | 1768939.49      
+ i_category         | Electronics     
+ i_class            | cameras         
+ lochierarchy       | 0               
+ rank_within_parent | 12              
+-RECORD 59----------------------------
+ total_sum          | 1733994.95      
+ i_category         | Electronics     
+ i_class            | musical         
+ lochierarchy       | 0               
+ rank_within_parent | 13              
+-RECORD 60----------------------------
+ total_sum          | 1730490.24      
+ i_category         | Electronics     
+ i_class            | personal        
+ lochierarchy       | 0               
+ rank_within_parent | 14              
+-RECORD 61----------------------------
+ total_sum          | 1670511.23      
+ i_category         | Electronics     
+ i_class            | camcorders      
+ lochierarchy       | 0               
+ rank_within_parent | 15              
+-RECORD 62----------------------------
+ total_sum          | 1512375.29      
+ i_category         | Electronics     
+ i_class            | audio           
+ lochierarchy       | 0               
+ rank_within_parent | 16              
+-RECORD 63----------------------------
+ total_sum          | 2408305.34      
+ i_category         | Home            
+ i_class            | paint           
+ lochierarchy       | 0               
+ rank_within_parent | 1               
+-RECORD 64----------------------------
+ total_sum          | 2349779.93      
+ i_category         | Home            
+ i_class            | curtains/drapes 
+ lochierarchy       | 0               
+ rank_within_parent | 2               
+-RECORD 65----------------------------
+ total_sum          | 2306676.63      
+ i_category         | Home            
+ i_class            | bedding         
+ lochierarchy       | 0               
+ rank_within_parent | 3               
+-RECORD 66----------------------------
+ total_sum          | 2284168.74      
+ i_category         | Home            
+ i_class            | flatware        
+ lochierarchy       | 0               
+ rank_within_parent | 4               
+-RECORD 67----------------------------
+ total_sum          | 2269734.86      
+ i_category         | Home            
+ i_class            | glassware       
+ lochierarchy       | 0               
+ rank_within_parent | 5               
+-RECORD 68----------------------------
+ total_sum          | 2112112.73      
+ i_category         | Home            
+ i_class            | lighting        
+ lochierarchy       | 0               
+ rank_within_parent | 6               
+-RECORD 69----------------------------
+ total_sum          | 2085612.39      
+ i_category         | Home            
+ i_class            | bathroom        
+ lochierarchy       | 0               
+ rank_within_parent | 7               
+-RECORD 70----------------------------
+ total_sum          | 1924834.23      
+ i_category         | Home            
+ i_class            | mattresses      
+ lochierarchy       | 0               
+ rank_within_parent | 8               
+-RECORD 71----------------------------
+ total_sum          | 1868688.89      
+ i_category         | Home            
+ i_class            | tables          
+ lochierarchy       | 0               
+ rank_within_parent | 9               
+-RECORD 72----------------------------
+ total_sum          | 1820604.22      
+ i_category         | Home            
+ i_class            | furniture       
+ lochierarchy       | 0               
+ rank_within_parent | 10              
+-RECORD 73----------------------------
+ total_sum          | 1816997.04      
+ i_category         | Home            
+ i_class            | decor           
+ lochierarchy       | 0               
+ rank_within_parent | 11              
+-RECORD 74----------------------------
+ total_sum          | 1805905.27      
+ i_category         | Home            
+ i_class            | kids            
+ lochierarchy       | 0               
+ rank_within_parent | 12              
+-RECORD 75----------------------------
+ total_sum          | 1788142.30      
+ i_category         | Home            
+ i_class            | blinds/shades   
+ lochierarchy       | 0               
+ rank_within_parent | 13              
+-RECORD 76----------------------------
+ total_sum          | 1570699.11      
+ i_category         | Home            
+ i_class            | accent          
+ lochierarchy       | 0               
+ rank_within_parent | 14              
+-RECORD 77----------------------------
+ total_sum          | 1503088.13      
+ i_category         | Home            
+ i_class            | rugs            
+ lochierarchy       | 0               
+ rank_within_parent | 15              
+-RECORD 78----------------------------
+ total_sum          | 1457642.85      
+ i_category         | Home            
+ i_class            | wallpaper       
+ lochierarchy       | 0               
+ rank_within_parent | 16              
+-RECORD 79----------------------------
+ total_sum          | 55823.63        
+ i_category         | Home            
+ i_class            | null            
+ lochierarchy       | 0               
+ rank_within_parent | 17              
+-RECORD 80----------------------------
+ total_sum          | 2754963.88      
+ i_category         | Jewelry         
+ i_class            | jewelry boxes   
+ lochierarchy       | 0               
+ rank_within_parent | 1               
+-RECORD 81----------------------------
+ total_sum          | 2346470.04      
+ i_category         | Jewelry         
+ i_class            | pendants        
+ lochierarchy       | 0               
+ rank_within_parent | 2               
+-RECORD 82----------------------------
+ total_sum          | 2308524.13      
+ i_category         | Jewelry         
+ i_class            | rings           
+ lochierarchy       | 0               
+ rank_within_parent | 3               
+-RECORD 83----------------------------
+ total_sum          | 2216602.19      
+ i_category         | Jewelry         
+ i_class            | custom          
+ lochierarchy       | 0               
+ rank_within_parent | 4               
+-RECORD 84----------------------------
+ total_sum          | 2141484.71      
+ i_category         | Jewelry         
+ i_class            | gold            
+ lochierarchy       | 0               
+ rank_within_parent | 5               
+-RECORD 85----------------------------
+ total_sum          | 2105589.88      
+ i_category         | Jewelry         
+ i_class            | estate          
+ lochierarchy       | 0               
+ rank_within_parent | 6               
+-RECORD 86----------------------------
+ total_sum          | 2105536.74      
+ i_category         | Jewelry         
+ i_class            | womens watch    
+ lochierarchy       | 0               
+ rank_within_parent | 7               
+-RECORD 87----------------------------
+ total_sum          | 2057556.93      
+ i_category         | Jewelry         
+ i_class            | mens watch      
+ lochierarchy       | 0               
+ rank_within_parent | 8               
+-RECORD 88----------------------------
+ total_sum          | 1964085.08      
+ i_category         | Jewelry         
+ i_class            | costume         
+ lochierarchy       | 0               
+ rank_within_parent | 9               
+-RECORD 89----------------------------
+ total_sum          | 1838748.38      
+ i_category         | Jewelry         
+ i_class            | birdal          
+ lochierarchy       | 0               
+ rank_within_parent | 10              
+-RECORD 90----------------------------
+ total_sum          | 1820456.21      
+ i_category         | Jewelry         
+ i_class            | earings         
+ lochierarchy       | 0               
+ rank_within_parent | 11              
+-RECORD 91----------------------------
+ total_sum          | 1811297.48      
+ i_category         | Jewelry         
+ i_class            | loose stones    
+ lochierarchy       | 0               
+ rank_within_parent | 12              
+-RECORD 92----------------------------
+ total_sum          | 1738088.37      
+ i_category         | Jewelry         
+ i_class            | diamonds        
+ lochierarchy       | 0               
+ rank_within_parent | 13              
+-RECORD 93----------------------------
+ total_sum          | 1636759.38      
+ i_category         | Jewelry         
+ i_class            | semi-precious   
+ lochierarchy       | 0               
+ rank_within_parent | 14              
+-RECORD 94----------------------------
+ total_sum          | 1625306.26      
+ i_category         | Jewelry         
+ i_class            | bracelets       
+ lochierarchy       | 0               
+ rank_within_parent | 15              
+-RECORD 95----------------------------
+ total_sum          | 1457032.40      
+ i_category         | Jewelry         
+ i_class            | consignment     
+ lochierarchy       | 0               
+ rank_within_parent | 16              
+-RECORD 96----------------------------
+ total_sum          | 98583.06        
+ i_category         | Jewelry         
+ i_class            | null            
+ lochierarchy       | 0               
+ rank_within_parent | 17              
+-RECORD 97----------------------------
+ total_sum          | 8968117.21      
+ i_category         | Men             
+ i_class            | shirts          
+ lochierarchy       | 0               
+ rank_within_parent | 1               
+-RECORD 98----------------------------
+ total_sum          | 8079270.31      
+ i_category         | Men             
+ i_class            | sports-apparel  
+ lochierarchy       | 0               
+ rank_within_parent | 2
+           

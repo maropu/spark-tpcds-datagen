@@ -1,0 +1,401 @@
+-RECORD 0------------------------------------
+ brand_id  | 2001001 amalgimporto #1         
+ brand     | 128393.59                       
+ ext_price | null                            
+-RECORD 1------------------------------------
+ brand_id  | 5001001 amalgscholar #1         
+ brand     | 114563.05                       
+ ext_price | null                            
+-RECORD 2------------------------------------
+ brand_id  | 1001001 amalgamalg #1           
+ brand     | 106541.65                       
+ ext_price | null                            
+-RECORD 3------------------------------------
+ brand_id  | 5003001 exportischolar #1       
+ brand     | 104481.32                       
+ ext_price | null                            
+-RECORD 4------------------------------------
+ brand_id  | 1002001 importoamalg #1         
+ brand     | 98315.7                         
+ ext_price | null                            
+-RECORD 5------------------------------------
+ brand_id  | 5002001 importoscholar #1       
+ brand     | 81980.18                        
+ ext_price | null                            
+-RECORD 6------------------------------------
+ brand_id  | 4001001 amalgedu pack #1        
+ brand     | 75471.82                        
+ ext_price | null                            
+-RECORD 7------------------------------------
+ brand_id  | 5004001 edu packscholar #1      
+ brand     | 73945.27                        
+ ext_price | null                            
+-RECORD 8------------------------------------
+ brand_id  | 1004002 edu packamalg #2        
+ brand     | 66973.45                        
+ ext_price | null                            
+-RECORD 9------------------------------------
+ brand_id  | 3003001 exportiexporti #1       
+ brand     | 65256.4                         
+ ext_price | null                            
+-RECORD 10-----------------------------------
+ brand_id  | 4003001 exportiedu pack #1      
+ brand     | 58980.05                        
+ ext_price | null                            
+-RECORD 11-----------------------------------
+ brand_id  | 4002001 importoedu pack #1      
+ brand     | 52314.09                        
+ ext_price | null                            
+-RECORD 12-----------------------------------
+ brand_id  | 5001002 amalgscholar #2         
+ brand     | 50720.91                        
+ ext_price | null                            
+-RECORD 13-----------------------------------
+ brand_id  | 1001002 amalgamalg #2           
+ brand     | 48363.52                        
+ ext_price | null                            
+-RECORD 14-----------------------------------
+ brand_id  | 1004001 edu packamalg #1        
+ brand     | 46127.07                        
+ ext_price | null                            
+-RECORD 15-----------------------------------
+ brand_id  | 9013009 exportiunivamalg #9     
+ brand     | 44895.45                        
+ ext_price | null                            
+-RECORD 16-----------------------------------
+ brand_id  | 2004001 edu packimporto #1      
+ brand     | 44063.02                        
+ ext_price | null                            
+-RECORD 17-----------------------------------
+ brand_id  | 2002001 importoimporto #1       
+ brand     | 43360.76                        
+ ext_price | null                            
+-RECORD 18-----------------------------------
+ brand_id  | 4001002 amalgedu pack #2        
+ brand     | 41578.64                        
+ ext_price | null                            
+-RECORD 19-----------------------------------
+ brand_id  | 5002002 importoscholar #2       
+ brand     | 40981.69                        
+ ext_price | null                            
+-RECORD 20-----------------------------------
+ brand_id  | 2004002 edu packimporto #2      
+ brand     | 37031.29                        
+ ext_price | null                            
+-RECORD 21-----------------------------------
+ brand_id  | 10015011 scholaramalgamalg #11  
+ brand     | 36984.49                        
+ ext_price | null                            
+-RECORD 22-----------------------------------
+ brand_id  | 5003002 exportischolar #2       
+ brand     | 36835.57                        
+ ext_price | null                            
+-RECORD 23-----------------------------------
+ brand_id  | 1003001 exportiamalg #1         
+ brand     | 36391.68                        
+ ext_price | null                            
+-RECORD 24-----------------------------------
+ brand_id  | 7009005 maxibrand #5            
+ brand     | 35893.23                        
+ ext_price | null                            
+-RECORD 25-----------------------------------
+ brand_id  | 3001001 amalgexporti #1         
+ brand     | 34860.2                         
+ ext_price | null                            
+-RECORD 26-----------------------------------
+ brand_id  | 6002002 importocorp #2          
+ brand     | 34241.2                         
+ ext_price | null                            
+-RECORD 27-----------------------------------
+ brand_id  | 10014016 edu packamalgamalg #16 
+ brand     | 33635.08                        
+ ext_price | null                            
+-RECORD 28-----------------------------------
+ brand_id  | 6005001 scholarcorp #1          
+ brand     | 33315.76                        
+ ext_price | null                            
+-RECORD 29-----------------------------------
+ brand_id  | 8001003 amalgnameless #3        
+ brand     | 32795.69                        
+ ext_price | null                            
+-RECORD 30-----------------------------------
+ brand_id  | 3001002 amalgexporti #2         
+ brand     | 32035.45                        
+ ext_price | null                            
+-RECORD 31-----------------------------------
+ brand_id  | 7003005 exportibrand #5         
+ brand     | 30027.76                        
+ ext_price | null                            
+-RECORD 32-----------------------------------
+ brand_id  | 8005010 scholarnameless #10     
+ brand     | 28072.9                         
+ ext_price | null                            
+-RECORD 33-----------------------------------
+ brand_id  | 3004001 edu packexporti #1      
+ brand     | 27273.13                        
+ ext_price | null                            
+-RECORD 34-----------------------------------
+ brand_id  | 4004002 edu packedu pack #2     
+ brand     | 27176.7                         
+ ext_price | null                            
+-RECORD 35-----------------------------------
+ brand_id  | 9011009 amalgunivamalg #9       
+ brand     | 26702.81                        
+ ext_price | null                            
+-RECORD 36-----------------------------------
+ brand_id  | 6011001 amalgbrand #1           
+ brand     | 26270.95                        
+ ext_price | null                            
+-RECORD 37-----------------------------------
+ brand_id  | 9009002 maximaxi #2             
+ brand     | 25941.37                        
+ ext_price | null                            
+-RECORD 38-----------------------------------
+ brand_id  | 8011009 amalgmaxi #9            
+ brand     | 24766.62                        
+ ext_price | null                            
+-RECORD 39-----------------------------------
+ brand_id  | 6014007 edu packbrand #7        
+ brand     | 24592.55                        
+ ext_price | null                            
+-RECORD 40-----------------------------------
+ brand_id  | 10016003 corpamalgamalg #3      
+ brand     | 24575.24                        
+ ext_price | null                            
+-RECORD 41-----------------------------------
+ brand_id  | 3002001 importoexporti #1       
+ brand     | 24004.65                        
+ ext_price | null                            
+-RECORD 42-----------------------------------
+ brand_id  | 3003002 exportiexporti #2       
+ brand     | 23607.27                        
+ ext_price | null                            
+-RECORD 43-----------------------------------
+ brand_id  | 10005001 scholarunivamalg #1    
+ brand     | 22468.38                        
+ ext_price | null                            
+-RECORD 44-----------------------------------
+ brand_id  | 6014001 edu packbrand #1        
+ brand     | 22383.4                         
+ ext_price | null                            
+-RECORD 45-----------------------------------
+ brand_id  | 6006002 corpcorp #2             
+ brand     | 22325.52                        
+ ext_price | null                            
+-RECORD 46-----------------------------------
+ brand_id  | 9003003 exportimaxi #3          
+ brand     | 21996.83                        
+ ext_price | null                            
+-RECORD 47-----------------------------------
+ brand_id  | 8009003 maxinameless #3         
+ brand     | 21849.29                        
+ ext_price | null                            
+-RECORD 48-----------------------------------
+ brand_id  | 8004009 edu packnameless #9     
+ brand     | 21775.18                        
+ ext_price | null                            
+-RECORD 49-----------------------------------
+ brand_id  | 8006008 corpnameless #8         
+ brand     | 20393.22                        
+ ext_price | null                            
+-RECORD 50-----------------------------------
+ brand_id  | 3002002 importoexporti #2       
+ brand     | 20292.13                        
+ ext_price | null                            
+-RECORD 51-----------------------------------
+ brand_id  | 10004001 edu packunivamalg #1   
+ brand     | 20237.13                        
+ ext_price | null                            
+-RECORD 52-----------------------------------
+ brand_id  | 8006005 corpnameless #5         
+ brand     | 19946.01                        
+ ext_price | null                            
+-RECORD 53-----------------------------------
+ brand_id  | 2003001 exportiimporto #1       
+ brand     | 19467.87                        
+ ext_price | null                            
+-RECORD 54-----------------------------------
+ brand_id  | 8010006 univmaxi #6             
+ brand     | 19389.31                        
+ ext_price | null                            
+-RECORD 55-----------------------------------
+ brand_id  | 2001002 amalgimporto #2         
+ brand     | 19388.05                        
+ ext_price | null                            
+-RECORD 56-----------------------------------
+ brand_id  | 6015001 scholarbrand #1         
+ brand     | 19136.97                        
+ ext_price | null                            
+-RECORD 57-----------------------------------
+ brand_id  | 10015001 scholaramalgamalg #1   
+ brand     | 18789.4                         
+ ext_price | null                            
+-RECORD 58-----------------------------------
+ brand_id  | 9016009 corpunivamalg #9        
+ brand     | 18671.29                        
+ ext_price | null                            
+-RECORD 59-----------------------------------
+ brand_id  | 8009007 maxinameless #7         
+ brand     | 18581.52                        
+ ext_price | null                            
+-RECORD 60-----------------------------------
+ brand_id  | 6002001 importocorp #1          
+ brand     | 18495.43                        
+ ext_price | null                            
+-RECORD 61-----------------------------------
+ brand_id  | 6013005 exportibrand #5         
+ brand     | 18356.01                        
+ ext_price | null                            
+-RECORD 62-----------------------------------
+ brand_id  | 7002004 importobrand #4         
+ brand     | 18040.61                        
+ ext_price | null                            
+-RECORD 63-----------------------------------
+ brand_id  | 6008001                         
+ brand     | namelesscorp #1                 
+ ext_price | 17727.46                        
+-RECORD 64-----------------------------------
+ brand_id  | 9008008                         
+ brand     | namelessmaxi #8                 
+ ext_price | 17517.04                        
+-RECORD 65-----------------------------------
+ brand_id  | 8002010                         
+ brand     | importonameless #10             
+ ext_price | 16810.57                        
+-RECORD 66-----------------------------------
+ brand_id  | 6013007                         
+ brand     | exportibrand #7                 
+ ext_price | 16727.14                        
+-RECORD 67-----------------------------------
+ brand_id  | 7015003                         
+ brand     | scholarnameless #3              
+ ext_price | 16482.66                        
+-RECORD 68-----------------------------------
+ brand_id  | 4002002                         
+ brand     | importoedu pack #2              
+ ext_price | 16426.77                        
+-RECORD 69-----------------------------------
+ brand_id  | 10006001                        
+ brand     | corpunivamalg #1                
+ ext_price | 15835.02                        
+-RECORD 70-----------------------------------
+ brand_id  | 7006010                         
+ brand     | corpbrand #10                   
+ ext_price | 15745.12                        
+-RECORD 71-----------------------------------
+ brand_id  | 8013007                         
+ brand     | exportimaxi #7                  
+ ext_price | 15718.95                        
+-RECORD 72-----------------------------------
+ brand_id  | 9005011                         
+ brand     | scholarmaxi #11                 
+ ext_price | 15426.87                        
+-RECORD 73-----------------------------------
+ brand_id  | 7011009                         
+ brand     | amalgnameless #9                
+ ext_price | 15381.64                        
+-RECORD 74-----------------------------------
+ brand_id  | 6009008                         
+ brand     | maxicorp #8                     
+ ext_price | 15232.66                        
+-RECORD 75-----------------------------------
+ brand_id  | 10012012                        
+ brand     | importoamalgamalg #12           
+ ext_price | 14995.5                         
+-RECORD 76-----------------------------------
+ brand_id  | 10006017                        
+ brand     | corpunivamalg #17               
+ ext_price | 14040.95                        
+-RECORD 77-----------------------------------
+ brand_id  | 9016003                         
+ brand     | corpunivamalg #3                
+ ext_price | 13412.2                         
+-RECORD 78-----------------------------------
+ brand_id  | 6015005                         
+ brand     | scholarbrand #5                 
+ ext_price | 13026.37                        
+-RECORD 79-----------------------------------
+ brand_id  | 8004003                         
+ brand     | edu packnameless #3             
+ ext_price | 12978.96                        
+-RECORD 80-----------------------------------
+ brand_id  | 1003002                         
+ brand     | exportiamalg #2                 
+ ext_price | 12479.78                        
+-RECORD 81-----------------------------------
+ brand_id  | 7015007                         
+ brand     | scholarnameless #7              
+ ext_price | 11804.43                        
+-RECORD 82-----------------------------------
+ brand_id  | 6014008                         
+ brand     | edu packbrand #8                
+ ext_price | 11413.01                        
+-RECORD 83-----------------------------------
+ brand_id  | 6015003                         
+ brand     | scholarbrand #3                 
+ ext_price | 11218.72                        
+-RECORD 84-----------------------------------
+ brand_id  | 6009003                         
+ brand     | maxicorp #3                     
+ ext_price | 11124.1                         
+-RECORD 85-----------------------------------
+ brand_id  | 2003002                         
+ brand     | exportiimporto #2               
+ ext_price | 10938.52                        
+-RECORD 86-----------------------------------
+ brand_id  | 6011006                         
+ brand     | amalgbrand #6                   
+ ext_price | 10284.31                        
+-RECORD 87-----------------------------------
+ brand_id  | 6008008                         
+ brand     | namelesscorp #8                 
+ ext_price | 10056.32                        
+-RECORD 88-----------------------------------
+ brand_id  | 6001005                         
+ brand     | amalgcorp #5                    
+ ext_price | 9749.25                         
+-RECORD 89-----------------------------------
+ brand_id  | 9004008                         
+ brand     | edu packmaxi #8                 
+ ext_price | 9443.32                         
+-RECORD 90-----------------------------------
+ brand_id  | 6003006                         
+ brand     | exporticorp #6                  
+ ext_price | 9165.48                         
+-RECORD 91-----------------------------------
+ brand_id  | 10011013                        
+ brand     | amalgamalgamalg #13             
+ ext_price | 8336.8                          
+-RECORD 92-----------------------------------
+ brand_id  | 10013009                        
+ brand     | exportiamalgamalg #9            
+ ext_price | 8324.62                         
+-RECORD 93-----------------------------------
+ brand_id  | 6006006                         
+ brand     | corpcorp #6                     
+ ext_price | 8284.8                          
+-RECORD 94-----------------------------------
+ brand_id  | 8013006                         
+ brand     | exportimaxi #6                  
+ ext_price | 7794.4                          
+-RECORD 95-----------------------------------
+ brand_id  | 8012005                         
+ brand     | importomaxi #5                  
+ ext_price | 7777.35                         
+-RECORD 96-----------------------------------
+ brand_id  | 9011003                         
+ brand     | amalgunivamalg #3               
+ ext_price | 7703.2                          
+-RECORD 97-----------------------------------
+ brand_id  | 6005003                         
+ brand     | scholarcorp #3                  
+ ext_price | 6941.66                         
+-RECORD 98-----------------------------------
+ brand_id  | 9011008                         
+ brand     | amalgunivamalg #8               
+ ext_price | 6554.12                         
+-RECORD 99-----------------------------------
+ brand_id  | 9005002                         
+ brand     | scholarmaxi #2                  
+ ext_price | 5871.46
+           

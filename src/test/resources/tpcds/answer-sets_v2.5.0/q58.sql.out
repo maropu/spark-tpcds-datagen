@@ -1,0 +1,28 @@
+-RECORD 0-----------------------
+ item_id     | AAAAAAAACNGBAAAA 
+ ss_item_rev | 1900.15          
+ ss_dev      | 11.1499568       
+ cs_item_rev | 1950.92          
+ cs_dev      | 11.4478719       
+ ws_item_rev | 1829.52          
+ ws_dev      | 10.7355046       
+ average     | 1893.53          
+-RECORD 1-----------------------
+ item_id     | AAAAAAAAIDOAAAAA 
+ ss_item_rev | 6605.22          
+ ss_dev      | 11.5748247       
+ cs_item_rev | 6078.33          
+ cs_dev      | 10.6515156       
+ ws_item_rev | 6338.25          
+ ws_dev      | 11.106993        
+ average     | 6340.6           
+-RECORD 2-----------------------
+ item_id     | AAAAAAAAJMFCAAAA 
+ ss_item_rev | 3608.52          
+ ss_dev      | 11.4503737       
+ cs_item_rev | 3590.47          
+ cs_dev      | 11.3930983       
+ ws_item_rev | 3305.82          
+ ws_dev      | 10.4898613       
+ average     | 3501.60333
+           

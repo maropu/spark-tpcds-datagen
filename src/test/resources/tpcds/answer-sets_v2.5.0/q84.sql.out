@@ -1,0 +1,76 @@
+-RECORD 0---------------------------
+ customer_id  | AAAAAAAAAIPGAAAA    
+ customername | Carter, Rodney
+-RECORD 1---------------------------
+ customer_id  | AAAAAAAAAKMBBAAA    
+ customername | Mcarthur, Emma      
+-RECORD 2---------------------------
+ customer_id  | AAAAAAAACBNHBAAA    
+ customername | Wells, Ron          
+-RECORD 3---------------------------
+ customer_id  | AAAAAAAADBMEAAAA    
+ customername | Vera, Tina          
+-RECORD 4---------------------------
+ customer_id  | AAAAAAAADBMEAAAA    
+ customername | Vera, Tina          
+-RECORD 5---------------------------
+ customer_id  | AAAAAAAADHKGBAAA    
+ customername | Scott, Pamela       
+-RECORD 6---------------------------
+ customer_id  | AAAAAAAAEIIBBAAA    
+ customername | Atkins, Susan
+-RECORD 7---------------------------
+ customer_id  | AAAAAAAAFKAHAAAA    
+ customername | Batiste, Ernest     
+-RECORD 8---------------------------
+ customer_id  | AAAAAAAAGHMAAAAA    
+ customername | Mitchell, Gregory   
+-RECORD 9---------------------------
+ customer_id  | AAAAAAAAIAODBAAA    
+ customername | Murray, Karen
+-RECORD 10--------------------------
+ customer_id  | AAAAAAAAIEOKAAAA    
+ customername | Solomon, Clyde      
+-RECORD 11--------------------------
+ customer_id  | AAAAAAAAIIBOAAAA    
+ customername | Owens, David        
+-RECORD 12--------------------------
+ customer_id  | AAAAAAAAIPDCAAAA    
+ customername | Wallace, Eric       
+-RECORD 13--------------------------
+ customer_id  | AAAAAAAAIPIMAAAA    
+ customername | Hayward, Benjamin   
+-RECORD 14--------------------------
+ customer_id  | AAAAAAAAJCIKAAAA    
+ customername | Ramos, Donald       
+-RECORD 15--------------------------
+ customer_id  | AAAAAAAAKFJEAAAA    
+ customername | Roberts, Yvonne     
+-RECORD 16--------------------------
+ customer_id  | AAAAAAAAKPGBBAAA    
+ customername | Moore,              
+-RECORD 17--------------------------
+ customer_id  | AAAAAAAALCLABAAA    
+ customername | Whitaker, Lettie    
+-RECORD 18--------------------------
+ customer_id  | AAAAAAAAMGMEAAAA    
+ customername | Sharp, Michael      
+-RECORD 19--------------------------
+ customer_id  | AAAAAAAAMIGBBAAA    
+ customername | Montgomery, Jesenia 
+-RECORD 20--------------------------
+ customer_id  | AAAAAAAAMPDKAAAA    
+ customername | Lopez, Isabel       
+-RECORD 21--------------------------
+ customer_id  | AAAAAAAANEOMAAAA    
+ customername | Powell, Linda
+-RECORD 22--------------------------
+ customer_id  | AAAAAAAANKPCAAAA    
+ customername | Shaffer, Sergio     
+-RECORD 23--------------------------
+ customer_id  | AAAAAAAANOCKAAAA    
+ customername | Vargas, James
+-RECORD 24--------------------------
+ customer_id  | AAAAAAAAOGJEBAAA    
+ customername | Owens, Denice
+           

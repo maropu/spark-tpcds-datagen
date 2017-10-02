@@ -1,0 +1,259 @@
+-RECORD 0------------------
+ channel | catalog channel 
+ id      | null            
+ sales   | 80882163.55     
+ returns | 8201118.96      
+ profit  | -12499061.58    
+-RECORD 1------------------
+ channel | catalog channel 
+ id      | null            
+ sales   | 107782.51       
+ returns | 2050279.74      
+ profit  | -1263351.85     
+-RECORD 2------------------
+ channel | catalog channel 
+ id      | 1               
+ sales   | 26577012.33     
+ returns | 2050279.74      
+ profit  | -3521456.22     
+-RECORD 3------------------
+ channel | catalog channel 
+ id      | 2               
+ sales   | 28100609.53     
+ returns | 2050279.74      
+ profit  | -3967953.72     
+-RECORD 4------------------
+ channel | catalog channel 
+ id      | 5               
+ sales   | 26096759.18     
+ returns | 2050279.74      
+ profit  | -3746299.79     
+-RECORD 5------------------
+ channel | ore channel     
+ id      | null            
+ sales   | 117249373.32    
+ returns | 3173554.99      
+ profit  | -52383291.20    
+-RECORD 6------------------
+ channel | ore channel     
+ id      | 1               
+ sales   | 20390161.35     
+ returns | 562762.31       
+ profit  | -9133254.67     
+-RECORD 7------------------
+ channel | ore channel     
+ id      | 2               
+ sales   | 19807085.95     
+ returns | 539649.43       
+ profit  | -8817821.00     
+-RECORD 8------------------
+ channel | ore channel     
+ id      | 4               
+ sales   | 19599593.20     
+ returns | 557973.00       
+ profit  | -8389920.41     
+-RECORD 9------------------
+ channel | ore channel     
+ id      | 7               
+ sales   | 19480205.51     
+ returns | 520479.41       
+ profit  | -8861241.78     
+-RECORD 10-----------------
+ channel | ore channel     
+ id      | 8               
+ sales   | 18636331.60     
+ returns | 472731.69       
+ profit  | -8409599.72     
+-RECORD 11-----------------
+ channel | ore channel     
+ id      | 10              
+ sales   | 19335995.71     
+ returns | 519959.15       
+ profit  | -8771453.62     
+-RECORD 12-----------------
+ channel | web channel     
+ id      | null            
+ sales   | 41277462.40     
+ returns | 1115481.00      
+ profit  | -5205442.98     
+-RECORD 13-----------------
+ channel | web channel     
+ id      | 1               
+ sales   | 1226811.57      
+ returns | 28406.98        
+ profit  | -227375.53      
+-RECORD 14-----------------
+ channel | web channel     
+ id      | 2               
+ sales   | 1191229.91      
+ returns | 99179.48        
+ profit  | -264992.86      
+-RECORD 15-----------------
+ channel | web channel     
+ id      | 5               
+ sales   | 1467083.19      
+ returns | 21625.36        
+ profit  | -147366.78      
+-RECORD 16-----------------
+ channel | web channel     
+ id      | 7               
+ sales   | 1343208.21      
+ returns | 67708.76        
+ profit  | -200969.21      
+-RECORD 17-----------------
+ channel | web channel     
+ id      | 8               
+ sales   | 1262065.97      
+ returns | 46749.46        
+ profit  | -271001.70      
+-RECORD 18-----------------
+ channel | web channel     
+ id      | 11              
+ sales   | 1425934.76      
+ returns | 10034.84        
+ profit  | -84693.54       
+-RECORD 19-----------------
+ channel | web channel     
+ id      | 13              
+ sales   | 1335813.60      
+ returns | 62142.91        
+ profit  | -218022.02      
+-RECORD 20-----------------
+ channel | web channel     
+ id      | 14              
+ sales   | 1469352.58      
+ returns | 50742.65        
+ profit  | -197789.09      
+-RECORD 21-----------------
+ channel | web channel     
+ id      | 17              
+ sales   | 1219451.02      
+ returns | 28732.85        
+ profit  | -205497.30      
+-RECORD 22-----------------
+ channel | web channel     
+ id      | 19              
+ sales   | 1343058.55      
+ returns | 24108.59        
+ profit  | -175397.06      
+-RECORD 23-----------------
+ channel | web channel     
+ id      | 20              
+ sales   | 1511303.97      
+ returns | 42538.28        
+ profit  | -89439.28       
+-RECORD 24-----------------
+ channel | web channel     
+ id      | 23              
+ sales   | 1409483.07      
+ returns | 37116.42        
+ profit  | -89855.78       
+-RECORD 25-----------------
+ channel | web channel     
+ id      | 25              
+ sales   | 1370755.17      
+ returns | 48916.38        
+ profit  | -207512.02      
+-RECORD 26-----------------
+ channel | web channel     
+ id      | 26              
+ sales   | 1465712.89      
+ returns | 48072.56        
+ profit  | -157007.72      
+-RECORD 27-----------------
+ channel | web channel     
+ id      | 29              
+ sales   | 1407813.82      
+ returns | 19233.11        
+ profit  | -188381.47      
+-RECORD 28-----------------
+ channel | web channel     
+ id      | 31              
+ sales   | 1369226.19      
+ returns | 25494.42        
+ profit  | -180972.91      
+-RECORD 29-----------------
+ channel | web channel     
+ id      | 32              
+ sales   | 1166947.23      
+ returns | 50731.53        
+ profit  | -189061.60      
+-RECORD 30-----------------
+ channel | web channel     
+ id      | 35              
+ sales   | 1400811.57      
+ returns | 22363.43        
+ profit  | -189390.67      
+-RECORD 31-----------------
+ channel | web channel     
+ id      | 37              
+ sales   | 1407716.73      
+ returns | 32534.27        
+ profit  | -127244.28      
+-RECORD 32-----------------
+ channel | web channel     
+ id      | 38              
+ sales   | 1444241.42      
+ returns | 41815.25        
+ profit  | -135372.36      
+-RECORD 33-----------------
+ channel | web channel     
+ id      | 41              
+ sales   | 1492530.29      
+ returns | 19599.96        
+ profit  | -101110.49      
+-RECORD 34-----------------
+ channel | web channel     
+ id      | 43              
+ sales   | 1343104.79      
+ returns | 41175.01        
+ profit  | -227340.10      
+-RECORD 35-----------------
+ channel | web channel     
+ id      | 44              
+ sales   | 1416507.16      
+ returns | 37134.99        
+ profit  | -274620.10      
+-RECORD 36-----------------
+ channel | web channel     
+ id      | 47              
+ sales   | 1449718.94      
+ returns | 15989.92        
+ profit  | -105473.72      
+-RECORD 37-----------------
+ channel | web channel     
+ id      | 49              
+ sales   | 1414898.83      
+ returns | 45004.31        
+ profit  | -146020.31      
+-RECORD 38-----------------
+ channel | web channel     
+ id      | 50              
+ sales   | 1319375.84      
+ returns | 28284.26        
+ profit  | -151036.44      
+-RECORD 39-----------------
+ channel | web channel     
+ id      | 53              
+ sales   | 1389137.89      
+ returns | 24570.34        
+ profit  | -120694.61      
+-RECORD 40-----------------
+ channel | web channel     
+ id      | 55              
+ sales   | 1463362.30      
+ returns | 38157.61        
+ profit  | -154431.83      
+-RECORD 41-----------------
+ channel | web channel     
+ id      | 56              
+ sales   | 1355553.42      
+ returns | 46633.14        
+ profit  | -164174.45      
+-RECORD 42-----------------
+ channel | web channel     
+ id      | 59              
+ sales   | 1395251.52      
+ returns | 10683.93        
+ profit  | -213197.75
+           

@@ -1,0 +1,801 @@
+-RECORD 0-------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Antioch       
+ bought_city      | Belmont       
+ ss_ticket_number | 149232        
+ amt              | 1500.41       
+ profit           | -3669.87      
+-RECORD 1-------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Ashland       
+ bought_city      | Philadelphia  
+ ss_ticket_number | 155902        
+ amt              | 2303.72       
+ profit           | -9449.87      
+-RECORD 2-------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Bayview       
+ bought_city      | Springdale    
+ ss_ticket_number | 162862        
+ amt              | 529.16        
+ profit           | -18595.60     
+-RECORD 3-------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Belleview     
+ bought_city      | Nichols       
+ ss_ticket_number | 59976         
+ amt              | 13402.13      
+ profit           | -15556.69     
+-RECORD 4-------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Blair         
+ bought_city      | Hamilton      
+ ss_ticket_number | 206536        
+ amt              | .00           
+ profit           | -1287.17      
+-RECORD 5-------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Brownsville   
+ bought_city      | Bunker        
+ ss_ticket_number | Hill          
+ amt              | 159429        
+ profit           | 4557.21       
+-RECORD 6-------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Brownsville   
+ bought_city      | Mechanicsburg 
+ ss_ticket_number | 60829         
+ amt              | 2340.86       
+ profit           | -7083.55      
+-RECORD 7-------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Brunswick     
+ bought_city      | Mountain      
+ ss_ticket_number | View          
+ amt              | 123733        
+ profit           | 2956.13       
+-RECORD 8-------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Buckingham    
+ bought_city      | Siloam        
+ ss_ticket_number | 93903         
+ amt              | 319.04        
+ profit           | -8652.20      
+-RECORD 9-------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Bunker        
+ bought_city      | Hill          
+ ss_ticket_number | Antioch       
+ amt              | 199878        
+ profit           | .00           
+-RECORD 10------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Bunker        
+ bought_city      | Hill          
+ ss_ticket_number | Greenfield    
+ amt              | 127182        
+ profit           | 862.70        
+-RECORD 11------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Bunker        
+ bought_city      | Hill          
+ ss_ticket_number | Hopewell      
+ amt              | 53497         
+ profit           | 1896.43       
+-RECORD 12------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Cedar         
+ bought_city      | Grove         
+ ss_ticket_number | Jackson       
+ amt              | 81259         
+ profit           | 8.55          
+-RECORD 13------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Centerville   
+ bought_city      | Bethel        
+ ss_ticket_number | 210801        
+ amt              | 6002.21       
+ profit           | -18193.72     
+-RECORD 14------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Centerville   
+ bought_city      | Mount         
+ ss_ticket_number | Olive         
+ amt              | 66053         
+ profit           | 2445.21       
+-RECORD 15------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Centerville   
+ bought_city      | Mount         
+ ss_ticket_number | Zion          
+ amt              | 83650         
+ profit           | 3896.13       
+-RECORD 16------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Centerville   
+ bought_city      | Providence    
+ ss_ticket_number | 62604         
+ amt              | 156.21        
+ profit           | -13626.64     
+-RECORD 17------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Clifton       
+ bought_city      | Mount         
+ ss_ticket_number | Vernon        
+ amt              | 95501         
+ profit           | 3283.17       
+-RECORD 18------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Concord       
+ bought_city      | Stringtown    
+ ss_ticket_number | 97052         
+ amt              | 2949.46       
+ profit           | -762.97       
+-RECORD 19------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Cordova       
+ bought_city      | Crossroads    
+ ss_ticket_number | 85385         
+ amt              | 38.97         
+ profit           | -1522.58      
+-RECORD 20------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Crossroads    
+ bought_city      | Buena         
+ ss_ticket_number | Vista         
+ amt              | 221999        
+ profit           | 6605.50       
+-RECORD 21------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Crossroads    
+ bought_city      | Unionville    
+ ss_ticket_number | 58203         
+ amt              | 1393.55       
+ profit           | -11986.88     
+-RECORD 22------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Deerfield     
+ bought_city      | Riverside     
+ ss_ticket_number | 226924        
+ amt              | 1511.10       
+ profit           | -12462.44     
+-RECORD 23------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Derby         
+ bought_city      | Riverdale     
+ ss_ticket_number | 140237        
+ amt              | 4006.86       
+ profit           | -7955.30      
+-RECORD 24------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Edgewood      
+ bought_city      | Hopewell      
+ ss_ticket_number | 167421        
+ amt              | 3066.70       
+ profit           | -20260.27     
+-RECORD 25------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Empire        
+ bought_city      | Five          
+ ss_ticket_number | Forks         
+ amt              | 43396         
+ profit           | 1194.37       
+-RECORD 26------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Empire        
+ bought_city      | Midway        
+ ss_ticket_number | 165554        
+ amt              | 258.33        
+ profit           | -16775.39     
+-RECORD 27------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Enterprise    
+ bought_city      | Highland      
+ ss_ticket_number | Park          
+ amt              | 147688        
+ profit           | 2213.54       
+-RECORD 28------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Enterprise    
+ bought_city      | Red           
+ ss_ticket_number | Hill          
+ amt              | 115200        
+ profit           | 7016.43       
+-RECORD 29------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Fairfield     
+ bought_city      | Bridgeport    
+ ss_ticket_number | 13112         
+ amt              | 1111.88       
+ profit           | -10033.40     
+-RECORD 30------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Fairfield     
+ bought_city      | Midway        
+ ss_ticket_number | 671           
+ amt              | 438.90        
+ profit           | 2207.18       
+-RECORD 31------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Fairfield     
+ bought_city      | Shiloh        
+ ss_ticket_number | 149867        
+ amt              | 2723.49       
+ profit           | -7041.50      
+-RECORD 32------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Fairfield     
+ bought_city      | Springdale    
+ ss_ticket_number | 66752         
+ amt              | 3844.64       
+ profit           | -8300.75      
+-RECORD 33------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Fairview      
+ bought_city      | Florence      
+ ss_ticket_number | 90439         
+ amt              | 7932.81       
+ profit           | -18236.19     
+-RECORD 34------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Five          
+ bought_city      | Forks         
+ ss_ticket_number | Lakewood      
+ amt              | 186991        
+ profit           | 4960.22       
+-RECORD 35------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Five          
+ bought_city      | Forks         
+ ss_ticket_number | Shady         
+ amt              | Grove         
+ profit           | 239479        
+-RECORD 36------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Five          
+ bought_city      | Points        
+ ss_ticket_number | Union         
+ amt              | Hill          
+ profit           | 57715         
+-RECORD 37------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Florence      
+ bought_city      | Edgewood      
+ ss_ticket_number | 110370        
+ amt              | 434.48        
+ profit           | -7367.45      
+-RECORD 38------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Florence      
+ bought_city      | Oak           
+ ss_ticket_number | Ridge         
+ amt              | 45989         
+ profit           | 164.64        
+-RECORD 39------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Florence      
+ bought_city      | Spring        
+ ss_ticket_number | Hill          
+ amt              | 104935        
+ profit           | 40.79         
+-RECORD 40------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Forest        
+ bought_city      | Hills         
+ ss_ticket_number | Argyle        
+ amt              | 139387        
+ profit           | 508.08        
+-RECORD 41------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Forest        
+ bought_city      | Hills         
+ ss_ticket_number | Ashland       
+ amt              | 214771        
+ profit           | 1585.36       
+-RECORD 42------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Forest        
+ bought_city      | Hills         
+ ss_ticket_number | Riverside     
+ amt              | 184229        
+ profit           | 2485.60       
+-RECORD 43------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Franklin      
+ bought_city      | Floyd         
+ ss_ticket_number | 230648        
+ amt              | 791.64        
+ profit           | -8627.59      
+-RECORD 44------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Friendship    
+ bought_city      | Ashland       
+ ss_ticket_number | 11043         
+ amt              | 382.33        
+ profit           | -4808.33      
+-RECORD 45------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Georgetown    
+ bought_city      | Clifton       
+ ss_ticket_number | 123750        
+ amt              | 189.60        
+ profit           | -5249.53      
+-RECORD 46------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Georgetown    
+ bought_city      | Glendale      
+ ss_ticket_number | 27617         
+ amt              | 787.61        
+ profit           | -8592.30      
+-RECORD 47------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Georgetown    
+ bought_city      | Red           
+ ss_ticket_number | Hill          
+ amt              | 234956        
+ profit           | 50.90         
+-RECORD 48------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Georgetown    
+ bought_city      | Summit        
+ ss_ticket_number | 120620        
+ amt              | 1005.21       
+ profit           | -3159.14      
+-RECORD 49------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Gladstone     
+ bought_city      | Hopewell      
+ ss_ticket_number | 229820        
+ amt              | 184.68        
+ profit           | -9366.12      
+-RECORD 50------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Glendale      
+ bought_city      | Four          
+ ss_ticket_number | Points        
+ amt              | 167992        
+ profit           | 29.32         
+-RECORD 51------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Glendale      
+ bought_city      | Indian        
+ ss_ticket_number | Village       
+ amt              | 203729        
+ profit           | 3173.01       
+-RECORD 52------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Glendale      
+ bought_city      | Marion        
+ ss_ticket_number | 51036         
+ amt              | 993.75        
+ profit           | -10587.28     
+-RECORD 53------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Glendale      
+ bought_city      | Mount         
+ ss_ticket_number | Pleasant      
+ amt              | 159389        
+ profit           | 2415.56       
+-RECORD 54------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Glendale      
+ bought_city      | West          
+ ss_ticket_number | Liberty       
+ amt              | 5509          
+ profit           | 694.86        
+-RECORD 55------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Glenwood      
+ bought_city      | Antioch       
+ ss_ticket_number | 86386         
+ amt              | 413.05        
+ profit           | -6649.42      
+-RECORD 56------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Glenwood      
+ bought_city      | Clinton       
+ ss_ticket_number | 4460          
+ amt              | 1568.11       
+ profit           | -17245.05     
+-RECORD 57------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Glenwood      
+ bought_city      | Clinton       
+ ss_ticket_number | 90728         
+ amt              | 3371.21       
+ profit           | -15159.10     
+-RECORD 58------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Granite       
+ bought_city      | Clinton       
+ ss_ticket_number | 211465        
+ amt              | 8156.94       
+ profit           | -18944.88     
+-RECORD 59------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Green         
+ bought_city      | Acres         
+ ss_ticket_number | Avery         
+ amt              | 191571        
+ profit           | 383.26        
+-RECORD 60------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Greenfield    
+ bought_city      | Edgewood      
+ ss_ticket_number | 69782         
+ amt              | 1026.47       
+ profit           | -14367.20     
+-RECORD 61------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Greenfield    
+ bought_city      | Red           
+ ss_ticket_number | Oak           
+ amt              | 214549        
+ profit           | 1610.58       
+-RECORD 62------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Greenfield    
+ bought_city      | Riverdale     
+ ss_ticket_number | 133538        
+ amt              | 9390.10       
+ profit           | -15802.28     
+-RECORD 63------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Greenville    
+ bought_city      | Mountain      
+ ss_ticket_number | View          
+ amt              | 103238        
+ profit           | 4318.13       
+-RECORD 64------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Greenville    
+ bought_city      | Shiloh        
+ ss_ticket_number | 155915        
+ amt              | .00           
+ profit           | -9362.72      
+-RECORD 65------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Greenwood     
+ bought_city      | Bridgeport    
+ ss_ticket_number | 228626        
+ amt              | 994.35        
+ profit           | -11510.47     
+-RECORD 66------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Greenwood     
+ bought_city      | Lakeside      
+ ss_ticket_number | 37922         
+ amt              | 2446.00       
+ profit           | -7423.85      
+-RECORD 67------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Greenwood     
+ bought_city      | Macedonia     
+ ss_ticket_number | 133102        
+ amt              | .00           
+ profit           | -2193.62      
+-RECORD 68------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Hamilton      
+ bought_city      | Cedar         
+ ss_ticket_number | 112720        
+ amt              | 201.76        
+ profit           | -11031.54     
+-RECORD 69------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Hamilton      
+ bought_city      | Liberty       
+ ss_ticket_number | 121398        
+ amt              | 536.72        
+ profit           | -8979.34      
+-RECORD 70------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Hamilton      
+ bought_city      | Valley        
+ ss_ticket_number | View          
+ amt              | 161021        
+ profit           | 222.62        
+-RECORD 71------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Hardy         
+ bought_city      | Unionville    
+ ss_ticket_number | 193341        
+ amt              | 5110.44       
+ profit           | -14494.71     
+-RECORD 72------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Harmony       
+ bought_city      | Bethel        
+ ss_ticket_number | 77060         
+ amt              | 5652.18       
+ profit           | -15038.44     
+-RECORD 73------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Highland      
+ bought_city      | Park          
+ ss_ticket_number | Salem         
+ amt              | 69302         
+ profit           | 1868.14       
+-RECORD 74------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Hillcrest     
+ bought_city      | Valley        
+ ss_ticket_number | View          
+ amt              | 218569        
+ profit           | 1675.85       
+-RECORD 75------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Hopewell      
+ bought_city      | Centerville   
+ ss_ticket_number | 17403         
+ amt              | .00           
+ profit           | -6426.77      
+-RECORD 76------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Jackson       
+ bought_city      | Springdale    
+ ss_ticket_number | 72874         
+ amt              | 32.49         
+ profit           | -3297.92      
+-RECORD 77------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Jackson       
+ bought_city      | Union         
+ ss_ticket_number | Hill          
+ amt              | 114590        
+ profit           | 6854.05       
+-RECORD 78------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Jackson       
+ bought_city      | Union         
+ ss_ticket_number | Hill          
+ amt              | 181398        
+ profit           | 1.53          
+-RECORD 79------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Kingston      
+ bought_city      | Clinton       
+ ss_ticket_number | 169584        
+ amt              | 14529.68      
+ profit           | -33013.98     
+-RECORD 80------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Lakeview      
+ bought_city      | Richville     
+ ss_ticket_number | 165849        
+ amt              | .00           
+ profit           | -25580.39     
+-RECORD 81------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Lakewood      
+ bought_city      | Arlington     
+ ss_ticket_number | 113298        
+ amt              | 5265.99       
+ profit           | -6933.54      
+-RECORD 82------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Lakewood      
+ bought_city      | Bridgeport    
+ ss_ticket_number | 169124        
+ amt              | 1332.90       
+ profit           | -11714.51     
+-RECORD 83------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Lakewood      
+ bought_city      | Spring        
+ ss_ticket_number | Hill          
+ amt              | 144979        
+ profit           | 4075.69       
+-RECORD 84------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Lawrenceville 
+ bought_city      | Bunker        
+ ss_ticket_number | Hill          
+ amt              | 237291        
+ profit           | 9583.05       
+-RECORD 85------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Lebanon       
+ bought_city      | Pomona        
+ ss_ticket_number | 55371         
+ amt              | 11413.39      
+ profit           | -9108.39      
+-RECORD 86------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Lewis         
+ bought_city      | Red           
+ ss_ticket_number | Hill          
+ amt              | 43196         
+ profit           | .00           
+-RECORD 87------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Liberty       
+ bought_city      | Spring        
+ ss_ticket_number | Hill          
+ amt              | 95200         
+ profit           | 703.30        
+-RECORD 88------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Lincoln       
+ bought_city      | Mount         
+ ss_ticket_number | Olive         
+ amt              | 148878        
+ profit           | 1735.15       
+-RECORD 89------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Lincoln       
+ bought_city      | Shiloh        
+ ss_ticket_number | 152927        
+ amt              | 475.43        
+ profit           | -9245.75      
+-RECORD 90------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Ludlow        
+ bought_city      | Shiloh        
+ ss_ticket_number | 150308        
+ amt              | .00           
+ profit           | 2815.96       
+-RECORD 91------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Macedonia     
+ bought_city      | Summerville   
+ ss_ticket_number | 96898         
+ amt              | 190.19        
+ profit           | -5906.64      
+-RECORD 92------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Maple         
+ bought_city      | Grove         
+ ss_ticket_number | Hardy         
+ amt              | 94091         
+ profit           | 74.16         
+-RECORD 93------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Maple         
+ bought_city      | Grove         
+ ss_ticket_number | Waterloo      
+ amt              | 225826        
+ profit           | 3816.54       
+-RECORD 94------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Marion        
+ bought_city      | White         
+ ss_ticket_number | Oak           
+ amt              | 8347          
+ profit           | 1737.44       
+-RECORD 95------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Midway        
+ bought_city      | Jackson       
+ ss_ticket_number | 99981         
+ amt              | 340.00        
+ profit           | -4399.74      
+-RECORD 96------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Midway        
+ bought_city      | Oakwood       
+ ss_ticket_number | 11488         
+ amt              | 671.76        
+ profit           | -7713.43      
+-RECORD 97------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Milan         
+ bought_city      | Woodland      
+ ss_ticket_number | 226048        
+ amt              | 3239.64       
+ profit           | -13933.74     
+-RECORD 98------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Mount         
+ bought_city      | Pleasant      
+ ss_ticket_number | Clifton       
+ amt              | 33934         
+ profit           | 2089.09       
+-RECORD 99------------------------
+ c_last_name      | null          
+ c_first_name     | null          
+ ca_city          | Mount         
+ bought_city      | Pleasant      
+ ss_ticket_number | Union         
+ amt              | 157956        
+ profit           | 7732.84
+           

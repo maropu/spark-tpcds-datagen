@@ -1,0 +1,201 @@
+-RECORD 0-------------------------
+ c_customer_id | AAAAAAAAAAABBAAA 
+-RECORD 1-------------------------
+ c_customer_id | AAAAAAAAAAADBAAA 
+-RECORD 2-------------------------
+ c_customer_id | AAAAAAAAAAADBAAA 
+-RECORD 3-------------------------
+ c_customer_id | AAAAAAAAAAAKAAAA 
+-RECORD 4-------------------------
+ c_customer_id | AAAAAAAAAABDAAAA 
+-RECORD 5-------------------------
+ c_customer_id | AAAAAAAAAABHBAAA 
+-RECORD 6-------------------------
+ c_customer_id | AAAAAAAAAABLAAAA 
+-RECORD 7-------------------------
+ c_customer_id | AAAAAAAAAABMAAAA 
+-RECORD 8-------------------------
+ c_customer_id | AAAAAAAAAACHAAAA 
+-RECORD 9-------------------------
+ c_customer_id | AAAAAAAAAACMAAAA 
+-RECORD 10------------------------
+ c_customer_id | AAAAAAAAAADDAAAA 
+-RECORD 11------------------------
+ c_customer_id | AAAAAAAAAADGAAAA 
+-RECORD 12------------------------
+ c_customer_id | AAAAAAAAAADGBAAA 
+-RECORD 13------------------------
+ c_customer_id | AAAAAAAAAADGBAAA 
+-RECORD 14------------------------
+ c_customer_id | AAAAAAAAAADPAAAA 
+-RECORD 15------------------------
+ c_customer_id | AAAAAAAAAAEBAAAA 
+-RECORD 16------------------------
+ c_customer_id | AAAAAAAAAAEFBAAA 
+-RECORD 17------------------------
+ c_customer_id | AAAAAAAAAAEGBAAA 
+-RECORD 18------------------------
+ c_customer_id | AAAAAAAAAAEIAAAA 
+-RECORD 19------------------------
+ c_customer_id | AAAAAAAAAAEMAAAA 
+-RECORD 20------------------------
+ c_customer_id | AAAAAAAAAAFAAAAA 
+-RECORD 21------------------------
+ c_customer_id | AAAAAAAAAAFPAAAA 
+-RECORD 22------------------------
+ c_customer_id | AAAAAAAAAAGGBAAA 
+-RECORD 23------------------------
+ c_customer_id | AAAAAAAAAAGHBAAA 
+-RECORD 24------------------------
+ c_customer_id | AAAAAAAAAAGJAAAA 
+-RECORD 25------------------------
+ c_customer_id | AAAAAAAAAAGMAAAA 
+-RECORD 26------------------------
+ c_customer_id | AAAAAAAAAAHEBAAA 
+-RECORD 27------------------------
+ c_customer_id | AAAAAAAAAAHFBAAA 
+-RECORD 28------------------------
+ c_customer_id | AAAAAAAAAAIEBAAA 
+-RECORD 29------------------------
+ c_customer_id | AAAAAAAAAAJGBAAA 
+-RECORD 30------------------------
+ c_customer_id | AAAAAAAAAAJHBAAA 
+-RECORD 31------------------------
+ c_customer_id | AAAAAAAAAAKCAAAA 
+-RECORD 32------------------------
+ c_customer_id | AAAAAAAAAAKCAAAA 
+-RECORD 33------------------------
+ c_customer_id | AAAAAAAAAAKJAAAA 
+-RECORD 34------------------------
+ c_customer_id | AAAAAAAAAAKMAAAA 
+-RECORD 35------------------------
+ c_customer_id | AAAAAAAAAAKMAAAA 
+-RECORD 36------------------------
+ c_customer_id | AAAAAAAAAALAAAAA 
+-RECORD 37------------------------
+ c_customer_id | AAAAAAAAAALABAAA 
+-RECORD 38------------------------
+ c_customer_id | AAAAAAAAAALGAAAA 
+-RECORD 39------------------------
+ c_customer_id | AAAAAAAAAALHBAAA 
+-RECORD 40------------------------
+ c_customer_id | AAAAAAAAAALJAAAA 
+-RECORD 41------------------------
+ c_customer_id | AAAAAAAAAANHAAAA 
+-RECORD 42------------------------
+ c_customer_id | AAAAAAAAAANHBAAA 
+-RECORD 43------------------------
+ c_customer_id | AAAAAAAAAANJAAAA 
+-RECORD 44------------------------
+ c_customer_id | AAAAAAAAAANMAAAA 
+-RECORD 45------------------------
+ c_customer_id | AAAAAAAAAANMAAAA 
+-RECORD 46------------------------
+ c_customer_id | AAAAAAAAAANNAAAA 
+-RECORD 47------------------------
+ c_customer_id | AAAAAAAAAAOBBAAA 
+-RECORD 48------------------------
+ c_customer_id | AAAAAAAAAAODBAAA 
+-RECORD 49------------------------
+ c_customer_id | AAAAAAAAAAOLAAAA 
+-RECORD 50------------------------
+ c_customer_id | AAAAAAAAAAPGBAAA 
+-RECORD 51------------------------
+ c_customer_id | AAAAAAAAABAAAAAA 
+-RECORD 52------------------------
+ c_customer_id | AAAAAAAAABAEAAAA 
+-RECORD 53------------------------
+ c_customer_id | AAAAAAAAABAEBAAA 
+-RECORD 54------------------------
+ c_customer_id | AAAAAAAAABAFBAAA 
+-RECORD 55------------------------
+ c_customer_id | AAAAAAAAABAIAAAA 
+-RECORD 56------------------------
+ c_customer_id | AAAAAAAAABAOAAAA 
+-RECORD 57------------------------
+ c_customer_id | AAAAAAAAABBDBAAA 
+-RECORD 58------------------------
+ c_customer_id | AAAAAAAAABCFAAAA 
+-RECORD 59------------------------
+ c_customer_id | AAAAAAAAABCHBAAA 
+-RECORD 60------------------------
+ c_customer_id | AAAAAAAAABDHAAAA 
+-RECORD 61------------------------
+ c_customer_id | AAAAAAAAABENAAAA 
+-RECORD 62------------------------
+ c_customer_id | AAAAAAAAABFEBAAA 
+-RECORD 63------------------------
+ c_customer_id | AAAAAAAAABFGAAAA 
+-RECORD 64------------------------
+ c_customer_id | AAAAAAAAABFMAAAA 
+-RECORD 65------------------------
+ c_customer_id | AAAAAAAAABFPAAAA 
+-RECORD 66------------------------
+ c_customer_id | AAAAAAAAABGFAAAA 
+-RECORD 67------------------------
+ c_customer_id | AAAAAAAAABGFBAAA 
+-RECORD 68------------------------
+ c_customer_id | AAAAAAAAABGJAAAA 
+-RECORD 69------------------------
+ c_customer_id | AAAAAAAAABIBBAAA 
+-RECORD 70------------------------
+ c_customer_id | AAAAAAAAABICBAAA 
+-RECORD 71------------------------
+ c_customer_id | AAAAAAAAABIIAAAA 
+-RECORD 72------------------------
+ c_customer_id | AAAAAAAAABJNAAAA 
+-RECORD 73------------------------
+ c_customer_id | AAAAAAAAABKGBAAA 
+-RECORD 74------------------------
+ c_customer_id | AAAAAAAAABLOAAAA 
+-RECORD 75------------------------
+ c_customer_id | AAAAAAAAABLPAAAA 
+-RECORD 76------------------------
+ c_customer_id | AAAAAAAAABMABAAA 
+-RECORD 77------------------------
+ c_customer_id | AAAAAAAAABMPAAAA 
+-RECORD 78------------------------
+ c_customer_id | AAAAAAAAABNAAAAA 
+-RECORD 79------------------------
+ c_customer_id | AAAAAAAAABNCBAAA 
+-RECORD 80------------------------
+ c_customer_id | AAAAAAAAABNEBAAA 
+-RECORD 81------------------------
+ c_customer_id | AAAAAAAAABNLAAAA 
+-RECORD 82------------------------
+ c_customer_id | AAAAAAAAABNOAAAA 
+-RECORD 83------------------------
+ c_customer_id | AAAAAAAAABNPAAAA 
+-RECORD 84------------------------
+ c_customer_id | AAAAAAAAABOAAAAA 
+-RECORD 85------------------------
+ c_customer_id | AAAAAAAAABOFBAAA 
+-RECORD 86------------------------
+ c_customer_id | AAAAAAAAABOOAAAA 
+-RECORD 87------------------------
+ c_customer_id | AAAAAAAAABOPAAAA 
+-RECORD 88------------------------
+ c_customer_id | AAAAAAAAABPEAAAA 
+-RECORD 89------------------------
+ c_customer_id | AAAAAAAAACADAAAA 
+-RECORD 90------------------------
+ c_customer_id | AAAAAAAAACAFAAAA 
+-RECORD 91------------------------
+ c_customer_id | AAAAAAAAACAFAAAA 
+-RECORD 92------------------------
+ c_customer_id | AAAAAAAAACAHBAAA 
+-RECORD 93------------------------
+ c_customer_id | AAAAAAAAACAJAAAA 
+-RECORD 94------------------------
+ c_customer_id | AAAAAAAAACBDAAAA 
+-RECORD 95------------------------
+ c_customer_id | AAAAAAAAACBDAAAA 
+-RECORD 96------------------------
+ c_customer_id | AAAAAAAAACBEBAAA 
+-RECORD 97------------------------
+ c_customer_id | AAAAAAAAACBNAAAA 
+-RECORD 98------------------------
+ c_customer_id | AAAAAAAAACBPAAAA 
+-RECORD 99------------------------
+ c_customer_id | AAAAAAAAACCHAAAA
+           

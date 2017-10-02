@@ -1,0 +1,5 @@
+-RECORD 0---------------
+ segment       | 11860  
+ num_customers | 1      
+ segment_base  | 593000
+           

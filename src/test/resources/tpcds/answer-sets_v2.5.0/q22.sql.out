@@ -1,0 +1,601 @@
+-RECORD 0---------------------------------
+ i_product_name | ationbarn station       
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 430.357724              
+-RECORD 1---------------------------------
+ i_product_name | ationbarn station       
+ i_brand        | amalgbrand #8           
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 430.357724              
+-RECORD 2---------------------------------
+ i_product_name | ationbarn station       
+ i_brand        | amalgbrand #8           
+ i_class        | bathroom                
+ i_category     | null                    
+ qoh            | 430.357724              
+-RECORD 3---------------------------------
+ i_product_name | ationbarn station       
+ i_brand        | amalgbrand #8           
+ i_class        | bathroom                
+ i_category     | Home                    
+ qoh            | 430.357724              
+-RECORD 4---------------------------------
+ i_product_name | ationoughtn stn st      
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 435.265060              
+-RECORD 5---------------------------------
+ i_product_name | ationoughtn stn st      
+ i_brand        | edu packimporto #2      
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 435.265060              
+-RECORD 6---------------------------------
+ i_product_name | ationoughtn stn st      
+ i_brand        | edu packimporto #2      
+ i_class        | sports-apparel          
+ i_category     | null                    
+ qoh            | 435.265060              
+-RECORD 7---------------------------------
+ i_product_name | ationoughtn stn st      
+ i_brand        | edu packimporto #2      
+ i_class        | sports-apparel          
+ i_category     | Men                     
+ qoh            | 435.265060              
+-RECORD 8---------------------------------
+ i_product_name | ationationprin st       
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 435.510288              
+-RECORD 9---------------------------------
+ i_product_name | ationationprin st       
+ i_brand        | amalgexporti #2         
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 435.510288              
+-RECORD 10--------------------------------
+ i_product_name | ationationprin st       
+ i_brand        | amalgexporti #2         
+ i_class        | newborn                 
+ i_category     | null                    
+ qoh            | 435.510288              
+-RECORD 11--------------------------------
+ i_product_name | ationationprin st       
+ i_brand        | amalgexporti #2         
+ i_class        | newborn                 
+ i_category     | Children                
+ qoh            | 435.510288              
+-RECORD 12--------------------------------
+ i_product_name | oughtcallyn stantiought 
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 436.494024              
+-RECORD 13--------------------------------
+ i_product_name | oughtcallyn stantiought 
+ i_brand        | corpcorp #2             
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 436.494024              
+-RECORD 14--------------------------------
+ i_product_name | oughtcallyn stantiought 
+ i_brand        | corpcorp #2             
+ i_class        | rings                   
+ i_category     | null                    
+ qoh            | 436.494024              
+-RECORD 15--------------------------------
+ i_product_name | oughtcallyn stantiought 
+ i_brand        | corpcorp #2             
+ i_class        | rings                   
+ i_category     | Jewelry                 
+ qoh            | 436.494024              
+-RECORD 16--------------------------------
+ i_product_name | callyesebaration        
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 437.394309              
+-RECORD 17--------------------------------
+ i_product_name | callyesebaration        
+ i_brand        | namelesscorp #7         
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 437.394309              
+-RECORD 18--------------------------------
+ i_product_name | callyesebaration        
+ i_brand        | namelesscorp #7         
+ i_class        | mens watch              
+ i_category     | null                    
+ qoh            | 437.394309              
+-RECORD 19--------------------------------
+ i_product_name | callyesebaration        
+ i_brand        | namelesscorp #7         
+ i_class        | mens watch              
+ i_category     | Jewelry                 
+ qoh            | 437.394309              
+-RECORD 20--------------------------------
+ i_product_name | n stprieingationought   
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 439.064777              
+-RECORD 21--------------------------------
+ i_product_name | n stprieingationought   
+ i_brand        | namelesscorp #8         
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 439.064777              
+-RECORD 22--------------------------------
+ i_product_name | n stprieingationought   
+ i_brand        | namelesscorp #8         
+ i_class        | mens watch              
+ i_category     | null                    
+ qoh            | 439.064777              
+-RECORD 23--------------------------------
+ i_product_name | n stprieingationought   
+ i_brand        | namelesscorp #8         
+ i_class        | mens watch              
+ i_category     | Jewelry                 
+ qoh            | 439.064777              
+-RECORD 24--------------------------------
+ i_product_name | priationn stn st        
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 439.096000              
+-RECORD 25--------------------------------
+ i_product_name | priationn stn st        
+ i_brand        | importoscholar #2       
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 439.096000              
+-RECORD 26--------------------------------
+ i_product_name | priationn stn st        
+ i_brand        | importoscholar #2       
+ i_class        | country                 
+ i_category     | null                    
+ qoh            | 439.096000              
+-RECORD 27--------------------------------
+ i_product_name | priationn stn st        
+ i_brand        | importoscholar #2       
+ i_class        | country                 
+ i_category     | Music                   
+ qoh            | 439.096000              
+-RECORD 28--------------------------------
+ i_product_name | n stcallyableoughtought 
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 439.718367              
+-RECORD 29--------------------------------
+ i_product_name | n stcallyableoughtought 
+ i_brand        | amalgimporto #2         
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 439.718367              
+-RECORD 30--------------------------------
+ i_product_name | n stcallyableoughtought 
+ i_brand        | amalgimporto #2         
+ i_class        | accessories             
+ i_category     | null                    
+ qoh            | 439.718367              
+-RECORD 31--------------------------------
+ i_product_name | n stcallyableoughtought 
+ i_brand        | amalgimporto #2         
+ i_class        | accessories             
+ i_category     | Men                     
+ qoh            | 439.718367              
+-RECORD 32--------------------------------
+ i_product_name | n stbarought            
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 440.314741              
+-RECORD 33--------------------------------
+ i_product_name | n stbarought            
+ i_brand        | corpbrand #10           
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 440.314741              
+-RECORD 34--------------------------------
+ i_product_name | n stbarought            
+ i_brand        | corpbrand #10           
+ i_class        | rugs                    
+ i_category     | null                    
+ qoh            | 440.314741              
+-RECORD 35--------------------------------
+ i_product_name | n stbarought            
+ i_brand        | corpbrand #10           
+ i_class        | rugs                    
+ i_category     | Home                    
+ qoh            | 440.314741              
+-RECORD 36--------------------------------
+ i_product_name | n stn stantioughtought  
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 440.928571              
+-RECORD 37--------------------------------
+ i_product_name | n stn stantioughtought  
+ i_brand        | exportimaxi #8          
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 440.928571              
+-RECORD 38--------------------------------
+ i_product_name | n stn stantioughtought  
+ i_brand        | exportimaxi #8          
+ i_class        | computers               
+ i_category     | null                    
+ qoh            | 440.928571              
+-RECORD 39--------------------------------
+ i_product_name | n stn stantioughtought  
+ i_brand        | exportimaxi #8          
+ i_class        | computers               
+ i_category     | Books                   
+ qoh            | 440.928571              
+-RECORD 40--------------------------------
+ i_product_name | n stcallyesepriought    
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 441.541833              
+-RECORD 41--------------------------------
+ i_product_name | n stcallyesepriought    
+ i_brand        | edu packscholar #2      
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 441.541833              
+-RECORD 42--------------------------------
+ i_product_name | n stcallyesepriought    
+ i_brand        | edu packscholar #2      
+ i_class        | classical               
+ i_category     | null                    
+ qoh            | 441.541833              
+-RECORD 43--------------------------------
+ i_product_name | n stcallyesepriought    
+ i_brand        | edu packscholar #2      
+ i_class        | classical               
+ i_category     | Music                   
+ qoh            | 441.541833              
+-RECORD 44--------------------------------
+ i_product_name | priantiationation       
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 441.670732              
+-RECORD 45--------------------------------
+ i_product_name | priantiationation       
+ i_brand        | importoimporto #2       
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 441.670732              
+-RECORD 46--------------------------------
+ i_product_name | priantiationation       
+ i_brand        | importoimporto #2       
+ i_class        | shirts                  
+ i_category     | null                    
+ qoh            | 441.670732              
+-RECORD 47--------------------------------
+ i_product_name | priantiationation       
+ i_brand        | importoimporto #2       
+ i_class        | shirts                  
+ i_category     | Men                     
+ qoh            | 441.670732              
+-RECORD 48--------------------------------
+ i_product_name | oughtbarantiese         
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 441.745968              
+-RECORD 49--------------------------------
+ i_product_name | oughtbarantiese         
+ i_brand        | exportiedu pack #2      
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 441.745968              
+-RECORD 50--------------------------------
+ i_product_name | oughtbarantiese         
+ i_brand        | exportiedu pack #2      
+ i_class        | kids                    
+ i_category     | null                    
+ qoh            | 441.745968              
+-RECORD 51--------------------------------
+ i_product_name | oughtbarantiese         
+ i_brand        | exportiedu pack #2      
+ i_class        | kids                    
+ i_category     | Shoes                   
+ qoh            | 441.745968              
+-RECORD 52--------------------------------
+ i_product_name | oughtbarprin st         
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 442.073469              
+-RECORD 53--------------------------------
+ i_product_name | oughtbarprin st         
+ i_brand        | edu packscholar #2      
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 442.073469              
+-RECORD 54--------------------------------
+ i_product_name | oughtbarprin st         
+ i_brand        | edu packscholar #2      
+ i_class        | classical               
+ i_category     | null                    
+ qoh            | 442.073469              
+-RECORD 55--------------------------------
+ i_product_name | oughtbarprin st         
+ i_brand        | edu packscholar #2      
+ i_class        | classical               
+ i_category     | Music                   
+ qoh            | 442.073469              
+-RECORD 56--------------------------------
+ i_product_name | ationeingation          
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 443.782258              
+-RECORD 57--------------------------------
+ i_product_name | ationeingation          
+ i_brand        | amalgexporti #2         
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 443.782258              
+-RECORD 58--------------------------------
+ i_product_name | ationeingation          
+ i_brand        | amalgexporti #2         
+ i_class        | newborn                 
+ i_category     | null                    
+ qoh            | 443.782258              
+-RECORD 59--------------------------------
+ i_product_name | ationeingation          
+ i_brand        | amalgexporti #2         
+ i_class        | newborn                 
+ i_category     | Children                
+ qoh            | 443.782258              
+-RECORD 60--------------------------------
+ i_product_name | ationbarn stableought   
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 444.092742              
+-RECORD 61--------------------------------
+ i_product_name | ationbarn stableought   
+ i_brand        | corpbrand #8            
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 444.092742              
+-RECORD 62--------------------------------
+ i_product_name | ationbarn stableought   
+ i_brand        | corpbrand #8            
+ i_class        | rugs                    
+ i_category     | null                    
+ qoh            | 444.092742              
+-RECORD 63--------------------------------
+ i_product_name | ationbarn stableought   
+ i_brand        | corpbrand #8            
+ i_class        | rugs                    
+ i_category     | Home                    
+ qoh            | 444.092742              
+-RECORD 64--------------------------------
+ i_product_name | eseationcallyableought  
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 444.544355              
+-RECORD 65--------------------------------
+ i_product_name | eseationcallyableought  
+ i_brand        | importoexporti #1       
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 444.544355              
+-RECORD 66--------------------------------
+ i_product_name | eseationcallyableought  
+ i_brand        | importoexporti #1       
+ i_class        | infants                 
+ i_category     | null                    
+ qoh            | 444.544355              
+-RECORD 67--------------------------------
+ i_product_name | eseationcallyableought  
+ i_brand        | importoexporti #1       
+ i_class        | infants                 
+ i_category     | Children                
+ qoh            | 444.544355              
+-RECORD 68--------------------------------
+ i_product_name | eingableableationought  
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 444.714286              
+-RECORD 69--------------------------------
+ i_product_name | eingableableationought  
+ i_brand        | amalgimporto #1         
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 444.714286              
+-RECORD 70--------------------------------
+ i_product_name | eingableableationought  
+ i_brand        | amalgimporto #1         
+ i_class        | accessories             
+ i_category     | null                    
+ qoh            | 444.714286              
+-RECORD 71--------------------------------
+ i_product_name | eingableableationought  
+ i_brand        | amalgimporto #1         
+ i_class        | accessories             
+ i_category     | Men                     
+ qoh            | 444.714286              
+-RECORD 72--------------------------------
+ i_product_name | n steseantiation        
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 445.331967              
+-RECORD 73--------------------------------
+ i_product_name | n steseantiation        
+ i_brand        | univmaxi #10            
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 445.331967              
+-RECORD 74--------------------------------
+ i_product_name | n steseantiation        
+ i_brand        | univmaxi #10            
+ i_class        | pools                   
+ i_category     | null                    
+ qoh            | 445.331967              
+-RECORD 75--------------------------------
+ i_product_name | n steseantiation        
+ i_brand        | univmaxi #10            
+ i_class        | pools                   
+ i_category     | Sports                  
+ qoh            | 445.331967              
+-RECORD 76--------------------------------
+ i_product_name | antibareingantiought    
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 445.406504              
+-RECORD 77--------------------------------
+ i_product_name | antibareingantiought    
+ i_brand        | importoimporto #2       
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 445.406504              
+-RECORD 78--------------------------------
+ i_product_name | antibareingantiought    
+ i_brand        | importoimporto #2       
+ i_class        | shirts                  
+ i_category     | null                    
+ qoh            | 445.406504              
+-RECORD 79--------------------------------
+ i_product_name | antibareingantiought    
+ i_brand        | importoimporto #2       
+ i_class        | shirts                  
+ i_category     | Men                     
+ qoh            | 445.406504              
+-RECORD 80--------------------------------
+ i_product_name | ationantibarationought  
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 445.419087              
+-RECORD 81--------------------------------
+ i_product_name | ationantibarationought  
+ i_brand        | univmaxi #8             
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 445.419087              
+-RECORD 82--------------------------------
+ i_product_name | ationantibarationought  
+ i_brand        | univmaxi #8             
+ i_class        | pools                   
+ i_category     | null                    
+ qoh            | 445.419087              
+-RECORD 83--------------------------------
+ i_product_name | ationantibarationought  
+ i_brand        | univmaxi #8             
+ i_class        | pools                   
+ i_category     | Sports                  
+ qoh            | 445.419087              
+-RECORD 84--------------------------------
+ i_product_name | oughtpricallybarought   
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 445.485944              
+-RECORD 85--------------------------------
+ i_product_name | oughtpricallybarought   
+ i_brand        | edu packexporti #2      
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 445.485944              
+-RECORD 86--------------------------------
+ i_product_name | oughtpricallybarought   
+ i_brand        | edu packexporti #2      
+ i_class        | school-uniforms         
+ i_category     | null                    
+ qoh            | 445.485944              
+-RECORD 87--------------------------------
+ i_product_name | oughtpricallybarought   
+ i_brand        | edu packexporti #2      
+ i_class        | school-uniforms         
+ i_category     | Children                
+ qoh            | 445.485944              
+-RECORD 88--------------------------------
+ i_product_name | ableationprieing        
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 445.995833              
+-RECORD 89--------------------------------
+ i_product_name | ableationprieing        
+ i_brand        | amalgamalg #1           
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 445.995833              
+-RECORD 90--------------------------------
+ i_product_name | ableationprieing        
+ i_brand        | amalgamalg #1           
+ i_class        | dresses                 
+ i_category     | null                    
+ qoh            | 445.995833              
+-RECORD 91--------------------------------
+ i_product_name | ableationprieing        
+ i_brand        | amalgamalg #1           
+ i_class        | dresses                 
+ i_category     | Women                   
+ qoh            | 445.995833              
+-RECORD 92--------------------------------
+ i_product_name | pribarpribarought       
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 446.040816              
+-RECORD 93--------------------------------
+ i_product_name | pribarpribarought       
+ i_brand        | edu packimporto #2      
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 446.040816              
+-RECORD 94--------------------------------
+ i_product_name | pribarpribarought       
+ i_brand        | edu packimporto #2      
+ i_class        | sports-apparel          
+ i_category     | null                    
+ qoh            | 446.040816              
+-RECORD 95--------------------------------
+ i_product_name | pribarpribarought       
+ i_brand        | edu packimporto #2      
+ i_class        | sports-apparel          
+ i_category     | Men                     
+ qoh            | 446.040816              
+-RECORD 96--------------------------------
+ i_product_name | oughtn stprin st        
+ i_brand        | null                    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 447.266667              
+-RECORD 97--------------------------------
+ i_product_name | oughtn stprin st        
+ i_brand        | exportiamalgamalg #8    
+ i_class        | null                    
+ i_category     | null                    
+ qoh            | 447.266667              
+-RECORD 98--------------------------------
+ i_product_name | oughtn stprin st        
+ i_brand        | exportiamalgamalg #8    
+ i_class        | stereo                  
+ i_category     | null                    
+ qoh            | 447.266667              
+-RECORD 99--------------------------------
+ i_product_name | oughtn stprin st        
+ i_brand        | exportiamalgamalg #8    
+ i_class        | stereo                  
+ i_category     | Electronics             
+ qoh            | 447.266667
+           

@@ -1,0 +1,16 @@
+-RECORD 0------------------------
+ s_store_name       | able       
+ sum(ss_net_profit) | -9767751.9 
+-RECORD 1------------------------
+ s_store_name       | ation      
+ sum(ss_net_profit) | -10546550  
+-RECORD 2------------------------
+ s_store_name       | bar        
+ sum(ss_net_profit) | -10133672  
+-RECORD 3------------------------
+ s_store_name       | ese        
+ sum(ss_net_profit) | -10335181  
+-RECORD 4------------------------
+ s_store_name       | ought      
+ sum(ss_net_profit) | -10737660
+           

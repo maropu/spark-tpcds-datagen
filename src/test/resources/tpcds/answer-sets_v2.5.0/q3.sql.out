@@ -1,0 +1,446 @@
+-RECORD 0-------------------------
+ d_year   | 1998                  
+ brand_id | 2001001               
+ brand    | amalgimporto #1       
+ sum_agg  | 45162.45              
+-RECORD 1-------------------------
+ d_year   | 1998                  
+ brand_id | 5003001               
+ brand    | exportischolar #1     
+ sum_agg  | 40600.56              
+-RECORD 2-------------------------
+ d_year   | 1998                  
+ brand_id | 5001001               
+ brand    | amalgscholar #1       
+ sum_agg  | 32515.11              
+-RECORD 3-------------------------
+ d_year   | 1998                  
+ brand_id | 3004001               
+ brand    | edu packexporti #1    
+ sum_agg  | 32443.16              
+-RECORD 4-------------------------
+ d_year   | 1998                  
+ brand_id | 3001001               
+ brand    | amalgexporti #1       
+ sum_agg  | 30280.72              
+-RECORD 5-------------------------
+ d_year   | 1998                  
+ brand_id | 3001002               
+ brand    | amalgexporti #2       
+ sum_agg  | 27644.68              
+-RECORD 6-------------------------
+ d_year   | 1998                  
+ brand_id | 1003001               
+ brand    | exportiamalg #1       
+ sum_agg  | 25408.1               
+-RECORD 7-------------------------
+ d_year   | 1998                  
+ brand_id | 7007010               
+ brand    | brandbrand #10        
+ sum_agg  | 23346.45              
+-RECORD 8-------------------------
+ d_year   | 1998                  
+ brand_id | 8001009               
+ brand    | amalgnameless #9      
+ sum_agg  | 20792.57              
+-RECORD 9-------------------------
+ d_year   | 1998                  
+ brand_id | 10010002              
+ brand    | univamalgamalg #2     
+ sum_agg  | 20398.9               
+-RECORD 10------------------------
+ d_year   | 1998                  
+ brand_id | 7009008               
+ brand    | maxibrand #8          
+ sum_agg  | 19199.75              
+-RECORD 11------------------------
+ d_year   | 1998                  
+ brand_id | 6004008               
+ brand    | edu packcorp #8       
+ sum_agg  | 18022.24              
+-RECORD 12------------------------
+ d_year   | 1998                  
+ brand_id | 1004001               
+ brand    | edu packamalg #1      
+ sum_agg  | 17434.09              
+-RECORD 13------------------------
+ d_year   | 1998                  
+ brand_id | 10001002              
+ brand    | amalgunivamalg #2     
+ sum_agg  | 15434.73              
+-RECORD 14------------------------
+ d_year   | 1998                  
+ brand_id | 5004001               
+ brand    | edu packscholar #1    
+ sum_agg  | 15184.4               
+-RECORD 15------------------------
+ d_year   | 1998                  
+ brand_id | 7003009               
+ brand    | exportibrand #9       
+ sum_agg  | 11669.32              
+-RECORD 16------------------------
+ d_year   | 1998                  
+ brand_id | 1001002               
+ brand    | amalgamalg #2         
+ sum_agg  | 10725.87              
+-RECORD 17------------------------
+ d_year   | 1998                  
+ brand_id | 5003002               
+ brand    | exportischolar #2     
+ sum_agg  | 10250.29              
+-RECORD 18------------------------
+ d_year   | 1999                  
+ brand_id | 7003009               
+ brand    | exportibrand #9       
+ sum_agg  | 60081.08              
+-RECORD 19------------------------
+ d_year   | 1999                  
+ brand_id | 3004001               
+ brand    | edu packexporti #1    
+ sum_agg  | 57285.04              
+-RECORD 20------------------------
+ d_year   | 1999                  
+ brand_id | 2001001               
+ brand    | amalgimporto #1       
+ sum_agg  | 46294.06              
+-RECORD 21------------------------
+ d_year   | 1999                  
+ brand_id | 5004001               
+ brand    | edu packscholar #1    
+ sum_agg  | 29587.74              
+-RECORD 22------------------------
+ d_year   | 1999                  
+ brand_id | 1003001               
+ brand    | exportiamalg #1       
+ sum_agg  | 28354.52              
+-RECORD 23------------------------
+ d_year   | 1999                  
+ brand_id | 10001002              
+ brand    | amalgunivamalg #2     
+ sum_agg  | 25166.82              
+-RECORD 24------------------------
+ d_year   | 1999                  
+ brand_id | 5003001               
+ brand    | exportischolar #1     
+ sum_agg  | 20350.8               
+-RECORD 25------------------------
+ d_year   | 1999                  
+ brand_id | 1001002               
+ brand    | amalgamalg #2         
+ sum_agg  | 18476.51              
+-RECORD 26------------------------
+ d_year   | 1999                  
+ brand_id | 5003002               
+ brand    | exportischolar #2     
+ sum_agg  | 17769.35              
+-RECORD 27------------------------
+ d_year   | 1999                  
+ brand_id | 7009008               
+ brand    | maxibrand #8          
+ sum_agg  | 16413.03              
+-RECORD 28------------------------
+ d_year   | 1999                  
+ brand_id | 1004001               
+ brand    | edu packamalg #1      
+ sum_agg  | 14950.65              
+-RECORD 29------------------------
+ d_year   | 1999                  
+ brand_id | 6004008               
+ brand    | edu packcorp #8       
+ sum_agg  | 14524.78              
+-RECORD 30------------------------
+ d_year   | 1999                  
+ brand_id | 3001001               
+ brand    | amalgexporti #1       
+ sum_agg  | 13895.01              
+-RECORD 31------------------------
+ d_year   | 1999                  
+ brand_id | 5001001               
+ brand    | amalgscholar #1       
+ sum_agg  | 11468.36              
+-RECORD 32------------------------
+ d_year   | 1999                  
+ brand_id | 7007010               
+ brand    | brandbrand #10        
+ sum_agg  | 10103.81              
+-RECORD 33------------------------
+ d_year   | 1999                  
+ brand_id | 10010002              
+ brand    | univamalgamalg #2     
+ sum_agg  | 7640.55               
+-RECORD 34------------------------
+ d_year   | 1999                  
+ brand_id | 8001009               
+ brand    | amalgnameless #9      
+ sum_agg  | 7324.5                
+-RECORD 35------------------------
+ d_year   | 1999                  
+ brand_id | 3001002               
+ brand    | amalgexporti #2       
+ sum_agg  | 2940.88               
+-RECORD 36------------------------
+ d_year   | 2000                  
+ brand_id | 1003001               
+ brand    | exportiamalg #1       
+ sum_agg  | 35841                 
+-RECORD 37------------------------
+ d_year   | 2000                  
+ brand_id | 2001001               
+ brand    | amalgimporto #1       
+ sum_agg  | 32500.27              
+-RECORD 38------------------------
+ d_year   | 2000                  
+ brand_id | 3001002               
+ brand    | amalgexporti #2       
+ sum_agg  | 32059.56              
+-RECORD 39------------------------
+ d_year   | 2000                  
+ brand_id | 3004001               
+ brand    | edu packexporti #1    
+ sum_agg  | 29891.01              
+-RECORD 40------------------------
+ d_year   | 2000                  
+ brand_id | 1001002               
+ brand    | amalgamalg #2         
+ sum_agg  | 19888.62              
+-RECORD 41------------------------
+ d_year   | 2000                  
+ brand_id | 10001002              
+ brand    | amalgunivamalg #2     
+ sum_agg  | 19325.34              
+-RECORD 42------------------------
+ d_year   | 2000                  
+ brand_id | 3001001               
+ brand    | amalgexporti #1       
+ sum_agg  | 19261.58              
+-RECORD 43------------------------
+ d_year   | 2000                  
+ brand_id | 10008017              
+ brand    | namelessunivamalg #17 
+ sum_agg  | 17207.6               
+-RECORD 44------------------------
+ d_year   | 2000                  
+ brand_id | 5003002               
+ brand    | exportischolar #2     
+ sum_agg  | 16365.82              
+-RECORD 45------------------------
+ d_year   | 2000                  
+ brand_id | 5003001               
+ brand    | amalgunivamalg #2     
+ sum_agg  | 15140.3               
+-RECORD 46------------------------
+ d_year   | 2000                  
+ brand_id | 1004001               
+ brand    | edu packamalg #1      
+ sum_agg  | 15074.32              
+-RECORD 47------------------------
+ d_year   | 2000                  
+ brand_id | 7009008               
+ brand    | maxibrand #8          
+ sum_agg  | 15042.42              
+-RECORD 48------------------------
+ d_year   | 2000                  
+ brand_id | 5004001               
+ brand    | edu packscholar #1    
+ sum_agg  | 14744.21              
+-RECORD 49------------------------
+ d_year   | 2000                  
+ brand_id | 6004008               
+ brand    | edu packcorp #8       
+ sum_agg  | 13303.65              
+-RECORD 50------------------------
+ d_year   | 2000                  
+ brand_id | 7007010               
+ brand    | brandbrand #10        
+ sum_agg  | 12915.75              
+-RECORD 51------------------------
+ d_year   | 2000                  
+ brand_id | 7003009               
+ brand    | exportibrand #9       
+ sum_agg  | 11347.8               
+-RECORD 52------------------------
+ d_year   | 2000                  
+ brand_id | 8001009               
+ brand    | importoexporti #2     
+ sum_agg  | 10520.76              
+-RECORD 53------------------------
+ d_year   | 2001                  
+ brand_id | 1001002               
+ brand    | amalgamalg #2         
+ sum_agg  | 40840.34              
+-RECORD 54------------------------
+ d_year   | 2001                  
+ brand_id | 1004001               
+ brand    | exportiexporti #2     
+ sum_agg  | 27499.42              
+-RECORD 55------------------------
+ d_year   | 2001                  
+ brand_id | 10008017              
+ brand    | namelessunivamalg #17 
+ sum_agg  | 25766.09              
+-RECORD 56------------------------
+ d_year   | 2001                  
+ brand_id | 4001001               
+ brand    | scholaramalgamalg #15 
+ sum_agg  | 23917.98              
+-RECORD 57------------------------
+ d_year   | 2001                  
+ brand_id | 7007010               
+ brand    | brandbrand #10        
+ sum_agg  | 23807.16              
+-RECORD 58------------------------
+ d_year   | 2001                  
+ brand_id | 1003001               
+ brand    | exportiamalg #2       
+ sum_agg  | 21192.81              
+-RECORD 59------------------------
+ d_year   | 2001                  
+ brand_id | 6004008               
+ brand    | edu packcorp #8       
+ sum_agg  | 20966.17              
+-RECORD 60------------------------
+ d_year   | 2001                  
+ brand_id | 5003002               
+ brand    | exportischolar #2     
+ sum_agg  | 20410.45              
+-RECORD 61------------------------
+ d_year   | 2001                  
+ brand_id | 8001009               
+ brand    | importoexporti #2     
+ sum_agg  | 19273.11              
+-RECORD 62------------------------
+ d_year   | 2001                  
+ brand_id | 3001002               
+ brand    | amalgexporti #2       
+ sum_agg  | 18047.23              
+-RECORD 63------------------------
+ d_year   | 2001                  
+ brand_id | 6005001               
+ brand    | edu packimporto #2    
+ sum_agg  | 16801.34              
+-RECORD 64------------------------
+ d_year   | 2001                  
+ brand_id | 2001001               
+ brand    | exportischolar #2     
+ sum_agg  | 15894.57              
+-RECORD 65------------------------
+ d_year   | 2001                  
+ brand_id | 5003001               
+ brand    | amalgunivamalg #2     
+ sum_agg  | 15883.3               
+-RECORD 66------------------------
+ d_year   | 2001                  
+ brand_id | 7011010               
+ brand    | amalgnameless #10     
+ sum_agg  | 15174.18              
+-RECORD 67------------------------
+ d_year   | 2001                  
+ brand_id | 5004001               
+ brand    | edu packunivamalg #8  
+ sum_agg  | 10452.64              
+-RECORD 68------------------------
+ d_year   | 2001                  
+ brand_id | 8004010               
+ brand    | edu packnameless #10  
+ sum_agg  | 8565.95               
+-RECORD 69------------------------
+ d_year   | 2001                  
+ brand_id | 3001001               
+ brand    | importoscholar #2     
+ sum_agg  | 7765.96               
+-RECORD 70------------------------
+ d_year   | 2001                  
+ brand_id | 7009008               
+ brand    | maxibrand #8          
+ sum_agg  | 3570.11               
+-RECORD 71------------------------
+ d_year   | 2002                  
+ brand_id | 1001002               
+ brand    | amalgamalg #2         
+ sum_agg  | 57204.62              
+-RECORD 72------------------------
+ d_year   | 2002                  
+ brand_id | 6004008               
+ brand    | edu packcorp #8       
+ sum_agg  | 39584.99              
+-RECORD 73------------------------
+ d_year   | 2002                  
+ brand_id | 8004010               
+ brand    | edu packnameless #10  
+ sum_agg  | 30357.37              
+-RECORD 74------------------------
+ d_year   | 2002                  
+ brand_id | 3001002               
+ brand    | amalgexporti #2       
+ sum_agg  | 23025.23              
+-RECORD 75------------------------
+ d_year   | 2002                  
+ brand_id | 3001001               
+ brand    | importoscholar #2     
+ sum_agg  | 21157.23              
+-RECORD 76------------------------
+ d_year   | 2002                  
+ brand_id | 1003001               
+ brand    | exportiamalg #2       
+ sum_agg  | 20535.46              
+-RECORD 77------------------------
+ d_year   | 2002                  
+ brand_id | 7007010               
+ brand    | brandbrand #10        
+ sum_agg  | 19387.78              
+-RECORD 78------------------------
+ d_year   | 2002                  
+ brand_id | 7009008               
+ brand    | maxibrand #8          
+ sum_agg  | 17673.93              
+-RECORD 79------------------------
+ d_year   | 2002                  
+ brand_id | 5004001               
+ brand    | edu packunivamalg #8  
+ sum_agg  | 15175.94              
+-RECORD 80------------------------
+ d_year   | 2002                  
+ brand_id | 4001001               
+ brand    | scholaramalgamalg #15 
+ sum_agg  | 14984.83              
+-RECORD 81------------------------
+ d_year   | 2002                  
+ brand_id | 6005001               
+ brand    | edu packimporto #2    
+ sum_agg  | 14774.23              
+-RECORD 82------------------------
+ d_year   | 2002                  
+ brand_id | 1004001               
+ brand    | exportiexporti #2     
+ sum_agg  | 13016.75              
+-RECORD 83------------------------
+ d_year   | 2002                  
+ brand_id | 7011010               
+ brand    | amalgnameless #10     
+ sum_agg  | 12343.97              
+-RECORD 84------------------------
+ d_year   | 2002                  
+ brand_id | 10008017              
+ brand    | amalgedu pack #1      
+ sum_agg  | 10334.4               
+-RECORD 85------------------------
+ d_year   | 2002                  
+ brand_id | 10013016              
+ brand    | exportiamalgamalg #16 
+ sum_agg  | 8356.19               
+-RECORD 86------------------------
+ d_year   | 2002                  
+ brand_id | 5003002               
+ brand    | exportischolar #2     
+ sum_agg  | 5435.81               
+-RECORD 87------------------------
+ d_year   | 2002                  
+ brand_id | 2001001               
+ brand    | exportischolar #2     
+ sum_agg  | 4162.39               
+-RECORD 88------------------------
+ d_year   | 2002                  
+ brand_id | 5001001               
+ brand    | amalgscholar #1       
+ sum_agg  | 3537.49
+           

@@ -1,0 +1,397 @@
+-RECORD 0------------------------
+ i_manager_id      | 1           
+ sum_sales         | 203.73      
+ avg_monthly_sales | 531.919167  
+-RECORD 1------------------------
+ i_manager_id      | 1           
+ sum_sales         | 355.17      
+ avg_monthly_sales | 531.919167  
+-RECORD 2------------------------
+ i_manager_id      | 1           
+ sum_sales         | 359.53      
+ avg_monthly_sales | 531.919167  
+-RECORD 3------------------------
+ i_manager_id      | 1           
+ sum_sales         | 365.84      
+ avg_monthly_sales | 531.919167  
+-RECORD 4------------------------
+ i_manager_id      | 1           
+ sum_sales         | 373.26      
+ avg_monthly_sales | 531.919167  
+-RECORD 5------------------------
+ i_manager_id      | 1           
+ sum_sales         | 430.03      
+ avg_monthly_sales | 531.919167  
+-RECORD 6------------------------
+ i_manager_id      | 1           
+ sum_sales         | 698.60      
+ avg_monthly_sales | 531.919167  
+-RECORD 7------------------------
+ i_manager_id      | 1           
+ sum_sales         | 909.18      
+ avg_monthly_sales | 531.919167  
+-RECORD 8------------------------
+ i_manager_id      | 1           
+ sum_sales         | 995.02      
+ avg_monthly_sales | 531.919167  
+-RECORD 9------------------------
+ i_manager_id      | 1           
+ sum_sales         | 998.95      
+ avg_monthly_sales | 531.919167  
+-RECORD 10-----------------------
+ i_manager_id      | 2           
+ sum_sales         | 34.79       
+ avg_monthly_sales | 625.031667  
+-RECORD 11-----------------------
+ i_manager_id      | 2           
+ sum_sales         | 143.64      
+ avg_monthly_sales | 625.031667  
+-RECORD 12-----------------------
+ i_manager_id      | 2           
+ sum_sales         | 253.85      
+ avg_monthly_sales | 625.031667  
+-RECORD 13-----------------------
+ i_manager_id      | 2           
+ sum_sales         | 359.05      
+ avg_monthly_sales | 625.031667  
+-RECORD 14-----------------------
+ i_manager_id      | 2           
+ sum_sales         | 445.59      
+ avg_monthly_sales | 625.031667  
+-RECORD 15-----------------------
+ i_manager_id      | 2           
+ sum_sales         | 499.99      
+ avg_monthly_sales | 625.031667  
+-RECORD 16-----------------------
+ i_manager_id      | 2           
+ sum_sales         | 538.36      
+ avg_monthly_sales | 625.031667  
+-RECORD 17-----------------------
+ i_manager_id      | 2           
+ sum_sales         | 780.07      
+ avg_monthly_sales | 625.031667  
+-RECORD 18-----------------------
+ i_manager_id      | 2           
+ sum_sales         | 1487.82     
+ avg_monthly_sales | 625.031667  
+-RECORD 19-----------------------
+ i_manager_id      | 2           
+ sum_sales         | 1660.48     
+ avg_monthly_sales | 625.031667  
+-RECORD 20-----------------------
+ i_manager_id      | 3           
+ sum_sales         | 270.10      
+ avg_monthly_sales | 988.293333  
+-RECORD 21-----------------------
+ i_manager_id      | 3           
+ sum_sales         | 367.94      
+ avg_monthly_sales | 988.293333  
+-RECORD 22-----------------------
+ i_manager_id      | 3           
+ sum_sales         | 491.20      
+ avg_monthly_sales | 988.293333  
+-RECORD 23-----------------------
+ i_manager_id      | 3           
+ sum_sales         | 529.42      
+ avg_monthly_sales | 988.293333  
+-RECORD 24-----------------------
+ i_manager_id      | 3           
+ sum_sales         | 629.34      
+ avg_monthly_sales | 988.293333  
+-RECORD 25-----------------------
+ i_manager_id      | 3           
+ sum_sales         | 757.70      
+ avg_monthly_sales | 988.293333  
+-RECORD 26-----------------------
+ i_manager_id      | 3           
+ sum_sales         | 1161.47     
+ avg_monthly_sales | 988.293333  
+-RECORD 27-----------------------
+ i_manager_id      | 3           
+ sum_sales         | 1234.30     
+ avg_monthly_sales | 988.293333  
+-RECORD 28-----------------------
+ i_manager_id      | 3           
+ sum_sales         | 1251.01     
+ avg_monthly_sales | 988.293333  
+-RECORD 29-----------------------
+ i_manager_id      | 3           
+ sum_sales         | 1522.49     
+ avg_monthly_sales | 988.293333  
+-RECORD 30-----------------------
+ i_manager_id      | 3           
+ sum_sales         | 2624.04     
+ avg_monthly_sales | 988.293333  
+-RECORD 31-----------------------
+ i_manager_id      | 5           
+ sum_sales         | 353.24      
+ avg_monthly_sales | 1169.482500 
+-RECORD 32-----------------------
+ i_manager_id      | 5           
+ sum_sales         | 581.28      
+ avg_monthly_sales | 1169.482500 
+-RECORD 33-----------------------
+ i_manager_id      | 5           
+ sum_sales         | 694.79      
+ avg_monthly_sales | 1169.482500 
+-RECORD 34-----------------------
+ i_manager_id      | 5           
+ sum_sales         | 696.66      
+ avg_monthly_sales | 1169.482500 
+-RECORD 35-----------------------
+ i_manager_id      | 5           
+ sum_sales         | 740.99      
+ avg_monthly_sales | 1169.482500 
+-RECORD 36-----------------------
+ i_manager_id      | 5           
+ sum_sales         | 890.86      
+ avg_monthly_sales | 1169.482500 
+-RECORD 37-----------------------
+ i_manager_id      | 5           
+ sum_sales         | 955.61      
+ avg_monthly_sales | 1169.482500 
+-RECORD 38-----------------------
+ i_manager_id      | 5           
+ sum_sales         | 1359.61     
+ avg_monthly_sales | 1169.482500 
+-RECORD 39-----------------------
+ i_manager_id      | 5           
+ sum_sales         | 1712.35     
+ avg_monthly_sales | 1169.482500 
+-RECORD 40-----------------------
+ i_manager_id      | 5           
+ sum_sales         | 1794.66     
+ avg_monthly_sales | 1169.482500 
+-RECORD 41-----------------------
+ i_manager_id      | 5           
+ sum_sales         | 2080.16     
+ avg_monthly_sales | 1169.482500 
+-RECORD 42-----------------------
+ i_manager_id      | 5           
+ sum_sales         | 2173.58     
+ avg_monthly_sales | 1169.482500 
+-RECORD 43-----------------------
+ i_manager_id      | 6           
+ sum_sales         | 644.61      
+ avg_monthly_sales | 1772.998333 
+-RECORD 44-----------------------
+ i_manager_id      | 6           
+ sum_sales         | 851.23      
+ avg_monthly_sales | 1772.998333 
+-RECORD 45-----------------------
+ i_manager_id      | 6           
+ sum_sales         | 868.62      
+ avg_monthly_sales | 1772.998333 
+-RECORD 46-----------------------
+ i_manager_id      | 6           
+ sum_sales         | 1056.06     
+ avg_monthly_sales | 1772.998333 
+-RECORD 47-----------------------
+ i_manager_id      | 6           
+ sum_sales         | 1150.40     
+ avg_monthly_sales | 1772.998333 
+-RECORD 48-----------------------
+ i_manager_id      | 6           
+ sum_sales         | 1196.50     
+ avg_monthly_sales | 1772.998333 
+-RECORD 49-----------------------
+ i_manager_id      | 6           
+ sum_sales         | 1551.15     
+ avg_monthly_sales | 1772.998333 
+-RECORD 50-----------------------
+ i_manager_id      | 6           
+ sum_sales         | 2576.64     
+ avg_monthly_sales | 1772.998333 
+-RECORD 51-----------------------
+ i_manager_id      | 6           
+ sum_sales         | 2875.54     
+ avg_monthly_sales | 1772.998333 
+-RECORD 52-----------------------
+ i_manager_id      | 6           
+ sum_sales         | 3299.70     
+ avg_monthly_sales | 1772.998333 
+-RECORD 53-----------------------
+ i_manager_id      | 6           
+ sum_sales         | 3309.13     
+ avg_monthly_sales | 1772.998333 
+-RECORD 54-----------------------
+ i_manager_id      | 7           
+ sum_sales         | 638.30      
+ avg_monthly_sales | 1499.657500 
+-RECORD 55-----------------------
+ i_manager_id      | 7           
+ sum_sales         | 663.54      
+ avg_monthly_sales | 1499.657500 
+-RECORD 56-----------------------
+ i_manager_id      | 7           
+ sum_sales         | 779.65      
+ avg_monthly_sales | 1499.657500 
+-RECORD 57-----------------------
+ i_manager_id      | 7           
+ sum_sales         | 800.25      
+ avg_monthly_sales | 1499.657500 
+-RECORD 58-----------------------
+ i_manager_id      | 7           
+ sum_sales         | 811.54      
+ avg_monthly_sales | 1499.657500 
+-RECORD 59-----------------------
+ i_manager_id      | 7           
+ sum_sales         | 987.78      
+ avg_monthly_sales | 1499.657500 
+-RECORD 60-----------------------
+ i_manager_id      | 7           
+ sum_sales         | 1046.24     
+ avg_monthly_sales | 1499.657500 
+-RECORD 61-----------------------
+ i_manager_id      | 7           
+ sum_sales         | 1667.92     
+ avg_monthly_sales | 1499.657500 
+-RECORD 62-----------------------
+ i_manager_id      | 7           
+ sum_sales         | 2750.32     
+ avg_monthly_sales | 1499.657500 
+-RECORD 63-----------------------
+ i_manager_id      | 7           
+ sum_sales         | 2970.80     
+ avg_monthly_sales | 1499.657500 
+-RECORD 64-----------------------
+ i_manager_id      | 7           
+ sum_sales         | 3524.00     
+ avg_monthly_sales | 1499.657500 
+-RECORD 65-----------------------
+ i_manager_id      | 8           
+ sum_sales         | 803.53      
+ avg_monthly_sales | 1618.954167 
+-RECORD 66-----------------------
+ i_manager_id      | 8           
+ sum_sales         | 819.18      
+ avg_monthly_sales | 1618.954167 
+-RECORD 67-----------------------
+ i_manager_id      | 8           
+ sum_sales         | 933.76      
+ avg_monthly_sales | 1618.954167 
+-RECORD 68-----------------------
+ i_manager_id      | 8           
+ sum_sales         | 944.19      
+ avg_monthly_sales | 1618.954167 
+-RECORD 69-----------------------
+ i_manager_id      | 8           
+ sum_sales         | 1019.24     
+ avg_monthly_sales | 1618.954167 
+-RECORD 70-----------------------
+ i_manager_id      | 8           
+ sum_sales         | 1159.06     
+ avg_monthly_sales | 1618.954167 
+-RECORD 71-----------------------
+ i_manager_id      | 8           
+ sum_sales         | 1290.94     
+ avg_monthly_sales | 1618.954167 
+-RECORD 72-----------------------
+ i_manager_id      | 8           
+ sum_sales         | 2168.17     
+ avg_monthly_sales | 1618.954167 
+-RECORD 73-----------------------
+ i_manager_id      | 8           
+ sum_sales         | 2264.18     
+ avg_monthly_sales | 1618.954167 
+-RECORD 74-----------------------
+ i_manager_id      | 8           
+ sum_sales         | 3033.41     
+ avg_monthly_sales | 1618.954167 
+-RECORD 75-----------------------
+ i_manager_id      | 8           
+ sum_sales         | 3213.77     
+ avg_monthly_sales | 1618.954167 
+-RECORD 76-----------------------
+ i_manager_id      | 9           
+ sum_sales         | 315.31      
+ avg_monthly_sales | 1509.977500 
+-RECORD 77-----------------------
+ i_manager_id      | 9           
+ sum_sales         | 559.82      
+ avg_monthly_sales | 1509.977500 
+-RECORD 78-----------------------
+ i_manager_id      | 9           
+ sum_sales         | 728.72      
+ avg_monthly_sales | 1509.977500 
+-RECORD 79-----------------------
+ i_manager_id      | 9           
+ sum_sales         | 784.15      
+ avg_monthly_sales | 1509.977500 
+-RECORD 80-----------------------
+ i_manager_id      | 9           
+ sum_sales         | 923.36      
+ avg_monthly_sales | 1509.977500 
+-RECORD 81-----------------------
+ i_manager_id      | 9           
+ sum_sales         | 933.68      
+ avg_monthly_sales | 1509.977500 
+-RECORD 82-----------------------
+ i_manager_id      | 9           
+ sum_sales         | 1239.49     
+ avg_monthly_sales | 1509.977500 
+-RECORD 83-----------------------
+ i_manager_id      | 9           
+ sum_sales         | 1848.85     
+ avg_monthly_sales | 1509.977500 
+-RECORD 84-----------------------
+ i_manager_id      | 9           
+ sum_sales         | 2172.04     
+ avg_monthly_sales | 1509.977500 
+-RECORD 85-----------------------
+ i_manager_id      | 9           
+ sum_sales         | 2178.07     
+ avg_monthly_sales | 1509.977500 
+-RECORD 86-----------------------
+ i_manager_id      | 9           
+ sum_sales         | 3165.98     
+ avg_monthly_sales | 1509.977500 
+-RECORD 87-----------------------
+ i_manager_id      | 9           
+ sum_sales         | 3270.26     
+ avg_monthly_sales | 1509.977500 
+-RECORD 88-----------------------
+ i_manager_id      | 10          
+ sum_sales         | 314.30      
+ avg_monthly_sales | 1125.259167 
+-RECORD 89-----------------------
+ i_manager_id      | 10          
+ sum_sales         | 365.57      
+ avg_monthly_sales | 1125.259167 
+-RECORD 90-----------------------
+ i_manager_id      | 10          
+ sum_sales         | 591.30      
+ avg_monthly_sales | 1125.259167 
+-RECORD 91-----------------------
+ i_manager_id      | 10          
+ sum_sales         | 760.81      
+ avg_monthly_sales | 1125.259167 
+-RECORD 92-----------------------
+ i_manager_id      | 10          
+ sum_sales         | 776.91      
+ avg_monthly_sales | 1125.259167 
+-RECORD 93-----------------------
+ i_manager_id      | 10          
+ sum_sales         | 959.65      
+ avg_monthly_sales | 1125.259167 
+-RECORD 94-----------------------
+ i_manager_id      | 10          
+ sum_sales         | 975.25      
+ avg_monthly_sales | 1125.259167 
+-RECORD 95-----------------------
+ i_manager_id      | 10          
+ sum_sales         | 1294.20     
+ avg_monthly_sales | 1125.259167 
+-RECORD 96-----------------------
+ i_manager_id      | 10          
+ sum_sales         | 1342.05     
+ avg_monthly_sales | 1125.259167 
+-RECORD 97-----------------------
+ i_manager_id      | 10          
+ sum_sales         | 1914.64     
+ avg_monthly_sales | 1125.259167 
+-RECORD 98-----------------------
+ i_manager_id      | 10          
+ sum_sales         | 3105.53     
+ avg_monthly_sales | 1125.259167
+           

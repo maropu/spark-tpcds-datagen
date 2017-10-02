@@ -1,0 +1,221 @@
+-RECORD 0--------------------------------
+ product_name    | n stableableantiought 
+ store_name      | able                  
+ store_zip       | 31904                 
+ b_street_number | 987                   
+ b_streen_name   | Hillcrest             
+ b_city          | Fairbanks             
+ b_zip           | 46653                 
+ c_street_number | 216                   
+ c_street_name   | 3rd                   
+ c_city          | Reno                  
+ c_zip           | 40344                 
+ syear11         | 1999                  
+ cnt12           | 1                     
+ s113            | 55.42                 
+ s214            | 80.91                 
+ s315            | 954.53                
+ s116            | 59.08                 
+ s217            | 76.8                  
+ s318            | 0                     
+ syear19         | 2000                  
+ cnt20           | 1                     
+-RECORD 1--------------------------------
+ product_name    | n stableableantiought 
+ store_name      | ation                 
+ store_zip       | 31904                 
+ b_street_number | 173                   
+ b_streen_name   | Park Maple            
+ b_city          | Sulphur Springs       
+ b_zip           | 68354                 
+ c_street_number | 232                   
+ c_street_name   | Franklin              
+ c_city          | Fairfield66192        
+ c_zip           | 1999                  
+ syear11         | 1                     
+ cnt12           | 60.78                 
+ s113            | 85.09                 
+ s214            | 0                     
+ s315            | 44.27                 
+ s116            | 58.43                 
+ s217            | 0                     
+ s318            | 2000                  
+ syear19         | 1                     
+ cnt20           | null                  
+-RECORD 2--------------------------------
+ product_name    | n stableableantiought 
+ store_name      | ation                 
+ store_zip       | 31904                 
+ b_street_number | 316                   
+ b_streen_name   | Valley Tenth          
+ b_city          | Pine Grove            
+ b_zip           | 74593                 
+ c_street_number | 806                   
+ c_street_name   | Wilson                
+ c_city          | Main                  
+ c_zip           | Jackson               
+ syear11         | 59583                 
+ cnt12           | 1999                  
+ s113            | 1                     
+ s214            | 49.63                 
+ s315            | 78.41                 
+ s116            | 14.22                 
+ s217            | 44.27                 
+ s318            | 58.43                 
+ syear19         | 0                     
+ cnt20           | 2000                  
+-RECORD 3--------------------------------
+ product_name    | n stableableantiought 
+ store_name      | ation                 
+ store_zip       | 31904                 
+ b_street_number | 425                   
+ b_streen_name   | Green                 
+ b_city          | Enterprise            
+ b_zip           | 11757                 
+ c_street_number | 772                   
+ c_street_name   | Valley                
+ c_city          | 1999                  
+ c_zip           | 1                     
+ syear11         | 16.24                 
+ cnt12           | 25.17                 
+ s113            | 0                     
+ s214            | 7.92                  
+ s315            | 11.8                  
+ s116            | 0                     
+ s217            | 2000                  
+ s318            | 1                     
+ syear19         | null                  
+ cnt20           | null                  
+-RECORD 4--------------------------------
+ product_name    | n stableableantiought 
+ store_name      | ation                 
+ store_zip       | 31904                 
+ b_street_number | 173                   
+ b_streen_name   | Park Maple            
+ b_city          | Sulphur Springs       
+ b_zip           | 68354                 
+ c_street_number | 232                   
+ c_street_name   | Franklin              
+ c_city          | Fairfield66192        
+ c_zip           | 1999                  
+ syear11         | 1                     
+ cnt12           | 60.78                 
+ s113            | 85.09                 
+ s214            | 0                     
+ s315            | 7.92                  
+ s116            | 11.8                  
+ s217            | 0                     
+ s318            | 2000                  
+ syear19         | 1                     
+ cnt20           | null                  
+-RECORD 5--------------------------------
+ product_name    | n stableableantiought 
+ store_name      | ation                 
+ store_zip       | 31904                 
+ b_street_number | 316                   
+ b_streen_name   | Valley Tenth          
+ b_city          | Pine Grove            
+ b_zip           | 74593                 
+ c_street_number | 806                   
+ c_street_name   | Wilson                
+ c_city          | Main                  
+ c_zip           | Jackson               
+ syear11         | 59583                 
+ cnt12           | 1999                  
+ s113            | 1                     
+ s214            | 49.63                 
+ s315            | 78.41                 
+ s116            | 14.22                 
+ s217            | 7.92                  
+ s318            | 11.8                  
+ syear19         | 0                     
+ cnt20           | 2000                  
+-RECORD 6--------------------------------
+ product_name    | n stableableantiought 
+ store_name      | ation                 
+ store_zip       | 31904                 
+ b_street_number | 425                   
+ b_streen_name   | Green                 
+ b_city          | Enterprise            
+ b_zip           | 11757                 
+ c_street_number | 772                   
+ c_street_name   | Valley                
+ c_city          | 1999                  
+ c_zip           | 1                     
+ syear11         | 16.24                 
+ cnt12           | 25.17                 
+ s113            | 0                     
+ s214            | 44.27                 
+ s315            | 58.43                 
+ s116            | 0                     
+ s217            | 2000                  
+ s318            | 1                     
+ syear19         | null                  
+ cnt20           | null                  
+-RECORD 7--------------------------------
+ product_name    | n stableableantiought 
+ store_name      | eing                  
+ store_zip       | 35709                 
+ b_street_number | 928                   
+ b_streen_name   | First Oak             
+ b_city          | Summit                
+ b_zip           | 40499                 
+ c_street_number | 178                   
+ c_street_name   | Johnson               
+ c_city          | Hillcrest             
+ c_zip           | Oakdale               
+ syear11         | 59584                 
+ cnt12           | 1999                  
+ s113            | 1                     
+ s214            | 63.82                 
+ s315            | 121.25                
+ s116            | 0                     
+ s217            | 58.19                 
+ s318            | 85.53                 
+ syear19         | 0                     
+ cnt20           | 2000                  
+-RECORD 8--------------------------------
+ product_name    | n stableableantiought 
+ store_name      | eing                  
+ store_zip       | 35709                 
+ b_street_number | 928                   
+ b_streen_name   | First Oak             
+ b_city          | Summit                
+ b_zip           | 40499                 
+ c_street_number | 178                   
+ c_street_name   | Johnson               
+ c_city          | Hillcrest             
+ c_zip           | Oakdale               
+ syear11         | 59584                 
+ cnt12           | 1999                  
+ s113            | 1                     
+ s214            | 63.82                 
+ s315            | 121.25                
+ s116            | 0                     
+ s217            | 10.25                 
+ s318            | 12.09                 
+ syear19         | 0                     
+ cnt20           | 2000                  
+-RECORD 9--------------------------------
+ product_name    | n stableableantiought 
+ store_name      | eing                  
+ store_zip       | 35709                 
+ b_street_number | 928                   
+ b_streen_name   | First Oak             
+ b_city          | Summit                
+ b_zip           | 40499                 
+ c_street_number | 178                   
+ c_street_name   | Johnson               
+ c_city          | Hillcrest             
+ c_zip           | Oakdale               
+ syear11         | 59584                 
+ cnt12           | 1999                  
+ s113            | 1                     
+ s214            | 63.82                 
+ s315            | 121.25                
+ s116            | 0                     
+ s217            | 30.28                 
+ s318            | 49.65                 
+ syear19         | 0                     
+ cnt20           | 2000
+           

@@ -1,0 +1,901 @@
+-RECORD 0------------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ese               
+ s_company_name    | Unknown           
+ d_moy             | 3                 
+ sum_sales         | 2070.65           
+ avg_monthly_sales | 5492.8175         
+-RECORD 1------------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ought             
+ s_company_name    | Unknown           
+ d_moy             | 6                 
+ sum_sales         | 2152.15           
+ avg_monthly_sales | 5045.75833        
+-RECORD 2------------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 2333.43           
+ avg_monthly_sales | 5194.81833        
+-RECORD 3------------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ese               
+ s_company_name    | Unknown           
+ d_moy             | 6                 
+ sum_sales         | 2691.33           
+ avg_monthly_sales | 5492.8175         
+-RECORD 4------------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ought             
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 2253.7            
+ avg_monthly_sales | 5045.75833        
+-RECORD 5------------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 6                 
+ sum_sales         | 1761.81           
+ avg_monthly_sales | 4507.24           
+-RECORD 6------------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 3                 
+ sum_sales         | 2672.68           
+ avg_monthly_sales | 5410.91667        
+-RECORD 7------------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 2677.81           
+ avg_monthly_sales | 5410.91667        
+-RECORD 8------------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 2356.88           
+ avg_monthly_sales | 5074.07667        
+-RECORD 9------------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ese               
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 2784.11           
+ avg_monthly_sales | 5492.8175         
+-RECORD 10-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ought             
+ s_company_name    | Unknown           
+ d_moy             | 7                 
+ sum_sales         | 1926.67           
+ avg_monthly_sales | 4619.7075         
+-RECORD 11-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ought             
+ s_company_name    | Unknown           
+ d_moy             | 1                 
+ sum_sales         | 2065.94           
+ avg_monthly_sales | 4619.7075         
+-RECORD 12-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 6                 
+ sum_sales         | 2881.34           
+ avg_monthly_sales | 5410.91667        
+-RECORD 13-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 3                 
+ sum_sales         | 2674.91           
+ avg_monthly_sales | 5194.81833        
+-RECORD 14-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 2192.31           
+ avg_monthly_sales | 4690.89           
+-RECORD 15-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 2475.9            
+ avg_monthly_sales | 4973.50917        
+-RECORD 16-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ese               
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 2146.52           
+ avg_monthly_sales | 4642.99083        
+-RECORD 17-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 2588.02           
+ avg_monthly_sales | 5074.07667        
+-RECORD 18-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 7                 
+ sum_sales         | 2428.75           
+ avg_monthly_sales | 4914.11833        
+-RECORD 19-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 3                 
+ sum_sales         | 2451.51           
+ avg_monthly_sales | 4914.11833        
+-RECORD 20-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 7                 
+ sum_sales         | 2951.67           
+ avg_monthly_sales | 5410.91667        
+-RECORD 21-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 1                 
+ sum_sales         | 2765.75           
+ avg_monthly_sales | 5194.81833        
+-RECORD 22-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 2082.54           
+ avg_monthly_sales | 4507.24           
+-RECORD 23-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 2988.08           
+ avg_monthly_sales | 5410.91667        
+-RECORD 24-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ought             
+ s_company_name    | Unknown           
+ d_moy             | 7                 
+ sum_sales         | 2667.92           
+ avg_monthly_sales | 5045.75833        
+-RECORD 25-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 2549.27           
+ avg_monthly_sales | 4914.11833        
+-RECORD 26-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ese               
+ s_company_name    | Unknown           
+ d_moy             | 7                 
+ sum_sales         | 2307              
+ avg_monthly_sales | 4642.99083        
+-RECORD 27-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 2204.15           
+ avg_monthly_sales | 4528.8225         
+-RECORD 28-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 7                 
+ sum_sales         | 2880.34           
+ avg_monthly_sales | 5194.81833        
+-RECORD 29-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ese               
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 3210.74           
+ avg_monthly_sales | 5492.8175         
+-RECORD 30-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 2418.39           
+ avg_monthly_sales | 4690.89           
+-RECORD 31-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 2833.4            
+ avg_monthly_sales | 5074.07667        
+-RECORD 32-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 2692.79           
+ avg_monthly_sales | 4914.11833        
+-RECORD 33-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 6                 
+ sum_sales         | 2854.62           
+ avg_monthly_sales | 5074.07667        
+-RECORD 34-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 6                 
+ sum_sales         | 2314.71           
+ avg_monthly_sales | 4528.8225         
+-RECORD 35-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ought             
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 2834.94           
+ avg_monthly_sales | 5045.75833        
+-RECORD 36-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 2480.25           
+ avg_monthly_sales | 4690.89           
+-RECORD 37-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 7                 
+ sum_sales         | 2302.21           
+ avg_monthly_sales | 4507.24           
+-RECORD 38-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 6                 
+ sum_sales         | 2501.15           
+ avg_monthly_sales | 4690.89           
+-RECORD 39-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ese               
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 3307.78           
+ avg_monthly_sales | 5492.8175         
+-RECORD 40-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 3016.43           
+ avg_monthly_sales | 5194.81833        
+-RECORD 41-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 3040.23           
+ avg_monthly_sales | 5194.81833        
+-RECORD 42-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 2420.31           
+ avg_monthly_sales | 4528.8225         
+-RECORD 43-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ese               
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 2535.8            
+ avg_monthly_sales | 4642.99083        
+-RECORD 44-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ought             
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 2521.7            
+ avg_monthly_sales | 4619.7075         
+-RECORD 45-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 3                 
+ sum_sales         | 2877.96           
+ avg_monthly_sales | 4973.50917        
+-RECORD 46-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ese               
+ s_company_name    | Unknown           
+ d_moy             | 3                 
+ sum_sales         | 2577.15           
+ avg_monthly_sales | 4642.99083        
+-RECORD 47-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 7                 
+ sum_sales         | 2637.27           
+ avg_monthly_sales | 4690.89           
+-RECORD 48-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 1                 
+ sum_sales         | 3380.16           
+ avg_monthly_sales | 5410.91667        
+-RECORD 49-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 7                 
+ sum_sales         | 2524.32           
+ avg_monthly_sales | 4528.8225         
+-RECORD 50-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 2986.7            
+ avg_monthly_sales | 4973.50917        
+-RECORD 51-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ought             
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 2648.8            
+ avg_monthly_sales | 4619.7075         
+-RECORD 52-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 7                 
+ sum_sales         | 3026.41           
+ avg_monthly_sales | 4973.50917        
+-RECORD 53-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 3                 
+ sum_sales         | 2751.11           
+ avg_monthly_sales | 4690.89           
+-RECORD 54-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 3073.45           
+ avg_monthly_sales | 4973.50917        
+-RECORD 55-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 3                 
+ sum_sales         | 3179.96           
+ avg_monthly_sales | 5074.07667        
+-RECORD 56-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 1                 
+ sum_sales         | 2797.07           
+ avg_monthly_sales | 4690.89           
+-RECORD 57-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 1                 
+ sum_sales         | 2621.05           
+ avg_monthly_sales | 4507.24           
+-RECORD 58-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ese               
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 2808.36           
+ avg_monthly_sales | 4642.99083        
+-RECORD 59-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 6                 
+ sum_sales         | 680.47            
+ avg_monthly_sales | 2506.96333        
+-RECORD 60-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 3591.65           
+ avg_monthly_sales | 5410.91667        
+-RECORD 61-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 3                 
+ sum_sales         | 2706.15           
+ avg_monthly_sales | 4507.24           
+-RECORD 62-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 773.08            
+ avg_monthly_sales | 2569.34667        
+-RECORD 63-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 6                 
+ sum_sales         | 3199.08           
+ avg_monthly_sales | 4973.50917        
+-RECORD 64-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ese               
+ s_company_name    | Unknown           
+ d_moy             | 7                 
+ sum_sales         | 3754.33           
+ avg_monthly_sales | 5492.8175         
+-RECORD 65-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 3190.77           
+ avg_monthly_sales | 4914.11833        
+-RECORD 66-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 2841.88           
+ avg_monthly_sales | 4528.8225         
+-RECORD 67-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 6                 
+ sum_sales         | 3538.25           
+ avg_monthly_sales | 5194.81833        
+-RECORD 68-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ese               
+ s_company_name    | Unknown           
+ d_moy             | 6                 
+ sum_sales         | 3006.94           
+ avg_monthly_sales | 4642.99083        
+-RECORD 69-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 1                 
+ sum_sales         | 3284.93           
+ avg_monthly_sales | 4914.11833        
+-RECORD 70-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 878.42            
+ avg_monthly_sales | 2506.96333        
+-RECORD 71-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 2891.95           
+ avg_monthly_sales | 4507.24           
+-RECORD 72-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 7                 
+ sum_sales         | 3465.77           
+ avg_monthly_sales | 5074.07667        
+-RECORD 73-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 3                 
+ sum_sales         | 964.29            
+ avg_monthly_sales | 2569.34667        
+-RECORD 74-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 6                 
+ sum_sales         | 3324.49           
+ avg_monthly_sales | 4914.11833        
+-RECORD 75-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ought             
+ s_company_name    | Unknown           
+ d_moy             | 3                 
+ sum_sales         | 3467.09           
+ avg_monthly_sales | 5045.75833        
+-RECORD 76-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | ought             
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 3049.25           
+ avg_monthly_sales | 4619.7075         
+-RECORD 77-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 3                 
+ sum_sales         | 2978.07           
+ avg_monthly_sales | 4528.8225         
+-RECORD 78-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | ought             
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 3544.97           
+ avg_monthly_sales | 5045.75833        
+-RECORD 79-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | bar               
+ s_company_name    | Unknown           
+ d_moy             | 1                 
+ sum_sales         | 3490.62           
+ avg_monthly_sales | 4973.50917        
+-RECORD 80-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #2 
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 628.63            
+ avg_monthly_sales | 2095.47083        
+-RECORD 81-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #1 
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 1                 
+ sum_sales         | 3628.21           
+ avg_monthly_sales | 5074.07667        
+-RECORD 82-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #1     
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 3082.17           
+ avg_monthly_sales | 4507.24           
+-RECORD 83-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #2 
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 765.86            
+ avg_monthly_sales | 2137.65667        
+-RECORD 84-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 1064.7            
+ avg_monthly_sales | 2431.22667        
+-RECORD 85-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | ought             
+ s_company_name    | Unknown           
+ d_moy             | 3                 
+ sum_sales         | 991.89            
+ avg_monthly_sales | 2355.44167        
+-RECORD 86-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 1211.13           
+ avg_monthly_sales | 2569.34667        
+-RECORD 87-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 7                 
+ sum_sales         | 1078.41           
+ avg_monthly_sales | 2431.22667        
+-RECORD 88-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #2 
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 807.67            
+ avg_monthly_sales | 2141.06           
+-RECORD 89-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | ation             
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 1102.89           
+ avg_monthly_sales | 2431.22667        
+-RECORD 90-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 6                 
+ sum_sales         | 1247.86           
+ avg_monthly_sales | 2569.34667        
+-RECORD 91-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 1020.39           
+ avg_monthly_sales | 2337.27833        
+-RECORD 92-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #2 
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 7                 
+ sum_sales         | 780.91            
+ avg_monthly_sales | 2095.47083        
+-RECORD 93-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | ese               
+ s_company_name    | Unknown           
+ d_moy             | 2                 
+ sum_sales         | 904.34            
+ avg_monthly_sales | 2200.82083        
+-RECORD 94-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | ought             
+ s_company_name    | Unknown           
+ d_moy             | 7                 
+ sum_sales         | 1061.87           
+ avg_monthly_sales | 2355.44167        
+-RECORD 95-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 3                 
+ sum_sales         | 1054.94           
+ avg_monthly_sales | 2337.27833        
+-RECORD 96-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #2 
+ s_store_name      | ought             
+ s_company_name    | Unknown           
+ d_moy             | 6                 
+ sum_sales         | 633.96            
+ avg_monthly_sales | 1908.05667        
+-RECORD 97-----------------------------
+ i_category        | Men               
+ i_class           | shirts            
+ i_brand           | importoimporto #2 
+ s_store_name      | ese               
+ s_company_name    | Unknown           
+ d_moy             | 6                 
+ sum_sales         | 853.37            
+ avg_monthly_sales | 2113.57333        
+-RECORD 98-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | able              
+ s_company_name    | Unknown           
+ d_moy             | 5                 
+ sum_sales         | 1084.94           
+ avg_monthly_sales | 2337.27833        
+-RECORD 99-----------------------------
+ i_category        | Women             
+ i_class           | dresses           
+ i_brand           | amalgamalg #2     
+ s_store_name      | eing              
+ s_company_name    | Unknown           
+ d_moy             | 4                 
+ sum_sales         | 1317.08           
+ avg_monthly_sales | 2569.34667
+           

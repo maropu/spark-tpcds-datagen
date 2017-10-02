@@ -1,0 +1,397 @@
+-RECORD 0-------------------------
+ i_manufact_id       | 30         
+ sum_sales           | 247.07     
+ avg_quarterly_sales | 340.635000 
+-RECORD 1-------------------------
+ i_manufact_id       | 30         
+ sum_sales           | 627.63     
+ avg_quarterly_sales | 340.635000 
+-RECORD 2-------------------------
+ i_manufact_id       | 619        
+ sum_sales           | 158.76     
+ avg_quarterly_sales | 348.640000 
+-RECORD 3-------------------------
+ i_manufact_id       | 619        
+ sum_sales           | 210.81     
+ avg_quarterly_sales | 348.640000 
+-RECORD 4-------------------------
+ i_manufact_id       | 619        
+ sum_sales           | 464.26     
+ avg_quarterly_sales | 348.640000 
+-RECORD 5-------------------------
+ i_manufact_id       | 619        
+ sum_sales           | 560.73     
+ avg_quarterly_sales | 348.640000 
+-RECORD 6-------------------------
+ i_manufact_id       | 271        
+ sum_sales           | 79.26      
+ avg_quarterly_sales | 354.330000 
+-RECORD 7-------------------------
+ i_manufact_id       | 271        
+ sum_sales           | 86.87      
+ avg_quarterly_sales | 354.330000 
+-RECORD 8-------------------------
+ i_manufact_id       | 271        
+ sum_sales           | 179.61     
+ avg_quarterly_sales | 354.330000 
+-RECORD 9-------------------------
+ i_manufact_id       | 271        
+ sum_sales           | 1071.58    
+ avg_quarterly_sales | 354.330000 
+-RECORD 10------------------------
+ i_manufact_id       | 827        
+ sum_sales           | 82.44      
+ avg_quarterly_sales | 356.590000 
+-RECORD 11------------------------
+ i_manufact_id       | 827        
+ sum_sales           | 320.05     
+ avg_quarterly_sales | 356.590000 
+-RECORD 12------------------------
+ i_manufact_id       | 827        
+ sum_sales           | 666.52     
+ avg_quarterly_sales | 356.590000 
+-RECORD 13------------------------
+ i_manufact_id       | 296        
+ sum_sales           | 188.61     
+ avg_quarterly_sales | 369.125000 
+-RECORD 14------------------------
+ i_manufact_id       | 296        
+ sum_sales           | 265.76     
+ avg_quarterly_sales | 369.125000 
+-RECORD 15------------------------
+ i_manufact_id       | 296        
+ sum_sales           | 655.24     
+ avg_quarterly_sales | 369.125000 
+-RECORD 16------------------------
+ i_manufact_id       | 308        
+ sum_sales           | 200.28     
+ avg_quarterly_sales | 385.982500 
+-RECORD 17------------------------
+ i_manufact_id       | 308        
+ sum_sales           | 214.07     
+ avg_quarterly_sales | 385.982500 
+-RECORD 18------------------------
+ i_manufact_id       | 308        
+ sum_sales           | 489.17     
+ avg_quarterly_sales | 385.982500 
+-RECORD 19------------------------
+ i_manufact_id       | 308        
+ sum_sales           | 640.41     
+ avg_quarterly_sales | 385.982500 
+-RECORD 20------------------------
+ i_manufact_id       | 486        
+ sum_sales           | 178.80     
+ avg_quarterly_sales | 400.530000 
+-RECORD 21------------------------
+ i_manufact_id       | 486        
+ sum_sales           | 455.08     
+ avg_quarterly_sales | 400.530000 
+-RECORD 22------------------------
+ i_manufact_id       | 486        
+ sum_sales           | 468.01     
+ avg_quarterly_sales | 400.530000 
+-RECORD 23------------------------
+ i_manufact_id       | 486        
+ sum_sales           | 500.23     
+ avg_quarterly_sales | 400.530000 
+-RECORD 24------------------------
+ i_manufact_id       | 554        
+ sum_sales           | 191.48     
+ avg_quarterly_sales | 407.975000 
+-RECORD 25------------------------
+ i_manufact_id       | 554        
+ sum_sales           | 346.80     
+ avg_quarterly_sales | 407.975000 
+-RECORD 26------------------------
+ i_manufact_id       | 554        
+ sum_sales           | 660.97     
+ avg_quarterly_sales | 407.975000 
+-RECORD 27------------------------
+ i_manufact_id       | 208        
+ sum_sales           | 151.84     
+ avg_quarterly_sales | 410.385000 
+-RECORD 28------------------------
+ i_manufact_id       | 208        
+ sum_sales           | 207.02     
+ avg_quarterly_sales | 410.385000 
+-RECORD 29------------------------
+ i_manufact_id       | 208        
+ sum_sales           | 533.75     
+ avg_quarterly_sales | 410.385000 
+-RECORD 30------------------------
+ i_manufact_id       | 208        
+ sum_sales           | 748.93     
+ avg_quarterly_sales | 410.385000 
+-RECORD 31------------------------
+ i_manufact_id       | 662        
+ sum_sales           | 199.83     
+ avg_quarterly_sales | 412.135000 
+-RECORD 32------------------------
+ i_manufact_id       | 662        
+ sum_sales           | 300.61     
+ avg_quarterly_sales | 412.135000 
+-RECORD 33------------------------
+ i_manufact_id       | 662        
+ sum_sales           | 460.94     
+ avg_quarterly_sales | 412.135000 
+-RECORD 34------------------------
+ i_manufact_id       | 662        
+ sum_sales           | 687.16     
+ avg_quarterly_sales | 412.135000 
+-RECORD 35------------------------
+ i_manufact_id       | 394        
+ sum_sales           | 264.65     
+ avg_quarterly_sales | 413.405000 
+-RECORD 36------------------------
+ i_manufact_id       | 394        
+ sum_sales           | 272.02     
+ avg_quarterly_sales | 413.405000 
+-RECORD 37------------------------
+ i_manufact_id       | 394        
+ sum_sales           | 674.12     
+ avg_quarterly_sales | 413.405000 
+-RECORD 38------------------------
+ i_manufact_id       | 221        
+ sum_sales           | 183.63     
+ avg_quarterly_sales | 416.082500 
+-RECORD 39------------------------
+ i_manufact_id       | 221        
+ sum_sales           | 534.62     
+ avg_quarterly_sales | 416.082500 
+-RECORD 40------------------------
+ i_manufact_id       | 221        
+ sum_sales           | 552.44     
+ avg_quarterly_sales | 416.082500 
+-RECORD 41------------------------
+ i_manufact_id       | 621        
+ sum_sales           | 232.20     
+ avg_quarterly_sales | 418.115000 
+-RECORD 42------------------------
+ i_manufact_id       | 621        
+ sum_sales           | 624.80     
+ avg_quarterly_sales | 418.115000 
+-RECORD 43------------------------
+ i_manufact_id       | 507        
+ sum_sales           | 76.98      
+ avg_quarterly_sales | 419.465000 
+-RECORD 44------------------------
+ i_manufact_id       | 507        
+ sum_sales           | 505.36     
+ avg_quarterly_sales | 419.465000 
+-RECORD 45------------------------
+ i_manufact_id       | 507        
+ sum_sales           | 644.24     
+ avg_quarterly_sales | 419.465000 
+-RECORD 46------------------------
+ i_manufact_id       | 316        
+ sum_sales           | 36.25      
+ avg_quarterly_sales | 423.035000 
+-RECORD 47------------------------
+ i_manufact_id       | 316        
+ sum_sales           | 158.85     
+ avg_quarterly_sales | 423.035000 
+-RECORD 48------------------------
+ i_manufact_id       | 316        
+ sum_sales           | 697.32     
+ avg_quarterly_sales | 423.035000 
+-RECORD 49------------------------
+ i_manufact_id       | 316        
+ sum_sales           | 799.72     
+ avg_quarterly_sales | 423.035000 
+-RECORD 50------------------------
+ i_manufact_id       | 56         
+ sum_sales           | 110.81     
+ avg_quarterly_sales | 423.097500 
+-RECORD 51------------------------
+ i_manufact_id       | 56         
+ sum_sales           | 371.77     
+ avg_quarterly_sales | 423.097500 
+-RECORD 52------------------------
+ i_manufact_id       | 56         
+ sum_sales           | 500.77     
+ avg_quarterly_sales | 423.097500 
+-RECORD 53------------------------
+ i_manufact_id       | 56         
+ sum_sales           | 709.04     
+ avg_quarterly_sales | 423.097500 
+-RECORD 54------------------------
+ i_manufact_id       | 517        
+ sum_sales           | 194.87     
+ avg_quarterly_sales | 426.287500 
+-RECORD 55------------------------
+ i_manufact_id       | 517        
+ sum_sales           | 313.41     
+ avg_quarterly_sales | 426.287500 
+-RECORD 56------------------------
+ i_manufact_id       | 517        
+ sum_sales           | 482.41     
+ avg_quarterly_sales | 426.287500 
+-RECORD 57------------------------
+ i_manufact_id       | 517        
+ sum_sales           | 714.46     
+ avg_quarterly_sales | 426.287500 
+-RECORD 58------------------------
+ i_manufact_id       | 411        
+ sum_sales           | 364.09     
+ avg_quarterly_sales | 426.892500 
+-RECORD 59------------------------
+ i_manufact_id       | 411        
+ sum_sales           | 519.60     
+ avg_quarterly_sales | 426.892500 
+-RECORD 60------------------------
+ i_manufact_id       | 247        
+ sum_sales           | 313.42     
+ avg_quarterly_sales | 427.682500 
+-RECORD 61------------------------
+ i_manufact_id       | 247        
+ sum_sales           | 353.08     
+ avg_quarterly_sales | 427.682500 
+-RECORD 62------------------------
+ i_manufact_id       | 247        
+ sum_sales           | 628.37     
+ avg_quarterly_sales | 427.682500 
+-RECORD 63------------------------
+ i_manufact_id       | 652        
+ sum_sales           | 228.75     
+ avg_quarterly_sales | 434.752500 
+-RECORD 64------------------------
+ i_manufact_id       | 652        
+ sum_sales           | 314.98     
+ avg_quarterly_sales | 434.752500 
+-RECORD 65------------------------
+ i_manufact_id       | 652        
+ sum_sales           | 365.90     
+ avg_quarterly_sales | 434.752500 
+-RECORD 66------------------------
+ i_manufact_id       | 652        
+ sum_sales           | 829.38     
+ avg_quarterly_sales | 434.752500 
+-RECORD 67------------------------
+ i_manufact_id       | 129        
+ sum_sales           | 301.69     
+ avg_quarterly_sales | 436.452500 
+-RECORD 68------------------------
+ i_manufact_id       | 129        
+ sum_sales           | 325.26     
+ avg_quarterly_sales | 436.452500 
+-RECORD 69------------------------
+ i_manufact_id       | 129        
+ sum_sales           | 550.47     
+ avg_quarterly_sales | 436.452500 
+-RECORD 70------------------------
+ i_manufact_id       | 129        
+ sum_sales           | 568.39     
+ avg_quarterly_sales | 436.452500 
+-RECORD 71------------------------
+ i_manufact_id       | 99         
+ sum_sales           | 164.24     
+ avg_quarterly_sales | 438.667500 
+-RECORD 72------------------------
+ i_manufact_id       | 99         
+ sum_sales           | 183.75     
+ avg_quarterly_sales | 438.667500 
+-RECORD 73------------------------
+ i_manufact_id       | 99         
+ sum_sales           | 393.58     
+ avg_quarterly_sales | 438.667500 
+-RECORD 74------------------------
+ i_manufact_id       | 99         
+ sum_sales           | 1013.10    
+ avg_quarterly_sales | 438.667500 
+-RECORD 75------------------------
+ i_manufact_id       | 235        
+ sum_sales           | 111.64     
+ avg_quarterly_sales | 441.030000 
+-RECORD 76------------------------
+ i_manufact_id       | 235        
+ sum_sales           | 179.51     
+ avg_quarterly_sales | 441.030000 
+-RECORD 77------------------------
+ i_manufact_id       | 235        
+ sum_sales           | 493.83     
+ avg_quarterly_sales | 441.030000 
+-RECORD 78------------------------
+ i_manufact_id       | 235        
+ sum_sales           | 979.14     
+ avg_quarterly_sales | 441.030000 
+-RECORD 79------------------------
+ i_manufact_id       | 360        
+ sum_sales           | 143.83     
+ avg_quarterly_sales | 445.415000 
+-RECORD 80------------------------
+ i_manufact_id       | 360        
+ sum_sales           | 293.99     
+ avg_quarterly_sales | 445.415000 
+-RECORD 81------------------------
+ i_manufact_id       | 360        
+ sum_sales           | 928.51     
+ avg_quarterly_sales | 445.415000 
+-RECORD 82------------------------
+ i_manufact_id       | 732        
+ sum_sales           | 106.56     
+ avg_quarterly_sales | 447.065000 
+-RECORD 83------------------------
+ i_manufact_id       | 732        
+ sum_sales           | 300.77     
+ avg_quarterly_sales | 447.065000 
+-RECORD 84------------------------
+ i_manufact_id       | 732        
+ sum_sales           | 498.49     
+ avg_quarterly_sales | 447.065000 
+-RECORD 85------------------------
+ i_manufact_id       | 732        
+ sum_sales           | 882.44     
+ avg_quarterly_sales | 447.065000 
+-RECORD 86------------------------
+ i_manufact_id       | 190        
+ sum_sales           | 202.77     
+ avg_quarterly_sales | 451.982500 
+-RECORD 87------------------------
+ i_manufact_id       | 190        
+ sum_sales           | 233.10     
+ avg_quarterly_sales | 451.982500 
+-RECORD 88------------------------
+ i_manufact_id       | 190        
+ sum_sales           | 358.97     
+ avg_quarterly_sales | 451.982500 
+-RECORD 89------------------------
+ i_manufact_id       | 190        
+ sum_sales           | 1013.09    
+ avg_quarterly_sales | 451.982500 
+-RECORD 90------------------------
+ i_manufact_id       | 147        
+ sum_sales           | 212.53     
+ avg_quarterly_sales | 455.892500 
+-RECORD 91------------------------
+ i_manufact_id       | 147        
+ sum_sales           | 366.10     
+ avg_quarterly_sales | 455.892500 
+-RECORD 92------------------------
+ i_manufact_id       | 147        
+ sum_sales           | 553.92     
+ avg_quarterly_sales | 455.892500 
+-RECORD 93------------------------
+ i_manufact_id       | 147        
+ sum_sales           | 691.02     
+ avg_quarterly_sales | 455.892500 
+-RECORD 94------------------------
+ i_manufact_id       | 665        
+ sum_sales           | 283.25     
+ avg_quarterly_sales | 456.087500 
+-RECORD 95------------------------
+ i_manufact_id       | 665        
+ sum_sales           | 357.22     
+ avg_quarterly_sales | 456.087500 
+-RECORD 96------------------------
+ i_manufact_id       | 665        
+ sum_sales           | 691.20     
+ avg_quarterly_sales | 456.087500 
+-RECORD 97------------------------
+ i_manufact_id       | 85         
+ sum_sales           | 325.28     
+ avg_quarterly_sales | 456.280000 
+-RECORD 98------------------------
+ i_manufact_id       | 85         
+ sum_sales           | 350.10     
+ avg_quarterly_sales | 456.280000
+           

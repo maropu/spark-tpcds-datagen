@@ -1,0 +1,694 @@
+-RECORD 0-----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 30114     
+ amt                      | 165.75    
+ profit                   | -17434.48 
+-RECORD 1-----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 213610    
+ amt                      | 0.00      
+ profit                   | -14406.65 
+-RECORD 2-----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 167006    
+ amt                      | 2257.97   
+ profit                   | -13398.38 
+-RECORD 3-----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 129036    
+ amt                      | 612.76    
+ profit                   | -9951.35  
+-RECORD 4-----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 146799    
+ amt                      | 1201.82   
+ profit                   | -9526.13  
+-RECORD 5-----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 228288    
+ amt                      | 344.31    
+ profit                   | -8873.54  
+-RECORD 6-----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 34621     
+ amt                      | 2129.85   
+ profit                   | -7876.49  
+-RECORD 7-----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 66813     
+ amt                      | 203.64    
+ profit                   | -7439.28  
+-RECORD 8-----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 125748    
+ amt                      | 1068.99   
+ profit                   | -6885.03  
+-RECORD 9-----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 163421    
+ amt                      | 1367.41   
+ profit                   | -4442.71  
+-RECORD 10----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 191089    
+ amt                      | 774.36    
+ profit                   | -4209.49  
+-RECORD 11----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 142379    
+ amt                      | 1419.98   
+ profit                   | -3892.46  
+-RECORD 12----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 230904    
+ amt                      | 0.00      
+ profit                   | -2575.26  
+-RECORD 13----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 66717     
+ amt                      | 1521.09   
+ profit                   | -2431.95  
+-RECORD 14----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 198542    
+ amt                      | 1082.91   
+ profit                   | -1789.20  
+-RECORD 15----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Fairview  
+ ss_ticket_number         | 7153      
+ amt                      | 9.96      
+ profit                   | -984.62   
+-RECORD 16----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 103268    
+ amt                      | 0.00      
+ profit                   | null      
+-RECORD 17----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 113867    
+ amt                      | null      
+ profit                   | null      
+-RECORD 18----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 9441      
+ amt                      | 1109.31   
+ profit                   | -26407.61 
+-RECORD 19----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 24453     
+ amt                      | 3762.75   
+ profit                   | -23692.00 
+-RECORD 20----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 2018      
+ amt                      | 29.76     
+ profit                   | -22410.59 
+-RECORD 21----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 132924    
+ amt                      | 1156.08   
+ profit                   | -21285.03 
+-RECORD 22----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 8272      
+ amt                      | 4708.31   
+ profit                   | -20242.53 
+-RECORD 23----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 111877    
+ amt                      | 6321.51   
+ profit                   | -19177.96 
+-RECORD 24----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 178696    
+ amt                      | 81.17     
+ profit                   | -17671.47 
+-RECORD 25----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 217339    
+ amt                      | 1865.02   
+ profit                   | -17373.08 
+-RECORD 26----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 230663    
+ amt                      | 285.65    
+ profit                   | -17047.31 
+-RECORD 27----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 229921    
+ amt                      | 3612.10   
+ profit                   | -16374.27 
+-RECORD 28----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 229149    
+ amt                      | 92.42     
+ profit                   | -16316.52 
+-RECORD 29----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 4209      
+ amt                      | 2424.02   
+ profit                   | -16215.01 
+-RECORD 30----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 103927    
+ amt                      | 4067.95   
+ profit                   | -15388.67 
+-RECORD 31----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 22249     
+ amt                      | 283.79    
+ profit                   | -15294.16 
+-RECORD 32----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 103268    
+ amt                      | 0.00      
+ profit                   | -14413.59 
+-RECORD 33----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 109831    
+ amt                      | 7442.01   
+ profit                   | -14038.22 
+-RECORD 34----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 154925    
+ amt                      | 0.00      
+ profit                   | -13975.29 
+-RECORD 35----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 77368     
+ amt                      | 6332.15   
+ profit                   | -13973.11 
+-RECORD 36----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 159742    
+ amt                      | 3230.63   
+ profit                   | -13929.03 
+-RECORD 37----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 45822     
+ amt                      | 4014.71   
+ profit                   | -13350.50 
+-RECORD 38----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 13424     
+ amt                      | 2244.41   
+ profit                   | -13337.11 
+-RECORD 39----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 177932    
+ amt                      | 5919.58   
+ profit                   | -13201.49 
+-RECORD 40----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 64117     
+ amt                      | 3900.85   
+ profit                   | -13187.49 
+-RECORD 41----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 86777     
+ amt                      | 1596.97   
+ profit                   | -12846.14 
+-RECORD 42----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 16363     
+ amt                      | 2779.59   
+ profit                   | -12799.66 
+-RECORD 43----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 362       
+ amt                      | 545.72    
+ profit                   | -12767.12 
+-RECORD 44----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 88444     
+ amt                      | 290.18    
+ profit                   | -12645.67 
+-RECORD 45----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 223610    
+ amt                      | 277.11    
+ profit                   | -12432.76 
+-RECORD 46----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 214448    
+ amt                      | 4036.02   
+ profit                   | -12189.20 
+-RECORD 47----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 152765    
+ amt                      | 0.00      
+ profit                   | -12123.91 
+-RECORD 48----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 42870     
+ amt                      | 834.21    
+ profit                   | -12044.33 
+-RECORD 49----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 185866    
+ amt                      | 1172.46   
+ profit                   | -12011.29 
+-RECORD 50----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 22110     
+ amt                      | 292.16    
+ profit                   | -11529.30 
+-RECORD 51----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 43495     
+ amt                      | 4179.63   
+ profit                   | -11521.10 
+-RECORD 52----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 70505     
+ amt                      | 979.13    
+ profit                   | -11422.12 
+-RECORD 53----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 27979     
+ amt                      | 3118.44   
+ profit                   | -11169.87 
+-RECORD 54----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 37443     
+ amt                      | 5935.63   
+ profit                   | -11079.34 
+-RECORD 55----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 83601     
+ amt                      | 8274.69   
+ profit                   | -11017.35 
+-RECORD 56----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 71117     
+ amt                      | 3317.76   
+ profit                   | -10629.69 
+-RECORD 57----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 115373    
+ amt                      | 295.40    
+ profit                   | -10518.54 
+-RECORD 58----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 10538     
+ amt                      | 80.37     
+ profit                   | -10327.22 
+-RECORD 59----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 2597      
+ amt                      | 8185.89   
+ profit                   | -9982.61  
+-RECORD 60----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 126177    
+ amt                      | 5045.26   
+ profit                   | -9902.09  
+-RECORD 61----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 44461     
+ amt                      | 0.00      
+ profit                   | -9796.43  
+-RECORD 62----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 44330     
+ amt                      | 2073.16   
+ profit                   | -9774.23  
+-RECORD 63----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 109728    
+ amt                      | 2083.90   
+ profit                   | -9357.20  
+-RECORD 64----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 88663     
+ amt                      | 0.00      
+ profit                   | -9197.71  
+-RECORD 65----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 210261    
+ amt                      | 1590.93   
+ profit                   | -9191.73  
+-RECORD 66----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 147740    
+ amt                      | 2601.24   
+ profit                   | -8887.25  
+-RECORD 67----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 128634    
+ amt                      | 362.34    
+ profit                   | -8867.85  
+-RECORD 68----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 188806    
+ amt                      | 4618.18   
+ profit                   | -8810.05  
+-RECORD 69----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 72972     
+ amt                      | 380.54    
+ profit                   | -8579.82  
+-RECORD 70----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 59324     
+ amt                      | 1963.84   
+ profit                   | -8402.14  
+-RECORD 71----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 31893     
+ amt                      | 129.98    
+ profit                   | -7832.45  
+-RECORD 72----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 153601    
+ amt                      | 1826.35   
+ profit                   | -7760.98  
+-RECORD 73----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 176664    
+ amt                      | 404.35    
+ profit                   | -7609.57  
+-RECORD 74----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 152807    
+ amt                      | 885.79    
+ profit                   | -7355.92  
+-RECORD 75----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 234655    
+ amt                      | 0.00      
+ profit                   | -7284.12  
+-RECORD 76----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 216619    
+ amt                      | 10.99     
+ profit                   | -7107.27  
+-RECORD 77----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 13073     
+ amt                      | 7191.35   
+ profit                   | -7052.08  
+-RECORD 78----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 228411    
+ amt                      | 63.05     
+ profit                   | -7003.42  
+-RECORD 79----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 215748    
+ amt                      | 2886.30   
+ profit                   | -6809.03  
+-RECORD 80----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 102114    
+ amt                      | 0.00      
+ profit                   | -6638.65  
+-RECORD 81----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 76802     
+ amt                      | 492.45    
+ profit                   | -6584.79  
+-RECORD 82----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 28961     
+ amt                      | 1012.33   
+ profit                   | -6571.16  
+-RECORD 83----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 218338    
+ amt                      | 0.00      
+ profit                   | -6520.72  
+-RECORD 84----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 230745    
+ amt                      | 335.47    
+ profit                   | -6460.48  
+-RECORD 85----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 118548    
+ amt                      | 960.04    
+ profit                   | -6150.21  
+-RECORD 86----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 70150     
+ amt                      | 690.04    
+ profit                   | -6022.55  
+-RECORD 87----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 63058     
+ amt                      | 543.97    
+ profit                   | -5986.27  
+-RECORD 88----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 64280     
+ amt                      | 1881.76   
+ profit                   | -5952.31  
+-RECORD 89----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 23868     
+ amt                      | 0.00      
+ profit                   | -5875.89  
+-RECORD 90----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 7696      
+ amt                      | 36.03     
+ profit                   | -5756.62  
+-RECORD 91----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 157905    
+ amt                      | 2733.35   
+ profit                   | -5737.13  
+-RECORD 92----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 164719    
+ amt                      | 63.69     
+ profit                   | -5651.93  
+-RECORD 93----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 145180    
+ amt                      | 0.00      
+ profit                   | -5393.65  
+-RECORD 94----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 25768     
+ amt                      | 563.65    
+ profit                   | -5382.14  
+-RECORD 95----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 6159      
+ amt                      | 0.00      
+ profit                   | -5326.19  
+-RECORD 96----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 10660     
+ amt                      | 88.71     
+ profit                   | -4082.71  
+-RECORD 97----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 69241     
+ amt                      | 804.35    
+ profit                   | -3962.88  
+-RECORD 98----------------------------
+ c_last_name              | null      
+ c_first_name             | null      
+ substring(s_city, 1, 30) | Midway    
+ ss_ticket_number         | 144321    
+ amt                      | 293.21    
+ profit                   | -3652.26
+           

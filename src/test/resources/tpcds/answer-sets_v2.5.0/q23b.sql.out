@@ -1,0 +1,17 @@
+-RECORD 0---------------
+ c_last_name  | null    
+ c_first_name | Robert  
+ sales        | 598.86  
+-RECORD 1---------------
+ c_last_name  | Brown   
+ c_first_name | Monika  
+ sales        | 6031.52 
+-RECORD 2---------------
+ c_last_name  | Collins 
+ c_first_name | Gordon  
+ sales        | 727.57  
+-RECORD 3---------------
+ c_last_name  | Green   
+ c_first_name | Jesse   
+ sales        | 9672.96
+           

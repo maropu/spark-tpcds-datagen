@@ -1,0 +1,301 @@
+-RECORD 0-----------------
+ i_manufact_id | 698      
+ total_sales   | 214.34   
+-RECORD 1-----------------
+ i_manufact_id | 929      
+ total_sales   | 539.6    
+-RECORD 2-----------------
+ i_manufact_id | 464      
+ total_sales   | 641.96   
+-RECORD 3-----------------
+ i_manufact_id | 938      
+ total_sales   | 858.22   
+-RECORD 4-----------------
+ i_manufact_id | 697      
+ total_sales   | 959.48   
+-RECORD 5-----------------
+ i_manufact_id | 682      
+ total_sales   | 1074.64  
+-RECORD 6-----------------
+ i_manufact_id | 741      
+ total_sales   | 1195.96  
+-RECORD 7-----------------
+ i_manufact_id | 812      
+ total_sales   | 2069     
+-RECORD 8-----------------
+ i_manufact_id | 838      
+ total_sales   | 2256.8   
+-RECORD 9-----------------
+ i_manufact_id | 910      
+ total_sales   | 2291.67  
+-RECORD 10----------------
+ i_manufact_id | 899      
+ total_sales   | 2355.04  
+-RECORD 11----------------
+ i_manufact_id | 990      
+ total_sales   | 2370.68  
+-RECORD 12----------------
+ i_manufact_id | 963      
+ total_sales   | 2380.92  
+-RECORD 13----------------
+ i_manufact_id | 832      
+ total_sales   | 2684.32  
+-RECORD 14----------------
+ i_manufact_id | 692      
+ total_sales   | 2773.42  
+-RECORD 15----------------
+ i_manufact_id | 738      
+ total_sales   | 2945.77  
+-RECORD 16----------------
+ i_manufact_id | 564      
+ total_sales   | 3210.59  
+-RECORD 17----------------
+ i_manufact_id | 770      
+ total_sales   | 3379.72  
+-RECORD 18----------------
+ i_manufact_id | 821      
+ total_sales   | 3446.02  
+-RECORD 19----------------
+ i_manufact_id | 797      
+ total_sales   | 3485.44  
+-RECORD 20----------------
+ i_manufact_id | 974      
+ total_sales   | 3527.17  
+-RECORD 21----------------
+ i_manufact_id | 704      
+ total_sales   | 3574.75  
+-RECORD 22----------------
+ i_manufact_id | 853      
+ total_sales   | 3850.44  
+-RECORD 23----------------
+ i_manufact_id | 898      
+ total_sales   | 3854.56  
+-RECORD 24----------------
+ i_manufact_id | 937      
+ total_sales   | 3968.27  
+-RECORD 25----------------
+ i_manufact_id | 737      
+ total_sales   | 4284.65  
+-RECORD 26----------------
+ i_manufact_id | 942      
+ total_sales   | 4618.19  
+-RECORD 27----------------
+ i_manufact_id | 798      
+ total_sales   | 5017.15  
+-RECORD 28----------------
+ i_manufact_id | 849      
+ total_sales   | 5099.82  
+-RECORD 29----------------
+ i_manufact_id | 939      
+ total_sales   | 5122.92  
+-RECORD 30----------------
+ i_manufact_id | 947      
+ total_sales   | 5138.04  
+-RECORD 31----------------
+ i_manufact_id | 774      
+ total_sales   | 5138.38  
+-RECORD 32----------------
+ i_manufact_id | 668      
+ total_sales   | 5666.3   
+-RECORD 33----------------
+ i_manufact_id | 607      
+ total_sales   | 5770.19  
+-RECORD 34----------------
+ i_manufact_id | 358      
+ total_sales   | 5955.66  
+-RECORD 35----------------
+ i_manufact_id | 860      
+ total_sales   | 5957.46  
+-RECORD 36----------------
+ i_manufact_id | 951      
+ total_sales   | 5973.81  
+-RECORD 37----------------
+ i_manufact_id | 472      
+ total_sales   | 6060.92  
+-RECORD 38----------------
+ i_manufact_id | 824      
+ total_sales   | 6198.72  
+-RECORD 39----------------
+ i_manufact_id | 766      
+ total_sales   | 6237.09  
+-RECORD 40----------------
+ i_manufact_id | 783      
+ total_sales   | 6341.4   
+-RECORD 41----------------
+ i_manufact_id | 799      
+ total_sales   | 6360.64  
+-RECORD 42----------------
+ i_manufact_id | 794      
+ total_sales   | 6474.9   
+-RECORD 43----------------
+ i_manufact_id | 529      
+ total_sales   | 6476.8   
+-RECORD 44----------------
+ i_manufact_id | 928      
+ total_sales   | 6536.81  
+-RECORD 45----------------
+ i_manufact_id | 946      
+ total_sales   | 6817.54  
+-RECORD 46----------------
+ i_manufact_id | 795      
+ total_sales   | 6859.76  
+-RECORD 47----------------
+ i_manufact_id | 793      
+ total_sales   | 6871.33  
+-RECORD 48----------------
+ i_manufact_id | 423      
+ total_sales   | 6878.6   
+-RECORD 49----------------
+ i_manufact_id | 811      
+ total_sales   | 6887.18  
+-RECORD 50----------------
+ i_manufact_id | 887      
+ total_sales   | 6998.14  
+-RECORD 51----------------
+ i_manufact_id | 961      
+ total_sales   | 7098.23  
+-RECORD 52----------------
+ i_manufact_id | 806      
+ total_sales   | 7143.83  
+-RECORD 53----------------
+ i_manufact_id | 772      
+ total_sales   | 7196     
+-RECORD 54----------------
+ i_manufact_id | 880      
+ total_sales   | 7202.52  
+-RECORD 55----------------
+ i_manufact_id | 709      
+ total_sales   | 7247.76  
+-RECORD 56----------------
+ i_manufact_id | 696      
+ total_sales   | 7732.8   
+-RECORD 57----------------
+ i_manufact_id | 710      
+ total_sales   | 7783.45  
+-RECORD 58----------------
+ i_manufact_id | 784      
+ total_sales   | 7894.58  
+-RECORD 59----------------
+ i_manufact_id | 780      
+ total_sales   | 7973.56  
+-RECORD 60----------------
+ i_manufact_id | 476      
+ total_sales   | 8166.7   
+-RECORD 61----------------
+ i_manufact_id | 839      
+ total_sales   | 8299.55  
+-RECORD 62----------------
+ i_manufact_id | 828      
+ total_sales   | 8398.05  
+-RECORD 63----------------
+ i_manufact_id | 968      
+ total_sales   | 8461.36  
+-RECORD 64----------------
+ i_manufact_id | 966      
+ total_sales   | 8715.08  
+-RECORD 65----------------
+ i_manufact_id | 872      
+ total_sales   | 8722.84  
+-RECORD 66----------------
+ i_manufact_id | 432      
+ total_sales   | 8779.74  
+-RECORD 67----------------
+ i_manufact_id | 842      
+ total_sales   | 8879.82  
+-RECORD 68----------------
+ i_manufact_id | 981      
+ total_sales   | 8899.15  
+-RECORD 69----------------
+ i_manufact_id | 567      
+ total_sales   | 9226.08  
+-RECORD 70----------------
+ i_manufact_id | 773      
+ total_sales   | 9431.83  
+-RECORD 71----------------
+ i_manufact_id | 430      
+ total_sales   | 9891.62  
+-RECORD 72----------------
+ i_manufact_id | 445      
+ total_sales   | 9913.18  
+-RECORD 73----------------
+ i_manufact_id | 678      
+ total_sales   | 9976.96  
+-RECORD 74----------------
+ i_manufact_id | 977      
+ total_sales   | 10067.34 
+-RECORD 75----------------
+ i_manufact_id | 705      
+ total_sales   | 10202.62 
+-RECORD 76----------------
+ i_manufact_id | 402      
+ total_sales   | 10322.05 
+-RECORD 77----------------
+ i_manufact_id | 789      
+ total_sales   | 10376.28 
+-RECORD 78----------------
+ i_manufact_id | 733      
+ total_sales   | 10653.42 
+-RECORD 79----------------
+ i_manufact_id | 936      
+ total_sales   | 10760.28 
+-RECORD 80----------------
+ i_manufact_id | 920      
+ total_sales   | 10922.38 
+-RECORD 81----------------
+ i_manufact_id | 658      
+ total_sales   | 10926.5  
+-RECORD 82----------------
+ i_manufact_id | 1000     
+ total_sales   | 10992.09 
+-RECORD 83----------------
+ i_manufact_id | 651      
+ total_sales   | 11129.87 
+-RECORD 84----------------
+ i_manufact_id | 965      
+ total_sales   | 11158.41 
+-RECORD 85----------------
+ i_manufact_id | 844      
+ total_sales   | 11348.42 
+-RECORD 86----------------
+ i_manufact_id | 954      
+ total_sales   | 11383.41 
+-RECORD 87----------------
+ i_manufact_id | 655      
+ total_sales   | 11632.71 
+-RECORD 88----------------
+ i_manufact_id | 99       
+ total_sales   | 11785.13 
+-RECORD 89----------------
+ i_manufact_id | 493      
+ total_sales   | 11859.91 
+-RECORD 90----------------
+ i_manufact_id | 723      
+ total_sales   | 12068.58 
+-RECORD 91----------------
+ i_manufact_id | 623      
+ total_sales   | 12388.39 
+-RECORD 92----------------
+ i_manufact_id | 874      
+ total_sales   | 12585.39 
+-RECORD 93----------------
+ i_manufact_id | 810      
+ total_sales   | 12598.51 
+-RECORD 94----------------
+ i_manufact_id | 299      
+ total_sales   | 12649.43 
+-RECORD 95----------------
+ i_manufact_id | 826      
+ total_sales   | 12657.78 
+-RECORD 96----------------
+ i_manufact_id | 870      
+ total_sales   | 12927.4  
+-RECORD 97----------------
+ i_manufact_id | 385      
+ total_sales   | 12992.19 
+-RECORD 98----------------
+ i_manufact_id | 590      
+ total_sales   | 13381.82 
+-RECORD 99----------------
+ i_manufact_id | 718      
+ total_sales   | 13768.98
+           

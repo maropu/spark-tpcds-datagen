@@ -1,0 +1,190 @@
+-RECORD 0-----------------------
+ item_id     | AAAAAAAAANECAAAA 
+ sr_item_qty | 34               
+ sr_dev      | 18.579235        
+ cr_item_qty | 9                
+ cr_dev      | 4.91803279       
+ wr_item_qty | 18               
+ wr_dev      | 9.83606557       
+ average     | 20.3333333       
+-RECORD 1-----------------------
+ item_id     | AAAAAAAACAOBAAAA 
+ sr_item_qty | 27               
+ sr_dev      | 11.6883117       
+ cr_item_qty | 38 16.4502165    
+ cr_dev      | 12               
+ wr_item_qty | 5.19480519       
+ wr_dev      | 25.6666667       
+ average     | null             
+-RECORD 2-----------------------
+ item_id     | AAAAAAAACBNDAAAA 
+ sr_item_qty | 38               
+ sr_dev      | 11.6207951       
+ cr_item_qty | 52 15.9021407    
+ cr_dev      | 19               
+ wr_item_qty | 5.81039755       
+ wr_dev      | 36.3333333       
+ average     | null             
+-RECORD 3-----------------------
+ item_id     | AAAAAAAACCGAAAAA 
+ sr_item_qty | 30               
+ sr_dev      | 15.1515152       
+ cr_item_qty | 18 9.09090909    
+ cr_dev      | 18               
+ wr_item_qty | 9.09090909       
+ wr_dev      | 22               
+ average     | null             
+-RECORD 4-----------------------
+ item_id     | AAAAAAAACKBDAAAA 
+ sr_item_qty | 32               
+ sr_dev      | 12.6984127       
+ cr_item_qty | 22 8.73015873    
+ cr_dev      | 30               
+ wr_item_qty | 11.9047619       
+ wr_dev      | 28               
+ average     | null             
+-RECORD 5-----------------------
+ item_id     | AAAAAAAACOIBAAAA 
+ sr_item_qty | 31               
+ sr_dev      | 8.07291667       
+ cr_item_qty | 29 7.55208333    
+ cr_dev      | 68               
+ wr_item_qty | 17.7083333       
+ wr_dev      | 42.6666667       
+ average     | null             
+-RECORD 6-----------------------
+ item_id     | AAAAAAAAEBLDAAAA 
+ sr_item_qty | 9                
+ sr_dev      | 3.7037037        
+ cr_item_qty | 34               
+ cr_dev      | 13.9917695       
+ wr_item_qty | 38               
+ wr_dev      | 15.6378601       
+ average     | 27               
+-RECORD 7-----------------------
+ item_id     | AAAAAAAAELFDAAAA 
+ sr_item_qty | 54               
+ sr_dev      | 20.2247191       
+ cr_item_qty | 4                
+ cr_dev      | 1.49812734       
+ wr_item_qty | 31               
+ wr_dev      | 11.6104869       
+ average     | 29.6666667       
+-RECORD 8-----------------------
+ item_id     | AAAAAAAAFEBAAAAA 
+ sr_item_qty | 19               
+ sr_dev      | 15.4471545       
+ cr_item_qty | 17               
+ cr_dev      | 13.8211382       
+ wr_item_qty | 5                
+ wr_dev      | 4.06504065       
+ average     | 13.6666667       
+-RECORD 9-----------------------
+ item_id     | AAAAAAAAFODDAAAA 
+ sr_item_qty | 30               
+ sr_dev      | 11.4942529       
+ cr_item_qty | 7                
+ cr_dev      | 2.68199234       
+ wr_item_qty | 50               
+ wr_dev      | 19.1570881       
+ average     | 29               
+-RECORD 10----------------------
+ item_id     | AAAAAAAAGLMCAAAA 
+ sr_item_qty | 37               
+ sr_dev      | 26.8115942       
+ cr_item_qty | 3                
+ cr_dev      | 2.17391304       
+ wr_item_qty | 6                
+ wr_dev      | 4.34782609       
+ average     | 15.3333333       
+-RECORD 11----------------------
+ item_id     | AAAAAAAAHAGDAAAA 
+ sr_item_qty | 16               
+ sr_dev      | 8.33333333       
+ cr_item_qty | 15               
+ cr_dev      | 7.8125           
+ wr_item_qty | 33               
+ wr_dev      | 17.1875          
+ average     | 21.3333333       
+-RECORD 12----------------------
+ item_id     | AAAAAAAAHCDEAAAA 
+ sr_item_qty | 41               
+ sr_dev      | 19.2488263       
+ cr_item_qty | 1                
+ cr_dev      | .469483568       
+ wr_item_qty | 29 13.6150235    
+ wr_dev      | 23.6666667       
+ average     | null             
+-RECORD 13----------------------
+ item_id     | AAAAAAAALAEBAAAA 
+ sr_item_qty | 19               
+ sr_dev      | 6.95970696       
+ cr_item_qty | 21               
+ cr_dev      | 7.69230769       
+ wr_item_qty | 51 18.6813187    
+ wr_dev      | 30.3333333       
+ average     | null             
+-RECORD 14----------------------
+ item_id     | AAAAAAAAMBDEAAAA 
+ sr_item_qty | 26               
+ sr_dev      | 6.37254902       
+ cr_item_qty | 66               
+ cr_dev      | 16.1764706       
+ wr_item_qty | 44 10.7843137    
+ wr_dev      | 45.3333333       
+ average     | null             
+-RECORD 15----------------------
+ item_id     | AAAAAAAAMBGBAAAA 
+ sr_item_qty | 5                
+ sr_dev      | 5.05050505       
+ cr_item_qty | 1                
+ cr_dev      | 1.01010101       
+ wr_item_qty | 27               
+ wr_dev      | 27.2727273       
+ average     | 11               
+-RECORD 16----------------------
+ item_id     | AAAAAAAAMDODAAAA 
+ sr_item_qty | 17               
+ sr_dev      | 10.8974359       
+ cr_item_qty | 32               
+ cr_dev      | 20.5128205       
+ wr_item_qty | 3                
+ wr_dev      | 1.92307692       
+ average     | 17.3333333       
+-RECORD 17----------------------
+ item_id     | AAAAAAAAMOIAAAAA 
+ sr_item_qty | 84               
+ sr_dev      | 25.4545455       
+ cr_item_qty | 12               
+ cr_dev      | 3.63636364       
+ wr_item_qty | 14               
+ wr_dev      | 4.24242424       
+ average     | 36.6666667       
+-RECORD 18----------------------
+ item_id     | AAAAAAAANMAAAAAA 
+ sr_item_qty | 12               
+ sr_dev      | 25               
+ cr_item_qty | 1                
+ cr_dev      | 2.08333333       
+ wr_item_qty | 3                
+ wr_dev      | 6.25             
+ average     | 5.33333333       
+-RECORD 19----------------------
+ item_id     | AAAAAAAAODOAAAAA 
+ sr_item_qty | 5                
+ sr_dev      | 4.38596491       
+ cr_item_qty | 3                
+ cr_dev      | 2.63157895       
+ wr_item_qty | 30               
+ wr_dev      | 26.3157895       
+ average     | 12.6666667       
+-RECORD 20----------------------
+ item_id     | AAAAAAAAPJOCAAAA 
+ sr_item_qty | 29               
+ sr_dev      | 15.3439153       
+ cr_item_qty | 21               
+ cr_dev      | 11.1111111       
+ wr_item_qty | 13               
+ wr_dev      | 6.87830688       
+ average     | 21
+           

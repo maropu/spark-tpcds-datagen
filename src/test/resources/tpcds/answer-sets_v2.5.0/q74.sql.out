@@ -1,0 +1,369 @@
+-RECORD 0-------------------------------
+ customer_id         | AAAAAAAAAMGDAAAA 
+ customer_first_name | Kenneth          
+ customer_last_name  | Harlan           
+-RECORD 1-------------------------------
+ customer_id         | AAAAAAAAANFAAAAA 
+ customer_first_name | Philip           
+ customer_last_name  | Banks            
+-RECORD 2-------------------------------
+ customer_id         | AAAAAAAAAOPFBAAA 
+ customer_first_name | Jerry            
+ customer_last_name  | Fields           
+-RECORD 3-------------------------------
+ customer_id         | AAAAAAAABLEIBAAA 
+ customer_first_name | Paula            
+ customer_last_name  | Wakefield        
+-RECORD 4-------------------------------
+ customer_id         | AAAAAAAABNBBAAAA 
+ customer_first_name | Irma             
+ customer_last_name  | Smith            
+-RECORD 5-------------------------------
+ customer_id         | AAAAAAAACADPAAAA 
+ customer_first_name | Cristobal        
+ customer_last_name  | Thomas           
+-RECORD 6-------------------------------
+ customer_id         | AAAAAAAACFCGBAAA 
+ customer_first_name | Marcus           
+ customer_last_name  | Sanders          
+-RECORD 7-------------------------------
+ customer_id         | AAAAAAAACFENAAAA 
+ customer_first_name | Christopher      
+ customer_last_name  | Dawson           
+-RECORD 8-------------------------------
+ customer_id         | AAAAAAAACIJMAAAA 
+ customer_first_name | Elizabeth        
+ customer_last_name  | Thomas           
+-RECORD 9-------------------------------
+ customer_id         | AAAAAAAACJDIAAAA 
+ customer_first_name | James            
+ customer_last_name  | Kerr             
+-RECORD 10------------------------------
+ customer_id         | AAAAAAAACNAGBAAA 
+ customer_first_name | Virginia         
+ customer_last_name  | May              
+-RECORD 11------------------------------
+ customer_id         | AAAAAAAADBEFBAAA 
+ customer_first_name | Bennie           
+ customer_last_name  | Bowers           
+-RECORD 12------------------------------
+ customer_id         | AAAAAAAADCKOAAAA 
+ customer_first_name | Robert           
+ customer_last_name  | Gonzalez         
+-RECORD 13------------------------------
+ customer_id         | AAAAAAAADFIEBAAA 
+ customer_first_name | John             
+ customer_last_name  | Gray             
+-RECORD 14------------------------------
+ customer_id         | AAAAAAAADFKABAAA 
+ customer_first_name | Latoya           
+ customer_last_name  | Craft            
+-RECORD 15------------------------------
+ customer_id         | AAAAAAAADIIOAAAA 
+ customer_first_name | David            
+ customer_last_name  | Carroll          
+-RECORD 16------------------------------
+ customer_id         | AAAAAAAADIJGBAAA 
+ customer_first_name | Ruth             
+ customer_last_name  | Sanders          
+-RECORD 17------------------------------
+ customer_id         | AAAAAAAADLHBBAAA 
+ customer_first_name | Henry            
+ customer_last_name  | Bertrand         
+-RECORD 18------------------------------
+ customer_id         | AAAAAAAAEADJAAAA 
+ customer_first_name | Ruth             
+ customer_last_name  | Carroll          
+-RECORD 19------------------------------
+ customer_id         | AAAAAAAAEJDLAAAA 
+ customer_first_name | Alice            
+ customer_last_name  | Wright           
+-RECORD 20------------------------------
+ customer_id         | AAAAAAAAEKFPAAAA 
+ customer_first_name | Annika           
+ customer_last_name  | Chin             
+-RECORD 21------------------------------
+ customer_id         | AAAAAAAAEKJLAAAA 
+ customer_first_name | Aisha            
+ customer_last_name  | Carlson          
+-RECORD 22------------------------------
+ customer_id         | AAAAAAAAEOAKAAAA 
+ customer_first_name | Molly            
+ customer_last_name  | Benjamin         
+-RECORD 23------------------------------
+ customer_id         | AAAAAAAAEPOGAAAA 
+ customer_first_name | Felisha          
+ customer_last_name  | Mendes           
+-RECORD 24------------------------------
+ customer_id         | AAAAAAAAFACEAAAA 
+ customer_first_name | Priscilla        
+ customer_last_name  | Miller           
+-RECORD 25------------------------------
+ customer_id         | AAAAAAAAFBAHAAAA 
+ customer_first_name | Michael          
+ customer_last_name  | Williams         
+-RECORD 26------------------------------
+ customer_id         | AAAAAAAAFGIGAAAA 
+ customer_first_name | Eduardo          
+ customer_last_name  | Miller           
+-RECORD 27------------------------------
+ customer_id         | AAAAAAAAFGPGAAAA 
+ customer_first_name | Albert           
+ customer_last_name  | Wadsworth        
+-RECORD 28------------------------------
+ customer_id         | AAAAAAAAFHACBAAA 
+ customer_first_name | null             
+ customer_last_name  | %                
+-RECORD 29------------------------------
+ customer_id         | AAAAAAAAFJHFAAAA 
+ customer_first_name | Larissa          
+ customer_last_name  | Roy              
+-RECORD 30------------------------------
+ customer_id         | AAAAAAAAFMHIAAAA 
+ customer_first_name | Emilio           
+ customer_last_name  | Darling          
+-RECORD 31------------------------------
+ customer_id         | AAAAAAAAFOGIAAAA 
+ customer_first_name | Michelle         
+ customer_last_name  | Greene           
+-RECORD 32------------------------------
+ customer_id         | AAAAAAAAFOJAAAAA 
+ customer_first_name | Don              
+ customer_last_name  | Castillo         
+-RECORD 33------------------------------
+ customer_id         | AAAAAAAAGEHIAAAA 
+ customer_first_name | Tyler            
+ customer_last_name  | Miller           
+-RECORD 34------------------------------
+ customer_id         | AAAAAAAAGFMDBAAA 
+ customer_first_name | Kathleen         
+ customer_last_name  | Gibson           
+-RECORD 35------------------------------
+ customer_id         | AAAAAAAAGHPBBAAA 
+ customer_first_name | Nick             
+ customer_last_name  | Mendez           
+-RECORD 36------------------------------
+ customer_id         | AAAAAAAAGNDAAAAA 
+ customer_first_name | Terry            
+ customer_last_name  | Mcdowell         
+-RECORD 37------------------------------
+ customer_id         | AAAAAAAAHGOABAAA 
+ customer_first_name | Sonia            
+ customer_last_name  | White            
+-RECORD 38------------------------------
+ customer_id         | AAAAAAAAHHCABAAA 
+ customer_first_name | William          
+ customer_last_name  | Stewart          
+-RECORD 39------------------------------
+ customer_id         | AAAAAAAAHJLAAAAA 
+ customer_first_name | Audrey           
+ customer_last_name  | Beltran          
+-RECORD 40------------------------------
+ customer_id         | AAAAAAAAHMJNAAAA 
+ customer_first_name | Ryan             
+ customer_last_name  | Baptiste         
+-RECORD 41------------------------------
+ customer_id         | AAAAAAAAHMOIAAAA 
+ customer_first_name | Grace            
+ customer_last_name  | Henderson        
+-RECORD 42------------------------------
+ customer_id         | AAAAAAAAHNFHAAAA 
+ customer_first_name | Rebecca          
+ customer_last_name  | Wilson           
+-RECORD 43------------------------------
+ customer_id         | AAAAAAAAIADEBAAA 
+ customer_first_name | Diane            
+ customer_last_name  | Aldridge         
+-RECORD 44------------------------------
+ customer_id         | AAAAAAAAIBAEBAAA 
+ customer_first_name | Sandra           
+ customer_last_name  | Wilson           
+-RECORD 45------------------------------
+ customer_id         | AAAAAAAAIBFCBAAA 
+ customer_first_name | Ruth             
+ customer_last_name  | Grantham         
+-RECORD 46------------------------------
+ customer_id         | AAAAAAAAIBHHAAAA 
+ customer_first_name | Jennifer         
+ customer_last_name  | Ballard          
+-RECORD 47------------------------------
+ customer_id         | AAAAAAAAICHFAAAA 
+ customer_first_name | Linda            
+ customer_last_name  | Mccoy            
+-RECORD 48------------------------------
+ customer_id         | AAAAAAAAIDKFAAAA 
+ customer_first_name | Michael          
+ customer_last_name  | Mack             
+-RECORD 49------------------------------
+ customer_id         | AAAAAAAAIJEMAAAA 
+ customer_first_name | Charlie          
+ customer_last_name  | Cummings         
+-RECORD 50------------------------------
+ customer_id         | AAAAAAAAIMHBAAAA 
+ customer_first_name | Kathy            
+ customer_last_name  | Knowles          
+-RECORD 51------------------------------
+ customer_id         | AAAAAAAAIMHHBAAA 
+ customer_first_name | Lillian          
+ customer_last_name  | Davidson         
+-RECORD 52------------------------------
+ customer_id         | AAAAAAAAJEKFBAAA 
+ customer_first_name | Norma            
+ customer_last_name  | Burkholder       
+-RECORD 53------------------------------
+ customer_id         | AAAAAAAAJGMMAAAA 
+ customer_first_name | Richard          
+ customer_last_name  | Larson           
+-RECORD 54------------------------------
+ customer_id         | AAAAAAAAJIALAAAA 
+ customer_first_name | Santos           
+ customer_last_name  | Gutierrez        
+-RECORD 55------------------------------
+ customer_id         | AAAAAAAAJKBNAAAA 
+ customer_first_name | Julie            
+ customer_last_name  | Kern             
+-RECORD 56------------------------------
+ customer_id         | AAAAAAAAJONHBAAA 
+ customer_first_name | Warren           
+ customer_last_name  | Orozco           
+-RECORD 57------------------------------
+ customer_id         | AAAAAAAAKAECAAAA 
+ customer_first_name | Milton           
+ customer_last_name  | Mackey           
+-RECORD 58------------------------------
+ customer_id         | AAAAAAAAKBCABAAA 
+ customer_first_name | Debra            
+ customer_last_name  | Bell             
+-RECORD 59------------------------------
+ customer_id         | AAAAAAAAKJBKAAAA 
+ customer_first_name | Georgia          
+ customer_last_name  | Scott            
+-RECORD 60------------------------------
+ customer_id         | AAAAAAAAKJBLAAAA 
+ customer_first_name | Kerry            
+ customer_last_name  | Davis            
+-RECORD 61------------------------------
+ customer_id         | AAAAAAAAKKGEAAAA 
+ customer_first_name | Katie            
+ customer_last_name  | Dunbar           
+-RECORD 62------------------------------
+ customer_id         | AAAAAAAAKLHHBAAA 
+ customer_first_name | Manuel           
+ customer_last_name  | Castaneda        
+-RECORD 63------------------------------
+ customer_id         | AAAAAAAAKNAKAAAA 
+ customer_first_name | Gladys           
+ customer_last_name  | Banks            
+-RECORD 64------------------------------
+ customer_id         | AAAAAAAAKOJJAAAA 
+ customer_first_name | Gracie           
+ customer_last_name  | Mendoza          
+-RECORD 65------------------------------
+ customer_id         | AAAAAAAALFKKAAAA 
+ customer_first_name | Ignacio          
+ customer_last_name  | Miller           
+-RECORD 66------------------------------
+ customer_id         | AAAAAAAALHMCAAAA 
+ customer_first_name | Brooke           
+ customer_last_name  | Nelson           
+-RECORD 67------------------------------
+ customer_id         | AAAAAAAALIOPAAAA 
+ customer_first_name | Derek            
+ customer_last_name  | Allen            
+-RECORD 68------------------------------
+ customer_id         | AAAAAAAALJNCBAAA 
+ customer_first_name | George           
+ customer_last_name  | Gamez            
+-RECORD 69------------------------------
+ customer_id         | AAAAAAAAMDCAAAAA 
+ customer_first_name | Louann           
+ customer_last_name  | Hamel            
+-RECORD 70------------------------------
+ customer_id         | AAAAAAAAMFFLAAAA 
+ customer_first_name | Margret          
+ customer_last_name  | Gray             
+-RECORD 71------------------------------
+ customer_id         | AAAAAAAAMMOBBAAA 
+ customer_first_name | Margaret         
+ customer_last_name  | Smith            
+-RECORD 72------------------------------
+ customer_id         | AAAAAAAANFBDBAAA 
+ customer_first_name | Vernice          
+ customer_last_name  | Fernandez        
+-RECORD 73------------------------------
+ customer_id         | AAAAAAAANGDBBAAA 
+ customer_first_name | Carlos           
+ customer_last_name  | Jewell           
+-RECORD 74------------------------------
+ customer_id         | AAAAAAAANIPLAAAA 
+ customer_first_name | Eric             
+ customer_last_name  | Lawrence         
+-RECORD 75------------------------------
+ customer_id         | AAAAAAAANJAGAAAA 
+ customer_first_name | Allen            
+ customer_last_name  | Hood             
+-RECORD 76------------------------------
+ customer_id         | AAAAAAAANJHCBAAA 
+ customer_first_name | Christopher      
+ customer_last_name  | Schreiber        
+-RECORD 77------------------------------
+ customer_id         | AAAAAAAAOBADBAAA 
+ customer_first_name | Elizabeth        
+ customer_last_name  | Burnham          
+-RECORD 78------------------------------
+ customer_id         | AAAAAAAAOCAJAAAA 
+ customer_first_name | Jenna            
+ customer_last_name  | Staton           
+-RECORD 79------------------------------
+ customer_id         | AAAAAAAAOCDJAAAA 
+ customer_first_name | Nina             
+ customer_last_name  | Sanchez          
+-RECORD 80------------------------------
+ customer_id         | AAAAAAAAOCICAAAA 
+ customer_first_name | Zachary          
+ customer_last_name  | Pennington       
+-RECORD 81------------------------------
+ customer_id         | AAAAAAAAOCLBBAAA 
+ customer_first_name | null             
+ customer_last_name  | %                
+-RECORD 82------------------------------
+ customer_id         | AAAAAAAAOFLCAAAA 
+ customer_first_name | James            
+ customer_last_name  | Taylor           
+-RECORD 83------------------------------
+ customer_id         | AAAAAAAAOPDLAAAA 
+ customer_first_name | Ann              
+ customer_last_name  | Pence            
+-RECORD 84------------------------------
+ customer_id         | AAAAAAAAPDFBAAAA 
+ customer_first_name | Terrance         
+ customer_last_name  | Banks            
+-RECORD 85------------------------------
+ customer_id         | AAAAAAAAPEHEBAAA 
+ customer_first_name | Edith            
+ customer_last_name  | Molina           
+-RECORD 86------------------------------
+ customer_id         | AAAAAAAAPFCLAAAA 
+ customer_first_name | Felicia          
+ customer_last_name  | Neville          
+-RECORD 87------------------------------
+ customer_id         | AAAAAAAAPJENAAAA 
+ customer_first_name | Ashley           
+ customer_last_name  | Norton           
+-RECORD 88------------------------------
+ customer_id         | AAAAAAAAPKBCBAAA 
+ customer_first_name | Andrea           
+ customer_last_name  | White            
+-RECORD 89------------------------------
+ customer_id         | AAAAAAAAPKIKAAAA 
+ customer_first_name | Wendy            
+ customer_last_name  | Horvath          
+-RECORD 90------------------------------
+ customer_id         | AAAAAAAAPMMBBAAA 
+ customer_first_name | Paul             
+ customer_last_name  | Jordan           
+-RECORD 91------------------------------
+ customer_id         | AAAAAAAAPPIBBAAA 
+ customer_first_name | Candice          
+ customer_last_name  | Lee
+           

@@ -1,0 +1,181 @@
+-RECORD 0-------------------------------------
+ w_warehouse_name      | Bad cards must make. 
+ w_warehouse_sq_ft     | 621234               
+ w_city                | Fairview             
+ w_county              | Williamson County    
+ w_state               | TN                   
+ w_country             | United States        
+ ship_carriers         | DHL , BARIAN         
+ year                  | 2001                 
+ jan_sales             | 9506753.46           
+ feb_sales             | 8008140.33           
+ mar_sales             | 6116769.63           
+ apr_sales             | 11973045.15          
+ may_sales             | 7756254.92           
+ jun_sales             | 5352978.49           
+ jul_sales             | 13733996.10          
+ aug_sales             | 16418794.37          
+ sep_sales             | 17212743.32          
+ oct_sales             | 17042707.41          
+ nov_sales             | 34304935.61          
+ dec_sales             | 35324164.21          
+ jan_sales_per_sq_foot | 15.303015            
+ feb_sales_per_sq_foot | 12.890699            
+ mar_sales_per_sq_foot | 9.846160             
+ apr_sales_per_sq_foot | 19.273004            
+ may_sales_per_sq_foot | 12.485239            
+ jun_sales_per_sq_foot | 8.616687             
+ jul_sales_per_sq_foot | 22.107605            
+ aug_sales_per_sq_foot | 26.429324            
+ sep_sales_per_sq_foot | 27.707343            
+ oct_sales_per_sq_foot | 27.433635            
+ nov_sales_per_sq_foot | 55.220635            
+ dec_sales_per_sq_foot | 56.861286            
+ jan_net               | 30534943.77          
+ feb_net               | 24481685.94          
+ mar_net               | 22178710.81          
+ apr_net               | 25695798.18          
+ may_net               | 29954903.78          
+ jun_net               | 18084140.05          
+ jul_net               | 30805576.13          
+ aug_net               | 47156887.22          
+ sep_net               | 51158588.86          
+ oct_net               | 55759942.80          
+ nov_net               | 86253544.16          
+ dec_net               | 83451555.63          
+-RECORD 1-------------------------------------
+ w_warehouse_name      | Conventional childr  
+ w_warehouse_sq_ft     | 977787               
+ w_city                | Fairview             
+ w_county              | Williamson County    
+ w_state               | TN                   
+ w_country             | United States        
+ ship_carriers         | DHL , BARIAN         
+ year                  | 2001                 
+ jan_sales             | 8860645.55           
+ feb_sales             | 14415813.74          
+ mar_sales             | 6761497.23           
+ apr_sales             | 11820654.76          
+ may_sales             | 8246260.69           
+ jun_sales             | 6636877.49           
+ jul_sales             | 11434492.25          
+ aug_sales             | 25673812.14          
+ sep_sales             | 23074206.96          
+ oct_sales             | 21834581.94          
+ nov_sales             | 26894900.53          
+ dec_sales             | 33575091.74          
+ jan_sales_per_sq_foot | 9.061938             
+ feb_sales_per_sq_foot | 14.743307            
+ mar_sales_per_sq_foot | 6.915102             
+ apr_sales_per_sq_foot | 12.089192            
+ may_sales_per_sq_foot | 8.433596             
+ jun_sales_per_sq_foot | 6.787651             
+ jul_sales_per_sq_foot | 11.694257            
+ aug_sales_per_sq_foot | 26.257060            
+ sep_sales_per_sq_foot | 23.598398            
+ oct_sales_per_sq_foot | 22.330612            
+ nov_sales_per_sq_foot | 27.505889            
+ dec_sales_per_sq_foot | 34.337838            
+ jan_net               | 23836085.83          
+ feb_net               | 32073313.37          
+ mar_net               | 25037904.18          
+ apr_net               | 22659895.86          
+ may_net               | 21757401.03          
+ jun_net               | 24451608.10          
+ jul_net               | 21933001.85          
+ aug_net               | 55996703.43          
+ sep_net               | 57371880.44          
+ oct_net               | 62087214.51          
+ nov_net               | 82849910.15          
+ dec_net               | 88970319.31          
+-RECORD 2-------------------------------------
+ w_warehouse_name      | Doors canno          
+ w_warehouse_sq_ft     | 294242               
+ w_city                | Fairview             
+ w_county              | Williamson County    
+ w_state               | TN                   
+ w_country             | United States        
+ ship_carriers         | DHL , BARIAN         
+ year                  | 2001                 
+ jan_sales             | 6355232.31           
+ feb_sales             | 10198920.36          
+ mar_sales             | 10246200.97          
+ apr_sales             | 12209716.50          
+ may_sales             | 8566998.28           
+ jun_sales             | 8806316.81           
+ jul_sales             | 9789405.60           
+ aug_sales             | 16466584.88          
+ sep_sales             | 26443785.61          
+ oct_sales             | 27016047.80          
+ nov_sales             | 33660589.67          
+ dec_sales             | 27462468.62          
+ jan_sales_per_sq_foot | 21.598658            
+ feb_sales_per_sq_foot | 34.661674            
+ mar_sales_per_sq_foot | 34.822360            
+ apr_sales_per_sq_foot | 41.495491            
+ may_sales_per_sq_foot | 29.115484            
+ jun_sales_per_sq_foot | 29.928823            
+ jul_sales_per_sq_foot | 33.269913            
+ aug_sales_per_sq_foot | 55.962728            
+ sep_sales_per_sq_foot | 89.870873            
+ oct_sales_per_sq_foot | 91.815743            
+ nov_sales_per_sq_foot | 114.397637           
+ dec_sales_per_sq_foot | 93.332932            
+ jan_net               | 22645143.09          
+ feb_net               | 24487254.60          
+ mar_net               | 24925759.42          
+ apr_net               | 30503655.27          
+ may_net               | 26558160.29          
+ jun_net               | 20976233.52          
+ jul_net               | 29895796.09          
+ aug_net               | 56002198.38          
+ sep_net               | 53488158.53          
+ oct_net               | 76287235.46          
+ nov_net               | 82483747.59          
+ dec_net               | 88088266.69          
+-RECORD 3-------------------------------------
+ w_warehouse_name      | Important issues liv 
+ w_warehouse_sq_ft     | 138504               
+ w_city                | Fairview             
+ w_county              | Williamson County    
+ w_state               | TN                   
+ w_country             | United States        
+ ship_carriers         | DHL , BARIAN         
+ year                  | 2001                 
+ jan_sales             | 11748784.55          
+ feb_sales             | 14351305.77          
+ mar_sales             | 9896470.93           
+ apr_sales             | 7990874.78           
+ may_sales             | 8879247.90           
+ jun_sales             | 7362383.09           
+ jul_sales             | 10011144.75          
+ aug_sales             | 17741201.32          
+ sep_sales             | 21346976.05          
+ oct_sales             | 18074978.16          
+ nov_sales             | 29675125.64          
+ dec_sales             | 32545325.29          
+ jan_sales_per_sq_foot | 84.826319            
+ feb_sales_per_sq_foot | 103.616544           
+ mar_sales_per_sq_foot | 71.452600            
+ apr_sales_per_sq_foot | 57.694180            
+ may_sales_per_sq_foot | 64.108242            
+ jun_sales_per_sq_foot | 53.156465            
+ jul_sales_per_sq_foot | 72.280546            
+ aug_sales_per_sq_foot | 128.091617           
+ sep_sales_per_sq_foot | 154.125340           
+ oct_sales_per_sq_foot | 130.501488           
+ nov_sales_per_sq_foot | 214.254647           
+ dec_sales_per_sq_foot | 234.977512           
+ jan_net               | 27204167.15          
+ feb_net               | 25980378.13          
+ mar_net               | 19943398.93          
+ apr_net               | 25710421.13          
+ may_net               | 19484481.03          
+ jun_net               | 26346611.48          
+ jul_net               | 25075158.43          
+ aug_net               | 54094778.13          
+ sep_net               | 41066732.11          
+ oct_net               | 54547058.28          
+ nov_net               | 72465962.92          
+ dec_net               | 92770328.27
+           

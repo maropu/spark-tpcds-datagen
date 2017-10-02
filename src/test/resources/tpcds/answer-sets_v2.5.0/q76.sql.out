@@ -1,0 +1,793 @@
+-RECORD 0---------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 1               
+ i_category | Children        
+ sales_cnt  | 5               
+ sales_amt  | 5064.75         
+-RECORD 1---------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 1               
+ i_category | Electronics     
+ sales_cnt  | 13              
+ sales_amt  | 31709.80        
+-RECORD 2---------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 1               
+ i_category | Home            
+ sales_cnt  | 12              
+ sales_amt  | 11651.18        
+-RECORD 3---------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 1               
+ i_category | Jewelry         
+ sales_cnt  | 13              
+ sales_amt  | 13102.23        
+-RECORD 4---------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 1               
+ i_category | Men             
+ sales_cnt  | 11              
+ sales_amt  | 17458.37        
+-RECORD 5---------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 1               
+ i_category | Music           
+ sales_cnt  | 13              
+ sales_amt  | 6741.65         
+-RECORD 6---------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 1               
+ i_category | Shoes           
+ sales_cnt  | 9               
+ sales_amt  | 24531.24        
+-RECORD 7---------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 1               
+ i_category | Sports          
+ sales_cnt  | 9               
+ sales_amt  | 19244.50        
+-RECORD 8---------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 1               
+ i_category | Women           
+ sales_cnt  | 13              
+ sales_amt  | 24864.50        
+-RECORD 9---------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 2               
+ i_category | null            
+ sales_cnt  | 1               
+ sales_amt  | 1535.61         
+-RECORD 10--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 2               
+ i_category | Books           
+ sales_cnt  | 14              
+ sales_amt  | 16581.16        
+-RECORD 11--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 2               
+ i_category | Children        
+ sales_cnt  | 12              
+ sales_amt  | 26195.71        
+-RECORD 12--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 2               
+ i_category | Electronics     
+ sales_cnt  | 9               
+ sales_amt  | 7133.74         
+-RECORD 13--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 2               
+ i_category | Home            
+ sales_cnt  | 15              
+ sales_amt  | 44228.54        
+-RECORD 14--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 2               
+ i_category | Jewelry         
+ sales_cnt  | 11              
+ sales_amt  | 6804.54         
+-RECORD 15--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 2               
+ i_category | Men             
+ sales_cnt  | 11              
+ sales_amt  | 11700.11        
+-RECORD 16--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 2               
+ i_category | Music           
+ sales_cnt  | 10              
+ sales_amt  | 32062.82        
+-RECORD 17--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 2               
+ i_category | Shoes           
+ sales_cnt  | 7               
+ sales_amt  | 4682.58         
+-RECORD 18--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 2               
+ i_category | Sports          
+ sales_cnt  | 7               
+ sales_amt  | 5470.29         
+-RECORD 19--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 2               
+ i_category | Women           
+ sales_cnt  | 5               
+ sales_amt  | 14928.09        
+-RECORD 20--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 3               
+ i_category | Books           
+ sales_cnt  | 20              
+ sales_amt  | 22224.09        
+-RECORD 21--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 3               
+ i_category | Children        
+ sales_cnt  | 19              
+ sales_amt  | 18667.83        
+-RECORD 22--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 3               
+ i_category | Electronics     
+ sales_cnt  | 15              
+ sales_amt  | 21854.97        
+-RECORD 23--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 3               
+ i_category | Home            
+ sales_cnt  | 22              
+ sales_amt  | 24690.28        
+-RECORD 24--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 3               
+ i_category | Jewelry         
+ sales_cnt  | 14              
+ sales_amt  | 4586.41         
+-RECORD 25--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 3               
+ i_category | Men             
+ sales_cnt  | 20              
+ sales_amt  | 30700.69        
+-RECORD 26--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 3               
+ i_category | Music           
+ sales_cnt  | 23              
+ sales_amt  | 44816.68        
+-RECORD 27--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 3               
+ i_category | Shoes           
+ sales_cnt  | 20              
+ sales_amt  | 33458.73        
+-RECORD 28--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 3               
+ i_category | Sports          
+ sales_cnt  | 25              
+ sales_amt  | 35679.92        
+-RECORD 29--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 3               
+ i_category | Women           
+ sales_cnt  | 22              
+ sales_amt  | 48029.28        
+-RECORD 30--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 4               
+ i_category | null            
+ sales_cnt  | 2               
+ sales_amt  | 839.65          
+-RECORD 31--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 4               
+ i_category | Books           
+ sales_cnt  | 28              
+ sales_amt  | 46283.99        
+-RECORD 32--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 4               
+ i_category | Children        
+ sales_cnt  | 40              
+ sales_amt  | 57305.90        
+-RECORD 33--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 4               
+ i_category | Electronics     
+ sales_cnt  | 29              
+ sales_amt  | 42656.07        
+-RECORD 34--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 4               
+ i_category | Home            
+ sales_cnt  | 29              
+ sales_amt  | 29708.36        
+-RECORD 35--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 4               
+ i_category | Jewelry         
+ sales_cnt  | 29              
+ sales_amt  | 24689.26        
+-RECORD 36--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 4               
+ i_category | Men             
+ sales_cnt  | 36              
+ sales_amt  | 64378.63        
+-RECORD 37--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 4               
+ i_category | Music           
+ sales_cnt  | 35              
+ sales_amt  | 51308.03        
+-RECORD 38--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 4               
+ i_category | Shoes           
+ sales_cnt  | 27              
+ sales_amt  | 10881.49        
+-RECORD 39--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 4               
+ i_category | Sports          
+ sales_cnt  | 33              
+ sales_amt  | 33380.56        
+-RECORD 40--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1998            
+ d_qoy      | 4               
+ i_category | Women           
+ sales_cnt  | 35              
+ sales_amt  | 14347.96        
+-RECORD 41--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 1               
+ i_category | Books           
+ sales_cnt  | 14              
+ sales_amt  | 35278.57        
+-RECORD 42--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 1               
+ i_category | Children        
+ sales_cnt  | 13              
+ sales_amt  | 17183.17        
+-RECORD 43--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 1               
+ i_category | Electronics     
+ sales_cnt  | 4               
+ sales_amt  | 153.18          
+-RECORD 44--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 1               
+ i_category | Home            
+ sales_cnt  | 11              
+ sales_amt  | 19895.88        
+-RECORD 45--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 1               
+ i_category | Jewelry         
+ sales_cnt  | 9               
+ sales_amt  | 1341.90         
+-RECORD 46--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 1               
+ i_category | Men             
+ sales_cnt  | 9               
+ sales_amt  | 6625.86         
+-RECORD 47--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 1               
+ i_category | Music           
+ sales_cnt  | 10              
+ sales_amt  | 27861.23        
+-RECORD 48--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 1               
+ i_category | Shoes           
+ sales_cnt  | 15              
+ sales_amt  | 5365.20         
+-RECORD 49--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 1               
+ i_category | Sports          
+ sales_cnt  | 9               
+ sales_amt  | 10745.83        
+-RECORD 50--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 1               
+ i_category | Women           
+ sales_cnt  | 11              
+ sales_amt  | 15388.74        
+-RECORD 51--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 2               
+ i_category | Books           
+ sales_cnt  | 6               
+ sales_amt  | 3659.91         
+-RECORD 52--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 2               
+ i_category | Children        
+ sales_cnt  | 13              
+ sales_amt  | 6066.50         
+-RECORD 53--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 2               
+ i_category | Electronics     
+ sales_cnt  | 10              
+ sales_amt  | 14915.50        
+-RECORD 54--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 2               
+ i_category | Home            
+ sales_cnt  | 13              
+ sales_amt  | 12035.96        
+-RECORD 55--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 2               
+ i_category | Jewelry         
+ sales_cnt  | 6               
+ sales_amt  | 23975.00        
+-RECORD 56--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 2               
+ i_category | Men             
+ sales_cnt  | 13              
+ sales_amt  | 16414.16        
+-RECORD 57--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 2               
+ i_category | Music           
+ sales_cnt  | 13              
+ sales_amt  | 6061.53         
+-RECORD 58--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 2               
+ i_category | Shoes           
+ sales_cnt  | 10              
+ sales_amt  | 12500.71        
+-RECORD 59--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 2               
+ i_category | Sports          
+ sales_cnt  | 11              
+ sales_amt  | 2181.52         
+-RECORD 60--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 2               
+ i_category | Women           
+ sales_cnt  | 11              
+ sales_amt  | 16390.31        
+-RECORD 61--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 3               
+ i_category | Books           
+ sales_cnt  | 18              
+ sales_amt  | 29809.59        
+-RECORD 62--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 3               
+ i_category | Children        
+ sales_cnt  | 16              
+ sales_amt  | 12816.74        
+-RECORD 63--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 3               
+ i_category | Electronics     
+ sales_cnt  | 17              
+ sales_amt  | 36415.09        
+-RECORD 64--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 3               
+ i_category | Home            
+ sales_cnt  | 15              
+ sales_amt  | 19664.04        
+-RECORD 65--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 3               
+ i_category | Jewelry         
+ sales_cnt  | 20              
+ sales_amt  | 23257.68        
+-RECORD 66--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 3               
+ i_category | Men             
+ sales_cnt  | 19              
+ sales_amt  | 20150.72        
+-RECORD 67--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 3               
+ i_category | Music           
+ sales_cnt  | 20              
+ sales_amt  | 12062.24        
+-RECORD 68--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 3               
+ i_category | Shoes           
+ sales_cnt  | 13              
+ sales_amt  | 14924.61        
+-RECORD 69--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 3               
+ i_category | Sports          
+ sales_cnt  | 24              
+ sales_amt  | 56456.44        
+-RECORD 70--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 3               
+ i_category | Women           
+ sales_cnt  | 17              
+ sales_amt  | 6958.54         
+-RECORD 71--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 4               
+ i_category | null            
+ sales_cnt  | 1               
+ sales_amt  | null            
+-RECORD 72--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 4               
+ i_category | Books           
+ sales_cnt  | 27              
+ sales_amt  | 50890.95        
+-RECORD 73--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 4               
+ i_category | Children        
+ sales_cnt  | 36              
+ sales_amt  | 30608.13        
+-RECORD 74--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 4               
+ i_category | Electronics     
+ sales_cnt  | 28              
+ sales_amt  | 59307.37        
+-RECORD 75--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 4               
+ i_category | Home            
+ sales_cnt  | 46              
+ sales_amt  | 51713.78        
+-RECORD 76--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 4               
+ i_category | Jewelry         
+ sales_cnt  | 34              
+ sales_amt  | 44238.07        
+-RECORD 77--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 4               
+ i_category | Men             
+ sales_cnt  | 19              
+ sales_amt  | 17925.34        
+-RECORD 78--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 4               
+ i_category | Music           
+ sales_cnt  | 28              
+ sales_amt  | 14816.79        
+-RECORD 79--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 4               
+ i_category | Shoes           
+ sales_cnt  | 35              
+ sales_amt  | 48226.50        
+-RECORD 80--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 4               
+ i_category | Sports          
+ sales_cnt  | 32              
+ sales_amt  | 35012.19        
+-RECORD 81--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 1999            
+ d_qoy      | 4               
+ i_category | Women           
+ sales_cnt  | 30              
+ sales_amt  | 24033.32        
+-RECORD 82--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 1               
+ i_category | Books           
+ sales_cnt  | 15              
+ sales_amt  | 50786.51        
+-RECORD 83--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 1               
+ i_category | Children        
+ sales_cnt  | 6               
+ sales_amt  | 5623.72         
+-RECORD 84--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 1               
+ i_category | Electronics     
+ sales_cnt  | 13              
+ sales_amt  | 35869.18        
+-RECORD 85--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 1               
+ i_category | Home            
+ sales_cnt  | 14              
+ sales_amt  | 11212.87        
+-RECORD 86--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 1               
+ i_category | Jewelry         
+ sales_cnt  | 9               
+ sales_amt  | 16751.45        
+-RECORD 87--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 1               
+ i_category | Men             
+ sales_cnt  | 14              
+ sales_amt  | 34465.53        
+-RECORD 88--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 1               
+ i_category | Music           
+ sales_cnt  | 9               
+ sales_amt  | 23103.03        
+-RECORD 89--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 1               
+ i_category | Shoes           
+ sales_cnt  | 9               
+ sales_amt  | 2854.29         
+-RECORD 90--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 1               
+ i_category | Sports          
+ sales_cnt  | 5               
+ sales_amt  | 159.04          
+-RECORD 91--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 1               
+ i_category | Women           
+ sales_cnt  | 8               
+ sales_amt  | 8663.29         
+-RECORD 92--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 2               
+ i_category | Books           
+ sales_cnt  | 14              
+ sales_amt  | 18943.05        
+-RECORD 93--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 2               
+ i_category | Children        
+ sales_cnt  | 8               
+ sales_amt  | 7309.74         
+-RECORD 94--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 2               
+ i_category | Electronics     
+ sales_cnt  | 9               
+ sales_amt  | 11856.27        
+-RECORD 95--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 2               
+ i_category | Home            
+ sales_cnt  | 8               
+ sales_amt  | 10107.78        
+-RECORD 96--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 2               
+ i_category | Jewelry         
+ sales_cnt  | 9               
+ sales_amt  | 19113.02        
+-RECORD 97--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 2               
+ i_category | Men             
+ sales_cnt  | 12              
+ sales_amt  | 41513.90        
+-RECORD 98--------------------
+ channel    | catalog         
+ col_name   | cs_ship_addr_sk 
+ d_year     | 2000            
+ d_qoy      | 2               
+ i_category | Music           
+ sales_cnt  | 10              
+ sales_amt  | 7181.12
+           

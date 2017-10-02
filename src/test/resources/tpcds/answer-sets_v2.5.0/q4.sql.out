@@ -1,0 +1,65 @@
+-RECORD 0----------------------------------------
+ customer_id                  | AAAAAAAABIJBAAAA 
+ customer_first_name          | James            
+ customer_last_name           | White            
+ customer_preferred_cust_flag | N                
+ customer_birth_country       | IRAQ             
+ customer_login               | null             
+ customer_email_address       | null             
+-RECORD 1----------------------------------------
+ customer_id                  | AAAAAAAADIIOAAAA 
+ customer_first_name          | David            
+ customer_last_name           | Carroll          
+ customer_preferred_cust_flag | Y                
+ customer_birth_country       | GIBRALTAR        
+ customer_login               | null             
+ customer_email_address       | null             
+-RECORD 2----------------------------------------
+ customer_id                  | AAAAAAAAIJCIBAAA 
+ customer_first_name          | Thomas           
+ customer_last_name           | Oneal            
+ customer_preferred_cust_flag | Y                
+ customer_birth_country       | BANGLADESH       
+ customer_login               | null             
+ customer_email_address       | null             
+-RECORD 3----------------------------------------
+ customer_id                  | AAAAAAAAKJBLAAAA 
+ customer_first_name          | Kerry            
+ customer_last_name           | Davis            
+ customer_preferred_cust_flag | Y                
+ customer_birth_country       | AFGHANISTAN      
+ customer_login               | null             
+ customer_email_address       | null             
+-RECORD 4----------------------------------------
+ customer_id                  | AAAAAAAAMFPFBAAA 
+ customer_first_name          | Jamie            
+ customer_last_name           | Woods            
+ customer_preferred_cust_flag | Y                
+ customer_birth_country       | TAJIKISTAN       
+ customer_login               | null             
+ customer_email_address       | null             
+-RECORD 5----------------------------------------
+ customer_id                  | AAAAAAAANJAMAAAA 
+ customer_first_name          | Thaddeus         
+ customer_last_name           | Griffin          
+ customer_preferred_cust_flag | N                
+ customer_birth_country       | LITHUANIA        
+ customer_login               | null             
+ customer_email_address       | null             
+-RECORD 6----------------------------------------
+ customer_id                  | AAAAAAAANJOLAAAA 
+ customer_first_name          | Debra            
+ customer_last_name           | Underwood        
+ customer_preferred_cust_flag | Y                
+ customer_birth_country       | BOTSWANA         
+ customer_login               | null             
+ customer_email_address       | null             
+-RECORD 7----------------------------------------
+ customer_id                  | AAAAAAAAPEHEBAAA 
+ customer_first_name          | Edith            
+ customer_last_name           | Molina           
+ customer_preferred_cust_flag | Y                
+ customer_birth_country       | GREENLAND        
+ customer_login               | null             
+ customer_email_address       | null
+           

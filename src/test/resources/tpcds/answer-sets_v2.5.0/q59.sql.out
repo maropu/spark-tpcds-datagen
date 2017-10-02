@@ -1,0 +1,1101 @@
+-RECORD 0-------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 1-------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 2-------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 3-------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 4-------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 5-------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 6-------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 7-------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 8-------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 9-------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 10------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 11------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 12------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 13------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 14------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 15------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 16------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 17------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 18------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 19------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 20------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 21------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 22------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 23------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 24------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 25------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 26------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 27------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 28------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 29------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 30------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 31------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 32------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 33------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 34------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 35------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 36------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 37------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 38------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 39------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 40------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 41------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 42------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 43------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 44------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 45------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 46------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 47------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 48------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5271             
+ (sun_sales1 / sun_sales2) | 1.36265188       
+ (mon_sales1 / mon_sales2) | 3.08639563       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .480423598       
+ (thu_sales1 / thu_sales2) | 1.14163248       
+ (fri_sales1 / fri_sales2) | .759840693       
+ (sat_sales1 / sat_sales2) | 1.84548617       
+-RECORD 49------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 50------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 51------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 52------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 53------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 54------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 55------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 56------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 57------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 58------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 59------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 60------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 61------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 62------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 63------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 64------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 65------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 66------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 67------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 68------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 69------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 70------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 71------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 72------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 73------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 74------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 75------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 76------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 77------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 78------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 79------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 80------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 81------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 82------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 83------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 84------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 85------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 86------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 87------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 88------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 89------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 90------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 91------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 92------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 93------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 94------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 95------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 96------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 97------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5272             
+ (sun_sales1 / sun_sales2) | 1.09689573       
+ (mon_sales1 / mon_sales2) | .758347616       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .987386123       
+ (thu_sales1 / thu_sales2) | 1.00343722       
+ (fri_sales1 / fri_sales2) | 1.33354788       
+ (sat_sales1 / sat_sales2) | .992338021       
+-RECORD 98------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5273             
+ (sun_sales1 / sun_sales2) | 1.19728505       
+ (mon_sales1 / mon_sales2) | 1.02715075       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .632462934       
+ (thu_sales1 / thu_sales2) | .708915062       
+ (fri_sales1 / fri_sales2) | 1.4923289        
+ (sat_sales1 / sat_sales2) | .574005827       
+-RECORD 99------------------------------------
+ s_store_name1             | able             
+ s_store_id1               | AAAAAAAACAAAAAAA 
+ d_week_seq1               | 5273             
+ (sun_sales1 / sun_sales2) | 1.19728505       
+ (mon_sales1 / mon_sales2) | 1.02715075       
+ (tue_sales1 / tue_sales2) | 1                
+ (wed_sales1 / wed_sales2) | .632462934       
+ (thu_sales1 / thu_sales2) | .708915062       
+ (fri_sales1 / fri_sales2) | 1.4923289        
+ (sat_sales1 / sat_sales2) | .574005827
+           

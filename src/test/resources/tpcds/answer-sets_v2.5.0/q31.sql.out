@@ -1,0 +1,358 @@
+-RECORD 0-------------------------------------
+ ca_county            | Atchison County       
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.800221223
+ store_q1_q2_increase | 0.242964091
+ web_q2_q3_increase   | 11.9445604            
+ store_q2_q3_increase | 3.1629539             
+-RECORD 1-------------------------------------
+ ca_county            | Bacon County          
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.16882639            
+ store_q1_q2_increase | 0.394037665
+ web_q2_q3_increase   | 0.968799546
+ store_q2_q3_increase | 0.510743076
+-RECORD 2-------------------------------------
+ ca_county            | Bourbon County        
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.91311509            
+ store_q1_q2_increase | 0.98192793
+ web_q2_q3_increase   | 3.36480235            
+ store_q2_q3_increase | 1.38012281            
+-RECORD 3-------------------------------------
+ ca_county            | Boyd County           
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.08632395            
+ store_q1_q2_increase | 0.811506515
+ web_q2_q3_increase   | 1.16897234            
+ store_q2_q3_increase | 0.742057104
+-RECORD 4-------------------------------------
+ ca_county            | Bradley County        
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.48963164            
+ store_q1_q2_increase | 0.575784865
+ web_q2_q3_increase   | 1.34438974            
+ store_q2_q3_increase | 0.998918771
+-RECORD 5-------------------------------------
+ ca_county            | Buchanan County       
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.19566727            
+ store_q1_q2_increase | 0.746048859
+ web_q2_q3_increase   | 3.33290428            
+ store_q2_q3_increase | 2.23978773            
+-RECORD 6-------------------------------------
+ ca_county            | Carter County         
+ d_year               | 2000                  
+ web_q1_q2_increase   | 3.95373858            
+ store_q1_q2_increase | 1.151033              
+ web_q2_q3_increase   | 2.11928466            
+ store_q2_q3_increase | 1.84449113            
+-RECORD 7-------------------------------------
+ ca_county            | Cass County           
+ d_year               | 2000                  
+ web_q1_q2_increase   | 2.39871955            
+ store_q1_q2_increase | 1.19058198            
+ web_q2_q3_increase   | 2.25716917            
+ store_q2_q3_increase | 0.847801015
+-RECORD 8-------------------------------------
+ ca_county            | Corson County         
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.560309233
+ store_q1_q2_increase | 0.175081015
+ web_q2_q3_increase   | 4.80740879            
+ store_q2_q3_increase | 3.22714075            
+-RECORD 9-------------------------------------
+ ca_county            | Crockett County       
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.63710645            
+ store_q1_q2_increase | 0.360468062
+ web_q2_q3_increase   | 2.1340423             
+ store_q2_q3_increase | 1.83245133            
+-RECORD 10------------------------------------
+ ca_county            | Culpeper County       
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.661751084
+ store_q1_q2_increase | 0.619014439
+ web_q2_q3_increase   | 1.65924813            
+ store_q2_q3_increase | 1.22416906            
+-RECORD 11------------------------------------
+ ca_county            | Edmonson County       
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.732442177
+ store_q1_q2_increase | 0.299753342
+ web_q2_q3_increase   | 1.60289705            
+ store_q2_q3_increase | 1.49124567            
+-RECORD 12------------------------------------
+ ca_county            | Ferry County          
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.701372577
+ store_q1_q2_increase | 0.341010414
+ web_q2_q3_increase   | 4.00291948            
+ store_q2_q3_increase | 2.60346424            
+-RECORD 13------------------------------------
+ ca_county            | Fillmore County       
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.507768923
+ store_q1_q2_increase | 0.349921225
+ web_q2_q3_increase   | 2.44316168            
+ store_q2_q3_increase | 1.30113584            
+-RECORD 14------------------------------------
+ ca_county            | Forest County         
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.644745097
+ store_q1_q2_increase | 0.342367154
+ web_q2_q3_increase   | 5.77102737            
+ store_q2_q3_increase | 1.88107396            
+-RECORD 15------------------------------------
+ ca_county            | Gaston County         
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.763773586
+ store_q1_q2_increase | 0.455495569
+ web_q2_q3_increase   | 3.95561128            
+ store_q2_q3_increase | 2.14157209            
+-RECORD 16------------------------------------
+ ca_county            | Grant County          
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.693335907
+ store_q1_q2_increase | 0.622870066
+ web_q2_q3_increase   | 1.7886444             
+ store_q2_q3_increase | 1.72219698            
+-RECORD 17------------------------------------
+ ca_county            | Green County          
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.76366674
+ store_q1_q2_increase | 0.321498504
+ web_q2_q3_increase   | 4.6941518             
+ store_q2_q3_increase | 4.20703393            
+-RECORD 18------------------------------------
+ ca_county            | Harlan County         
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.67035452            
+ store_q1_q2_increase | 1.59011463            
+ web_q2_q3_increase   | 2.4719588             
+ store_q2_q3_increase | 2.10729424            
+-RECORD 19------------------------------------
+ ca_county            | Harris County         
+ d_year               | 2000                  
+ web_q1_q2_increase   | 2.33756878            
+ store_q1_q2_increase | 0.333126434
+ web_q2_q3_increase   | 2.41705788            
+ store_q2_q3_increase | 1.02579422            
+-RECORD 20------------------------------------
+ ca_county            | Heard County          
+ d_year               | 2000                  
+ web_q1_q2_increase   | 4.10255426            
+ store_q1_q2_increase | 1.26694737            
+ web_q2_q3_increase   | 3.50022796            
+ store_q2_q3_increase | 1.127804              
+-RECORD 21------------------------------------
+ ca_county            | Houston County        
+ d_year               | 2000                  
+ web_q1_q2_increase   | 2.04532581            
+ store_q1_q2_increase | 1.03898262            
+ web_q2_q3_increase   | 1.96505101            
+ store_q2_q3_increase | 1.42119328            
+-RECORD 22------------------------------------
+ ca_county            | Ingham County         
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.574390405
+ store_q1_q2_increase | 0.384113646
+ web_q2_q3_increase   | 1.30651659            
+ store_q2_q3_increase | 0.992061013
+-RECORD 23------------------------------------
+ ca_county            | Lake County           
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.25507735            
+ store_q1_q2_increase | 0.745928167
+ web_q2_q3_increase   | 1.51514726            
+ store_q2_q3_increase | 1.26566158            
+-RECORD 24------------------------------------
+ ca_county            | Lamar County          
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.749357568
+ store_q1_q2_increase | 0.745616869
+ web_q2_q3_increase   | 4.26903583            
+ store_q2_q3_increase | 2.02958382            
+-RECORD 25------------------------------------
+ ca_county            | Lincoln County        
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.01913659            
+ store_q1_q2_increase | 0.94484497
+ web_q2_q3_increase   | 2.33595982            
+ store_q2_q3_increase | 1.77692774            
+-RECORD 26------------------------------------
+ ca_county            | Marion County         
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.15899867            
+ store_q1_q2_increase | 0.91651142
+ web_q2_q3_increase   | 2.44503996            
+ store_q2_q3_increase | 1.85107282            
+-RECORD 27------------------------------------
+ ca_county            | Mercer County         
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.738341741
+ store_q1_q2_increase | 0.601678213
+ web_q2_q3_increase   | 3.01245003            
+ store_q2_q3_increase | 2.72447027            
+-RECORD 28------------------------------------
+ ca_county            | Meriwether County     
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.365747588
+ store_q1_q2_increase | 0.300417185
+ web_q2_q3_increase   | 2.7722701             
+ store_q2_q3_increase | 0.78776869
+-RECORD 29------------------------------------
+ ca_county            | Miller County         
+ d_year               | 2000                  
+ web_q1_q2_increase   | 2.57574487            
+ store_q1_q2_increase | 1.31827331            
+ web_q2_q3_increase   | 2.19196785            
+ store_q2_q3_increase | 0.982218113
+-RECORD 30------------------------------------
+ ca_county            | Mitchell County       
+ d_year               | 2000                  
+ web_q1_q2_increase   | 4.43923301            
+ store_q1_q2_increase | 1.16133475            
+ web_q2_q3_increase   | 1.39403628            
+ store_q2_q3_increase | 1.25607445            
+-RECORD 31------------------------------------
+ ca_county            | Mora County           
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.18326068            
+ store_q1_q2_increase | 0.635654236
+ web_q2_q3_increase   | 2.51312041            
+ store_q2_q3_increase | 0.918567175
+-RECORD 32------------------------------------
+ ca_county            | Nantucket County      
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.43789671            
+ store_q1_q2_increase | 0.722692086
+ web_q2_q3_increase   | 1.17548815            
+ store_q2_q3_increase | 0.962303762
+-RECORD 33------------------------------------
+ ca_county            | New Kent County       
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.602616194
+ store_q1_q2_increase | 0.399062211
+ web_q2_q3_increase   | 2.8693864             
+ store_q2_q3_increase | 2.62589484            
+-RECORD 34------------------------------------
+ ca_county            | Nicholas County       
+ d_year               | 2000                  
+ web_q1_q2_increase   | 2.1651162             
+ store_q1_q2_increase | 2.05627395            
+ web_q2_q3_increase   | 6.02129981            
+ store_q2_q3_increase | 1.26257658            
+-RECORD 35------------------------------------
+ ca_county            | Otero County          
+ d_year               | 2000                  
+ web_q1_q2_increase   | 2.75465527            
+ store_q1_q2_increase | 1.24629886            
+ web_q2_q3_increase   | 2.97611082            
+ store_q2_q3_increase | 2.24583465            
+-RECORD 36------------------------------------
+ ca_county            | Oxford County         
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.973142972
+ store_q1_q2_increase | 0.757240456
+ web_q2_q3_increase   | 4.0126869             
+ store_q2_q3_increase | 1.64075104            
+-RECORD 37------------------------------------
+ ca_county            | Perry County          
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.58078031            
+ store_q1_q2_increase | 0.764453185
+ web_q2_q3_increase   | 2.15336995            
+ store_q2_q3_increase | 1.80241039            
+-RECORD 38------------------------------------
+ ca_county            | Prince William County 
+ d_year               | 2000                  
+ web_q1_q2_increase   | 3.37637294            
+ store_q1_q2_increase | 0.630787296
+ web_q2_q3_increase   | 1.70696673            
+ store_q2_q3_increase | 0.934323754
+-RECORD 39------------------------------------
+ ca_county            | Refugio County        
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.81297643            
+ store_q1_q2_increase | 0.586731801
+ web_q2_q3_increase   | 1.3019839             
+ store_q2_q3_increase | 1.26960357            
+-RECORD 40------------------------------------
+ ca_county            | Rice County           
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.13469846            
+ store_q1_q2_increase | 0.733017645
+ web_q2_q3_increase   | 2.37814936            
+ store_q2_q3_increase | 1.98640183            
+-RECORD 41------------------------------------
+ ca_county            | Richmond County       
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.57166529            
+ store_q1_q2_increase | 1.29401499            
+ web_q2_q3_increase   | 2.30959201            
+ store_q2_q3_increase | 1.77801574            
+-RECORD 42------------------------------------
+ ca_county            | Sheridan County       
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.38602993            
+ store_q1_q2_increase | 1.25065704            
+ web_q2_q3_increase   | 1.57593627            
+ store_q2_q3_increase | 0.537886078
+-RECORD 43------------------------------------
+ ca_county            | Smith County          
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.636935741
+ store_q1_q2_increase | 0.427881834
+ web_q2_q3_increase   | 5.74484457            
+ store_q2_q3_increase | 4.47795842            
+-RECORD 44------------------------------------
+ ca_county            | Stark County          
+ d_year               | 2000                  
+ web_q1_q2_increase   | 7.33821959            
+ store_q1_q2_increase | 1.41758912            
+ web_q2_q3_increase   | 1.86383953            
+ store_q2_q3_increase | 1.22736578            
+-RECORD 45------------------------------------
+ ca_county            | Steele County         
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.37741334            
+ store_q1_q2_increase | 0.766512503
+ web_q2_q3_increase   | 1.24797336            
+ store_q2_q3_increase | 0.931195375
+-RECORD 46------------------------------------
+ ca_county            | Stone County          
+ d_year               | 2000                  
+ web_q1_q2_increase   | 1.90004219            
+ store_q1_q2_increase | 0.811920325
+ web_q2_q3_increase   | 3.69936111            
+ store_q2_q3_increase | 1.52166195            
+-RECORD 47------------------------------------
+ ca_county            | Tooele County         
+ d_year               | 2000                  
+ web_q1_q2_increase   | 6.59030285            
+ store_q1_q2_increase | 0.768910489
+ web_q2_q3_increase   | 1.78863718            
+ store_q2_q3_increase | 0.340067289
+-RECORD 48------------------------------------
+ ca_county            | Vernon County         
+ d_year               | 2000                  
+ web_q1_q2_increase   | 0.974454326
+ store_q1_q2_increase | 0.915946204
+ web_q2_q3_increase   | 1.36880362            
+ store_q2_q3_increase | 1.04171186            
+-RECORD 49------------------------------------
+ ca_county            | Williamson County     
+ d_year               | 2000                  
+ web_q1_q2_increase   | 2.98510216            
+ store_q1_q2_increase | 0.391417742
+ web_q2_q3_increase   | 5.80596458            
+ store_q2_q3_increase | 4.3966991             
+-RECORD 50------------------------------------
+ ca_county            | Wright County         
+ d_year               | 2000                  
+ web_q1_q2_increase   | 5.02933514            
+ store_q1_q2_increase | 1.97080989            
+ web_q2_q3_increase   | 4.07652891            
+ store_q2_q3_increase | 1.96647245
+           

@@ -1,0 +1,793 @@
+-RECORD 0---------------------------
+ ratio                     | 2000   
+ store_qty                 | 119    
+ store_wholesale_cost      | 51419  
+ store_sales_price         | 0.54   
+ other_chan_qty            | 60     
+ other_chan_wholesale_cost | 52.03  
+ other_chan_sales_price    | 86.53  
+-RECORD 1---------------------------
+ ratio                     | 2000   
+ store_qty                 | 119    
+ store_wholesale_cost      | 51419  
+ store_sales_price         | 0.53   
+ other_chan_qty            | 60     
+ other_chan_wholesale_cost | 52.03  
+ other_chan_sales_price    | 86.53  
+-RECORD 2---------------------------
+ ratio                     | 2000   
+ store_qty                 | 119    
+ store_wholesale_cost      | 51419  
+ store_sales_price         | 0.49   
+ other_chan_qty            | 60     
+ other_chan_wholesale_cost | 52.03  
+ other_chan_sales_price    | 86.53  
+-RECORD 3---------------------------
+ ratio                     | 2000   
+ store_qty                 | 119    
+ store_wholesale_cost      | 51419  
+ store_sales_price         | 0.48   
+ other_chan_qty            | 60     
+ other_chan_wholesale_cost | 52.03  
+ other_chan_sales_price    | 86.53  
+-RECORD 4---------------------------
+ ratio                     | 2000   
+ store_qty                 | 119    
+ store_wholesale_cost      | 51419  
+ store_sales_price         | 0.41   
+ other_chan_qty            | 60     
+ other_chan_wholesale_cost | 52.03  
+ other_chan_sales_price    | 86.53  
+-RECORD 5---------------------------
+ ratio                     | 2000   
+ store_qty                 | 119    
+ store_wholesale_cost      | 51419  
+ store_sales_price         | 0.38   
+ other_chan_qty            | 60     
+ other_chan_wholesale_cost | 52.03  
+ other_chan_sales_price    | 86.53  
+-RECORD 6---------------------------
+ ratio                     | 2000   
+ store_qty                 | 119    
+ store_wholesale_cost      | 51419  
+ store_sales_price         | 0.36   
+ other_chan_qty            | 60     
+ other_chan_wholesale_cost | 52.03  
+ other_chan_sales_price    | 86.53  
+-RECORD 7---------------------------
+ ratio                     | 2000   
+ store_qty                 | 119    
+ store_wholesale_cost      | 51419  
+ store_sales_price         | 0.36   
+ other_chan_qty            | 60     
+ other_chan_wholesale_cost | 52.03  
+ other_chan_sales_price    | 86.53  
+-RECORD 8---------------------------
+ ratio                     | 2000   
+ store_qty                 | 119    
+ store_wholesale_cost      | 51419  
+ store_sales_price         | 0.34   
+ other_chan_qty            | 60     
+ other_chan_wholesale_cost | 52.03  
+ other_chan_sales_price    | 86.53  
+-RECORD 9---------------------------
+ ratio                     | 2000   
+ store_qty                 | 911    
+ store_wholesale_cost      | 75040  
+ store_sales_price         | 0.14   
+ other_chan_qty            | 14     
+ other_chan_wholesale_cost | 38.78  
+ other_chan_sales_price    | 40.41  
+-RECORD 10--------------------------
+ ratio                     | 2000   
+ store_qty                 | 911    
+ store_wholesale_cost      | 75040  
+ store_sales_price         | 0.13   
+ other_chan_qty            | 14     
+ other_chan_wholesale_cost | 38.78  
+ other_chan_sales_price    | 40.41  
+-RECORD 11--------------------------
+ ratio                     | 2000   
+ store_qty                 | 911    
+ store_wholesale_cost      | 75040  
+ store_sales_price         | 0.11   
+ other_chan_qty            | 14     
+ other_chan_wholesale_cost | 38.78  
+ other_chan_sales_price    | 40.41  
+-RECORD 12--------------------------
+ ratio                     | 2000   
+ store_qty                 | 911    
+ store_wholesale_cost      | 75040  
+ store_sales_price         | 0.10   
+ other_chan_qty            | 14     
+ other_chan_wholesale_cost | 38.78  
+ other_chan_sales_price    | 40.41  
+-RECORD 13--------------------------
+ ratio                     | 2000   
+ store_qty                 | 911    
+ store_wholesale_cost      | 75040  
+ store_sales_price         | 0.10   
+ other_chan_qty            | 14     
+ other_chan_wholesale_cost | 38.78  
+ other_chan_sales_price    | 40.41  
+-RECORD 14--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2423   
+ store_wholesale_cost      | 79617  
+ store_sales_price         | 0.08   
+ other_chan_qty            | 3      
+ other_chan_wholesale_cost | 66.00  
+ other_chan_sales_price    | 18.36  
+-RECORD 15--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2423   
+ store_wholesale_cost      | 79617  
+ store_sales_price         | 0.06   
+ other_chan_qty            | 3      
+ other_chan_wholesale_cost | 66.00  
+ other_chan_sales_price    | 18.36  
+-RECORD 16--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2423   
+ store_wholesale_cost      | 79617  
+ store_sales_price         | 0.06   
+ other_chan_qty            | 3      
+ other_chan_wholesale_cost | 66.00  
+ other_chan_sales_price    | 18.36  
+-RECORD 17--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2423   
+ store_wholesale_cost      | 79617  
+ store_sales_price         | 0.05   
+ other_chan_qty            | 3      
+ other_chan_wholesale_cost | 66.00  
+ other_chan_sales_price    | 18.36  
+-RECORD 18--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2423   
+ store_wholesale_cost      | 79617  
+ store_sales_price         | 0.05   
+ other_chan_qty            | 3      
+ other_chan_wholesale_cost | 66.00  
+ other_chan_sales_price    | 18.36  
+-RECORD 19--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2423   
+ store_wholesale_cost      | 79617  
+ store_sales_price         | 0.03   
+ other_chan_qty            | 3      
+ other_chan_wholesale_cost | 66.00  
+ other_chan_sales_price    | 18.36  
+-RECORD 20--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2423   
+ store_wholesale_cost      | 79617  
+ store_sales_price         | 0.03   
+ other_chan_qty            | 3      
+ other_chan_wholesale_cost | 66.00  
+ other_chan_sales_price    | 18.36  
+-RECORD 21--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2423   
+ store_wholesale_cost      | 79617  
+ store_sales_price         | 0.03   
+ other_chan_qty            | 3      
+ other_chan_wholesale_cost | 66.00  
+ other_chan_sales_price    | 18.36  
+-RECORD 22--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2918   
+ store_wholesale_cost      | 52124  
+ store_sales_price         | 2.61   
+ other_chan_qty            | 47     
+ other_chan_wholesale_cost | 98.06  
+ other_chan_sales_price    | 115.41 
+-RECORD 23--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2918   
+ store_wholesale_cost      | 52124  
+ store_sales_price         | 1.88   
+ other_chan_qty            | 47     
+ other_chan_wholesale_cost | 98.06  
+ other_chan_sales_price    | 115.41 
+-RECORD 24--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2918   
+ store_wholesale_cost      | 52124  
+ store_sales_price         | 1.57   
+ other_chan_qty            | 47     
+ other_chan_wholesale_cost | 98.06  
+ other_chan_sales_price    | 115.41 
+-RECORD 25--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2918   
+ store_wholesale_cost      | 52124  
+ store_sales_price         | 0.98   
+ other_chan_qty            | 47     
+ other_chan_wholesale_cost | 98.06  
+ other_chan_sales_price    | 115.41 
+-RECORD 26--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2918   
+ store_wholesale_cost      | 52124  
+ store_sales_price         | 0.92   
+ other_chan_qty            | 47     
+ other_chan_wholesale_cost | 98.06  
+ other_chan_sales_price    | 115.41 
+-RECORD 27--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2918   
+ store_wholesale_cost      | 52124  
+ store_sales_price         | 0.68   
+ other_chan_qty            | 47     
+ other_chan_wholesale_cost | 98.06  
+ other_chan_sales_price    | 115.41 
+-RECORD 28--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2918   
+ store_wholesale_cost      | 52124  
+ store_sales_price         | 0.65   
+ other_chan_qty            | 47     
+ other_chan_wholesale_cost | 98.06  
+ other_chan_sales_price    | 115.41 
+-RECORD 29--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2918   
+ store_wholesale_cost      | 52124  
+ store_sales_price         | 0.53   
+ other_chan_qty            | 47     
+ other_chan_wholesale_cost | 98.06  
+ other_chan_sales_price    | 115.41 
+-RECORD 30--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2918   
+ store_wholesale_cost      | 52124  
+ store_sales_price         | 0.47   
+ other_chan_qty            | 47     
+ other_chan_wholesale_cost | 98.06  
+ other_chan_sales_price    | 115.41 
+-RECORD 31--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2918   
+ store_wholesale_cost      | 52124  
+ store_sales_price         | 0.44   
+ other_chan_qty            | 47     
+ other_chan_wholesale_cost | 98.06  
+ other_chan_sales_price    | 115.41 
+-RECORD 32--------------------------
+ ratio                     | 2000   
+ store_qty                 | 2918   
+ store_wholesale_cost      | 52124  
+ store_sales_price         | 0.43   
+ other_chan_qty            | 47     
+ other_chan_wholesale_cost | 98.06  
+ other_chan_sales_price    | 115.41 
+-RECORD 33--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3397   
+ store_wholesale_cost      | 6926   
+ store_sales_price         | 2.34   
+ other_chan_qty            | 68     
+ other_chan_wholesale_cost | 79.62  
+ other_chan_sales_price    | 75.24  
+-RECORD 34--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3397   
+ store_wholesale_cost      | 6926   
+ store_sales_price         | 2.34   
+ other_chan_qty            | 68     
+ other_chan_wholesale_cost | 79.62  
+ other_chan_sales_price    | 75.24  
+-RECORD 35--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3397   
+ store_wholesale_cost      | 6926   
+ store_sales_price         | 2.19   
+ other_chan_qty            | 68     
+ other_chan_wholesale_cost | 79.62  
+ other_chan_sales_price    | 75.24  
+-RECORD 36--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3397   
+ store_wholesale_cost      | 6926   
+ store_sales_price         | 1.94   
+ other_chan_qty            | 68     
+ other_chan_wholesale_cost | 79.62  
+ other_chan_sales_price    | 75.24  
+-RECORD 37--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3397   
+ store_wholesale_cost      | 6926   
+ store_sales_price         | 1.42   
+ other_chan_qty            | 68     
+ other_chan_wholesale_cost | 79.62  
+ other_chan_sales_price    | 75.24  
+-RECORD 38--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3397   
+ store_wholesale_cost      | 6926   
+ store_sales_price         | 0.99   
+ other_chan_qty            | 68     
+ other_chan_wholesale_cost | 79.62  
+ other_chan_sales_price    | 75.24  
+-RECORD 39--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3397   
+ store_wholesale_cost      | 6926   
+ store_sales_price         | 0.94   
+ other_chan_qty            | 68     
+ other_chan_wholesale_cost | 79.62  
+ other_chan_sales_price    | 75.24  
+-RECORD 40--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3397   
+ store_wholesale_cost      | 6926   
+ store_sales_price         | 0.94   
+ other_chan_qty            | 68     
+ other_chan_wholesale_cost | 79.62  
+ other_chan_sales_price    | 75.24  
+-RECORD 41--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3397   
+ store_wholesale_cost      | 6926   
+ store_sales_price         | 0.93   
+ other_chan_qty            | 68     
+ other_chan_wholesale_cost | 79.62  
+ other_chan_sales_price    | 75.24  
+-RECORD 42--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3397   
+ store_wholesale_cost      | 6926   
+ store_sales_price         | 0.72   
+ other_chan_qty            | 68     
+ other_chan_wholesale_cost | 79.62  
+ other_chan_sales_price    | 75.24  
+-RECORD 43--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3691   
+ store_wholesale_cost      | 60308  
+ store_sales_price         | 0.32   
+ other_chan_qty            | 34     
+ other_chan_wholesale_cost | 68.21  
+ other_chan_sales_price    | 94.29  
+-RECORD 44--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3691   
+ store_wholesale_cost      | 60308  
+ store_sales_price         | 0.31   
+ other_chan_qty            | 34     
+ other_chan_wholesale_cost | 68.21  
+ other_chan_sales_price    | 94.29  
+-RECORD 45--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3691   
+ store_wholesale_cost      | 60308  
+ store_sales_price         | 0.30   
+ other_chan_qty            | 34     
+ other_chan_wholesale_cost | 68.21  
+ other_chan_sales_price    | 94.29  
+-RECORD 46--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3691   
+ store_wholesale_cost      | 60308  
+ store_sales_price         | 0.27   
+ other_chan_qty            | 34     
+ other_chan_wholesale_cost | 68.21  
+ other_chan_sales_price    | 94.29  
+-RECORD 47--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3691   
+ store_wholesale_cost      | 60308  
+ store_sales_price         | 0.22   
+ other_chan_qty            | 34     
+ other_chan_wholesale_cost | 68.21  
+ other_chan_sales_price    | 94.29  
+-RECORD 48--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3691   
+ store_wholesale_cost      | 60308  
+ store_sales_price         | 0.22   
+ other_chan_qty            | 34     
+ other_chan_wholesale_cost | 68.21  
+ other_chan_sales_price    | 94.29  
+-RECORD 49--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3691   
+ store_wholesale_cost      | 60308  
+ store_sales_price         | 0.19   
+ other_chan_qty            | 34     
+ other_chan_wholesale_cost | 68.21  
+ other_chan_sales_price    | 94.29  
+-RECORD 50--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3691   
+ store_wholesale_cost      | 60308  
+ store_sales_price         | 0.18   
+ other_chan_qty            | 34     
+ other_chan_wholesale_cost | 68.21  
+ other_chan_sales_price    | 94.29  
+-RECORD 51--------------------------
+ ratio                     | 2000   
+ store_qty                 | 3691   
+ store_wholesale_cost      | 60308  
+ store_sales_price         | 0.18   
+ other_chan_qty            | 34     
+ other_chan_wholesale_cost | 68.21  
+ other_chan_sales_price    | 94.29  
+-RECORD 52--------------------------
+ ratio                     | 2000   
+ store_qty                 | 4142   
+ store_wholesale_cost      | 65211  
+ store_sales_price         | 4.70   
+ other_chan_qty            | 94     
+ other_chan_wholesale_cost | 19.82  
+ other_chan_sales_price    | 9.98   
+-RECORD 53--------------------------
+ ratio                     | 2000   
+ store_qty                 | 4142   
+ store_wholesale_cost      | 65211  
+ store_sales_price         | 1.68   
+ other_chan_qty            | 94     
+ other_chan_wholesale_cost | 19.82  
+ other_chan_sales_price    | 9.98   
+-RECORD 54--------------------------
+ ratio                     | 2000   
+ store_qty                 | 4142   
+ store_wholesale_cost      | 65211  
+ store_sales_price         | 1.62   
+ other_chan_qty            | 94     
+ other_chan_wholesale_cost | 19.82  
+ other_chan_sales_price    | 9.98   
+-RECORD 55--------------------------
+ ratio                     | 2000   
+ store_qty                 | 4142   
+ store_wholesale_cost      | 65211  
+ store_sales_price         | 1.24   
+ other_chan_qty            | 94     
+ other_chan_wholesale_cost | 19.82  
+ other_chan_sales_price    | 9.98   
+-RECORD 56--------------------------
+ ratio                     | 2000   
+ store_qty                 | 4142   
+ store_wholesale_cost      | 65211  
+ store_sales_price         | 1.06   
+ other_chan_qty            | 94     
+ other_chan_wholesale_cost | 19.82  
+ other_chan_sales_price    | 9.98   
+-RECORD 57--------------------------
+ ratio                     | 2000   
+ store_qty                 | 4142   
+ store_wholesale_cost      | 65211  
+ store_sales_price         | 1.06   
+ other_chan_qty            | 94     
+ other_chan_wholesale_cost | 19.82  
+ other_chan_sales_price    | 9.98   
+-RECORD 58--------------------------
+ ratio                     | 2000   
+ store_qty                 | 4823   
+ store_wholesale_cost      | 40858  
+ store_sales_price         | 0.39   
+ other_chan_qty            | 15     
+ other_chan_wholesale_cost | 29.46  
+ other_chan_sales_price    | 40.47  
+-RECORD 59--------------------------
+ ratio                     | 2000   
+ store_qty                 | 4823   
+ store_wholesale_cost      | 40858  
+ store_sales_price         | 0.33   
+ other_chan_qty            | 15     
+ other_chan_wholesale_cost | 29.46  
+ other_chan_sales_price    | 40.47  
+-RECORD 60--------------------------
+ ratio                     | 2000   
+ store_qty                 | 4823   
+ store_wholesale_cost      | 40858  
+ store_sales_price         | 0.25   
+ other_chan_qty            | 15     
+ other_chan_wholesale_cost | 29.46  
+ other_chan_sales_price    | 40.47  
+-RECORD 61--------------------------
+ ratio                     | 2000   
+ store_qty                 | 4823   
+ store_wholesale_cost      | 40858  
+ store_sales_price         | 0.25   
+ other_chan_qty            | 15     
+ other_chan_wholesale_cost | 29.46  
+ other_chan_sales_price    | 40.47  
+-RECORD 62--------------------------
+ ratio                     | 2000   
+ store_qty                 | 4823   
+ store_wholesale_cost      | 40858  
+ store_sales_price         | 0.19   
+ other_chan_qty            | 15     
+ other_chan_wholesale_cost | 29.46  
+ other_chan_sales_price    | 40.47  
+-RECORD 63--------------------------
+ ratio                     | 2000   
+ store_qty                 | 4823   
+ store_wholesale_cost      | 40858  
+ store_sales_price         | 0.15   
+ other_chan_qty            | 15     
+ other_chan_wholesale_cost | 29.46  
+ other_chan_sales_price    | 40.47  
+-RECORD 64--------------------------
+ ratio                     | 2000   
+ store_qty                 | 4823   
+ store_wholesale_cost      | 40858  
+ store_sales_price         | 0.15   
+ other_chan_qty            | 15     
+ other_chan_wholesale_cost | 29.46  
+ other_chan_sales_price    | 40.47  
+-RECORD 65--------------------------
+ ratio                     | 2000   
+ store_qty                 | 4823   
+ store_wholesale_cost      | 40858  
+ store_sales_price         | 0.13   
+ other_chan_qty            | 15     
+ other_chan_wholesale_cost | 29.46  
+ other_chan_sales_price    | 40.47  
+-RECORD 66--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6133   
+ store_wholesale_cost      | 24941  
+ store_sales_price         | 0.52   
+ other_chan_qty            | 23     
+ other_chan_wholesale_cost | 70.89  
+ other_chan_sales_price    | 56.56  
+-RECORD 67--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6133   
+ store_wholesale_cost      | 24941  
+ store_sales_price         | 0.50   
+ other_chan_qty            | 23     
+ other_chan_wholesale_cost | 70.89  
+ other_chan_sales_price    | 56.56  
+-RECORD 68--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6133   
+ store_wholesale_cost      | 24941  
+ store_sales_price         | 0.34   
+ other_chan_qty            | 23     
+ other_chan_wholesale_cost | 70.89  
+ other_chan_sales_price    | 56.56  
+-RECORD 69--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6133   
+ store_wholesale_cost      | 24941  
+ store_sales_price         | 0.21   
+ other_chan_qty            | 23     
+ other_chan_wholesale_cost | 70.89  
+ other_chan_sales_price    | 56.56  
+-RECORD 70--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6133   
+ store_wholesale_cost      | 24941  
+ store_sales_price         | 0.21   
+ other_chan_qty            | 23     
+ other_chan_wholesale_cost | 70.89  
+ other_chan_sales_price    | 56.56  
+-RECORD 71--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6133   
+ store_wholesale_cost      | 24941  
+ store_sales_price         | 0.20   
+ other_chan_qty            | 23     
+ other_chan_wholesale_cost | 70.89  
+ other_chan_sales_price    | 56.56  
+-RECORD 72--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6133   
+ store_wholesale_cost      | 24941  
+ store_sales_price         | 0.19   
+ other_chan_qty            | 23     
+ other_chan_wholesale_cost | 70.89  
+ other_chan_sales_price    | 56.56  
+-RECORD 73--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6133   
+ store_wholesale_cost      | 24941  
+ store_sales_price         | 0.18   
+ other_chan_qty            | 23     
+ other_chan_wholesale_cost | 70.89  
+ other_chan_sales_price    | 56.56  
+-RECORD 74--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6133   
+ store_wholesale_cost      | 24941  
+ store_sales_price         | 0.17   
+ other_chan_qty            | 23     
+ other_chan_wholesale_cost | 70.89  
+ other_chan_sales_price    | 56.56  
+-RECORD 75--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6185   
+ store_wholesale_cost      | 67634  
+ store_sales_price         | 0.05   
+ other_chan_qty            | 2      
+ other_chan_wholesale_cost | 47.05  
+ other_chan_sales_price    | 6.78   
+-RECORD 76--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6185   
+ store_wholesale_cost      | 67634  
+ store_sales_price         | 0.04   
+ other_chan_qty            | 2      
+ other_chan_wholesale_cost | 47.05  
+ other_chan_sales_price    | 6.78   
+-RECORD 77--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6185   
+ store_wholesale_cost      | 67634  
+ store_sales_price         | 0.04   
+ other_chan_qty            | 2      
+ other_chan_wholesale_cost | 47.05  
+ other_chan_sales_price    | 6.78   
+-RECORD 78--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6185   
+ store_wholesale_cost      | 67634  
+ store_sales_price         | 0.03   
+ other_chan_qty            | 2      
+ other_chan_wholesale_cost | 47.05  
+ other_chan_sales_price    | 6.78   
+-RECORD 79--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6194   
+ store_wholesale_cost      | 79216  
+ store_sales_price         | 1.63   
+ other_chan_qty            | 67     
+ other_chan_wholesale_cost | 73.25  
+ other_chan_sales_price    | 19.03  
+-RECORD 80--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6194   
+ store_wholesale_cost      | 79216  
+ store_sales_price         | 1.18   
+ other_chan_qty            | 67     
+ other_chan_wholesale_cost | 73.25  
+ other_chan_sales_price    | 19.03  
+-RECORD 81--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6194   
+ store_wholesale_cost      | 79216  
+ store_sales_price         | 1.10   
+ other_chan_qty            | 67     
+ other_chan_wholesale_cost | 73.25  
+ other_chan_sales_price    | 19.03  
+-RECORD 82--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6194   
+ store_wholesale_cost      | 79216  
+ store_sales_price         | 0.71   
+ other_chan_qty            | 67     
+ other_chan_wholesale_cost | 73.25  
+ other_chan_sales_price    | 19.03  
+-RECORD 83--------------------------
+ ratio                     | 2000   
+ store_qty                 | 6194   
+ store_wholesale_cost      | 79216  
+ store_sales_price         | 0.61   
+ other_chan_qty            | 67     
+ other_chan_wholesale_cost | 73.25  
+ other_chan_sales_price    | 19.03  
+-RECORD 84--------------------------
+ ratio                     | 2000   
+ store_qty                 | 7153   
+ store_wholesale_cost      | 86796  
+ store_sales_price         | null   
+ other_chan_qty            | null   
+ other_chan_wholesale_cost | 76.24  
+ other_chan_sales_price    | 50.82  
+-RECORD 85--------------------------
+ ratio                     | 2000   
+ store_qty                 | 7153   
+ store_wholesale_cost      | 86796  
+ store_sales_price         | null   
+ other_chan_qty            | null   
+ other_chan_wholesale_cost | 76.24  
+ other_chan_sales_price    | 50.82  
+-RECORD 86--------------------------
+ ratio                     | 2000   
+ store_qty                 | 7153   
+ store_wholesale_cost      | 86796  
+ store_sales_price         | null   
+ other_chan_qty            | null   
+ other_chan_wholesale_cost | 76.24  
+ other_chan_sales_price    | 50.82  
+-RECORD 87--------------------------
+ ratio                     | 2000   
+ store_qty                 | 7153   
+ store_wholesale_cost      | 86796  
+ store_sales_price         | null   
+ other_chan_qty            | null   
+ other_chan_wholesale_cost | 76.24  
+ other_chan_sales_price    | 50.82  
+-RECORD 88--------------------------
+ ratio                     | 2000   
+ store_qty                 | 7153   
+ store_wholesale_cost      | 86796  
+ store_sales_price         | null   
+ other_chan_qty            | null   
+ other_chan_wholesale_cost | 76.24  
+ other_chan_sales_price    | 50.82  
+-RECORD 89--------------------------
+ ratio                     | 2000   
+ store_qty                 | 7153   
+ store_wholesale_cost      | 86796  
+ store_sales_price         | null   
+ other_chan_qty            | null   
+ other_chan_wholesale_cost | 76.24  
+ other_chan_sales_price    | 50.82  
+-RECORD 90--------------------------
+ ratio                     | 2000   
+ store_qty                 | 7153   
+ store_wholesale_cost      | 86796  
+ store_sales_price         | null   
+ other_chan_qty            | null   
+ other_chan_wholesale_cost | 76.24  
+ other_chan_sales_price    | 50.82  
+-RECORD 91--------------------------
+ ratio                     | 2000   
+ store_qty                 | 7153   
+ store_wholesale_cost      | 86796  
+ store_sales_price         | null   
+ other_chan_qty            | null   
+ other_chan_wholesale_cost | 76.24  
+ other_chan_sales_price    | 50.82  
+-RECORD 92--------------------------
+ ratio                     | 2000   
+ store_qty                 | 7153   
+ store_wholesale_cost      | 86796  
+ store_sales_price         | null   
+ other_chan_qty            | null   
+ other_chan_wholesale_cost | 76.24  
+ other_chan_sales_price    | 50.82  
+-RECORD 93--------------------------
+ ratio                     | 2000   
+ store_qty                 | 7153   
+ store_wholesale_cost      | 86796  
+ store_sales_price         | null   
+ other_chan_qty            | null   
+ other_chan_wholesale_cost | 76.24  
+ other_chan_sales_price    | 50.82  
+-RECORD 94--------------------------
+ ratio                     | 2000   
+ store_qty                 | 7261   
+ store_wholesale_cost      | 99191  
+ store_sales_price         | 0.11   
+ other_chan_qty            | 10     
+ other_chan_wholesale_cost | 10.48  
+ other_chan_sales_price    | 13.05  
+-RECORD 95--------------------------
+ ratio                     | 2000   
+ store_qty                 | 7261   
+ store_wholesale_cost      | 99191  
+ store_sales_price         | 0.11   
+ other_chan_qty            | 10     
+ other_chan_wholesale_cost | 10.48  
+ other_chan_sales_price    | 13.05  
+-RECORD 96--------------------------
+ ratio                     | 2000   
+ store_qty                 | 7261   
+ store_wholesale_cost      | 99191  
+ store_sales_price         | 0.10   
+ other_chan_qty            | 10     
+ other_chan_wholesale_cost | 10.48  
+ other_chan_sales_price    | 13.05  
+-RECORD 97--------------------------
+ ratio                     | 2000   
+ store_qty                 | 7261   
+ store_wholesale_cost      | 99191  
+ store_sales_price         | 0.09   
+ other_chan_qty            | 10     
+ other_chan_wholesale_cost | 10.48  
+ other_chan_sales_price    | 13.05  
+-RECORD 98--------------------------
+ ratio                     | 2000   
+ store_qty                 | 7261   
+ store_wholesale_cost      | 99191  
+ store_sales_price         | 0.09   
+ other_chan_qty            | 10     
+ other_chan_wholesale_cost | 10.48  
+ other_chan_sales_price    | 13.05
+           

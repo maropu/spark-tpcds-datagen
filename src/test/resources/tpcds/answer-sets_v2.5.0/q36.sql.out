@@ -1,0 +1,595 @@
+-RECORD 0-----------------------------
+ gross_margin       | -0.445726       
+ i_category         | Electronics     
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 1               
+-RECORD 1-----------------------------
+ gross_margin       | -0.439058       
+ i_category         | Children        
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 2               
+-RECORD 2-----------------------------
+ gross_margin       | -0.435375       
+ i_category         | Home            
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 3               
+-RECORD 3-----------------------------
+ gross_margin       | -0.435135       
+ i_category         | Sports          
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 4               
+-RECORD 4-----------------------------
+ gross_margin       | -0.434787       
+ i_category         | Shoes           
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 5               
+-RECORD 5-----------------------------
+ gross_margin       | -0.433937       
+ i_category         | Men             
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 6               
+-RECORD 6-----------------------------
+ gross_margin       | -0.432814       
+ i_category         | Books           
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 7               
+-RECORD 7-----------------------------
+ gross_margin       | -0.432786       
+ i_category         | Women           
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 8               
+-RECORD 8-----------------------------
+ gross_margin       | -0.428839       
+ i_category         | Jewelry         
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 9               
+-RECORD 9-----------------------------
+ gross_margin       | -0.428397       
+ i_category         | Music           
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 10              
+-RECORD 10----------------------------
+ gross_margin       | -0.408364       
+ i_category         | null            
+ i_class            | null            
+ lochierarchy       | 1               
+ rank_within_parent | 11              
+-RECORD 11----------------------------
+ gross_margin       | -0.575062       
+ i_category         | null            
+ i_class            | swimwear        
+ lochierarchy       | 0               
+ rank_within_parent | 1               
+-RECORD 12----------------------------
+ gross_margin       | -0.524776       
+ i_category         | null            
+ i_class            | pants           
+ lochierarchy       | 0               
+ rank_within_parent | 2               
+-RECORD 13----------------------------
+ gross_margin       | -0.516348       
+ i_category         | null            
+ i_class            | sports-apparel  
+ lochierarchy       | 0               
+ rank_within_parent | 3               
+-RECORD 14----------------------------
+ gross_margin       | -0.497017       
+ i_category         | null            
+ i_class            | flatware        
+ lochierarchy       | 0               
+ rank_within_parent | 4               
+-RECORD 15----------------------------
+ gross_margin       | -0.421157       
+ i_category         | null            
+ i_class            | scanners        
+ lochierarchy       | 0               
+ rank_within_parent | 5               
+-RECORD 16----------------------------
+ gross_margin       | -0.414954       
+ i_category         | null            
+ i_class            | null            
+ lochierarchy       | 0               
+ rank_within_parent | 6               
+-RECORD 17----------------------------
+ gross_margin       | -0.412125       
+ i_category         | null            
+ i_class            | womens          
+ lochierarchy       | 0               
+ rank_within_parent | 7               
+-RECORD 18----------------------------
+ gross_margin       | -0.411242       
+ i_category         | null            
+ i_class            | glassware       
+ lochierarchy       | 0               
+ rank_within_parent | 8               
+-RECORD 19----------------------------
+ gross_margin       | -0.340051       
+ i_category         | null            
+ i_class            | dresses         
+ lochierarchy       | 0               
+ rank_within_parent | 9               
+-RECORD 20----------------------------
+ gross_margin       | -0.285391       
+ i_category         | null            
+ i_class            | semi-precious   
+ lochierarchy       | 0               
+ rank_within_parent | 10              
+-RECORD 21----------------------------
+ gross_margin       | -0.270644       
+ i_category         | null            
+ i_class            | archery         
+ lochierarchy       | 0               
+ rank_within_parent | 11              
+-RECORD 22----------------------------
+ gross_margin       | -0.265891       
+ i_category         | null            
+ i_class            | camcorders      
+ lochierarchy       | 0               
+ rank_within_parent | 12              
+-RECORD 23----------------------------
+ gross_margin       | -0.493138       
+ i_category         | Books           
+ i_class            | null            
+ lochierarchy       | 0               
+ rank_within_parent | 1               
+-RECORD 24----------------------------
+ gross_margin       | -0.459060       
+ i_category         | Books           
+ i_class            | self-help       
+ lochierarchy       | 0               
+ rank_within_parent | 2               
+-RECORD 25----------------------------
+ gross_margin       | -0.453614       
+ i_category         | Books           
+ i_class            | romance         
+ lochierarchy       | 0               
+ rank_within_parent | 3               
+-RECORD 26----------------------------
+ gross_margin       | -0.453097       
+ i_category         | Books           
+ i_class            | parenting       
+ lochierarchy       | 0               
+ rank_within_parent | 4               
+-RECORD 27----------------------------
+ gross_margin       | -0.452429       
+ i_category         | Books           
+ i_class            | home repair     
+ lochierarchy       | 0               
+ rank_within_parent | 5               
+-RECORD 28----------------------------
+ gross_margin       | -0.439811       
+ i_category         | Books           
+ i_class            | arts            
+ lochierarchy       | 0               
+ rank_within_parent | 6               
+-RECORD 29----------------------------
+ gross_margin       | -0.437717       
+ i_category         | Books           
+ i_class            | computers       
+ lochierarchy       | 0               
+ rank_within_parent | 7               
+-RECORD 30----------------------------
+ gross_margin       | -0.436171       
+ i_category         | Books           
+ i_class            | entertainments  
+ lochierarchy       | 0               
+ rank_within_parent | 8               
+-RECORD 31----------------------------
+ gross_margin       | -0.433511       
+ i_category         | Books           
+ i_class            | business        
+ lochierarchy       | 0               
+ rank_within_parent | 9               
+-RECORD 32----------------------------
+ gross_margin       | -0.429332       
+ i_category         | Books           
+ i_class            | cooking         
+ lochierarchy       | 0               
+ rank_within_parent | 10              
+-RECORD 33----------------------------
+ gross_margin       | -0.427767       
+ i_category         | Books           
+ i_class            | history         
+ lochierarchy       | 0               
+ rank_within_parent | 11              
+-RECORD 34----------------------------
+ gross_margin       | -0.426951       
+ i_category         | Books           
+ i_class            | sports          
+ lochierarchy       | 0               
+ rank_within_parent | 12              
+-RECORD 35----------------------------
+ gross_margin       | -0.425222       
+ i_category         | Books           
+ i_class            | fiction         
+ lochierarchy       | 0               
+ rank_within_parent | 13              
+-RECORD 36----------------------------
+ gross_margin       | -0.421390       
+ i_category         | Books           
+ i_class            | travel          
+ lochierarchy       | 0               
+ rank_within_parent | 14              
+-RECORD 37----------------------------
+ gross_margin       | -0.413109       
+ i_category         | Books           
+ i_class            | reference       
+ lochierarchy       | 0               
+ rank_within_parent | 15              
+-RECORD 38----------------------------
+ gross_margin       | -0.407932       
+ i_category         | Books           
+ i_class            | science         
+ lochierarchy       | 0               
+ rank_within_parent | 16              
+-RECORD 39----------------------------
+ gross_margin       | -0.402453       
+ i_category         | Books           
+ i_class            | mystery         
+ lochierarchy       | 0               
+ rank_within_parent | 17              
+-RECORD 40----------------------------
+ gross_margin       | -0.519729       
+ i_category         | Children        
+ i_class            | null            
+ lochierarchy       | 0               
+ rank_within_parent | 1               
+-RECORD 41----------------------------
+ gross_margin       | -0.443955       
+ i_category         | Children        
+ i_class            | infants         
+ lochierarchy       | 0               
+ rank_within_parent | 2               
+-RECORD 42----------------------------
+ gross_margin       | -0.441166       
+ i_category         | Children        
+ i_class            | toddlers        
+ lochierarchy       | 0               
+ rank_within_parent | 3               
+-RECORD 43----------------------------
+ gross_margin       | -0.439389       
+ i_category         | Children        
+ i_class            | newborn         
+ lochierarchy       | 0               
+ rank_within_parent | 4               
+-RECORD 44----------------------------
+ gross_margin       | -0.431534       
+ i_category         | Children        
+ i_class            | school-uniforms 
+ lochierarchy       | 0               
+ rank_within_parent | 5               
+-RECORD 45----------------------------
+ gross_margin       | -0.481111       
+ i_category         | Electronics     
+ i_class            | scanners        
+ lochierarchy       | 0               
+ rank_within_parent | 1               
+-RECORD 46----------------------------
+ gross_margin       | -0.474762       
+ i_category         | Electronics     
+ i_class            | wireless        
+ lochierarchy       | 0               
+ rank_within_parent | 2               
+-RECORD 47----------------------------
+ gross_margin       | -0.468814       
+ i_category         | Electronics     
+ i_class            | musical         
+ lochierarchy       | 0               
+ rank_within_parent | 3               
+-RECORD 48----------------------------
+ gross_margin       | -0.459644       
+ i_category         | Electronics     
+ i_class            | audio           
+ lochierarchy       | 0               
+ rank_within_parent | 4               
+-RECORD 49----------------------------
+ gross_margin       | -0.459285       
+ i_category         | Electronics     
+ i_class            | portable        
+ lochierarchy       | 0               
+ rank_within_parent | 5               
+-RECORD 50----------------------------
+ gross_margin       | -0.457669       
+ i_category         | Electronics     
+ i_class            | automotive      
+ lochierarchy       | 0               
+ rank_within_parent | 6               
+-RECORD 51----------------------------
+ gross_margin       | -0.450597       
+ i_category         | Electronics     
+ i_class            | personal        
+ lochierarchy       | 0               
+ rank_within_parent | 7               
+-RECORD 52----------------------------
+ gross_margin       | -0.446587       
+ i_category         | Electronics     
+ i_class            | karoke          
+ lochierarchy       | 0               
+ rank_within_parent | 8               
+-RECORD 53----------------------------
+ gross_margin       | -0.444758       
+ i_category         | Electronics     
+ i_class            | camcorders      
+ lochierarchy       | 0               
+ rank_within_parent | 9               
+-RECORD 54----------------------------
+ gross_margin       | -0.442434       
+ i_category         | Electronics     
+ i_class            | stereo          
+ lochierarchy       | 0               
+ rank_within_parent | 10              
+-RECORD 55----------------------------
+ gross_margin       | -0.435633       
+ i_category         | Electronics     
+ i_class            | monitors        
+ lochierarchy       | 0               
+ rank_within_parent | 11              
+-RECORD 56----------------------------
+ gross_margin       | -0.430062       
+ i_category         | Electronics     
+ i_class            | disk drives     
+ lochierarchy       | 0               
+ rank_within_parent | 12              
+-RECORD 57----------------------------
+ gross_margin       | -0.429565       
+ i_category         | Electronics     
+ i_class            | dvd/vcr players 
+ lochierarchy       | 0               
+ rank_within_parent | 13              
+-RECORD 58----------------------------
+ gross_margin       | -0.427792       
+ i_category         | Electronics     
+ i_class            | televisions     
+ lochierarchy       | 0               
+ rank_within_parent | 14              
+-RECORD 59----------------------------
+ gross_margin       | -0.427485       
+ i_category         | Electronics     
+ i_class            | cameras         
+ lochierarchy       | 0               
+ rank_within_parent | 15              
+-RECORD 60----------------------------
+ gross_margin       | -0.417896       
+ i_category         | Electronics     
+ i_class            | memory          
+ lochierarchy       | 0               
+ rank_within_parent | 16              
+-RECORD 61----------------------------
+ gross_margin       | -0.458207       
+ i_category         | Home            
+ i_class            | wallpaper       
+ lochierarchy       | 0               
+ rank_within_parent | 1               
+-RECORD 62----------------------------
+ gross_margin       | -0.458124       
+ i_category         | Home            
+ i_class            | rugs            
+ lochierarchy       | 0               
+ rank_within_parent | 2               
+-RECORD 63----------------------------
+ gross_margin       | -0.453909       
+ i_category         | Home            
+ i_class            | blinds/shades   
+ lochierarchy       | 0               
+ rank_within_parent | 3               
+-RECORD 64----------------------------
+ gross_margin       | -0.450805       
+ i_category         | Home            
+ i_class            | tables          
+ lochierarchy       | 0               
+ rank_within_parent | 4               
+-RECORD 65----------------------------
+ gross_margin       | -0.450006       
+ i_category         | Home            
+ i_class            | bedding         
+ lochierarchy       | 0               
+ rank_within_parent | 5               
+-RECORD 66----------------------------
+ gross_margin       | -0.444429       
+ i_category         | Home            
+ i_class            | paint           
+ lochierarchy       | 0               
+ rank_within_parent | 6               
+-RECORD 67----------------------------
+ gross_margin       | -0.442900       
+ i_category         | Home            
+ i_class            | kids            
+ lochierarchy       | 0               
+ rank_within_parent | 7               
+-RECORD 68----------------------------
+ gross_margin       | -0.441957       
+ i_category         | Home            
+ i_class            | decor           
+ lochierarchy       | 0               
+ rank_within_parent | 8               
+-RECORD 69----------------------------
+ gross_margin       | -0.440270       
+ i_category         | Home            
+ i_class            | curtains/drapes 
+ lochierarchy       | 0               
+ rank_within_parent | 9               
+-RECORD 70----------------------------
+ gross_margin       | -0.436733       
+ i_category         | Home            
+ i_class            | accent          
+ lochierarchy       | 0               
+ rank_within_parent | 10              
+-RECORD 71----------------------------
+ gross_margin       | -0.429606       
+ i_category         | Home            
+ i_class            | glassware       
+ lochierarchy       | 0               
+ rank_within_parent | 11              
+-RECORD 72----------------------------
+ gross_margin       | -0.421293       
+ i_category         | Home            
+ i_class            | flatware        
+ lochierarchy       | 0               
+ rank_within_parent | 12              
+-RECORD 73----------------------------
+ gross_margin       | -0.419606       
+ i_category         | Home            
+ i_class            | mattresses      
+ lochierarchy       | 0               
+ rank_within_parent | 13              
+-RECORD 74----------------------------
+ gross_margin       | -0.416797       
+ i_category         | Home            
+ i_class            | furniture       
+ lochierarchy       | 0               
+ rank_within_parent | 14              
+-RECORD 75----------------------------
+ gross_margin       | -0.416138       
+ i_category         | Home            
+ i_class            | bathroom        
+ lochierarchy       | 0               
+ rank_within_parent | 15              
+-RECORD 76----------------------------
+ gross_margin       | -0.397446       
+ i_category         | Home            
+ i_class            | lighting        
+ lochierarchy       | 0               
+ rank_within_parent | 16              
+-RECORD 77----------------------------
+ gross_margin       | -0.275087       
+ i_category         | Home            
+ i_class            | null            
+ lochierarchy       | 0               
+ rank_within_parent | 17              
+-RECORD 78----------------------------
+ gross_margin       | -0.482023       
+ i_category         | Jewelry         
+ i_class            | consignment     
+ lochierarchy       | 0               
+ rank_within_parent | 1               
+-RECORD 79----------------------------
+ gross_margin       | -0.452923       
+ i_category         | Jewelry         
+ i_class            | gold            
+ lochierarchy       | 0               
+ rank_within_parent | 2               
+-RECORD 80----------------------------
+ gross_margin       | -0.442266       
+ i_category         | Jewelry         
+ i_class            | womens watch    
+ lochierarchy       | 0               
+ rank_within_parent | 3               
+-RECORD 81----------------------------
+ gross_margin       | -0.438958       
+ i_category         | Jewelry         
+ i_class            | semi-precious   
+ lochierarchy       | 0               
+ rank_within_parent | 4               
+-RECORD 82----------------------------
+ gross_margin       | -0.437528       
+ i_category         | Jewelry         
+ i_class            | null            
+ lochierarchy       | 0               
+ rank_within_parent | 5               
+-RECORD 83----------------------------
+ gross_margin       | -0.435691       
+ i_category         | Jewelry         
+ i_class            | bracelets       
+ lochierarchy       | 0               
+ rank_within_parent | 6               
+-RECORD 84----------------------------
+ gross_margin       | -0.434631       
+ i_category         | Jewelry         
+ i_class            | birdal          
+ lochierarchy       | 0               
+ rank_within_parent | 7               
+-RECORD 85----------------------------
+ gross_margin       | -0.434527       
+ i_category         | Jewelry         
+ i_class            | loose stones    
+ lochierarchy       | 0               
+ rank_within_parent | 8               
+-RECORD 86----------------------------
+ gross_margin       | -0.433407       
+ i_category         | Jewelry         
+ i_class            | rings           
+ lochierarchy       | 0               
+ rank_within_parent | 9               
+-RECORD 87----------------------------
+ gross_margin       | -0.430755       
+ i_category         | Jewelry         
+ i_class            | estate          
+ lochierarchy       | 0               
+ rank_within_parent | 10              
+-RECORD 88----------------------------
+ gross_margin       | -0.429736       
+ i_category         | Jewelry         
+ i_class            | pendants        
+ lochierarchy       | 0               
+ rank_within_parent | 11              
+-RECORD 89----------------------------
+ gross_margin       | -0.422080       
+ i_category         | Jewelry         
+ i_class            | earings         
+ lochierarchy       | 0               
+ rank_within_parent | 12              
+-RECORD 90----------------------------
+ gross_margin       | -0.417512       
+ i_category         | Jewelry         
+ i_class            | costume         
+ lochierarchy       | 0               
+ rank_within_parent | 13              
+-RECORD 91----------------------------
+ gross_margin       | -0.412604       
+ i_category         | Jewelry         
+ i_class            | jewelry boxes   
+ lochierarchy       | 0               
+ rank_within_parent | 14              
+-RECORD 92----------------------------
+ gross_margin       | -0.412515       
+ i_category         | Jewelry         
+ i_class            | mens watch      
+ lochierarchy       | 0               
+ rank_within_parent | 15              
+-RECORD 93----------------------------
+ gross_margin       | -0.405426       
+ i_category         | Jewelry         
+ i_class            | custom          
+ lochierarchy       | 0               
+ rank_within_parent | 16              
+-RECORD 94----------------------------
+ gross_margin       | -0.403669       
+ i_category         | Jewelry         
+ i_class            | diamonds        
+ lochierarchy       | 0               
+ rank_within_parent | 17              
+-RECORD 95----------------------------
+ gross_margin       | -0.440736       
+ i_category         | Men             
+ i_class            | sports-apparel  
+ lochierarchy       | 0               
+ rank_within_parent | 1               
+-RECORD 96----------------------------
+ gross_margin       | -0.437901       
+ i_category         | Men             
+ i_class            | accessories     
+ lochierarchy       | 0               
+ rank_within_parent | 2               
+-RECORD 97----------------------------
+ gross_margin       | -0.435914       
+ i_category         | Men             
+ i_class            | pants           
+ lochierarchy       | 0               
+ rank_within_parent | 3               
+-RECORD 98----------------------------
+ gross_margin       | -0.423606       
+ i_category         | Men             
+ i_class            | shirts          
+ lochierarchy       | 0               
+ rank_within_parent | 4
+           

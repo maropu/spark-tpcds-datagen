@@ -1,0 +1,76 @@
+-RECORD 0--------------------------------
+ cd_gender             | F               
+ cd_marital_status     | D               
+ cd_education_status   | Advanced Degree 
+ cnt1                  | 1               
+ cd_purchase_estimate  | 3000            
+ cnt2                  | 1               
+ cd_credit_rating      | High Risk       
+ cnt3                  | 1               
+ cd_dep_count          | 2               
+ cnt4                  | 1               
+ cd_dep_employed_count | 4               
+ cnt5                  | 1               
+ cd_dep_college_count  | 5               
+ cnt6                  | 1               
+-RECORD 1--------------------------------
+ cd_gender             | F               
+ cd_marital_status     | D               
+ cd_education_status   | Unknown         
+ cnt1                  | 1               
+ cd_purchase_estimate  | 1500            
+ cnt2                  | 1               
+ cd_credit_rating      | Good            
+ cnt3                  | 1               
+ cd_dep_count          | 6               
+ cnt4                  | 1               
+ cd_dep_employed_count | 5               
+ cnt5                  | 1               
+ cd_dep_college_count  | 4               
+ cnt6                  | 1               
+-RECORD 2--------------------------------
+ cd_gender             | M               
+ cd_marital_status     | D               
+ cd_education_status   | College         
+ cnt1                  | 1               
+ cd_purchase_estimate  | 8500            
+ cnt2                  | 1               
+ cd_credit_rating      | Low Risk        
+ cnt3                  | 1               
+ cd_dep_count          | 3               
+ cnt4                  | 1               
+ cd_dep_employed_count | 0               
+ cnt5                  | 1               
+ cd_dep_college_count  | 1               
+ cnt6                  | 1               
+-RECORD 3--------------------------------
+ cd_gender             | M               
+ cd_marital_status     | D               
+ cd_education_status   | Primary         
+ cnt1                  | 1               
+ cd_purchase_estimate  | 7000            
+ cnt2                  | 1               
+ cd_credit_rating      | Unknown         
+ cnt3                  | 1               
+ cd_dep_count          | 2               
+ cnt4                  | 1               
+ cd_dep_employed_count | 1               
+ cnt5                  | 1               
+ cd_dep_college_count  | 1               
+ cnt6                  | 1               
+-RECORD 4--------------------------------
+ cd_gender             | M               
+ cd_marital_status     | W               
+ cd_education_status   | Unknown         
+ cnt1                  | 1               
+ cd_purchase_estimate  | 4500            
+ cnt2                  | 1               
+ cd_credit_rating      | Good            
+ cnt3                  | 1               
+ cd_dep_count          | 5               
+ cnt4                  | 1               
+ cd_dep_employed_count | 0               
+ cnt5                  | 1               
+ cd_dep_college_count  | 1               
+ cnt6                  | 1
+           

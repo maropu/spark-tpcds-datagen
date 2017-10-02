@@ -1,0 +1,701 @@
+-RECORD 0-------------------------
+ item_sk          | 14            
+ d_date           | 2000-01-10    
+ web_sales        | 176.83        
+ store_sales      | null          
+ web_cumulative   | 176.83        
+ store_cumulative | 73.6          
+-RECORD 1-------------------------
+ item_sk          | 14            
+ d_date           | 2000-01-21    
+ web_sales        | null          
+ store_sales      | 75.29         
+ web_cumulative   | 176.83        
+ store_cumulative | 75.29         
+-RECORD 2-------------------------
+ item_sk          | 14            
+ d_date           | 2000-01-29    
+ web_sales        | 222.33        
+ store_sales      | null          
+ web_cumulative   | 222.33        
+ store_cumulative | 75.29         
+-RECORD 3-------------------------
+ item_sk          | 14            
+ d_date           | 2000-02-02    
+ web_sales        | 224.01        
+ store_sales      | null          
+ web_cumulative   | 224.01        
+ store_cumulative | 75.29         
+-RECORD 4-------------------------
+ item_sk          | 14            
+ d_date           | 2000-02-08    
+ web_sales        | null          
+ store_sales      | 85.07         
+ web_cumulative   | 224.01        
+ store_cumulative | 85.07         
+-RECORD 5-------------------------
+ item_sk          | 14            
+ d_date           | 2000-02-19    
+ web_sales        | null          
+ store_sales      | 98.6          
+ web_cumulative   | 224.01        
+ store_cumulative | 98.6          
+-RECORD 6-------------------------
+ item_sk          | 14            
+ d_date           | 2000-02-21    
+ web_sales        | 241.64        
+ store_sales      | null          
+ web_cumulative   | 241.64        
+ store_cumulative | 98.6          
+-RECORD 7-------------------------
+ item_sk          | 14            
+ d_date           | 2000-02-22    
+ web_sales        | null          
+ store_sales      | 99.83         
+ web_cumulative   | 241.64        
+ store_cumulative | 99.83         
+-RECORD 8-------------------------
+ item_sk          | 14            
+ d_date           | 2000-03-18    
+ web_sales        | null          
+ store_sales      | 112.82        
+ web_cumulative   | 241.64        
+ store_cumulative | 112.82        
+-RECORD 9-------------------------
+ item_sk          | 14            
+ d_date           | 2000-03-23    
+ web_sales        | 251.15        
+ store_sales      | null          
+ web_cumulative   | 251.15        
+ store_cumulative | 112.82        
+-RECORD 10------------------------
+ item_sk          | 14            
+ d_date           | 2000-03-28    
+ web_sales        | 260.17        
+ store_sales      | null          
+ web_cumulative   | 260.17        
+ store_cumulative | 112.82        
+-RECORD 11------------------------
+ item_sk          | 14            
+ d_date           | 2000-03-31    
+ web_sales        | 370.74        
+ store_sales      | null          
+ web_cumulative   | 370.74        
+ store_cumulative | 112.82        
+-RECORD 12------------------------
+ item_sk          | 14            
+ d_date           | 2000-04-05    
+ web_sales        | null          
+ store_sales      | 115.94        
+ web_cumulative   | 370.74        
+ store_cumulative | 115.94        
+-RECORD 13------------------------
+ item_sk          | 14            
+ d_date           | 2000-04-15    
+ web_sales        | 445.3         
+ store_sales      | null          
+ web_cumulative   | 445.3         
+ store_cumulative | 115.94        
+-RECORD 14------------------------
+ item_sk          | 14            
+ d_date           | 2000-04-27    
+ web_sales        | null          
+ store_sales      | 151.48        
+ web_cumulative   | 445.3         
+ store_cumulative | 151.48        
+-RECORD 15------------------------
+ item_sk          | 14            
+ d_date           | 2000-05-03    
+ web_sales        | null          
+ store_sales      | 176.89        
+ web_cumulative   | 445.3         
+ store_cumulative | 176.89        
+-RECORD 16------------------------
+ item_sk          | 14            
+ d_date           | 2000-05-10    
+ web_sales        | 451.4         
+ store_sales      | null          
+ web_cumulative   | 451.4         
+ store_cumulative | 176.89        
+-RECORD 17------------------------
+ item_sk          | 14            
+ d_date           | 2000-05-21    
+ web_sales        | null          
+ store_sales      | 238.39        
+ web_cumulative   | 451.4         
+ store_cumulative | 238.39        
+-RECORD 18------------------------
+ item_sk          | 14            
+ d_date           | 2000-05-26    
+ web_sales        | 596.81        
+ store_sales      | null          
+ web_cumulative   | 596.81        
+ store_cumulative | 238.39        
+-RECORD 19------------------------
+ item_sk          | 14            
+ d_date           | 2000-05-29    
+ web_sales        | null          
+ store_sales      | 242.51        
+ web_cumulative   | 596.81        
+ store_cumulative | 242.51        
+-RECORD 20------------------------
+ item_sk          | 14            
+ d_date           | 2000-06-05    
+ web_sales        | null          
+ store_sales      | 304.64        
+ web_cumulative   | 596.81        
+ store_cumulative | 304.64        
+-RECORD 21------------------------
+ item_sk          | 14            
+ d_date           | 2000-07-03    
+ web_sales        | 623.77        
+ store_sales      | null          
+ web_cumulative   | 623.77        
+ store_cumulative | 304.64        
+-RECORD 22------------------------
+ item_sk          | 14            
+ d_date           | 2000-07-07    
+ web_sales        | null          
+ store_sales      | 307.77        
+ web_cumulative   | 623.77        
+ store_cumulative | 307.77        
+-RECORD 23------------------------
+ item_sk          | 14            
+ d_date           | 2000-07-18    
+ web_sales        | null          
+ store_sales      | 320.04        
+ web_cumulative   | 623.77        
+ store_cumulative | 320.04        
+-RECORD 24------------------------
+ item_sk          | 14            
+ d_date           | 2000-07-25    
+ web_sales        | 673.08        
+ store_sales      | null          
+ web_cumulative   | 673.08        
+ store_cumulative | 320.04        
+-RECORD 25------------------------
+ item_sk          | 14            
+ d_date           | 2000-08-10    
+ web_sales        | null          
+ store_sales      | 411.48        
+ web_cumulative   | 673.08        
+ store_cumulative | 411.48        
+-RECORD 26------------------------
+ item_sk          | 14            
+ d_date           | 2000-08-14    
+ web_sales        | null          
+ store_sales      | 465.85        
+ web_cumulative   | 673.08        
+ store_cumulative | 465.85        
+-RECORD 27------------------------
+ item_sk          | 14            
+ d_date           | 2000-08-21    
+ web_sales        | null          
+ store_sales      | 541.45        
+ web_cumulative   | 673.08        
+ store_cumulative | 541.45        
+-RECORD 28------------------------
+ item_sk          | 14            
+ d_date           | 2000-08-26    
+ web_sales        | null          
+ store_sales      | 574.56        
+ web_cumulative   | 673.08        
+ store_cumulative | 574.56        
+-RECORD 29------------------------
+ item_sk          | 19            
+ d_date           | 2000-01-02    
+ web_sales        | 56.96 49.68   
+ store_sales      | 56.96         
+ web_cumulative   | 49.68         
+ store_cumulative | null          
+-RECORD 30------------------------
+ item_sk          | 25            
+ d_date           | 2000-01-21    
+ web_sales        | 97.29         
+ store_sales      | null          
+ web_cumulative   | 97.29         
+ store_cumulative | 4.49          
+-RECORD 31------------------------
+ item_sk          | 25            
+ d_date           | 2000-01-28    
+ web_sales        | 192.46        
+ store_sales      | null          
+ web_cumulative   | 192.46        
+ store_cumulative | 4.49          
+-RECORD 32------------------------
+ item_sk          | 25            
+ d_date           | 2000-02-09    
+ web_sales        | null          
+ store_sales      | 24.23         
+ web_cumulative   | 192.46        
+ store_cumulative | 24.23         
+-RECORD 33------------------------
+ item_sk          | 25            
+ d_date           | 2000-02-11    
+ web_sales        | null          
+ store_sales      | 98.99         
+ web_cumulative   | 192.46        
+ store_cumulative | 98.99         
+-RECORD 34------------------------
+ item_sk          | 25            
+ d_date           | 2000-02-21    
+ web_sales        | null          
+ store_sales      | 170.6         
+ web_cumulative   | 192.46        
+ store_cumulative | 170.6         
+-RECORD 35------------------------
+ item_sk          | 25            
+ d_date           | 2000-02-22    
+ web_sales        | null          
+ store_sales      | 185.05        
+ web_cumulative   | 192.46        
+ store_cumulative | 185.05        
+-RECORD 36------------------------
+ item_sk          | 35            
+ d_date           | 2000-01-14    
+ web_sales        | null          
+ store_sales      | 55.24         
+ web_cumulative   | 177.88        
+ store_cumulative | 55.24         
+-RECORD 37------------------------
+ item_sk          | 35            
+ d_date           | 2000-01-16    
+ web_sales        | null          
+ store_sales      | 95.92         
+ web_cumulative   | 177.88        
+ store_cumulative | 95.92         
+-RECORD 38------------------------
+ item_sk          | 35            
+ d_date           | 2000-01-18    
+ web_sales        | null          
+ store_sales      | 126.45        
+ web_cumulative   | 177.88        
+ store_cumulative | 126.45        
+-RECORD 39------------------------
+ item_sk          | 35            
+ d_date           | 2000-01-19    
+ web_sales        | null          
+ store_sales      | 167.07        
+ web_cumulative   | 177.88        
+ store_cumulative | 167.07        
+-RECORD 40------------------------
+ item_sk          | 35            
+ d_date           | 2000-02-17    
+ web_sales        | null          
+ store_sales      | 173.97        
+ web_cumulative   | 177.88        
+ store_cumulative | 173.97        
+-RECORD 41------------------------
+ item_sk          | 35            
+ d_date           | 2000-02-22    
+ web_sales        | 270.43        
+ store_sales      | null          
+ web_cumulative   | 270.43        
+ store_cumulative | 173.97        
+-RECORD 42------------------------
+ item_sk          | 35            
+ d_date           | 2000-02-23    
+ web_sales        | null          
+ store_sales      | 180.61        
+ web_cumulative   | 270.43        
+ store_cumulative | 180.61        
+-RECORD 43------------------------
+ item_sk          | 35            
+ d_date           | 2000-03-03    
+ web_sales        | null          
+ store_sales      | 181.99        
+ web_cumulative   | 270.43        
+ store_cumulative | 181.99        
+-RECORD 44------------------------
+ item_sk          | 35            
+ d_date           | 2000-03-05    
+ web_sales        | null          
+ store_sales      | 221.24        
+ web_cumulative   | 270.43        
+ store_cumulative | 221.24        
+-RECORD 45------------------------
+ item_sk          | 35            
+ d_date           | 2000-03-06    
+ web_sales        | null          
+ store_sales      | 266.41        
+ web_cumulative   | 270.43        
+ store_cumulative | 266.41        
+-RECORD 46------------------------
+ item_sk          | 37            
+ d_date           | 2000-01-02    
+ web_sales        | 31.75 11.89   
+ store_sales      | 31.75         
+ web_cumulative   | 11.89         
+ store_cumulative | null          
+-RECORD 47------------------------
+ item_sk          | 37            
+ d_date           | 2000-01-04    
+ web_sales        | null          
+ store_sales      | 17.15         
+ web_cumulative   | 31.75         
+ store_cumulative | 17.15         
+-RECORD 48------------------------
+ item_sk          | 37            
+ d_date           | 2000-01-05    
+ web_sales        | 34.34         
+ store_sales      | null          
+ web_cumulative   | 34.34         
+ store_cumulative | 17.15         
+-RECORD 49------------------------
+ item_sk          | 37            
+ d_date           | 2000-01-06    
+ web_sales        | null          
+ store_sales      | 29.67         
+ web_cumulative   | 34.34         
+ store_cumulative | 29.67         
+-RECORD 50------------------------
+ item_sk          | 41            
+ d_date           | 2000-01-21    
+ web_sales        | null          
+ store_sales      | 15.54         
+ web_cumulative   | 123.34        
+ store_cumulative | 15.54         
+-RECORD 51------------------------
+ item_sk          | 41            
+ d_date           | 2000-02-03    
+ web_sales        | null          
+ store_sales      | 21.04         
+ web_cumulative   | 123.34        
+ store_cumulative | 21.04         
+-RECORD 52------------------------
+ item_sk          | 41            
+ d_date           | 2000-02-16    
+ web_sales        | null          
+ store_sales      | 33.46         
+ web_cumulative   | 123.34        
+ store_cumulative | 33.46         
+-RECORD 53------------------------
+ item_sk          | 41            
+ d_date           | 2000-02-20    
+ web_sales        | null          
+ store_sales      | 37.46         
+ web_cumulative   | 123.34        
+ store_cumulative | 37.46         
+-RECORD 54------------------------
+ item_sk          | 41            
+ d_date           | 2000-02-22    
+ web_sales        | null          
+ store_sales      | 58.57         
+ web_cumulative   | 123.34        
+ store_cumulative | 58.57         
+-RECORD 55------------------------
+ item_sk          | 41            
+ d_date           | 2000-03-05    
+ web_sales        | null          
+ store_sales      | 70.06         
+ web_cumulative   | 123.34        
+ store_cumulative | 70.06         
+-RECORD 56------------------------
+ item_sk          | 41            
+ d_date           | 2000-03-17    
+ web_sales        | 178.84 150.76 
+ store_sales      | 178.84        
+ web_cumulative   | 150.76        
+ store_cumulative | null          
+-RECORD 57------------------------
+ item_sk          | 41            
+ d_date           | 2000-04-26    
+ web_sales        | 263.14        
+ store_sales      | null          
+ web_cumulative   | 263.14        
+ store_cumulative | 254.88        
+-RECORD 58------------------------
+ item_sk          | 41            
+ d_date           | 2000-07-12    
+ web_sales        | 474.83        
+ store_sales      | null          
+ web_cumulative   | 474.83        
+ store_cumulative | 393.87        
+-RECORD 59------------------------
+ item_sk          | 41            
+ d_date           | 2000-07-18    
+ web_sales        | null          
+ store_sales      | 421.23        
+ web_cumulative   | 474.83        
+ store_cumulative | 421.23        
+-RECORD 60------------------------
+ item_sk          | 41            
+ d_date           | 2000-08-15    
+ web_sales        | null          
+ store_sales      | 430.77        
+ web_cumulative   | 474.83        
+ store_cumulative | 430.77        
+-RECORD 61------------------------
+ item_sk          | 49            
+ d_date           | 2000-01-18    
+ web_sales        | null          
+ store_sales      | 2.51          
+ web_cumulative   | 4.58          
+ store_cumulative | 2.51          
+-RECORD 62------------------------
+ item_sk          | 49            
+ d_date           | 2000-01-31    
+ web_sales        | 72.47         
+ store_sales      | null          
+ web_cumulative   | 72.47         
+ store_cumulative | 13.05         
+-RECORD 63------------------------
+ item_sk          | 49            
+ d_date           | 2000-02-13    
+ web_sales        | null          
+ store_sales      | 70.68         
+ web_cumulative   | 72.47         
+ store_cumulative | 70.68         
+-RECORD 64------------------------
+ item_sk          | 49            
+ d_date           | 2000-02-29    
+ web_sales        | null          
+ store_sales      | 71.86         
+ web_cumulative   | 72.47         
+ store_cumulative | 71.86         
+-RECORD 65------------------------
+ item_sk          | 49            
+ d_date           | 2000-04-17    
+ web_sales        | 225.29        
+ store_sales      | null          
+ web_cumulative   | 225.29        
+ store_cumulative | 219.03        
+-RECORD 66------------------------
+ item_sk          | 53            
+ d_date           | 2000-01-02    
+ web_sales        | 12.85         
+ store_sales      | 1.13          
+ web_cumulative   | 12.85         
+ store_cumulative | 1.13          
+-RECORD 67------------------------
+ item_sk          | 53            
+ d_date           | 2000-01-08    
+ web_sales        | 119.24        
+ store_sales      | null          
+ web_cumulative   | 119.24        
+ store_cumulative | 1.13          
+-RECORD 68------------------------
+ item_sk          | 53            
+ d_date           | 2000-01-09    
+ web_sales        | 126.98        
+ store_sales      | null          
+ web_cumulative   | 126.98        
+ store_cumulative | 1.13          
+-RECORD 69------------------------
+ item_sk          | 53            
+ d_date           | 2000-01-15    
+ web_sales        | null          
+ store_sales      | 3.2           
+ web_cumulative   | 126.98        
+ store_cumulative | 3.2           
+-RECORD 70------------------------
+ item_sk          | 53            
+ d_date           | 2000-02-04    
+ web_sales        | null          
+ store_sales      | 22.89         
+ web_cumulative   | 126.98        
+ store_cumulative | 22.89         
+-RECORD 71------------------------
+ item_sk          | 53            
+ d_date           | 2000-02-05    
+ web_sales        | null          
+ store_sales      | 64.45         
+ web_cumulative   | 126.98        
+ store_cumulative | 64.45         
+-RECORD 72------------------------
+ item_sk          | 53            
+ d_date           | 2000-02-12    
+ web_sales        | null          
+ store_sales      | 66.06         
+ web_cumulative   | 126.98        
+ store_cumulative | 66.06         
+-RECORD 73------------------------
+ item_sk          | 56            
+ d_date           | 2000-01-02    
+ web_sales        | 41.57 17.31   
+ store_sales      | 41.57         
+ web_cumulative   | 17.31         
+ store_cumulative | null          
+-RECORD 74------------------------
+ item_sk          | 61            
+ d_date           | 2000-02-17    
+ web_sales        | 421.6         
+ store_sales      | null          
+ web_cumulative   | 421.6         
+ store_cumulative | 344.03        
+-RECORD 75------------------------
+ item_sk          | 61            
+ d_date           | 2000-03-01    
+ web_sales        | null          
+ store_sales      | 411.33        
+ web_cumulative   | 421.6         
+ store_cumulative | 411.33        
+-RECORD 76------------------------
+ item_sk          | 61            
+ d_date           | 2000-04-22    
+ web_sales        | 600.2         
+ store_sales      | null          
+ web_cumulative   | 600.2         
+ store_cumulative | 573.28        
+-RECORD 77------------------------
+ item_sk          | 71            
+ d_date           | 2000-01-02    
+ web_sales        | 13.92         
+ store_sales      | 2.88          
+ web_cumulative   | 13.92         
+ store_cumulative | 2.88          
+-RECORD 78------------------------
+ item_sk          | 85            
+ d_date           | 2000-02-03    
+ web_sales        | null          
+ store_sales      | 42.3          
+ web_cumulative   | 65.5          
+ store_cumulative | 42.3          
+-RECORD 79------------------------
+ item_sk          | 85            
+ d_date           | 2000-02-16    
+ web_sales        | null          
+ store_sales      | 42.95         
+ web_cumulative   | 65.5          
+ store_cumulative | 42.95         
+-RECORD 80------------------------
+ item_sk          | 85            
+ d_date           | 2000-04-19    
+ web_sales        | 335.16        
+ store_sales      | null          
+ web_cumulative   | 335.16        
+ store_cumulative | 247.67        
+-RECORD 81------------------------
+ item_sk          | 85            
+ d_date           | 2000-04-23    
+ web_sales        | null          
+ store_sales      | 252.83        
+ web_cumulative   | 335.16        
+ store_cumulative | 252.83        
+-RECORD 82------------------------
+ item_sk          | 85            
+ d_date           | 2000-05-02    
+ web_sales        | null          
+ store_sales      | 289.65        
+ web_cumulative   | 335.16        
+ store_cumulative | 289.65        
+-RECORD 83------------------------
+ item_sk          | 85            
+ d_date           | 2000-05-11    
+ web_sales        | null          
+ store_sales      | 312.62        
+ web_cumulative   | 335.16        
+ store_cumulative | 312.62        
+-RECORD 84------------------------
+ item_sk          | 86            
+ d_date           | 2000-01-19    
+ web_sales        | 31.7          
+ store_sales      | null          
+ web_cumulative   | 31.7          
+ store_cumulative | 25.97         
+-RECORD 85------------------------
+ item_sk          | 86            
+ d_date           | 2000-02-03    
+ web_sales        | 151.26        
+ store_sales      | null          
+ web_cumulative   | 151.26        
+ store_cumulative | 91.16         
+-RECORD 86------------------------
+ item_sk          | 86            
+ d_date           | 2000-02-04    
+ web_sales        | null          
+ store_sales      | 112.15        
+ web_cumulative   | 151.26        
+ store_cumulative | 112.15        
+-RECORD 87------------------------
+ item_sk          | 89            
+ d_date           | 2000-01-12    
+ web_sales        | null          
+ store_sales      | 28.84         
+ web_cumulative   | 181.56        
+ store_cumulative | 28.84         
+-RECORD 88------------------------
+ item_sk          | 89            
+ d_date           | 2000-01-23    
+ web_sales        | null          
+ store_sales      | 67.19         
+ web_cumulative   | 181.56        
+ store_cumulative | 67.19         
+-RECORD 89------------------------
+ item_sk          | 89            
+ d_date           | 2000-01-30    
+ web_sales        | null          
+ store_sales      | 104.65        
+ web_cumulative   | 181.56        
+ store_cumulative | 104.65        
+-RECORD 90------------------------
+ item_sk          | 89            
+ d_date           | 2000-02-22    
+ web_sales        | null          
+ store_sales      | 146.96        
+ web_cumulative   | 181.56        
+ store_cumulative | 146.96        
+-RECORD 91------------------------
+ item_sk          | 89            
+ d_date           | 2000-02-25    
+ web_sales        | null          
+ store_sales      | 147.02        
+ web_cumulative   | 181.56        
+ store_cumulative | 147.02        
+-RECORD 92------------------------
+ item_sk          | 89            
+ d_date           | 2000-03-19    
+ web_sales        | null          
+ store_sales      | 172.85        
+ web_cumulative   | 181.56        
+ store_cumulative | 172.85        
+-RECORD 93------------------------
+ item_sk          | 89            
+ d_date           | 2000-03-20    
+ web_sales        | 191.66        
+ store_sales      | null          
+ web_cumulative   | 191.66        
+ store_cumulative | 172.85        
+-RECORD 94------------------------
+ item_sk          | 89            
+ d_date           | 2000-04-11    
+ web_sales        | 295.81        
+ store_sales      | null          
+ web_cumulative   | 295.81        
+ store_cumulative | 172.85        
+-RECORD 95------------------------
+ item_sk          | 89            
+ d_date           | 2000-04-13    
+ web_sales        | null          
+ store_sales      | 203.86        
+ web_cumulative   | 295.81        
+ store_cumulative | 203.86        
+-RECORD 96------------------------
+ item_sk          | 89            
+ d_date           | 2000-04-20    
+ web_sales        | 373.3         
+ store_sales      | null          
+ web_cumulative   | 373.3         
+ store_cumulative | 203.86        
+-RECORD 97------------------------
+ item_sk          | 89            
+ d_date           | 2000-04-23    
+ web_sales        | null          
+ store_sales      | 219.74        
+ web_cumulative   | 373.3         
+ store_cumulative | 219.74        
+-RECORD 98------------------------
+ item_sk          | 89            
+ d_date           | 2000-04-26    
+ web_sales        | null          
+ store_sales      | 235.97        
+ web_cumulative   | 373.3         
+ store_cumulative | 235.97        
+-RECORD 99------------------------
+ item_sk          | 89            
+ d_date           | 2000-05-04    
+ web_sales        | null          
+ store_sales      | 248.05        
+ web_cumulative   | 373.3         
+ store_cumulative | 248.05
+           

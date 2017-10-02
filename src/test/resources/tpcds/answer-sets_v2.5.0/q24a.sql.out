@@ -1,0 +1,56 @@
+-RECORD 0--------------------
+ c_last_name  | Hahn         
+ c_first_name | Donald       
+ s_store_name | bar          
+ paid         | 96500.36     
+-RECORD 1--------------------
+ c_last_name  | Mclemore     
+ c_first_name | Renita       
+ s_store_name | bar          
+ paid         | 21518.64     
+-RECORD 2--------------------
+ c_last_name  | Roberts      
+ c_first_name | Genoveva     
+ s_store_name | able         
+ paid         | 1821.60      
+-RECORD 3--------------------
+ c_last_name  | C_LAST_NAME  
+ c_first_name | C_FIRST_NAME 
+ s_store_name | S_STORE_NAME 
+ paid         | PAID         
+-RECORD 4--------------------
+ c_last_name  | null         
+ c_first_name | Tommy        
+ s_store_name | able         
+ paid         | 38118.08     
+-RECORD 5--------------------
+ c_last_name  | Holt         
+ c_first_name | Curtis       
+ s_store_name | able         
+ paid         | 8225.80      
+-RECORD 6--------------------
+ c_last_name  | Kunz         
+ c_first_name | Lee          
+ s_store_name | able         
+ paid         | 34631.52     
+-RECORD 7--------------------
+ c_last_name  | Littlefield  
+ c_first_name | Clarence     
+ s_store_name | able         
+ paid         | 127380.00    
+-RECORD 8--------------------
+ c_last_name  | Pettit       
+ c_first_name | Richard      
+ s_store_name | able         
+ paid         | 3930.52      
+-RECORD 9--------------------
+ c_last_name  | Townsend     
+ c_first_name | Franklin     
+ s_store_name | able         
+ paid         | 68983.20     
+-RECORD 10-------------------
+ c_last_name  | Winchester   
+ c_first_name | Margaret     
+ s_store_name | bar          
+ paid         | 14269.20
+           

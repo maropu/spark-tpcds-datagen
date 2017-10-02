@@ -1,0 +1,97 @@
+-RECORD 0----------------------------
+ s_store_name    | able              
+ s_company_id    | 1                 
+ s_street_number | 255               
+ s_street_name   | Sycamore          
+ s_street_type   | Dr.               
+ s_suite_number  | Suite 410 Midway  
+ s_city          | Williamson County 
+ s_county        | TN                
+ s_state         | 31904             
+ s_zip           | 67                
+ 30 days         | 48                
+ 31 - 60 days    | 61                
+ 61 - 90 days    | 66                
+ 91 - 120 days   | 98                
+ >120 days       | null              
+-RECORD 1----------------------------
+ s_store_name    | ation             
+ s_company_id    | 1                 
+ s_street_number | 811               
+ s_street_name   | Lee               
+ s_street_type   | Circle            
+ s_suite_number  | Suite T Midway    
+ s_city          | Williamson County 
+ s_county        | TN                
+ s_state         | 31904             
+ s_zip           | 70                
+ 30 days         | 51                
+ 31 - 60 days    | 50                
+ 61 - 90 days    | 61                
+ 91 - 120 days   | 109               
+ >120 days       | null              
+-RECORD 2----------------------------
+ s_store_name    | bar               
+ s_company_id    | 1                 
+ s_street_number | 175               
+ s_street_name   | 4th               
+ s_street_type   | Court             
+ s_suite_number  | Suite C Midway    
+ s_city          | Williamson County 
+ s_county        | TN                
+ s_state         | 31904             
+ s_zip           | 96                
+ 30 days         | 53                
+ 31 - 60 days    | 55                
+ 61 - 90 days    | 76                
+ 91 - 120 days   | 86                
+ >120 days       | null              
+-RECORD 3----------------------------
+ s_store_name    | eing              
+ s_company_id    | 1                 
+ s_street_number | 226               
+ s_street_name   | 12th              
+ s_street_type   | Lane              
+ s_suite_number  | Suite D Fairview  
+ s_city          | Williamson County 
+ s_county        | TN                
+ s_state         | 35709             
+ s_zip           | 69                
+ 30 days         | 63                
+ 31 - 60 days    | 62                
+ 61 - 90 days    | 63                
+ 91 - 120 days   | 114               
+ >120 days       | null              
+-RECORD 4----------------------------
+ s_store_name    | ese               
+ s_company_id    | 1                 
+ s_street_number | 27                
+ s_street_name   | Lake              
+ s_street_type   | Ln                
+ s_suite_number  | Suite 260 Midway  
+ s_city          | Williamson County 
+ s_county        | TN                
+ s_state         | 31904             
+ s_zip           | 58                
+ 30 days         | 57                
+ 31 - 60 days    | 55                
+ 61 - 90 days    | 54                
+ 91 - 120 days   | 106               
+ >120 days       | null              
+-RECORD 5----------------------------
+ s_store_name    | ought             
+ s_company_id    | 1                 
+ s_street_number | 767               
+ s_street_name   | Spring            
+ s_street_type   | Wy                
+ s_suite_number  | Suite 250 Midway  
+ s_city          | Williamson County 
+ s_county        | TN                
+ s_state         | 31904             
+ s_zip           | 81                
+ 30 days         | 63                
+ 31 - 60 days    | 52                
+ 61 - 90 days    | 58                
+ 91 - 120 days   | 103               
+ >120 days       | null
+           

@@ -1,0 +1,1101 @@
+-RECORD 0--------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ s_store_name      | ese                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 5492.8175           
+ sum_sales         | 2070.65             
+ psum              | 3307.78             
+ nsum              | 2784.11             
+-RECORD 1--------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 5134.23833          
+ sum_sales         | 1740.21             
+ psum              | 4401.89             
+ nsum              | 2721.61             
+-RECORD 2--------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ s_store_name      | ese                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 5463.70083          
+ sum_sales         | 2091.07             
+ psum              | 3391.39             
+ nsum              | 3095.31             
+-RECORD 3--------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 5552.305            
+ sum_sales         | 2226.34             
+ psum              | 4081.99             
+ nsum              | 7573.33             
+-RECORD 4--------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ s_store_name      | ese                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 5463.70083          
+ sum_sales         | 2268.27             
+ psum              | 4139.47             
+ nsum              | 3391.39             
+-RECORD 5--------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 5176.2575           
+ sum_sales         | 1993.73             
+ psum              | 3542.54             
+ nsum              | 5764.35             
+-RECORD 6--------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ s_store_name      | ese                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 5185.89833          
+ sum_sales         | 2019.69             
+ psum              | 3479.21             
+ nsum              | 2982.05             
+-RECORD 7--------------------------------
+ i_category        | Shoes               
+ i_brand           | amalgedu pack #1    
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 6                   
+ avg_monthly_sales | 5152.09583          
+ sum_sales         | 2077.67             
+ psum              | 3123.43             
+ nsum              | 2368.73             
+-RECORD 8--------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 5501.18083          
+ sum_sales         | 2453.88             
+ psum              | 2683.7              
+ nsum              | 2615.32             
+-RECORD 9--------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 5238.3575           
+ sum_sales         | 2232.03             
+ psum              | 3221.7              
+ nsum              | 3649.52             
+-RECORD 10-------------------------------
+ i_category        | Shoes               
+ i_brand           | importoedu pack #1  
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 4698.6125           
+ sum_sales         | 1703.27             
+ psum              | 2687.15             
+ nsum              | 2757.83             
+-RECORD 11-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ s_store_name      | bar                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 5318.14667          
+ sum_sales         | 2346.06             
+ psum              | 3483.88             
+ nsum              | 7658.62             
+-RECORD 12-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 5622.2275           
+ sum_sales         | 2657.68             
+ psum              | 4207.03             
+ nsum              | 3543.82             
+-RECORD 13-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ s_store_name      | bar                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 5280.6625           
+ sum_sales         | 2324.79             
+ psum              | 3003.61             
+ nsum              | 5961.39             
+-RECORD 14-------------------------------
+ i_category        | Children            
+ i_brand           | importoexporti #1   
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 4650.43833          
+ sum_sales         | 1734.45             
+ psum              | 2341.19             
+ nsum              | 2720.78             
+-RECORD 15-------------------------------
+ i_category        | Shoes               
+ i_brand           | importoedu pack #1  
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 4537.63583          
+ sum_sales         | 1623.33             
+ psum              | 2928.34             
+ nsum              | 1905.23             
+-RECORD 16-------------------------------
+ i_category        | Women               
+ i_brand           | edu packamalg #1    
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 4507.4175           
+ sum_sales         | 1596.92             
+ psum              | 2865.38             
+ nsum              | 2665.75             
+-RECORD 17-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 6                   
+ avg_monthly_sales | 5045.75833          
+ sum_sales         | 2152.15             
+ psum              | 2834.94             
+ nsum              | 2667.92             
+-RECORD 18-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 5501.18083          
+ sum_sales         | 2615.32             
+ psum              | 2453.88             
+ nsum              | 2874.96             
+-RECORD 19-------------------------------
+ i_category        | Shoes               
+ i_brand           | exportiedu pack #1  
+ s_store_name      | bar                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 5296.08917          
+ sum_sales         | 2410.44             
+ psum              | 2685.85             
+ nsum              | 3821.39             
+-RECORD 20-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 5194.81833          
+ sum_sales         | 2333.43             
+ psum              | 2765.75             
+ nsum              | 2674.91             
+-RECORD 21-------------------------------
+ i_category        | Music               
+ i_brand           | amalgscholar #1     
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 4565.6              
+ sum_sales         | 1727.16             
+ psum              | 3895.09             
+ nsum              | 2606.58             
+-RECORD 22-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 5539.30833          
+ sum_sales         | 2704.16             
+ psum              | 3862.34             
+ nsum              | 3960.9              
+-RECORD 23-------------------------------
+ i_category        | Shoes               
+ i_brand           | importoedu pack #1  
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 4690.5775           
+ sum_sales         | 1855.85             
+ psum              | 3524.69             
+ nsum              | 3050.34             
+-RECORD 24-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 5501.18083          
+ sum_sales         | 2683.7              
+ psum              | 4304.21             
+ nsum              | 2453.88             
+-RECORD 25-------------------------------
+ i_category        | Women               
+ i_brand           | exportiamalg #1     
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 4123.60083          
+ sum_sales         | 1306.4              
+ psum              | 2876.61             
+ nsum              | 2238.71             
+-RECORD 26-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 5090.105            
+ sum_sales         | 2281.8              
+ psum              | 2488.24             
+ nsum              | 3304.75             
+-RECORD 27-------------------------------
+ i_category        | Shoes               
+ i_brand           | exportiedu pack #1  
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 4755.53583          
+ sum_sales         | 1951                
+ psum              | 3949.06             
+ nsum              | 2767.05             
+-RECORD 28-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ s_store_name      | ese                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 6                   
+ avg_monthly_sales | 5492.8175           
+ sum_sales         | 2691.33             
+ psum              | 3210.74             
+ nsum              | 3754.33             
+-RECORD 29-------------------------------
+ i_category        | Men                 
+ i_brand           | amalgimporto #1     
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 4909.46083          
+ sum_sales         | 2116.43             
+ psum              | 3187.2              
+ nsum              | 3356.64             
+-RECORD 30-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 5045.75833          
+ sum_sales         | 2253.7              
+ psum              | 4158.86             
+ nsum              | 3467.09             
+-RECORD 31-------------------------------
+ i_category        | Shoes               
+ i_brand           | amalgedu pack #1    
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 5152.09583          
+ sum_sales         | 2368.73             
+ psum              | 2077.67             
+ nsum              | 7543.6              
+-RECORD 32-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ s_store_name      | ese                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 4979.36167          
+ sum_sales         | 2201                
+ psum              | 3110.55             
+ nsum              | 3118.3              
+-RECORD 33-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 5238.3575           
+ sum_sales         | 2462.96             
+ psum              | 3808.48             
+ nsum              | 3221.7              
+-RECORD 34-------------------------------
+ i_category        | Men                 
+ i_brand           | amalgimporto #1     
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 4909.46083          
+ sum_sales         | 2136.23             
+ psum              | 3356.64             
+ nsum              | 3046.51             
+-RECORD 35-------------------------------
+ i_category        | Children            
+ i_brand           | importoexporti #1   
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 4586.29833          
+ sum_sales         | 1814.46             
+ psum              | 2643.58             
+ nsum              | 6423.18             
+-RECORD 36-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 5170.36917          
+ sum_sales         | 2407.58             
+ psum              | 3086.77             
+ nsum              | 2492.73             
+-RECORD 37-------------------------------
+ i_category        | Shoes               
+ i_brand           | amalgedu pack #1    
+ s_store_name      | ese                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 4392.18667          
+ sum_sales         | 1630.14             
+ psum              | 2755.91             
+ nsum              | 6185.73             
+-RECORD 38-------------------------------
+ i_category        | Shoes               
+ i_brand           | amalgedu pack #1    
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 4940.2275           
+ sum_sales         | 2187.55             
+ psum              | 2894.91             
+ nsum              | 3018.65             
+-RECORD 39-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 5176.2575           
+ sum_sales         | 2424.94             
+ psum              | 4285.78             
+ nsum              | 3286.2              
+-RECORD 40-------------------------------
+ i_category        | Women               
+ i_brand           | amalgamalg #1       
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 6                   
+ avg_monthly_sales | 4507.24             
+ sum_sales         | 1761.81             
+ psum              | 2891.95             
+ nsum              | 2302.21             
+-RECORD 41-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 5410.91667          
+ sum_sales         | 2672.68             
+ psum              | 3591.65             
+ nsum              | 2988.08             
+-RECORD 42-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 5410.91667          
+ sum_sales         | 2677.81             
+ psum              | 2988.08             
+ nsum              | 2881.34             
+-RECORD 43-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ s_store_name      | bar                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 5632.73667          
+ sum_sales         | 2901.64             
+ psum              | 3202.87             
+ nsum              | 3447.78             
+-RECORD 44-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 4955.24167          
+ sum_sales         | 2230.8              
+ psum              | 2395.57             
+ nsum              | 3003.89             
+-RECORD 45-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 5074.07667          
+ sum_sales         | 2356.88             
+ psum              | 2833.4              
+ nsum              | 2854.62             
+-RECORD 46-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ s_store_name      | bar                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 5632.73667          
+ sum_sales         | 2916.43             
+ psum              | 3847.05             
+ nsum              | 3202.87             
+-RECORD 47-------------------------------
+ i_category        | Shoes               
+ i_brand           | exportiedu pack #1  
+ s_store_name      | ese                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 4865.28833          
+ sum_sales         | 2151.76             
+ psum              | 3212.91             
+ nsum              | 3768.25             
+-RECORD 48-------------------------------
+ i_category        | Men                 
+ i_brand           | importoimporto #1   
+ s_store_name      | ese                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 5492.8175           
+ sum_sales         | 2784.11             
+ psum              | 2070.65             
+ nsum              | 3210.74             
+-RECORD 49-------------------------------
+ i_category        | Shoes               
+ i_brand           | exportiedu pack #1  
+ s_store_name      | bar                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 5296.08917          
+ sum_sales         | 2591.12             
+ psum              | 3012.98             
+ nsum              | 6254.36             
+-RECORD 50-------------------------------
+ i_category        | Shoes               
+ i_brand           | exportiedu pack #1  
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 4873.51083          
+ sum_sales         | 2170.98             
+ psum              | 2302.76             
+ nsum              | 3236.5              
+-RECORD 51-------------------------------
+ i_category        | Shoes               
+ i_brand           | amalgedu pack #1    
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 4940.2275           
+ sum_sales         | 2239.16             
+ psum              | 3495.29             
+ nsum              | 2563.93             
+-RECORD 52-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 5109.65417          
+ sum_sales         | 2410.24             
+ psum              | 2916.46             
+ nsum              | 6558.23             
+-RECORD 53-------------------------------
+ i_category        | Women               
+ i_brand           | importoamalg #1     
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 4574.7425           
+ sum_sales         | 1881.03             
+ psum              | 2345.66             
+ nsum              | 6036.28             
+-RECORD 54-------------------------------
+ i_category        | Women               
+ i_brand           | amalgamalg #1       
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 4619.7075           
+ sum_sales         | 1926.67             
+ psum              | 3528.98             
+ nsum              | 5162.15             
+-RECORD 55-------------------------------
+ i_category        | Children            
+ i_brand           | importoexporti #1   
+ s_store_name      | bar                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 4566.77583          
+ sum_sales         | 1879.57             
+ psum              | 3400.62             
+ nsum              | 6244.92             
+-RECORD 56-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 6                   
+ avg_monthly_sales | 5622.2275           
+ sum_sales         | 2943.26             
+ psum              | 3643.42             
+ nsum              | 3847.77             
+-RECORD 57-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 4962.65             
+ sum_sales         | 2283.77             
+ psum              | 3210.01             
+ nsum              | 2539.84             
+-RECORD 58-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 4962.65             
+ sum_sales         | 2284.23             
+ psum              | 3250.69             
+ nsum              | 3210.01             
+-RECORD 59-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 5170.36917          
+ sum_sales         | 2492.73             
+ psum              | 2407.58             
+ nsum              | 3288.94             
+-RECORD 60-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 4989.30167          
+ sum_sales         | 2318.98             
+ psum              | 2618.89             
+ nsum              | 3315.77             
+-RECORD 61-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ s_store_name      | bar                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 5318.14667          
+ sum_sales         | 2651.96             
+ psum              | 2989.1              
+ nsum              | 3649.76             
+-RECORD 62-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ s_store_name      | bar                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 5318.14667          
+ sum_sales         | 2656.31             
+ psum              | 3419.77             
+ nsum              | 2989.1              
+-RECORD 63-------------------------------
+ i_category        | Shoes               
+ i_brand           | amalgedu pack #1    
+ s_store_name      | bar                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 6                   
+ avg_monthly_sales | 4805.40167          
+ sum_sales         | 2149.56             
+ psum              | 2686.7              
+ nsum              | 3098.25             
+-RECORD 64-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ s_store_name      | bar                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 5280.6625           
+ sum_sales         | 2625.99             
+ psum              | 3301.62             
+ nsum              | 4331.44             
+-RECORD 65-------------------------------
+ i_category        | Music               
+ i_brand           | amalgscholar #1     
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 4934.50417          
+ sum_sales         | 2280.93             
+ psum              | 2322.89             
+ nsum              | 2421.13             
+-RECORD 66-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 5335.90833          
+ sum_sales         | 2684.15             
+ psum              | 3543.33             
+ nsum              | 7540.94             
+-RECORD 67-------------------------------
+ i_category        | Shoes               
+ i_brand           | importoedu pack #1  
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 4698.6125           
+ sum_sales         | 2058.86             
+ psum              | 3191.74             
+ nsum              | 2812.15             
+-RECORD 68-------------------------------
+ i_category        | Shoes               
+ i_brand           | edu packedu pack #1 
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 4745.29583          
+ sum_sales         | 2109.27             
+ psum              | 3203.82             
+ nsum              | 2737.82             
+-RECORD 69-------------------------------
+ i_category        | Shoes               
+ i_brand           | importoedu pack #1  
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 4537.63583          
+ sum_sales         | 1905.23             
+ psum              | 1623.33             
+ nsum              | 3170.58             
+-RECORD 70-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 6                   
+ avg_monthly_sales | 4989.30167          
+ sum_sales         | 2357.82             
+ psum              | 3363.58             
+ nsum              | 3142.81             
+-RECORD 71-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 4955.24167          
+ sum_sales         | 2326.67             
+ psum              | 2746.99             
+ nsum              | 3097.63             
+-RECORD 72-------------------------------
+ i_category        | Men                 
+ i_brand           | edu packimporto #1  
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 5501.18083          
+ sum_sales         | 2874.96             
+ psum              | 2615.32             
+ nsum              | 3714                
+-RECORD 73-------------------------------
+ i_category        | Shoes               
+ i_brand           | exportiedu pack #1  
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 4873.51083          
+ sum_sales         | 2256.56             
+ psum              | 3236.5              
+ nsum              | 6245.37             
+-RECORD 74-------------------------------
+ i_category        | Shoes               
+ i_brand           | importoedu pack #1  
+ s_store_name      | ese                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 4676.74917          
+ sum_sales         | 2060.29             
+ psum              | 3273.67             
+ nsum              | 2610.86             
+-RECORD 75-------------------------------
+ i_category        | Men                 
+ i_brand           | amalgimporto #1     
+ s_store_name      | ese                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 6                   
+ avg_monthly_sales | 4764.59667          
+ sum_sales         | 2150.16             
+ psum              | 3284.27             
+ nsum              | 3475.17             
+-RECORD 76-------------------------------
+ i_category        | Music               
+ i_brand           | amalgscholar #1     
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 4934.50417          
+ sum_sales         | 2322.89             
+ psum              | 3197.76             
+ nsum              | 2280.93             
+-RECORD 77-------------------------------
+ i_category        | Shoes               
+ i_brand           | exportiedu pack #1  
+ s_store_name      | bar                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 5296.08917          
+ sum_sales         | 2685.85             
+ psum              | 4235.44             
+ nsum              | 2410.44             
+-RECORD 78-------------------------------
+ i_category        | Children            
+ i_brand           | importoexporti #1   
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 4586.29833          
+ sum_sales         | 1982.77             
+ psum              | 2837.74             
+ nsum              | 2643.58             
+-RECORD 79-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 5090.105            
+ sum_sales         | 2488.24             
+ psum              | 2966.36             
+ nsum              | 2281.8              
+-RECORD 80-------------------------------
+ i_category        | Shoes               
+ i_brand           | importoedu pack #1  
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 4700.91167          
+ sum_sales         | 2100.12             
+ psum              | 2533.01             
+ nsum              | 5888.57             
+-RECORD 81-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ s_store_name      | bar                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 5484.78917          
+ sum_sales         | 2903.45             
+ psum              | 3410.13             
+ nsum              | 3024.86             
+-RECORD 82-------------------------------
+ i_category        | Shoes               
+ i_brand           | exportiedu pack #1  
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 4873.51083          
+ sum_sales         | 2300.45             
+ psum              | 2797.3              
+ nsum              | 2302.76             
+-RECORD 83-------------------------------
+ i_category        | Shoes               
+ i_brand           | exportiedu pack #1  
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 4873.51083          
+ sum_sales         | 2302.76             
+ psum              | 2300.45             
+ nsum              | 2170.98             
+-RECORD 84-------------------------------
+ i_category        | Shoes               
+ i_brand           | importoedu pack #1  
+ s_store_name      | bar                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 4794.67917          
+ sum_sales         | 2225.7              
+ psum              | 2756.97             
+ nsum              | 2413.76             
+-RECORD 85-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 5552.305            
+ sum_sales         | 2985.49             
+ psum              | 3241.69             
+ nsum              | 4081.99             
+-RECORD 86-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 5539.30833          
+ sum_sales         | 2973.01             
+ psum              | 3069.18             
+ nsum              | 3862.34             
+-RECORD 87-------------------------------
+ i_category        | Shoes               
+ i_brand           | amalgedu pack #1    
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 7                   
+ avg_monthly_sales | 4706.54417          
+ sum_sales         | 2143.18             
+ psum              | 2458.07             
+ nsum              | 5967.73             
+-RECORD 88-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 5018.27917          
+ sum_sales         | 2458.03             
+ psum              | 3467.53             
+ nsum              | 2683.61             
+-RECORD 89-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 4955.24167          
+ sum_sales         | 2395.57             
+ psum              | 3097.63             
+ nsum              | 2230.8              
+-RECORD 90-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 5109.65417          
+ sum_sales         | 2550.3              
+ psum              | 4039.1              
+ nsum              | 2685.1              
+-RECORD 91-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 5079.1825           
+ sum_sales         | 2520.64             
+ psum              | 3233.5              
+ nsum              | 3079.89             
+-RECORD 92-------------------------------
+ i_category        | Women               
+ i_brand           | edu packamalg #1    
+ s_store_name      | ation               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 4507.4175           
+ sum_sales         | 1951.42             
+ psum              | 4166.02             
+ nsum              | 2865.38             
+-RECORD 93-------------------------------
+ i_category        | Women               
+ i_brand           | amalgamalg #1       
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 4619.7075           
+ sum_sales         | 2065.94             
+ psum              | 9639.59             
+ nsum              | 2521.7              
+-RECORD 94-------------------------------
+ i_category        | Music               
+ i_brand           | importoscholar #1   
+ s_store_name      | ought               
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 4004.44833          
+ sum_sales         | 1456.84             
+ psum              | 2438.63             
+ nsum              | 2790.03             
+-RECORD 95-------------------------------
+ i_category        | Shoes               
+ i_brand           | edu packedu pack #1 
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 5                   
+ avg_monthly_sales | 4664.86167          
+ sum_sales         | 2122.71             
+ psum              | 3131.02             
+ nsum              | 2852.96             
+-RECORD 96-------------------------------
+ i_category        | Women               
+ i_brand           | importoamalg #1     
+ s_store_name      | bar                 
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 3                   
+ avg_monthly_sales | 4437.21083          
+ sum_sales         | 1895.27             
+ psum              | 2678.48             
+ nsum              | 2999.04             
+-RECORD 97-------------------------------
+ i_category        | Music               
+ i_brand           | exportischolar #1   
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 2                   
+ avg_monthly_sales | 5090.105            
+ sum_sales         | 2550.48             
+ psum              | 3702.29             
+ nsum              | 2966.36             
+-RECORD 98-------------------------------
+ i_category        | Music               
+ i_brand           | edu packscholar #1  
+ s_store_name      | able                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 1                   
+ avg_monthly_sales | 5335.90833          
+ sum_sales         | 2796.97             
+ psum              | 13360.68            
+ nsum              | 3413.22             
+-RECORD 99-------------------------------
+ i_category        | Children            
+ i_brand           | exportiexporti #1   
+ s_store_name      | eing                
+ s_company_name    | Unknown             
+ d_year            | 1999                
+ d_moy             | 4                   
+ avg_monthly_sales | 5109.65417          
+ sum_sales         | 2574.12             
+ psum              | 2685.1              
+ nsum              | 2672.73
+           

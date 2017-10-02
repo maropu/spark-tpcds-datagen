@@ -1,0 +1,17 @@
+-RECORD 0------------------------------------------
+ i_item_id                      | AAAAAAAAKPFEAAAA 
+ i_item_desc                    | Recently right   
+ s_state                        | TN               
+ store_sales_quantitycount      | 1                
+ store_sales_quantityave        | 99               
+ store_sales_quantitystdev      | 0                
+ store_sales_quantitycov        | 0                
+ as_store_returns_quantitycount | 1                
+ as_store_returns_quantityave   | 66               
+ as_store_returns_quantitystdev | 0                
+ store_returns_quantitycov      | 0                
+ catalog_sales_quantitycount    | 1                
+ catalog_sales_quantityave      | 32               
+ catalog_sales_quantitystdev    | 0                
+ catalog_sales_quantitycov      | 0
+           

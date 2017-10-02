@@ -1,0 +1,5 @@
+-RECORD 0-------------------
+ store_only        | 540401 
+ catalog_only      | 286628 
+ store_and_catalog | 174
+           

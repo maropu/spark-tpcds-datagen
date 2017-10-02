@@ -1,0 +1,501 @@
+-RECORD 0------------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAABDAAAA 
+ sales_before | 0                
+ sales_after  | -82.1            
+-RECORD 1------------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAACDAAAA 
+ sales_before | -216.54          
+ sales_after  | 158.04           
+-RECORD 2------------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAAHDAAAA 
+ sales_before | 186.55           
+ sales_after  | 0                
+-RECORD 3------------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAALAAAAA 
+ sales_before | 0                
+ sales_after  | 48.23            
+-RECORD 4------------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAABBDAAAA 
+ sales_before | 98.61            
+ sales_after  | 332.71           
+-RECORD 5------------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAABDAAAAA 
+ sales_before | 0                
+ sales_after  | 213.64           
+-RECORD 6------------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAACGCAAAA 
+ sales_before | 63.68            
+ sales_after  | 0                
+-RECORD 7------------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAACHCAAAA 
+ sales_before | 102.68           
+ sales_after  | 51.89            
+-RECORD 8------------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAACKCAAAA 
+ sales_before | 128.93           
+ sales_after  | 44.82            
+-RECORD 9------------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAACLDAAAA 
+ sales_before | 205.44           
+ sales_after  | -948.62          
+-RECORD 10-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAACOBAAAA 
+ sales_before | 207.32           
+ sales_after  | 24.89            
+-RECORD 11-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAACPDAAAA 
+ sales_before | 87.75            
+ sales_after  | 53.99            
+-RECORD 12-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAADGBAAAA 
+ sales_before | 44.31            
+ sales_after  | 222.48           
+-RECORD 13-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAADKBAAAA 
+ sales_before | 0                
+ sales_after  | -471.87          
+-RECORD 14-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAEADAAAA 
+ sales_before | 58.24            
+ sales_after  | 0                
+-RECORD 15-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAEOCAAAA 
+ sales_before | 19.91            
+ sales_after  | 214.7            
+-RECORD 16-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAFACAAAA 
+ sales_before | 271.82           
+ sales_after  | 163.17           
+-RECORD 17-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAFADAAAA 
+ sales_before | 2.35             
+ sales_after  | 28.32            
+-RECORD 18-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAFDCAAAA 
+ sales_before | -378.05          
+ sales_after  | -303.27          
+-RECORD 19-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAGIDAAAA 
+ sales_before | 307.61           
+ sales_after  | -19.29           
+-RECORD 20-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAHDEAAAA 
+ sales_before | 80.58            
+ sales_after  | -476.72          
+-RECORD 21-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAHHAAAAA 
+ sales_before | 8.27             
+ sales_after  | 155.1            
+-RECORD 22-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAHJBAAAA 
+ sales_before | 39.24            
+ sales_after  | 0                
+-RECORD 23-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAIECAAAA 
+ sales_before | 82.4             
+ sales_after  | 3.91             
+-RECORD 24-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAIEEAAAA 
+ sales_before | 20.4             
+ sales_after  | -151.09          
+-RECORD 25-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAIMCAAAA 
+ sales_before | 24.47            
+ sales_after  | -150.3           
+-RECORD 26-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAJACAAAA 
+ sales_before | 49.09            
+ sales_after  | 82.1             
+-RECORD 27-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAJCAAAAA 
+ sales_before | 121.18           
+ sales_after  | 63.78            
+-RECORD 28-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAJKBAAAA 
+ sales_before | 27.94            
+ sales_after  | 8.97             
+-RECORD 29-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAALBEAAAA 
+ sales_before | 88.26            
+ sales_after  | 30.23            
+-RECORD 30-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAALCEAAAA 
+ sales_before | 93.52            
+ sales_after  | 92.02            
+-RECORD 31-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAALECAAAA 
+ sales_before | 64.2             
+ sales_after  | 15.16            
+-RECORD 32-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAALNBAAAA 
+ sales_before | 4.2              
+ sales_after  | 148.27           
+-RECORD 33-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAMBEAAAA 
+ sales_before | 28.44            
+ sales_after  | null             
+-RECORD 34-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAMPBAAAA 
+ sales_before | 0                
+ sales_after  | 131.93           
+-RECORD 35-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAANFEAAAA 
+ sales_before | 0                
+ sales_after  | -137.34          
+-RECORD 36-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAOBBAAAA 
+ sales_before | 0                
+ sales_after  | 55.62            
+-RECORD 37-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAOIBAAAA 
+ sales_before | 150.41           
+ sales_after  | 254.28           
+-RECORD 38-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAPBAAAAA 
+ sales_before | 70.4             
+ sales_after  | 0                
+-RECORD 39-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAPJBAAAA 
+ sales_before | 45.27            
+ sales_after  | 334.4            
+-RECORD 40-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAPLAAAAA 
+ sales_before | 50.2             
+ sales_after  | 29.15            
+-RECORD 41-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAAAPLDAAAA 
+ sales_before | 0                
+ sales_after  | 32.39            
+-RECORD 42-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABAPDAAAA 
+ sales_before | 93.42            
+ sales_after  | 145.87           
+-RECORD 43-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABBIDAAAA 
+ sales_before | 296.77           
+ sales_after  | 30.96            
+-RECORD 44-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABDCEAAAA 
+ sales_before | -1771.08         
+ sales_after  | -54.78           
+-RECORD 45-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABDDDAAAA 
+ sales_before | 111.12           
+ sales_after  | 280.59           
+-RECORD 46-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABDJAAAAA 
+ sales_before | 0                
+ sales_after  | 79.55            
+-RECORD 47-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABEFDAAAA 
+ sales_before | 0                
+ sales_after  | 3.43             
+-RECORD 48-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABEODAAAA 
+ sales_before | 269.9            
+ sales_after  | 297.58           
+-RECORD 49-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABFMBAAAA 
+ sales_before | 110.83           
+ sales_after  | -941.4           
+-RECORD 50-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABFNAAAAA 
+ sales_before | 47.86            
+ sales_after  | 0                
+-RECORD 51-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABFOCAAAA 
+ sales_before | 46.34            
+ sales_after  | 83.52            
+-RECORD 52-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABHPCAAAA 
+ sales_before | 27.37            
+ sales_after  | 77.62            
+-RECORD 53-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABIDBAAAA 
+ sales_before | 196.62           
+ sales_after  | 5.57             
+-RECORD 54-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABIGBAAAA 
+ sales_before | 425.34           
+ sales_after  | 0                
+-RECORD 55-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABIJBAAAA 
+ sales_before | 209.63           
+ sales_after  | 0                
+-RECORD 56-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABJFEAAAA 
+ sales_before | 7.33             
+ sales_after  | 55.16            
+-RECORD 57-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABKFAAAAA 
+ sales_before | 0                
+ sales_after  | 138.14           
+-RECORD 58-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABKMCAAAA 
+ sales_before | 27.17            
+ sales_after  | 54.97            
+-RECORD 59-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABLDEAAAA 
+ sales_before | 170.29           
+ sales_after  | 0                
+-RECORD 60-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABNHBAAAA 
+ sales_before | 58.06            
+ sales_after  | -337.89          
+-RECORD 61-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABNIDAAAA 
+ sales_before | 54.4             
+ sales_after  | 35.02            
+-RECORD 62-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABNLAAAAA 
+ sales_before | 0                
+ sales_after  | 168.38           
+-RECORD 63-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABNLDAAAA 
+ sales_before | 0                
+ sales_after  | 96.41            
+-RECORD 64-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABNMCAAAA 
+ sales_before | 202.41           
+ sales_after  | 49.53            
+-RECORD 65-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABOCCAAAA 
+ sales_before | 4.73             
+ sales_after  | 69.84            
+-RECORD 66-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAABOMBAAAA 
+ sales_before | 63.67            
+ sales_after  | 163.49           
+-RECORD 67-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACAAAAAAA 
+ sales_before | 121.91           
+ sales_after  | 0                
+-RECORD 68-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACAADAAAA 
+ sales_before | -1107.61         
+ sales_after  | 0                
+-RECORD 69-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACAJCAAAA 
+ sales_before | 115.81           
+ sales_after  | 173.05           
+-RECORD 70-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACBCDAAAA 
+ sales_before | 18.94            
+ sales_after  | 226.38           
+-RECORD 71-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACBFAAAAA 
+ sales_before | 0                
+ sales_after  | 97.41            
+-RECORD 72-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACBIAAAAA 
+ sales_before | 2.14             
+ sales_after  | 84.66            
+-RECORD 73-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACBPBAAAA 
+ sales_before | 95.44            
+ sales_after  | 26.68            
+-RECORD 74-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACCABAAAA 
+ sales_before | 160.43           
+ sales_after  | 135.86           
+-RECORD 75-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACCHDAAAA 
+ sales_before | 0                
+ sales_after  | 121.62           
+-RECORD 76-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACCMDAAAA 
+ sales_before | -115.87          
+ sales_after  | 124.38           
+-RECORD 77-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACDBCAAAA 
+ sales_before | 16.62            
+ sales_after  | 3.4              
+-RECORD 78-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACDECAAAA 
+ sales_before | -3114.6          
+ sales_after  | 0                
+-RECORD 79-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACEEAAAAA 
+ sales_before | 34.68            
+ sales_after  | 26.41            
+-RECORD 80-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACELAAAAA 
+ sales_before | 130.59           
+ sales_after  | 154.63           
+-RECORD 81-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACELDAAAA 
+ sales_before | 0                
+ sales_after  | 181.07           
+-RECORD 82-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACFEAAAAA 
+ sales_before | 3.78             
+ sales_after  | -315.13          
+-RECORD 83-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACFHDAAAA 
+ sales_before | 0                
+ sales_after  | 1.8              
+-RECORD 84-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACGFDAAAA 
+ sales_before | -386.87          
+ sales_after  | 96.92            
+-RECORD 85-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACHHDAAAA 
+ sales_before | 143.17           
+ sales_after  | 251.64           
+-RECORD 86-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACHPCAAAA 
+ sales_before | .17              
+ sales_after  | 198.29           
+-RECORD 87-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACJCBAAAA 
+ sales_before | -918.65          
+ sales_after  | 270.96           
+-RECORD 88-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACJDCAAAA 
+ sales_before | 0                
+ sales_after  | 130.15           
+-RECORD 89-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACJLAAAAA 
+ sales_before | 63.96            
+ sales_after  | 91.27            
+-RECORD 90-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACKFCAAAA 
+ sales_before | -540.59          
+ sales_after  | 35.64            
+-RECORD 91-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACKHAAAAA 
+ sales_before | 204.52           
+ sales_after  | 110.61           
+-RECORD 92-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACKIAAAAA 
+ sales_before | 18.43            
+ sales_after  | -63.65           
+-RECORD 93-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACLAEAAAA 
+ sales_before | 116.07           
+ sales_after  | 0                
+-RECORD 94-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACLGAAAAA 
+ sales_before | 108.1            
+ sales_after  | 111.14           
+-RECORD 95-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACLKAAAAA 
+ sales_before | 143.05           
+ sales_after  | 19.59            
+-RECORD 96-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACLLBAAAA 
+ sales_before | 0                
+ sales_after  | 178.1            
+-RECORD 97-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACLOBAAAA 
+ sales_before | -2200.72         
+ sales_after  | 14.13            
+-RECORD 98-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACMADAAAA 
+ sales_before | 71.42            
+ sales_after  | -13.64           
+-RECORD 99-----------------------
+ w_state      | TN               
+ i_item_id    | AAAAAAAACMJAAAAA 
+ sales_before | 0                
+ sales_after  | 358.31
+           

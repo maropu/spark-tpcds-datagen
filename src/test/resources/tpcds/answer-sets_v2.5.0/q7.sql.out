@@ -1,0 +1,595 @@
+-RECORD 0---------------------
+ i_item_id | AAAAAAAAAAAEAAAA 
+ agg1      | 99.000000        
+ agg2      | 123.440000       
+ agg3      | 0.000000         
+ agg4      | 44.430000        
+-RECORD 1---------------------
+ i_item_id | AAAAAAAAAABBAAAA 
+ agg1      | 11.000000        
+ agg2      | 77.310000        
+ agg3      | 0.000000         
+ agg4      | 38.650000        
+-RECORD 2---------------------
+ i_item_id | AAAAAAAAAABEAAAA 
+ agg1      | 35.500000        
+ agg2      | 18.900000        
+ agg3      | 0.000000         
+ agg4      | 4.850000         
+-RECORD 3---------------------
+ i_item_id | AAAAAAAAAACAAAAA 
+ agg1      | 61.000000        
+ agg2      | 38.630000        
+ agg3      | 90.245000        
+ agg4      | 16.385000        
+-RECORD 4---------------------
+ i_item_id | AAAAAAAAAACCAAAA 
+ agg1      | 10.500000        
+ agg2      | 83.465000        
+ agg3      | 0.000000         
+ agg4      | 30.020000        
+-RECORD 5---------------------
+ i_item_id | AAAAAAAAAADBAAAA 
+ agg1      | 44.000000        
+ agg2      | 108.360000       
+ agg3      | 0.000000         
+ agg4      | 13.000000        
+-RECORD 6---------------------
+ i_item_id | AAAAAAAAAADCAAAA 
+ agg1      | 54.000000        
+ agg2      | 59.290000        
+ agg3      | 0.000000         
+ agg4      | 34.980000        
+-RECORD 7---------------------
+ i_item_id | AAAAAAAAAADEAAAA 
+ agg1      | 93.000000        
+ agg2      | 43.570000        
+ agg3      | 0.000000         
+ agg4      | 38.340000        
+-RECORD 8---------------------
+ i_item_id | AAAAAAAAAAEAAAAA 
+ agg1      | 72.000000        
+ agg2      | 16.460000        
+ agg3      | 0.000000         
+ agg4      | 13.330000        
+-RECORD 9---------------------
+ i_item_id | AAAAAAAAAAEBAAAA 
+ agg1      | 88.000000        
+ agg2      | 29.020000        
+ agg3      | 0.000000         
+ agg4      | 0.870000         
+-RECORD 10--------------------
+ i_item_id | AAAAAAAAAAEDAAAA 
+ agg1      | 91.000000        
+ agg2      | 84.375000        
+ agg3      | 0.000000         
+ agg4      | 9.090000         
+-RECORD 11--------------------
+ i_item_id | AAAAAAAAAAFDAAAA 
+ agg1      | 37.000000        
+ agg2      | 33.130000        
+ agg3      | 0.000000         
+ agg4      | 20.200000        
+-RECORD 12--------------------
+ i_item_id | AAAAAAAAAAGEAAAA 
+ agg1      | 35.000000        
+ agg2      | 56.480000        
+ agg3      | 881.450000       
+ agg4      | 23.630000        
+-RECORD 13--------------------
+ i_item_id | AAAAAAAAAAHDAAAA 
+ agg1      | 33.000000        
+ agg2      | 59.050000        
+ agg3      | 0.000000         
+ agg4      | 48.530000        
+-RECORD 14--------------------
+ i_item_id | AAAAAAAAAAICAAAA 
+ agg1      | 68.500000        
+ agg2      | 108.730000       
+ agg3      | 166.780000       
+ agg4      | 69.220000        
+-RECORD 15--------------------
+ i_item_id | AAAAAAAAAAIDAAAA 
+ agg1      | 76.000000        
+ agg2      | 97.190000        
+ agg3      | 0.000000         
+ agg4      | 43.730000        
+-RECORD 16--------------------
+ i_item_id | AAAAAAAAAAJCAAAA 
+ agg1      | 30.000000        
+ agg2      | 47.550000        
+ agg3      | 0.000000         
+ agg4      | 30.430000        
+-RECORD 17--------------------
+ i_item_id | AAAAAAAAAAKBAAAA 
+ agg1      | 59.000000        
+ agg2      | 55.080000        
+ agg3      | 0.000000         
+ agg4      | 17.070000        
+-RECORD 18--------------------
+ i_item_id | AAAAAAAAAAMBAAAA 
+ agg1      | 74.000000        
+ agg2      | 10.390000        
+ agg3      | 0.000000         
+ agg4      | 8.620000         
+-RECORD 19--------------------
+ i_item_id | AAAAAAAAAAMCAAAA 
+ agg1      | 86.000000        
+ agg2      | 24.100000        
+ agg3      | 0.410000         
+ agg4      | 0.480000         
+-RECORD 20--------------------
+ i_item_id | AAAAAAAAAANAAAAA 
+ agg1      | 43.000000        
+ agg2      | 80.160000        
+ agg3      | 0.000000         
+ agg4      | 41.680000        
+-RECORD 21--------------------
+ i_item_id | AAAAAAAAAANBAAAA 
+ agg1      | 28.000000        
+ agg2      | 112.270000       
+ agg3      | 0.000000         
+ agg4      | 57.250000        
+-RECORD 22--------------------
+ i_item_id | AAAAAAAAAAOAAAAA 
+ agg1      | 46.000000        
+ agg2      | 12.630000        
+ agg3      | 0.000000         
+ agg4      | 4.670000         
+-RECORD 23--------------------
+ i_item_id | AAAAAAAAAAPBAAAA 
+ agg1      | 66.000000        
+ agg2      | 39.590000        
+ agg3      | 969.800000       
+ agg4      | 18.600000        
+-RECORD 24--------------------
+ i_item_id | AAAAAAAAAAPCAAAA 
+ agg1      | 90.000000        
+ agg2      | 68.280000        
+ agg3      | 0.000000         
+ agg4      | 47.790000        
+-RECORD 25--------------------
+ i_item_id | AAAAAAAAABAAAAAA 
+ agg1      | 10.500000        
+ agg2      | 71.480000        
+ agg3      | 0.000000         
+ agg4      | 28.920000        
+-RECORD 26--------------------
+ i_item_id | AAAAAAAAABABAAAA 
+ agg1      | 12.500000        
+ agg2      | 100.530000       
+ agg3      | 2.230000         
+ agg4      | 34.807500        
+-RECORD 27--------------------
+ i_item_id | AAAAAAAAABADAAAA 
+ agg1      | 100.000000       
+ agg2      | 68.670000        
+ agg3      | 0.000000         
+ agg4      | 50.810000        
+-RECORD 28--------------------
+ i_item_id | AAAAAAAAABAEAAAA 
+ agg1      | 49.000000        
+ agg2      | 15.790000        
+ agg3      | 0.000000         
+ agg4      | 11.840000        
+-RECORD 29--------------------
+ i_item_id | AAAAAAAAABBCAAAA 
+ agg1      | 52.000000        
+ agg2      | 115.100000       
+ agg3      | 0.000000         
+ agg4      | 24.170000        
+-RECORD 30--------------------
+ i_item_id | AAAAAAAAABDEAAAA 
+ agg1      | 92.000000        
+ agg2      | 168.960000       
+ agg3      | 0.000000         
+ agg4      | 23.650000        
+-RECORD 31--------------------
+ i_item_id | AAAAAAAAABEAAAAA 
+ agg1      | 33.333333        
+ agg2      | 58.646667        
+ agg3      | 99.473333        
+ agg4      | 22.166667        
+-RECORD 32--------------------
+ i_item_id | AAAAAAAAABECAAAA 
+ agg1      | 43.000000        
+ agg2      | 167.740000       
+ agg3      | 0.000000         
+ agg4      | 88.900000        
+-RECORD 33--------------------
+ i_item_id | AAAAAAAAABEDAAAA 
+ agg1      | 74.000000        
+ agg2      | 129.100000       
+ agg3      | 0.000000         
+ agg4      | 108.440000       
+-RECORD 34--------------------
+ i_item_id | AAAAAAAAABFBAAAA 
+ agg1      | 36.000000        
+ agg2      | 115.180000       
+ agg3      | 0.000000         
+ agg4      | 109.420000       
+-RECORD 35--------------------
+ i_item_id | AAAAAAAAABFCAAAA 
+ agg1      | 51.000000        
+ agg2      | 121.980000       
+ agg3      | 0.000000         
+ agg4      | 17.070000        
+-RECORD 36--------------------
+ i_item_id | AAAAAAAAABFEAAAA 
+ agg1      | 65.000000        
+ agg2      | 117.880000       
+ agg3      | 0.000000         
+ agg4      | 107.270000       
+-RECORD 37--------------------
+ i_item_id | AAAAAAAAABGBAAAA 
+ agg1      | 52.000000        
+ agg2      | 71.545000        
+ agg3      | 0.000000         
+ agg4      | 30.285000        
+-RECORD 38--------------------
+ i_item_id | AAAAAAAAABGDAAAA 
+ agg1      | 67.500000        
+ agg2      | 58.860000        
+ agg3      | 0.000000         
+ agg4      | 35.250000        
+-RECORD 39--------------------
+ i_item_id | AAAAAAAAABHAAAAA 
+ agg1      | 71.000000        
+ agg2      | 39.385000        
+ agg3      | 804.375000       
+ agg4      | 8.380000         
+-RECORD 40--------------------
+ i_item_id | AAAAAAAAABHCAAAA 
+ agg1      | 48.000000        
+ agg2      | 12.670000        
+ agg3      | 52.160000        
+ agg4      | 4.180000         
+-RECORD 41--------------------
+ i_item_id | AAAAAAAAABHDAAAA 
+ agg1      | 55.000000        
+ agg2      | 17.780000        
+ agg3      | 0.000000         
+ agg4      | 5.515000         
+-RECORD 42--------------------
+ i_item_id | AAAAAAAAABJAAAAA 
+ agg1      | 32.000000        
+ agg2      | 20.110000        
+ agg3      | 0.000000         
+ agg4      | 15.680000        
+-RECORD 43--------------------
+ i_item_id | AAAAAAAAABJBAAAA 
+ agg1      | 21.000000        
+ agg2      | 72.335000        
+ agg3      | 0.000000         
+ agg4      | 11.370000        
+-RECORD 44--------------------
+ i_item_id | AAAAAAAAABJDAAAA 
+ agg1      | 43.000000        
+ agg2      | 74.920000        
+ agg3      | 0.000000         
+ agg4      | 8.240000         
+-RECORD 45--------------------
+ i_item_id | AAAAAAAAABKAAAAA 
+ agg1      | 67.000000        
+ agg2      | 103.070000       
+ agg3      | 0.000000         
+ agg4      | 34.010000        
+-RECORD 46--------------------
+ i_item_id | AAAAAAAAABKCAAAA 
+ agg1      | 43.000000        
+ agg2      | 73.930000        
+ agg3      | 0.000000         
+ agg4      | 48.050000        
+-RECORD 47--------------------
+ i_item_id | AAAAAAAAABKDAAAA 
+ agg1      | 84.000000        
+ agg2      | 102.950000       
+ agg3      | 0.000000         
+ agg4      | 42.200000        
+-RECORD 48--------------------
+ i_item_id | AAAAAAAAABMAAAAA 
+ agg1      | 58.000000        
+ agg2      | 136.340000       
+ agg3      | 0.000000         
+ agg4      | 35.440000        
+-RECORD 49--------------------
+ i_item_id | AAAAAAAAABMDAAAA 
+ agg1      | 80.000000        
+ agg2      | 3.060000         
+ agg3      | 0.000000         
+ agg4      | 1.890000         
+-RECORD 50--------------------
+ i_item_id | AAAAAAAAABNAAAAA 
+ agg1      | 96.000000        
+ agg2      | 81.950000        
+ agg3      | 0.000000         
+ agg4      | 64.740000        
+-RECORD 51--------------------
+ i_item_id | AAAAAAAAABNCAAAA 
+ agg1      | 42.000000        
+ agg2      | 88.830000        
+ agg3      | 0.000000         
+ agg4      | 20.650000        
+-RECORD 52--------------------
+ i_item_id | AAAAAAAAABOBAAAA 
+ agg1      | 18.000000        
+ agg2      | 81.490000        
+ agg3      | 0.000000         
+ agg4      | 58.670000        
+-RECORD 53--------------------
+ i_item_id | AAAAAAAAABOCAAAA 
+ agg1      | 31.000000        
+ agg2      | 73.876667        
+ agg3      | 0.000000         
+ agg4      | 59.940000        
+-RECORD 54--------------------
+ i_item_id | AAAAAAAAABPBAAAA 
+ agg1      | 48.500000        
+ agg2      | 37.830000        
+ agg3      | 183.780000       
+ agg4      | 11.720000        
+-RECORD 55--------------------
+ i_item_id | AAAAAAAAACACAAAA 
+ agg1      | 60.000000        
+ agg2      | 104.375000       
+ agg3      | 351.565000       
+ agg4      | 25.315000        
+-RECORD 56--------------------
+ i_item_id | AAAAAAAAACADAAAA 
+ agg1      | 29.000000        
+ agg2      | 43.740000        
+ agg3      | 0.000000         
+ agg4      | 13.990000        
+-RECORD 57--------------------
+ i_item_id | AAAAAAAAACBBAAAA 
+ agg1      | 44.500000        
+ agg2      | 87.510000        
+ agg3      | 0.000000         
+ agg4      | 36.140000        
+-RECORD 58--------------------
+ i_item_id | AAAAAAAAACBEAAAA 
+ agg1      | 76.000000        
+ agg2      | 156.050000       
+ agg3      | 0.000000         
+ agg4      | 113.910000       
+-RECORD 59--------------------
+ i_item_id | AAAAAAAAACCDAAAA 
+ agg1      | 26.000000        
+ agg2      | 35.573333        
+ agg3      | 0.000000         
+ agg4      | 13.013333        
+-RECORD 60--------------------
+ i_item_id | AAAAAAAAACCEAAAA 
+ agg1      | 4.000000         
+ agg2      | 10.980000        
+ agg3      | 0.000000         
+ agg4      | 4.940000         
+-RECORD 61--------------------
+ i_item_id | AAAAAAAAACDAAAAA 
+ agg1      | 16.000000        
+ agg2      | 87.870000        
+ agg3      | 36.260000        
+ agg4      | 75.560000        
+-RECORD 62--------------------
+ i_item_id | AAAAAAAAACDCAAAA 
+ agg1      | 27.000000        
+ agg2      | 89.860000        
+ agg3      | 0.000000         
+ agg4      | 40.430000        
+-RECORD 63--------------------
+ i_item_id | AAAAAAAAACEBAAAA 
+ agg1      | 42.000000        
+ agg2      | 94.580000        
+ agg3      | 0.000000         
+ agg4      | 51.260000        
+-RECORD 64--------------------
+ i_item_id | AAAAAAAAACFBAAAA 
+ agg1      | 45.000000        
+ agg2      | 88.305000        
+ agg3      | 0.000000         
+ agg4      | 24.260000        
+-RECORD 65--------------------
+ i_item_id | AAAAAAAAACGAAAAA 
+ agg1      | 47.000000        
+ agg2      | 10.460000        
+ agg3      | 0.000000         
+ agg4      | 5.640000         
+-RECORD 66--------------------
+ i_item_id | AAAAAAAAACGDAAAA 
+ agg1      | 24.000000        
+ agg2      | 51.545000        
+ agg3      | 0.000000         
+ agg4      | 18.835000        
+-RECORD 67--------------------
+ i_item_id | AAAAAAAAACHBAAAA 
+ agg1      | 44.000000        
+ agg2      | 103.270000       
+ agg3      | 0.000000         
+ agg4      | 65.060000        
+-RECORD 68--------------------
+ i_item_id | AAAAAAAAACHCAAAA 
+ agg1      | 68.500000        
+ agg2      | 91.680000        
+ agg3      | 0.000000         
+ agg4      | 66.165000        
+-RECORD 69--------------------
+ i_item_id | AAAAAAAAACIAAAAA 
+ agg1      | 7.000000         
+ agg2      | 25.420000        
+ agg3      | 0.000000         
+ agg4      | 8.640000         
+-RECORD 70--------------------
+ i_item_id | AAAAAAAAACIBAAAA 
+ agg1      | 21.000000        
+ agg2      | 89.290000        
+ agg3      | 915.010000       
+ agg4      | 71.430000        
+-RECORD 71--------------------
+ i_item_id | AAAAAAAAACIDAAAA 
+ agg1      | 43.000000        
+ agg2      | 56.280000        
+ agg3      | 56.110000        
+ agg4      | 4.500000         
+-RECORD 72--------------------
+ i_item_id | AAAAAAAAACLAAAAA 
+ agg1      | 36.000000        
+ agg2      | 125.570000       
+ agg3      | 0.000000         
+ agg4      | 13.810000        
+-RECORD 73--------------------
+ i_item_id | AAAAAAAAACLDAAAA 
+ agg1      | 61.333333        
+ agg2      | 114.206667       
+ agg3      | 0.000000         
+ agg4      | 59.123333        
+-RECORD 74--------------------
+ i_item_id | AAAAAAAAACMDAAAA 
+ agg1      | 56.000000        
+ agg2      | 79.020000        
+ agg3      | 0.000000         
+ agg4      | 64.000000        
+-RECORD 75--------------------
+ i_item_id | AAAAAAAAACNCAAAA 
+ agg1      | 63.000000        
+ agg2      | 54.200000        
+ agg3      | 0.000000         
+ agg4      | 29.260000        
+-RECORD 76--------------------
+ i_item_id | AAAAAAAAACOAAAAA 
+ agg1      | 50.000000        
+ agg2      | 27.430000        
+ agg3      | 229.215000       
+ agg4      | 13.430000        
+-RECORD 77--------------------
+ i_item_id | AAAAAAAAACPAAAAA 
+ agg1      | 32.000000        
+ agg2      | 147.620000       
+ agg3      | 2480.320000      
+ agg4      | 87.090000        
+-RECORD 78--------------------
+ i_item_id | AAAAAAAAACPCAAAA 
+ agg1      | 80.000000        
+ agg2      | 12.600000        
+ agg3      | 0.000000         
+ agg4      | 0.370000         
+-RECORD 79--------------------
+ i_item_id | AAAAAAAAACPDAAAA 
+ agg1      | 87.000000        
+ agg2      | 105.930000       
+ agg3      | 0.000000         
+ agg4      | 9.530000         
+-RECORD 80--------------------
+ i_item_id | AAAAAAAAADABAAAA 
+ agg1      | 68.500000        
+ agg2      | 35.795000        
+ agg3      | 0.000000         
+ agg4      | 27.840000        
+-RECORD 81--------------------
+ i_item_id | AAAAAAAAADACAAAA 
+ agg1      | 96.000000        
+ agg2      | 101.540000       
+ agg3      | 0.000000         
+ agg4      | 99.500000        
+-RECORD 82--------------------
+ i_item_id | AAAAAAAAADAEAAAA 
+ agg1      | 53.000000        
+ agg2      | 74.640000        
+ agg3      | 0.000000         
+ agg4      | 7.630000         
+-RECORD 83--------------------
+ i_item_id | AAAAAAAAADBBAAAA 
+ agg1      | 6.000000         
+ agg2      | 85.580000        
+ agg3      | 234.140000       
+ agg4      | 81.300000        
+-RECORD 84--------------------
+ i_item_id | AAAAAAAAADBDAAAA 
+ agg1      | 47.000000        
+ agg2      | 39.330000        
+ agg3      | 62.710000        
+ agg4      | 12.090000        
+-RECORD 85--------------------
+ i_item_id | AAAAAAAAADBEAAAA 
+ agg1      | 52.000000        
+ agg2      | 2.410000         
+ agg3      | 0.000000         
+ agg4      | 1.060000         
+-RECORD 86--------------------
+ i_item_id | AAAAAAAAADCAAAAA 
+ agg1      | 91.000000        
+ agg2      | 92.170000        
+ agg3      | 0.000000         
+ agg4      | 67.280000        
+-RECORD 87--------------------
+ i_item_id | AAAAAAAAADCCAAAA 
+ agg1      | 33.000000        
+ agg2      | 40.800000        
+ agg3      | 0.000000         
+ agg4      | 28.560000        
+-RECORD 88--------------------
+ i_item_id | AAAAAAAAADDBAAAA 
+ agg1      | 45.000000        
+ agg2      | 18.630000        
+ agg3      | 0.000000         
+ agg4      | 17.690000        
+-RECORD 89--------------------
+ i_item_id | AAAAAAAAADDCAAAA 
+ agg1      | 66.000000        
+ agg2      | 162.170000       
+ agg3      | 1525.900000      
+ agg4      | 37.290000        
+-RECORD 90--------------------
+ i_item_id | AAAAAAAAADDEAAAA 
+ agg1      | 35.000000        
+ agg2      | 78.256667        
+ agg3      | 0.000000         
+ agg4      | 36.630000        
+-RECORD 91--------------------
+ i_item_id | AAAAAAAAADEBAAAA 
+ agg1      | 59.500000        
+ agg2      | 110.380000       
+ agg3      | 157.965000       
+ agg4      | 16.165000        
+-RECORD 92--------------------
+ i_item_id | AAAAAAAAADEEAAAA 
+ agg1      | 17.000000        
+ agg2      | 54.540000        
+ agg3      | 0.000000         
+ agg4      | 16.360000        
+-RECORD 93--------------------
+ i_item_id | AAAAAAAAADFAAAAA 
+ agg1      | 44.000000        
+ agg2      | 133.510000       
+ agg3      | 0.000000         
+ agg4      | 25.360000        
+-RECORD 94--------------------
+ i_item_id | AAAAAAAAADGBAAAA 
+ agg1      | 31.000000        
+ agg2      | 107.550000       
+ agg3      | 919.825000       
+ agg4      | 56.535000        
+-RECORD 95--------------------
+ i_item_id | AAAAAAAAADGCAAAA 
+ agg1      | 78.000000        
+ agg2      | 119.610000       
+ agg3      | 0.000000         
+ agg4      | 74.150000        
+-RECORD 96--------------------
+ i_item_id | AAAAAAAAADGEAAAA 
+ agg1      | 45.500000        
+ agg2      | 99.305000        
+ agg3      | 0.000000         
+ agg4      | 1.065000         
+-RECORD 97--------------------
+ i_item_id | AAAAAAAAADHAAAAA 
+ agg1      | 86.000000        
+ agg2      | 81.090000        
+ agg3      | 0.000000         
+ agg4      | 37.300000        
+-RECORD 98--------------------
+ i_item_id | AAAAAAAAADHBAAAA 
+ agg1      | 28.000000        
+ agg2      | 68.580000        
+ agg3      | 223.790000       
+ agg4      | 53.615000
+           

@@ -1,0 +1,901 @@
+-RECORD 0-------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 2 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 2500            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 1-------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 2 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 4500            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 2-------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 2 yr Degree     
+ cnt1                 | 2               
+ cd_purchase_estimate | 4500            
+ cnt2                 | 2               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 2               
+-RECORD 3-------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 2 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 9000            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 4-------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 2 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 9500            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 5-------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 1000            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 6-------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 1500            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 7-------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 1500            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 8-------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 2000            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 9-------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 2500            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 10------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 4000            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 11------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 5500            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 12------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 7000            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 13------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 7000            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 14------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 8000            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 15------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 8500            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 16------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 1000            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 17------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 3500            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 18------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 3500            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 19------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 4000            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 20------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 5000            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 21------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 5500            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 22------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 5500            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 23------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 6500            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 24------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 7000            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 25------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 8000            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 26------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 8500            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 27------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 9500            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 28------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 9500            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 29------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 10000           
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 30------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | College         
+ cnt1                 | 1               
+ cd_purchase_estimate | 1500            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 31------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | College         
+ cnt1                 | 1               
+ cd_purchase_estimate | 2500            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 32------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | College         
+ cnt1                 | 1               
+ cd_purchase_estimate | 4000            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 33------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | College         
+ cnt1                 | 1               
+ cd_purchase_estimate | 6000            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 34------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | College         
+ cnt1                 | 1               
+ cd_purchase_estimate | 6000            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 35------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | College         
+ cnt1                 | 1               
+ cd_purchase_estimate | 9000            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 36------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 3000            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 37------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 4000            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 38------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 4000            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 39------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 4500            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 40------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 5000            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 41------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 5000            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 42------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 6000            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 43------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 6000            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 44------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 8500            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 45------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 9000            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 46------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 9500            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 47------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 9500            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 48------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 10000           
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 49------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Primary         
+ cnt1                 | 2               
+ cd_purchase_estimate | 10000           
+ cnt2                 | 2               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 2               
+-RECORD 50------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Secondary       
+ cnt1                 | 1               
+ cd_purchase_estimate | 500             
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 51------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Secondary       
+ cnt1                 | 1               
+ cd_purchase_estimate | 1000            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 52------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Secondary       
+ cnt1                 | 1               
+ cd_purchase_estimate | 3000            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 53------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Secondary       
+ cnt1                 | 1               
+ cd_purchase_estimate | 3500            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 54------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Secondary       
+ cnt1                 | 1               
+ cd_purchase_estimate | 6000            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 55------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Secondary       
+ cnt1                 | 1               
+ cd_purchase_estimate | 6500            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 56------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Secondary       
+ cnt1                 | 1               
+ cd_purchase_estimate | 8500            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 57------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Secondary       
+ cnt1                 | 1               
+ cd_purchase_estimate | 10000           
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 58------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Unknown         
+ cnt1                 | 1               
+ cd_purchase_estimate | 1500            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 59------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Unknown         
+ cnt1                 | 1               
+ cd_purchase_estimate | 3000            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 60------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Unknown         
+ cnt1                 | 1               
+ cd_purchase_estimate | 3000            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 61------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Unknown         
+ cnt1                 | 1               
+ cd_purchase_estimate | 6000            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 62------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Unknown         
+ cnt1                 | 1               
+ cd_purchase_estimate | 6500            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 63------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Unknown         
+ cnt1                 | 2               
+ cd_purchase_estimate | 8000            
+ cnt2                 | 2               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 2               
+-RECORD 64------------------------------
+ cd_gender            | F               
+ cd_marital_status    | D               
+ cd_education_status  | Unknown         
+ cnt1                 | 1               
+ cd_purchase_estimate | 10000           
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 65------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | 2 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 2500            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 66------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | 2 yr Degree     
+ cnt1                 | 3               
+ cd_purchase_estimate | 4000            
+ cnt2                 | 3               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 3               
+-RECORD 67------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | 2 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 4500            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 68------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | 2 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 8500            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 69------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 1000            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 70------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 1500            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 71------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 4000            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 72------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 4000            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 73------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 5000            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 74------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 5500            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 75------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 6000            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 76------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | 4 yr Degree     
+ cnt1                 | 1               
+ cd_purchase_estimate | 8000            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 77------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 500             
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 78------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 500             
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 79------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 2500            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 80------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 3500            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 81------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 2               
+ cd_purchase_estimate | 5500            
+ cnt2                 | 2               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 2               
+-RECORD 82------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 6500            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 83------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 6500            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 84------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 8000            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 85------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 9500            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 86------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | Advanced Degree 
+ cnt1                 | 1               
+ cd_purchase_estimate | 10000           
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 87------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | College         
+ cnt1                 | 1               
+ cd_purchase_estimate | 1000            
+ cnt2                 | 1               
+ cd_credit_rating     | Unknown         
+ cnt3                 | 1               
+-RECORD 88------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | College         
+ cnt1                 | 1               
+ cd_purchase_estimate | 3000            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 89------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | College         
+ cnt1                 | 2               
+ cd_purchase_estimate | 5000            
+ cnt2                 | 2               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 2               
+-RECORD 90------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | College         
+ cnt1                 | 1               
+ cd_purchase_estimate | 6000            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 91------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | College         
+ cnt1                 | 1               
+ cd_purchase_estimate | 7000            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 92------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | College         
+ cnt1                 | 1               
+ cd_purchase_estimate | 8000            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 93------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | College         
+ cnt1                 | 1               
+ cd_purchase_estimate | 9000            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1               
+-RECORD 94------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | College         
+ cnt1                 | 2               
+ cd_purchase_estimate | 9000            
+ cnt2                 | 2               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 2               
+-RECORD 95------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | College         
+ cnt1                 | 1               
+ cd_purchase_estimate | 9500            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 96------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | College         
+ cnt1                 | 1               
+ cd_purchase_estimate | 10000           
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 97------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 1000            
+ cnt2                 | 1               
+ cd_credit_rating     | Low Risk        
+ cnt3                 | 1               
+-RECORD 98------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 1500            
+ cnt2                 | 1               
+ cd_credit_rating     | High Risk       
+ cnt3                 | 1               
+-RECORD 99------------------------------
+ cd_gender            | F               
+ cd_marital_status    | M               
+ cd_education_status  | Primary         
+ cnt1                 | 1               
+ cd_purchase_estimate | 7000            
+ cnt2                 | 1               
+ cd_credit_rating     | Good            
+ cnt3                 | 1
+           

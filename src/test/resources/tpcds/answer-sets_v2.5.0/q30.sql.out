@@ -1,0 +1,393 @@
+-RECORD 0----------------------------------------------------------
+ c_customer_id         | AAAAAAAAAAAIBAAA                          
+ c_salutation          | Mr.                                       
+ c_first_name          | Eduardo                                   
+ c_last_name           | Goodwin                                   
+ c_preferred_cust_flag | Y                                         
+ c_birth_day           | 24                                        
+ c_birth_month         | 11                                        
+ c_birth_year          | 1950                                      
+ c_birth_country       | GHANA                                     
+ c_login               | null                                      
+ c_email_address       | Eduardo.Goodwin@rolemn2xusv5Ot0.edu       
+ c_last_review_date    | 2452312                                   
+ ctr_total_return      | 3838                                      
+-RECORD 1----------------------------------------------------------
+ c_customer_id         | AAAAAAAAABHAAAAA                          
+ c_salutation          | Sir                                       
+ c_first_name          | Robert                                    
+ c_last_name           | Thornton                                  
+ c_preferred_cust_flag | Y                                         
+ c_birth_day           | 24                                        
+ c_birth_month         | 5                                         
+ c_birth_year          | 1924                                      
+ c_birth_country       | HONG KONG                                 
+ c_login               | null                                      
+ c_email_address       | Robert.Thornton@jas.edu                   
+ c_last_review_date    | 2452431                                   
+ ctr_total_return      | 2434.58                                   
+-RECORD 2----------------------------------------------------------
+ c_customer_id         | AAAAAAAAABPNAAAA                          
+ c_salutation          | Mr.                                       
+ c_first_name          | Alonzo                                    
+ c_last_name           | Huddleston                                
+ c_preferred_cust_flag | Y                                         
+ c_birth_day           | 19                                        
+ c_birth_month         | 4                                         
+ c_birth_year          | 1957                                      
+ c_birth_country       | FAROE ISLANDS                             
+ c_login               | null                                      
+ c_email_address       | Alonzo.Huddleston@g.edu                   
+ c_last_review_date    | 2452289                                   
+ ctr_total_return      | 2813                                      
+-RECORD 3----------------------------------------------------------
+ c_customer_id         | AAAAAAAAAFCGBAAA                          
+ c_salutation          | Ms.                                       
+ c_first_name          | Pamela                                    
+ c_last_name           | Slater                                    
+ c_preferred_cust_flag | Y                                         
+ c_birth_day           | 2                                         
+ c_birth_month         | 6                                         
+ c_birth_year          | 1931                                      
+ c_birth_country       | GAMBIA                                    
+ c_login               | null                                      
+ c_email_address       | Pamela.Slater@ajU1sMrf5vC7.com            
+ c_last_review_date    | 2452613                                   
+ ctr_total_return      | 1746.58                                   
+-RECORD 4----------------------------------------------------------
+ c_customer_id         | AAAAAAAAAFLBAAAA                          
+ c_salutation          | Sir                                       
+ c_first_name          | Keith                                     
+ c_last_name           | Stern                                     
+ c_preferred_cust_flag | N                                         
+ c_birth_day           | 18                                        
+ c_birth_month         | 2                                         
+ c_birth_year          | 1925                                      
+ c_birth_country       | ICELAND                                   
+ c_login               | null                                      
+ c_email_address       | Keith.Stern@34Hb991eohmd.com              
+ c_last_review_date    | 2452549                                   
+ ctr_total_return      | 1850.7                                    
+-RECORD 5----------------------------------------------------------
+ c_customer_id         | AAAAAAAAAFLBAAAA                          
+ c_salutation          | Sir                                       
+ c_first_name          | Keith                                     
+ c_last_name           | Stern                                     
+ c_preferred_cust_flag | N                                         
+ c_birth_day           | 18                                        
+ c_birth_month         | 2                                         
+ c_birth_year          | 1925                                      
+ c_birth_country       | ICELAND                                   
+ c_login               | null                                      
+ c_email_address       | Keith.Stern@34Hb991eohmd.com              
+ c_last_review_date    | 2452549                                   
+ ctr_total_return      | 10898.4                                   
+-RECORD 6----------------------------------------------------------
+ c_customer_id         | AAAAAAAAAFOEBAAA                          
+ c_salutation          | Dr.                                       
+ c_first_name          | Trevor                                    
+ c_last_name           | Battle                                    
+ c_preferred_cust_flag | N                                         
+ c_birth_day           | 12                                        
+ c_birth_month         | 8                                         
+ c_birth_year          | 1953                                      
+ c_birth_country       | THAILAND                                  
+ c_login               | null                                      
+ c_email_address       | Trevor.Battle@0F.com                      
+ c_last_review_date    | 2452643                                   
+ ctr_total_return      | 3556                                      
+-RECORD 7----------------------------------------------------------
+ c_customer_id         | AAAAAAAAAIKEAAAA                          
+ c_salutation          | Dr.                                       
+ c_first_name          | Joseph                                    
+ c_last_name           | Miller                                    
+ c_preferred_cust_flag | N                                         
+ c_birth_day           | 17                                        
+ c_birth_month         | 12                                        
+ c_birth_year          | 1930                                      
+ c_birth_country       | MONACO                                    
+ c_login               | null                                      
+ c_email_address       | Joseph.Miller@Ampmde.edu                  
+ c_last_review_date    | 2452332                                   
+ ctr_total_return      | 7037.55                                   
+-RECORD 8----------------------------------------------------------
+ c_customer_id         | AAAAAAAAAJMABAAA                          
+ c_salutation          | Miss                                      
+ c_first_name          | Brenda                                    
+ c_last_name           | Sloan                                     
+ c_preferred_cust_flag | Y                                         
+ c_birth_day           | 23                                        
+ c_birth_month         | 3                                         
+ c_birth_year          | 1982                                      
+ c_birth_country       | MALAYSIA                                  
+ c_login               | null                                      
+ c_email_address       | Brenda.Sloan@csCoX.edu                    
+ c_last_review_date    | 2452336                                   
+ ctr_total_return      | 1783.19                                   
+-RECORD 9----------------------------------------------------------
+ c_customer_id         | AAAAAAAAAKDNAAAA                          
+ c_salutation          | null                                      
+ c_first_name          | null                                      
+ c_last_name           | null                                      
+ c_preferred_cust_flag | null                                      
+ c_birth_day           | 12                                        
+ c_birth_month         | null                                      
+ c_birth_year          | null                                      
+ c_birth_country       | null                                      
+ c_login               | 2452544                                   
+ c_email_address       | 2448.03                                   
+ c_last_review_date    | null                                      
+ ctr_total_return      | null                                      
+-RECORD 10---------------------------------------------------------
+ c_customer_id         | AAAAAAAAANCLAAAA                          
+ c_salutation          | Mr.                                       
+ c_first_name          | Raymond                                   
+ c_last_name           | Dixon                                     
+ c_preferred_cust_flag | N                                         
+ c_birth_day           | 31                                        
+ c_birth_month         | 12                                        
+ c_birth_year          | 1977                                      
+ c_birth_country       | MONTENEGRO                                
+ c_login               | null                                      
+ c_email_address       | Raymond.Dixon@07IH.edu                    
+ c_last_review_date    | 2452514                                   
+ ctr_total_return      | 1785.96                                   
+-RECORD 11---------------------------------------------------------
+ c_customer_id         | AAAAAAAAANNNAAAA                          
+ c_salutation          | Ms.                                       
+ c_first_name          | Cindy                                     
+ c_last_name           | Julian                                    
+ c_preferred_cust_flag | Y                                         
+ c_birth_day           | 4                                         
+ c_birth_month         | 8                                         
+ c_birth_year          | 1982                                      
+ c_birth_country       | UGANDA                                    
+ c_login               | null                                      
+ c_email_address       | Cindy.Julian@ChEB5eyUCBe.org              
+ c_last_review_date    | 2452368                                   
+ ctr_total_return      | 2449.04                                   
+-RECORD 12---------------------------------------------------------
+ c_customer_id         | AAAAAAAAAPKJAAAA                          
+ c_salutation          | Ms.                                       
+ c_first_name          | Elizabeth                                 
+ c_last_name           | Pepper                                    
+ c_preferred_cust_flag | Y                                         
+ c_birth_day           | 28                                        
+ c_birth_month         | 12                                        
+ c_birth_year          | 1930                                      
+ c_birth_country       | NICARAGUA                                 
+ c_login               | null                                      
+ c_email_address       | Elizabeth.Pepper@xlygC22.org              
+ c_last_review_date    | 2452645                                   
+ ctr_total_return      | 1764.4                                    
+-RECORD 13---------------------------------------------------------
+ c_customer_id         | AAAAAAAABAKCBAAA                          
+ c_salutation          | Miss                                      
+ c_first_name          | Denise                                    
+ c_last_name           | Brock                                     
+ c_preferred_cust_flag | Y                                         
+ c_birth_day           | 10                                        
+ c_birth_month         | 4                                         
+ c_birth_year          | 1958                                      
+ c_birth_country       | JAMAICA                                   
+ c_login               | null                                      
+ c_email_address       | Denise.Brock@7ffTBTNaX7is.com             
+ c_last_review_date    | 2452435                                   
+ ctr_total_return      | 1618.24                                   
+-RECORD 14---------------------------------------------------------
+ c_customer_id         | AAAAAAAABBMDAAAA                          
+ c_salutation          | Dr.                                       
+ c_first_name          | Walter                                    
+ c_last_name           | Bernard                                   
+ c_preferred_cust_flag | Y                                         
+ c_birth_day           | 2                                         
+ c_birth_month         | 10                                        
+ c_birth_year          | 1948                                      
+ c_birth_country       | BELARUS                                   
+ c_login               | null                                      
+ c_email_address       | Walter.Bernard@Th.org                     
+ c_last_review_date    | 2452628                                   
+ ctr_total_return      | 1755.66                                   
+-RECORD 15---------------------------------------------------------
+ c_customer_id         | AAAAAAAABIBBBAAA                          
+ c_salutation          | Miss                                      
+ c_first_name          | Lorene                                    
+ c_last_name           | Mayfield                                  
+ c_preferred_cust_flag | N                                         
+ c_birth_day           | 17                                        
+ c_birth_month         | 12                                        
+ c_birth_year          | 1947                                      
+ c_birth_country       | ALBANIA                                   
+ c_login               | null                                      
+ c_email_address       | Lorene.Mayfield@ECni6UFkF2.edu            
+ c_last_review_date    | 2452450                                   
+ ctr_total_return      | 3157.7                                    
+-RECORD 16---------------------------------------------------------
+ c_customer_id         | AAAAAAAABIIDAAAA                          
+ c_salutation          | Mr.                                       
+ c_first_name          | Paul                                      
+ c_last_name           | Stevenson                                 
+ c_preferred_cust_flag | N                                         
+ c_birth_day           | 26                                        
+ c_birth_month         | 2                                         
+ c_birth_year          | 1953                                      
+ c_birth_country       | BARBADOS                                  
+ c_login               | null                                      
+ c_email_address       | Paul.Stevenson@tHMZG9.com                 
+ c_last_review_date    | 2452488                                   
+ ctr_total_return      | 1947.77                                   
+-RECORD 17---------------------------------------------------------
+ c_customer_id         | AAAAAAAABMJAAAAA                          
+ c_salutation          | Dr.                                       
+ c_first_name          | Marion                                    
+ c_last_name           | Mclain                                    
+ c_preferred_cust_flag | N                                         
+ c_birth_day           | 16                                        
+ c_birth_month         | 2                                         
+ c_birth_year          | 1931                                      
+ c_birth_country       | ANGUILLA                                  
+ c_login               | null                                      
+ c_email_address       | Marion.Mclain@PKik2BMH.com                
+ c_last_review_date    | 2452382                                   
+ ctr_total_return      | 3134.46                                   
+-RECORD 18---------------------------------------------------------
+ c_customer_id         | AAAAAAAABNFHBAAA                          
+ c_salutation          | Mr.                                       
+ c_first_name          | Kristofer                                 
+ c_last_name           | Payne                                     
+ c_preferred_cust_flag | N                                         
+ c_birth_day           | 12                                        
+ c_birth_month         | 5                                         
+ c_birth_year          | 1945                                      
+ c_birth_country       | SYRIAN ARAB REPUBLIC                      
+ c_login               | Kristofer.Payne@nc70sAM.com               
+ c_email_address       | 2452436                                   
+ c_last_review_date    | 3813.33                                   
+ ctr_total_return      | null                                      
+-RECORD 19---------------------------------------------------------
+ c_customer_id         | AAAAAAAABOLLAAAA                          
+ c_salutation          | Miss                                      
+ c_first_name          | Lisa                                      
+ c_last_name           | Way                                       
+ c_preferred_cust_flag | N                                         
+ c_birth_day           | 11                                        
+ c_birth_month         | 1                                         
+ c_birth_year          | 1941 LEBANON                              
+ c_birth_country       | null                                      
+ c_login               | Lisa.Way@nnVbE2MvTT.com                   
+ c_email_address       | 2452383                                   
+ c_last_review_date    | 1829.88                                   
+ ctr_total_return      | null                                      
+-RECORD 20---------------------------------------------------------
+ c_customer_id         | AAAAAAAABPHKAAAA                          
+ c_salutation          | Dr.                                       
+ c_first_name          | Gabriela                                  
+ c_last_name           | Jerome                                    
+ c_preferred_cust_flag | Y                                         
+ c_birth_day           | 9                                         
+ c_birth_month         | 7                                         
+ c_birth_year          | 1969 IRAQ                                 
+ c_birth_country       | null                                      
+ c_login               | Gabriela.Jerome@Hay.com                   
+ c_email_address       | 2452567                                   
+ c_last_review_date    | 5360.55                                   
+ ctr_total_return      | null                                      
+-RECORD 21---------------------------------------------------------
+ c_customer_id         | AAAAAAAACBAFAAAA                          
+ c_salutation          | Dr.                                       
+ c_first_name          | Timothy                                   
+ c_last_name           | Carroll                                   
+ c_preferred_cust_flag | Y                                         
+ c_birth_day           | 14                                        
+ c_birth_month         | 8                                         
+ c_birth_year          | 1957 UGANDA                               
+ c_birth_country       | null                                      
+ c_login               | Timothy.Carroll@pUcgCvxC4nkcM.edu         
+ c_email_address       | 2452535                                   
+ c_last_review_date    | 1642.8                                    
+ ctr_total_return      | null                                      
+-RECORD 22---------------------------------------------------------
+ c_customer_id         | AAAAAAAACBPMAAAA                          
+ c_salutation          | Ms.                                       
+ c_first_name          | Shana                                     
+ c_last_name           | Fulton                                    
+ c_preferred_cust_flag | N                                         
+ c_birth_day           | 10                                        
+ c_birth_month         | 2                                         
+ c_birth_year          | 1955 RWANDA                               
+ c_birth_country       | null                                      
+ c_login               | Shana.Fulton@2CAVqR7d.org                 
+ c_email_address       | 2452378                                   
+ c_last_review_date    | 2089.36                                   
+ ctr_total_return      | null                                      
+-RECORD 23---------------------------------------------------------
+ c_customer_id         | AAAAAAAACCFCBAAA                          
+ c_salutation          | Mr.                                       
+ c_first_name          | Mark                                      
+ c_last_name           | Pacheco                                   
+ c_preferred_cust_flag | N                                         
+ c_birth_day           | 9                                         
+ c_birth_month         | 3                                         
+ c_birth_year          | 1956 YEMEN                                
+ c_birth_country       | null                                      
+ c_login               | Mark.Pacheco@NMMki.edu                    
+ c_email_address       | 2452377                                   
+ c_last_review_date    | 1838.48                                   
+ ctr_total_return      | null                                      
+-RECORD 24---------------------------------------------------------
+ c_customer_id         | AAAAAAAACCMEAAAA                          
+ c_salutation          | Dr.                                       
+ c_first_name          | Adriane                                   
+ c_last_name           | Harmon                                    
+ c_preferred_cust_flag | N                                         
+ c_birth_day           | 1                                         
+ c_birth_month         | 10                                        
+ c_birth_year          | 1964 ARGENTINA                            
+ c_birth_country       | null                                      
+ c_login               | Adriane.Harmon@X0nMJZPDL.com              
+ c_email_address       | 2452562                                   
+ c_last_review_date    | 8986.95                                   
+ ctr_total_return      | null                                      
+-RECORD 25---------------------------------------------------------
+ c_customer_id         | AAAAAAAACCNJAAAA                          
+ c_salutation          | Dr.                                       
+ c_first_name          | Elizabeth                                 
+ c_last_name           | Gilbreath                                 
+ c_preferred_cust_flag | Y                                         
+ c_birth_day           | 17                                        
+ c_birth_month         | 1                                         
+ c_birth_year          | 1985 KIRIBATI                             
+ c_birth_country       | null                                      
+ c_login               | Elizabeth.Gilbreath@4LxlO8fArnEeEavQe.com 
+ c_email_address       | 2452485                                   
+ c_last_review_date    | 2450.86                                   
+ ctr_total_return      | null                                      
+-RECORD 26---------------------------------------------------------
+ c_customer_id         | AAAAAAAACDDNAAAA                          
+ c_salutation          | Ms.                                       
+ c_first_name          | Holly                                     
+ c_last_name           | Kim                                       
+ c_preferred_cust_flag | N                                         
+ c_birth_day           | 15                                        
+ c_birth_month         | 6                                         
+ c_birth_year          | 1941 ICELAND                              
+ c_birth_country       | null                                      
+ c_login               | Holly.Kim@OkTfC7tRYgy4.edu                
+ c_email_address       | 2452580                                   
+ c_last_review_date    | 2719.44                                   
+ ctr_total_return      | null                                      
+-RECORD 27---------------------------------------------------------
+ c_customer_id         | AAAAAAAACGILAAAA                          
+ c_salutation          | Sir                                       
+ c_first_name          | Nolan                                     
+ c_last_name           | Mosley                                    
+ c_preferred_cust_flag | N                                         
+ c_birth_day           | 20                                        
+ c_birth_month         | 3                                         
+ c_birth_year          | 1980 KENYA                                
+ c_birth_country       | null                                      
+ c_login               | Nolan.Mosley@5E.org                       
+ c_email_address       | 2452317                                   
+ c_last_review_date    | 1865.64                                   
+ ctr_total_return      | null
+           

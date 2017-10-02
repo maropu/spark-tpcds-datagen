@@ -1,0 +1,301 @@
+-RECORD 0-----------------------
+ i_item_id   | AAAAAAAAAABBAAAA 
+ total_sales | 6287.84          
+-RECORD 1-----------------------
+ i_item_id   | AAAAAAAAAABEAAAA 
+ total_sales | 1297.26          
+-RECORD 2-----------------------
+ i_item_id   | AAAAAAAAAADCAAAA 
+ total_sales | 8936.88          
+-RECORD 3-----------------------
+ i_item_id   | AAAAAAAAAADEAAAA 
+ total_sales | 20945.84         
+-RECORD 4-----------------------
+ i_item_id   | AAAAAAAAAAHAAAAA 
+ total_sales | 7227.38          
+-RECORD 5-----------------------
+ i_item_id   | AAAAAAAAAANDAAAA 
+ total_sales | 17117.56         
+-RECORD 6-----------------------
+ i_item_id   | AAAAAAAAAAOCAAAA 
+ total_sales | 4287.89          
+-RECORD 7-----------------------
+ i_item_id   | AAAAAAAAABADAAAA 
+ total_sales | 499.72           
+-RECORD 8-----------------------
+ i_item_id   | AAAAAAAAABBCAAAA 
+ total_sales | 22704.66         
+-RECORD 9-----------------------
+ i_item_id   | AAAAAAAAABCEAAAA 
+ total_sales | 22499.76         
+-RECORD 10----------------------
+ i_item_id   | AAAAAAAAABDEAAAA 
+ total_sales | 5527.74          
+-RECORD 11----------------------
+ i_item_id   | AAAAAAAAABFBAAAA 
+ total_sales | 4953.67          
+-RECORD 12----------------------
+ i_item_id   | AAAAAAAAABFEAAAA 
+ total_sales | 12523.22         
+-RECORD 13----------------------
+ i_item_id   | AAAAAAAAABHCAAAA 
+ total_sales | 20093.49         
+-RECORD 14----------------------
+ i_item_id   | AAAAAAAAABIBAAAA 
+ total_sales | 382.3            
+-RECORD 15----------------------
+ i_item_id   | AAAAAAAAABICAAAA 
+ total_sales | 1271.62          
+-RECORD 16----------------------
+ i_item_id   | AAAAAAAAABKCAAAA 
+ total_sales | 7355.85          
+-RECORD 17----------------------
+ i_item_id   | AAAAAAAAABLBAAAA 
+ total_sales | 786.05           
+-RECORD 18----------------------
+ i_item_id   | AAAAAAAAABNAAAAA 
+ total_sales | 8385.94          
+-RECORD 19----------------------
+ i_item_id   | AAAAAAAAACACAAAA 
+ total_sales | 11564.85         
+-RECORD 20----------------------
+ i_item_id   | AAAAAAAAACBEAAAA 
+ total_sales | 13046.23         
+-RECORD 21----------------------
+ i_item_id   | AAAAAAAAACCDAAAA 
+ total_sales | 14533.5          
+-RECORD 22----------------------
+ i_item_id   | AAAAAAAAACDCAAAA 
+ total_sales | 820.49           
+-RECORD 23----------------------
+ i_item_id   | AAAAAAAAACLBAAAA 
+ total_sales | 6761.17          
+-RECORD 24----------------------
+ i_item_id   | AAAAAAAAACNCAAAA 
+ total_sales | 19023.15         
+-RECORD 25----------------------
+ i_item_id   | AAAAAAAAACODAAAA 
+ total_sales | 7322.65          
+-RECORD 26----------------------
+ i_item_id   | AAAAAAAAADACAAAA 
+ total_sales | 4696.41          
+-RECORD 27----------------------
+ i_item_id   | AAAAAAAAADBAAAAA 
+ total_sales | 988.8            
+-RECORD 28----------------------
+ i_item_id   | AAAAAAAAADDCAAAA 
+ total_sales | 5661.21          
+-RECORD 29----------------------
+ i_item_id   | AAAAAAAAADDEAAAA 
+ total_sales | 1846.56          
+-RECORD 30----------------------
+ i_item_id   | AAAAAAAAADEEAAAA 
+ total_sales | 15327.48         
+-RECORD 31----------------------
+ i_item_id   | AAAAAAAAADGEAAAA 
+ total_sales | 4511.21          
+-RECORD 32----------------------
+ i_item_id   | AAAAAAAAADHDAAAA 
+ total_sales | 27866.8          
+-RECORD 33----------------------
+ i_item_id   | AAAAAAAAADICAAAA 
+ total_sales | 15624.49         
+-RECORD 34----------------------
+ i_item_id   | AAAAAAAAADLCAAAA 
+ total_sales | null             
+-RECORD 35----------------------
+ i_item_id   | AAAAAAAAADNDAAAA 
+ total_sales | 6403.89          
+-RECORD 36----------------------
+ i_item_id   | AAAAAAAAADPCAAAA 
+ total_sales | 4246.28          
+-RECORD 37----------------------
+ i_item_id   | AAAAAAAAAEBAAAAA 
+ total_sales | 1946.34          
+-RECORD 38----------------------
+ i_item_id   | AAAAAAAAAEBCAAAA 
+ total_sales | 2021.69          
+-RECORD 39----------------------
+ i_item_id   | AAAAAAAAAEBDAAAA 
+ total_sales | 6664.64          
+-RECORD 40----------------------
+ i_item_id   | AAAAAAAAAECCAAAA 
+ total_sales | 11363.72         
+-RECORD 41----------------------
+ i_item_id   | AAAAAAAAAECEAAAA 
+ total_sales | 10198.96         
+-RECORD 42----------------------
+ i_item_id   | AAAAAAAAAEFCAAAA 
+ total_sales | 62.04            
+-RECORD 43----------------------
+ i_item_id   | AAAAAAAAAEGDAAAA 
+ total_sales | 9547.35          
+-RECORD 44----------------------
+ i_item_id   | AAAAAAAAAEIBAAAA 
+ total_sales | 3804.21          
+-RECORD 45----------------------
+ i_item_id   | AAAAAAAAAEICAAAA 
+ total_sales | 7097.51          
+-RECORD 46----------------------
+ i_item_id   | AAAAAAAAAEKCAAAA 
+ total_sales | 20954.4          
+-RECORD 47----------------------
+ i_item_id   | AAAAAAAAAEPDAAAA 
+ total_sales | 2162.31          
+-RECORD 48----------------------
+ i_item_id   | AAAAAAAAAFBEAAAA 
+ total_sales | 10916.01         
+-RECORD 49----------------------
+ i_item_id   | AAAAAAAAAFCDAAAA 
+ total_sales | 14657.18         
+-RECORD 50----------------------
+ i_item_id   | AAAAAAAAAFDCAAAA 
+ total_sales | 794.73           
+-RECORD 51----------------------
+ i_item_id   | AAAAAAAAAFFAAAAA 
+ total_sales | 9979.09          
+-RECORD 52----------------------
+ i_item_id   | AAAAAAAAAFHCAAAA 
+ total_sales | 2060.61          
+-RECORD 53----------------------
+ i_item_id   | AAAAAAAAAFIAAAAA 
+ total_sales | 705.6            
+-RECORD 54----------------------
+ i_item_id   | AAAAAAAAAFJCAAAA 
+ total_sales | 13594.18         
+-RECORD 55----------------------
+ i_item_id   | AAAAAAAAAFMDAAAA 
+ total_sales | 2354.86          
+-RECORD 56----------------------
+ i_item_id   | AAAAAAAAAFNBAAAA 
+ total_sales | 17475.06         
+-RECORD 57----------------------
+ i_item_id   | AAAAAAAAAGBBAAAA 
+ total_sales | 2052.41          
+-RECORD 58----------------------
+ i_item_id   | AAAAAAAAAGCCAAAA 
+ total_sales | 8040.7           
+-RECORD 59----------------------
+ i_item_id   | AAAAAAAAAGCDAAAA 
+ total_sales | 16455.28         
+-RECORD 60----------------------
+ i_item_id   | AAAAAAAAAGDCAAAA 
+ total_sales | 2495.73          
+-RECORD 61----------------------
+ i_item_id   | AAAAAAAAAGDEAAAA 
+ total_sales | 6750.35          
+-RECORD 62----------------------
+ i_item_id   | AAAAAAAAAGFAAAAA 
+ total_sales | 5985.82          
+-RECORD 63----------------------
+ i_item_id   | AAAAAAAAAGHAAAAA 
+ total_sales | 17532.15         
+-RECORD 64----------------------
+ i_item_id   | AAAAAAAAAGHDAAAA 
+ total_sales | 1220.67          
+-RECORD 65----------------------
+ i_item_id   | AAAAAAAAAGJCAAAA 
+ total_sales | 7564.93          
+-RECORD 66----------------------
+ i_item_id   | AAAAAAAAAGKAAAAA 
+ total_sales | 14082.9          
+-RECORD 67----------------------
+ i_item_id   | AAAAAAAAAGKDAAAA 
+ total_sales | null             
+-RECORD 68----------------------
+ i_item_id   | AAAAAAAAAGNBAAAA 
+ total_sales | 7856.78          
+-RECORD 69----------------------
+ i_item_id   | AAAAAAAAAGOCAAAA 
+ total_sales | 14920.31         
+-RECORD 70----------------------
+ i_item_id   | AAAAAAAAAGPCAAAA 
+ total_sales | 7986.28          
+-RECORD 71----------------------
+ i_item_id   | AAAAAAAAAHCBAAAA 
+ total_sales | 15074.94         
+-RECORD 72----------------------
+ i_item_id   | AAAAAAAAAHECAAAA 
+ total_sales | 11667.69         
+-RECORD 73----------------------
+ i_item_id   | AAAAAAAAAHHDAAAA 
+ total_sales | 2491.48          
+-RECORD 74----------------------
+ i_item_id   | AAAAAAAAAHJDAAAA 
+ total_sales | 4056.95          
+-RECORD 75----------------------
+ i_item_id   | AAAAAAAAAHMAAAAA 
+ total_sales | 15866.43         
+-RECORD 76----------------------
+ i_item_id   | AAAAAAAAAHNDAAAA 
+ total_sales | 7289.53          
+-RECORD 77----------------------
+ i_item_id   | AAAAAAAAAIACAAAA 
+ total_sales | 2603.3           
+-RECORD 78----------------------
+ i_item_id   | AAAAAAAAAIBCAAAA 
+ total_sales | null             
+-RECORD 79----------------------
+ i_item_id   | AAAAAAAAAIBEAAAA 
+ total_sales | 6979.53          
+-RECORD 80----------------------
+ i_item_id   | AAAAAAAAAIDAAAAA 
+ total_sales | null             
+-RECORD 81----------------------
+ i_item_id   | AAAAAAAAAIDCAAAA 
+ total_sales | 15307.29         
+-RECORD 82----------------------
+ i_item_id   | AAAAAAAAAIIAAAAA 
+ total_sales | 11268.14         
+-RECORD 83----------------------
+ i_item_id   | AAAAAAAAAIIDAAAA 
+ total_sales | 6837.36          
+-RECORD 84----------------------
+ i_item_id   | AAAAAAAAAIJCAAAA 
+ total_sales | 28318.16         
+-RECORD 85----------------------
+ i_item_id   | AAAAAAAAAIMAAAAA 
+ total_sales | 4013.06          
+-RECORD 86----------------------
+ i_item_id   | AAAAAAAAAINBAAAA 
+ total_sales | 7691.92          
+-RECORD 87----------------------
+ i_item_id   | AAAAAAAAAINCAAAA 
+ total_sales | 13190.42         
+-RECORD 88----------------------
+ i_item_id   | AAAAAAAAAIODAAAA 
+ total_sales | 17489.85         
+-RECORD 89----------------------
+ i_item_id   | AAAAAAAAAIPDAAAA 
+ total_sales | 6096.92          
+-RECORD 90----------------------
+ i_item_id   | AAAAAAAAAJAEAAAA 
+ total_sales | 30169.62         
+-RECORD 91----------------------
+ i_item_id   | AAAAAAAAAJCCAAAA 
+ total_sales | 17608.54         
+-RECORD 92----------------------
+ i_item_id   | AAAAAAAAAJGBAAAA 
+ total_sales | null             
+-RECORD 93----------------------
+ i_item_id   | AAAAAAAAAJJCAAAA 
+ total_sales | 2763.55          
+-RECORD 94----------------------
+ i_item_id   | AAAAAAAAAJMBAAAA 
+ total_sales | 1013.43          
+-RECORD 95----------------------
+ i_item_id   | AAAAAAAAAJMCAAAA 
+ total_sales | 12220            
+-RECORD 96----------------------
+ i_item_id   | AAAAAAAAAJNBAAAA 
+ total_sales | 8076.7           
+-RECORD 97----------------------
+ i_item_id   | AAAAAAAAAJODAAAA 
+ total_sales | 5113.02          
+-RECORD 98----------------------
+ i_item_id   | AAAAAAAAAKBAAAAA 
+ total_sales | 2413.44          
+-RECORD 99----------------------
+ i_item_id   | AAAAAAAAAKDAAAAA 
+ total_sales | 15712.05
+           

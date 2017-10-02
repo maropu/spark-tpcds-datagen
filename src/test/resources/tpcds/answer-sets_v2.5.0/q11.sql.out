@@ -1,0 +1,617 @@
+-RECORD 0-----------------------------------
+ customer_id         | aAAAAAAAAFGBBAAA     
+ customer_first_name | Howard               
+ customer_last_name  | Major                
+ c                   | Y                    
+ c_birth_country     | BOUVET ISLAND        
+ c_login             | null                 
+-RECORD 1-----------------------------------
+ customer_id         | AAAAAAAAAMGDAAAA     
+ customer_first_name | Kenneth              
+ customer_last_name  | Harlan               
+ c                   | Y                    
+ c_birth_country     | POLAND               
+ c_login             | null                 
+-RECORD 2-----------------------------------
+ customer_id         | AAAAAAAAAOPFBAAA     
+ customer_first_name | Jerry                
+ customer_last_name  | Fields               
+ c                   | Y                    
+ c_birth_country     | SIERRA LEONE         
+ c_login             | null                 
+-RECORD 3-----------------------------------
+ customer_id         | AAAAAAAABLEIBAAA     
+ customer_first_name | Paula                
+ customer_last_name  | Wakefield            
+ c                   | Y                    
+ c_birth_country     | SAN MARINO           
+ c_login             | null                 
+-RECORD 4-----------------------------------
+ customer_id         | AAAAAAAABNBBAAAA     
+ customer_first_name | Irma                 
+ customer_last_name  | Smith                
+ c                   | Y                    
+ c_birth_country     | SERBIA               
+ c_login             | null                 
+-RECORD 5-----------------------------------
+ customer_id         | AAAAAAAACADPAAAA     
+ customer_first_name | Cristobal            
+ customer_last_name  | Thomas               
+ c                   | Y                    
+ c_birth_country     | GRENADA              
+ c_login             | null                 
+-RECORD 6-----------------------------------
+ customer_id         | AAAAAAAACFENAAAA     
+ customer_first_name | Christopher          
+ customer_last_name  | Dawson               
+ c                   | DENMARK              
+ c_birth_country     | null                 
+ c_login             | null                 
+-RECORD 7-----------------------------------
+ customer_id         | AAAAAAAACIJMAAAA     
+ customer_first_name | Elizabeth            
+ customer_last_name  | Thomas               
+ c                   | Y                    
+ c_birth_country     | BHUTAN               
+ c_login             | null                 
+-RECORD 8-----------------------------------
+ customer_id         | AAAAAAAACJDIAAAA     
+ customer_first_name | James                
+ customer_last_name  | Kerr                 
+ c                   | N                    
+ c_birth_country     | PITCAIRN             
+ c_login             | null                 
+-RECORD 9-----------------------------------
+ customer_id         | AAAAAAAACNAGBAAA     
+ customer_first_name | Virginia             
+ customer_last_name  | May                  
+ c                   | N                    
+ c_birth_country     | NORFOLK ISLAND       
+ c_login             | null                 
+-RECORD 10----------------------------------
+ customer_id         | AAAAAAAADBEFBAAA     
+ customer_first_name | Bennie               
+ customer_last_name  | Bowers               
+ c                   | N                    
+ c_birth_country     | MALI                 
+ c_login             | null                 
+-RECORD 11----------------------------------
+ customer_id         | AAAAAAAADCKOAAAA     
+ customer_first_name | Robert               
+ customer_last_name  | Gonzalez             
+ c                   | N                    
+ c_birth_country     | AUSTRIA              
+ c_login             | null                 
+-RECORD 12----------------------------------
+ customer_id         | AAAAAAAADFKABAAA     
+ customer_first_name | Latoya               
+ customer_last_name  | Craft                
+ c                   | N                    
+ c_birth_country     | MALTA                
+ c_login             | null                 
+-RECORD 13----------------------------------
+ customer_id         | AAAAAAAADIIOAAAA     
+ customer_first_name | David                
+ customer_last_name  | Carroll              
+ c                   | Y                    
+ c_birth_country     | GIBRALTAR            
+ c_login             | null                 
+-RECORD 14----------------------------------
+ customer_id         | AAAAAAAADIJGBAAA     
+ customer_first_name | Ruth                 
+ customer_last_name  | Sanders              
+ c                   | N                    
+ c_birth_country     | BRUNEI DARUSSALAM    
+ c_login             | null                 
+-RECORD 15----------------------------------
+ customer_id         | AAAAAAAADLHBBAAA     
+ customer_first_name | Henry                
+ customer_last_name  | Bertrand             
+ c                   | N                    
+ c_birth_country     | PORTUGAL             
+ c_login             | null                 
+-RECORD 16----------------------------------
+ customer_id         | AAAAAAAAEADJAAAA     
+ customer_first_name | Ruth                 
+ customer_last_name  | Carroll              
+ c                   | N                    
+ c_birth_country     | CUBA                 
+ c_login             | null                 
+-RECORD 17----------------------------------
+ customer_id         | AAAAAAAAEJDLAAAA     
+ customer_first_name | Alice                
+ customer_last_name  | Wright               
+ c                   | N                    
+ c_birth_country     | NIGER                
+ c_login             | null                 
+-RECORD 18----------------------------------
+ customer_id         | AAAAAAAAEKFPAAAA     
+ customer_first_name | Annika               
+ customer_last_name  | Chin                 
+ c                   | N                    
+ c_birth_country     | UNITED KINGDOM       
+ c_login             | null                 
+-RECORD 19----------------------------------
+ customer_id         | AAAAAAAAEKJLAAAA     
+ customer_first_name | Aisha                
+ customer_last_name  | Carlson              
+ c                   | Y                    
+ c_birth_country     | CZECH REPUBLIC       
+ c_login             | null                 
+-RECORD 20----------------------------------
+ customer_id         | AAAAAAAAEPOGAAAA     
+ customer_first_name | Felisha              
+ customer_last_name  | Mendes               
+ c                   | Y                    
+ c_birth_country     | BELIZE               
+ c_login             | null                 
+-RECORD 21----------------------------------
+ customer_id         | AAAAAAAAFACEAAAA     
+ customer_first_name | Priscilla            
+ customer_last_name  | Miller               
+ c                   | N                    
+ c_birth_country     | PERU                 
+ c_login             | null                 
+-RECORD 22----------------------------------
+ customer_id         | AAAAAAAAFBAHAAAA     
+ customer_first_name | Michael              
+ customer_last_name  | Williams             
+ c                   | N                    
+ c_birth_country     | UKRAINE              
+ c_login             | null                 
+-RECORD 23----------------------------------
+ customer_id         | AAAAAAAAFGIGAAAA     
+ customer_first_name | Eduardo              
+ customer_last_name  | Miller               
+ c                   | Y                    
+ c_birth_country     | NEPAL                
+ c_login             | null                 
+-RECORD 24----------------------------------
+ customer_id         | AAAAAAAAFGPGAAAA     
+ customer_first_name | Albert               
+ customer_last_name  | Wadsworth            
+ c                   | Y                    
+ c_birth_country     | SPAIN                
+ c_login             | null                 
+-RECORD 25----------------------------------
+ customer_id         | AAAAAAAAFMHIAAAA     
+ customer_first_name | Emilio               
+ customer_last_name  | Darling              
+ c                   | Y                    
+ c_birth_country     | VIET NAM             
+ c_login             | null                 
+-RECORD 26----------------------------------
+ customer_id         | AAAAAAAAFOGIAAAA     
+ customer_first_name | Michelle             
+ customer_last_name  | Greene               
+ c                   | N                    
+ c_birth_country     | UNITED ARAB EMIRATES 
+ c_login             | null                 
+-RECORD 27----------------------------------
+ customer_id         | AAAAAAAAFOJAAAAA     
+ customer_first_name | Don                  
+ customer_last_name  | Castillo             
+ c                   | Y                    
+ c_birth_country     | ROMANIA              
+ c_login             | null                 
+-RECORD 28----------------------------------
+ customer_id         | AAAAAAAAGEHIAAAA     
+ customer_first_name | Tyler                
+ customer_last_name  | Miller               
+ c                   | N                    
+ c_birth_country     | KIRIBATI             
+ c_login             | null                 
+-RECORD 29----------------------------------
+ customer_id         | AAAAAAAAGHPBBAAA     
+ customer_first_name | Nick                 
+ customer_last_name  | Mendez               
+ c                   | Y                    
+ c_birth_country     | CANADA               
+ c_login             | null                 
+-RECORD 30----------------------------------
+ customer_id         | AAAAAAAAGNDAAAAA     
+ customer_first_name | Terry                
+ customer_last_name  | Mcdowell             
+ c                   | N                    
+ c_birth_country     | TONGA                
+ c_login             | null                 
+-RECORD 31----------------------------------
+ customer_id         | AAAAAAAAHGOABAAA     
+ customer_first_name | Sonia                
+ customer_last_name  | White                
+ c                   | N                    
+ c_birth_country     | AMERICAN SAMOA       
+ c_login             | null                 
+-RECORD 32----------------------------------
+ customer_id         | AAAAAAAAHHCABAAA     
+ customer_first_name | William              
+ customer_last_name  | Stewart              
+ c                   | Y                    
+ c_birth_country     | PUERTO RICO          
+ c_login             | null                 
+-RECORD 33----------------------------------
+ customer_id         | AAAAAAAAHJLAAAAA     
+ customer_first_name | Audrey               
+ customer_last_name  | Beltran              
+ c                   | Y                    
+ c_birth_country     | SOMALIA              
+ c_login             | null                 
+-RECORD 34----------------------------------
+ customer_id         | AAAAAAAAHMJNAAAA     
+ customer_first_name | Ryan                 
+ customer_last_name  | Baptiste             
+ c                   | Y                    
+ c_birth_country     | DENMARK              
+ c_login             | null                 
+-RECORD 35----------------------------------
+ customer_id         | AAAAAAAAHMOIAAAA     
+ customer_first_name | Grace                
+ customer_last_name  | Henderson            
+ c                   | N                    
+ c_birth_country     | LEBANON              
+ c_login             | null                 
+-RECORD 36----------------------------------
+ customer_id         | AAAAAAAAIADEBAAA     
+ customer_first_name | Diane                
+ customer_last_name  | Aldridge             
+ c                   | N                    
+ c_birth_country     | NIGERIA              
+ c_login             | null                 
+-RECORD 37----------------------------------
+ customer_id         | AAAAAAAAIBAEBAAA     
+ customer_first_name | Sandra               
+ customer_last_name  | Wilson               
+ c                   | N                    
+ c_birth_country     | BOUVET ISLAND        
+ c_login             | null                 
+-RECORD 38----------------------------------
+ customer_id         | AAAAAAAAIBFCBAAA     
+ customer_first_name | Ruth                 
+ customer_last_name  | Grantham             
+ c                   | N                    
+ c_birth_country     | CAPE VERDE           
+ c_login             | null                 
+-RECORD 39----------------------------------
+ customer_id         | AAAAAAAAIBHHAAAA     
+ customer_first_name | Jennifer             
+ customer_last_name  | Ballard              
+ c                   | Y                    
+ c_birth_country     | CANADA               
+ c_login             | null                 
+-RECORD 40----------------------------------
+ customer_id         | AAAAAAAAICHFAAAA     
+ customer_first_name | Linda                
+ customer_last_name  | Mccoy                
+ c                   | N                    
+ c_birth_country     | MOLDOVA, REPUBLIC OF 
+ c_login             | null                 
+-RECORD 41----------------------------------
+ customer_id         | AAAAAAAAIDKFAAAA     
+ customer_first_name | Michael              
+ customer_last_name  | Mack                 
+ c                   | N                    
+ c_birth_country     | CHRISTMAS ISLAND     
+ c_login             | null                 
+-RECORD 42----------------------------------
+ customer_id         | AAAAAAAAIJEMAAAA     
+ customer_first_name | Charlie              
+ customer_last_name  | Cummings             
+ c                   | Y                    
+ c_birth_country     | GEORGIA              
+ c_login             | null                 
+-RECORD 43----------------------------------
+ customer_id         | AAAAAAAAIMHBAAAA     
+ customer_first_name | Kathy                
+ customer_last_name  | Knowles              
+ c                   | N                    
+ c_birth_country     | ARMENIA              
+ c_login             | null                 
+-RECORD 44----------------------------------
+ customer_id         | AAAAAAAAIMHHBAAA     
+ customer_first_name | Lillian              
+ customer_last_name  | Davidson             
+ c                   | Y                    
+ c_birth_country     | CROATIA              
+ c_login             | null                 
+-RECORD 45----------------------------------
+ customer_id         | AAAAAAAAJDBLAAAA     
+ customer_first_name | Melvin               
+ customer_last_name  | Taylor               
+ c                   | Y                    
+ c_birth_country     | NEW ZEALAND          
+ c_login             | null                 
+-RECORD 46----------------------------------
+ customer_id         | AAAAAAAAJEKFBAAA     
+ customer_first_name | Norma                
+ customer_last_name  | Burkholder           
+ c                   | N                    
+ c_birth_country     | ANGOLA               
+ c_login             | null                 
+-RECORD 47----------------------------------
+ customer_id         | AAAAAAAAJGMMAAAA     
+ customer_first_name | Richard              
+ customer_last_name  | Larson               
+ c                   | Y                    
+ c_birth_country     | TOKELAU              
+ c_login             | null                 
+-RECORD 48----------------------------------
+ customer_id         | AAAAAAAAJIALAAAA     
+ customer_first_name | Santos               
+ customer_last_name  | Gutierrez            
+ c                   | N                    
+ c_birth_country     | PALAU                
+ c_login             | null                 
+-RECORD 49----------------------------------
+ customer_id         | AAAAAAAAJKBNAAAA     
+ customer_first_name | Julie                
+ customer_last_name  | Kern                 
+ c                   | N                    
+ c_birth_country     | BOTSWANA             
+ c_login             | null                 
+-RECORD 50----------------------------------
+ customer_id         | AAAAAAAAJMHLAAAA     
+ customer_first_name | Wanda                
+ customer_last_name  | Ryan                 
+ c                   | Y                    
+ c_birth_country     | MAURITANIA           
+ c_login             | null                 
+-RECORD 51----------------------------------
+ customer_id         | AAAAAAAAJONHBAAA     
+ customer_first_name | Warren               
+ customer_last_name  | Orozco               
+ c                   | N                    
+ c_birth_country     | GUINEA-BISSAU        
+ c_login             | null                 
+-RECORD 52----------------------------------
+ customer_id         | AAAAAAAAJPINAAAA     
+ customer_first_name | Rose                 
+ customer_last_name  | Waite                
+ c                   | Y                    
+ c_birth_country     | BRUNEI DARUSSALAM    
+ c_login             | null                 
+-RECORD 53----------------------------------
+ customer_id         | AAAAAAAAKAECAAAA     
+ customer_first_name | Milton               
+ customer_last_name  | Mackey               
+ c                   | N                    
+ c_birth_country     | RUSSIAN FEDERATION   
+ c_login             | null                 
+-RECORD 54----------------------------------
+ customer_id         | AAAAAAAAKAPPAAAA     
+ customer_first_name | Karen                
+ customer_last_name  | Parker               
+ c                   | Y                    
+ c_birth_country     | TUNISIA              
+ c_login             | null                 
+-RECORD 55----------------------------------
+ customer_id         | AAAAAAAAKJBKAAAA     
+ customer_first_name | Georgia              
+ customer_last_name  | Scott                
+ c                   | N                    
+ c_birth_country     | CHRISTMAS ISLAND     
+ c_login             | null                 
+-RECORD 56----------------------------------
+ customer_id         | AAAAAAAAKJBLAAAA     
+ customer_first_name | Kerry                
+ customer_last_name  | Davis                
+ c                   | Y                    
+ c_birth_country     | AFGHANISTAN          
+ c_login             | null                 
+-RECORD 57----------------------------------
+ customer_id         | AAAAAAAAKKGEAAAA     
+ customer_first_name | Katie                
+ customer_last_name  | Dunbar               
+ c                   | N                    
+ c_birth_country     | NETHERLANDS          
+ c_login             | null                 
+-RECORD 58----------------------------------
+ customer_id         | AAAAAAAAKLHHBAAA     
+ customer_first_name | Manuel               
+ customer_last_name  | Castaneda            
+ c                   | N                    
+ c_birth_country     | SAMOA                
+ c_login             | null                 
+-RECORD 59----------------------------------
+ customer_id         | AAAAAAAAKNAKAAAA     
+ customer_first_name | Gladys               
+ customer_last_name  | Banks                
+ c                   | N                    
+ c_birth_country     | WESTERN SAHARA       
+ c_login             | null                 
+-RECORD 60----------------------------------
+ customer_id         | AAAAAAAALFKKAAAA     
+ customer_first_name | Ignacio              
+ customer_last_name  | Miller               
+ c                   | Y                    
+ c_birth_country     | UNITED KINGDOM       
+ c_login             | null                 
+-RECORD 61----------------------------------
+ customer_id         | AAAAAAAALHMCAAAA     
+ customer_first_name | Brooke               
+ customer_last_name  | Nelson               
+ c                   | Y                    
+ c_birth_country     | SPAIN                
+ c_login             | null                 
+-RECORD 62----------------------------------
+ customer_id         | AAAAAAAALIOPAAAA     
+ customer_first_name | Derek                
+ customer_last_name  | Allen                
+ c                   | Y                    
+ c_birth_country     | NICARAGUA            
+ c_login             | null                 
+-RECORD 63----------------------------------
+ customer_id         | AAAAAAAALJNCBAAA     
+ customer_first_name | George               
+ customer_last_name  | Gamez                
+ c                   | Y                    
+ c_birth_country     | AZERBAIJAN           
+ c_login             | null                 
+-RECORD 64----------------------------------
+ customer_id         | AAAAAAAAMDCAAAAA     
+ customer_first_name | Louann               
+ customer_last_name  | Hamel                
+ c                   | Y                    
+ c_birth_country     | TIMOR-LESTE          
+ c_login             | null                 
+-RECORD 65----------------------------------
+ customer_id         | AAAAAAAAMFFLAAAA     
+ customer_first_name | Margret              
+ customer_last_name  | Gray                 
+ c                   | Y                    
+ c_birth_country     | NEW ZEALAND          
+ c_login             | null                 
+-RECORD 66----------------------------------
+ customer_id         | AAAAAAAAMMOBBAAA     
+ customer_first_name | Margaret             
+ customer_last_name  | Smith                
+ c                   | N                    
+ c_birth_country     | JAPAN                
+ c_login             | null                 
+-RECORD 67----------------------------------
+ customer_id         | AAAAAAAANFBDBAAA     
+ customer_first_name | Vernice              
+ customer_last_name  | Fernandez            
+ c                   | Y                    
+ c_birth_country     | SWEDEN               
+ c_login             | null                 
+-RECORD 68----------------------------------
+ customer_id         | AAAAAAAANGDBBAAA     
+ customer_first_name | Carlos               
+ customer_last_name  | Jewell               
+ c                   | N                    
+ c_birth_country     | ISLE OF MAN          
+ c_login             | null                 
+-RECORD 69----------------------------------
+ customer_id         | AAAAAAAANIPLAAAA     
+ customer_first_name | Eric                 
+ customer_last_name  | Lawrence             
+ c                   | Y                    
+ c_birth_country     | HONDURAS             
+ c_login             | null                 
+-RECORD 70----------------------------------
+ customer_id         | AAAAAAAANJAGAAAA     
+ customer_first_name | Allen                
+ customer_last_name  | Hood                 
+ c                   | Y                    
+ c_birth_country     | TOGO                 
+ c_login             | null                 
+-RECORD 71----------------------------------
+ customer_id         | AAAAAAAANJHCBAAA     
+ customer_first_name | Christopher          
+ customer_last_name  | Schreiber            
+ c                   | N                    
+ c_birth_country     | UZBEKISTAN           
+ c_login             | null                 
+-RECORD 72----------------------------------
+ customer_id         | AAAAAAAANJOLAAAA     
+ customer_first_name | Debra                
+ customer_last_name  | Underwood            
+ c                   | Y                    
+ c_birth_country     | BOTSWANA             
+ c_login             | null                 
+-RECORD 73----------------------------------
+ customer_id         | AAAAAAAAOBADBAAA     
+ customer_first_name | Elizabeth            
+ customer_last_name  | Burnham              
+ c                   | N                    
+ c_birth_country     | HONDURAS             
+ c_login             | null                 
+-RECORD 74----------------------------------
+ customer_id         | AAAAAAAAOCAJAAAA     
+ customer_first_name | Jenna                
+ customer_last_name  | Staton               
+ c                   | N                    
+ c_birth_country     | GIBRALTAR            
+ c_login             | null                 
+-RECORD 75----------------------------------
+ customer_id         | AAAAAAAAOCLBBAAA     
+ customer_first_name | null                 
+ customer_last_name  | null                 
+ c                   | null                 
+ c_birth_country     | null                 
+ c_login             | null                 
+-RECORD 76----------------------------------
+ customer_id         | AAAAAAAAODMMAAAA     
+ customer_first_name | Gayla                
+ customer_last_name  | Cline                
+ c                   | N                    
+ c_birth_country     | ETHIOPIA             
+ c_login             | null                 
+-RECORD 77----------------------------------
+ customer_id         | AAAAAAAAOFLCAAAA     
+ customer_first_name | James                
+ customer_last_name  | Taylor               
+ c                   | N                    
+ c_birth_country     | BANGLADESH           
+ c_login             | null                 
+-RECORD 78----------------------------------
+ customer_id         | AAAAAAAAOPDLAAAA     
+ customer_first_name | Ann                  
+ customer_last_name  | Pence                
+ c                   | N                    
+ c_birth_country     | JAMAICA              
+ c_login             | null                 
+-RECORD 79----------------------------------
+ customer_id         | AAAAAAAAPDFBAAAA     
+ customer_first_name | Terrance             
+ customer_last_name  | Banks                
+ c                   | Y                    
+ c_birth_country     | SLOVENIA             
+ c_login             | null                 
+-RECORD 80----------------------------------
+ customer_id         | AAAAAAAAPEHEBAAA     
+ customer_first_name | Edith                
+ customer_last_name  | Molina               
+ c                   | Y                    
+ c_birth_country     | GREENLAND            
+ c_login             | null                 
+-RECORD 81----------------------------------
+ customer_id         | AAAAAAAAPFCLAAAA     
+ customer_first_name | Felicia              
+ customer_last_name  | Neville              
+ c                   | N                    
+ c_birth_country     | NEPAL                
+ c_login             | null                 
+-RECORD 82----------------------------------
+ customer_id         | AAAAAAAAPICEAAAA     
+ customer_first_name | Jennifer             
+ customer_last_name  | Cortez               
+ c                   | Y                    
+ c_birth_country     | NEW CALEDONIA        
+ c_login             | null                 
+-RECORD 83----------------------------------
+ customer_id         | AAAAAAAAPJENAAAA     
+ customer_first_name | Ashley               
+ customer_last_name  | Norton               
+ c                   | Y                    
+ c_birth_country     | IRAQ                 
+ c_login             | null                 
+-RECORD 84----------------------------------
+ customer_id         | AAAAAAAAPKBCBAAA     
+ customer_first_name | Andrea               
+ customer_last_name  | White                
+ c                   | N                    
+ c_birth_country     | SAMOA                
+ c_login             | null                 
+-RECORD 85----------------------------------
+ customer_id         | AAAAAAAAPKIKAAAA     
+ customer_first_name | Wendy                
+ customer_last_name  | Horvath              
+ c                   | Y                    
+ c_birth_country     | MADAGASCAR           
+ c_login             | null                 
+-RECORD 86----------------------------------
+ customer_id         | AAAAAAAAPMMBBAAA     
+ customer_first_name | Paul                 
+ customer_last_name  | Jordan               
+ c                   | N                    
+ c_birth_country     | JORDAN               
+ c_login             | null                 
+-RECORD 87----------------------------------
+ customer_id         | AAAAAAAAPPIBBAAA     
+ customer_first_name | Candice              
+ customer_last_name  | Lee                  
+ c                   | Y                    
+ c_birth_country     | SWEDEN               
+ c_login             | null
+           
