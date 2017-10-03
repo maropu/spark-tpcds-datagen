@@ -99,7 +99,9 @@ object TPCDSQueryValidator {
 
       // Read back the golden file
       val expectedOutput = fileToString(resultFile).replace(s"$header\n", "").trim
-      if (expectedOutput != output) {
+      if (expectedOutput == output) {
+        println(s"Validation PASSED in $name")
+      } else {
         println(
           s"""Validation FAILED in $name:
              |expected:
@@ -107,8 +109,6 @@ object TPCDSQueryValidator {
              |actual:
              |$output
            """.stripMargin)
-      } else {
-        println(s"Validation PASSED in $name")
       }
     }
   }

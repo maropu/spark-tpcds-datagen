@@ -64,11 +64,12 @@ ${_DIR}/../bin/run-tpcds-sf-1-test.sh  \
   > ${_RESULTS_TEMP_FILE}
 
 # Format the output results and write them in the report file
-DATE=`LANG=en_US.UTF-8 date '+%Y%m%d'`
-if [ `cat ${_RESULTS_TEMP_FILE} | grep 'FAILED'` ] ; then
-  OUTPUT_FILE=${OUTPUT_FILE_PREFIX}.FAILED-${DATE}.log
+_DATE=`LANG=en_US.UTF-8 date '+%Y%m%d'`
+_RESULT_OUTPUT=`cat ${_RESULTS_TEMP_FILE}`
+if [[ ${_RESULT_OUTPUT} = *FAILED* ]]; then
+  OUTPUT_FILE=${OUTPUT_FILE_PREFIX}.FAILED-${_DATE}.log
 else
-  OUTPUT_FILE=${OUTPUT_FILE_PREFIX}.PASSED-${DATE}.log
+  OUTPUT_FILE=${OUTPUT_FILE_PREFIX}.PASSED-${_DATE}.log
 fi
 
 cat ${_RESULTS_TEMP_FILE} >> ${OUTPUT_FILE}
