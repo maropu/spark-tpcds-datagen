@@ -20,14 +20,11 @@ package org.apache.spark.sql.execution.benchmark
 import java.io.File
 import java.nio.file.Paths
 
-import org.scalatest.BeforeAndAfterEach
-
 import org.apache.spark.SparkConf
-import org.apache.spark.SparkFunSuite
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.execution.benchmark.Utils._
 
-class TPCDSQuerySuite extends SparkFunSuite with BeforeAndAfterEach {
+object TPCDSQueryValidator {
 
   private val regenerateGoldenFiles = System.getenv("SPARK_GENERATE_GOLDEN_FILES") == "1"
 
@@ -36,35 +33,22 @@ class TPCDSQuerySuite extends SparkFunSuite with BeforeAndAfterEach {
     // relative path. Otherwise, we use classloader's getResource to find the location.
     //
     // if (regenerateGoldenFiles) {
-    //   Paths.get("src", "test", "resources", "tpcds").toFile
+    //   Paths.get("src", "main", "resources", "tpcds").toFile
     // } else {
     //   val res = getClass.getClassLoader.getResource("tpcds")
     //   new File(res.getFile)
     // }
 
     // TODO: Can't resolve this path by classloader's getResource
-    Paths.get("src", "test", "resources", "tpcds").toFile
+    Paths.get("src", "main", "resources", "tpcds").toFile
   }
 
   private val queryFilePath = new File(baseResourcePath, "queries")
   private val goldenFilePath = new File(baseResourcePath, "results")
 
-  private val envVarDataLocationForEnablingTests = "SPARK_TPCDS_DATA_LOCATION"
-  private val dataLocation = System.getenv(envVarDataLocationForEnablingTests)
-  private val shouldRunTests = dataLocation != null
-
-  /** Run the test if environment variable is set or ignore the test */
-  def testIfEnabled(testName: String)(testBody: => Unit) {
-    if (shouldRunTests) {
-      test(testName)(testBody)
-    } else {
-      ignore(s"$testName [enable by setting env var $envVarDataLocationForEnablingTests]")(testBody)
-    }
-  }
-
   val conf = new SparkConf()
       .setMaster("local[1]")
-      .setAppName("TPCDSQuerySuite")
+      .setAppName("validate-tpcds-queries")
       .set("spark.sql.parquet.compression.codec", "snappy")
       .set("spark.sql.shuffle.partitions", "4")
       .set("spark.driver.memory", "8g")
@@ -72,7 +56,7 @@ class TPCDSQuerySuite extends SparkFunSuite with BeforeAndAfterEach {
       .set("spark.sql.autoBroadcastJoinThreshold", (20 * 1024 * 1024).toString)
       .set("spark.sql.crossJoin.enabled", "true")
 
-  var _spark: SparkSession = _
+  val spark = SparkSession.builder.config(conf).getOrCreate()
 
   val tables = Seq("catalog_page", "catalog_returns", "customer", "customer_address",
     "customer_demographics", "date_dim", "household_demographics", "inventory", "item",
@@ -82,50 +66,18 @@ class TPCDSQuerySuite extends SparkFunSuite with BeforeAndAfterEach {
 
   def setupTables(dataLocation: String): Unit = {
     tables.foreach { tableName =>
-      _spark.read.parquet(s"$dataLocation/$tableName").createOrReplaceTempView(tableName)
-      tableName -> _spark.table(tableName).count()
+      spark.read.parquet(s"$dataLocation/$tableName").createOrReplaceTempView(tableName)
+      tableName -> spark.table(tableName).count()
     }
   }
 
-  protected override def beforeAll(): Unit = {
-    SparkSession.sqlListener.set(null)
-    if (_spark == null && shouldRunTests) {
-      _spark = SparkSession.builder.config(conf).getOrCreate()
-      setupTables(dataLocation)
-    }
-    // Ensure we have initialized the context before calling parent code
-    super.beforeAll()
-  }
-
-  protected override def afterAll(): Unit = {
-    super.afterAll()
-    if (_spark != null) {
-      _spark.sessionState.catalog.reset()
-      _spark.stop()
-      _spark = null
-    }
-  }
-
-  // List of all TPC-DS queries
-  val tpcdsQueries = Seq(
-    "q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10", "q11",
-    "q12", "q13", "q14a", "q14b", "q15", "q16", "q17", "q18", "q19", "q20",
-    "q21", "q22", "q23a", "q23b", "q24a", "q24b", "q25", "q26", "q27", "q28", "q29", "q30",
-    "q31", "q32", "q33", "q34", "q35", "q36", "q37", "q38", "q39a", "q39b", "q40",
-    "q41", "q42", "q43", "q44", "q45", "q46", "q47", "q48", "q49", "q50",
-    "q51", "q52", "q53", "q54", "q55", "q56", "q57", "q58", "q59", "q60",
-    "q61", "q62", "q63", "q64", "q65", "q66", "q67", "q68", "q69", "q70",
-    "q71", "q72", "q73", "q74", "q75", "q76", "q77", "q78", "q79", "q80",
-    "q81", "q82", "q83", "q84", "q85", "q86", "q87", "q88", "q89", "q90",
-    "q91", "q92", "q93", "q94", "q95", "q96", "q97", "q98", "q99")
-
-  tpcdsQueries.foreach { name =>
-    testIfEnabled(name) {
+  def validateTpcdsTests(dataLocation: String, queries: Seq[String]): Unit = {
+    setupTables(dataLocation)
+    queries.foreach { name =>
       val queryString = fileToString(new File(queryFilePath, s"$name.sql"))
       val resultFile = new File(goldenFilePath, s"$name.sql.out")
-      val df = _spark.sql(queryString)
       val output = formatOutput(
-        df,
+        df = spark.sql(queryString),
         _numRows = 100000,
         truncate = Int.MaxValue,
         vertical = true
@@ -147,7 +99,50 @@ class TPCDSQuerySuite extends SparkFunSuite with BeforeAndAfterEach {
 
       // Read back the golden file
       val expectedOutput = fileToString(resultFile).replace(s"$header\n", "").trim
-      assert(expectedOutput === output)
+      if (expectedOutput != output) {
+        println(
+          s"""Unmatched output found in $name:
+             |expected:
+             |$expectedOutput
+             |actual:
+             |$output
+           """.stripMargin)
+      } else {
+        println(s"Validation OK for $name")
+      }
     }
+  }
+
+  def main(args: Array[String]): Unit = {
+    val benchmarkArgs = new TPCDSQueryValidatorArguments(args)
+
+    // List of all TPC-DS queries
+    val tpcdsQueries = Seq(
+      "q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10", "q11",
+      "q12", "q13", "q14a", "q14b", "q15", "q16", "q17", "q18", "q19", "q20",
+      "q21", "q22", "q23a", "q23b", "q24a", "q24b", "q25", "q26", "q27", "q28", "q29", "q30",
+      "q31", "q32", "q33", "q34", "q35", "q36", "q37", "q38", "q39a", "q39b", "q40",
+      "q41", "q42", "q43", "q44", "q45", "q46", "q47", "q48", "q49", "q50",
+      "q51", "q52", "q53", "q54", "q55", "q56", "q57", "q58", "q59", "q60",
+      "q61", "q62", "q63", "q64", "q65", "q66", "q67", "q68", "q69", "q70",
+      "q71", "q72", "q73", "q74", "q75", "q76", "q77", "q78", "q79", "q80",
+      "q81", "q82", "q83", "q84", "q85", "q86", "q87", "q88", "q89", "q90",
+      "q91", "q92", "q93", "q94", "q95", "q96", "q97", "q98", "q99")
+
+    // If `--query-filter` defined, filters the queries that this option selects
+    val queriesToRun = if (benchmarkArgs.queryFilter.nonEmpty) {
+      val queries = tpcdsQueries.filter { case queryName =>
+        benchmarkArgs.queryFilter.contains(queryName)
+      }
+      if (queries.isEmpty) {
+        throw new RuntimeException(
+          s"Empty queries to run. Bad query name filter: ${benchmarkArgs.queryFilter}")
+      }
+      queries
+    } else {
+      tpcdsQueries
+    }
+
+    validateTpcdsTests(benchmarkArgs.dataLocation, queries = queriesToRun)
   }
 }
