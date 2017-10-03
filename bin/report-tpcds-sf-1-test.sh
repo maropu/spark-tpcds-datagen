@@ -1,0 +1,76 @@
+#!/usr/bin/env bash
+
+#
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+#
+# Shell script for reporting the validation results of TPCDS queries
+
+set -e -o pipefail
+
+# Determine the current working directory
+_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+if [ -z "${SPARK_HOME}" ]; then
+  # If SPARK_HOME not defined, fetch the newest Spark code from the repository
+  export SPARK_HOME="${_DIR}/../bin/spark-master"
+  rm -rf "${SPARK_HOME}" && git clone https://github.com/apache/spark ${SPARK_HOME}
+  echo "env SPARK_HOME not defined, so use path '${SPARK_HOME}' as SPARK_HOME" 1>&2
+fi
+
+# Check if an output file prefix is given
+if [ $# -lt 1 ]; then
+  echo "You need to specify an output file prefix" 1>&2
+  exit 1
+fi
+
+OUTPUT_FILE_PREFIX=$1
+
+# Generate test data in temp dir
+_GENDATA_TEMP_DIR=`mktemp -d`
+_GENTABLES="catalog_sales,catalog_returns,inventory,store_sales,store_returns,web_sales,web_returns,call_center,catalog_page,customer,customer_address,customer_demographics,date_dim,household_demographics,income_band,item,promotion,reason,ship_mode,store,time_dim,warehouse,web_page,web_site"
+${_DIR}/../bin/dsdgen                              \
+  --conf spark.master=local[4]                     \
+  --conf spark.driver.memory=8g                    \
+  --conf spark.executor.heartbeatInterval=1000000s \
+  --conf spark.network.timeout=1000000s            \
+  --scale-factor 1                                 \
+  --overwrite                                      \
+  --partition-tables                               \
+  --use-double-for-decimal                         \
+  --cluster-by-partition-columns                   \
+  --num-partitions 4                               \
+  --table-filter ${_GENTABLES}                     \
+  --output-location ${_GENDATA_TEMP_DIR}
+
+# Output validation results into a temporary file
+_RESULTS_TEMP_FILE=`mktemp`
+${_DIR}/../bin/run-tpcds-sf-1-test.sh  \
+  --data-location ${_GENDATA_TEMP_DIR} \
+  > ${_RESULTS_TEMP_FILE}
+
+# Format the output results and write them in the report file
+DATE=`LANG=en_US.UTF-8 date '+%Y%m%d'`
+if [ `cat ${_RESULTS_TEMP_FILE} | grep 'FAILED'` ] ; then
+  OUTPUT_FILE=${OUTPUT_FILE_PREFIX}.FAILED-${DATE}.log
+else
+  OUTPUT_FILE=${OUTPUT_FILE_PREFIX}.PASSED-${DATE}.log
+fi
+
+cat ${_RESULTS_TEMP_FILE} >> ${OUTPUT_FILE}
+echo "TPC-DS validation results written to ${OUTPUT_FILE}" 1>&2
+
