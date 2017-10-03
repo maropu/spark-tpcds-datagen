@@ -25,6 +25,28 @@
  product_name    | n stableableantiought 
  store_name      | ation                 
  store_zip       | 31904                 
+ b_street_number | 316                   
+ b_streen_name   | Valley Tenth          
+ b_city          | Pine Grove            
+ b_zip           | 74593                 
+ c_street_number | 806                   
+ c_street_name   | Wilson Main           
+ c_city          | Jackson               
+ c_zip           | 59583                 
+ syear           | 1999                  
+ cnt             | 1                     
+ s1              | 49.63                 
+ s2              | 78.41                 
+ s3              | 14.22                 
+ s1              | 7.92                  
+ s2              | 11.80                 
+ s3              | 0.00                  
+ syear           | 2000                  
+ cnt             | 1                     
+-RECORD 2--------------------------------
+ product_name    | n stableableantiought 
+ store_name      | ation                 
+ store_zip       | 31904                 
  b_street_number | 173                   
  b_streen_name   | Park Maple            
  b_city          | Sulphur Springs       
@@ -37,28 +59,6 @@
  cnt             | 1                     
  s1              | 60.78                 
  s2              | 85.09                 
- s3              | 0.00                  
- s1              | 7.92                  
- s2              | 11.80                 
- s3              | 0.00                  
- syear           | 2000                  
- cnt             | 1                     
--RECORD 2--------------------------------
- product_name    | n stableableantiought 
- store_name      | ation                 
- store_zip       | 31904                 
- b_street_number | 425                   
- b_streen_name   | Green                 
- b_city          | Enterprise            
- b_zip           | 11757                 
- c_street_number | 772                   
- c_street_name   | Valley                
- c_city          | null                  
- c_zip           | null                  
- syear           | 1999                  
- cnt             | 1                     
- s1              | 16.24                 
- s2              | 25.17                 
  s3              | 0.00                  
  s1              | 7.92                  
  s2              | 11.80                 
@@ -104,34 +104,12 @@
  s1              | 49.63                 
  s2              | 78.41                 
  s3              | 14.22                 
- s1              | 7.92                  
- s2              | 11.80                 
- s3              | 0.00                  
- syear           | 2000                  
- cnt             | 1                     
--RECORD 5--------------------------------
- product_name    | n stableableantiought 
- store_name      | ation                 
- store_zip       | 31904                 
- b_street_number | 316                   
- b_streen_name   | Valley Tenth          
- b_city          | Pine Grove            
- b_zip           | 74593                 
- c_street_number | 806                   
- c_street_name   | Wilson Main           
- c_city          | Jackson               
- c_zip           | 59583                 
- syear           | 1999                  
- cnt             | 1                     
- s1              | 49.63                 
- s2              | 78.41                 
- s3              | 14.22                 
  s1              | 44.27                 
  s2              | 58.43                 
  s3              | 0.00                  
  syear           | 2000                  
  cnt             | 1                     
--RECORD 6--------------------------------
+-RECORD 5--------------------------------
  product_name    | n stableableantiought 
  store_name      | ation                 
  store_zip       | 31904                 
@@ -153,6 +131,28 @@
  s3              | 0.00                  
  syear           | 2000                  
  cnt             | 1                     
+-RECORD 6--------------------------------
+ product_name    | n stableableantiought 
+ store_name      | ation                 
+ store_zip       | 31904                 
+ b_street_number | 425                   
+ b_streen_name   | Green                 
+ b_city          | Enterprise            
+ b_zip           | 11757                 
+ c_street_number | 772                   
+ c_street_name   | Valley                
+ c_city          | null                  
+ c_zip           | null                  
+ syear           | 1999                  
+ cnt             | 1                     
+ s1              | 16.24                 
+ s2              | 25.17                 
+ s3              | 0.00                  
+ s1              | 7.92                  
+ s2              | 11.80                 
+ s3              | 0.00                  
+ syear           | 2000                  
+ cnt             | 1                     
 -RECORD 7--------------------------------
  product_name    | n stableableantiought 
  store_name      | eing                  
@@ -170,8 +170,8 @@
  s1              | 63.82                 
  s2              | 121.25                
  s3              | 0.00                  
- s1              | 58.19                 
- s2              | 85.53                 
+ s1              | 10.25                 
+ s2              | 12.09                 
  s3              | 0.00                  
  syear           | 2000                  
  cnt             | 1                     
@@ -214,8 +214,8 @@
  s1              | 63.82                 
  s2              | 121.25                
  s3              | 0.00                  
- s1              | 10.25                 
- s2              | 12.09                 
+ s1              | 58.19                 
+ s2              | 85.53                 
  s3              | 0.00                  
  syear           | 2000                  
  cnt             | 1

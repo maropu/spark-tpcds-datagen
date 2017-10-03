@@ -11,14 +11,14 @@
  c_first_name          | null        
  c_salutation          | null        
  c_preferred_cust_flag | N           
- ss_ticket_number      | 55640       
+ ss_ticket_number      | 220211      
  cnt                   | 15          
 -RECORD 2----------------------------
  c_last_name           | null        
  c_first_name          | null        
  c_salutation          | null        
  c_preferred_cust_flag | N           
- ss_ticket_number      | 220211      
+ ss_ticket_number      | 55640       
  cnt                   | 15          
 -RECORD 3----------------------------
  c_last_name           | null        

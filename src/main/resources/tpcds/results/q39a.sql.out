@@ -9,7 +9,7 @@
  i_item_sk      | 265                
  d_moy          | 2                  
  mean           | 329.0              
- cov            | 1.0151581328149208 
+ cov            | 1.0151581328149206 
 -RECORD 1----------------------------
  w_warehouse_sk | 1                  
  i_item_sk      | 363                
@@ -37,7 +37,7 @@
  i_item_sk      | 695                
  d_moy          | 1                  
  mean           | 450.75             
- cov            | 1.0835888283564505 
+ cov            | 1.0835888283564503 
  w_warehouse_sk | 1                  
  i_item_sk      | 695                
  d_moy          | 2                  
@@ -114,7 +114,7 @@
  i_item_sk      | 1623               
  d_moy          | 1                  
  mean           | 338.25             
- cov            | 1.1285483279713715 
+ cov            | 1.1285483279713713 
  w_warehouse_sk | 1                  
  i_item_sk      | 1623               
  d_moy          | 2                  
@@ -136,7 +136,7 @@
  i_item_sk      | 2705               
  d_moy          | 1                  
  mean           | 246.25             
- cov            | 1.0120308357959693 
+ cov            | 1.012030835795969  
  w_warehouse_sk | 1                  
  i_item_sk      | 2705               
  d_moy          | 2                  
@@ -185,13 +185,13 @@
  i_item_sk      | 4955               
  d_moy          | 2                  
  mean           | 322.5              
- cov            | 1.1693842343776149 
+ cov            | 1.169384234377615  
 -RECORD 17---------------------------
  w_warehouse_sk | 1                  
  i_item_sk      | 5627               
  d_moy          | 1                  
  mean           | 282.75             
- cov            | 1.5657032366359889 
+ cov            | 1.565703236635989  
  w_warehouse_sk | 1                  
  i_item_sk      | 5627               
  d_moy          | 2                  
@@ -229,7 +229,7 @@
  i_item_sk      | 7569               
  d_moy          | 2                  
  mean           | 360.25             
- cov            | 1.047005559314515  
+ cov            | 1.0470055593145149 
 -RECORD 21---------------------------
  w_warehouse_sk | 1                  
  i_item_sk      | 7999               
@@ -273,7 +273,7 @@
  i_item_sk      | 8583               
  d_moy          | 2                  
  mean           | 310.25             
- cov            | 1.2358813775861328 
+ cov            | 1.2358813775861326 
 -RECORD 25---------------------------
  w_warehouse_sk | 1                  
  i_item_sk      | 8591               
@@ -290,7 +290,7 @@
  i_item_sk      | 8611               
  d_moy          | 1                  
  mean           | 300.5              
- cov            | 1.5191545184147954 
+ cov            | 1.519154518414795  
  w_warehouse_sk | 1                  
  i_item_sk      | 8611               
  d_moy          | 2                  
@@ -328,7 +328,7 @@
  i_item_sk      | 9449               
  d_moy          | 2                  
  mean           | 175.0              
- cov            | 1.0544779796296408 
+ cov            | 1.054477979629641  
 -RECORD 30---------------------------
  w_warehouse_sk | 1                  
  i_item_sk      | 9713               
@@ -427,7 +427,7 @@
  i_item_sk      | 12471              
  d_moy          | 2                  
  mean           | 327.25             
- cov            | 1.0547560580567852 
+ cov            | 1.0547560580567854 
 -RECORD 39---------------------------
  w_warehouse_sk | 1                  
  i_item_sk      | 12625              
@@ -444,12 +444,12 @@
  i_item_sk      | 12751              
  d_moy          | 1                  
  mean           | 280.75             
- cov            | 1.10833057888089   
+ cov            | 1.1083305788808901 
  w_warehouse_sk | 1                  
  i_item_sk      | 12751              
  d_moy          | 2                  
  mean           | 369.3333333333333  
- cov            | 1.3416504398884601 
+ cov            | 1.34165043988846   
 -RECORD 41---------------------------
  w_warehouse_sk | 1                  
  i_item_sk      | 12779              
@@ -466,7 +466,7 @@
  i_item_sk      | 13077              
  d_moy          | 1                  
  mean           | 367.6666666666667  
- cov            | 1.345523904195734  
+ cov            | 1.3455239041957343 
  w_warehouse_sk | 1                  
  i_item_sk      | 13077              
  d_moy          | 2                  
@@ -532,7 +532,7 @@
  i_item_sk      | 15345              
  d_moy          | 1                  
  mean           | 148.5              
- cov            | 1.5295784035794024 
+ cov            | 1.5295784035794022 
  w_warehouse_sk | 1                  
  i_item_sk      | 15345              
  d_moy          | 2                  
@@ -620,7 +620,7 @@
  i_item_sk      | 71                 
  d_moy          | 1                  
  mean           | 221.5              
- cov            | 1.563974108334745  
+ cov            | 1.5639741083347447 
  w_warehouse_sk | 2                  
  i_item_sk      | 71                 
  d_moy          | 2                  
@@ -631,12 +631,12 @@
  i_item_sk      | 833                
  d_moy          | 1                  
  mean           | 363.3333333333333  
- cov            | 1.0422813802180273 
+ cov            | 1.0422813802180275 
  w_warehouse_sk | 2                  
  i_item_sk      | 833                
  d_moy          | 2                  
  mean           | 158.75             
- cov            | 1.2130891736268552 
+ cov            | 1.213089173626855  
 -RECORD 58---------------------------
  w_warehouse_sk | 2                  
  i_item_sk      | 969                
@@ -697,7 +697,7 @@
  i_item_sk      | 2481               
  d_moy          | 1                  
  mean           | 319.75             
- cov            | 1.116026660755801  
+ cov            | 1.1160266607558011 
  w_warehouse_sk | 2                  
  i_item_sk      | 2481               
  d_moy          | 2                  
@@ -713,7 +713,7 @@
  i_item_sk      | 2725               
  d_moy          | 2                  
  mean           | 265.6666666666667  
- cov            | 1.5462972148471539 
+ cov            | 1.5462972148471537 
 -RECORD 65---------------------------
  w_warehouse_sk | 2                  
  i_item_sk      | 3073               
@@ -801,7 +801,7 @@
  i_item_sk      | 5769               
  d_moy          | 2                  
  mean           | 267.0              
- cov            | 1.1815791848719037 
+ cov            | 1.181579184871904  
 -RECORD 73---------------------------
  w_warehouse_sk | 2                  
  i_item_sk      | 6103               
@@ -829,7 +829,7 @@
  i_item_sk      | 6489               
  d_moy          | 1                  
  mean           | 268.0              
- cov            | 1.6956372368432269 
+ cov            | 1.6956372368432266 
  w_warehouse_sk | 2                  
  i_item_sk      | 6489               
  d_moy          | 2                  
@@ -856,7 +856,7 @@
  i_item_sk      | 6767               
  d_moy          | 2                  
  mean           | 235.0              
- cov            | 1.1399543855818017 
+ cov            | 1.1399543855818015 
 -RECORD 78---------------------------
  w_warehouse_sk | 2                  
  i_item_sk      | 7411               
@@ -895,7 +895,7 @@
  i_item_sk      | 8807               
  d_moy          | 1                  
  mean           | 417.25             
- cov            | 1.0258112930013772 
+ cov            | 1.025811293001377  
  w_warehouse_sk | 2                  
  i_item_sk      | 8807               
  d_moy          | 2                  
@@ -917,7 +917,7 @@
  i_item_sk      | 9253               
  d_moy          | 1                  
  mean           | 413.3333333333333  
- cov            | 1.1606659948102405 
+ cov            | 1.1606659948102402 
  w_warehouse_sk | 2                  
  i_item_sk      | 9253               
  d_moy          | 2                  
@@ -977,7 +977,7 @@
  i_item_sk      | 10535              
  d_moy          | 2                  
  mean           | 310.25             
- cov            | 1.0040634995190338 
+ cov            | 1.004063499519034  
 -RECORD 89---------------------------
  w_warehouse_sk | 2                  
  i_item_sk      | 10955              
@@ -988,7 +988,7 @@
  i_item_sk      | 10955              
  d_moy          | 2                  
  mean           | 339.0              
- cov            | 1.070253213625449  
+ cov            | 1.0702532136254492 
 -RECORD 90---------------------------
  w_warehouse_sk | 2                  
  i_item_sk      | 12089              
@@ -1038,7 +1038,7 @@
  i_item_sk      | 13687              
  d_moy          | 1                  
  mean           | 361.25             
- cov            | 1.0107341657610867 
+ cov            | 1.0107341657610864 
  w_warehouse_sk | 2                  
  i_item_sk      | 13687              
  d_moy          | 2                  
@@ -1065,7 +1065,7 @@
  i_item_sk      | 14117              
  d_moy          | 2                  
  mean           | 220.25             
- cov            | 1.4152684465941172 
+ cov            | 1.4152684465941177 
 -RECORD 97---------------------------
  w_warehouse_sk | 2                  
  i_item_sk      | 14347              
@@ -1098,7 +1098,7 @@
  i_item_sk      | 14987              
  d_moy          | 2                  
  mean           | 436.5              
- cov            | 1.0447681541795646 
+ cov            | 1.0447681541795648 
 -RECORD 100--------------------------
  w_warehouse_sk | 2                  
  i_item_sk      | 15321              
@@ -1109,7 +1109,7 @@
  i_item_sk      | 15321              
  d_moy          | 2                  
  mean           | 298.75             
- cov            | 1.1309098406792113 
+ cov            | 1.1309098406792115 
 -RECORD 101--------------------------
  w_warehouse_sk | 2                  
  i_item_sk      | 15347              
@@ -1153,7 +1153,7 @@
  i_item_sk      | 16107              
  d_moy          | 2                  
  mean           | 364.75             
- cov            | 1.0688677983776653 
+ cov            | 1.0688677983776655 
 -RECORD 105--------------------------
  w_warehouse_sk | 2                  
  i_item_sk      | 16749              
@@ -1197,7 +1197,7 @@
  i_item_sk      | 1049               
  d_moy          | 2                  
  mean           | 457.25             
- cov            | 1.023984124924537  
+ cov            | 1.0239841249245367 
 -RECORD 109--------------------------
  w_warehouse_sk | 3                  
  i_item_sk      | 1415               
@@ -1214,12 +1214,12 @@
  i_item_sk      | 2199               
  d_moy          | 1                  
  mean           | 185.75             
- cov            | 1.2028125570694115 
+ cov            | 1.2028125570694113 
  w_warehouse_sk | 3                  
  i_item_sk      | 2199               
  d_moy          | 2                  
  mean           | 300.75             
- cov            | 1.0767845064923047 
+ cov            | 1.0767845064923045 
 -RECORD 111--------------------------
  w_warehouse_sk | 3                  
  i_item_sk      | 2403               
@@ -1263,7 +1263,7 @@
  i_item_sk      | 3207               
  d_moy          | 2                  
  mean           | 258.25             
- cov            | 1.2113392480929654 
+ cov            | 1.2113392480929657 
 -RECORD 115--------------------------
  w_warehouse_sk | 3                  
  i_item_sk      | 3373               
@@ -1280,7 +1280,7 @@
  i_item_sk      | 3969               
  d_moy          | 1                  
  mean           | 234.25             
- cov            | 1.0422831793090308 
+ cov            | 1.042283179309031  
  w_warehouse_sk | 3                  
  i_item_sk      | 3969               
  d_moy          | 2                  
@@ -1318,7 +1318,7 @@
  i_item_sk      | 6521               
  d_moy          | 2                  
  mean           | 437.75             
- cov            | 1.0365149332658257 
+ cov            | 1.0365149332658259 
 -RECORD 120--------------------------
  w_warehouse_sk | 3                  
  i_item_sk      | 6691               
@@ -1357,7 +1357,7 @@
  i_item_sk      | 7207               
  d_moy          | 1                  
  mean           | 329.6666666666667  
- cov            | 1.5954482160720393 
+ cov            | 1.5954482160720398 
  w_warehouse_sk | 3                  
  i_item_sk      | 7207               
  d_moy          | 2                  
@@ -1406,7 +1406,7 @@
  i_item_sk      | 9555               
  d_moy          | 2                  
  mean           | 444.75             
- cov            | 1.0171588175042319 
+ cov            | 1.0171588175042316 
 -RECORD 128--------------------------
  w_warehouse_sk | 3                  
  i_item_sk      | 9623               
@@ -1417,7 +1417,7 @@
  i_item_sk      | 9623               
  d_moy          | 2                  
  mean           | 284.6666666666667  
- cov            | 1.030372442625732  
+ cov            | 1.0303724426257317 
 -RECORD 129--------------------------
  w_warehouse_sk | 3                  
  i_item_sk      | 9813               
@@ -1428,7 +1428,7 @@
  i_item_sk      | 9813               
  d_moy          | 2                  
  mean           | 384.6666666666667  
- cov            | 1.0815005906604849 
+ cov            | 1.0815005906604847 
 -RECORD 130--------------------------
  w_warehouse_sk | 3                  
  i_item_sk      | 9881               
@@ -1527,13 +1527,13 @@
  i_item_sk      | 12157              
  d_moy          | 2                  
  mean           | 396.3333333333333  
- cov            | 1.0287818050404882 
+ cov            | 1.0287818050404884 
 -RECORD 139--------------------------
  w_warehouse_sk | 3                  
  i_item_sk      | 12433              
  d_moy          | 1                  
  mean           | 199.75             
- cov            | 1.307258924061962  
+ cov            | 1.3072589240619619 
  w_warehouse_sk | 3                  
  i_item_sk      | 12433              
  d_moy          | 2                  
@@ -1593,7 +1593,7 @@
  i_item_sk      | 15395              
  d_moy          | 2                  
  mean           | 307.5              
- cov            | 1.138225319310722  
+ cov            | 1.1382253193107217 
 -RECORD 145--------------------------
  w_warehouse_sk | 3                  
  i_item_sk      | 15973              
@@ -1604,7 +1604,7 @@
  i_item_sk      | 15973              
  d_moy          | 2                  
  mean           | 286.0              
- cov            | 1.2872294241999072 
+ cov            | 1.287229424199907  
 -RECORD 146--------------------------
  w_warehouse_sk | 3                  
  i_item_sk      | 16233              
@@ -1632,7 +1632,7 @@
  i_item_sk      | 16605              
  d_moy          | 1                  
  mean           | 394.25             
- cov            | 1.1137413572906039 
+ cov            | 1.1137413572906036 
  w_warehouse_sk | 3                  
  i_item_sk      | 16605              
  d_moy          | 2                  
@@ -1786,7 +1786,7 @@
  i_item_sk      | 6251               
  d_moy          | 1                  
  mean           | 285.0              
- cov            | 1.121538025585264  
+ cov            | 1.1215380255852638 
  w_warehouse_sk | 4                  
  i_item_sk      | 6251               
  d_moy          | 2                  
@@ -1797,12 +1797,12 @@
  i_item_sk      | 6389               
  d_moy          | 1                  
  mean           | 280.75             
- cov            | 1.2049236089487845 
+ cov            | 1.2049236089487843 
  w_warehouse_sk | 4                  
  i_item_sk      | 6389               
  d_moy          | 2                  
  mean           | 259.3333333333333  
- cov            | 1.4816550575659286 
+ cov            | 1.4816550575659289 
 -RECORD 164--------------------------
  w_warehouse_sk | 4                  
  i_item_sk      | 6487               
@@ -1885,7 +1885,7 @@
  i_item_sk      | 9587               
  d_moy          | 1                  
  mean           | 248.0              
- cov            | 1.4981887260612339 
+ cov            | 1.4981887260612337 
  w_warehouse_sk | 4                  
  i_item_sk      | 9587               
  d_moy          | 2                  
@@ -1973,7 +1973,7 @@
  i_item_sk      | 13443              
  d_moy          | 1                  
  mean           | 417.75             
- cov            | 1.0217796082231347 
+ cov            | 1.0217796082231345 
  w_warehouse_sk | 4                  
  i_item_sk      | 13443              
  d_moy          | 2                  
@@ -2066,7 +2066,7 @@
  i_item_sk      | 15275              
  d_moy          | 2                  
  mean           | 292.6666666666667  
- cov            | 1.2978313681037048 
+ cov            | 1.297831368103705  
 -RECORD 188--------------------------
  w_warehouse_sk | 4                  
  i_item_sk      | 15509              
@@ -2077,7 +2077,7 @@
  i_item_sk      | 15509              
  d_moy          | 2                  
  mean           | 317.6666666666667  
- cov            | 1.4470364565078238 
+ cov            | 1.447036456507824  
 -RECORD 189--------------------------
  w_warehouse_sk | 4                  
  i_item_sk      | 15969              
@@ -2121,13 +2121,13 @@
  i_item_sk      | 16751              
  d_moy          | 2                  
  mean           | 223.33333333333334 
- cov            | 1.3377897605859543 
+ cov            | 1.3377897605859546 
 -RECORD 193--------------------------
  w_warehouse_sk | 5                  
  i_item_sk      | 75                 
  d_moy          | 1                  
  mean           | 333.0              
- cov            | 1.2656318762849212 
+ cov            | 1.2656318762849217 
  w_warehouse_sk | 5                  
  i_item_sk      | 75                 
  d_moy          | 2                  
@@ -2138,7 +2138,7 @@
  i_item_sk      | 125                
  d_moy          | 1                  
  mean           | 441.6666666666667  
- cov            | 1.095971457377544  
+ cov            | 1.0959714573775443 
  w_warehouse_sk | 5                  
  i_item_sk      | 125                
  d_moy          | 2                  
@@ -2242,7 +2242,7 @@
  i_item_sk      | 3467               
  d_moy          | 2                  
  mean           | 349.6666666666667  
- cov            | 1.1674223692818808 
+ cov            | 1.1674223692818806 
 -RECORD 204--------------------------
  w_warehouse_sk | 5                  
  i_item_sk      | 4463               
@@ -2270,7 +2270,7 @@
  i_item_sk      | 4739               
  d_moy          | 1                  
  mean           | 281.3333333333333  
- cov            | 1.0242971514325028 
+ cov            | 1.024297151432503  
  w_warehouse_sk | 5                  
  i_item_sk      | 4739               
  d_moy          | 2                  
@@ -2363,7 +2363,7 @@
  i_item_sk      | 6213               
  d_moy          | 2                  
  mean           | 361.5              
- cov            | 1.116840805855076  
+ cov            | 1.1168408058550758 
 -RECORD 215--------------------------
  w_warehouse_sk | 5                  
  i_item_sk      | 6479               
@@ -2380,7 +2380,7 @@
  i_item_sk      | 7333               
  d_moy          | 1                  
  mean           | 227.0              
- cov            | 1.4611346002650127 
+ cov            | 1.461134600265013  
  w_warehouse_sk | 5                  
  i_item_sk      | 7333               
  d_moy          | 2                  
@@ -2396,13 +2396,13 @@
  i_item_sk      | 7923               
  d_moy          | 2                  
  mean           | 342.3333333333333  
- cov            | 1.1607781125264065 
+ cov            | 1.1607781125264067 
 -RECORD 218--------------------------
  w_warehouse_sk | 5                  
  i_item_sk      | 8737               
  d_moy          | 1                  
  mean           | 217.25             
- cov            | 1.074213640090777  
+ cov            | 1.0742136400907767 
  w_warehouse_sk | 5                  
  i_item_sk      | 8737               
  d_moy          | 2                  
@@ -2490,7 +2490,7 @@
  i_item_sk      | 12017              
  d_moy          | 1                  
  mean           | 347.75             
- cov            | 1.1682379397902218 
+ cov            | 1.1682379397902216 
  w_warehouse_sk | 5                  
  i_item_sk      | 12017              
  d_moy          | 2                  
@@ -2512,7 +2512,7 @@
  i_item_sk      | 13583              
  d_moy          | 1                  
  mean           | 430.3333333333333  
- cov            | 1.0423839290527277 
+ cov            | 1.042383929052728  
  w_warehouse_sk | 5                  
  i_item_sk      | 13583              
  d_moy          | 2                  
@@ -2556,7 +2556,7 @@
  i_item_sk      | 14537              
  d_moy          | 1                  
  mean           | 206.0              
- cov            | 1.2283439997338772 
+ cov            | 1.2283439997338774 
  w_warehouse_sk | 5                  
  i_item_sk      | 14537              
  d_moy          | 2                  
@@ -2567,7 +2567,7 @@
  i_item_sk      | 15309              
  d_moy          | 1                  
  mean           | 276.3333333333333  
- cov            | 1.2987590579253725 
+ cov            | 1.2987590579253727 
  w_warehouse_sk | 5                  
  i_item_sk      | 15309              
  d_moy          | 2                  
@@ -2600,7 +2600,7 @@
  i_item_sk      | 15949              
  d_moy          | 1                  
  mean           | 241.5              
- cov            | 1.148665986924513  
+ cov            | 1.1486659869245128 
  w_warehouse_sk | 5                  
  i_item_sk      | 15949              
  d_moy          | 2                  
@@ -2682,7 +2682,7 @@
  i_item_sk      | 17717              
  d_moy          | 2                  
  mean           | 235.25             
- cov            | 1.1416239351288795 
+ cov            | 1.1416239351288797 
 -RECORD 244--------------------------
  w_warehouse_sk | 5                  
  i_item_sk      | 17927              
