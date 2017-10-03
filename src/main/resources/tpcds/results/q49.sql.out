@@ -115,13 +115,13 @@
  currency_rank | 9                      
 -RECORD 19------------------------------
  channel       | store                  
- item          | 4063                   
+ item          | 9029                   
  return_ratio  | 1.00000000000000000000 
  return_rank   | 10                     
  currency_rank | 10                     
 -RECORD 20------------------------------
  channel       | store                  
- item          | 9029                   
+ item          | 4063                   
  return_ratio  | 1.00000000000000000000 
  return_rank   | 10                     
  currency_rank | 10                     

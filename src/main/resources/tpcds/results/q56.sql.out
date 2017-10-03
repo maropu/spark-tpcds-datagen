@@ -6,13 +6,13 @@
  i_item_id   | AAAAAAAANEFAAAAA 
  total_sales | null             
 -RECORD 2-----------------------
- i_item_id   | AAAAAAAAEPDEAAAA 
+ i_item_id   | AAAAAAAAIGBEAAAA 
  total_sales | 0.00             
 -RECORD 3-----------------------
  i_item_id   | AAAAAAAACENDAAAA 
  total_sales | 0.00             
 -RECORD 4-----------------------
- i_item_id   | AAAAAAAAIGBEAAAA 
+ i_item_id   | AAAAAAAAEPDEAAAA 
  total_sales | 0.00             
 -RECORD 5-----------------------
  i_item_id   | AAAAAAAAFBGBAAAA 
@@ -177,10 +177,10 @@
  i_item_id   | AAAAAAAAACGCAAAA 
  total_sales | 562.68           
 -RECORD 59----------------------
- i_item_id   | AAAAAAAAEKLBAAAA 
+ i_item_id   | AAAAAAAAAEGAAAAA 
  total_sales | 572.32           
 -RECORD 60----------------------
- i_item_id   | AAAAAAAAAEGAAAAA 
+ i_item_id   | AAAAAAAAEKLBAAAA 
  total_sales | 572.32           
 -RECORD 61----------------------
  i_item_id   | AAAAAAAAAHCBAAAA 
