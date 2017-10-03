@@ -101,14 +101,14 @@ object TPCDSQueryValidator {
       val expectedOutput = fileToString(resultFile).replace(s"$header\n", "").trim
       if (expectedOutput != output) {
         println(
-          s"""Unmatched output found in $name:
+          s"""Validation FAILED in $name:
              |expected:
              |$expectedOutput
              |actual:
              |$output
            """.stripMargin)
       } else {
-        println(s"Validation OK for $name")
+        println(s"Validation PASSED in $name")
       }
     }
   }
