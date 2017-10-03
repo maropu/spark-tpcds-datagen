@@ -47,11 +47,9 @@ object TPCDSQueryValidator {
   private val goldenFilePath = new File(baseResourcePath, "results")
 
   val conf = new SparkConf()
-      .setMaster("local[1]")
       .setAppName("validate-tpcds-queries")
       .set("spark.sql.parquet.compression.codec", "snappy")
       .set("spark.sql.shuffle.partitions", "4")
-      .set("spark.driver.memory", "8g")
       .set("spark.driver.extraJavaOptions", "-XX:+UseG1GC")
       .set("spark.sql.autoBroadcastJoinThreshold", (20 * 1024 * 1024).toString)
       .set("spark.sql.crossJoin.enabled", "true")

@@ -60,6 +60,8 @@ ${_DIR}/../bin/dsdgen                              \
 # Output validation results into a temporary file
 _RESULTS_TEMP_FILE=`mktemp`
 ${_DIR}/../bin/run-tpcds-sf-1-test.sh  \
+  --conf spark.master=local[4]         \
+  --conf spark.driver.memory=8g        \
   --data-location ${_GENDATA_TEMP_DIR} \
   > ${_RESULTS_TEMP_FILE}
 
