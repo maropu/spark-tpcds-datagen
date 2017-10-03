@@ -431,17 +431,6 @@
 -RECORD 39-------------------
  prev_year      | 2001       
  year           | 2002       
- i_brand_id     | 9016010    
- i_class_id     | 16         
- i_category_id  | 9          
- i_manufact_id  | 662        
- prev_yr_cnt    | 5306       
- curr_yr_cnt    | 4197       
- sales_cnt_diff | -1109      
- sales_amt_diff | -29664.55  
--RECORD 40-------------------
- prev_year      | 2001       
- year           | 2002       
  i_brand_id     | 2001001    
  i_class_id     | 1          
  i_category_id  | 9          
@@ -450,6 +439,17 @@
  curr_yr_cnt    | 5200       
  sales_cnt_diff | -1109      
  sales_amt_diff | -13881.98  
+-RECORD 40-------------------
+ prev_year      | 2001       
+ year           | 2002       
+ i_brand_id     | 9016010    
+ i_class_id     | 16         
+ i_category_id  | 9          
+ i_manufact_id  | 662        
+ prev_yr_cnt    | 5306       
+ curr_yr_cnt    | 4197       
+ sales_cnt_diff | -1109      
+ sales_amt_diff | -29664.55  
 -RECORD 41-------------------
  prev_year      | 2001       
  year           | 2002       
@@ -750,17 +750,6 @@
 -RECORD 68-------------------
  prev_year      | 2001       
  year           | 2002       
- i_brand_id     | 9010008    
- i_class_id     | 10         
- i_category_id  | 9          
- i_manufact_id  | 621        
- prev_yr_cnt    | 5897       
- curr_yr_cnt    | 4955       
- sales_cnt_diff | -942       
- sales_amt_diff | -1466.75   
--RECORD 69-------------------
- prev_year      | 2001       
- year           | 2002       
  i_brand_id     | 3003001    
  i_class_id     | 9          
  i_category_id  | 9          
@@ -769,6 +758,17 @@
  curr_yr_cnt    | 4761       
  sales_cnt_diff | -942       
  sales_amt_diff | -22794.72  
+-RECORD 69-------------------
+ prev_year      | 2001       
+ year           | 2002       
+ i_brand_id     | 9010008    
+ i_class_id     | 10         
+ i_category_id  | 9          
+ i_manufact_id  | 621        
+ prev_yr_cnt    | 5897       
+ curr_yr_cnt    | 4955       
+ sales_cnt_diff | -942       
+ sales_amt_diff | -1466.75   
 -RECORD 70-------------------
  prev_year      | 2001       
  year           | 2002       
