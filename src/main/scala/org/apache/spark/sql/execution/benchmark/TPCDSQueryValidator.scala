@@ -82,6 +82,7 @@ object TPCDSQueryValidator {
         resourceToString(s"tpcds/results/$name.sql.out")
       }).replace(s"$header\n", "").trim
 
+      // scalastyle:off println
       if (expectedOutput == output) {
         println(s"Validation PASSED in $name")
       } else {
@@ -93,6 +94,7 @@ object TPCDSQueryValidator {
              |$output
            """.stripMargin)
       }
+      // scalastyle:on println
     }
   }
 
