@@ -1,0 +1,373 @@
+Validation PASSED in q1
+Validation PASSED in q2
+Validation PASSED in q3
+Validation PASSED in q4
+Validation PASSED in q5
+Validation FAILED in q6:
+expected:
+-RECORD 0-----
+ state | AK   
+ cnt   | 10   
+-RECORD 1-----
+ state | MA   
+ cnt   | 10   
+-RECORD 2-----
+ state | AZ   
+ cnt   | 11   
+-RECORD 3-----
+ state | ME   
+ cnt   | 13   
+-RECORD 4-----
+ state | VT   
+ cnt   | 14   
+-RECORD 5-----
+ state | NV   
+ cnt   | 15   
+-RECORD 6-----
+ state | NH   
+ cnt   | 16   
+-RECORD 7-----
+ state | UT   
+ cnt   | 17   
+-RECORD 8-----
+ state | NJ   
+ cnt   | 21   
+-RECORD 9-----
+ state | MD   
+ cnt   | 22   
+-RECORD 10----
+ state | WY   
+ cnt   | 25   
+-RECORD 11----
+ state | NM   
+ cnt   | 26   
+-RECORD 12----
+ state | OR   
+ cnt   | 31   
+-RECORD 13----
+ state | WA   
+ cnt   | 36   
+-RECORD 14----
+ state | ND   
+ cnt   | 38   
+-RECORD 15----
+ state | ID   
+ cnt   | 39   
+-RECORD 16----
+ state | SC   
+ cnt   | 45   
+-RECORD 17----
+ state | WV   
+ cnt   | 50   
+-RECORD 18----
+ state | FL   
+ cnt   | 51   
+-RECORD 19----
+ state | OK   
+ cnt   | 53   
+-RECORD 20----
+ state | MT   
+ cnt   | 53   
+-RECORD 21----
+ state | CO   
+ cnt   | 57   
+-RECORD 22----
+ state | AR   
+ cnt   | 58   
+-RECORD 23----
+ state | NY   
+ cnt   | 58   
+-RECORD 24----
+ state | PA   
+ cnt   | 62   
+-RECORD 25----
+ state | LA   
+ cnt   | 63   
+-RECORD 26----
+ state | AL   
+ cnt   | 63   
+-RECORD 27----
+ state | SD   
+ cnt   | 70   
+-RECORD 28----
+ state | WI   
+ cnt   | 80   
+-RECORD 29----
+ state | null 
+ cnt   | 81   
+-RECORD 30----
+ state | NC   
+ cnt   | 82   
+-RECORD 31----
+ state | MI   
+ cnt   | 82   
+-RECORD 32----
+ state | MS   
+ cnt   | 83   
+-RECORD 33----
+ state | CA   
+ cnt   | 84   
+-RECORD 34----
+ state | MN   
+ cnt   | 85   
+-RECORD 35----
+ state | MO   
+ cnt   | 88   
+-RECORD 36----
+ state | IL   
+ cnt   | 95   
+-RECORD 37----
+ state | TN   
+ cnt   | 102  
+-RECORD 38----
+ state | IA   
+ cnt   | 102  
+-RECORD 39----
+ state | IN   
+ cnt   | 103  
+-RECORD 40----
+ state | KY   
+ cnt   | 104  
+-RECORD 41----
+ state | NE   
+ cnt   | 113  
+-RECORD 42----
+ state | OH   
+ cnt   | 114  
+-RECORD 43----
+ state | VA   
+ cnt   | 130  
+-RECORD 44----
+ state | KS   
+ cnt   | 139  
+-RECORD 45----
+ state | GA   
+ cnt   | 168  
+-RECORD 46----
+ state | TX   
+ cnt   | 216
+actual:
+-RECORD 0-----
+ state | FL   
+ cnt   | 11   
+-RECORD 1-----
+ state | UT   
+ cnt   | 11   
+-RECORD 2-----
+ state | WA   
+ cnt   | 12   
+-RECORD 3-----
+ state | HI   
+ cnt   | 12   
+-RECORD 4-----
+ state | MD   
+ cnt   | 12   
+-RECORD 5-----
+ state | RI   
+ cnt   | 16   
+-RECORD 6-----
+ state | AZ   
+ cnt   | 19   
+-RECORD 7-----
+ state | LA   
+ cnt   | 20   
+-RECORD 8-----
+ state | AK   
+ cnt   | 20   
+-RECORD 9-----
+ state | ND   
+ cnt   | 23   
+-RECORD 10----
+ state | ME   
+ cnt   | 24   
+-RECORD 11----
+ state | SC   
+ cnt   | 24   
+-RECORD 12----
+ state | CT   
+ cnt   | 26   
+-RECORD 13----
+ state | OR   
+ cnt   | 32   
+-RECORD 14----
+ state | CO   
+ cnt   | 43   
+-RECORD 15----
+ state | PA   
+ cnt   | 50   
+-RECORD 16----
+ state | NY   
+ cnt   | 51   
+-RECORD 17----
+ state | CA   
+ cnt   | 51   
+-RECORD 18----
+ state | MT   
+ cnt   | 53   
+-RECORD 19----
+ state | WV   
+ cnt   | 55   
+-RECORD 20----
+ state | WI   
+ cnt   | 69   
+-RECORD 21----
+ state | KY   
+ cnt   | 71   
+-RECORD 22----
+ state | OK   
+ cnt   | 77   
+-RECORD 23----
+ state | null 
+ cnt   | 79   
+-RECORD 24----
+ state | AR   
+ cnt   | 79   
+-RECORD 25----
+ state | MO   
+ cnt   | 79   
+-RECORD 26----
+ state | MI   
+ cnt   | 80   
+-RECORD 27----
+ state | IL   
+ cnt   | 89   
+-RECORD 28----
+ state | AL   
+ cnt   | 98   
+-RECORD 29----
+ state | MN   
+ cnt   | 99   
+-RECORD 30----
+ state | SD   
+ cnt   | 112  
+-RECORD 31----
+ state | OH   
+ cnt   | 117  
+-RECORD 32----
+ state | IA   
+ cnt   | 120  
+-RECORD 33----
+ state | NE   
+ cnt   | 121  
+-RECORD 34----
+ state | MS   
+ cnt   | 123  
+-RECORD 35----
+ state | TN   
+ cnt   | 131  
+-RECORD 36----
+ state | GA   
+ cnt   | 142  
+-RECORD 37----
+ state | NC   
+ cnt   | 143  
+-RECORD 38----
+ state | VA   
+ cnt   | 171  
+-RECORD 39----
+ state | IN   
+ cnt   | 178  
+-RECORD 40----
+ state | KS   
+ cnt   | 219  
+-RECORD 41----
+ state | TX   
+ cnt   | 346
+           
+Validation PASSED in q7
+Validation PASSED in q8
+Validation PASSED in q9
+Validation PASSED in q10
+Validation PASSED in q11
+Validation PASSED in q12
+Validation PASSED in q13
+Validation PASSED in q14a
+Validation PASSED in q14b
+Validation PASSED in q15
+Validation PASSED in q16
+Validation PASSED in q17
+Validation PASSED in q18
+Validation PASSED in q19
+Validation PASSED in q20
+Validation PASSED in q21
+Validation PASSED in q22
+Validation PASSED in q23a
+Validation PASSED in q23b
+Validation PASSED in q24a
+Validation PASSED in q24b
+Validation PASSED in q25
+Validation PASSED in q26
+Validation PASSED in q27
+Validation PASSED in q28
+Validation PASSED in q29
+Validation PASSED in q30
+Validation PASSED in q31
+Validation PASSED in q32
+Validation PASSED in q33
+Validation PASSED in q34
+Validation PASSED in q35
+Validation PASSED in q36
+Validation PASSED in q37
+Validation PASSED in q38
+Validation PASSED in q39a
+Validation PASSED in q39b
+Validation PASSED in q40
+Validation PASSED in q41
+Validation PASSED in q42
+Validation PASSED in q43
+Validation PASSED in q44
+Validation PASSED in q45
+Validation PASSED in q46
+Validation PASSED in q47
+Validation PASSED in q48
+Validation PASSED in q49
+Validation PASSED in q50
+Validation PASSED in q51
+Validation PASSED in q52
+Validation PASSED in q53
+Validation PASSED in q54
+Validation PASSED in q55
+Validation PASSED in q56
+Validation PASSED in q57
+Validation PASSED in q58
+Validation PASSED in q59
+Validation PASSED in q60
+Validation PASSED in q61
+Validation PASSED in q62
+Validation PASSED in q63
+Validation PASSED in q64
+Validation PASSED in q65
+Validation PASSED in q66
+Validation PASSED in q67
+Validation PASSED in q68
+Validation PASSED in q69
+Validation PASSED in q70
+Validation PASSED in q71
+Validation PASSED in q72
+Validation PASSED in q73
+Validation PASSED in q74
+Validation PASSED in q75
+Validation PASSED in q76
+Validation PASSED in q77
+Validation PASSED in q78
+Validation PASSED in q79
+Validation PASSED in q80
+Validation PASSED in q81
+Validation PASSED in q82
+Validation PASSED in q83
+Validation PASSED in q84
+Validation PASSED in q85
+Validation PASSED in q86
+Validation PASSED in q87
+Validation PASSED in q88
+Validation PASSED in q89
+Validation PASSED in q90
+Validation PASSED in q91
+Validation PASSED in q92
+Validation PASSED in q93
+Validation PASSED in q94
+Validation PASSED in q95
+Validation PASSED in q96
+Validation PASSED in q97
+Validation PASSED in q98
+Validation PASSED in q99
