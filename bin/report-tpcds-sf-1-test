@@ -74,6 +74,12 @@ else
   OUTPUT_FILE=${OUTPUT_FILE_PREFIX}.PASSED-${_DATE}.log
 fi
 
+# Format metrics and append them into reports/metrics
+${_DIR}/../bin/format-codegen-metrics ${OUTPUT_FILE} classes avg >> ${_DIR}/../reports/metrics/codegen-classes-avg.csv
+${_DIR}/../bin/format-codegen-metrics ${OUTPUT_FILE} classes max >> ${_DIR}/../reports/metrics/codegen-classes-max.csv
+${_DIR}/../bin/format-codegen-metrics ${OUTPUT_FILE} methods avg >> ${_DIR}/../reports/metrics/codegen-methods-avg.csv
+${_DIR}/../bin/format-codegen-metrics ${OUTPUT_FILE} methods max >> ${_DIR}/../reports/metrics/codegen-methods-max.csv
+
 cat ${_RESULTS_TEMP_FILE} >> ${OUTPUT_FILE}
 echo "TPC-DS validation results written to ${OUTPUT_FILE}" 1>&2
 
