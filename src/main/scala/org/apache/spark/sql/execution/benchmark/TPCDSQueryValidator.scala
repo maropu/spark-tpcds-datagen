@@ -20,7 +20,10 @@ package org.apache.spark.sql.execution.benchmark
 import java.io.File
 import java.nio.file.Paths
 
+import com.codahale.metrics.{ExponentiallyDecayingReservoir, Histogram, MetricRegistry}
+
 import org.apache.spark.SparkConf
+import org.apache.spark.metrics.source.CodegenMetrics._
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.execution.benchmark.Utils._
 
@@ -51,9 +54,31 @@ object TPCDSQueryValidator {
     }
   }
 
+  private lazy val genClassMetricHistogram =
+    metricRegistry.histogram(MetricRegistry.name("generatedClassSize"))
+  private lazy val genMethodMetricHistogram =
+    metricRegistry.histogram(MetricRegistry.name("generatedMethodSize"))
+
+  private def refreshHistogramMetrics(): Unit = {
+    Seq(genClassMetricHistogram, genMethodMetricHistogram).foreach { hist =>
+      val clazz = hist.getClass
+      val field = clazz.getDeclaredField("reservoir")
+      field.setAccessible(true)
+      field.set(hist, new ExponentiallyDecayingReservoir())
+    }
+  }
+
+  private def metricAsString(h: Histogram): String = {
+    val metric = h.getSnapshot
+    s"${metric.getMean},${metric.getMax},${metric.get75thPercentile()}"
+  }
+
   def validateTpcdsTests(dataLocation: String, queries: Seq[String]): Unit = {
     setupTables(dataLocation)
     queries.foreach { name =>
+      // Reset metrics for codegen
+      refreshHistogramMetrics()
+
       val queryString = resourceToString(s"tpcds/queries/$name.sql")
       val output = formatOutput(
         df = spark.sql(queryString),
@@ -83,17 +108,23 @@ object TPCDSQueryValidator {
       }).replace(s"$header\n", "").trim
 
       // scalastyle:off println
+      println(s"===== TPCDS QUERY VALIDATION RESULTS FOR $name =====")
       if (expectedOutput == output) {
-        println(s"Validation PASSED in $name")
+        println("- result check: PASSED")
       } else {
         println(
-          s"""Validation FAILED in $name:
+          s"""- result check: FAILED
              |expected:
              |$expectedOutput
              |actual:
              |$output
            """.stripMargin)
       }
+      println(
+        s"""- codegen metrics
+           |classes:${metricAsString(genClassMetricHistogram)}
+           |methods:${metricAsString(genMethodMetricHistogram)}
+         """.stripMargin)
       // scalastyle:on println
     }
   }
