@@ -46,7 +46,7 @@ _GENTABLES="catalog_sales,catalog_returns,inventory,store_sales,store_returns,we
 ${_DIR}/../bin/dsdgen                              \
   --conf spark.master=local[4]                     \
   --conf spark.driver.memory=8g                    \
-  --conf spark.executor.heartbeatInterval=1000000s \
+  --conf spark.executor.heartbeatInterval=100000s  \
   --conf spark.network.timeout=1000000s            \
   --scale-factor 1                                 \
   --overwrite                                      \
