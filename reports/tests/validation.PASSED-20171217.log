@@ -1,0 +1,618 @@
+===== TPCDS QUERY VALIDATION RESULTS FOR q1 =====
+- result check: PASSED
+- codegen metrics
+classes:2046.9206470869983,9579,2025.0
+methods:85.76217335398451,1036,120.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q2 =====
+- result check: PASSED
+- codegen metrics
+classes:2150.5507653343952,15554,2435.0
+methods:144.1323102368915,5839,110.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q3 =====
+- result check: PASSED
+- codegen metrics
+classes:2347.611385465146,10870,3712.0
+methods:106.57388619041299,1341,141.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q4 =====
+- result check: PASSED
+- codegen metrics
+classes:2408.4376286021193,11577,3372.0
+methods:155.3453377646548,2123,162.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q5 =====
+- result check: PASSED
+- codegen metrics
+classes:2455.980038758584,11551,3915.0
+methods:142.32476411348063,2544,150.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q6 =====
+- result check: PASSED
+- codegen metrics
+classes:2108.9996165020007,8351,3343.0
+methods:81.35926202470836,1048,115.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q7 =====
+- result check: PASSED
+- codegen metrics
+classes:2539.190476190477,15255,3362.0
+methods:156.3026315789474,3494,166.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q8 =====
+- result check: PASSED
+- codegen metrics
+classes:2236.375,11752,3486.0
+methods:86.79710144927536,1266,135.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q9 =====
+- result check: PASSED
+- codegen metrics
+classes:2170.422667779834,4887,3607.0
+methods:110.50304109150117,907,176.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q10 =====
+- result check: PASSED
+- codegen metrics
+classes:2159.192136043668,9893,2834.0
+methods:114.32788861831236,1184,181.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q11 =====
+- result check: PASSED
+- codegen metrics
+classes:2883.854098104066,12680,4396.0
+methods:173.13624733676153,2059,194.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q12 =====
+- result check: PASSED
+- codegen metrics
+classes:1950.4311493041046,11325,2660.0
+methods:87.83393160131334,1453,102.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q13 =====
+- result check: PASSED
+- codegen metrics
+classes:2244.944945837469,13141,3362.0
+methods:159.38204744497696,4114,147.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q14a =====
+- result check: PASSED
+- codegen metrics
+classes:1809.1853141168392,8472,2132.0
+methods:84.7789851039333,1269,116.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q14b =====
+- result check: PASSED
+- codegen metrics
+classes:2130.3590901578955,8086,3557.0
+methods:116.12628689228872,706,186.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q15 =====
+- result check: PASSED
+- codegen metrics
+classes:2312.111111111111,12031,3343.0
+methods:104.75806451612901,1807,141.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q16 =====
+- result check: PASSED
+- codegen metrics
+classes:2152.1955306489117,13075,3250.0
+methods:102.51227211773944,2032,143.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q17 =====
+- result check: PASSED
+- codegen metrics
+classes:1930.642210432807,24242,2526.0
+methods:121.7947687498284,9741,145.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q18 =====
+- result check: PASSED
+- codegen metrics
+classes:2308.462192896364,17090,2969.0
+methods:169.5253294448164,4508,160.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q19 =====
+- result check: PASSED
+- codegen metrics
+classes:2294.7916666666665,13300,3487.0
+methods:114.90697674418601,1781,148.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q20 =====
+- result check: PASSED
+- codegen metrics
+classes:1942.9935263426314,11325,2405.0
+methods:87.2353083091967,1453,87.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q21 =====
+- result check: PASSED
+- codegen metrics
+classes:2179.125,12855,2265.0
+methods:112.23170731707316,2280,136.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q22 =====
+- result check: PASSED
+- codegen metrics
+classes:2342.7000000000003,12366,2332.0
+methods:123.21917808219177,1960,147.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q23a =====
+- result check: PASSED
+- codegen metrics
+classes:1865.017417633236,10092,2129.0
+methods:76.29402524585386,1106,115.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q23b =====
+- result check: PASSED
+- codegen metrics
+classes:2288.7723866722176,8553,3942.0
+methods:113.45309880185546,1078,159.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q24a =====
+- result check: PASSED
+- codegen metrics
+classes:2395.9414929127793,15221,3357.0
+methods:132.0634718981268,2344,164.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q24b =====
+- result check: PASSED
+- codegen metrics
+classes:0.0,0,0.0
+methods:0.0,0,0.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q25 =====
+- result check: PASSED
+- codegen metrics
+classes:2087.3417996196386,16915,2184.0
+methods:116.92915130173789,3073,147.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q26 =====
+- result check: PASSED
+- codegen metrics
+classes:2247.9629629629635,15255,2550.0
+methods:130.73684210526318,3494,145.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q27 =====
+- result check: PASSED
+- codegen metrics
+classes:2654.0,15903,3362.0
+methods:178.72727272727272,3824,179.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q28 =====
+- result check: PASSED
+- codegen metrics
+classes:3098.825086437486,9683,4541.0
+methods:150.17025018608453,2026,192.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q29 =====
+- result check: PASSED
+- codegen metrics
+classes:2489.3149784118677,16651,3487.0
+methods:154.2310173261332,3016,181.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q30 =====
+- result check: PASSED
+- codegen metrics
+classes:2400.07249686081,10674,3596.0
+methods:113.52440359569498,1155,166.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q31 =====
+- result check: PASSED
+- codegen metrics
+classes:2483.5307150268463,10816,4261.0
+methods:140.115843978594,1492,181.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q32 =====
+- result check: PASSED
+- codegen metrics
+classes:1820.7631578947369,9673,1969.0
+methods:71.18253968253967,1103,102.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q33 =====
+- result check: PASSED
+- codegen metrics
+classes:2439.6591372691864,10787,3731.0
+methods:104.81428077636214,1175,141.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q34 =====
+- result check: PASSED
+- codegen metrics
+classes:2102.1370887445937,10100,3639.0
+methods:96.28322253939416,790,143.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q35 =====
+- result check: PASSED
+- codegen metrics
+classes:2149.034591313135,15014,2911.0
+methods:134.55837366573138,4365,143.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q36 =====
+- result check: PASSED
+- codegen metrics
+classes:1845.0912315896528,12655,2249.0
+methods:82.26221115622545,2008,63.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q37 =====
+- result check: PASSED
+- codegen metrics
+classes:1885.552992684297,10339,2258.0
+methods:79.69976272112883,1138,117.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q38 =====
+- result check: PASSED
+- codegen metrics
+classes:1856.0931833275786,8616,2548.0
+methods:74.57671202450585,714,116.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q39a =====
+- result check: PASSED
+- codegen metrics
+classes:2137.155174442943,13214,2617.0
+methods:132.52182897346864,2909,151.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q39b =====
+- result check: PASSED
+- codegen metrics
+classes:4384.5,8237,8237.0
+methods:415.85714285714283,1379,1170.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q40 =====
+- result check: PASSED
+- codegen metrics
+classes:1971.6428571428569,12858,2240.0
+methods:100.25,2358,117.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q41 =====
+- result check: PASSED
+- codegen metrics
+classes:2521.3500000000004,11882,2211.0
+methods:134.25,4497,117.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q42 =====
+- result check: PASSED
+- codegen metrics
+classes:2245.2256421442107,10881,2576.0
+methods:101.07010559419246,1352,141.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q43 =====
+- result check: PASSED
+- codegen metrics
+classes:3050.4960457527086,18192,3032.0
+methods:217.75938344637558,6293,176.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q44 =====
+- result check: PASSED
+- codegen metrics
+classes:1936.3039933157036,8396,1978.0
+methods:78.18882371135456,1099,110.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q45 =====
+- result check: PASSED
+- codegen metrics
+classes:2511.4999999999995,13876,3486.0
+methods:125.28571428571429,1895,176.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q46 =====
+- result check: PASSED
+- codegen metrics
+classes:2163.5254020688567,13246,2617.0
+methods:111.01448899157646,1978,147.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q47 =====
+- result check: PASSED
+- codegen metrics
+classes:1970.9607530886747,12058,2733.0
+methods:100.56423003485433,1611,130.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q48 =====
+- result check: PASSED
+- codegen metrics
+classes:2034.9290413300105,10441,3212.0
+methods:134.61110745294926,3002,144.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q49 =====
+- result check: PASSED
+- codegen metrics
+classes:1991.4268899144959,11502,2245.0
+methods:101.98419898203362,1962,116.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q50 =====
+- result check: PASSED
+- codegen metrics
+classes:2502.6083338550825,17540,3042.0
+methods:175.72201828415936,4672,193.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q51 =====
+- result check: PASSED
+- codegen metrics
+classes:1666.6048423002844,10042,2315.0
+methods:62.184544054688004,1080,60.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q52 =====
+- result check: PASSED
+- codegen metrics
+classes:2350.2348638615035,10881,3712.0
+methods:106.74475977503769,1352,141.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q53 =====
+- result check: PASSED
+- codegen metrics
+classes:1944.105425978949,10914,2241.0
+methods:90.60189186662284,1379,127.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q54 =====
+- result check: PASSED
+- codegen metrics
+classes:2274.868816541066,11841,3589.0
+methods:96.77325878934928,1168,141.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q55 =====
+- result check: PASSED
+- codegen metrics
+classes:2311.0915347391456,10807,2306.0
+methods:102.16212868557146,1330,141.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q56 =====
+- result check: PASSED
+- codegen metrics
+classes:2351.6410256410254,11208,3731.0
+methods:97.91911764705883,1209,136.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q57 =====
+- result check: PASSED
+- codegen metrics
+classes:1918.3403540649929,11843,2617.0
+methods:94.82616406038402,1502,120.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q58 =====
+- result check: PASSED
+- codegen metrics
+classes:2550.658736522655,10517,3708.0
+methods:154.9076598652276,4067,174.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q59 =====
+- result check: PASSED
+- codegen metrics
+classes:2359.8427348043206,17006,2556.0
+methods:159.11248048737875,6011,118.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q60 =====
+- result check: PASSED
+- codegen metrics
+classes:1780.6666666666665,3807,3487.0
+methods:83.68421052631578,337,179.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q61 =====
+- result check: PASSED
+- codegen metrics
+classes:1803.749418288608,9078,1985.0
+methods:90.33948341556727,913,141.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q62 =====
+- result check: PASSED
+- codegen metrics
+classes:2446.6666666666665,15587,2317.0
+methods:157.04000000000002,3834,145.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q63 =====
+- result check: PASSED
+- codegen metrics
+classes:1895.4246638057264,10914,2241.0
+methods:86.21164508001965,1379,114.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q64 =====
+- result check: PASSED
+- codegen metrics
+classes:2185.345503414928,23440,2589.0
+methods:136.1087267844073,4740,147.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q65 =====
+- result check: PASSED
+- codegen metrics
+classes:2707.80707523929,9634,4194.0
+methods:125.45708494464479,1052,176.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q66 =====
+- result check: PASSED
+- codegen metrics
+classes:3972.098329962341,33688,3395.0
+methods:237.18250780504235,18799,223.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q67 =====
+- result check: PASSED
+- codegen metrics
+classes:1796.5771411595795,12494,2246.0
+methods:93.513242245336,2596,89.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q68 =====
+- result check: PASSED
+- codegen metrics
+classes:2189.516129032259,14095,2696.0
+methods:120.76415094339627,2490,157.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q69 =====
+- result check: PASSED
+- codegen metrics
+classes:1907.217091892486,9273,2324.0
+methods:84.85184159162695,899,117.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q70 =====
+- result check: PASSED
+- codegen metrics
+classes:1897.5404507684877,11112,2246.0
+methods:76.30872733767056,1401,100.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q71 =====
+- result check: PASSED
+- codegen metrics
+classes:2256.9999999999995,9624,3938.0
+methods:110.1604938271605,1236,153.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q72 =====
+- result check: PASSED
+- codegen metrics
+classes:2010.904605112886,16558,2589.0
+methods:93.61883183471714,2146,147.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q73 =====
+- result check: PASSED
+- codegen metrics
+classes:2136.666666666666,10100,2283.0
+methods:92.71621621621621,790,141.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q74 =====
+- result check: PASSED
+- codegen metrics
+classes:2440.550366400108,11166,3712.0
+methods:129.8709984902894,1367,176.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q75 =====
+- result check: PASSED
+- codegen metrics
+classes:2012.6239561605307,9520,2595.0
+methods:112.25982265712399,1452,132.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q76 =====
+- result check: PASSED
+- codegen metrics
+classes:2234.2000000000003,7796,2596.0
+methods:110.17045454545455,1163,145.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q77 =====
+- result check: PASSED
+- codegen metrics
+classes:2338.0857557526247,10937,3236.0
+methods:116.53810752697392,1593,136.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q78 =====
+- result check: PASSED
+- codegen metrics
+classes:2422.178802959648,12909,3112.0
+methods:146.21911402725658,2383,176.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q79 =====
+- result check: PASSED
+- codegen metrics
+classes:2319.6723657017387,12668,3527.0
+methods:117.76115560790731,1940,172.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q80 =====
+- result check: PASSED
+- codegen metrics
+classes:2117.2411671362543,13584,2211.0
+methods:116.9334039746796,2178,130.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q81 =====
+- result check: PASSED
+- codegen metrics
+classes:2349.0030049467123,10753,3492.0
+methods:114.37045156807366,1294,174.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q82 =====
+- result check: PASSED
+- codegen metrics
+classes:1944.4616338449716,10339,2258.0
+methods:83.40410643583617,1138,120.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q83 =====
+- result check: PASSED
+- codegen metrics
+classes:2548.784707342711,10308,4482.0
+methods:113.826850286307,1275,143.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q84 =====
+- result check: PASSED
+- codegen metrics
+classes:1699.8644069135705,8354,2077.0
+methods:76.8687621581478,884,134.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q85 =====
+- result check: PASSED
+- codegen metrics
+classes:2236.9489259306824,19623,2379.0
+methods:141.19369209100694,5767,145.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q86 =====
+- result check: PASSED
+- codegen metrics
+classes:1919.021534305345,11112,2284.0
+methods:79.98737830392166,1401,100.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q87 =====
+- result check: PASSED
+- codegen metrics
+classes:1857.0872619649404,8616,2548.0
+methods:74.62719163404152,714,116.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q88 =====
+- result check: PASSED
+- codegen metrics
+classes:1706.9232255390543,6346,2627.0
+methods:80.62303697805167,652,117.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q89 =====
+- result check: PASSED
+- codegen metrics
+classes:2069.289473684211,12114,2694.0
+methods:101.04137931034485,1624,132.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q90 =====
+- result check: PASSED
+- codegen metrics
+classes:1646.989092852668,3391,3361.0
+methods:75.02984246086409,286,128.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q91 =====
+- result check: PASSED
+- codegen metrics
+classes:2156.3333333333335,13910,3487.0
+methods:110.30630630630631,1831,147.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q92 =====
+- result check: PASSED
+- codegen metrics
+classes:1798.0211013995004,9673,1969.0
+methods:71.67387510028466,1103,105.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q93 =====
+- result check: PASSED
+- codegen metrics
+classes:1957.5,10648,1909.0
+methods:91.88135593220338,1544,123.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q94 =====
+- result check: PASSED
+- codegen metrics
+classes:2243.56,13075,2995.0
+methods:107.72222222222223,2032,143.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q95 =====
+- result check: PASSED
+- codegen metrics
+classes:1621.3209017314261,10187,1885.0
+methods:63.5191144989631,1583,76.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q96 =====
+- result check: PASSED
+- codegen metrics
+classes:1632.5,3486,3361.0
+methods:77.6470588235294,323,117.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q97 =====
+- result check: PASSED
+- codegen metrics
+classes:1918.9903123714412,7529,2010.0
+methods:86.40709480952174,706,121.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q98 =====
+- result check: PASSED
+- codegen metrics
+classes:1947.3513513513515,11325,2405.0
+methods:87.59124087591243,1453,87.0
+         
+===== TPCDS QUERY VALIDATION RESULTS FOR q99 =====
+- result check: PASSED
+- codegen metrics
+classes:2314.2173913043475,15587,2317.0
+methods:143.7439024390244,3834,145.0
+         
