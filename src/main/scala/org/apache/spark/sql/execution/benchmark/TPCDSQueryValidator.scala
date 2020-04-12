@@ -37,6 +37,7 @@ object TPCDSQueryValidator {
       .set("spark.sql.shuffle.partitions", "4")
       .set("spark.driver.extraJavaOptions", "-XX:+UseG1GC")
       .set("spark.sql.autoBroadcastJoinThreshold", (20 * 1024 * 1024).toString)
+      // Since Spark 3.0, `spark.sql.crossJoin.enabled` is true by default
       .set("spark.sql.crossJoin.enabled", "true")
 
   val spark = SparkSession.builder.config(conf).getOrCreate()

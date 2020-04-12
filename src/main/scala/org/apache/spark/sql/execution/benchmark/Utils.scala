@@ -24,7 +24,6 @@ import org.apache.commons.lang3.StringUtils
 
 import org.apache.spark.sql.DataFrame
 
-
 private[benchmark] object Utils {
 
   /**

@@ -20,10 +20,9 @@ package org.apache.spark.sql.execution.benchmark
 import java.io.{File, FilenameFilter}
 
 import org.apache.spark.SparkFunSuite
-import org.apache.spark.sql.test.SharedSQLContext
+import org.apache.spark.sql.test.SharedSparkSession
 
-
-class TpcdsDatagenSuite extends SparkFunSuite with SharedSQLContext {
+class TPCDSDatagenSuite extends SparkFunSuite with SharedSparkSession {
 
   ignore("datagen") {
     val outputTempDir = Utils.createTempDir()

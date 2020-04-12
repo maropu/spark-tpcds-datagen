@@ -8,6 +8,8 @@ are daily tracked in the Google Spreadsheet ([performance charts](https://docs.g
 Also, the validation results of the TPCDS queries are stored in [reports/tests](./reports/tests).
  -->
 
+Note that the current `master` branch intends to support [the Spark master branch](https://github.com/apache/spark) and [3.0.0-preview2](https://mvnrepository.com/artifact/org.apache.spark/spark-sql_2.12/3.0.0-preview2) on Scala 2.12.x. If you want to generate TPCDS test data in Spark 2.4.x, please use [branch-2.4](https://github.com/maropu/spark-tpcds-datagen/tree/branch-2.4).
+
 ## How to generate TPCDS data
 
 First of all, you need to set up Spark:
@@ -60,7 +62,7 @@ To quickly generate the TPC-DS test data and run the queries, you just type:
     $ ./bin/report-tpcds-benchmark [output file]
 
 This script finally formats performance results and appends them into ./reports/tpcds-avg-results.csv.
-Notice that, if SPARK_HOME defined, the script uses the Spark.
+Notice that, if `SPARK_HOME` defined, the script uses the Spark.
 Otherwise, it automatically clones the latest master in the repository and uses it.
 To check performance differences with pull requests, you could set a pull request ID in the repository as an option
 and run the quries against it.

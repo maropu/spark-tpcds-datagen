@@ -19,7 +19,6 @@ package org.apache.spark.sql.execution.benchmark
 
 import java.util.Locale
 
-
 class TPCDSQueryValidatorArguments(val args: Array[String]) {
   var dataLocation: String = null
   var queryFilter: Set[String] = Set.empty

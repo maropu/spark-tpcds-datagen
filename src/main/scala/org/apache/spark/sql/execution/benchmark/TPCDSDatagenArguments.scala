@@ -21,7 +21,6 @@ import java.util.Locale
 
 import scala.util.Try
 
-
 class TPCDSDatagenArguments(val args: Array[String]) {
   var outputLocation: String = null
   var scaleFactor = "1"

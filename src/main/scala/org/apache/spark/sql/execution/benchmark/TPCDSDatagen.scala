@@ -22,7 +22,6 @@ import scala.sys.process._
 import org.apache.spark.sql.{Column, DataFrame, Row, SaveMode, SparkSession, SQLContext}
 import org.apache.spark.sql.types._
 
-
 /**
  * This class was copied from `spark-sql-perf` and modified slightly.
  */
@@ -169,12 +168,18 @@ class Tables(sqlContext: SQLContext, scaleFactor: Int) extends Serializable {
         sqlContext.sql(s"DROP TABLE IF EXISTS $databaseName.$name")
       }
       if (!tableExists || overwrite) {
-        sqlContext.createExternalTable(qualifiedTableName, location, format)
+        // In `3.0.0-preview2`, this method has been removed though,
+        // the community is planning to revert it back in the 3.0 official release.
+        // sqlContext.createExternalTable(qualifiedTableName, location, format)
+        sqlContext.sparkSession.catalog.createTable(qualifiedTableName, location, format)
       }
     }
 
     def createTemporaryTable(location: String, format: String): Unit = {
-      sqlContext.read.format(format).load(location).registerTempTable(name)
+      // In `3.0.0-preview2`, this method has been removed though,
+      // the community is planning to revert it back in the 3.0 official release.
+      // sqlContext.read.format(format).load(location).registerTempTable(name)
+      sqlContext.read.format(format).load(location).createOrReplaceTempView(name)
     }
   }
 
