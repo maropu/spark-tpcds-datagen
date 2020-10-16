@@ -28,7 +28,7 @@ _DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 if [ -z "${SPARK_HOME}" ]; then
   # If SPARK_HOME not defined, fetch the latest Spark code from the repository
   export SPARK_HOME=`mktemp -d`
-  rm -rf "${SPARK_HOME}" && git clone https://github.com/apache/spark ${SPARK_HOME}
+  git clone https://github.com/apache/spark ${SPARK_HOME}
   echo "env SPARK_HOME not defined, so use path '${SPARK_HOME}' as SPARK_HOME" 1>&2
 fi
 
