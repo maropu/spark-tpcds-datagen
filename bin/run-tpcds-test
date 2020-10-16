@@ -31,6 +31,12 @@ _DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Load common functions
 . "${_DIR}/utils.sh"
 
+# If Spark not compiled, do it here
+check_spark_compiled
+
+# Do some preparations before launching spark-submit
+parse_args_for_spark_submit "$@"
+
 # Resolve a jar location for the TPCDS data generator
 find_resource() {
   local tpcds_datagen_version=`grep "<version>" "${_DIR}/../pom.xml" | head -n2 | tail -n1 | awk -F '[<>]' '{print $3}'`
@@ -45,11 +51,6 @@ find_resource() {
   fi
 }
 
-# If Spark not compiled, do it here
-check_spark_compiled
-
-# Do some preparations before launching spark-submit
-parse_args_for_spark_submit "$@"
 find_resource
 
 echo "Using \`spark-submit\` from path: $SPARK_HOME" 1>&2

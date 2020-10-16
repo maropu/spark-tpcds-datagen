@@ -22,47 +22,31 @@
 
 set -e -o pipefail
 
-# Determine the current working directory
-_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+# Check if arguments are given correctly
+if [ $# -lt 2 ]; then
+  echo "Usage: report-tpcds-benchmark <TPCDS data> <output file> [<#PR>]" 1>&2
+  exit 1
+fi
+
+TPCDS_DATA=$1
+OUTPUT_FILE=$2
 
 if [ -z "${SPARK_HOME}" ]; then
-  # If SPARK_HOME not defined, fetch the newest Spark code from the repository
-  export SPARK_HOME="${_DIR}/../bin/spark-master"
+  # If SPARK_HOME not defined, fetch the latest Spark code from the repository
+  export SPARK_HOME=`mktemp -d`
   rm -rf "${SPARK_HOME}" && git clone https://github.com/apache/spark ${SPARK_HOME}
   echo "env SPARK_HOME not defined, so use path '${SPARK_HOME}' as SPARK_HOME" 1>&2
 fi
 
-# Check if an output file is given
-if [ $# -lt 1 ]; then
-  echo "You need to specify an output file" 1>&2
-  exit 1
-fi
-
-OUTPUT_FILE=$1
-
 # If the number of pr given, fetch and checkout the pr
-if [ $# -ge 2 ]; then
-  cd ${SPARK_HOME} && git fetch origin pull/$2/head:pr$2 && \
-    git checkout pr$2 &&                                    \
+if [ $# -ge 3 ]; then
+  cd ${SPARK_HOME} && git fetch origin pull/$3/head:pr$3 && \
+    git checkout pr$3 &&                                    \
     git rebase master
 fi
 
-# Generate test data in temp dir
-_GENDATA_TEMP_DIR=`mktemp -d`
-_GENTABLES="catalog_sales,catalog_returns,inventory,store_sales,store_returns,web_sales,web_returns,call_center,catalog_page,customer,customer_address,customer_demographics,date_dim,household_demographics,income_band,item,promotion,reason,ship_mode,store,time_dim,warehouse,web_page,web_site"
-${_DIR}/../bin/dsdgen                              \
-  --conf spark.master=local[4]                     \
-  --conf spark.driver.memory=8g                    \
-  --conf spark.executor.heartbeatInterval=100000s  \
-  --conf spark.network.timeout=1000000s            \
-  --scale-factor 1                                 \
-  --overwrite                                      \
-  --partition-tables                               \
-  --use-double-for-decimal                         \
-  --cluster-by-partition-columns                   \
-  --num-partitions 4                               \
-  --table-filter ${_GENTABLES}                     \
-  --output-location ${_GENDATA_TEMP_DIR}
+# Determine the current working directory
+_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Output performance results into a temporary file
 _RESULTS_TEMP_FILE=`mktemp`
@@ -71,7 +55,7 @@ ${_DIR}/../bin/run-tpcds-benchmark      \
   --conf spark.driver.memory=8g         \
   --conf spark.executor.memory=8g       \
   --conf spark.sql.shuffle.partitions=4 \
-  --data-location ${_GENDATA_TEMP_DIR}  \
+  --data-location ${TPCDS_DATA}         \
   > ${_RESULTS_TEMP_FILE}
 
 # If the given output file has no data, write a header for results
@@ -81,7 +65,7 @@ fi
 
 # Format the output results and append them into the report file
 ${_DIR}/../bin/format-results ${_RESULTS_TEMP_FILE} >> ${OUTPUT_FILE}
-echo "TPC-DS performance results written to ${OUTPUT_FILE}" 1>&2
+echo "TPCDS performance results written to ${OUTPUT_FILE}" 1>&2
 
 # If ENABLE_GIT_PUSH defined, push the updated into git repository
 if [ ! -z "${ENABLE_GIT_PUSH}" ]; then

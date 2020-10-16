@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+
+#
+# Licensed to the Apache Software Foundation (ASF) under one or more
+# contributor license agreements.  See the NOTICE file distributed with
+# this work for additional information regarding copyright ownership.
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+#
+# Shell script for generating TPCDS data with SF=1
+
+# Determine the current working directory
+_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# Generate test data in temp dir
+_GENDATA_TEMP_DIR=`mktemp -d`
+_GENTABLES="catalog_sales,catalog_returns,inventory,store_sales,store_returns,web_sales,web_returns,call_center,catalog_page,customer,customer_address,customer_demographics,date_dim,household_demographics,income_band,item,promotion,reason,ship_mode,store,time_dim,warehouse,web_page,web_site"
+${_DIR}/../bin/dsdgen                                   \
+  --conf spark.master=local[4]                          \
+  --conf spark.driver.memory=8g                         \
+  --conf spark.network.timeout=3601s                    \
+  --conf spark.executor.heartbeatInterval=3600s         \
+  --conf spark.storage.blockManagerSlaveTimeoutMs=3600s \
+  --scale-factor 1                                      \
+  --overwrite                                           \
+  --partition-tables                                    \
+  --use-double-for-decimal                              \
+  --cluster-by-partition-columns                        \
+  --num-partitions 4                                    \
+  --table-filter ${_GENTABLES}                          \
+  --output-location ${_GENDATA_TEMP_DIR}
+
+echo "TPCDS data generated in ${_GENDATA_TEMP_DIR}"
+
