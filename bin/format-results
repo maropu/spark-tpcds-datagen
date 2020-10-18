@@ -20,11 +20,6 @@
 #
 # Shell script for formatting TPCDS benchmark results
 
-if [ -z "${SPARK_HOME}" ]; then
-  echo "env SPARK_HOME not defined" 1>&2
-  exit 1
-fi
-
 if [ $# -ne 1 ]; then
   echo "You need to specify an input file" 1>&2
   exit 1

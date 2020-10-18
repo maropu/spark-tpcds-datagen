@@ -20,11 +20,6 @@
 #
 # Shell script for formatting codegen metrics
 
-if [ -z "${SPARK_HOME}" ]; then
-  echo "env SPARK_HOME not defined" 1>&2
-  exit 1
-fi
-
 if [ $# -lt 3 ]; then
   echo "Usage: format-codegen-metrics <input> <[classes|methods]> <[avg|max]>" 1>&2
   exit 1
