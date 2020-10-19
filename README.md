@@ -1,12 +1,9 @@
 [![Build Status](https://travis-ci.org/maropu/spark-tpcds-datagen.svg?branch=master)](https://travis-ci.org/maropu/spark-tpcds-datagen)
 
-This is the TPCDS data generator for Apache Spark, which is split off from [spark-sql-perf](https://github.com/databricks/spark-sql-perf)
+This is a TPCDS data generator for Apache Spark, which is split off from [spark-sql-perf](https://github.com/databricks/spark-sql-perf)
 and includes pre-built [tpcds-kit](https://github.com/davies/tpcds-kit) for Mac/Linux x86_64 platforms.
-<!--
-To check performance regression for TPCDS, the benchmark results (sf=5) and codegen metrics of the current Spark master
-are daily tracked in the Google Spreadsheet ([performance charts](https://docs.google.com/spreadsheets/d/1V8xoKR9ElU-rOXMH84gb5BbLEw0XAPTJY8c8aZeIqus/edit?usp=sharing) and [metric charts](https://docs.google.com/spreadsheets/d/1MP4q9pVpXWt-cL75brdyQmaZ6uhLhTnLg2ZXv2VLnoQ/edit?usp=sharing)).
-Also, the validation results of the TPCDS queries are stored in [reports/tests](./reports/tests).
- -->
+To check TPCDS performance regression, the benchmark results (sf=20) for the current Spark master
+is daily tracked in the Google Spreadsheet ([performance charts](https://docs.google.com/spreadsheets/d/1V8xoKR9ElU-rOXMH84gb5BbLEw0XAPTJY8c8aZeIqus/edit?usp=sharing)).
 
 Note that the current `master` branch intends to support [3.0.1](https://www.apache.org/dyn/closer.lua/spark/spark-3.0.1) on Scala 2.12.x. If you want to generate TPCDS data in Spark 2.4.x, please use [branch-2.4](https://github.com/maropu/spark-tpcds-datagen/tree/branch-2.4).
 
