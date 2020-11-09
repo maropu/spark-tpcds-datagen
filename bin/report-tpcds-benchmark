@@ -50,12 +50,12 @@ _DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # Output performance results into a temporary file
 _RESULTS_TEMP_FILE=`mktemp`
-${_DIR}/../bin/run-tpcds-benchmark      \
-  --conf spark.master=local[1]          \
-  --conf spark.driver.memory=8g         \
-  --conf spark.executor.memory=8g       \
-  --conf spark.sql.shuffle.partitions=4 \
-  --data-location ${TPCDS_DATA}         \
+${_DIR}/../bin/run-tpcds-benchmark       \
+  --conf spark.ui.enabled=false          \
+  --conf spark.master=local[1]           \
+  --conf spark.driver.memory=60g         \
+  --conf spark.sql.shuffle.partitions=32 \
+  --data-location ${TPCDS_DATA}          \
   > ${_RESULTS_TEMP_FILE}
 
 # If the given output file has no data, write a header for results
