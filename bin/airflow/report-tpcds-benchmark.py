@@ -42,7 +42,7 @@ default_args = {
     'retries': 3,
     'retry_delay': timedelta(minutes=1),
     'retry_exponential_backoff': False,
-    'start_date': days_ago(0),
+    # 'start_date': days_ago(1),
     'depends_on_past': True,
     'wait_for_downstream': True,
     # 'priority_weight': 10,
@@ -60,7 +60,7 @@ dag = DAG(
     dag_id='report-tpcds-benchmark',
     description='Spark TPC-DS Benchmark Results',
     schedule_interval='2 16 * * *',
-    start_date=None,
+    start_date=days_ago(1),
     end_date=None,
     user_defined_macros=None,
     default_args=default_args,
@@ -72,6 +72,25 @@ dag = DAG(
     orientation='TB',
     catchup=False,
     tags=['spark']
+)
+
+checkout_date_command = """
+# If `checkout_date` given, checks out a target snapshot
+if [ -n "${CHECKOUT_DATE_PARAM}" ]; then
+  _CHECKOUT_DATE=${CHECKOUT_DATE_PARAM}
+else
+  _CHECKOUT_DATE="{{ start_date }}"
+fi
+
+echo ${_CHECKOUT_DATE}
+"""
+
+checkout_date = BashOperator(
+    task_id='checkout_date',
+    bash_command=checkout_date_command,
+    env={ 'CHECKOUT_DATE_PARAM': '{{ dag_run.conf["checkout_date"] }}' },
+    xcom_push=True,
+    dag=dag
 )
 
 github_clone_command = """
@@ -90,20 +109,15 @@ github_clone = BashOperator(
 )
 
 build_commamd = """
-# If `checkout_date` given, checks out a target snapshot
-if [ -n "${CHECKOUT_DATE_PARAM}" ]; then
-  _COMMIT_HASHV=`cd ${SPARK_HOME} && git rev-list -1 --before="${CHECKOUT_DATE_PARAM}" master`
-  echo "Checking out spark by date: ${CHECKOUT_DATE_PARAM}(commit: ${_COMMIT_HASHV})" 1>&2
-  cd ${SPARK_HOME} && git checkout ${_COMMIT_HASHV}
-fi
-
-cd ${SPARK_HOME} && \
+_COMMIT_HASHV=`cd ${SPARK_HOME} && git rev-list -1 --before="${CHECKOUT_DATE}" master`
+echo "Checking out spark by date: ${CHECKOUT_DATE}(commit: ${_COMMIT_HASHV})" 1>&2
+cd ${SPARK_HOME} && git checkout ${_COMMIT_HASHV} && \
   ./build/mvn package --also-make --projects assembly -DskipTests
 """
 
 build_envs = {
     'SPARK_HOME': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="github_clone") }}',
-    'CHECKOUT_DATE_PARAM': '{{ dag_run.conf["checkout_date"] }}'
+    'CHECKOUT_DATE': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_date") }}'
 }
 
 build_envs.update(envs)
@@ -124,8 +138,9 @@ create_temp_file = BashOperator(
 
 github_push_command = """
 # Formats the output results and appends them into the report file
+_FORMATTED_DATE=`LANG=en_US.UTF-8 date -d '${CHECKOUT_DATE}' '+%Y/%m/%d %H:%M'`
 _REPORT_FILE=${SPARK_TPCDS_DATAGEN_HOME}/reports/tpcds-avg-results.csv
-${SPARK_TPCDS_DATAGEN_HOME}/bin/format-results ${TEMP_OUTPUT} >> ${_REPORT_FILE}
+${SPARK_TPCDS_DATAGEN_HOME}/bin/format-results ${TEMP_OUTPUT} "${_FORMATTED_DATE}" >> ${_REPORT_FILE}
 
 # Pushs it into git repository
 _DATE=`LANG=en_US.UTF-8 date '+%Y/%m/%d %H:%M'`
@@ -136,7 +151,8 @@ cd ${SPARK_TPCDS_DATAGEN_HOME} && git add ${_REPORT_FILE} &&                    
 
 github_envs = {
     'SPARK_HOME': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="github_clone") }}',
-    'TEMP_OUTPUT': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="create_temp_file") }}'
+    'TEMP_OUTPUT': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="create_temp_file") }}',
+    'CHECKOUT_DATE': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_date") }}'
 }
 
 github_envs.update(envs)
@@ -186,15 +202,10 @@ query_groups = [
     "q1,q2,q3,q4,q5,q6,q7,q8,q9,q10",
     "q11,q12,q13,q14a,q14b,q15,q16,q17,q18,q19,q20",
     "q21,q22,q23a,q23b,q24a,q24b,q25,q26,q27,q28,q29,q30",
-    "q31,q32,q33,q34,q35,q36,q37,q38,q39a,q39b,q40",
-    "q41,q42,q43,q44,q45,q46,q47,q48,q49,q50",
-    "q51,q52,q53,q54,q55,q56,q57,q58,q59,q60",
-    "q61,q62,q63,q64,q65,q66,q67,q68,q69,q70",
+    "q31,q32,q33,q34,q35,q36,q37,q38,q39a,q39b,q40,q41,q42,q43,q44,q45,q46,q47,q48,q49,q50,q51,q52,q53,q54,q55,q56,q57,q58,q59,q60,q61,q62,q63,q64,q65,q66,q67,q68,q69,q70",
     "q71,q72,q73,q74,q75,q76,q77,q78,q79,q80",
-    "q81,q82,q83,q84,q85,q86,q87,q88,q89,q90",
-    "q91,q92,q93,q94,q95,q96,q97,q98,q99",
-    "q5a-v2.7,q6-v2.7,q10a-v2.7,q11-v2.7,q12-v2.7,q14-v2.7,q14a-v2.7,q18a-v2.7,q20-v2.7",
-    "q22-v2.7,q22a-v2.7,q24-v2.7,q27a-v2.7,q34-v2.7,q35-v2.7,q35a-v2.7,q36a-v2.7",
+    "q81,q82,q83,q84,q85,q86,q87,q88,q89,q90,q91,q92,q93,q94,q95,q96,q97,q98,q99",
+    "q5a-v2.7,q6-v2.7,q10a-v2.7,q11-v2.7,q12-v2.7,q14-v2.7,q14a-v2.7,q18a-v2.7,q20-v2.7,q22-v2.7,q22a-v2.7,q24-v2.7,q27a-v2.7,q34-v2.7,q35-v2.7,q35a-v2.7,q36a-v2.7",
     "q47-v2.7,q49-v2.7,q51a-v2.7,q57-v2.7,q64-v2.7,q67a-v2.7,q70a-v2.7,q72-v2.7",
     "q74-v2.7,q75-v2.7,q77a-v2.7,q78-v2.7,q80a-v2.7,q86a-v2.7,q98-v2.7"
 ]
@@ -219,7 +230,7 @@ for index, query_group in enumerate(query_groups):
     ))
 
 # Defines a workflow
-[create_temp_file, github_clone >> build_package] >> run_tpcds_tasks[0]
+[create_temp_file, checkout_date >> github_clone >> build_package] >> run_tpcds_tasks[0]
 run_tpcds_tasks[-1] >> github_push
 
 chain(*run_tpcds_tasks)
