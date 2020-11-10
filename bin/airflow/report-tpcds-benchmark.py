@@ -65,8 +65,8 @@ dag = DAG(
     user_defined_macros=None,
     default_args=default_args,
     params=None,
-    concurrency=4,
-    max_active_runs=2,
+    concurrency=1,
+    max_active_runs=1,
     dagrun_timeout=None,
     default_view='graph',
     orientation='TB',
@@ -79,7 +79,7 @@ checkout_date_command = """
 if [ -n "${CHECKOUT_DATE_PARAM}" ]; then
   _CHECKOUT_DATE=${CHECKOUT_DATE_PARAM}
 else
-  _CHECKOUT_DATE="{{ start_date }}"
+  _CHECKOUT_DATE="{{ dag.start_date }}"
 fi
 
 echo ${_CHECKOUT_DATE}
@@ -138,14 +138,13 @@ create_temp_file = BashOperator(
 
 github_push_command = """
 # Formats the output results and appends them into the report file
-_FORMATTED_DATE=`LANG=en_US.UTF-8 date -d '${CHECKOUT_DATE}' '+%Y/%m/%d %H:%M'`
+_FORMATTED_DATE=`LANG=en_US.UTF-8 date -d "${CHECKOUT_DATE}" '+%Y/%m/%d %H:%M'`
 _REPORT_FILE=${SPARK_TPCDS_DATAGEN_HOME}/reports/tpcds-avg-results.csv
 ${SPARK_TPCDS_DATAGEN_HOME}/bin/format-results ${TEMP_OUTPUT} "${_FORMATTED_DATE}" >> ${_REPORT_FILE}
 
 # Pushs it into git repository
-_DATE=`LANG=en_US.UTF-8 date '+%Y/%m/%d %H:%M'`
-cd ${SPARK_TPCDS_DATAGEN_HOME} && git add ${_REPORT_FILE} &&                    \
-  git commit -m "[AUTOMATICALLY GENERATED] Update TPCDS reports in ${_DATE}" && \
+cd ${SPARK_TPCDS_DATAGEN_HOME} && git add ${_REPORT_FILE} &&                               \
+  git commit -m "[AUTOMATICALLY GENERATED] Update TPCDS reports at ${_FORMATTED_DATE})" && \
   git push origin master
 """
 
@@ -207,7 +206,8 @@ query_groups = [
     "q81,q82,q83,q84,q85,q86,q87,q88,q89,q90,q91,q92,q93,q94,q95,q96,q97,q98,q99",
     "q5a-v2.7,q6-v2.7,q10a-v2.7,q11-v2.7,q12-v2.7,q14-v2.7,q14a-v2.7,q18a-v2.7,q20-v2.7,q22-v2.7,q22a-v2.7,q24-v2.7,q27a-v2.7,q34-v2.7,q35-v2.7,q35a-v2.7,q36a-v2.7",
     "q47-v2.7,q49-v2.7,q51a-v2.7,q57-v2.7,q64-v2.7,q67a-v2.7,q70a-v2.7,q72-v2.7",
-    "q74-v2.7,q75-v2.7,q77a-v2.7,q78-v2.7,q80a-v2.7,q86a-v2.7,q98-v2.7"
+    "q74-v2.7,q75-v2.7,q77a-v2.7,q78-v2.7",
+    "q80a-v2.7,q86a-v2.7,q98-v2.7"
 ]
 
 run_tpcds_tasks = []

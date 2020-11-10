@@ -71,7 +71,7 @@ echo "TPCDS performance results written to ${OUTPUT_FILE}" 1>&2
 if [ ! -z "${ENABLE_GIT_PUSH}" ]; then
   DATE=`LANG=en_US.UTF-8 date '+%Y/%m/%d %H:%M'`
   cd ${_DIR}/.. && git add ${OUTPUT_FILE} &&                                     \
-    git commit -m "[AUTOMATICALLY GENERATED] Update TPCDS reports in ${DATE}" && \
+    git commit -m "[AUTOMATICALLY GENERATED] Update TPCDS reports at ${DATE}" && \
     git push origin master
 fi
 
