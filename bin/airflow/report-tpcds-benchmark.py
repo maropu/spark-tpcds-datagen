@@ -17,6 +17,12 @@
 # specific language governing permissions and limitations
 # under the License.
 
+# A workflow script for running TPCDS benchmarks and pushing the results into GitHub
+# A configuration list is as follows when triggering a workflow:
+#  - tpcds_data:    Specify a path of generated TPCDS data (e.g., {"tpcds_data": "/home/ec2-user/tpcds-sf1-data"})
+#  - checkout_date: Specify a date to check out the Spark codebase via a GitHub command
+#                   (e.g., {"checkout_date": "2020-11-10 00:00:00+00:00"})
+
 from airflow.models import DAG
 from airflow.operators.bash_operator import BashOperator
 from airflow.operators.dummy_operator import DummyOperator
@@ -25,7 +31,7 @@ from airflow.utils.helpers import chain
 
 from datetime import timedelta
 
-# Configurations
+# Default configurations
 envs = {
     'JAVA_HOME': '/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.265.b01-1.amzn2.0.1.x86_64',
     'SPARK_TPCDS_DATAGEN_HOME': '/home/ec2-user/spark-tpcds-datagen',
@@ -74,6 +80,27 @@ dag = DAG(
     tags=['spark']
 )
 
+tpcds_data_command = """
+if [ -n "${TPCDS_DATA_PARAM}" ]; then
+  _TPCDS_DATA=${TPCDS_DATA_PARAM}
+else
+  _TPCDS_DATA=${TPCDS_DATA}
+fi
+
+echo ${_TPCDS_DATA}
+"""
+
+tpcds_data = BashOperator(
+    task_id='tpcds_data',
+    bash_command=tpcds_data_command,
+    env={
+        'TPCDS_DATA_PARAM': '{{ dag_run.conf["tpcds_data"] }}',
+        'TPCDS_DATA': envs['TPCDS_DATA']
+    },
+    xcom_push=True,
+    dag=dag
+)
+
 checkout_date_command = """
 # If `checkout_date` given, checks out a target snapshot
 if [ -n "${CHECKOUT_DATE_PARAM}" ]; then
@@ -96,8 +123,6 @@ checkout_date = BashOperator(
 github_clone_command = """
 _SPARK_HOME=`mktemp -d`
 git clone https://github.com/apache/spark ${_SPARK_HOME} || exit -1
-# TODO: Removes this
-cp /home/ec2-user/TPCDSQueryBenchmark.scala ${_SPARK_HOME}/sql/core/src/test/scala/org/apache/spark/sql/execution/benchmark/
 echo ${_SPARK_HOME}
 """
 
@@ -115,17 +140,14 @@ cd ${SPARK_HOME} && git checkout ${_COMMIT_HASHV} && \
   ./build/mvn package --also-make --projects assembly -DskipTests
 """
 
-build_envs = {
-    'SPARK_HOME': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="github_clone") }}',
-    'CHECKOUT_DATE': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_date") }}'
-}
-
-build_envs.update(envs)
-
 build_package = BashOperator(
     task_id='build_package',
     bash_command=build_commamd,
-    env=build_envs,
+    env={
+        'SPARK_HOME': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="github_clone") }}',
+        'CHECKOUT_DATE': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_date") }}',
+        'JAVA_HOME': envs['JAVA_HOME']
+    },
     dag=dag
 )
 
@@ -148,18 +170,15 @@ cd ${SPARK_TPCDS_DATAGEN_HOME} && git add ${_REPORT_FILE} &&                    
   git push origin master
 """
 
-github_envs = {
-    'SPARK_HOME': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="github_clone") }}',
-    'TEMP_OUTPUT': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="create_temp_file") }}',
-    'CHECKOUT_DATE': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_date") }}'
-}
-
-github_envs.update(envs)
-
 github_push = BashOperator(
     task_id='github_push',
     bash_command=github_push_command,
-    env=github_envs,
+    env={
+        'SPARK_HOME': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="github_clone") }}',
+        'TEMP_OUTPUT': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="create_temp_file") }}',
+        'CHECKOUT_DATE': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_date") }}',
+        'SPARK_TPCDS_DATAGEN_HOME': envs['SPARK_TPCDS_DATAGEN_HOME']
+    },
     dag=dag
 )
 
@@ -170,12 +189,6 @@ _SPARK_VERSION=`grep "<version>" "${SPARK_HOME}/pom.xml" | head -n2 | tail -n1 |
 
 # Temporary output file for each query group
 _TEMP_OUTPUT=`mktemp`
-
-if [ -n "${TPCDS_DATA_PARAM}" ]; then
-  _TPCDS_DATA=${TPCDS_DATA_PARAM}
-else
-  _TPCDS_DATA=${TPCDS_DATA}
-fi
 
 echo "Using \`spark-submit\` from path: $SPARK_HOME" 1>&2
 ${SPARK_HOME}/bin/spark-submit                                         \
@@ -188,9 +201,9 @@ ${SPARK_HOME}/bin/spark-submit                                         \
   --conf spark.driver.extraJavaOptions="-Dlog4j.rootCategory=WARN,console" \
   --conf spark.sql.shuffle.partitions=32 \
   "${SPARK_HOME}/sql/core/target/spark-sql_${_SCALA_VERSION}-${_SPARK_VERSION}-tests.jar" \
-  --data-location ${_TPCDS_DATA}         \
+  --data-location ${TPCDS_DATA}         \
   --query-filter {{ params.QUERIES }}    \
-  > ${_TEMP_OUTPUT}
+  > ${_TEMP_OUTPUT} || exit -1
 
 # Appends the output results into a final output file
 cat ${_TEMP_OUTPUT} | tee -a ${TEMP_OUTPUT} | cat
@@ -206,31 +219,27 @@ query_groups = [
     "q81,q82,q83,q84,q85,q86,q87,q88,q89,q90,q91,q92,q93,q94,q95,q96,q97,q98,q99",
     "q5a-v2.7,q6-v2.7,q10a-v2.7,q11-v2.7,q12-v2.7,q14-v2.7,q14a-v2.7,q18a-v2.7,q20-v2.7,q22-v2.7,q22a-v2.7,q24-v2.7,q27a-v2.7,q34-v2.7,q35-v2.7,q35a-v2.7,q36a-v2.7",
     "q47-v2.7,q49-v2.7,q51a-v2.7,q57-v2.7,q64-v2.7,q67a-v2.7,q70a-v2.7,q72-v2.7",
-    "q74-v2.7,q75-v2.7,q77a-v2.7,q78-v2.7",
-    "q80a-v2.7,q86a-v2.7,q98-v2.7"
+    "q74-v2.7,q75-v2.7,q77a-v2.7,q78-v2.7,q80a-v2.7,q86a-v2.7,q98-v2.7"
 ]
 
 run_tpcds_tasks = []
-
-runtime_envs = {
-    'SPARK_HOME': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="github_clone") }}',
-    'TEMP_OUTPUT': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="create_temp_file") }}',
-    'TPCDS_DATA_PARAM': '{{ dag_run.conf["tpcds_data"] }}'
-}
-
-runtime_envs.update(envs)
 
 for index, query_group in enumerate(query_groups):
     run_tpcds_tasks.append(BashOperator(
         task_id='run_tpcds_group_%d' % index,
         bash_command=run_tpcds_commamd,
-        env=runtime_envs,
+        env={
+            'SPARK_HOME': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="github_clone") }}',
+            'TEMP_OUTPUT': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="create_temp_file") }}',
+            'TPCDS_DATA': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="tpcds_data") }}',
+            'JAVA_HOME': envs['JAVA_HOME']
+        },
         params={ 'QUERIES': query_group },
         dag=dag
     ))
 
 # Defines a workflow
-[create_temp_file, checkout_date >> github_clone >> build_package] >> run_tpcds_tasks[0]
+[create_temp_file, tpcds_data, [checkout_date, github_clone] >> build_package] >> run_tpcds_tasks[0]
 run_tpcds_tasks[-1] >> github_push
 
 chain(*run_tpcds_tasks)
