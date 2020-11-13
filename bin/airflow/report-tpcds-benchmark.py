@@ -19,23 +19,31 @@
 
 # A workflow script for running TPCDS benchmarks and pushing the results into GitHub
 # A configuration list is as follows when triggering a workflow:
-#  - tpcds_data:    Specify a path of generated TPCDS data (e.g., {"tpcds_data": "/home/ec2-user/tpcds-sf1-data"})
-#  - checkout_date: Specify a date to check out the Spark codebase via a GitHub command
+#
+#  - tpcds_data:    Specify a path of generated TPCDS data
+#                   (e.g., {"tpcds_data": "/home/ec2-user/tpcds-sf1-data"})
+#  - checkout_date: Specify a date to check out the Spark codebase via a git command
 #                   (e.g., {"checkout_date": "2020-11-10 00:00:00+00:00"})
+#  - checkout_pr:   Specify a GitHub PR number to check out the Spark codebase via git command
+#                   (e.g., {"checkout_pr": 30012})
+#  - to_email:      Specify an email address to send TPCDS benchmark results
+#                   (e.g., {"to_email": "airflow@example.com"})
+
+from datetime import timedelta
 
 from airflow.models import DAG
 from airflow.operators.bash_operator import BashOperator
-from airflow.operators.dummy_operator import DummyOperator
+from airflow.operators.email_operator import EmailOperator
+from airflow.operators.python_operator import BranchPythonOperator
 from airflow.utils.dates import days_ago
 from airflow.utils.helpers import chain
-
-from datetime import timedelta
 
 # Default configurations
 envs = {
     'JAVA_HOME': '/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.265.b01-1.amzn2.0.1.x86_64',
     'SPARK_TPCDS_DATAGEN_HOME': '/home/ec2-user/spark-tpcds-datagen',
-    'TPCDS_DATA': '/home/ec2-user/tpcds-sf20-data'
+    'TPCDS_DATA': '/home/ec2-user/tpcds-sf20-data',
+    'HTTPS_PROXY': '172.31.16.10:8080'
 }
 
 # Default parameters for base operators
@@ -65,7 +73,7 @@ default_args = {
 dag = DAG(
     dag_id='report-tpcds-benchmark',
     description='Spark TPC-DS Benchmark Results',
-    schedule_interval='2 16 * * *',
+    schedule_interval='2 15 * * *',
     start_date=days_ago(1),
     end_date=None,
     user_defined_macros=None,
@@ -80,19 +88,17 @@ dag = DAG(
     tags=['spark']
 )
 
-tpcds_data_command = """
-if [ -n "${TPCDS_DATA_PARAM}" ]; then
-  _TPCDS_DATA=${TPCDS_DATA_PARAM}
-else
-  _TPCDS_DATA=${TPCDS_DATA}
-fi
-
-echo ${_TPCDS_DATA}
-"""
-
 tpcds_data = BashOperator(
     task_id='tpcds_data',
-    bash_command=tpcds_data_command,
+    bash_command="""
+    if [ -n "${TPCDS_DATA_PARAM}" ]; then
+      _TPCDS_DATA=${TPCDS_DATA_PARAM}
+    else
+      _TPCDS_DATA=${TPCDS_DATA}
+    fi
+
+    echo ${_TPCDS_DATA}
+    """,
     env={
         'TPCDS_DATA_PARAM': '{{ dag_run.conf["tpcds_data"] }}',
         'TPCDS_DATA': envs['TPCDS_DATA']
@@ -101,84 +107,168 @@ tpcds_data = BashOperator(
     dag=dag
 )
 
-checkout_date_command = """
-# If `checkout_date` given, checks out a target snapshot
-if [ -n "${CHECKOUT_DATE_PARAM}" ]; then
-  _CHECKOUT_DATE=${CHECKOUT_DATE_PARAM}
-else
-  _CHECKOUT_DATE="{{ dag.start_date }}"
-fi
-
-echo ${_CHECKOUT_DATE}
-"""
-
 checkout_date = BashOperator(
     task_id='checkout_date',
-    bash_command=checkout_date_command,
+    bash_command="""
+    # If `checkout_date` given, checks out a target snapshot
+    if [ -n "${CHECKOUT_DATE_PARAM}" ]; then
+      _CHECKOUT_DATE=${CHECKOUT_DATE_PARAM}
+    else
+      _CHECKOUT_DATE="{{ dag.start_date }}"
+    fi
+
+    echo ${_CHECKOUT_DATE}
+    """,
     env={ 'CHECKOUT_DATE_PARAM': '{{ dag_run.conf["checkout_date"] }}' },
     xcom_push=True,
     dag=dag
 )
 
-github_clone_command = """
-_SPARK_HOME=`mktemp -d`
-git clone https://github.com/apache/spark ${_SPARK_HOME} || exit -1
-echo ${_SPARK_HOME}
-"""
-
-github_clone = BashOperator(
-    task_id='github_clone',
-    bash_command=github_clone_command,
+checkout_pr = BashOperator(
+    task_id='checkout_pr',
+    bash_command='echo ${CHECKOUT_PR_PARAM}',
+    env={ 'CHECKOUT_PR_PARAM': '{{ dag_run.conf["checkout_pr"] }}' },
     xcom_push=True,
     dag=dag
 )
 
-build_commamd = """
-_COMMIT_HASHV=`cd ${SPARK_HOME} && git rev-list -1 --before="${CHECKOUT_DATE}" master`
-echo "Checking out spark by date: ${CHECKOUT_DATE}(commit: ${_COMMIT_HASHV})" 1>&2
-cd ${SPARK_HOME} && git checkout ${_COMMIT_HASHV} && \
-  ./build/mvn package --also-make --projects assembly -DskipTests
-"""
+github_clone = BashOperator(
+    task_id='github_clone',
+    bash_command="""
+    _SPARK_HOME=`mktemp -d`
+    git clone https://github.com/apache/spark ${_SPARK_HOME} || exit -1
+    echo ${_SPARK_HOME}
+    """,
+    xcom_push=True,
+    dag=dag
+)
 
-build_package = BashOperator(
-    task_id='build_package',
-    bash_command=build_commamd,
+checkout = BashOperator(
+    task_id='checkout',
+    bash_command="""
+    if [ -n "${CHECKOUT_PR}" ]; then
+      echo "Checking out Spark by GitHub PR number: ${CHECKOUT_PR}" 1>&2
+      cd ${SPARK_HOME} && git fetch origin pull/${CHECKOUT_PR}/head:pr${CHECKOUT_PR} && \
+      git checkout pr${CHECKOUT_PR} &&                                                  \
+      git rebase master || exit -1
+    else
+      _COMMIT_HASHV=`git -C ${SPARK_HOME} rev-list -1 --before="${CHECKOUT_DATE}" master`
+      echo "Checking out Spark by date: ${CHECKOUT_DATE} (commit: ${_COMMIT_HASHV})" 1>&2
+      git -C ${SPARK_HOME} checkout ${_COMMIT_HASHV} || exit -1
+    fi
+    """,
     env={
         'SPARK_HOME': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="github_clone") }}',
         'CHECKOUT_DATE': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_date") }}',
-        'JAVA_HOME': envs['JAVA_HOME']
+        'CHECKOUT_PR': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_pr") }}',
+        'HTTPS_PROXY': envs['HTTPS_PROXY']
     },
     dag=dag
 )
 
 create_temp_file = BashOperator(
     task_id='create_temp_file',
-    bash_command="mktemp",
+    bash_command='mktemp',
     xcom_push=True,
     dag=dag
 )
 
-github_push_command = """
-# Formats the output results and appends them into the report file
-_FORMATTED_DATE=`LANG=en_US.UTF-8 date -d "${CHECKOUT_DATE}" '+%Y/%m/%d %H:%M'`
-_REPORT_FILE=${SPARK_TPCDS_DATAGEN_HOME}/reports/tpcds-avg-results.csv
-${SPARK_TPCDS_DATAGEN_HOME}/bin/format-results ${TEMP_OUTPUT} "${_FORMATTED_DATE}" >> ${_REPORT_FILE}
+build_package = BashOperator(
+    task_id='build_package',
+    bash_command="""
+    cd ${SPARK_HOME} && ./build/mvn package --also-make --projects assembly -DskipTests
+    """,
+    env={
+        'SPARK_HOME': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="github_clone") }}',
+        'JAVA_HOME': envs['JAVA_HOME']
+    },
+    dag=dag
+)
 
-# Pushs it into git repository
-cd ${SPARK_TPCDS_DATAGEN_HOME} && git add ${_REPORT_FILE} &&                               \
-  git commit -m "[AUTOMATICALLY GENERATED] Update TPCDS reports at ${_FORMATTED_DATE})" && \
-  git push origin master
-"""
-
-github_push = BashOperator(
-    task_id='github_push',
-    bash_command=github_push_command,
+format_results = BashOperator(
+    task_id='format_results',
+    bash_command="""
+    _FORMATTED_DATE=`LANG=en_US.UTF-8 date -d "${CHECKOUT_DATE}" '+%Y/%m/%d %H:%M'`
+    _FORMATTED_RESULTS=`mktemp`
+    ${SPARK_TPCDS_DATAGEN_HOME}/bin/format-results ${TEMP_OUTPUT} "${_FORMATTED_DATE}" > ${_FORMATTED_RESULTS}
+    cat ${TEMP_OUTPUT} # For logging
+    echo ${_FORMATTED_RESULTS}
+    """,
     env={
         'SPARK_HOME': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="github_clone") }}',
         'TEMP_OUTPUT': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="create_temp_file") }}',
         'CHECKOUT_DATE': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_date") }}',
         'SPARK_TPCDS_DATAGEN_HOME': envs['SPARK_TPCDS_DATAGEN_HOME']
     },
+    xcom_push=True,
+    dag=dag
+)
+
+def select_output_func(**context):
+    if context['dag_run'].conf is not None:
+        if 'to_email' in context['dag_run'].conf:
+            return 'copy_results_to_file'
+        if any(key in context['dag_run'].conf for key in ('checkout_date', 'checkout_pr')):
+            return 'dump_file'
+
+    return 'github_push'
+
+select_output = BranchPythonOperator(
+    task_id='select_output',
+    provide_context=True,
+    python_callable=select_output_func,
+    dag=dag
+)
+
+github_push = BashOperator(
+    task_id='github_push',
+    bash_command="""
+    # Pushs it into a GitHub repository
+    cd ${SPARK_TPCDS_DATAGEN_HOME} &&                                \
+      cat ${FORMATTED_RESULTS} >> ./reports/tpcds-avg-results.csv && \
+      git add ./reports/tpcds-avg-results.csv &&                     \
+      git commit -m "[AUTOMATICALLY GENERATED] Update TPCDS reports at ${CHECKOUT_DATE})" && \
+      git push origin master
+    """,
+    env={
+        'CHECKOUT_DATE': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_date") }}',
+        'FORMATTED_RESULTS': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="format_results") }}',
+        'SPARK_TPCDS_DATAGEN_HOME': envs['SPARK_TPCDS_DATAGEN_HOME']
+    },
+    dag=dag
+)
+
+copy_results_to_file = BashOperator(
+    task_id='copy_results_to_file',
+    bash_command="""
+    cat ${SPARK_TPCDS_DATAGEN_HOME}/reports/tpcds-results-header.txt ${FORMATTED_RESULTS} \
+      > /tmp/spark-tpcds-benchmark-report
+    """,
+    env={
+        'FORMATTED_RESULTS': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="format_results") }}',
+        'SPARK_TPCDS_DATAGEN_HOME': envs['SPARK_TPCDS_DATAGEN_HOME']
+    },
+    dag=dag
+)
+
+dump_file = BashOperator(
+    task_id='dump_file',
+    bash_command="""
+    cat ${SPARK_TPCDS_DATAGEN_HOME}/reports/tpcds-results-header.txt ${FORMATTED_RESULTS}
+    """,
+    env={
+        'FORMATTED_RESULTS': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="format_results") }}',
+        'SPARK_TPCDS_DATAGEN_HOME': envs['SPARK_TPCDS_DATAGEN_HOME']
+    },
+    dag=dag
+)
+
+send_email = EmailOperator(
+    task_id='send_email',
+    to='{{ dag_run.conf["to_email"] }}',
+    subject='Spark TPC-DS Benchmark Results: {{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_date") }}',
+    html_content='',
+    files=['/tmp/spark-tpcds-benchmark-report'],
     dag=dag
 )
 
@@ -198,7 +288,8 @@ ${SPARK_HOME}/bin/spark-submit                                         \
   --conf spark.master.rest.enabled=false \
   --conf spark.master=local[1]           \
   --conf spark.driver.memory=60g         \
-  --conf spark.driver.extraJavaOptions="-Dlog4j.rootCategory=WARN,console" \
+  --conf spark.driver.extraJavaOptions="-Dlog4j.rootCategory=WARN,console"   \
+  --conf spark.executor.extraJavaOptions="-Dlog4j.rootCategory=WARN,console" \
   --conf spark.sql.shuffle.partitions=32 \
   "${SPARK_HOME}/sql/core/target/spark-sql_${_SCALA_VERSION}-${_SPARK_VERSION}-tests.jar" \
   --data-location ${TPCDS_DATA}         \
@@ -209,7 +300,6 @@ ${SPARK_HOME}/bin/spark-submit                                         \
 cat ${_TEMP_OUTPUT} | tee -a ${TEMP_OUTPUT} | cat
 """
 
-# TODO: Needs to re-group queries to balance elapsed time
 query_groups = [
     "q1,q2,q3,q4,q5,q6,q7,q8,q9,q10",
     "q11,q12,q13,q14a,q14b,q15,q16,q17,q18,q19,q20",
@@ -218,7 +308,8 @@ query_groups = [
     "q71,q72,q73,q74,q75,q76,q77,q78,q79,q80",
     "q81,q82,q83,q84,q85,q86,q87,q88,q89,q90,q91,q92,q93,q94,q95,q96,q97,q98,q99",
     "q5a-v2.7,q6-v2.7,q10a-v2.7,q11-v2.7,q12-v2.7,q14-v2.7,q14a-v2.7,q18a-v2.7,q20-v2.7,q22-v2.7,q22a-v2.7,q24-v2.7,q27a-v2.7,q34-v2.7,q35-v2.7,q35a-v2.7,q36a-v2.7",
-    "q47-v2.7,q49-v2.7,q51a-v2.7,q57-v2.7,q64-v2.7,q67a-v2.7,q70a-v2.7,q72-v2.7",
+    "q47-v2.7,q49-v2.7,q51a-v2.7,q57-v2.7,q64-v2.7",
+    "q67a-v2.7,q70a-v2.7,q72-v2.7",
     "q74-v2.7,q75-v2.7,q77a-v2.7,q78-v2.7,q80a-v2.7,q86a-v2.7,q98-v2.7"
 ]
 
@@ -239,10 +330,14 @@ for index, query_group in enumerate(query_groups):
     ))
 
 # Defines a workflow
-[create_temp_file, tpcds_data, [checkout_date, github_clone] >> build_package] >> run_tpcds_tasks[0]
-run_tpcds_tasks[-1] >> github_push
-
+[[checkout_date, checkout_pr, github_clone] >> checkout] >> build_package
+[create_temp_file, tpcds_data, build_package] >> run_tpcds_tasks[0]
 chain(*run_tpcds_tasks)
+run_tpcds_tasks[-1] >> format_results >> select_output
+
+select_output >> github_push
+select_output >> copy_results_to_file >> send_email
+select_output >> dump_file
 
 if __name__ == "__main__":
     dag.cli()
