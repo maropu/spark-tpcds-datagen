@@ -91,18 +91,15 @@ dag = DAG(
 tpcds_data = BashOperator(
     task_id='tpcds_data',
     bash_command="""
-    if [ -n "${TPCDS_DATA_PARAM}" ]; then
-      _TPCDS_DATA=${TPCDS_DATA_PARAM}
+    if [ -n "{{ dag_run.conf["tpcds_data"] }}" ]; then
+      _TPCDS_DATA="{{ dag_run.conf["tpcds_data"] }}"
     else
       _TPCDS_DATA=${TPCDS_DATA}
     fi
 
     echo ${_TPCDS_DATA}
     """,
-    env={
-        'TPCDS_DATA_PARAM': '{{ dag_run.conf["tpcds_data"] }}',
-        'TPCDS_DATA': envs['TPCDS_DATA']
-    },
+    env={ 'TPCDS_DATA': envs['TPCDS_DATA'] },
     xcom_push=True,
     dag=dag
 )
@@ -111,15 +108,14 @@ checkout_date = BashOperator(
     task_id='checkout_date',
     bash_command="""
     # If `checkout_date` given, checks out a target snapshot
-    if [ -n "${CHECKOUT_DATE_PARAM}" ]; then
-      _CHECKOUT_DATE=${CHECKOUT_DATE_PARAM}
+    if [ -n "{{ dag_run.conf["checkout_date"] }}" ]; then
+      _CHECKOUT_DATE="{{ dag_run.conf["checkout_date"] }}"
     else
       _CHECKOUT_DATE="{{ dag.start_date }}"
     fi
 
     echo ${_CHECKOUT_DATE}
     """,
-    env={ 'CHECKOUT_DATE_PARAM': '{{ dag_run.conf["checkout_date"] }}' },
     xcom_push=True,
     dag=dag
 )
@@ -151,7 +147,7 @@ checkout = BashOperator(
       cd ${SPARK_HOME} && git fetch origin pull/${CHECKOUT_PR}/head:pr${CHECKOUT_PR} && \
       git checkout pr${CHECKOUT_PR} &&                                                  \
       git rebase master || exit -1
-    else
+    elif [ "{{ dag_run.external_trigger }}" = "True" ] && [ -n "{{ dag_run.conf["checkout_date"] }}" ]; then
       _COMMIT_HASHV=`git -C ${SPARK_HOME} rev-list -1 --before="${CHECKOUT_DATE}" master`
       echo "Checking out Spark by date: ${CHECKOUT_DATE} (commit: ${_COMMIT_HASHV})" 1>&2
       git -C ${SPARK_HOME} checkout ${_COMMIT_HASHV} || exit -1
@@ -205,10 +201,10 @@ format_results = BashOperator(
 )
 
 def select_output_func(**context):
-    if context['dag_run'].conf is not None:
+    if context['dag_run'].external_trigger and context['dag_run'].conf is not None:
         if 'to_email' in context['dag_run'].conf:
             return 'copy_results_to_file'
-        if any(key in context['dag_run'].conf for key in ('checkout_date', 'checkout_pr')):
+        else:
             return 'dump_file'
 
     return 'github_push'
@@ -280,6 +276,18 @@ _SPARK_VERSION=`grep "<version>" "${SPARK_HOME}/pom.xml" | head -n2 | tail -n1 |
 # Temporary output file for each query group
 _TEMP_OUTPUT=`mktemp`
 
+# Creates a propertye file for log4j if it does not exist
+_LOG4J_PROP_FILE=${SPARK_HOME}/conf/log4j.properties
+if [ ! -e ${_LOG4J_PROP_FILE} ]; then
+  cat << EOF > ${_LOG4J_PROP_FILE}
+log4j.rootCategory=INFO, console
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.target=System.err
+log4j.appender.console.layout=org.apache.log4j.PatternLayout
+log4j.appender.console.layout.ConversionPattern=%d{yy/MM/dd HH:mm:ss} %p %c{1}: %m%n
+EOF
+fi
+
 echo "Using \`spark-submit\` from path: $SPARK_HOME" 1>&2
 ${SPARK_HOME}/bin/spark-submit                                         \
   --class org.apache.spark.sql.execution.benchmark.TPCDSQueryBenchmark \
@@ -288,11 +296,11 @@ ${SPARK_HOME}/bin/spark-submit                                         \
   --conf spark.master.rest.enabled=false \
   --conf spark.master=local[1]           \
   --conf spark.driver.memory=60g         \
-  --conf spark.driver.extraJavaOptions="-Dlog4j.rootCategory=WARN,console"   \
-  --conf spark.executor.extraJavaOptions="-Dlog4j.rootCategory=WARN,console" \
   --conf spark.sql.shuffle.partitions=32 \
-  "${SPARK_HOME}/sql/core/target/spark-sql_${_SCALA_VERSION}-${_SPARK_VERSION}-tests.jar" \
-  --data-location ${TPCDS_DATA}         \
+  --conf spark.driver.extraJavaOptions="-Dlog4j.configuration=file://${_LOG4J_PROP_FILE}"   \
+  --conf spark.executor.extraJavaOptions="-Dlog4j.configuration=file://${_LOG4J_PROP_FILE}" \
+  "${SPARK_HOME}/sql/core/target/spark-sql_${_SCALA_VERSION}-${_SPARK_VERSION}-tests.jar"   \
+  --data-location ${TPCDS_DATA}          \
   --query-filter {{ params.QUERIES }}    \
   > ${_TEMP_OUTPUT} || exit -1
 
