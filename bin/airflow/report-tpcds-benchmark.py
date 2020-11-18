@@ -26,6 +26,7 @@
 #                   (e.g., {"checkout_date": "2020-11-10 00:00:00+00:00"})
 #  - checkout_pr:   Specify a GitHub PR number to check out the Spark codebase via git command
 #                   (e.g., {"checkout_pr": 30012})
+#  - queries:       Specify a query list to run  (e.g., {"queries": "q1,q2,q3"})
 #  - to_email:      Specify an email address to send TPCDS benchmark results
 #                   (e.g., {"to_email": "airflow@example.com"})
 
@@ -79,14 +80,17 @@ dag = DAG(
     user_defined_macros=None,
     default_args=default_args,
     params=None,
-    concurrency=1,
-    max_active_runs=1,
+    concurrency=8,     # Specifies how many running task instances a DAG is allowed to have
+    max_active_runs=1, # Specifies how many running concurrent instances of a DAG there are allowed to be.
     dagrun_timeout=None,
     default_view='graph',
     orientation='TB',
     catchup=False,
     tags=['spark']
 )
+
+def xcom_variable(name):
+    return '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="%s") }}' % name
 
 tpcds_data = BashOperator(
     task_id='tpcds_data',
@@ -100,6 +104,21 @@ tpcds_data = BashOperator(
     echo ${_TPCDS_DATA}
     """,
     env={ 'TPCDS_DATA': envs['TPCDS_DATA'] },
+    xcom_push=True,
+    dag=dag
+)
+
+selective_queries = BashOperator(
+    task_id='selective_queries',
+    bash_command="""
+    if [ -n "{{ dag_run.conf["queries"] }}" ]; then
+      _SELECTIVE_QUERIES="{{ dag_run.conf["queries"] }}"
+    else
+      _SELECTIVE_QUERIES=""
+    fi
+
+    echo ${_SELECTIVE_QUERIES}
+    """,
     xcom_push=True,
     dag=dag
 )
@@ -154,9 +173,9 @@ checkout = BashOperator(
     fi
     """,
     env={
-        'SPARK_HOME': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="github_clone") }}',
-        'CHECKOUT_DATE': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_date") }}',
-        'CHECKOUT_PR': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_pr") }}',
+        'SPARK_HOME': xcom_variable('github_clone'),
+        'CHECKOUT_DATE': xcom_variable('checkout_date'),
+        'CHECKOUT_PR': xcom_variable('checkout_pr'),
         'HTTPS_PROXY': envs['HTTPS_PROXY']
     },
     dag=dag
@@ -175,9 +194,23 @@ build_package = BashOperator(
     cd ${SPARK_HOME} && ./build/mvn package --also-make --projects assembly -DskipTests
     """,
     env={
-        'SPARK_HOME': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="github_clone") }}',
+        'SPARK_HOME': xcom_variable('github_clone'),
         'JAVA_HOME': envs['JAVA_HOME']
     },
+    dag=dag
+)
+
+def select_benchmark_type_func(**context):
+    has_run_conf = context['dag_run'].external_trigger and context['dag_run'].conf is not None 
+    if has_run_conf and 'queries' in context['dag_run'].conf:
+        return 'run_selective_tpcds_queries'
+    else:
+        return 'run_tpcds_group_0'
+
+select_benchmark_type= BranchPythonOperator(
+    task_id='select_benchmark_type',
+    provide_context=True,
+    python_callable=select_benchmark_type_func,
     dag=dag
 )
 
@@ -191,9 +224,9 @@ format_results = BashOperator(
     echo ${_FORMATTED_RESULTS}
     """,
     env={
-        'SPARK_HOME': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="github_clone") }}',
-        'TEMP_OUTPUT': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="create_temp_file") }}',
-        'CHECKOUT_DATE': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_date") }}',
+        'SPARK_HOME': xcom_variable('github_clone'),
+        'TEMP_OUTPUT': xcom_variable('create_temp_file'),
+        'CHECKOUT_DATE': xcom_variable('checkout_date'),
         'SPARK_TPCDS_DATAGEN_HOME': envs['SPARK_TPCDS_DATAGEN_HOME']
     },
     xcom_push=True,
@@ -201,13 +234,13 @@ format_results = BashOperator(
 )
 
 def select_output_func(**context):
-    if context['dag_run'].external_trigger and context['dag_run'].conf is not None:
-        if 'to_email' in context['dag_run'].conf:
-            return 'copy_results_to_file'
-        else:
-            return 'dump_file'
-
-    return 'github_push'
+    has_run_conf = context['dag_run'].external_trigger and context['dag_run'].conf is not None 
+    if has_run_conf and 'to_email' in context['dag_run'].conf:
+      return 'copy_results_to_file'
+    elif has_run_conf:
+      return 'dump_file'
+    else:
+      return 'github_push'
 
 select_output = BranchPythonOperator(
     task_id='select_output',
@@ -227,8 +260,8 @@ github_push = BashOperator(
       git push origin master
     """,
     env={
-        'CHECKOUT_DATE': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_date") }}',
-        'FORMATTED_RESULTS': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="format_results") }}',
+        'CHECKOUT_DATE': xcom_variable('checkout_date'),
+        'FORMATTED_RESULTS': xcom_variable('format_results'),
         'SPARK_TPCDS_DATAGEN_HOME': envs['SPARK_TPCDS_DATAGEN_HOME']
     },
     dag=dag
@@ -241,7 +274,7 @@ copy_results_to_file = BashOperator(
       > /tmp/spark-tpcds-benchmark-report
     """,
     env={
-        'FORMATTED_RESULTS': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="format_results") }}',
+        'FORMATTED_RESULTS': xcom_variable('format_results'),
         'SPARK_TPCDS_DATAGEN_HOME': envs['SPARK_TPCDS_DATAGEN_HOME']
     },
     dag=dag
@@ -253,7 +286,7 @@ dump_file = BashOperator(
     cat ${SPARK_TPCDS_DATAGEN_HOME}/reports/tpcds-results-header.txt ${FORMATTED_RESULTS}
     """,
     env={
-        'FORMATTED_RESULTS': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="format_results") }}',
+        'FORMATTED_RESULTS': xcom_variable('format_results'),
         'SPARK_TPCDS_DATAGEN_HOME': envs['SPARK_TPCDS_DATAGEN_HOME']
     },
     dag=dag
@@ -262,7 +295,7 @@ dump_file = BashOperator(
 send_email = EmailOperator(
     task_id='send_email',
     to='{{ dag_run.conf["to_email"] }}',
-    subject='Spark TPC-DS Benchmark Results: {{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="checkout_date") }}',
+    subject='Spark TPC-DS Benchmark Results: %s' % xcom_variable('checkout_date'),
     html_content='',
     files=['/tmp/spark-tpcds-benchmark-report'],
     dag=dag
@@ -301,7 +334,7 @@ ${SPARK_HOME}/bin/spark-submit                                         \
   --conf spark.executor.extraJavaOptions="-Dlog4j.configuration=file://${_LOG4J_PROP_FILE}" \
   "${SPARK_HOME}/sql/core/target/spark-sql_${_SCALA_VERSION}-${_SPARK_VERSION}-tests.jar"   \
   --data-location ${TPCDS_DATA}          \
-  --query-filter {{ params.QUERIES }}    \
+  --query-filter ${QUERIES}              \
   > ${_TEMP_OUTPUT} || exit -1
 
 # Appends the output results into a final output file
@@ -328,18 +361,33 @@ for index, query_group in enumerate(query_groups):
         task_id='run_tpcds_group_%d' % index,
         bash_command=run_tpcds_commamd,
         env={
-            'SPARK_HOME': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="github_clone") }}',
-            'TEMP_OUTPUT': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="create_temp_file") }}',
-            'TPCDS_DATA': '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="tpcds_data") }}',
+            'SPARK_HOME': xcom_variable('github_clone'),
+            'TEMP_OUTPUT': xcom_variable('create_temp_file'),
+            'TPCDS_DATA': xcom_variable('tpcds_data'),
+            'QUERIES': query_group,
             'JAVA_HOME': envs['JAVA_HOME']
         },
-        params={ 'QUERIES': query_group },
         dag=dag
     ))
 
+run_selective_tpcds_queries = BashOperator(
+    task_id='run_selective_tpcds_queries',
+    bash_command=run_tpcds_commamd,
+    env={
+        'SPARK_HOME': xcom_variable('github_clone'),
+        'TEMP_OUTPUT': xcom_variable('create_temp_file'),
+        'TPCDS_DATA': xcom_variable('tpcds_data'),
+        'QUERIES': xcom_variable('selective_queries'),
+        'JAVA_HOME': envs['JAVA_HOME']
+    },
+    dag=dag
+)
+
 # Defines a workflow
 [[checkout_date, checkout_pr, github_clone] >> checkout] >> build_package
-[create_temp_file, tpcds_data, build_package] >> run_tpcds_tasks[0]
+[create_temp_file, tpcds_data, selective_queries, build_package] >> select_benchmark_type
+select_benchmark_type >> [run_tpcds_tasks[0], run_selective_tpcds_queries]
+
 chain(*run_tpcds_tasks)
 run_tpcds_tasks[-1] >> format_results >> select_output
 
