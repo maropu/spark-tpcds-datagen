@@ -164,8 +164,12 @@ checkout = BashOperator(
     if [ -n "${CHECKOUT_PR}" ]; then
       echo "Checking out Spark by GitHub PR number: ${CHECKOUT_PR}" 1>&2
       cd ${SPARK_HOME} && git fetch origin pull/${CHECKOUT_PR}/head:pr${CHECKOUT_PR} && \
-      git checkout pr${CHECKOUT_PR} &&                                                  \
-      git rebase master || exit -1
+        git checkout pr${CHECKOUT_PR} || exit -1
+
+      if [ ! -n "{{ dag_run.conf["skip_github_rebase"] }}" ]; then
+        echo "Rebasing pr${CHECKOUT_PR} on master" 1>&2
+        git rebase master || exit -1
+      fi
     elif [ "{{ dag_run.external_trigger }}" = "True" ] && [ -n "{{ dag_run.conf["checkout_date"] }}" ]; then
       _COMMIT_HASHV=`git -C ${SPARK_HOME} rev-list -1 --before="${CHECKOUT_DATE}" master`
       echo "Checking out Spark by date: ${CHECKOUT_DATE} (commit: ${_COMMIT_HASHV})" 1>&2
@@ -383,13 +387,20 @@ run_selective_tpcds_queries = BashOperator(
     dag=dag
 )
 
+cleanup = BashOperator(
+    task_id='cleanup',
+    bash_command="rm -rf ${SPARK_HOME}",
+    env={ 'SPARK_HOME': xcom_variable('github_clone') },
+    dag=dag
+)
+
 # Defines a workflow
 [[checkout_date, checkout_pr, github_clone] >> checkout] >> build_package
 [create_temp_file, tpcds_data, selective_queries, build_package] >> select_benchmark_type
 select_benchmark_type >> [run_tpcds_tasks[0], run_selective_tpcds_queries]
 
 chain(*run_tpcds_tasks)
-run_tpcds_tasks[-1] >> format_results >> select_output
+run_tpcds_tasks[-1] >> format_results >> cleanup >> select_output
 
 select_output >> github_push
 select_output >> copy_results_to_file >> send_email
