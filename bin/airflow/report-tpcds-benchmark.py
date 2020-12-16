@@ -317,7 +317,7 @@ _TEMP_OUTPUT=`mktemp`
 _LOG4J_PROP_FILE=${SPARK_HOME}/conf/log4j.properties
 if [ ! -e ${_LOG4J_PROP_FILE} ]; then
   cat << EOF > ${_LOG4J_PROP_FILE}
-log4j.rootCategory=INFO, console
+log4j.rootCategory=WARN, console
 log4j.appender.console=org.apache.log4j.ConsoleAppender
 log4j.appender.console.target=System.err
 log4j.appender.console.layout=org.apache.log4j.PatternLayout
