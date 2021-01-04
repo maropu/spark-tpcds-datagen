@@ -27,6 +27,7 @@
 #  - checkout_pr:   Specify a GitHub PR number to check out the Spark codebase via git command
 #                   (e.g., {"checkout_pr": 30012})
 #  - queries:       Specify a query list to run  (e.g., {"queries": "q1,q2,q3"})
+#  - cbo:           Specify whether CBO enabled (e.g., {"cbo": 1})
 #  - to_email:      Specify an email address to send TPCDS benchmark results
 #                   (e.g., {"to_email": "airflow@example.com"})
 
@@ -118,6 +119,21 @@ selective_queries = BashOperator(
     fi
 
     echo ${_SELECTIVE_QUERIES}
+    """,
+    xcom_push=True,
+    dag=dag
+)
+
+cbo_enabled = BashOperator(
+    task_id='cbo_enabled',
+    bash_command="""
+    if [ -n "{{ dag_run.conf["cbo"] }}" ]; then
+      _CBO_ENABLED="--cbo"
+    else
+      _CBO_ENABLED=""
+    fi
+
+    echo ${_CBO_ENABLED}
     """,
     xcom_push=True,
     dag=dag
@@ -334,11 +350,14 @@ ${SPARK_HOME}/bin/spark-submit                                         \
   --conf spark.master=local[1]           \
   --conf spark.driver.memory=60g         \
   --conf spark.sql.shuffle.partitions=32 \
+  --conf spark.network.timeout=3600s     \
+  --conf spark.sql.adaptive.enabled=true \
   --conf spark.driver.extraJavaOptions="-Dlog4j.configuration=file://${_LOG4J_PROP_FILE}"   \
   --conf spark.executor.extraJavaOptions="-Dlog4j.configuration=file://${_LOG4J_PROP_FILE}" \
   "${SPARK_HOME}/sql/core/target/spark-sql_${_SCALA_VERSION}-${_SPARK_VERSION}-tests.jar"   \
   --data-location ${TPCDS_DATA}          \
   --query-filter ${QUERIES}              \
+  ${CBO_ENABLED}                         \
   > ${_TEMP_OUTPUT} || exit -1
 
 # Appends the output results into a final output file
@@ -369,6 +388,7 @@ for index, query_group in enumerate(query_groups):
             'TEMP_OUTPUT': xcom_variable('create_temp_file'),
             'TPCDS_DATA': xcom_variable('tpcds_data'),
             'QUERIES': query_group,
+            'CBO_ENABLED': xcom_variable('cbo_enabled'),
             'JAVA_HOME': envs['JAVA_HOME']
         },
         dag=dag
@@ -382,6 +402,7 @@ run_selective_tpcds_queries = BashOperator(
         'TEMP_OUTPUT': xcom_variable('create_temp_file'),
         'TPCDS_DATA': xcom_variable('tpcds_data'),
         'QUERIES': xcom_variable('selective_queries'),
+        'CBO_ENABLED': xcom_variable('cbo_enabled'),
         'JAVA_HOME': envs['JAVA_HOME']
     },
     dag=dag
@@ -396,7 +417,7 @@ cleanup = BashOperator(
 
 # Defines a workflow
 [[checkout_date, checkout_pr, github_clone] >> checkout] >> build_package
-[create_temp_file, tpcds_data, selective_queries, build_package] >> select_benchmark_type
+[create_temp_file, tpcds_data, selective_queries, cbo_enabled, build_package] >> select_benchmark_type
 select_benchmark_type >> [run_tpcds_tasks[0], run_selective_tpcds_queries]
 
 chain(*run_tpcds_tasks)
