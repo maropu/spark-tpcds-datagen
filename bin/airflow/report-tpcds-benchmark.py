@@ -40,6 +40,8 @@ from airflow.operators.python_operator import BranchPythonOperator
 from airflow.utils.dates import days_ago
 from airflow.utils.helpers import chain
 
+dag_id = 'report-tpcds-benchmark'
+
 # Default configurations
 envs = {
     'JAVA_HOME': '/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.265.b01-1.amzn2.0.1.x86_64',
@@ -65,7 +67,7 @@ default_args = {
     # 'weight_rule': 'downstream'
     # 'queue': 'bash_queue',
     # 'pool': 'backfill',
-    # 'execution_timeout': timedelta(hours=2),
+    # 'execution_timeout': timedelta(hours=4),
     # 'trigger_rule': 'all_success',
     'run_as_user': 'ec2-user'
 }
@@ -73,7 +75,7 @@ default_args = {
 # Default parameters for DAG
 # See: https://airflow.apache.org/docs/stable/_api/airflow/models/dag/index.html#airflow.models.dag.DAG
 dag = DAG(
-    dag_id='report-tpcds-benchmark',
+    dag_id=dag_id,
     description='Spark TPC-DS Benchmark Results',
     schedule_interval='2 15 * * *',
     start_date=days_ago(1),
@@ -91,7 +93,7 @@ dag = DAG(
 )
 
 def xcom_variable(name):
-    return '{{ ti.xcom_pull(dag_id="report-tpcds-benchmark", task_ids="%s") }}' % name
+    return '{{ ti.xcom_pull(dag_id="%s", task_ids="%s") }}' % (dag_id, name)
 
 tpcds_data = BashOperator(
     task_id='tpcds_data',
@@ -341,15 +343,16 @@ log4j.appender.console.layout.ConversionPattern=%d{yy/MM/dd HH:mm:ss} %p %c{1}: 
 EOF
 fi
 
+# NOTE: Parameters below are set in TPCDSQueryBenchmark
+#   - spark.master=local[1]
+#   - spark.driver.memory=3g
+#   - spark.sql.shuffle.partitions=4
 echo "Using \`spark-submit\` from path: $SPARK_HOME" 1>&2
 ${SPARK_HOME}/bin/spark-submit                                         \
   --class org.apache.spark.sql.execution.benchmark.TPCDSQueryBenchmark \
   --jars "${SPARK_HOME}/core/target/spark-core_${_SCALA_VERSION}-${_SPARK_VERSION}-tests.jar,${SPARK_HOME}/sql/catalyst/target/spark-catalyst_${_SCALA_VERSION}-${_SPARK_VERSION}-tests.jar" \
   --conf spark.ui.enabled=false          \
   --conf spark.master.rest.enabled=false \
-  --conf spark.master=local[1]           \
-  --conf spark.driver.memory=60g         \
-  --conf spark.sql.shuffle.partitions=32 \
   --conf spark.network.timeout=3600s     \
   --conf spark.sql.adaptive.enabled=true \
   --conf spark.driver.extraJavaOptions="-Dlog4j.configuration=file://${_LOG4J_PROP_FILE}"   \
@@ -364,13 +367,16 @@ ${SPARK_HOME}/bin/spark-submit                                         \
 cat ${_TEMP_OUTPUT} | tee -a ${TEMP_OUTPUT} | cat
 """
 
+# Manually grouped TPCDS queries so that all the groups can have similar running time
 query_groups = [
     "q1,q2,q3,q4,q5,q6,q7,q8,q9,q10",
     "q11,q12,q13,q14a,q14b,q15,q16,q17,q18,q19,q20",
     "q21,q22,q23a,q23b,q24a,q24b,q25,q26,q27,q28,q29,q30",
     "q31,q32,q33,q34,q35,q36,q37,q38,q39a,q39b,q40,q41,q42,q43,q44,q45,q46,q47,q48,q49,q50,q51,q52,q53,q54,q55,q56,q57,q58,q59,q60,q61,q62,q63,q64,q65,q66,q67,q68,q69,q70",
     "q71,q72,q73,q74,q75,q76,q77,q78,q79,q80",
-    "q81,q82,q83,q84,q85,q86,q87,q88,q89,q90,q91,q92,q93,q94,q95,q96,q97,q98,q99",
+    "q81,q82,q83,q84,q85,q86,q87,q88",
+    "q89,q90,q91,q92,q93,q94",
+    "q95,q96,q97,q98,q99",
     "q5a-v2.7,q6-v2.7,q10a-v2.7,q11-v2.7,q12-v2.7,q14-v2.7,q14a-v2.7,q18a-v2.7,q20-v2.7,q22-v2.7,q22a-v2.7,q24-v2.7,q27a-v2.7,q34-v2.7,q35-v2.7,q35a-v2.7,q36a-v2.7",
     "q47-v2.7,q49-v2.7,q51a-v2.7,q57-v2.7,q64-v2.7",
     "q67a-v2.7,q70a-v2.7,q72-v2.7",
