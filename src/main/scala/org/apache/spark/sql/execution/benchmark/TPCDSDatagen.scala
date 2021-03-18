@@ -714,5 +714,6 @@ object TPCDSDatagen {
       datagenArgs.filterOutNullPartitionValues,
       datagenArgs.tableFilter,
       datagenArgs.numPartitions.toInt)
+    spark.stop()
   }
 }
