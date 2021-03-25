@@ -28,6 +28,7 @@ class TPCDSDatagenArguments(val args: Array[String]) {
   var overwrite = false
   var partitionTables = false
   var useDoubleForDecimal = false
+  var useStringForChar = false
   var clusterByPartitionColumns = false
   var filterOutNullPartitionValues = false
   var tableFilter: Set[String] = Set.empty
@@ -63,6 +64,10 @@ class TPCDSDatagenArguments(val args: Array[String]) {
 
         case ("--use-double-for-decimal") :: tail =>
           useDoubleForDecimal = true
+          args = tail
+
+        case ("--use-string-for-char") :: tail =>
+          useStringForChar = true
           args = tail
 
         case ("--cluster-by-partition-columns") :: tail =>
@@ -103,7 +108,8 @@ class TPCDSDatagenArguments(val args: Array[String]) {
       |  --format [STR]                         Output format (default: parquet)
       |  --overwrite                            Whether it overwrites existing data (default: false)
       |  --partition-tables                     Whether it partitions output data (default: false)
-      |  --use-double-for-decimal               Whether it prefers double types (default: false)
+      |  --use-double-for-decimal               Whether it prefers double types instead of decimal types (default: false)
+      |  --use-string-for-char                  Whether it prefers string types instead of char/varchar types (default: false)
       |  --cluster-by-partition-columns         Whether it cluster output data by partition columns (default: false)
       |  --filter-out-null-partition-values     Whether it filters out NULL partitions (default: false)
       |  --table-filter [STR]                   Queries to filter, e.g., catalog_sales,store_sales

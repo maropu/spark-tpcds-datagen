@@ -24,7 +24,7 @@ import org.apache.spark.sql.test.SharedSparkSession
 
 class TPCDSDatagenSuite extends SparkFunSuite with SharedSparkSession {
 
-  ignore("datagen") {
+  test("datagen") {
     val outputTempDir = Utils.createTempDir()
     val tpcdsTables = new Tables(spark.sqlContext, 1)
     tpcdsTables.genData(
@@ -33,6 +33,7 @@ class TPCDSDatagenSuite extends SparkFunSuite with SharedSparkSession {
       overwrite = false,
       partitionTables = false,
       useDoubleForDecimal = false,
+      useStringForChar = false,
       clusterByPartitionColumns = false,
       filterOutNullPartitionValues = false,
       tableFilter = Set.empty,
@@ -56,4 +57,6 @@ class TPCDSDatagenSuite extends SparkFunSuite with SharedSparkSession {
       assert(f.size === 1)
     }
   }
+
+  // TODO: Adds tests to check the schemas of generated tables
 }

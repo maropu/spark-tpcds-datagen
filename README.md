@@ -5,7 +5,7 @@ and includes pre-built [tpcds-kit](https://github.com/davies/tpcds-kit) for Mac/
 To check TPCDS performance regression, the benchmark results (sf=20) for the current Spark master
 is daily tracked in the Google Spreadsheet ([performance charts](https://docs.google.com/spreadsheets/d/1V8xoKR9ElU-rOXMH84gb5BbLEw0XAPTJY8c8aZeIqus/edit?usp=sharing)).
 
-Note that the current `master` branch intends to support [3.0.1](https://www.apache.org/dyn/closer.lua/spark/spark-3.0.1) on Scala 2.12.x. If you want to generate TPCDS data in Spark 2.4.x, please use [branch-2.4](https://github.com/maropu/spark-tpcds-datagen/tree/branch-2.4).
+Note that the current `master` branch intends to support [3.1.1](https://www.apache.org/dyn/closer.lua/spark/spark-3.1.1) on Scala 2.12.x. If you want to generate TPCDS data in Spark 3.0.x, please use [branch-3.0](https://github.com/maropu/spark-tpcds-datagen/tree/branch-3.0).
 
 ## How to generate TPCDS data
 
@@ -38,7 +38,8 @@ If you run TPCDS quries on the master branch of Spark, you say a sequence of com
       --format [STR]                         Output format (default: parquet)
       --overwrite                            Whether it overwrites existing data (default: false)
       --partition-tables                     Whether it partitions output data (default: false)
-      --use-double-for-decimal               Whether it prefers double types (default: false)
+      --use-double-for-decimal               Whether it prefers double types instead of decimal types (default: false)
+      --use-string-for-char                  Whether it prefers string types instead of char/varchar types (default: false)
       --cluster-by-partition-columns         Whether it cluster output data by partition columns (default: false)
       --filter-out-null-partition-values     Whether it filters out NULL partitions (default: false)
       --table-filter [STR]                   Queries to filter, e.g., catalog_sales,store_sales
