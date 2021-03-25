@@ -5,7 +5,7 @@ and includes pre-built [tpcds-kit](https://github.com/davies/tpcds-kit) for Mac/
 To check TPCDS performance regression, the benchmark results (sf=20) for the current Spark master
 is daily tracked in the Google Spreadsheet ([performance charts](https://docs.google.com/spreadsheets/d/1V8xoKR9ElU-rOXMH84gb5BbLEw0XAPTJY8c8aZeIqus/edit?usp=sharing)).
 
-Note that the current `master` branch intends to support [3.1.1](https://www.apache.org/dyn/closer.lua/spark/spark-3.1.1) on Scala 2.12.x. If you want to generate TPCDS data in Spark 3.0.x, please use [branch-3.0](https://github.com/maropu/spark-tpcds-datagen/tree/branch-3.0).
+Note that the current `master` branch intends to support [3.1.1](https://downloads.apache.org/spark/spark-3.1.1) on Scala 2.12.x. If you want to generate TPCDS data in Spark 3.0.x, please use [branch-3.0](https://github.com/maropu/spark-tpcds-datagen/tree/branch-3.0).
 
 ## How to generate TPCDS data
 
