@@ -244,6 +244,30 @@ class Tables(sqlContext: SQLContext, scaleFactor: Int) extends Serializable {
     }
   }
 
+  /**
+   * Table data for TPC-DS related tests.
+   *
+   * Datatype mapping for TPC-DS and Spark SQL, fully matching schemas defined in `tpcds.sql` of the
+   * official tpcds toolkit
+   * see more at:
+   *   http://www.tpc.org/tpc_documents_current_versions/pdf/tpc-ds_v2.9.0.pdf
+   *
+   *    |---------------|---------------|
+   *    |    TPC-DS     |  Spark  SQL   |
+   *    |---------------|---------------|
+   *    |  Identifier   |      INT      |
+   *    |---------------|---------------|
+   *    |    Integer    |      INT      |
+   *    |---------------|---------------|
+   *    | Decimal(d, f) | Decimal(d, f) |
+   *    |---------------|---------------|
+   *    |    Char(N)    |    Char(N)    |
+   *    |---------------|---------------|
+   *    |  Varchar(N)   |  Varchar(N)   |
+   *    |---------------|---------------|
+   *    |     Date      |     Date      |
+   *    |---------------|---------------|
+   */
   private val tables = Seq(
     Table("catalog_sales",
       partitionColumns = "cs_sold_date_sk" :: Nil,
@@ -351,16 +375,16 @@ class Tables(sqlContext: SQLContext, scaleFactor: Int) extends Serializable {
     Table("store_returns",
       partitionColumns = "sr_returned_date_sk" ::Nil,
       """
-        |`sr_returned_date_sk` BIGINT,
-        |`sr_return_time_sk` BIGINT,
-        |`sr_item_sk` BIGINT,
-        |`sr_customer_sk` BIGINT,
-        |`sr_cdemo_sk` BIGINT,
-        |`sr_hdemo_sk` BIGINT,
-        |`sr_addr_sk` BIGINT,
-        |`sr_store_sk` BIGINT,
-        |`sr_reason_sk` BIGINT,
-        |`sr_ticket_number` BIGINT,
+        |`sr_returned_date_sk` INT,
+        |`sr_return_time_sk` INT,
+        |`sr_item_sk` INT,
+        |`sr_customer_sk` INT,
+        |`sr_cdemo_sk` INT,
+        |`sr_hdemo_sk` INT,
+        |`sr_addr_sk` INT,
+        |`sr_store_sk` INT,
+        |`sr_reason_sk` INT,
+        |`sr_ticket_number` INT,
         |`sr_return_quantity` INT,
         |`sr_return_amt` DECIMAL(7,2),
         |`sr_return_tax` DECIMAL(7,2),
@@ -413,20 +437,20 @@ class Tables(sqlContext: SQLContext, scaleFactor: Int) extends Serializable {
     Table("web_returns",
       partitionColumns = "wr_returned_date_sk" ::Nil,
       """
-        |`wr_returned_date_sk` BIGINT,
-        |`wr_returned_time_sk` BIGINT,
-        |`wr_item_sk` BIGINT,
-        |`wr_refunded_customer_sk` BIGINT,
-        |`wr_refunded_cdemo_sk` BIGINT,
-        |`wr_refunded_hdemo_sk` BIGINT,
-        |`wr_refunded_addr_sk` BIGINT,
-        |`wr_returning_customer_sk` BIGINT,
-        |`wr_returning_cdemo_sk` BIGINT,
-        |`wr_returning_hdemo_sk` BIGINT,
-        |`wr_returning_addr_sk` BIGINT,
-        |`wr_web_page_sk` BIGINT,
-        |`wr_reason_sk` BIGINT,
-        |`wr_order_number` BIGINT,
+        |`wr_returned_date_sk` INT,
+        |`wr_returned_time_sk` INT,
+        |`wr_item_sk` INT,
+        |`wr_refunded_customer_sk` INT,
+        |`wr_refunded_cdemo_sk` INT,
+        |`wr_refunded_hdemo_sk` INT,
+        |`wr_refunded_addr_sk` INT,
+        |`wr_returning_customer_sk` INT,
+        |`wr_returning_cdemo_sk` INT,
+        |`wr_returning_hdemo_sk` INT,
+        |`wr_returning_addr_sk` INT,
+        |`wr_web_page_sk` INT,
+        |`wr_reason_sk` INT,
+        |`wr_order_number` INT,
         |`wr_return_quantity` INT,
         |`wr_return_amt` DECIMAL(7,2),
         |`wr_return_tax` DECIMAL(7,2),
