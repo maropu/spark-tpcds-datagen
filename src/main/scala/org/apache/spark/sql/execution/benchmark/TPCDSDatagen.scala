@@ -93,7 +93,7 @@ class Tables(sqlContext: SQLContext, scaleFactor: Int) extends Serializable {
           val columns = schema.fields.map { f =>
             val expr = f.dataType match {
               // TODO: In branch-3.1, we need right-side padding for char types
-              case CharType(n) => rpad(Column(f.name), n, " ")
+//              case CharType(n) => rpad(Column(f.name), n, " ") // NOTICE: Removed this as it made for the data to be with padding.
               case _ => Column(f.name).cast(f.dataType)
             }
             expr.as(f.name)
