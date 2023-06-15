@@ -40,7 +40,7 @@
     <spark.version>3.1.1</spark.version>
     <hadoop.version>3.2.0</hadoop.version>
     <hadoop.binary.version>3.2</hadoop.binary.version>
-    <snappy-java.version>1.1.8.2</snappy-java.version>
+    <snappy-java.version>1.1.10.1</snappy-java.version>
 
     <test.java.home>${java.home}</test.java.home>
     <test.exclude.tags></test.exclude.tags>
